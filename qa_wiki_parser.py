@@ -30,7 +30,7 @@ class qa_object:
 	def get_qa_string(self):
 		if len(self.correct_sents) == 0 or len(self.wrong_sents) == 0:
 			return ''
-		output = self.question + ' ' + str(len(self.correct_sents)) +  ', ' + str(len(self.wrong_sents))
+		output = self.question + ',' + self.answer + ',' + str(len(self.correct_sents)) +  ',' + str(len(self.wrong_sents))
 		# Only print first correct sentence
 		for s in self.correct_sents:
 			output += '\n' + s
