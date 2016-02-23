@@ -3,9 +3,18 @@ import json
 
 import sys
 
+import re
+
+
+def delete_markup(text):
+    pattern = re.compile(r'<[^>]*>')
+    sub = pattern.sub('', text)
+    return sub
+
 
 def filter_for_qa(json_obj):
-    return {key: json_obj[key] for key in json_obj
+    return {key: delete_markup(json_obj[key])
+            for key in json_obj
             if key in ('question', 'answer')}
 
 
