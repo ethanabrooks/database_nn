@@ -3,6 +3,7 @@ from __future__ import print_function
 import xml.sax
 import mwparserfromhell
 import sys
+import io
 from spacy.en import English
 from wiki_nlp_util import *
 
@@ -168,7 +169,7 @@ if __name__ == '__main__':
 
     pairs = handler.entity_pairs
 
-    output = open(output_filename, 'a')
+    output = io.open(output_filename, 'w', encoding='utf-8')
 
     for entity in pairs:
         entity_string = pairs[entity].get_qa_string()
