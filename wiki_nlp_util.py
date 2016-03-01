@@ -18,11 +18,11 @@ def filter_sentences(doc, word):
 def fetch_random_sentences(doc, omit_word, num_to_retrieve):
 	invalid_sents = []
 	key_word_lower = omit_word.lower()
-	len = 0
+	l = 0
 	arr = []
 	for s in doc.sents:
-		arr.append(len)
-		len += 1
+		arr.append(l)
+		l += 1
 	if (num_to_retrieve < len(arr)):
 		random.shuffle(arr)
 		arr = arr[0:num_to_retrieve]
