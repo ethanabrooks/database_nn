@@ -30,18 +30,23 @@ class qa_object:
             ' \n Entity: ' + self.entity
         )
 
+    # no line breaks
+    def get_clean_sentence(self, s):
+        return s.replace('\n', ' ').replace('\r', '')
+
     def get_qa_string(self):
         if len(self.correct_sents) == 0 or len(self.wrong_sents) == 0:
             return ''
-        output = self.question + ',' + self.answer + ',' + str(len(self.correct_sents)) + ',' + str(
-            len(self.wrong_sents))
+        output = self.question
+        output += '\n' + self.answer
         # Only print first correct sentence
         for s in self.correct_sents:
-            output += '\n' + s
+            output += '\n' + self.get_clean_sentence(s)
             break
+        output += '\n' + str(len(self.wrong_sents))
         index = 1
         for s in self.wrong_sents:
-            output += '\n' + str(index) + '. ' + s
+            output += '\n' + self.get_clean_sentence(s)
             index += 1
         return output
 
@@ -55,8 +60,7 @@ def read_question_answer_pair(filename, nlp_parser):
     d = {}
     for line in lines:
         l = line.split('|')
-	parsed_string = nlp_parser(unicode(l[0]))
-        entities = get_ents_from_string(parsed_string)
+        entities = get_ents_from_string(nlp_parser(unicode(l[0])))
         for entity in entities:
             # does not account for the fact that the same entity can appear in different questions!
             # Also entities are indexed by their lowercase forms (not case sensitive)
@@ -167,7 +171,8 @@ if __name__ == '__main__':
     output = open(output_filename, 'a')
 
     for entity in pairs:
-        output.write(pairs[entity].get_qa_string() + '\n')
-
+        entity_string = pairs[entity].get_qa_string()
+        if entity_string != '':
+            output.write(pairs[entity].get_qa_string() + '\n')
     print("all done")
     source.close()

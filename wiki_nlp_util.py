@@ -18,9 +18,20 @@ def filter_sentences(doc, word):
 def fetch_random_sentences(doc, omit_word, num_to_retrieve):
 	invalid_sents = []
 	key_word_lower = omit_word.lower()
+	len = 0
+	arr = []
 	for s in doc.sents:
-		if (not (key_word_lower in s.text.lower())) and (random.uniform(0, 1) > 0.8):
+		arr.append(len)
+		len += 1
+	if (num_to_retrieve < len(arr)):
+		random.shuffle(arr)
+		arr = arr[0:num_to_retrieve]
+
+	counter = 0
+	for s in doc.sents:
+		if (not (key_word_lower in s.text.lower())) and (counter in arr):
 			invalid_sents.append(s.text.rstrip())
+		counter += 1
 		if len(invalid_sents) >= num_to_retrieve:
 			break
 	return invalid_sents
