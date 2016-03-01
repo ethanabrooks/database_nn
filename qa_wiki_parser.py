@@ -55,7 +55,8 @@ def read_question_answer_pair(filename, nlp_parser):
     d = {}
     for line in lines:
         l = line.split('|')
-        entities = get_ents_from_string(nlp_parser(l[0]))
+	parsed_string = nlp_parser(unicode(l[0]))
+        entities = get_ents_from_string(parsed_string)
         for entity in entities:
             # does not account for the fact that the same entity can appear in different questions!
             # Also entities are indexed by their lowercase forms (not case sensitive)
