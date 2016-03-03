@@ -10,8 +10,12 @@ def filter_sentences(doc, word):
 	key_word_lower = word.lower()
 	valid_sents = []
 	for s in doc.sents:
-		if key_word_lower in s.text.lower():
-			valid_sents.append(s.text.rstrip())
+		try:
+			if key_word_lower in s.text.lower():
+				valid_sents.append(s.text.rstrip())
+		except:
+			print('error in filter sentences: ' + word)
+			return [] 
 	return valid_sents
 
 # Fetch random sentences without keyword
