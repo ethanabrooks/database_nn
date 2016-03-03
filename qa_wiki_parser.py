@@ -106,7 +106,9 @@ class WikiContentHandler(xml.sax.ContentHandler):
         qa_object = self.entity_pairs[self.current_entity]
 
         correct_sents = filter_sentences(parsed_wiki_text, qa_object.answer)
-        incorrect_sents = fetch_random_sentences(parsed_wiki_text, qa_object.answer, 15)
+        incorrect_sents = []
+        if correct_sents != []:
+            incorrect_sents = fetch_random_sentences(parsed_wiki_text, qa_object.answer, 15)
         qa_object.store_correct_sents(correct_sents)
         qa_object.store_wrong_sents(incorrect_sents)
 
