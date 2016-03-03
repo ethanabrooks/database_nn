@@ -60,8 +60,9 @@ def read_question_answer_pair(filename, nlp_parser):
         lines = f.read().splitlines()
     d = {}
     for line in lines:
-        l = line.split('|')
-        entities = get_ents_from_string(nlp_parser(unicode(l[0])))
+        decoded_line = line.decode('utf-8').strip()
+        l = decoded_line.split('|')
+        entities = get_ents_from_string(nlp_parser(l[0]))
         for entity in entities:
             # does not account for the fact that the same entity can appear in different questions!
             # Also entities are indexed by their lowercase forms (not case sensitive)
@@ -158,10 +159,6 @@ if __name__ == '__main__':
 
     nlp_parser = English()
     d = read_question_answer_pair(input_filename, nlp_parser)
-
-    print('Entities found: \n')
-    for x in d:
-        print(x)
 
     source = open(xml_sourcename)
     handler = WikiContentHandler(nlp_parser, d)
