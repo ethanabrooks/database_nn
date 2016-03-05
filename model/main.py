@@ -37,8 +37,8 @@ if __name__ == '__main__':
     if not os.path.exists(folder): os.mkdir(folder)
 
     # load the dataset
-    if s.dataset == 'Jeopardy':
-        root_dir = "../database_nn/"
+    if s.dataset == 'jeopardy':
+        root_dir = "../data/"
         new_question = True
         train, test, valid = (([], []) for _ in range(3))
         lex, y, sentences = ([] for _ in range(3))
