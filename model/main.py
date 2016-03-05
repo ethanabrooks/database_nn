@@ -76,10 +76,11 @@ if __name__ == '__main__':
             lex.append(to_lex)
             y.append(to_y)
 
-
+        num_questions = 0
         with open(root_dir + "nn_output") as inputs:
             for line in inputs:
                 if new_question:
+                    num_questions += 1
                     # determine train, valid, or test
                     random_num = random.random()
                     if random_num < .7:  # 70% percent of the time
@@ -105,6 +106,8 @@ if __name__ == '__main__':
                     for sentence in sentences:
                         append_to_set(sentence, None)
                     append_to_set(None, answer)
+                if num_questions > 1000:
+                    break
         train_lex, train_y = train
         valid_lex, valid_y = valid
         test_lex, test_y = test
@@ -133,6 +136,8 @@ if __name__ == '__main__':
         #     train_y + test_y + valid_y)))
 
     nsentences = len(train_lex)  # perhaps train_lex is a list of sentences
+    print "size of dictionary:", vocsize
+    print "number of sentences:", nsentences
 
     # instanciate the model
     numpy.random.seed(s.seed)
