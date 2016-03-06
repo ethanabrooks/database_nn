@@ -1,10 +1,10 @@
+from __future__ import print_function
+
 import lasagne
 import numpy
 import os
 import theano
 from theano import tensor as T
-from theano.printing import Print as pp
-from collections import OrderedDict
 
 
 def norm(x):
@@ -66,11 +66,14 @@ class model(object):
                       'bv', 'be']
 
         idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
-        x = self.emb[idxs].reshape((idxs.shape[0], de * cs))
+        x = self.emb[idxs].reshape((idxs.shape[0], de * cs))  # QUESTION: what is idxs.shape[0]?
         y = T.iscalar('y')  # label
 
+        def inspect_inputs(i, node, fn):
+            print(i, node, "input(s) value(s):", [input[0].shape for input in fn.inputs], end='')
+
         def recurrence(x_t, h_tm1, w_previous, M_previous):
-            # eqn 9?
+            # eqn not specified in paper
             g_t = T.nnet.sigmoid(T.dot(self.Wg, x_t) + self.bg)
 
             ### EXTERNAL MEMORY READ
@@ -105,7 +108,10 @@ class model(object):
             f_diag = T.diag(f)
             M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
 
+            # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
+
+            # eqn 10?
             s_t = T.nnet.softmax(T.dot(self.W, h_t) + self.b)
 
             return [h_t, s_t, w_t, M_t]

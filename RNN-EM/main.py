@@ -1,6 +1,5 @@
 import argparse
 
-import cPickle
 import re
 
 import numpy
@@ -41,8 +40,12 @@ if __name__ == '__main__':
         root_dir = "../data/"
         new_question = True
         train, test, valid = (([], []) for _ in range(3))
+        train_lex, train_y = train
+        valid_lex, valid_y = valid
+        test_lex, test_y = test
         lex, y, sentences = ([] for _ in range(3))
-        dic = {'<null>': 0}
+        dic = {'*': 0}
+
 
         def to_vector(string):
             tokens = re.findall(r'\w+|[:;,-=\.\?\(\)\-\+\{\}]', string)
@@ -55,9 +58,11 @@ if __name__ == '__main__':
                 sentence_vector[i] = dic[word]
             return sentence_vector
 
+
         def to_vectors(string):
             sentence_vector = to_vector(string)
             return sentence_vector, numpy.zeros_like(sentence_vector)
+
 
         def append_to_set(to_lex, to_y):
             if to_lex is None and to_y is None:
@@ -75,6 +80,7 @@ if __name__ == '__main__':
             assert len(to_y.shape) == 1
             lex.append(to_lex)
             y.append(to_y)
+
 
         num_questions = 0
         with open(root_dir + "nn_output") as inputs:
@@ -106,11 +112,10 @@ if __name__ == '__main__':
                     for sentence in sentences:
                         append_to_set(sentence, None)
                     append_to_set(None, answer)
-                if num_questions > 1000:
+                if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
                     break
-        train_lex, train_y = train
-        valid_lex, valid_y = valid
-        test_lex, test_y = test
+                    # if num_questions > 20:
+                    #     break
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
 
@@ -176,6 +181,9 @@ if __name__ == '__main__':
         predictions_test = [map(lambda x: idx2label[x], \
                                 rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32'))) \
                             for x in test_lex]
+        print('Predictions: ')
+        for prediction in predictions_test:
+            print(' '.join(prediction))
         groundtruth_test = [map(lambda x: idx2label[x], y) for y in test_y]
         words_test = [map(lambda x: idx2word[x], w) for w in test_lex]
 
