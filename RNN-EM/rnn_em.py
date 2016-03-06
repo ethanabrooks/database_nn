@@ -31,7 +31,7 @@ class model(object):
         de :: dimension of the word embeddings
         cs :: word window context size
         """
-        # parameters of the model
+        # parameters of the RNN-EM
         self.emb = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (ne + 1, de)).astype(
             theano.config.floatX))  # add one for PADDING at the end
         self.Wx = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (nh, de * cs)).astype(theano.config.floatX))

@@ -13,3 +13,6 @@ To run with Jeopardy dataset:
 ```
 python main.py --dataset=jeopardy
 ```
+
+By default, `s.hidden_size` and `s.emb_size` are 100. If the number of questions is capped at 1000, `vocsize` is 33811 and `nsentences` is 9881.
+Consequently, the dimensions of matrices within the model are:

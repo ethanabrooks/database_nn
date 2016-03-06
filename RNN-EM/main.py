@@ -139,7 +139,7 @@ if __name__ == '__main__':
     print "size of dictionary:", vocsize
     print "number of sentences:", nsentences
 
-    # instanciate the model
+    # instanciate the RNN-EM
     numpy.random.seed(s.seed)
     random.seed(s.seed)
     rnn = model(nh=s.hidden_size,
@@ -206,4 +206,4 @@ if __name__ == '__main__':
         if s.decay and abs(s.be - s.ce) >= 10: s.clr *= 0.5
         if s.clr < 1e-5: break
 
-    print 'BEST RESULT: epoch', e, 'valid F1', s.vf1, 'best test F1', s.tf1, 'with the model', folder
+    print 'BEST RESULT: epoch', e, 'valid F1', s.vf1, 'best test F1', s.tf1, 'with the RNN-EM', folder
