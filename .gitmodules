@@ -1,0 +1,3 @@
+[submodule "RNN-EM/is13"]
+	path = RNN-EM/is13
+	url = git@github.com:mesnilgr/is13.git
