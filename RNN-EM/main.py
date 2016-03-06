@@ -81,7 +81,6 @@ if __name__ == '__main__':
             lex.append(to_lex)
             y.append(to_y)
 
-
         num_questions = 0
         with open(root_dir + "nn_output") as inputs:
             for line in inputs:
@@ -112,10 +111,10 @@ if __name__ == '__main__':
                     for sentence in sentences:
                         append_to_set(sentence, None)
                     append_to_set(None, answer)
-                if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
-                    break
-                    # if num_questions > 20:
-                    #     break
+                # if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
+                    # break
+                    if num_questions > 500:
+                        break
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
 
@@ -143,6 +142,8 @@ if __name__ == '__main__':
     nsentences = len(train_lex)  # perhaps train_lex is a list of sentences
     print "size of dictionary:", vocsize
     print "number of sentences:", nsentences
+    print "number of questions:", num_questions
+
 
     # instanciate the RNN-EM
     numpy.random.seed(s.seed)
