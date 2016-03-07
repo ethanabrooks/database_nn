@@ -180,16 +180,17 @@ if __name__ == '__main__':
                 sys.stdout.flush()
 
         # evaluation // back into the real world : idx -> words
-        x_with_context = numpy.asarray(contextwin(x, s.win)).astype('int32')
-        if x_with_context.ndim == 0:
-            raise ValueError("Somehow x_with_context has 0 dimensions.")
-        if x_with_context.ndim == 1:
-            x_with_context.shape = (1, -1)
 
-        assert x_with_context.ndim == 2
-        predictions_test = [map(lambda x: idx2label[x],
-                                rnn.classify(x_with_context))
-                            for x in test_lex]
+        predictions_test = []
+        for x in test_lex:
+            x_with_context = numpy.asarray(contextwin(x, s.win)).astype('int32')
+            if x_with_context.ndim == 0:
+                raise ValueError("Somehow x_with_context has 0 dimensions.")
+            if x_with_context.ndim == 1:
+                x_with_context.shape = (1, -1)
+            assert x_with_context.ndim == 2
+            predictions_test.append(map(lambda x: idx2label[x],
+                                        rnn.classify(x_with_context)))
         print('Predictions: ')
         for prediction in predictions_test:
             print(' '.join(prediction))
