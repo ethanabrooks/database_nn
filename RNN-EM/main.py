@@ -81,6 +81,7 @@ if __name__ == '__main__':
             lex.append(to_lex)
             y.append(to_y)
 
+
         num_questions = 0
         with open(root_dir + "nn_output") as inputs:
             for line in inputs:
@@ -111,7 +112,7 @@ if __name__ == '__main__':
                     for sentence in sentences:
                         append_to_set(sentence, None)
                     append_to_set(None, answer)
-                # if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
+                    # if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
                     # break
                     if num_questions > 500:
                         break
@@ -144,7 +145,6 @@ if __name__ == '__main__':
     print "number of sentences:", nsentences
     print "number of questions:", num_questions
 
-
     # instanciate the RNN-EM
     numpy.random.seed(s.seed)
     random.seed(s.seed)
@@ -167,7 +167,7 @@ if __name__ == '__main__':
         tic = time.time()
         for i in xrange(nsentences):  # for each sentence
             cwords = contextwin(train_lex[i], s.win)
-            words = map(lambda x: numpy.asarray(x).astype('int32'), \
+            words = map(lambda x: numpy.asarray(x).astype('int32'),
                         minibatch(cwords, s.bs))
             labels = train_y[i]
             for word_batch, label_last_word in zip(words, labels):
@@ -179,8 +179,16 @@ if __name__ == '__main__':
                 sys.stdout.flush()
 
         # evaluation // back into the real world : idx -> words
-        predictions_test = [map(lambda x: idx2label[x], \
-                                rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32'))) \
+        x_with_context = numpy.asarray(contextwin(x, s.win)).astype('int32')
+        if x_with_context.ndim == 0:
+            print "WTF!!!!"
+            exit(1)
+        if x_with_context.ndim == 1:
+            x_with_context.shape = (1, -1)
+
+        assert x_with_context.ndim == 2
+        predictions_test = [map(lambda x: idx2label[x],
+                                rnn.classify(x_with_context))
                             for x in test_lex]
         print('Predictions: ')
         for prediction in predictions_test:
@@ -188,8 +196,8 @@ if __name__ == '__main__':
         groundtruth_test = [map(lambda x: idx2label[x], y) for y in test_y]
         words_test = [map(lambda x: idx2word[x], w) for w in test_lex]
 
-        predictions_valid = [map(lambda x: idx2label[x], \
-                                 rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32'))) \
+        predictions_valid = [map(lambda x: idx2label[x],
+                                 rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32')))
                              for x in valid_lex]
         groundtruth_valid = [map(lambda x: idx2label[x], y) for y in valid_y]
         words_valid = [map(lambda x: idx2word[x], w) for w in valid_lex]
