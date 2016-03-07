@@ -181,8 +181,7 @@ if __name__ == '__main__':
         # evaluation // back into the real world : idx -> words
         x_with_context = numpy.asarray(contextwin(x, s.win)).astype('int32')
         if x_with_context.ndim == 0:
-            print "WTF!!!!"
-            exit(1)
+            raise ValueError("Somehow x_with_context has 0 dimensions.")
         if x_with_context.ndim == 1:
             x_with_context.shape = (1, -1)
 
