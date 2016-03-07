@@ -28,6 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='atis', help='select dataset [atis|Jeopardy]')
+    parser.add_argument('--num_questions', type=int, default=1000, help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
     print '*' * 80
@@ -114,7 +115,7 @@ if __name__ == '__main__':
                     append_to_set(None, answer)
                     # if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
                     # break
-                    if num_questions > 500:
+                    if num_questions > s.num_questions:
                         break
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
