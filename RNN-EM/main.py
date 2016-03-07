@@ -185,11 +185,6 @@ if __name__ == '__main__':
         predictions_test = []
         for x in test_lex:
             x_with_context = numpy.asarray(contextwin(x, s.win)).astype('int32')
-            if x_with_context.ndim == 0:
-                raise ValueError("Somehow x_with_context has 0 dimensions.")
-            if x_with_context.ndim == 1:
-                x_with_context.shape = (1, -1)
-            assert x_with_context.ndim == 2
             predictions_test.append(map(lambda x: idx2label[x],
                                         rnn.classify(x_with_context)))
         print('Predictions: ')
