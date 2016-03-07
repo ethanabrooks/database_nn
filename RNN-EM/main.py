@@ -48,7 +48,7 @@ if __name__ == '__main__':
         dic = {'*': 0}
 
 
-        def to_vector(string):
+        def to_nx1_array(string):
             tokens = re.findall(r'\w+|[:;,-=\.\?\(\)\-\+\{\}]', string)
             sentence_vector = numpy.empty(len(tokens), dtype=int)
             for i, word in enumerate(tokens):
@@ -60,8 +60,8 @@ if __name__ == '__main__':
             return sentence_vector
 
 
-        def to_vectors(string):
-            sentence_vector = to_vector(string)
+        def array_zeros_tuple(string):
+            sentence_vector = to_nx1_array(string)
             return sentence_vector, numpy.zeros_like(sentence_vector)
 
 
@@ -70,17 +70,18 @@ if __name__ == '__main__':
                 lex.append(numpy.empty(0))
                 y.append(numpy.empty(0))
             elif to_lex is None:
-                to_y, to_lex = to_vectors(to_y)
+                to_y, to_lex = array_zeros_tuple(to_y)
             elif to_y is None:
-                to_lex, to_y = to_vectors(to_lex)
+                to_lex, to_y = array_zeros_tuple(to_lex)
             else:
-                to_lex, _ = to_vectors(to_lex)
-                to_y, _ = to_vectors(to_y)
-                assert to_lex.size == to_y.size
+                to_lex, _ = array_zeros_tuple(to_lex)
+                to_y, _ = array_zeros_tuple(to_y)
+            assert to_lex.size == to_y.size
             assert len(to_lex.shape) == 1
             assert len(to_y.shape) == 1
-            lex.append(to_lex)
-            y.append(to_y)
+            if to_lex.size >= 3:
+                lex.append(to_lex)
+                y.append(to_y)
 
 
         num_questions = 0
@@ -115,7 +116,7 @@ if __name__ == '__main__':
                     append_to_set(None, answer)
                     # if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
                     # break
-                    if num_questions > s.num_questions:
+                    if num_questions >= s.num_questions:
                         break
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
