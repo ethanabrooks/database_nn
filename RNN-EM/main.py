@@ -28,7 +28,8 @@ if __name__ == '__main__':
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=1000, help='number of questions to use in Jeopardy dataset')
+    parser.add_argument('--num_questions', type=int, default=1000,
+                        help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
     print '*' * 80
@@ -44,44 +45,36 @@ if __name__ == '__main__':
         train_lex, train_y = train
         valid_lex, valid_y = valid
         test_lex, test_y = test
-        lex, y, sentences = ([] for _ in range(3))
+        lex, y, input_target_tuples = ([] for _ in range(3))
         dic = {'*': 0}
 
 
-        def to_nx1_array(string):
-            tokens = re.findall(r'\w+|[:;,-=\.\?\(\)\-\+\{\}]', string)
+        def to_int(word):
+            word = word.lower()
+            if word not in dic:
+                w = len(dic)
+                dic[word] = w
+            return dic[word]
+
+
+        def to_array(string):
+            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
             sentence_vector = numpy.empty(len(tokens), dtype=int)
             for i, word in enumerate(tokens):
-                word = word.lower()
-                if word not in dic:
-                    w = len(dic)
-                    dic[word] = w
-                sentence_vector[i] = dic[word]
+                sentence_vector[i] = to_int(word)
             return sentence_vector
 
 
-        def array_zeros_tuple(string):
-            sentence_vector = to_nx1_array(string)
-            return sentence_vector, numpy.zeros_like(sentence_vector)
+        def to_instance(line, last_target_elt=0):
+            sentence_vector = to_array(line)
+            target = numpy.zeros_like(sentence_vector)
+            target[-1] = last_target_elt
+            return sentence_vector, target
 
 
-        def append_to_set(to_lex, to_y):
-            if to_lex is None and to_y is None:
-                lex.append(numpy.empty(0))
-                y.append(numpy.empty(0))
-            elif to_lex is None:
-                to_y, to_lex = array_zeros_tuple(to_y)
-            elif to_y is None:
-                to_lex, to_y = array_zeros_tuple(to_lex)
-            else:
-                to_lex, _ = array_zeros_tuple(to_lex)
-                to_y, _ = array_zeros_tuple(to_y)
-            assert to_lex.size == to_y.size
-            assert len(to_lex.shape) == 1
-            assert len(to_y.shape) == 1
-            if to_lex.size >= 3:
-                lex.append(to_lex)
-                y.append(to_y)
+        def append_to_set(pair):
+            lex.append(pair[0])
+            y.append(pair[1])
 
 
         num_questions = 0
@@ -99,23 +92,25 @@ if __name__ == '__main__':
                         set = test
                     lex, y = set
 
-                    append_to_set(line, None)  # question
-                    next(inputs)  # skip one-word answer
-                    answer = next(inputs)  # save for later
+                    append_to_set(to_instance(line))  # question
+                    answer = next(inputs)  # answer
+                    line = next(inputs)  # answer sentence
+
+                    answer_int = to_array(answer)[0]
+                    instance = to_instance(line, last_target_elt=answer_int)
                     remaining_sentences = int(next(inputs))
-                    sentences = []  # to be filled by 'context' sentences
+                    input_target_tuples = []
                     new_question = False
                 else:
-                    sentences.append(line)
                     remaining_sentences -= 1
+                    instance = to_instance(line)
+                input_target_tuples.append(instance)
                 if not remaining_sentences:
                     new_question = True
-                    random.shuffle(sentences)
-                    for sentence in sentences:
-                        append_to_set(sentence, None)
-                    append_to_set(None, answer)
-                    # if len(train_lex) > 1 and len(valid_lex) > 1 and len(test_lex) > 1:
-                    # break
+                    # set target of eos for answer sentence to answer
+                    random.shuffle(input_target_tuples)
+                    for instance in input_target_tuples:
+                        append_to_set(instance)
                     if num_questions >= s.num_questions:
                         break
         vocsize = nclasses = len(dic)
@@ -182,11 +177,10 @@ if __name__ == '__main__':
 
         # evaluation // back into the real world : idx -> words
 
-        predictions_test = []
-        for x in test_lex:
-            x_with_context = numpy.asarray(contextwin(x, s.win)).astype('int32')
-            predictions_test.append(map(lambda x: idx2label[x],
-                                        rnn.classify(x_with_context)))
+        predictions_test = [map(lambda x: idx2label[x],
+                                rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32')))
+                            for x in test_lex]
+
         print('Predictions: ')
         for prediction in predictions_test:
             print(' '.join(prediction))
