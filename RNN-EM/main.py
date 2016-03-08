@@ -181,9 +181,6 @@ if __name__ == '__main__':
                                 rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32')))
                             for x in test_lex]
 
-        print('Predictions: ')
-        for prediction in predictions_test:
-            print(' '.join(prediction))
         groundtruth_test = [map(lambda x: idx2label[x], y) for y in test_y]
         words_test = [map(lambda x: idx2word[x], w) for w in test_lex]
 
@@ -207,6 +204,11 @@ if __name__ == '__main__':
             s.be = e
             subprocess.call(['mv', folder + '/current.test.txt', folder + '/best.test.txt'])
             subprocess.call(['mv', folder + '/current.valid.txt', folder + '/best.valid.txt'])
+
+            print('Predictions: ')
+            for prediction in predictions_test:
+                print(' '.join(prediction))
+
         else:
             print ''
 
