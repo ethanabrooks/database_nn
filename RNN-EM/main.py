@@ -65,11 +65,15 @@ if __name__ == '__main__':
             return sentence_vector
 
 
-        def to_instance(line, last_target_elts=numpy.empty()):
-            sentence_vector = numpy.r_[to_array(line), numpy.zeros_like(last_target_elts)]
-            target = numpy.zeros_like(sentence_vector)
-            target[-last_target_elts.size:] = last_target_elts
-            return sentence_vector, target
+        def to_instance(line, answer=None):
+            inpt = to_array(line)
+            target = numpy.zeros_like(inpt)
+            if answer is not None:
+                answer_array = to_array(answer)
+                pad = numpy.zeros_like(answer_array)
+                inpt, target = (numpy.r_[start, end] for (start, end)
+                                in [(inpt, pad), (target, answer_array)])
+            return inpt, target
 
 
         def append_to_set(pair):
@@ -96,10 +100,7 @@ if __name__ == '__main__':
                     answer = next(inputs).rstrip()  # answer
                     line = next(inputs)  # answer sentence
 
-                    answer_array = to_array(answer)
-                    if answer_array.size > 1:
-                        pass
-                    instance = to_instance(line, last_target_elts=answer_array)
+                    instance = to_instance(line, answer=answer)
                     remaining_sentences = int(next(inputs))
                     input_target_tuples = []
                     new_question = False
