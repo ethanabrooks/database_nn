@@ -138,7 +138,8 @@ class model(object):
         self.train = theano.function(inputs=[idxs, y, lr],
                                      outputs=nll,
                                      updates=updates,
-                                     on_unused_input='warn')
+                                     on_unused_input='ignore')
+        # on_unused_input='warn')
 
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb:

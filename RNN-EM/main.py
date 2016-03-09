@@ -65,10 +65,10 @@ if __name__ == '__main__':
             return sentence_vector
 
 
-        def to_instance(line, last_target_elt=0):
-            sentence_vector = to_array(line)
+        def to_instance(line, last_target_elts=numpy.empty()):
+            sentence_vector = numpy.r_[to_array(line), numpy.zeros_like(last_target_elts)]
             target = numpy.zeros_like(sentence_vector)
-            target[-1] = last_target_elt
+            target[-last_target_elts.size:] = last_target_elts
             return sentence_vector, target
 
 
@@ -93,11 +93,13 @@ if __name__ == '__main__':
                     lex, y = set
 
                     append_to_set(to_instance(line))  # question
-                    answer = next(inputs)  # answer
+                    answer = next(inputs).rstrip()  # answer
                     line = next(inputs)  # answer sentence
 
-                    answer_int = to_array(answer)[0]
-                    instance = to_instance(line, last_target_elt=answer_int)
+                    answer_array = to_array(answer)
+                    if answer_array.size > 1:
+                        pass
+                    instance = to_instance(line, last_target_elts=answer_array)
                     remaining_sentences = int(next(inputs))
                     input_target_tuples = []
                     new_question = False
