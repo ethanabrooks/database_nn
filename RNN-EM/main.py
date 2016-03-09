@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=1000,
+    parser.add_argument('--num_questions', type=int, default=2000,
                         help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
