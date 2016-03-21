@@ -20,7 +20,7 @@ if __name__ == '__main__':
     parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
     parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
     parser.add_argument('--emb_size', type=int, default=100, help='Embedding size')
-    parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
+    parser.add_argument('--n_memory_slots', type=int, default=1, help='Memory slots')
     parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
     parser.add_argument('--seed', type=int, default=345, help='Seed')
     parser.add_argument('--bs', type=int, default=64, help='Number of backprop through time steps')
