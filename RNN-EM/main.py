@@ -1,4 +1,5 @@
 import argparse
+import copy
 
 import re
 
@@ -24,14 +25,14 @@ if __name__ == '__main__':
     parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
     parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
     parser.add_argument('--seed', type=int, default=345, help='Seed')
-    parser.add_argument('--bs', type=int, default=64, help='Number of backprop through time steps')
+    parser.add_argument('--bs', type=int, default=8, help='Number of backprop through time steps')
     parser.add_argument('--win', type=int, default=7, help='Number of words in context window')
     parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
     parser.add_argument('--lr', type=float, default=0.0627142536696559, help='Learning rate')
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=20,
+    parser.add_argument('--num_questions', type=int, default=100,
                         help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
@@ -62,7 +63,6 @@ if __name__ == '__main__':
 
 
         def to_array(string):
-            # tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
             tokens = [token.lower_ for token in tokenizer(unicode(string, 'utf-8'))]
             sentence_vector = numpy.empty(len(tokens), dtype=int)
             for i, word in enumerate(tokens):
@@ -127,8 +127,8 @@ if __name__ == '__main__':
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
         if s.debug:
-            test = train.copy()
-            valid = train.copy()
+            test = copy.deepcopy(train)
+            valid = copy.deepcopy(train)
 
     else:
         train_set, valid_set, test_set, dic = load.atisfold(s.fold)
