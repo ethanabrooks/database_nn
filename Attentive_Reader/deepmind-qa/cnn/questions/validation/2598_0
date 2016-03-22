@@ -1,0 +1,12 @@
+4
+
+the island is part of @ent2 .
+
+countries of the world : @ent1 is one of the islands of this @ent3 country , once home to a famous group of knights
+
+@ent2
+
+@ent0:
+@ent1:Gozo
+@ent2:Malta
+@ent3:Mediterranean

@@ -1,0 +1,12 @@
+4
+
+vaasa ( ; , ) is a city on the west coast of @ent3 .
+
+" f " in geography : major cities in this @ent1 nation include @ent2 , maarianhamina & helsinki
+
+@ent3
+
+@ent0:
+@ent1:European
+@ent2:Vaasa
+@ent3:Finland

@@ -1,0 +1,13 @@
+5
+
+@ent2 lies in the outer @ent3 , @ent4 ,   north - east of central @ent1 .
+
+" n"ations of the world : its territory includes @ent2 & the antipodes islands
+
+@ent4
+
+@ent0:
+@ent1:Auckland
+@ent2:Great Barrier Island
+@ent3:Hauraki Gulf
+@ent4:New Zealand

@@ -1,0 +1,14 @@
+6
+
+@ent5 ( ) is an island in western @ent4 and part of @ent1 .
+
+" in " places : in @ent2 an earthquake struck the island of @ent5 in this nation , killing @ent3 people
+
+@ent4
+
+@ent0:
+@ent1:the Sunda Islands
+@ent2:February 1994
+@ent3:215
+@ent4:Indonesia
+@ent5:Sumatra

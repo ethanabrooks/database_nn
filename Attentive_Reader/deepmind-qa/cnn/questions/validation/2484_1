@@ -1,0 +1,13 @@
+5
+
+@ent3 is an @ent1 businessman .
+
+organizations : @ent3 is the ceo of this organization for those @ent4 & older
+
+@ent0
+
+@ent0:
+@ent1:American
+@ent2:AARP
+@ent3:Bill Novelli
+@ent4:50

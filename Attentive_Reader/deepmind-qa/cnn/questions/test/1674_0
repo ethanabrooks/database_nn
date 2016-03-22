@@ -1,0 +1,13 @@
+5
+
+@ent1 is a character in the novel @ent4 by @ent3 .
+
+dickens characters : he marries @ent1 in chapter 43 & agnes wickfield in @ent2
+
+@ent4
+
+@ent0:
+@ent1:Dora Spenlow
+@ent2:Chapter 62
+@ent3:Charles Dickens
+@ent4:David Copperfield

@@ -1,0 +1,16 @@
+8
+
+@ent2 ( / ala - lc :   ) is the largest city of @ent1 and the capital of the province of @ent4 , its largest city , as well as @ent3 of the largest and most populous metropolitan cities in the world .
+
+there are places : its capital has moved @ent5 inland from @ent2 to @ent6 to @ent7
+
+@ent1
+
+@ent0:
+@ent1:Pakistan
+@ent2:Karachi
+@ent3:one
+@ent4:Sindh
+@ent5:about 750 miles
+@ent6:Rawalpindi
+@ent7:Islamabad

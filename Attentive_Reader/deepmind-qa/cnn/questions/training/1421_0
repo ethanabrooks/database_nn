@@ -1,0 +1,20 @@
+12
+
+  since version 3.9.0 there is support for @ent9 mips64 little and big endian , for @ent7 dsp ase on mips32 , for s390x decimal floating point instructions , for power8 ( power isa 2.07 ) instructions , for @ent8 avx2 instructions , for @ent3 , both @ent10 and @ent2 and initial support for @ent1 on @ent4 and development    it is named after the main entrance to @ent11 in @ent5 mythology .
+
+gates : in norse myth the gate known as @ent6 was the main entrance to this mighty hall
+
+@ent11
+
+@ent0:
+@ent1:Hardware Transactional Memory
+@ent2:HLE
+@ent3:Intel Transactional Synchronization Extensions
+@ent4:POWER.   History
+@ent5:Norse
+@ent6:Valgrind
+@ent7:MIPS
+@ent8:Intel
+@ent9:Linux on
+@ent10:RTM
+@ent11:Valhalla

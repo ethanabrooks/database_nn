@@ -1,0 +1,13 @@
+5
+
+@ent1 is a comedy play by @ent3 .
+
+theatre : @ent4 directed the original @ent2 production of this playwright 's " @ent1 "
+
+@ent3
+
+@ent0:
+@ent1:Plaza Suite
+@ent2:Broadway
+@ent3:Neil Simon
+@ent4:Mike Nichols

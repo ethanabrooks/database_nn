@@ -1,0 +1,15 @@
+7
+
+@ent1 is located   west of @ent2 @ent5 , the country 's capital , and is part of @ent3 .
+
+south american capitals : an airport in the coastal city of @ent6 serves this @ent4 capital
+
+@ent5
+
+@ent0:
+@ent1:The Historic Centre of Callao
+@ent2:Historic Centre of
+@ent3:the Lima Metropolitan Area
+@ent4:Peruvian
+@ent5:Lima
+@ent6:Callao

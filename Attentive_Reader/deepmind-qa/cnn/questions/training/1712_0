@@ -1,0 +1,12 @@
+4
+
+@ent1 is the tallest skyscraper in the @ent2 skyline .
+
+skyscrapers by city : @ent3
+
+@ent2
+
+@ent0:
+@ent1:The Transamerica Pyramid
+@ent2:San Francisco
+@ent3:Transamerica Pyramid

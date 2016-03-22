@@ -1,0 +1,16 @@
+8
+
+@ent4 president @ent5 gives the @ent2 state of the union address , in @ent7 .
+
+letters : in @ent6 this president wrote a letter on religious toleration to the @ent3 of @ent1
+
+@ent5
+
+@ent0:
+@ent1:Newport, Rhode Island
+@ent2:first
+@ent3:Jews
+@ent4:United States
+@ent5:George Washington
+@ent6:1790
+@ent7:New York City

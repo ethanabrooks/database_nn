@@ -1,0 +1,13 @@
+5
+
+  @ent1 .
+
+world religions : his book " @ent2 " gave rise to @ent4
+
+@ent0
+
+@ent0:
+@ent1:2
+@ent2:Dianetics
+@ent3:L. Ron Hubbard
+@ent4:the Church of Scientology

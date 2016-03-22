@@ -1,0 +1,14 @@
+6
+
+the state capital is @ent2 ; the largest city is @ent4 am @ent3 .
+
+european cities : referring to the mineral springs , the name of this @ent5 resort city in @ent1 means " baths on the meadow "
+
+@ent2
+
+@ent0:
+@ent1:Hesse
+@ent2:Wiesbaden
+@ent3:Main
+@ent4:Frankfurt
+@ent5:German

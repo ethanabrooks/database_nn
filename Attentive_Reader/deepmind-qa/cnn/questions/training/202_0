@@ -1,0 +1,14 @@
+6
+
+" @ent4 " is a @ent5 song performed by the group @ent3 .
+
+" ex " words : in @ent5 this group topped the pop charts with " @ent4 " ; since then they 've had @ent1 no . @ent2 country hits
+
+@ent3
+
+@ent0:
+@ent1:10
+@ent2:1
+@ent3:Exile
+@ent4:Kiss You All Over
+@ent5:1978

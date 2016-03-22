@@ -1,0 +1,12 @@
+4
+
+@ent2 is the name commonly used for the highest mountain in the state of @ent1 .
+
+states ' highest points : @ent2 , which has @ent3 land on its slopes
+
+@ent1
+
+@ent0:
+@ent1:Arkansas
+@ent2:Mount Magazine
+@ent3:Ozark National Forest

@@ -1,0 +1,17 @@
+9
+
+of the total population , @ent2 live in the province 's largest city , @ent6 , while @ent5 live in the provincial capital , @ent4 .
+
+canadian cities : it was capital of @ent8 from @ent1 to @ent7 , when it became the provincial capital of @ent3
+
+@ent4
+
+@ent0:
+@ent1:1882
+@ent2:257,300
+@ent3:Saskatchewan
+@ent4:Regina
+@ent5:210,000
+@ent6:Saskatoon
+@ent7:1905
+@ent8:the Northwest Territories

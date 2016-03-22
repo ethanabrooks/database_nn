@@ -1,0 +1,13 @@
+5
+
+isbn 0520221540 .
+
+art : this @ent3 artist painted a unique triple portrait of @ent2 's king charles i around @ent1
+
+@ent0
+
+@ent0:
+@ent1:1637
+@ent2:England
+@ent3:Flemish
+@ent4:Anthony van Dyck

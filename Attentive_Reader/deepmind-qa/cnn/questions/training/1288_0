@@ -1,0 +1,15 @@
+7
+
+@ent1 ( born @ent4 ) is an @ent3 actress and the widow of actor @ent5 .
+
+directors : this actor directed himself & wife @ent1 in the @ent6 film " @ent2 "
+
+@ent5
+
+@ent0:
+@ent1:Trish Van Devere
+@ent2:The Savage Is Loose
+@ent3:American
+@ent4:March 9, 1943
+@ent5:George C. Scott
+@ent6:1974

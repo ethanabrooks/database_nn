@@ -1,0 +1,13 @@
+5
+
+  @ent4 appears as the primary antagonist in @ent1 3 : the escape clause played by @ent2 .
+
+movies : he played @ent4 , who 's trying to take over @ent3 in " @ent1 3 : the escape clause "
+
+@ent2
+
+@ent0:
+@ent1:The Santa Clause
+@ent2:Martin Short
+@ent3:Christmas
+@ent4:Jack Frost

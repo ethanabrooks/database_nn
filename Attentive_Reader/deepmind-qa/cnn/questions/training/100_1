@@ -1,0 +1,15 @@
+7
+
+@ent1   @ent2   @ent3 .
+
+at the movies : she won an oscar for playing @ent4 in " @ent5 "
+
+@ent0
+
+@ent0:
+@ent1:Wendell "Bud" White
+@ent2:Russell Crowe
+@ent3:Josh Hopkins Det
+@ent4:Lynn Bracken
+@ent5:L.A. Confidential
+@ent6:Kim Basinger

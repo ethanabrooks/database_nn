@@ -1,0 +1,14 @@
+6
+
+  @ent3 is a @ent1 novel written by @ent2 .
+
+it 's a mystery : his crime novel " @ent3 " was filmed by @ent4 as " @ent5 "
+
+@ent2
+
+@ent0:
+@ent1:1992
+@ent2:Elmore Leonard
+@ent3:Rum Punch
+@ent4:Quentin Tarantino
+@ent5:Jackie Brown

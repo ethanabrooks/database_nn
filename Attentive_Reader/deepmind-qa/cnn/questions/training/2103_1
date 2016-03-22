@@ -1,0 +1,15 @@
+7
+
+@ent2 .
+
+@ent3 : @ent4 , @ent5 & @ent6
+
+@ent0
+
+@ent0:
+@ent1:Auto Racing
+@ent2:Simon & Schuster
+@ent3:THE SPORT PLAYED
+@ent4:Bobby Rahal
+@ent5:Danny Sullivan
+@ent6:Michael Andretti

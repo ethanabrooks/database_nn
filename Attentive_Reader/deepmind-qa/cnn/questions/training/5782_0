@@ -1,0 +1,14 @@
+6
+
+@ent3 (   ) is the capital and the @ent4 - largest city of @ent1 after @ent5 .
+
+take the lead : @ent2 heads up this country from its capital , @ent3
+
+@ent1
+
+@ent0:
+@ent1:Syria
+@ent2:Bashar al-Assad
+@ent3:Damascus
+@ent4:second
+@ent5:Aleppo

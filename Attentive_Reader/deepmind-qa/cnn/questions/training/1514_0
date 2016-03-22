@@ -1,0 +1,12 @@
+4
+
+@ent3 ( ; ; ) is the capital and largest city of @ent2 .
+
+europe : @ent3 is situated on @ent1
+
+@ent2
+
+@ent0:
+@ent1:the Gulf of this
+@ent2:Finland
+@ent3:Helsinki

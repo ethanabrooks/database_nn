@@ -1,0 +1,17 @@
+9
+
+@ent5 , @ent4 .
+
+@ent7 secretaries : @ent6 , @ent7 secretary from @ent3 to @ent2 , is the father of this current @ent1 senator
+
+@ent0
+
+@ent0:
+@ent1:Louisiana
+@ent2:1981
+@ent3:1979
+@ent4:1992
+@ent5:LSU Press
+@ent6:Mary Landrieu
+@ent7:HUD
+@ent8:Moon Landrieu

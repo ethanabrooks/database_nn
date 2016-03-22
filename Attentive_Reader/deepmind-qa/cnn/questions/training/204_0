@@ -1,0 +1,13 @@
+5
+
+its capital is @ent1 ; the biggest city is @ent2 .
+
+world " c"ities : it 's the largest city in the @ent3 state of @ent4
+
+@ent2
+
+@ent0:
+@ent1:Düsseldorf
+@ent2:Cologne
+@ent3:German
+@ent4:North Rhine-Westphalia

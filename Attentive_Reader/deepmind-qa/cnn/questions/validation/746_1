@@ -1,0 +1,14 @@
+6
+
+in @ent1 , @ent2 became the country with the highest nominal gdp per capita in @ent3 .
+
+big country : it borders every country on its continent but @ent5 & @ent2
+
+@ent0
+
+@ent0:
+@ent1:2006
+@ent2:Chile
+@ent3:Latin America
+@ent4:Brazil
+@ent5:Ecuador

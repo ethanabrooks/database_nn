@@ -1,0 +1,14 @@
+6
+
+@ent1 is a large , government - funded , teaching hospital situated on the slopes of @ent2 's peak in the city of @ent3 , @ent4 .
+
+hospitals : in @ent5 the first human heart transplant was performed at @ent1 in this city
+
+@ent3
+
+@ent0:
+@ent1:Groote Schuur Hospital
+@ent2:Devil
+@ent3:Cape Town
+@ent4:South Africa
+@ent5:1967

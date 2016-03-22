@@ -1,0 +1,13 @@
+5
+
+ipanema is adjacent to @ent3 and @ent2 , but it is distinct from its neighbour .
+
+brazil : this famous beach is just northeast of @ent1 in @ent4
+
+@ent3
+
+@ent0:
+@ent1:Ipanema
+@ent2:Leblon Beach
+@ent3:Copacabana
+@ent4:Rio de Janeiro

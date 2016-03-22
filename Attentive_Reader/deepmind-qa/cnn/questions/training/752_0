@@ -1,0 +1,15 @@
+7
+
+@ent5 ( ; , , ) is the capital city of @ent2 located within @ent3 .
+
+there are places : its capital has moved @ent1 inland from @ent4 to @ent6 to @ent5
+
+@ent2
+
+@ent0:
+@ent1:about 750 miles
+@ent2:Pakistan
+@ent3:the Islamabad Capital Territory
+@ent4:Karachi
+@ent5:Islamabad
+@ent6:Rawalpindi

@@ -1,0 +1,15 @@
+7
+
+@ent1   is a novel by @ent2 , first published on @ent3 .
+
+@ent6 @ent4 's " @ent5 " was his next novel after " @ent1 "
+
+@ent2
+
+@ent0:
+@ent1:Robinson Crusoe
+@ent2:Daniel Defoe
+@ent3:25 April 1719
+@ent4:1720
+@ent5:The Adventures of Captain Singleton
+@ent6:18th CENTURY LITERATURE:

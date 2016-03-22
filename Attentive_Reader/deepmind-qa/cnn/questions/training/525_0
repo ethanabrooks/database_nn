@@ -1,0 +1,13 @@
+5
+
+" @ent3 " is an episode of the @ent2 science fiction television series @ent1 .
+
+tv : in @ent4 this sci - fi show premiered with the episode " @ent3 "
+
+@ent1
+
+@ent0:
+@ent1:Star Trek
+@ent2:American
+@ent3:The Man Trap
+@ent4:1966

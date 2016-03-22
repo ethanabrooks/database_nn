@@ -1,0 +1,13 @@
+5
+
+,
+
+spring @ent1 ! : ceremonies at the grave of @ent2 are part of this country 's @ent3 observation
+
+@ent0
+
+@ent0:
+@ent1:BREAK
+@ent2:Theodor Herzl
+@ent3:Independence Day
+@ent4:Israel

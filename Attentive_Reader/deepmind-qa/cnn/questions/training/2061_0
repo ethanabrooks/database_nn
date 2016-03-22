@@ -1,0 +1,13 @@
+5
+
+  @ent1 's tallest mountain @ent4 is   above mean sea level ; it is taller than @ent2 if measured from the base of the mountain , which lies on the floor of @ent3 and rises about .
+
+landmarks : this 13,796-foot inactive volcano , @ent1 's highest peak , is snow - covered in winter ; its name means " white mountain "
+
+@ent4
+
+@ent0:
+@ent1:Hawaii
+@ent2:Mount Everest
+@ent3:the Pacific Ocean
+@ent4:Mauna Kea

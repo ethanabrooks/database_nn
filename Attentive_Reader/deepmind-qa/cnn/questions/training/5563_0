@@ -1,0 +1,16 @@
+8
+
+   ( @ent1 ; @ent2   ) is the capital and largest city of @ent5 with a population of @ent4 based on the @ent7 census , @ent6 of the total population of @ent5 .
+
+wheel of jeopardy ! : @ent3 is its capital
+
+@ent5
+
+@ent0:
+@ent1:Tswana
+@ent2:English
+@ent3:Gaborone
+@ent4:231,626
+@ent5:Botswana
+@ent6:about 10%
+@ent7:2011

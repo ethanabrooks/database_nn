@@ -1,0 +1,12 @@
+4
+
+@ent2 is a   @ent1 state park located in @ent3 , @ent1 .
+
+your state is parked : @ent2
+
+@ent1
+
+@ent0:
+@ent1:Oklahoma
+@ent2:Cherokee Landing State Park
+@ent3:Cherokee County

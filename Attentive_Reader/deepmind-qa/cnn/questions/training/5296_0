@@ -1,0 +1,15 @@
+7
+
+  a notable historic building in @ent5 is @ent3 , which dates from @ent2 or earlier , and which may have been the birthplace of @ent4 the @ent1 .
+
+" bert"days : a warrior ruler : @ent6 in @ent5
+
+@ent4 the @ent1
+
+@ent0:
+@ent1:Bruce
+@ent2:the 13th century
+@ent3:Turnberry Castle
+@ent4:Robert
+@ent5:Ayrshire
+@ent6:July 11, 1274

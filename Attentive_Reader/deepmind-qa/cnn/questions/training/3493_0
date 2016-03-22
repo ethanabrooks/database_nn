@@ -1,0 +1,15 @@
+7
+
+the eads bridge is a combined road and railway bridge over @ent2 at @ent1 , connecting @ent1 and @ent4 , @ent6 .
+
+bridge : this city 's @ent5 borrowed the arch idea from the historic @ent3 nearby
+
+@ent1
+
+@ent0:
+@ent1:St. Louis
+@ent2:the Mississippi River
+@ent3:Eads Bridge
+@ent4:East St. Louis
+@ent5:Gateway Arch
+@ent6:Illinois

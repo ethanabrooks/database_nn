@@ -1,0 +1,13 @@
+5
+
+around @ent1 the iron age took over from the bronze age as more and more metalworking took place .
+
+museums : this country 's national museum has @ent2 sites in the capital & one in @ent3 devoted to rural life
+
+@ent0
+
+@ent0:
+@ent1:2,500 years ago
+@ent2:3
+@ent3:County Mayo
+@ent4:Ireland

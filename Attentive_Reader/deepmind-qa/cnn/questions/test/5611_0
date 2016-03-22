@@ -1,0 +1,13 @@
+5
+
+the airport , spread over an area of , is situated in @ent2 ,   south - west of @ent4 railway station and   from @ent3 city centre .
+
+" n"tice me ! : when you land at @ent1 , you 're in this city
+
+@ent3
+
+@ent0:
+@ent1:Indira Gandhi International Airport
+@ent2:Palam
+@ent3:New Delhi
+@ent4:the New Delhi

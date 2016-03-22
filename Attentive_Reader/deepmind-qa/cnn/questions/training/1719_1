@@ -1,0 +1,14 @@
+6
+
+@ent4 .
+
+religion : @ent3 or " @ent1 " is the most reliable source on the life & teachings of this @ent5 sage
+
+@ent0
+
+@ent0:
+@ent1:Analects
+@ent2:Confucius
+@ent3:The Lun Yu
+@ent4:12
+@ent5:Chinese

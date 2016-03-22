@@ -1,0 +1,14 @@
+6
+
+  president @ent2 ( @ent5 )
+
+@ent1 presidents : former first lady @ent3 is a distant cousin of this @ent4 president
+
+@ent2
+
+@ent0:
+@ent1:U.S.
+@ent2:Franklin Pierce
+@ent3:Barbara Bush
+@ent4:1850s
+@ent5:United States

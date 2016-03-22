@@ -1,0 +1,14 @@
+6
+
+@ent4 .
+
+film roles : @ent3 , @ent1 & @ent2 have all played this character on film
+
+@ent0
+
+@ent0:
+@ent1:Robert Mitchum
+@ent2:Elliott Gould
+@ent3:Dick Powell
+@ent4:ISBN 978-0-87910-292-0
+@ent5:Philip Marlowe

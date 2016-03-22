@@ -1,0 +1,14 @@
+6
+
+  @ent2 @ent1   at the @ent2 @ent1 , @ent5 won gold in the @ent3 - pipe .
+
+the olympics : at the @ent2 @ent1 , @ent4 took gold in this snowboarding competition
+
+@ent3 - pipe
+
+@ent0:
+@ent1:Winter Olympics
+@ent2:2006
+@ent3:half
+@ent4:Shaun White
+@ent5:White

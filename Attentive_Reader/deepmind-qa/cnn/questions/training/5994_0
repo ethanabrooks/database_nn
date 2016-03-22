@@ -1,0 +1,15 @@
+7
+
+a @ent2 movie entitled @ent6 starring @ent5 was based on his role in this book .
+
+the movies : in the @ent2 film " @ent1 , this actor played the title role earlier played by @ent4 in " @ent3 "
+
+@ent5
+
+@ent0:
+@ent1:Nevada Smith"
+@ent2:1966
+@ent3:The Carpetbaggers
+@ent4:Alan Ladd
+@ent5:Steve McQueen
+@ent6:Nevada Smith

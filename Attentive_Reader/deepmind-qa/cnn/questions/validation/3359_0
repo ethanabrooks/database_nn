@@ -1,0 +1,15 @@
+7
+
+most of the @ent1 is in @ent6 ; a small part ( @ent4 of the forest ) is in the neighboring state of @ent5 .
+
+" n " masse : @ent2 is partly within this @ent3 state
+
+@ent6
+
+@ent0:
+@ent1:WMNF
+@ent2:White Mountain National Forest
+@ent3:Northeastern
+@ent4:about 5.65%
+@ent5:Maine
+@ent6:New Hampshire

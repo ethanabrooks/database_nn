@@ -1,0 +1,15 @@
+7
+
+@ent2 ( ) , with population of @ent1 ( @ent5 ) , is the capital and largest city of @ent3 .
+
+a @ent4 's best friend : @ent2 is the capital city of this @ent6 country famous for its mountain gorillas
+
+@ent3
+
+@ent0:
+@ent1:more than 1 million
+@ent2:Kigali
+@ent3:Rwanda
+@ent4:GORILLA
+@ent5:2012
+@ent6:African

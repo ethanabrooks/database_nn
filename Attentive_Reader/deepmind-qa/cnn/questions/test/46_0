@@ -1,0 +1,14 @@
+6
+
+@ent5 ( i-45 ) is an interstate highway located entirely within the @ent2 state of @ent4 .
+
+statues : @ent1 stands @ent3 tall along @ent5 in this state
+
+@ent4
+
+@ent0:
+@ent1:Sam Houston
+@ent2:U.S.
+@ent3:67 feet
+@ent4:Texas
+@ent5:Interstate 45

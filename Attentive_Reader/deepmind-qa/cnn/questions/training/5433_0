@@ -1,0 +1,13 @@
+5
+
+the last recorded eruption of @ent1 begins in @ent3 .
+
+mountains : this sacred @ent2 volcano last erupted in @ent4
+
+@ent1
+
+@ent0:
+@ent1:Mount Fuji
+@ent2:Japanese
+@ent3:Japan
+@ent4:1707

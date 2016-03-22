@@ -1,0 +1,11 @@
+3
+
+@ent2 is the capital and largest city of @ent1 .
+
+from z to a : its capital is @ent2
+
+@ent1
+
+@ent0:
+@ent1:Zambia
+@ent2:Lusaka

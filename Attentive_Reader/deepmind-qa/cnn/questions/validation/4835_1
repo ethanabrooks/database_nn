@@ -1,0 +1,13 @@
+5
+
+vermes , @ent2 .
+
+world capitals : this @ent1 capital is named for the country 's patron @ent4
+
+@ent0
+
+@ent0:
+@ent1:Costa Rican
+@ent2:Geza
+@ent3:San Jose
+@ent4:Saint Joseph

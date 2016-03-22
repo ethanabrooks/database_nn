@@ -1,0 +1,14 @@
+6
+
+@ent1 is a legal holiday in the @ent2 state of @ent4 .
+
+@ent3 : the last monday in @ent5 is @ent1 in this state
+
+@ent4
+
+@ent0:
+@ent1:Seward's Day
+@ent2:U.S.
+@ent3:HOLIDAYS & OBSERVANCES
+@ent4:Alaska
+@ent5:March

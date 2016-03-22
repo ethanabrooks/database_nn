@@ -1,0 +1,18 @@
+10
+
+the train operates @ent3 @ent1 round trips between @ent7 and @ent5 , @ent9 of which continue to @ent2 .
+
+planes , trains & automobiles : @ent8 's @ent4 runs between @ent6 this city , the largest in its state
+
+@ent7
+
+@ent0:
+@ent1:daily
+@ent2:Brunswick
+@ent3:five
+@ent4:Downeaster
+@ent5:Boston
+@ent6:Boston &
+@ent7:Portland
+@ent8:Amtrak
+@ent9:two

@@ -1,0 +1,17 @@
+9
+
+@ent8 : the @ent2 of @ent1 is the @ent4 novel by @ent7 , published in @ent3 .
+
+books & authors : she created @ent6 , @ent8 & @ent5
+
+@ent7
+
+@ent0:
+@ent1:Raveloe
+@ent2:Weaver
+@ent3:1861
+@ent4:third
+@ent5:Daniel Deronda
+@ent6:Adam Bede
+@ent7:George Eliot
+@ent8:Silas Marner

@@ -1,0 +1,16 @@
+8
+
+  references   @ent3 federal census   obituary : @ent5 .
+
+@ent4 tv casts : @ent1 , @ent6 & @ent7 ; a @ent5 production
+
+@ent0
+
+@ent0:
+@ent1:Buddy Ebsen
+@ent2:Barnaby Jones
+@ent3:1930
+@ent4:1970s
+@ent5:Quinn Martin
+@ent6:Lee Meriwether
+@ent7:Mark Shera

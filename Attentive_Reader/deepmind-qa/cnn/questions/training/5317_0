@@ -1,0 +1,11 @@
+3
+
+" @ent1 " is a narrative poem written by @ent2 .
+
+poets : @ent1 , " a gentleman from sole to crown " in a poem by this 3-named man , " put a bullet through his head "
+
+@ent2
+
+@ent0:
+@ent1:Richard Cory
+@ent2:Edwin Arlington Robinson

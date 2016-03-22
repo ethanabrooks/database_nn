@@ -1,0 +1,14 @@
+6
+
+retrieved @ent3 .
+
+state capitals : @ent5 in this capital is @ent2 of the @ent4 's busiest
+
+@ent0
+
+@ent0:
+@ent1:Denver
+@ent2:one
+@ent3:February 8, 2010
+@ent4:USA
+@ent5:Stapleton International Airport

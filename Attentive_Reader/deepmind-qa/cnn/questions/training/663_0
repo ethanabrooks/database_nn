@@ -1,0 +1,14 @@
+6
+
+kangaroos are endemic to @ent5 .
+
+literary geography : @ent3 visited this country in @ent2 & set his @ent4 novel " @ent1 " there
+
+@ent5
+
+@ent0:
+@ent1:Kangaroo
+@ent2:1922
+@ent3:D.H. Lawrence
+@ent4:1923
+@ent5:Australia

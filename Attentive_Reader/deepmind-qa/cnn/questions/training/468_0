@@ -1,0 +1,14 @@
+6
+
+  @ent1 senator @ent3 enters the race for @ent2 presidential nomination .
+
+@ent5 : a simple white cross marks the grave of this attorney general , buried near his brother in @ent4
+
+@ent3
+
+@ent0:
+@ent1:U.S.
+@ent2:the Democratic Party
+@ent3:Robert F. Kennedy
+@ent4:1968
+@ent5:ARLINGTON NATIONAL CEMETERY

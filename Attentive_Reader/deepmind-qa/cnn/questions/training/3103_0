@@ -1,0 +1,14 @@
+6
+
+@ent2 is a @ent1 book by @ent4 that became an international bestseller and an important text in the feminist movement .
+
+" g.g. " : born near @ent3 , this @ent5 feminist is best known for her revolutionary work " @ent2 "
+
+@ent4
+
+@ent0:
+@ent1:1970
+@ent2:The Female Eunuch
+@ent3:Melbourne
+@ent4:Germaine Greer
+@ent5:Aussie

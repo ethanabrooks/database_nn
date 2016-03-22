@@ -1,0 +1,17 @@
+9
+
+@ent5 served as the @ent2 governor of @ent4 from @ent1 to @ent8 .
+
+politicians : @ent6 was governor of this state from @ent1 to @ent8 & later served as @ent3 ambassador to the @ent7
+
+@ent4
+
+@ent0:
+@ent1:1963
+@ent2:38th
+@ent3:U.S.
+@ent4:Pennsylvania
+@ent5:Scranton
+@ent6:William Scranton
+@ent7:U.N.
+@ent8:1967

@@ -1,0 +1,13 @@
+5
+
+  the volcano is   northwest of @ent3 , the capital of the @ent1 .
+
+mountains : on @ent4 a volcanic eruption tore the top off @ent2 in this country
+
+the @ent1
+
+@ent0:
+@ent1:Philippines
+@ent2:Mount Pinatubo
+@ent3:Manila
+@ent4:June 15, 1991

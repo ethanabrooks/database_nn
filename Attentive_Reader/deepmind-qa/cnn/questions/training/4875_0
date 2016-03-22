@@ -1,0 +1,14 @@
+6
+
+@ent4 is a collection of bathhouses , associated buildings , and gardens located at @ent1 in the city of @ent2 , @ent3 .
+
+national parks : the bathhouses on @ent4 in this @ent3 park were modeled on those in @ent5
+
+@ent2
+
+@ent0:
+@ent1:Hot Springs National Park
+@ent2:Hot Springs
+@ent3:Arkansas
+@ent4:Bathhouse Row
+@ent5:Europe

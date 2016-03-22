@@ -1,0 +1,15 @@
+7
+
+  to the southeast is @ent2 , separated by @ent1 .
+
+" in " places : in @ent6 an earthquake struck the island of @ent3 in this nation , killing @ent4 people
+
+@ent0
+
+@ent0:
+@ent1:the Sunda Strait
+@ent2:Java
+@ent3:Sumatra
+@ent4:215
+@ent5:Indonesia
+@ent6:February 1994

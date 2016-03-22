@@ -1,0 +1,13 @@
+5
+
+@ent2 ( @ent3 schloss vaduz ) is the palace and official residence of the prince of @ent4 .
+
+castling : @ent2 overlooks the town of @ent1 in this principality
+
+@ent4
+
+@ent0:
+@ent1:Vaduz
+@ent2:Vaduz Castle
+@ent3:German
+@ent4:Liechtenstein

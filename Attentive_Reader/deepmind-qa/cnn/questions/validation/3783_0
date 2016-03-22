@@ -1,0 +1,14 @@
+6
+
+@ent1 is the brand of lenses produced by @ent2 , including camera lenses for the @ent3 f - mount .
+
+brand names : the company that sold @ent1 lenses in @ent4 started selling cameras under this brand in @ent5
+
+@ent3
+
+@ent0:
+@ent1:Nikkor
+@ent2:Nikon Corporation
+@ent3:Nikon
+@ent4:the 1930s
+@ent5:1946

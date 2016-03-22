@@ -1,0 +1,16 @@
+8
+
+@ent1   can refer to :   people   @ent1 tribe , @ent6 tribe   places   @ent7   @ent1 , @ent3 , largest city in the @ent5 with that name ; named after @ent1 , @ent4 .
+
+@ent2 : this language spoken by the @ent1 tribe shares its name with a state
+
+@ent4
+
+@ent0:
+@ent1:Peoria
+@ent2:NATIVE AMERICAN LANGUAGE
+@ent3:Arizona
+@ent4:Illinois
+@ent5:U.S.
+@ent6:Native American
+@ent7:United States

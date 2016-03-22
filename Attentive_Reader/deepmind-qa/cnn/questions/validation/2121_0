@@ -1,0 +1,14 @@
+6
+
+acceptable risk is a @ent5 novel by @ent1 author @ent2 .
+
+authors : this author of " @ent3 " has been dubbed " @ent4 "
+
+@ent2
+
+@ent0:
+@ent1:American
+@ent2:Robin Cook
+@ent3:Acceptable Risk
+@ent4:The Master of the Medical Thriller
+@ent5:1995

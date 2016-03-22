@@ -1,0 +1,18 @@
+10
+
+@ent1 @ent2 ( ; born @ent3 @ent6 ) is a @ent9 politician , who served as the 47th prime minister of @ent5 from @ent7 to @ent8 .
+
+take me to your leader : europe:prime minister @ent2
+
+@ent5
+
+@ent0:
+@ent1:Guy Maurice Marie
+@ent2:Louise Verhofstadt
+@ent3:11
+@ent4:Guy Verhofstadt
+@ent5:Belgium
+@ent6:April 1953
+@ent7:1999
+@ent8:2008
+@ent9:Belgian

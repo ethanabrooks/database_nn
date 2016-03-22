@@ -1,0 +1,15 @@
+7
+
+the garden island is a @ent1 newspaper based in @ent2 , @ent6 , covering the islands of @ent5 and @ent3 .
+
+island nicknames : " @ent4 " of @ent6
+
+@ent5
+
+@ent0:
+@ent1:daily
+@ent2:Lihue
+@ent3:Niihau
+@ent4:The Garden Island
+@ent5:Kauai
+@ent6:Hawaii

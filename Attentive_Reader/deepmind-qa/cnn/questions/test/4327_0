@@ -1,0 +1,14 @@
+6
+
+  freetown is the capital and largest city of @ent1 .
+
+@ent2 countries : this west @ent4 country 's city of @ent3 was founded in @ent5 as a haven for freed slaves
+
+@ent1
+
+@ent0:
+@ent1:Sierra Leone
+@ent2:2-WORD
+@ent3:Freetown
+@ent4:African
+@ent5:1787

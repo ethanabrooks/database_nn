@@ -1,0 +1,15 @@
+7
+
+@ent6 erected the stone monument—stonehenge—on the site to show his remorse for the deed .
+
+" n " @ent1 : @ent2 around @ent3 , @ent4 's construction belongs to this " new stone " time period
+
+@ent0
+
+@ent0:
+@ent1:MASSE
+@ent2:Begun
+@ent3:5,000 years ago
+@ent4:Stonehenge
+@ent5:Neolithic
+@ent6:Hengist

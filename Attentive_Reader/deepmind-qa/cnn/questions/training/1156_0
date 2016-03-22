@@ -1,0 +1,16 @@
+8
+
+it is neighboured by   @ent6 to its east and by @ent3 to its north , west and south .
+
+@ent7 : @ent4 , @ent5 is surrounded by @ent6 on @ent1 side & this country on the other @ent2
+
+@ent3
+
+@ent0:
+@ent1:1
+@ent2:3
+@ent3:South Africa
+@ent4:Landlocked
+@ent5:Swaziland
+@ent6:Mozambique
+@ent7:SWAZILAND

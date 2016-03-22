@@ -1,0 +1,15 @@
+7
+
+" @ent6 " is a short story published in @ent2 by @ent3 writer @ent5 .
+
+novelists : this author , a native of @ent4 , @ent1 , wrote about witchcraft in the @ent4 area in @ent2 's " @ent6 "
+
+@ent5
+
+@ent0:
+@ent1:Mass.
+@ent2:1835
+@ent3:American
+@ent4:Salem
+@ent5:Nathaniel Hawthorne
+@ent6:Young Goodman Brown

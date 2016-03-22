@@ -1,0 +1,13 @@
+5
+
+@ent1 is a large brewery in @ent3 owned by @ent4 - brazilian company @ent2 .
+
+where in the world is your hq ? : @ent1
+
+@ent3
+
+@ent0:
+@ent1:Grupo Modelo
+@ent2:Anheuser-Busch InBev
+@ent3:Mexico
+@ent4:Belgian

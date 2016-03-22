@@ -1,0 +1,16 @@
+8
+
+@ent1 is an area in @ent4 that is the current site of @ent7 , a baseball venue in @ent6 , @ent2 .
+
+@ent3 cities : this city 's @ent5 team plays its home games in @ent1
+
+@ent6
+
+@ent0:
+@ent1:Chavez Ravine
+@ent2:California
+@ent3:U.S.
+@ent4:Sulphur Canyon
+@ent5:Major League Baseball
+@ent6:Los Angeles
+@ent7:Dodger Stadium

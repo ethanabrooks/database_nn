@@ -1,0 +1,11 @@
+3
+
+  " @ent2 " ( ) is the national anthem of @ent1 .
+
+national anthems : " @ent2 "
+
+@ent1
+
+@ent0:
+@ent1:France
+@ent2:La Marseillaise

@@ -1,0 +1,17 @@
+9
+
+@ent2 was the primary airport serving @ent5 , @ent6 , @ent8 from @ent3 to @ent1 .
+
+state capitals : @ent2 in this capital is @ent4 of the @ent7 's busiest
+
+@ent5
+
+@ent0:
+@ent1:1995
+@ent2:Stapleton International Airport
+@ent3:1929
+@ent4:one
+@ent5:Denver
+@ent6:Colorado
+@ent7:USA
+@ent8:United States

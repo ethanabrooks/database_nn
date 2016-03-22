@@ -1,0 +1,14 @@
+6
+
+@ent2 is an @ent5 @ent1 newspaper published in @ent3 .
+
+@ent4 : @ent2
+
+@ent3
+
+@ent0:
+@ent1:daily
+@ent2:The Arizona Republic
+@ent3:Phoenix
+@ent4:NEWSPAPER TOWNS
+@ent5:American

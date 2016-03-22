@@ -1,0 +1,14 @@
+6
+
+@ent5 ;   pp .
+
+museums : @ent1 donated his @ent2 doll collection to @ent4 in this state capital
+
+@ent0
+
+@ent0:
+@ent1:Barry Goldwater
+@ent2:Kachina
+@ent3:Phoenix
+@ent4:the Heard Museum
+@ent5:ISBN 978-0-7643-4429-9

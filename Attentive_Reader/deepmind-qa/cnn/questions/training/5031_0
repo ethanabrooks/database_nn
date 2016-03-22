@@ -1,0 +1,13 @@
+5
+
+@ent4 is the highest point in @ent3 .
+
+islands : this country 's highest peak , @ent4 , lies @ent1 west of @ent2
+
+@ent3
+
+@ent0:
+@ent1:about 100 miles
+@ent2:Guantanamo Bay
+@ent3:Cuba
+@ent4:Pico Turquino
