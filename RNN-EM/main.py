@@ -13,6 +13,7 @@ from rnn_em import model
 from is13.data import load
 from is13.metrics.accuracy import conlleval
 from is13.utils.tools import shuffle, minibatch, contextwin
+from spacy import English
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -24,7 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--n_memory_slots', type=int, default=1, help='Memory slots')
     parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
     parser.add_argument('--seed', type=int, default=345, help='Seed')
-    parser.add_argument('--bs', type=int, default=64, help='Number of backprop through time steps')
+    parser.add_argument('--bs', type=int, default=8, help='Number of backprop through time steps')
     parser.add_argument('--win', type=int, default=7, help='Number of words in context window')
     parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
     parser.add_argument('--lr', type=float, default=0.0627142536696559, help='Learning rate')
@@ -50,6 +51,7 @@ if __name__ == '__main__':
         test_lex, test_y = test
         lex, y, input_target_tuples = ([] for _ in range(3))
         dic = {'*': 0}
+        tokenizer = English(parser=False)
 
 
         def to_int(word):
@@ -61,7 +63,7 @@ if __name__ == '__main__':
 
 
         def to_array(string):
-            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+            tokens = [token.lower_ for token in tokenizer(unicode(string, 'utf-8'))]
             sentence_vector = numpy.empty(len(tokens), dtype=int)
             for i, word in enumerate(tokens):
                 sentence_vector[i] = to_int(word)
