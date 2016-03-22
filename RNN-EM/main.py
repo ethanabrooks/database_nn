@@ -9,6 +9,7 @@ import subprocess
 import os
 import random
 from rnn_em import model
+from spacy import English
 from is13.data import load
 from is13.metrics.accuracy import conlleval
 from is13.utils.tools import shuffle, minibatch, contextwin
@@ -49,6 +50,7 @@ if __name__ == '__main__':
         test_lex, test_y = test
         lex, y, input_target_tuples = ([] for _ in range(3))
         dic = {'*': 0}
+        tokenizer = English(parser=False)
 
 
         def to_int(word):
@@ -60,7 +62,8 @@ if __name__ == '__main__':
 
 
         def to_array(string):
-            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+            # tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+            tokens = [token.lower_ for token in tokenizer(unicode(string, 'utf-8'))]
             sentence_vector = numpy.empty(len(tokens), dtype=int)
             for i, word in enumerate(tokens):
                 sentence_vector[i] = to_int(word)
