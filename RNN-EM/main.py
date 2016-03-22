@@ -15,20 +15,22 @@ from is13.utils.tools import shuffle, minibatch, contextwin
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--debug', help='Set test = train = valid',
+            action='store_true')
     parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
     parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
     parser.add_argument('--emb_size', type=int, default=100, help='Embedding size')
     parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
     parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
     parser.add_argument('--seed', type=int, default=345, help='Seed')
-    parser.add_argument('--bs', type=int, default=9, help='Number of backprop through time steps')
+    parser.add_argument('--bs', type=int, default=64, help='Number of backprop through time steps')
     parser.add_argument('--win', type=int, default=7, help='Number of words in context window')
     parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
     parser.add_argument('--lr', type=float, default=0.0627142536696559, help='Learning rate')
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=2000,
+    parser.add_argument('--num_questions', type=int, default=20,
                         help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
@@ -86,14 +88,17 @@ if __name__ == '__main__':
             for line in inputs:
                 if new_question:
                     num_questions += 1
-                    # determine train, valid, or test
-                    random_num = random.random()
-                    if random_num < .7:  # 70% percent of the time
+                    if s.debug:
                         set = train
-                    elif random_num < .8:  # 10% percent of the time
-                        set = valid
-                    else:  # 20% percent of the time
-                        set = test
+                    else:
+                        # determine train, valid, or test
+                        random_num = random.random()
+                        if random_num < .7:  # 70% percent of the time
+                            set = train
+                        elif random_num < .8:  # 10% percent of the time
+                            set = valid
+                        else:  # 20% percent of the time
+                            set = test
                     lex, y = set
 
                     append_to_set(to_instance(line))  # question
@@ -118,6 +123,9 @@ if __name__ == '__main__':
                         break
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
+        if s.debug:
+            test = train.copy()
+            valid = train.copy()
 
     else:
         train_set, valid_set, test_set, dic = load.atisfold(s.fold)
