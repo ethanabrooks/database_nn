@@ -5,7 +5,7 @@ import random as rand
 from spacy.en import English
 from wiki_nlp_util import *
 
-DATA_PATH_TRAIN = 'qa_files/train/'
+DATA_PATH_TRAIN = 'qa_files/training/'
 DATA_PATH_TEST = 'qa_files/test/'
 DATA_PATH_VALIDATION = 'qa_files/validation/'
 
