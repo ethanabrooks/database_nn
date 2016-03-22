@@ -1,17 +1,13 @@
-9
+5
 
-  in popular culture   @ent4 @ent7 , a successful 1958–1964 tv series , was set on the @ent6 between @ent8 and @ent1 , although the address was fictional as street numbers there run in the @ent5 .
+dr. @entity3 was a fictional medical doctor from the television series @entity1 , portrayed by the actor @entity2 .
 
-@ent3 : @ent7 address of detectives @ent2 & jeff spencer
+tv stars : this actor who plays dr. @entity3 on " er " became the @entity4 cast member to direct an episode
 
-@ent4
+@entity2
 
-@ent0:
-@ent1:Alta Loma Road
-@ent2:Stu Bailey
-@ent3:BLACK & WHITE TV
-@ent4:77
-@ent5:7000-8000s
-@ent6:Strip
-@ent7:Sunset Strip
-@ent8:La Cienega Boulevard
+@entity0:
+@entity1:ER
+@entity2:Anthony Edwards
+@entity3:Mark Greene
+@entity4:first

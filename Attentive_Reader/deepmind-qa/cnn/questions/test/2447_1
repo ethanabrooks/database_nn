@@ -1,16 +1,14 @@
-8
+6
 
-@ent7 of the @ent5 songs are written by @ent1 .
+@entity5 and @entity2 entertain themselves in the apartment that they are watching while its owners are on vacation by taking some pictures of @entity2 where @entity5 has made her up to look like she has been brutally beaten .
 
-good bad guys on tv : in @ent6 @ent3 rocked a billy idol look as @ent4 , a bloodsucker on this show
+film directors : this director of " @entity3 " learned his trade making industrial films in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Marsters
-@ent2:Buffy the Vampire Slayer
-@ent3:James Marsters
-@ent4:Spike
-@ent5:eleven
-@ent6:1997
-@ent7:Ten
+@entity0:
+@entity1:Kansas City
+@entity2:Honey
+@entity3:Short Cuts
+@entity4:Robert Altman
+@entity5:Bill

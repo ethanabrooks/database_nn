@@ -1,17 +1,14 @@
-9
+6
 
-@ent4 ( ; ; born @ent3 @ent2 ) is a @ent7 politician , who served as the president of @ent1 from @ent8 to 2007 .
+( ) is a municipality in @entity1 , @entity5 .
 
-i'll take the country from here , thanks : @ent5 , from @ent6
+do it like the europeans : chartered in @entity2 , the town of @entity4 in this country is the northernmost town in @entity3
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:France
-@ent2:November 1932
-@ent3:29
-@ent4:Jacques René Chirac
-@ent5:Nicolas Sarkozy
-@ent6:Jacques Chirac
-@ent7:French
-@ent8:1995
+@entity0:
+@entity1:Finnmark county
+@entity2:1789
+@entity3:Europe
+@entity4:Hammerfest
+@entity5:Norway

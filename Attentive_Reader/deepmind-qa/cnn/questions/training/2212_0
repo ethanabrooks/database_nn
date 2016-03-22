@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 recorded @ent1 's " @ent4 " as an audio cassette book , and cash can be heard talking about @ent1 's work on a track called " book review " on @ent3 .
+  the @entity3 collection of work by @entity4 poet @entity6 , poems , chiefly in the @entity4 dialect , was published here in @entity5 , and became known as the @entity2 volume .
 
-audio literature : he 's the singer reading here from " @ent4 " by @ent5
+poets : his poems , chiefly in the @entity4 dialect , was first published @entity1 , in @entity2
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:Gibran
-@ent2:Johnny Cash
-@ent3:Unearthed
-@ent4:The Eye of the Prophet
-@ent5:Kahlil Gibran
+@entity0:
+@entity1:July 31, 1786
+@entity2:Kilmarnock
+@entity3:first
+@entity4:Scottish
+@entity5:1786
+@entity6:Robert Burns

@@ -1,14 +1,13 @@
-6
+5
 
-@ent1 penn state wins restored .
+  salon 240px|thumb|napoleon
 
-abbrev. : @ent2 has @ent3 coaching wins coaching here : this is @ent4
+art - full : as official battle painter to this emperor , @entity2 painted " @entity3 " in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Joe Paterno's
-@ent2:Joe Paterno
-@ent3:over 330
-@ent4:PSU
-@ent5:Penn State University
+@entity0:
+@entity1:1804
+@entity2:Antoine-Jean Gros
+@entity3:The Plague at Jaffa
+@entity4:Napoleon Bonaparte

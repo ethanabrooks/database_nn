@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 and @ent4 wrote the screenplay , with @ent3 writing the film 's story and serving as executive producer .
+@entity1 ( isu ) is a @entity2 doctoral research and teaching institution in the western @entity4 , located in @entity3 , @entity6 .
 
-people : this director of " @ent1 " broke into films as co - author of the screenplay for " @ent5 "
+" po"pourri : named for a bannock @entity5 chief , it 's home to @entity1
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:The Big Chill
-@ent2:Leigh Brackett
-@ent3:George Lucas
-@ent4:Lawrence Kasdan
-@ent5:The Empire Strikes Back
+@entity0:
+@entity1:Idaho State University
+@entity2:Carnegie-classified
+@entity3:Pocatello
+@entity4:United States
+@entity5:Indian
+@entity6:Idaho

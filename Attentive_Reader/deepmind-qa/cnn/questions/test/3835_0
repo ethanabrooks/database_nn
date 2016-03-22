@@ -1,33 +1,18 @@
-25
+10
 
-  @ent18 designed costumes for films including @ent13 ( @ent24 ) , starring @ent3 , tales of manhattan ( @ent5 ) for @ent23 , @ent10 ( @ent16 ) , it 's a joke son ! ( @ent21 ) , born to speed ( @ent21 ) , @ent8 ( @ent21 ) , the ghost and mrs. @ent9 ( @ent21 ) , that wonderful urge ( @ent11 ) , @ent4 ( @ent19 ) , night and the city ( @ent17 ) , where the sidewalk ends ( @ent17 ) , as well as @ent22 , close to my heart , on the riviera ( all @ent1 ) , rampage ( @ent20 ) , @ent7 ( @ent2 ) , @ent12 ( @ent2 ) , peligro ... !
+@entity5 before the visit of president @entity3 to @entity7 , @entity1 agent @entity9 removed the name of @entity4 from the bureau 's watch list of persons requiring surveillance .
 
-@ent14 : @ent15 was once married to this beautiful movie star of @ent6
+major @entity8 : he began working at @entity2 in @entity6
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:1951
-@ent2:1966
-@ent3:Gene Tierney
-@ent4:Whirlpool
-@ent5:1942
-@ent6:the 1940s
-@ent7:The Tammy Grimes Show
-@ent8:Lost Honeymoon
-@ent9:Muir
-@ent10:The Razor’s Edge
-@ent11:1948
-@ent12:The Day Dreamer
-@ent13:The Shanghai Gesture
-@ent14:GENE POOL
-@ent15:Oleg Cassini
-@ent16:1946
-@ent17:1950
-@ent18:Cassini
-@ent19:1949
-@ent20:1963
-@ent21:1947
-@ent22:The Mating Season
-@ent23:Rita Hayworth
-@ent24:1941
+@entity0:
+@entity1:FBI
+@entity2:the Texas School Book Depository
+@entity3:Kennedy
+@entity4:Lee Harvey Oswald
+@entity5: Six weeks
+@entity6:October 1963
+@entity7:Dallas
+@entity8:LEES
+@entity9:Marvin Gheesling

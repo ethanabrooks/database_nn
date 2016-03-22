@@ -1,19 +1,14 @@
-11
+6
 
-  film , television and theatre @ent7 has appeared in @ent9 @ent5 , as well as the film adaptation of @ent2 , for which he won a @ent6 in @ent3 .
+although she successfully petitioned her boss to adjust her character 's personality , a deranged fan tried to kill @entity1 out of hatred for the actions of her soap opera character .
 
-@ent1 ? : peterborough 's @ent4 created the role of this author in the ballet " @ent10 "
+@entity2 : @entity5 slings plates at @entity3 in this 2002 superhero film
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:CANADIAN BAL-EH
-@ent2:The Four Seasons
-@ent3:2000
-@ent4:Rex Harrington
-@ent5:The January Man
-@ent6:Gemini Award
-@ent7:Harrington
-@ent8:Lewis Carroll
-@ent9:Norman Jewison's
-@ent10:Alice
+@entity0:
+@entity1:Mary Jane
+@entity2:DINNER & A MOVIE
+@entity3:the Moondance Diner
+@entity4:Spider-Man
+@entity5:Mary Jane Watson

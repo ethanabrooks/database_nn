@@ -1,15 +1,14 @@
-7
+6
 
-  in the @ent5 and @ent3 toffee flavoured frosties - frosties with the taste of toffee ( tony - new kelloggs toffee flavoured frosties , an explosion of toffee taste , for a limited time only , they 're great ! ( limited time only ) ) frosties chocolate - frosties with the taste of chocolate ( tony - new kelloggs frosties chocolate , discover the dark side !
+@entity2 ( born @entity1 ) is an @entity5 artist who has illustrated more than two dozen children 's picture books since @entity3 .
 
-the tiger : @ent2 the @ent1 is the gr - r-reat spokescat for this company 's @ent6
+city of birth : mad magazine illustrator @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tiger
-@ent2:Tony
-@ent3:Ireland
-@ent4:Kellogg
-@ent5:UK
-@ent6:Frosted Flakes
+@entity0:
+@entity1:March 16, 1955
+@entity2:James Warhola
+@entity3:1987
+@entity4:Pittsburgh
+@entity5:American

@@ -1,17 +1,19 @@
-9
+11
 
-@ent4 is a @ent2 @ent5 action - thriller starring @ent7 and @ent1 ( in his final film ) as leaders of an elite squad of @ent8 troops based on the real life @ent6 @ent3 unit .
+  discoveries @entity7 discovered @entity2 natural satellites of planets in @entity9 , namely @entity3 's satellite @entity5 and @entity1 's satellite @entity6 .
 
-special ops movies : the hijackers in " @ent4 " did n't reckon with this man as major mccoy--mike huckabee could have warned them
+science guys : in @entity10 @entity8 discovered @entity5 , a moon of @entity4 , a moon of this planet
 
-@ent7
+@entity1
 
-@ent0:
-@ent1:Lee Marvin
-@ent2:1986
-@ent3:Delta Force
-@ent4:The Delta Force
-@ent5:American
-@ent6:U.S. Army
-@ent7:Chuck Norris
-@ent8:Special Forces
+@entity0:
+@entity1:Neptune
+@entity2:two
+@entity3:Uranus
+@entity4:Uranus & Nereid
+@entity5:Miranda
+@entity6:Nereid
+@entity7:Kuiper
+@entity8:Gerard Kuiper
+@entity9:the Solar System
+@entity10:the 1940s

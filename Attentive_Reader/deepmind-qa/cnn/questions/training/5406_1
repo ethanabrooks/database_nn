@@ -1,15 +1,14 @@
-7
+6
 
-@ent2 was born in @ent6 branch on @ent5 .
+the emperor considered other possibilities .
 
-vice presidents : @ent1 was such a good vp that this president did n't replace him after he died in @ent4
+famous women : in @entity1 @entity3 , queen of @entity4 and @entity2 , gave birth to this future queen
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Garret Hobart
-@ent2:Garret
-@ent3:William McKinley
-@ent4:1899
-@ent5:June 3, 1844
-@ent6:Long
+@entity0:
+@entity1:1755
+@entity2:Bohemia
+@entity3:Maria Theresa
+@entity4:Hungary
+@entity5:Marie Antoinette

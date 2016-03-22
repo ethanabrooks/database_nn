@@ -1,15 +1,15 @@
 7
 
-all @ent1 men , who were members of @ent3 , were convicted and sentenced to life in prison .
+@entity1 .
 
-notable names : coretta @ent6 was among the speakers at the @ent4 funeral of @ent2 , this man 's widow
+@entity3 you learned your african capitals : in @entity2 the capital of this republic of @entity6 was moved from @entity4 to niamey
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:three
-@ent2:Betty Shabazz
-@ent3:the Nation of Islam
-@ent4:1997
-@ent5:Malcolm X
-@ent6:Scott King
+@entity0:
+@entity1:Scarecrow Press/ Metuchen
+@entity2:1926
+@entity3:HOPE
+@entity4:Zinder
+@entity5:Niger
+@entity6:Northwest Africa

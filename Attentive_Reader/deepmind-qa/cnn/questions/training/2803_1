@@ -1,13 +1,12 @@
-5
+4
 
-oedipus killed his father @ent1 and married his mother without knowing his relationship to either .
+  @entity1 .
 
-mr. & myth : while king of this city , @ent4 was killed by one of the @ent3 against it
+hey " u " ! : @entity3 is its capital
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Laius
-@ent2:Thebes
-@ent3:seven
-@ent4:Eteocles
+@entity0:
+@entity1:thumb|Gaddafi National Mosque
+@entity2:Uganda
+@entity3:Kampala

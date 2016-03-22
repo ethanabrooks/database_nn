@@ -1,15 +1,24 @@
-7
+16
 
-" younger than springtime " is a show tune from the @ent6 @ent4 and @ent5 musical @ent1 .
+the company 's brands include @entity7 , @entity3 , @entity3 , @entity12 , @entity5 , @entity12 , @entity1 , @entity10 , pop - tarts , @entity2 , @entity9 , @entity6 , @entity11 , @entity14 , and many more .
 
-killer musicals : lt . cable gets to sing " @ent3 " before he 's killed on a tropical island in this @ent2 - set musical
+what 's for breakfast ? : grab @entity15 of these cereal bars from @entity8 , either the original or the twist
 
-@ent1
+@entity11
 
-@ent0:
-@ent1:South Pacific
-@ent2:WWII
-@ent3:Younger Than Springtime
-@ent4:Rodgers
-@ent5:Hammerstein
-@ent6:1949
+@entity0:
+@entity1:Keebler
+@entity2:Kashi
+@entity3:Frosted Flakes
+@entity4:Corn Flakes
+@entity5:Special K
+@entity6:Eggo
+@entity7:Froot Loops
+@entity8:Kellogg's
+@entity9:Cheez-It
+@entity10:Pringles
+@entity11:Nutri-Grain
+@entity12:Cocoa Krispies
+@entity13:Rice Krispies
+@entity14:Morningstar Farms
+@entity15:one

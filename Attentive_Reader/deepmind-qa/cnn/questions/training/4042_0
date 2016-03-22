@@ -1,14 +1,16 @@
-6
+8
 
-@ent3 ( ;   " near the woods " ) is the capital and largest city of the state of @ent5 in @ent4 .
+eurythmics were a @entity4 music duo consisting of members @entity7 and @entity3 .
 
-world cities : the silver baron @ent1 laid out the famous @ent2 in @ent3 in this country
+singers : from @entity1 , this lead singer of @entity2 studied at @entity5 's @entity6
 
-@ent4
+@entity7
 
-@ent0:
-@ent1:Jose de la Borda
-@ent2:Borda Gardens
-@ent3:Cuernavaca
-@ent4:Mexico
-@ent5:Morelos
+@entity0:
+@entity1:age 17 to 20
+@entity2:Eurythmics
+@entity3:David A. Stewart
+@entity4:British
+@entity5:London
+@entity6:Royal Academy of Music
+@entity7:Annie Lennox

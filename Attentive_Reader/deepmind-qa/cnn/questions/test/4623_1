@@ -1,17 +1,14 @@
-9
+6
 
-@ent2 , p. @ent1
+@entity1 , @entity2 14 , 2009 )
 
-@ent5 governors : in @ent8 this state 's voters went bananas for @ent7 , who succeeded @ent4 @ent6
+movies : @entity4 was " @entity5 " playing this great folk singer
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:81
-@ent2:Honeycutt
-@ent3:Louisiana
-@ent4:4-termer
-@ent5:U.S.
-@ent6:Edwin Edwards
-@ent7:Mike Foster
-@ent8:1995
+@entity0:
+@entity1:Searle
+@entity2:Robert (July
+@entity3:Woody Guthrie
+@entity4:David Carradine
+@entity5:Bound for Glory

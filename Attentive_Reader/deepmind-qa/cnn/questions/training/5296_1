@@ -1,14 +1,12 @@
-6
+4
 
-the act also abolished the parish as a unit of local government in @ent2 .
+  travellers to pitcairn are usually brought in by longboat into @entity2 .
 
-" bert"days : a warrior ruler : @ent5 in @ent4
+pacific islands : @entity1 , this island 's only village , is located on its northern coast near @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bruce
-@ent2:Scotland
-@ent3:Robert
-@ent4:Ayrshire
-@ent5:July 11, 1274
+@entity0:
+@entity1:Adamstown
+@entity2:Bounty Bay
+@entity3:Pitcairn Island

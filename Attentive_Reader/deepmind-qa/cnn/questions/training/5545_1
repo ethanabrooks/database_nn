@@ -1,14 +1,14 @@
 6
 
-@ent3 people were killed and @ent2 injured , @ent4 of whom lost limbs .
+these represent vices such as @entity5 and @entity1 , contrasting with the virtues of helvetia antiqua ( not shown in the painting ) .
 
-the end of the marathon : in @ent5
+nation"z " : its @entity3 name , @entity2 , appears on its coins & stamps
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Boston Marathon
-@ent2:at least 183
-@ent3:Three
-@ent4:at least 14
-@ent5:Copley Square
+@entity0:
+@entity1:Avaritia
+@entity2:Helvetia
+@entity3:Latin
+@entity4:Switzerland
+@entity5:Voluptas

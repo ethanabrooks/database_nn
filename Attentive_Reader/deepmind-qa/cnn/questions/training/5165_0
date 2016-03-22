@@ -1,12 +1,15 @@
-4
+7
 
-the tale of mrs. @ent1 is a children 's book written and illustrated by @ent2 .
+in @entity1 , he appeared in a closing segment called " @entity5 , " opposite @entity6 and , later , @entity3 .
 
-all about authors : this author of " @ent3 " looked a bit like mrs. @ent1 when she wore a frilled white cap
+@entity2 minutes : in the late ' 70s the debates were between the conservative @entity4 & this liberal woman
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Tiggy-Winkle
-@ent2:Beatrix Potter
-@ent3:The Tale of Mrs. Tiggy-Winkle
+@entity0:
+@entity1:the 1970s
+@entity2:60
+@entity3:Shana Alexander
+@entity4:James J. Kilpatrick
+@entity5:Point-Counterpoint
+@entity6:Nicholas von Hoffman

@@ -1,13 +1,14 @@
-5
+6
 
-maracaibo ( ) is a city and municipality in northwestern @ent4 , on the western shore of the strait that connects @ent2 to the gulf of @ent4 .
+@entity4 used a @entity5 model 1866 , caliber .50 - 70 rifle , nicknamed @entity3 , to shoot buffalo for feeding the track workers employed by @entity1 during the construction of @entity1 .
 
-geography : @ent1 is the @ent3 - largest city in this country
+the old west : he called his buffalo gun @entity3
 
-@ent4
+@entity4
 
-@ent0:
-@ent1:Maracaibo
-@ent2:Lake Maracaibo
-@ent3:second
-@ent4:Venezuela
+@entity0:
+@entity1:the Transcontinental Railroad
+@entity2:Kansas Pacific Railroad
+@entity3:Lucrezia Borgia
+@entity4:Buffalo Bill Cody
+@entity5:Springfield

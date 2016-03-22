@@ -1,13 +1,14 @@
-5
+6
 
-@ent3 is a remote valley on the northeast coast of @ent1 island .
+" redneck games " is also the name of a duet song by comedian @entity1 and country music artist @entity3 .
 
-waterfalls : @ent2 in this island 's @ent3 has a single drop of @ent4 mile
+music videos : this comedian 's @entity2 parody " @entity5 " was nominated for @entity4 of the year
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Hawaii
-@ent2:Waihilau Falls
-@ent3:Waimanu Valley
-@ent4:almost a half
+@entity0:
+@entity1:Jeff Foxworthy
+@entity2:Olympics
+@entity3:Alan Jackson
+@entity4:CMA Video
+@entity5:Redneck Games

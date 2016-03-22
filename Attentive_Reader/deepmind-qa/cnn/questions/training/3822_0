@@ -1,18 +1,13 @@
-10
+5
 
-in @ent2 he defeated @ent8 by tko in the @ent7 round , after flooring @ent9 @ent4 times in that round , to win @ent6 .
+a sport of nature   is a @entity3 novel by the @entity1 writer @entity2 .
 
-sports : when he ko'd @ent1 , @ent5 , he became @ent3 man to regain heavyweight championship
+world novelists : this female @entity1 's novels include " my son 's story " and " @entity4 "
 
-@ent8
+@entity2
 
-@ent0:
-@ent1:Ingemar Johansson
-@ent2:1959
-@ent3:1st
-@ent4:seven
-@ent5:6/20/60
-@ent6:the World Heavyweight Championship
-@ent7:third
-@ent8:Floyd Patterson
-@ent9:Patterson
+@entity0:
+@entity1:South African
+@entity2:Nadine Gordimer
+@entity3:1987
+@entity4:A Sport of Nature

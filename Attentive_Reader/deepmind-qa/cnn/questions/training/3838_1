@@ -1,22 +1,15 @@
-14
+7
 
-@ent2 , produced by " @ent5 " ( @ent6 na noibreacha poibli ) , glendalough , @ent13 .
+the " schultheiss " of @entity1 changed @entity5 until @entity6 was cancelled in @entity2 .
 
-the viking ship museum : ( @ent1 of @ent12 reports from @ent11 in @ent4 , @ent3 . ) @ent7 is a reconstruction of a ship built of oak from near @ent8 on this island , which suffered its first recorded viking raids in @ent10
+architecture : his school in @entity1 , @entity3 was designed as a set of transparent , free - flowing volumes
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jimmy
-@ent2:Glendalough Visitors Guide
-@ent3:Denmark
-@ent4:Roskilde
-@ent5:The Office of Public Works
-@ent6:Oifig
-@ent7:The Sea Stallion
-@ent8:Glendalough
-@ent9:Ireland
-@ent10:795
-@ent11:the Viking Ship Museum
-@ent12:the Clue Crew
-@ent13:County Wicklow
+@entity0:
+@entity1:Dessau
+@entity2:1832
+@entity3:Germany
+@entity4:Walter Gropius
+@entity5:nearly every year
+@entity6:the Town Council Constitution

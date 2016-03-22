@@ -1,14 +1,18 @@
-6
+10
 
-they are located in the central @ent5 , encompassing north - central @ent1 and a small portion of south - central @ent4 .
+  career   most of @entity2 's early films were shot around @entity7 , primarily at the @entity6 studios in @entity1 , @entity8 .
 
-sometimes a great ocean : a sea once covered most of the @ent3 ; aquatic dinosaur fossils abound in this sunflower state 's @ent2
+the @entity9 - atlantic states : @entity5 , @entity4 , and @entity3 were among those who made movies in @entity1 in this state
 
-@ent1
+@entity8
 
-@ent0:
-@ent1:Kansas
-@ent2:Smoky Hills
-@ent3:Midwest
-@ent4:Nebraska
-@ent5:United States
+@entity0:
+@entity1:Fort Lee
+@entity2:Bara
+@entity3:Theda Bara
+@entity4:Pearl White
+@entity5:Mary Pickford
+@entity6:Fox
+@entity7:the East Coast
+@entity8:New Jersey
+@entity9:MID

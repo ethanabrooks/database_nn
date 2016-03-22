@@ -1,15 +1,13 @@
-7
+5
 
-  @ent2 ships , commanded by @ent1 , reach @ent5 and @ent4 for the @ent3 time .
+is the largest and only permanently populated island of the svalbard archipelago in northern @entity1 .
 
-early man : homo erectus reached this island between 1 & 2 million b.c. ; homo dutch traderensis , in @ent6 a.d.
+way up north : in this country @entity3 people live in @entity4 fewer than 5,000 live way up north on the island of @entity2
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Frederick de Houtman
-@ent2:Dutch
-@ent3:first
-@ent4:Java
-@ent5:Sumatra
-@ent6:1596
+@entity0:
+@entity1:Norway
+@entity2:Spitsbergen
+@entity3:200,000
+@entity4:Bergen &

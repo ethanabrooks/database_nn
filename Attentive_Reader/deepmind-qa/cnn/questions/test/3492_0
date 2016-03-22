@@ -1,20 +1,15 @@
-12
+7
 
-  @ent6 's next victory on tour was her @ent5 @ent2 singles title at the @ent8 us open , defeating @ent11 - ranked @ent3 in the semifinals and top - ranked @ent1 in the final .
+she was the @entity4 woman to swim @entity5 in both directions , setting a time record each time .
 
-sports @ent7 : she dispatched sister @ent10 at @ent4 on to defeat @ent9 for the title
+@entity1 : @entity2 swam this body of water from @entity3 to dover
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:Hingis
-@ent2:Grand Slam
-@ent3:Venus Williams
-@ent4:Wimbledon & went
-@ent5:first
-@ent6:Davenport
-@ent7:2000
-@ent8:1998
-@ent9:Lindsay Davenport
-@ent10:Serena
-@ent11:fifth
+@entity0:
+@entity1:1950
+@entity2:Florence Chadwick
+@entity3:Cap Gris-Nez
+@entity4:first
+@entity5:the English Channel
+@entity6:The English Channel

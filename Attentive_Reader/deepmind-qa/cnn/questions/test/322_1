@@ -1,13 +1,15 @@
-5
+7
 
-   theatres and cinemas   theatre in the city include the teatro manzoni , the teatro villoresi , the teatro binario 7 .
+   plot   walkerrichard greenberg , @entity6 : a play , @entity1 : grove , 1997 .
 
-assassinations : @ent3 i , king of this country , was assassinated in @ent1 in @ent4
+@entity3 debuts : in @entity2 , in her first big project since giving birth to twins , she starred on @entity4 in " @entity6 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Monza
-@ent2:Italy
-@ent3:Umberto
-@ent4:1900
+@entity0:
+@entity1:New York
+@entity2:2006
+@entity3:BROADWAY
+@entity4:Broadway
+@entity5:Julia Roberts
+@entity6:Three Days of Rain

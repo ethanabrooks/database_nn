@@ -1,15 +1,13 @@
-7
+5
 
-the pair qualified for the @ent6 and @ent4 @ent1 .
+web .
 
-people : @ent5 was only 9 when she began skating with this partner , who was @ent3
+women authors : " @entity4 " , a @entity1 thriller , was a joint effort by @entity2 & this author , her mom
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Winter Olympics
-@ent2:Randy Gardner
-@ent3:11
-@ent4:1980
-@ent5:Tai Babilonia
-@ent6:1976
+@entity0:
+@entity1:Christmas
+@entity2:Carol Higgins Clark
+@entity3:Mary Higgins Clark
+@entity4:Deck The Halls

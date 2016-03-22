@@ -1,18 +1,12 @@
-10
+4
 
-   @ent5    in @ent7 , @ent1 ran for the @ent8 but was defeated by the @ent4 incumbent , future @ent8 majority leader @ent2 , by @ent9 votes .
+, also known as   or @entity2 , is the largest airline in @entity1 .
 
-@ent6 : now @ent8 majority leader , he beat @ent3 by @ent9 votes in @ent7
+airlines ' home countries : @entity3
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Ensign
-@ent2:Harry Reid
-@ent3:John Ensign
-@ent4:Democratic
-@ent5:U.S. Senate
-@ent6:THE 112th CONGRESS
-@ent7:1998
-@ent8:Senate
-@ent9:428
+@entity0:
+@entity1:Japan
+@entity2:ANA
+@entity3:All Nippon Airways

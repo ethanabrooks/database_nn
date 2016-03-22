@@ -1,12 +1,18 @@
-4
+10
 
-@ent2 is a very independent woman who often clashes with the townsfolk , but more often than not she is successful in changing or at the least softening their attitudes .
+in @entity1 , he graduated at @entity9 with a @entity5 in electrical engineering and economics , where he was a phi beta kappa and @entity8 scholar .
 
-i'm not a doctor , but i play one on tv : dr. @ent2
+" t " for @entity6 ? : in @entity7 @entity4 @entity2 resigned from this company 's board of directors
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jane Seymour
-@ent2:Michaela Quinn
-@ent3: Quinn
+@entity0:
+@entity1:1963
+@entity2:John C. Malone
+@entity3:AT&T
+@entity4:Liberty Media's
+@entity5:BA
+@entity6:ONE
+@entity7:July 2001
+@entity8:National Merit
+@entity9:Yale University

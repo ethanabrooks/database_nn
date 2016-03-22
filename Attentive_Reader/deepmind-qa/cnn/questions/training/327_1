@@ -1,14 +1,16 @@
-6
+8
 
-the san fernando valley is about   bounded by @ent3 to the northwest , the simi hills to the west , the santa monica mountains and chalk hills to the south , @ent4 to the east , and the san gabriel mountains to the northeast .
+@entity6 : an allegory of painting , @entity1 , @entity4 , @entity7 .
 
-warner bros. : you can tour the @ent2 lot online , or in person in this @ent5 city
+the state of my birth : @entity6 , @entity3 , @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Burbank
-@ent2:Warner Bros.
-@ent3:the Santa Susana Mountains
-@ent4:the Verdugo Mountains
-@ent5:San Fernando Valley
+@entity0:
+@entity1:1955-1965
+@entity2:Rosalynn Carter
+@entity3:Julia Roberts
+@entity4:Yale University Press
+@entity5:Georgia
+@entity6:Jasper Johns
+@entity7:2007

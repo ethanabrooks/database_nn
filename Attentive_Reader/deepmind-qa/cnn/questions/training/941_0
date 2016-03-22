@@ -1,13 +1,14 @@
-5
+6
 
-killarney ( ; ) is a medium - sized town in @ent3 , southwestern @ent4 .
+  @entity1    the @entity2 take @entity4 .
 
-islands : 3,414-foot - high @ent1 west of @ent2 is the highest peak on this island
+the mediterranean isle where ... : @entity5 reigned until @entity3
 
-@ent4
+@entity4
 
-@ent0:
-@ent1:Carrantuohill
-@ent2:Killarney
-@ent3:County Kerry
-@ent4:Ireland
+@entity0:
+@entity1:June 12
+@entity2:French
+@entity3:1798
+@entity4:Malta
+@entity5:The Knights Hospitaller

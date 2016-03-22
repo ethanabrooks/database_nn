@@ -1,17 +1,15 @@
-9
+7
 
-the @ent4 translation by @ent5 appeared in @ent3 .
+in @entity5 , he was inducted into @entity3 's walk of fame .
 
-french authors : published posthumously in @ent1 , his @ent2 novel , " @ent7 " , features a protagonist named @ent8
+@entity1 ? : peterborough 's @entity6 created the role of this author in the ballet " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1970
-@ent2:first
-@ent3:1972
-@ent4:English
-@ent5:Richard Howard
-@ent6:Albert Camus
-@ent7:A Happy Death
-@ent8:Patrice Mersault
+@entity0:
+@entity1:CANADIAN BAL-EH
+@entity2:Lewis Carroll
+@entity3:Canada
+@entity4:Alice
+@entity5:2005
+@entity6:Rex Harrington

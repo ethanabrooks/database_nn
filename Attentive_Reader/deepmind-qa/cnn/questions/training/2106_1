@@ -1,14 +1,12 @@
-6
+4
 
-   events    by place     europe    @ent1 –
+  being tough on crime was a major plank of @entity3 's campaign for governor .
 
-world history : in @ent3 boleslaw i became this country 's @ent5 king but died within @ent2
+current governors : @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:April 18
-@ent2:the year
-@ent3:1025
-@ent4:Poland
-@ent5:first
+@entity0:
+@entity1:New York
+@entity2:George Pataki
+@entity3:Pataki

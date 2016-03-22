@@ -1,19 +1,17 @@
-11
+9
 
-@ent3 's stint as an aging @ent5 in the @ent2 adaptation @ent6 , my lovely ( @ent1 ) was sufficiently well received by audiences and critics for him to reprise the role in @ent10 's @ent8 .
+  @entity3   @entity6 's opera @entity1 premieres in @entity5 , @entity4 .
 
-film roles : @ent4 , @ent9 & @ent7 have all played this character on film
+whack : an anarchist named @entity7 killed @entity8 of this country in @entity2
 
-@ent5
+@entity4
 
-@ent0:
-@ent1:1975
-@ent2:Raymond Chandler
-@ent3:Mitchum
-@ent4:Dick Powell
-@ent5:Philip Marlowe
-@ent6:Farewell
-@ent7:Elliott Gould
-@ent8:The Big Sleep
-@ent9:Robert Mitchum
-@ent10:1978
+@entity0:
+@entity1:Tosca
+@entity2:1900
+@entity3:January 14
+@entity4:Italy
+@entity5:Rome
+@entity6:Puccini
+@entity7:Bresci
+@entity8:King Umberto

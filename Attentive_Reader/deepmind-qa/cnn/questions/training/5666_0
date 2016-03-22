@@ -1,13 +1,13 @@
 5
 
-right   @ent3 is the municipal park system of @ent2 , @ent4 .
+at the start of @entity1 , he offered his services to his adopted state of @entity3 .
 
-other statues of liberty : for our nation 's centennial , " religious liberty " was housed in this @ent1 city 's @ent3
+we were soldiers : for general @entity4 this war cost him an arm & a leg ( literally ) at @entity2
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Eastern
-@ent2:Philadelphia
-@ent3:Fairmount Park
-@ent4:Pennsylvania
+@entity0:
+@entity1:the Civil War
+@entity2:Gettysburg & Chickamauga
+@entity3:Texas
+@entity4:John Bell Hood

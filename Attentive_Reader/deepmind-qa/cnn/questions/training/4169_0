@@ -1,16 +1,19 @@
-8
+11
 
-@ent5 , who suffered from tuberculosis , wintered in @ent7 in @ent3 upon the recommendation of his @ent1 physician dr. @ent2 .
+@entity2 – dr. @entity8 of @entity7 becomes the @entity5 owner of a @entity1   @entity4 –
 
-at home in europe : while living in @ent7 , @ent4 , far from an ocean , he wrapped up " @ent6 "
+history of the world part 4 : leading to new & better fire codes , the @entity3 @entity9 in this @entity10 @entity6 city killed over 500
 
-@ent5
+@entity7
 
-@ent0:
-@ent1:Edinburgh
-@ent2:George Balfour
-@ent3:1880
-@ent4:Switzerland
-@ent5:Robert Louis Stevenson
-@ent6:Treasure Island
-@ent7:Davos
+@entity0:
+@entity1:Ford Model A.
+@entity2: July 23
+@entity3:1903
+@entity4:July 29
+@entity5:first
+@entity6:U.S.
+@entity7:Chicago
+@entity8:Ernst Pfenning
+@entity9:Iroquois Theatre fire
+@entity10:Midwest

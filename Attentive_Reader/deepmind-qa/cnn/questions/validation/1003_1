@@ -1,15 +1,17 @@
-7
+9
 
-for every @ent6 females @ent5 and over , there were @ent1 males .
+@entity2 falls in love with @entity6 , an older @entity8 who lives in the same building .
 
-islands : the oldest black marble quarries in the @ent4 are on @ent3 in this northeastern lake
+feature film debuts : this movie @entity3 debuted as @entity5 son in " @entity7 " & appeared with her again in " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:92.6
-@ent2:Lake Champlain
-@ent3:Isle La Motte
-@ent4:U.S.
-@ent5:age 18
-@ent6:100
+@entity0:
+@entity1:Blue Sky
+@entity2:Chris
+@entity3:Robin
+@entity4:Chris O'Donnell
+@entity5:Jessica Lange's
+@entity6:Jody
+@entity7:Men Don't Leave
+@entity8:Radiologic Technologist

@@ -1,15 +1,13 @@
-7
+5
 
-for the @ent6 parallel south , closer to the equator than to the south pole , @ent2 is much cooler than areas further inland in terms of summer temperatures , due to cool ocean currents nearby .
+@entity3 kept the house after he became president , using it as a presidential retreat .
 
-@ent5 : the pan - american highway 's southernmost point is @ent2 , @ent3 south of @ent1 in this country
+america : warm springs in this state was home to @entity1 's @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Santiago
-@ent2:Puerto Montt
-@ent3:560 miles
-@ent4:Chile
-@ent5:TRANSPORTATION
-@ent6:41st
+@entity0:
+@entity1:FDR
+@entity2:Little White House
+@entity3:Roosevelt
+@entity4:Georgia

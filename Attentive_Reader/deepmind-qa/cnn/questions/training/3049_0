@@ -1,15 +1,17 @@
-7
+9
 
-@ent5 i appointed him a gentleman of @ent1 , where he served as an organist from at least 1615 until his death .
+a woman under the @entity3 is a @entity7 @entity5 drama film written and directed by @entity6 .
 
-@ent2 blooms : @ent3 organist @ent4 performed at the funeral of this stuart king in @ent6
+movie directors : he directed wife @entity1 to @entity4 @entity2 nominations : for " @entity8 " & " gloria "
 
-@ent5 i
+@entity6
 
-@ent0:
-@ent1:the Chapel Royal
-@ent2:ORLANDO
-@ent3:Famed Westminster Abbey
-@ent4:Orlando Gibbons
-@ent5:James
-@ent6:1625
+@entity0:
+@entity1:Gena Rowlands
+@entity2:Oscar
+@entity3:Influence
+@entity4:2
+@entity5:American
+@entity6:John Cassavetes
+@entity7:1974
+@entity8:A Woman Under the Influence

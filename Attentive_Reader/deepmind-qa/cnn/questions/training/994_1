@@ -1,15 +1,14 @@
-7
+6
 
-it was built in @ent1 in the @ent5 style .
+social stagnation domestically was stimulated by the growing demands of unskilled workers , labour shortages and a decline in productivity and labour discipline .
 
-baby got @ent4 : @ent2 grew up in @ent3 , the city where this reformer translated the new testament at wartburg castle
+all @entity2 presidents : he met with @entity3 on the @entity1 ever presidential visit to @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the mid-18th century
-@ent2:Bach
-@ent3:Eisenach
-@ent4:BACH
-@ent5:Baroque
-@ent6:Martin Luther
+@entity0:
+@entity1:first
+@entity2:ABOUT
+@entity3:Leonid Brezhnev
+@entity4:Nixon
+@entity5:Moscow

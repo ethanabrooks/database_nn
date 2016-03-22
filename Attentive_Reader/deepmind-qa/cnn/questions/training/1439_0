@@ -1,20 +1,18 @@
-12
+10
 
-  in @ent7 , the oil tanker @ent10 ran aground on bligh reef after leaving @ent4 , causing a large oil spill , which resulted in massive damage to the environment , including the killing of around @ent2 seabirds , @ent9 sea otters , @ent1 harbour seals , @ent8 bald eagles and up to @ent6 killer whales .
+@entity2   ( ; born @entity7 @entity5 ) , is a @entity1 politician and a retired @entity3 - star army general who tenured as the @entity6 president of @entity8 from @entity9 until tendering resignation , to avoid impeachment , in @entity4 .
 
-@ent11 : on @ent5 it made headlines after it hit a reef in @ent3
+i'm in charge ! : president @entity2
 
-@ent10
+@entity8
 
-@ent0:
-@ent1:300
-@ent2:250,000
-@ent3:Prince William Sound
-@ent4:Valdez
-@ent5:March 24, 1989
-@ent6:22
-@ent7:1989
-@ent8:250
-@ent9:nearly 3,000
-@ent10:Exxon Valdez
-@ent11:THE 1980s
+@entity0:
+@entity1:Pakistani
+@entity2:Pervez Musharraf
+@entity3:four
+@entity4:2008
+@entity5:August 1943
+@entity6:tenth
+@entity7:11
+@entity8:Pakistan
+@entity9:2001

@@ -1,12 +1,14 @@
-4
+6
 
-her wardrobe consists mostly of jeans and turtleneck sweaters , though she also owns an extremely wrinkle - resistant " little black dress " for those occasions when dressing up is unavoidable .
+the " raggy tune " and " melancholy tone " portray music that is sad , sobering , and grim .
 
-@ent3 : @ent1
+" hugh"s & " hughes " : @entity3 @entity4 winner , among this poet 's works on his life in @entity5 was " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kinsey Millhone
-@ent2:Sue Grafton
-@ent3:AUTHORS & THEIR SLEUTHS
+@entity0:
+@entity1:The Weary Blues
+@entity2:Langston Hughes
+@entity3:1960
+@entity4:Spingarn Medal
+@entity5:Harlem

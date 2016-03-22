@@ -1,19 +1,12 @@
-11
+4
 
-  on @ent3 , @ent8 attended the @ent6 goodwill gala : @ent7 of celebrity advocacy , to raise money for the audrey hepburn all children in school fund .
+there were a number of basic plots : the medical treatment of @entity1 , his learning of soldier ’s service , the scene with his bride , the buying of a horse and testing it .
 
-@ent10 , @ent1 : character played by @ent9 on @ent4 tv series " @ent5 "
+music appreciation : this @entity3 turned some of the music he wrote for the ballet " @entity1 " into a suite
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:LAKE & PALMER
-@ent2:Laura Palmer
-@ent3:December 3, 2003
-@ent4:David Lynch's
-@ent5:Twin Peaks
-@ent6:UNICEF
-@ent7:50 Years
-@ent8:Lee
-@ent9:Sheryl Lee
-@ent10:EMERSON
+@entity0:
+@entity1:Petrushka
+@entity2:Igor Stravinsky
+@entity3:Russian

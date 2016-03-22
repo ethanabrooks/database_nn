@@ -1,18 +1,19 @@
-10
+11
 
-  religious subjects   @ent8 converted to catholicism in @ent3 , @ent2 marriage to @ent6 , who had been a fellow student at @ent5 .
+  in @entity10 , @entity7 ranked @entity3 on its list of the @entity6 best @entity2 - language novels of @entity1 .
 
-artists & their subjects : this @ent4 prime minister must have hated his @ent9 birthday portrait by @ent7 ; his wife destroyed it
+my name is henry , i'll be your writer : @entity4 's " @entity5 " was one of my last novels ; i later became a @entity9 subject
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Winston Churchill
-@ent2:the year before his
-@ent3:December 1926
-@ent4:British
-@ent5:Goldsmith's College
-@ent6:Kathleen Barry
-@ent7:Graham Sutherland
-@ent8:Sutherland
-@ent9:1954
+@entity0:
+@entity1:the 20th century
+@entity2:English
+@entity3:The Golden Bowl 32nd
+@entity4:1904
+@entity5:The Golden Bowl
+@entity6:100
+@entity7:the Modern Library
+@entity8:Henry James
+@entity9:British
+@entity10:1998

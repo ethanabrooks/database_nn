@@ -1,15 +1,13 @@
-7
+5
 
-@ent5 ( 1606 – @ent1 ) was the first proprietary governor of @ent6 .
+the street name , formerly a nickname for @entity2 , became official in @entity3 to honor @entity1 and his well - known novel @entity4 .
 
-early american history : @ent2 , @ent4 's @ent3 woman barrister , was executor of the will of this colony 's governor @ent5
+american literature : he described the setting of " @entity4 " as " a poem , a stink ... a habit , a nostalgia , a dream "
 
-@ent6
+@entity1
 
-@ent0:
-@ent1:June 9, 1647
-@ent2:Margaret Brent
-@ent3:first
-@ent4:America
-@ent5:Leonard Calvert
-@ent6:Maryland
+@entity0:
+@entity1:John Steinbeck
+@entity2:Ocean View Avenue
+@entity3:January 1958
+@entity4:Cannery Row

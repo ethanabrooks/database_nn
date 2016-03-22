@@ -1,15 +1,12 @@
-7
+4
 
-@ent4 category:spanish masculine given names @ent1 - language surnames category:surnames of @ent3 origin
+@entity3 's son said , " i think he kind of ate it up .
 
-a little lit : in this @ent2 novel , @ent6 's plans never work out as he tries to be chivalrous
+pop music : this band adapted its name from @entity2 , a gym teacher who loathed their long hair
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Category:Spanish
-@ent2:Cervantes
-@ent3:Spanish
-@ent4:Alfonso  
-@ent5:Don Quixote
-@ent6:Alonso
+@entity0:
+@entity1:Lynyrd Skynyrd
+@entity2:Leonard Skinner
+@entity3:Skinner

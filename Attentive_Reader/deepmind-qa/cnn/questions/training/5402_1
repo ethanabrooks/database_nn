@@ -1,13 +1,16 @@
-5
+8
 
-@ent3 comes into existence .
+  @entity5 moved in with @entity2 and his longtime partner , @entity4 .
 
-lords : celebrated on @ent4 , @ent1 day honors the mayor of this city
+literature : " @entity7 " by @entity6 is the story of the mad wife of this " @entity1 " character
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Lord Mayor's
-@ent2:London
-@ent3:The Italian National Fascist Party
-@ent4:November 9
+@entity0:
+@entity1:Jane Eyre
+@entity2:Ford
+@entity3:Rochester
+@entity4:Stella Bowen
+@entity5:Rhys
+@entity6:Jean Rhys
+@entity7:Wide Sargasso Sea

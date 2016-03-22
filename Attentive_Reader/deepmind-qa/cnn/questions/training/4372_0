@@ -1,18 +1,17 @@
-10
+9
 
-@ent2 , @ent1 wife of @ent7 of @ent4 ( d. @ent3 ) @ent6
+  notable alumni   @entity7 ( class of @entity5 ) , co - founder of @entity2 and the bill & melinda gates foundation   @entity8 ( class of @entity3 ) , co - founder of @entity2 and founder and chairman of @entity1 ..
 
-@ent8 : this country celebrates @ent5 birthday on @ent9
+open the gate ! : this business mogul & his future partner @entity8 met while students at @entity6 's @entity4
 
-@ent4
+@entity7
 
-@ent0:
-@ent1:Danish
-@ent2:Anne Sophie Reventlow
-@ent3:1743
-@ent4:Denmark
-@ent5:Queen Margrethe's
-@ent6:1697
-@ent7:Frederick IV
-@ent8:HOLIDAYS & OBSERVANCES
-@ent9:April 16
+@entity0:
+@entity1:Vulcan Inc
+@entity2:Microsoft
+@entity3:1971
+@entity4:Lakeside School
+@entity5:1973
+@entity6:Seattle
+@entity7:Bill Gates
+@entity8:Paul Allen

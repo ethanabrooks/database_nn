@@ -1,14 +1,13 @@
-6
+5
 
-  synopsis the novel is set just before @ent2 of @ent3 .
+@entity4 is a fictional character on the @entity2 legal thriller damages , portrayed by @entity1 .
 
-novels of the past : in @ent5 " @ent4 " , the @ent1 fleet bound for here is trapped by unfavorable winds
+actresses : she lawyers up as @entity3 on the tv show " damages "
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:Greek
-@ent2:the start of the battle
-@ent3:Troy
-@ent4:The Songs of the Kings
-@ent5:Barry Unsworth's
+@entity0:
+@entity1:Glenn Close
+@entity2:American
+@entity3:Patty Hewes
+@entity4:Patricia "Patty" C. Hewes

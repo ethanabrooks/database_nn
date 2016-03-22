@@ -1,15 +1,18 @@
-7
+10
 
-  @ent1 , founded in @ent4 and now part of @ent6 in @ent2 .
+he worked as a publicist , ran @entity4 , edited a short - lived magazine called status , was a co - director of the fashion company @entity3 , founded by his elder brother , @entity6 , and was a television personality in @entity5 and @entity1 , until he was convicted of being a paid agent of the dictator of @entity9 without registering , as required by @entity2 law .
 
-founder 's day : in @ent4 juan bautista de anza claimed the site for this @ent3 city 's @ent5
+fashion designers : his brother @entity6 wrote a society column under pen name @entity8
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:The Presidio Real de San Francisco
-@ent2:San Francisco
-@ent3:California
-@ent4:1776
-@ent5:Presidio
-@ent6:the Golden Gate National Recreation Area
+@entity0:
+@entity1:1960s
+@entity2:U.S.
+@entity3:House of Cassini
+@entity4:the Celebrity Register
+@entity5:the 1950s
+@entity6:Igor Cassini
+@entity7:Oleg Cassini
+@entity8:Cholly Knickerbocker
+@entity9:the Dominican Republic

@@ -1,17 +1,15 @@
-9
+7
 
-in addition to its classic @ent5 and @ent4 n @ent2 sandwiches , @ent8 products also include deli - style market fresh line of sandwiches , @ent1 and @ent7 .
+@entity1 of his collaborators was @entity5 , who was fired because of his alcoholic binge during a visit with @entity3 to @entity4 .
 
-sandwiches : when the @ent3 @ent8 opened in @ent6 , its entire food menu was potato chips & this sandwich
+@entity6 : @entity2 based the alcoholic central character of " the disenchanted " on this " gatsby " author
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:Curly Fries
-@ent2:Cheddar
-@ent3:first
-@ent4:Beef '
-@ent5:Roast Beef
-@ent6:1964
-@ent7:Jamocha Shakes
-@ent8:Arby's
+@entity0:
+@entity1:One
+@entity2:Budd Schulberg
+@entity3:Schulberg
+@entity4:Dartmouth
+@entity5:F. Scott Fitzgerald
+@entity6:AUTHORS & THEIR WORKS

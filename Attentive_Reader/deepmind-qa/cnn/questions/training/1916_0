@@ -1,20 +1,13 @@
-12
+5
 
-@ent8 , @ent6 frontiersman ( d. @ent10 )   @ent4 – @ent5 , @ent7 painter ( d. @ent9 )   @ent1 –
+he caught the winning touchdown pass thrown by quarterback @entity4 in the nfc championship game in @entity2 against the dallas cowboys .
 
-famous americans : @ent2 based the character of @ent11 on this man who was born in @ent3
+49ers : a @entity1 playoff reception by @entity3 from this quarterback is simply known as " the catch "
 
-@ent8
+@entity4
 
-@ent0:
-@ent1:December 17
-@ent2:James Fenimore Cooper
-@ent3:1734
-@ent4:December 15
-@ent5:George Romney
-@ent6:American
-@ent7:English
-@ent8:Daniel Boone
-@ent9:1802
-@ent10:1820
-@ent11:Natty Bumppo
+@entity0:
+@entity1:1982
+@entity2:January 1982
+@entity3:Dwight Clark
+@entity4:Joe Montana

@@ -1,19 +1,13 @@
-11
+5
 
-  personal life @ent3 has been married twice : her @ent4 was to actor @ent6 from @ent1 until their @ent9 divorce ; her @ent8 was to singer @ent7 from @ent9 until their @ent5 divorce .
+@entity3 is a large brewery in @entity1 owned by @entity4 - brazilian company @entity2 .
 
-connections : he 's the husband " shared " by @ent10 , @ent2
+where in the world is your hq ? : @entity3
 
-@ent7
+@entity1
 
-@ent0:
-@ent1:1963
-@ent2:Liz Taylor & Debbie Reynolds
-@ent3:Stevens
-@ent4:first
-@ent5:1969
-@ent6:James Stacy
-@ent7:Eddie Fisher
-@ent8:second
-@ent9:1967
-@ent10:Connie Stevens
+@entity0:
+@entity1:Mexico
+@entity2:Anheuser-Busch InBev
+@entity3:Grupo Modelo
+@entity4:Belgian

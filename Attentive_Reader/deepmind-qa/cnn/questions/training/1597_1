@@ -1,14 +1,13 @@
-6
+5
 
-@ent1 , @ent5 . " galahad . " @ent4 .
+      rpt .
 
-crossword clues " l " : @ent2 's dad(8 )
+religion : @entity3 or " @entity2 " is the most reliable source on the life & teachings of this @entity4 sage
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Wilson
-@ent2:Galahad
-@ent3:Lancelot
-@ent4:The American Caravan
-@ent5:Edmund
+@entity0:
+@entity1:Confucius
+@entity2:Analects
+@entity3:The Lun Yu
+@entity4:Chinese

@@ -1,17 +1,16 @@
-9
+8
 
-@ent3 ( @ent6 )
+  @entity6 ( museum of modern art ) .
 
-@ent2 : in @ent5 this small @ent7 country became independent , with @ent1 as its @ent4 p.m.
+@entity2 : @entity1 , whose name means " black plowman " in @entity4 , was born in @entity7 in this country in @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Forbes Burnham
-@ent2:THE 20th CENTURY
-@ent3: May 10, 1966
-@ent4:first
-@ent5:May 1966
-@ent6:Tuesday
-@ent7:South American
-@ent8:Guyana
+@entity0:
+@entity1:Schwarzenegger
+@entity2:ARNOLD SCHWARZENEGGER
+@entity3:Austria
+@entity4:German
+@entity5:1947
+@entity6:Kunsthaus
+@entity7:Graz

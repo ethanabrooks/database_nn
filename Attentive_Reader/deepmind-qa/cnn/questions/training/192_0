@@ -1,18 +1,14 @@
-10
+6
 
-  in @ent9 a current affair revealed that @ent1 had created the mannerisms for the character of @ent4 in the film of the same name based on the simpleton mannerisms earlier created by @ent6 for the role of @ent5 , including @ent3 's " now - famous jerky run " .
+" @entity4 " is a @entity1 song performed by the group @entity5 .
 
-film facts : @ent1 doubled for brother @ent8 in some of the running scenes in this @ent2 movie
+" ex " words : in @entity1 this group topped the pop charts with " @entity4 " ; since then they 've had @entity2 no . @entity3 country hits
 
-@ent4
+@entity5
 
-@ent0:
-@ent1:Tom Hanks
-@ent2:1994
-@ent3:Forrest
-@ent4:Forrest Gump
-@ent5:Jeeter
-@ent6:Jim
-@ent7:Jim Hanks
-@ent8:Tom
-@ent9:1995
+@entity0:
+@entity1:1978
+@entity2:10
+@entity3:1
+@entity4:Kiss You All Over
+@entity5:Exile

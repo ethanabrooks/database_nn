@@ -1,16 +1,15 @@
-8
+7
 
-– @ent4 , @ent2 organist and composer ( b. @ent7 )   @ent5 –
+r. ii . @entity1 ) .
 
-mountains : this sacred @ent6 volcano last erupted in @ent3
+the old testament : the governor of @entity2 under the reign of @entity6 king @entity3 i , @entity5 rebuilt this city 's walls
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mount Fuji
-@ent2:French
-@ent3:1707
-@ent4:Nicolas Gigault
-@ent5:September 15
-@ent6:Japanese
-@ent7:1627
+@entity0:
+@entity1:12
+@entity2:Judea
+@entity3:Artaxerxes
+@entity4:Jerusalem
+@entity5:Nehemiah
+@entity6:Persian

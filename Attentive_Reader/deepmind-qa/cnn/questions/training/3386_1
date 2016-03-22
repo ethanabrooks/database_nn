@@ -1,15 +1,21 @@
-7
+13
 
-@ent4 interview , interactive.ancestry.com ; accessed @ent3 .
+  family members included : @entity2 , @entity2 , their brother @entity2 , and sister @entity2 , and probably @entity11 from the next generation .
 
-films of the ' @ent6 : " you just ca n't imagine the thrill of shooting the curl " , said this @ent1 @ent5 character
+in @entity7 : ( @entity1 of @entity9 reads from @entity4 , @entity5 . )   come to @entity5 for the work of the painters known as the primitives of this culture & language ; @entity12 is among those represented in @entity4 ' museums
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1959
-@ent2:Gidget
-@ent3:May 9, 2014
-@ent4:Oxnard Press-Courier
-@ent5:Sandra Dee
-@ent6:50s
+@entity0:
+@entity1:Sarah
+@entity2:Hubert van Eyck
+@entity3:Jan van Eyck
+@entity4:Bruges
+@entity5:Belgium
+@entity6:Flemish
+@entity7:BRUGES
+@entity8:Lambert van Eyck
+@entity9:the Clue Crew
+@entity10:Margareta van Eyck
+@entity11:Barthélemy d'Eyck
+@entity12:Van Eyck

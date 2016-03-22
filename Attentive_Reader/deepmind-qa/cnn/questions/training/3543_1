@@ -1,13 +1,15 @@
-5
+7
 
-@ent3 deduces that the killer is left - handed ( because the victim was struck neatly on the left side of the head from behind , where a right - handed man would have struck him on the other side ) , and that the stranger is tall , has a limp and smokes cigars .
+< @entity4 >   [ [ walcheren ] ]   [ [ middelburg ] ] ( { { nts|{{data @entity5 municipality population|0687 } } } } inhabitants )
 
-mystery ! : @ent1 played this consulting detective in programs like " @ent2 "
+the european past : in @entity3 this current part of the @entity6 gained control of @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jeremy Brett
-@ent2:The Boscombe Valley Mystery
-@ent3:Holmes
-@ent4:Sherlock Holmes
+@entity0:
+@entity1:Holland
+@entity2:Zeeland
+@entity3:1323
+@entity4:11
+@entity5:Dutch
+@entity6:Netherlands

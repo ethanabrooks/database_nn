@@ -1,19 +1,16 @@
-11
+8
 
-@ent9 is a @ent7 in the city of @ent3 , @ent2 , named after @ent1 , the residence at the time of legendary @ent5 actor @ent6 .
+  it was constructed under the leadership of denominational founder @entity5 and dedicated on @entity4 .
 
-theatre ghosts : the lady in blue seen in this @ent10 city 's @ent8 may be the actress @ent4
+@entity3 : known as sister @entity6 , this female evangelist founded @entity7 's @entity2 in @entity1
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:the Theatre Royal Lyceum and English Opera House
-@ent2:Scotland
-@ent3:Edinburgh
-@ent4:Ellen Terry
-@ent5:Shakespearean
-@ent6:Henry Irving
-@ent7:658-seat theatre
-@ent8:Royal Lyceum Theatre
-@ent9:The Royal Lyceum Theatre
-@ent10:Scottish
+@entity0:
+@entity1:1923
+@entity2:Angelus Temple
+@entity3:THE CHURCH LADY
+@entity4:January 1, 1923
+@entity5:Aimee Semple McPherson
+@entity6:Aimee
+@entity7:L.A.

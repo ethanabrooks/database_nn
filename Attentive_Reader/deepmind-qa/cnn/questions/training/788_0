@@ -1,12 +1,16 @@
-4
+8
 
-@ent3 is a fictional character in @ent1 novel @ent2 .
+  @entity5 's drama is considered to be fundamentally absurdist in nature and avant - garde in his native @entity4 .
 
-what a 19th century character : the besotted @ent3 appears in this classic novel
+@entity3 prize winners : in @entity6 @entity7 became the @entity2 writer from this country to win @entity1
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:Emily Brontë's
-@ent2:Wuthering Heights
-@ent3:Hindley Earnshaw
+@entity0:
+@entity1:the Nobel Prize for Literature
+@entity2:first
+@entity3:NOBEL
+@entity4:China
+@entity5:Gao
+@entity6:2000
+@entity7:Gao Xingjian

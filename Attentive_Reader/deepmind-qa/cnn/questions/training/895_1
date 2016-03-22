@@ -1,16 +1,16 @@
 8
 
-  @ent2 as @ent4   @ent5 as lt .
+it was presented to her at the home of @entity5 and @entity6 in @entity4 .
 
-the film vault : an action star from the ' @ent3 to the ' 70s , this actor headlined " @ent1 " & " @ent7 "
+film noir : in @entity2 @entity1 , this woman 's sister , starred in a tv remake of the classic film noir " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Fighting Seabees
-@ent2:Susan Hayward
-@ent3:30s
-@ent4:Constance Chesley
-@ent5:Dennis O'Keefe
-@ent6:John Wayne
-@ent7:Flying Tigers
+@entity0:
+@entity1:Lee Radziwill
+@entity2:1968
+@entity3:Laura
+@entity4:Paris
+@entity5:Bernard-Henri Lévy
+@entity6:Arielle Dombasle
+@entity7:Jacqueline Kennedy Onassis

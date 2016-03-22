@@ -1,15 +1,16 @@
-7
+8
 
-the bluest eye is a @ent2 novel by @ent5 author @ent1 .
+born into slavery , @entity4 escaped and subsequently made some @entity1 missions to rescue @entity5 enslaved family and friends,larson , p. xvii . using the network of antislavery activists and safe houses known as @entity6 .
 
-women authors : thanks to @ent3 , her @ent2 novel " @ent4 " was a bestseller in @ent6
+black america : @entity2 , who freed over @entity3 slaves , was @entity7 of its foremost " conductors "
 
-@ent1
+@entity6
 
-@ent0:
-@ent1:Toni Morrison
-@ent2:1970
-@ent3:Oprah
-@ent4:The Bluest Eye
-@ent5:American
-@ent6:2000
+@entity0:
+@entity1:thirteen
+@entity2:Harriet Tubman
+@entity3:300
+@entity4:Tubman
+@entity5:approximately seventy
+@entity6:the Underground Railroad
+@entity7:1

@@ -1,15 +1,14 @@
-7
+6
 
-it ranks @ent2 among the most widespread surnames in @ent6 .
+the @entity4 is chosen in an election held by the entire @entity2 people , though typically candidates come from the @entity1 assembly of high - ranking clerics .
 
-" ph"ooey ! : mr. @ent3 , mr. @ent4 or mr. @ent5
+star trek , star wars or lord of the rings : in its lore , a @entity2 wormhole leads to @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Phil
-@ent2:4th
-@ent3:Gramm
-@ent4:Esposito
-@ent5:Collins
-@ent6:Italy
+@entity0:
+@entity1:Vedek
+@entity2:Bajoran
+@entity3:Star Trek
+@entity4:Kai
+@entity5:the Gamma Quadrant

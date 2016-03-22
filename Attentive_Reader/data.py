@@ -38,6 +38,10 @@ class QADataset(Dataset):
         if w in cand_mapping:
             return cand_mapping[w]
         elif w[:7] == '@entity':
+            # print('iterating through cand mapping')
+            # for (k, v) in  cand_mapping.iteritems():
+            #     print(k)
+            #     print(v)
             raise ValueError("Unmapped entity token: %s"%w)
         elif w in self.reverse_vocab:
             return self.reverse_vocab[w]
@@ -54,9 +58,13 @@ class QADataset(Dataset):
         lines = [l.rstrip('\n') for l in open(os.path.join(self.path, request))]
 
         ctx = lines[2]
+        # print(ctx)
         q = lines[4]
+        # print(q)
         a = lines[6]
+        # print(a)
         cand = [s.split(':')[0] for s in lines[8:]]
+        # print(cand)
 
         entities = range(self.n_entities)
         while len(cand) > len(entities):
@@ -65,6 +73,10 @@ class QADataset(Dataset):
             entities = entities + entities
         random.shuffle(entities)
         cand_mapping = {t: k for t, k in zip(cand, entities)}
+        # print('iterating through cand mapping')
+        # for (k, v) in  cand_mapping.iteritems():
+        #     print(k)
+        #     print(v)
 
         ctx = self.to_word_ids(ctx, cand_mapping)
         q = self.to_word_ids(q, cand_mapping)

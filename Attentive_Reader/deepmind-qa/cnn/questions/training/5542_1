@@ -1,21 +1,16 @@
-13
+8
 
-they include @ent5 , @ent9 , @ent7 , @ent11 , @ent4 , @ent2 , economy , @ent12 , @ent8 , and @ent10 .
+he was buried on @entity4 , @entity6 in the @entity5 .
 
-you're all wet : to see the tides in @ent6 at their highest , visit @ent1 in this country
+they rest in rhode island : @entity1 is home to @entity3 , whose diary @entity7 used in a show on this subject
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Minas Basin
-@ent2:Five Islands
-@ent3:Canada
-@ent4:Bass River
-@ent5:Truro
-@ent6:the Bay of Fundy
-@ent7:Parrsboro
-@ent8:Walton
-@ent9:Windsor
-@ent10:Kingsport
-@ent11:Great Village
-@ent12:Wolfville
+@entity0:
+@entity1:Swan Point Cemetery
+@entity2:Civil War
+@entity3:Elisha Hunt Rhodes
+@entity4:Linyards Cay
+@entity5:Bahamas
+@entity6:Abaco
+@entity7:Ken Burns

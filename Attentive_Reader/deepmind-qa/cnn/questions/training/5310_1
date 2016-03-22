@@ -1,16 +1,15 @@
-8
+7
 
-@ent1 , @ent5 baseball player   @ent6 schröder   @ent2 –
+@entity5 unexpectedly arrives at the reunion , causing an awkward scene with @entity1 ignoring him .
 
-the history of the world : part @ent4 : code - named " operation valkyrie " , the " july plot " of @ent3 was an attempt to kill this leader
+francis ford coppola : @entity3 said the work of this relative of @entity2 ' was " annoying " in " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Denny McLain
-@ent2:April 3
-@ent3:1944
-@ent4:1
-@ent5:American
-@ent6:April thumb|150px|Gerhard
-@ent7:Adolf Hitler
+@entity0:
+@entity1:Peggy Sue
+@entity2:Francis
+@entity3:Leonard Maltin
+@entity4:Peggy Sue Got Married
+@entity5:Charlie
+@entity6:Nicolas Cage

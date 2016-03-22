@@ -1,14 +1,19 @@
-6
+11
 
-she was an @ent5 handmaid of @ent1 ( @ent2 ) , who gave her to @ent3 " to wife " to bear a child .
+  background and early life @entity1 was born in @entity8 , the daughter of @entity6 actress @entity10 , who was of @entity6 and @entity9 descent , and @entity3 director @entity5 , who was born in @entity8 from a family originally from @entity4 , @entity2 .
 
-the bible : while barren , she gave her @ent5 maid @ent4 to @ent3 to bear his children
+who 's your mama ? : @entity5
 
-@ent2
+@entity10
 
-@ent0:
-@ent1:Sarai
-@ent2:Sarah
-@ent3:Abraham
-@ent4:Hagar
-@ent5:Egyptian
+@entity0:
+@entity1:Rossellini
+@entity2:Tuscany
+@entity3:Italian
+@entity4:Pisa
+@entity5:Isabella Rossellini
+@entity6:Swedish
+@entity7:Roberto Rossellini
+@entity8:Rome
+@entity9:German
+@entity10:Ingrid Bergman

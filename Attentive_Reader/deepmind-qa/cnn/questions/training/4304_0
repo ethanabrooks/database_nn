@@ -1,17 +1,12 @@
-9
+4
 
-@ent4 is a   training facility of @ent6 , located in @ent5 , @ent8 , a western suburb of @ent3 .
+@entity1 ( ;   , ) , is the capital and largest city of @entity2 , and one of the world 's oldest continuously inhabited cities .
 
-@ent2 joints : @ent4 , this chain 's training center , opened in @ent7 in @ent1 , @ent8
+capital punishment : a former @entity3 republic : @entity1
 
-@ent6
+@entity2
 
-@ent0:
-@ent1:Elk Grove Village
-@ent2:BURGER
-@ent3:Chicago
-@ent4:Hamburger University
-@ent5:Oak Brook
-@ent6:McDonald's
-@ent7:1961
-@ent8:Illinois
+@entity0:
+@entity1:Yerevan
+@entity2:Armenia
+@entity3:Soviet

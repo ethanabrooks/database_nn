@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 in the recession : the search for solidarity by @ent1 and @ent1
+  during @entity2 of @entity4 's stewardship , he and the @entity3 contributed to policy debates on the nuclear arms race , human rights , ethnic violence and civil conflict , small arms , controlling biological and chemical weapons , energy conservation , global warming , and related subjects .
 
-they used to be in charge : @ent3
+is there a doctor in the book ? : dr. @entity5 tries to contain an out - of-this-world biological agent in this @entity1 novel
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Giles Radice
-@ent2:Socialists
-@ent3:Olof Palme
-@ent4:Lisanne Radice
-@ent5:Sweden
+@entity0:
+@entity1:Michael Crichton
+@entity2:the 30 years
+@entity3:Federation
+@entity4:Stone
+@entity5:Jeremy Stone
+@entity6:The Andromeda Strain

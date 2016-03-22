@@ -1,17 +1,19 @@
-9
+11
 
-@ent3 often refers to @ent2 , the @ent5 president of @ent1 and the principal author of its @ent4 .
+supporting actor golden globe ( television ) winners category:buddhists of @entity9 descent category:outstanding performance by a male actor in a comedy series screen actors guild award winners category:male actors from @entity10 , @entity1 category:male actors from @entity5   category:people from @entity8 category:prisoners and detainees of @entity1
 
-frost/nixon : in @ent8 @ent3 county native @ent6 was elected this state 's governor
+the new york times movies : the @entity2 liked the " smoky , greasy , steam - punk rendering of victorian @entity4 " in this @entity3 @entity7 caper
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the United States
-@ent2:Thomas Jefferson
-@ent3:Jefferson
-@ent4:Declaration of Independence
-@ent5:third
-@ent6:Jay Nixon
-@ent7:Missouri
-@ent8:November 2008
+@entity0:
+@entity1:California
+@entity2:Times
+@entity3:2009
+@entity4:London
+@entity5:New York City
+@entity6:Sherlock Holmes
+@entity7:Robert Downey Jr.
+@entity8:Manhattan
+@entity9:Jewish
+@entity10:Los Angeles County

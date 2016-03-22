@@ -1,15 +1,20 @@
-7
+12
 
-@ent1   @ent2   @ent3 .
+in the winter , she promoted the track in @entity7 at 95.8 capital fm 's jingle bell ball , the @entity10 gala for @entity4 , @entity11 , and @entity8 : @entity9 , as well as in @entity2 on @entity6 .
 
-at the movies : she won an oscar for playing @ent4 in " @ent5 "
+radio disney : " @entity3 " is by this singer who also plays a young lady named @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Wendell "Bud" White
-@ent2:Russell Crowe
-@ent3:Josh Hopkins Det
-@ent4:Lynn Bracken
-@ent5:L.A. Confidential
-@ent6:Kim Basinger
+@entity0:
+@entity1:Miley Cyrus
+@entity2:Ireland
+@entity3:Party In The U.S.A.
+@entity4:British Royal Family
+@entity5:Hannah
+@entity6:The Late Late Show
+@entity7:the United Kingdom
+@entity8:Alan Carr
+@entity9:Chatty Man
+@entity10:annual
+@entity11:Royal Variety Performance

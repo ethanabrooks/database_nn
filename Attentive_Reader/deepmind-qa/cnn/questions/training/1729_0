@@ -1,14 +1,16 @@
-6
+8
 
-valletta ( ; ) is the capital city of @ent1 , colloquially known as @ent5 ( ; ) in @ent3 .
+@entity1 ( ; old names : @entity2 , @entity7 , @entity6 ) is a special municipality in @entity4 .
 
-hot travel spots : fancy dress & gaudy floats are the order of @ent2 at a carnival in @ent4 , this island nation 's capital
+@entity5 cities : @entity3 is the major port serving this island of over 20 million people
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Malta
-@ent2:the day
-@ent3:Maltese
-@ent4:Valletta
-@ent5:Il-Belt
+@entity0:
+@entity1:Kaohsiung City
+@entity2:Takao
+@entity3:Kaohsiung
+@entity4:Taiwan
+@entity5:EAST ASIAN
+@entity6:Takau
+@entity7:Takow

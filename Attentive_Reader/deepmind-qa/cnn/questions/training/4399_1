@@ -1,16 +1,19 @@
-8
+11
 
-her daughter , @ent1 , who emigrated to @ent2 in @ent5 , published a book of memories of her mother 's affair with @ent6 .
+to this day , the high school teams in @entity1 , @entity5 , are named " @entity2 " after @entity7 .
 
-authors ' affairs : he based @ent7 in " dr. zhivago " on his mistress @ent3
+@entity6 : in a @entity8 article for @entity3 , @entity10 described his @entity9 expeditions to this continent
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Irina Emelyanova
-@ent2:France
-@ent3:Olga Ivinskaya
-@ent4:Boris Pasternak
-@ent5:1985
-@ent6:Pasternak
-@ent7:Lara
+@entity0:
+@entity1:Hudson
+@entity2:The Explorers
+@entity3:National Geographic
+@entity4:Antarctica
+@entity5:Ohio
+@entity6:FOUR
+@entity7:Ellsworth
+@entity8:1939
+@entity9:4
+@entity10:Lincoln Ellsworth

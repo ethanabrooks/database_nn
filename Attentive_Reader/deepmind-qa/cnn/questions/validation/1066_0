@@ -1,15 +1,17 @@
-7
+9
 
-@ent1 is believed to have founded buddhism here around @ent3 @ent5 when he gave his @ent6 sermon , "
+@entity2 ( @entity4 ) of siam ( modern day @entity3 ) founds the @entity7 dynasty .
 
-this " bud " 's for you : he preached his @ent6 sermon to @ent4 disciples in a park near the holy city of @ent2
+@entity5 : in this @entity6 country , @entity1 is @entity8 , a holiday honoring the ruling family
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Buddha
-@ent2:Varanasi
-@ent3:528
-@ent4:5
-@ent5:BC
-@ent6:first
+@entity0:
+@entity1:April 6
+@entity2:King Buddha Yodfa Chulaloke
+@entity3:Thailand
+@entity4:Rama I
+@entity5:THE FAR EAST
+@entity6:Buddhist
+@entity7:Chakri
+@entity8:Chakri Day

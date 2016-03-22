@@ -1,0 +1,13 @@
+5
+
+  pawns move from the nest to the same colored starting space to the left of the nest , by the movement rules in the following section .
+
+play time : a @entity2 player begins with @entity3 pieces & can move a maximum of this many of them on @entity4 roll of the dice
+
+@entity0
+
+@entity0:
+@entity1:two
+@entity2:Parcheesi
+@entity3:4
+@entity4:one

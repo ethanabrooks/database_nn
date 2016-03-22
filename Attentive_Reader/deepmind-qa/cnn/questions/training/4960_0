@@ -1,16 +1,16 @@
 8
 
-@ent2 's @ent7 , @ent4   @ent6 –
+  character   @entity7 is a parody of famed attorney @entity1 ; both are bespectacled , mustachioed , well - dressed , @entity5 @entity4 lawyers with the same initials and penchants for grandiose vocabulary .
 
-@ent1 : the world 's first @ent5 wheel began cranking in @ent3 at the columbian exposition in this city
+@entity6 : ( @entity2 delivers the clue . )   in the " seinfeld " finale we were defended by @entity3 , who reminded some people of this famous trial attorney
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:THE 1890s
-@ent2:World
-@ent3:1893
-@ent4:Chicago
-@ent5:Ferris
-@ent6:April 1
-@ent7:Columbian Exposition
+@entity0:
+@entity1:Johnnie Cochran
+@entity2:Jerry Seinfeld
+@entity3:Jackie Chiles
+@entity4:American
+@entity5:African
+@entity6:J.C.
+@entity7:Chiles

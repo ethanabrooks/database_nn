@@ -1,12 +1,16 @@
-4
+8
 
-@ent2 is a methyl ester of the aspartic acid/phenylalanine dipeptide .
+@entity1 in @entity4 .
 
-soda pop quiz : pharmaceutical company @ent1 developed the soda sweetener @ent2 , marketed as this
+@entity2 : major @entity7 , this traitor 's contact on the @entity5 side , was hanged in @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:G.D. Searle
-@ent2:Aspartame
-@ent3:NutraSweet
+@entity0:
+@entity1:Waxhaw Massacre
+@entity2:ARMY MAJORS
+@entity3:1780
+@entity4:America
+@entity5:British
+@entity6:Benedict Arnold
+@entity7:John Andre

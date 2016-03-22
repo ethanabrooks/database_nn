@@ -1,14 +1,15 @@
-6
+7
 
-@ent5 resigned as chief justice of @ent1 due to failing health .
+@entity3 is an inlet of @entity1 and a sub - basin of @entity3 located in @entity6 , @entity2 .
 
-after the white house : in @ent4 illness forced him to resign as @ent2 chief justice ; he died @ent3
+you're all wet : to see the tides in @entity1 at their highest , visit @entity5 in this country
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:the United States
-@ent2:U.S.
-@ent3:a month later
-@ent4:February 1930
-@ent5:William Howard Taft
+@entity0:
+@entity1:the Bay of Fundy
+@entity2:Canada
+@entity3:The Minas Basin
+@entity4:the Fundy Basin
+@entity5:Minas Basin
+@entity6:Nova Scotia

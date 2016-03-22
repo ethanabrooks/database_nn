@@ -1,16 +1,17 @@
-8
+9
 
-settled over @ent1 , the surrounding area contains many archeological and historical sites such as religious temples ( heiaus ) and also includes the spot where the first documented @ent3 to reach the @ent4 islands , captain @ent6 , @ent7 set foot and later died .
+  @entity3 works in @entity5 , @entity4 wrote @entity8 , a book dedicated to @entity7 , the official novels , and the films .
 
-really bad dates : this captain was killed in a skirmish with natives at @ent2 on @ent5
+popular fiction : in @entity1 @entity2 took over a book series from @entity6 , who had taken over from this 1st author
 
-captain @ent6
+@entity7
 
-@ent0:
-@ent1:a thousand years ago
-@ent2:Kealakekua Bay
-@ent3:European
-@ent4:Hawaiian
-@ent5:Feb. 14, 1779
-@ent6:James Cook
-@ent7:first
+@entity0:
+@entity1:1996
+@entity2:Raymond Benson
+@entity3:James Bond
+@entity4:Benson
+@entity5:1984
+@entity6:John Gardner
+@entity7:Ian Fleming
+@entity8:The James Bond Bedside Companion

@@ -1,16 +1,17 @@
-8
+9
 
-@ent2 – @ent6 becomes prime minister of @ent7 for the @ent4 time .
+" @entity8 " ( occasionally subtitled " they 've got an awful lot of coffee in @entity1 " ) is a novelty song written by @entity5 and @entity2 , first recorded by @entity3 in @entity7 .
 
-@ent2 : @ent5 : on @ent3 @ent6 became prime minister of this @ent1 country for the @ent4 time
+@entity6 : " @entity8 " from the ' @entity4 is subtitled " they 've got an awful lot of coffee in " this country
 
-@ent7
+@entity1
 
-@ent0:
-@ent1:Commonwealth
-@ent2:1909
-@ent3:June 2
-@ent4:third
-@ent5:100 YEARS AGO
-@ent6:Alfred Deakin
-@ent7:Australia
+@entity0:
+@entity1:Brazil
+@entity2:Dick Miles
+@entity3:Frank Sinatra
+@entity4:40s
+@entity5:Bob Hilliard
+@entity6:CLASSIC COFFEE TUNES
+@entity7:1946
+@entity8:The Coffee Song

@@ -1,11 +1,12 @@
-3
+4
 
-< /onlyinclude
+this may be because the city has focused on infrastructure investment rather than the directly targeting of major corporations with financial incentives for economic development .
 
-disaster digest : @ent2 : a great fire destroys much of this capital city
+it 's a mall world : there 's a @entity1 mall in @entity2 in this country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:London
-@ent2:1666
+@entity0:
+@entity1:9.6 million-square-foot
+@entity2:Dongguan
+@entity3:China

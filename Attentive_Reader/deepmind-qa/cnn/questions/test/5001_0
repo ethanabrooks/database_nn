@@ -1,17 +1,17 @@
 9
 
-he wrote @ent1 books , including well - received biographies of @ent5 , @ent6 and @ent2 .
+  biography   childhood and @entity8 @entity2 was born in @entity1 , @entity3 , @entity4 .
 
-nonfiction : @ent8 won a @ent3 @ent7 for " @ent4 " this author
+dance : @entity7 composed music for the @entity6 , a dance of this country 's @entity5 people
 
-@ent6
+@entity4
 
-@ent0:
-@ent1:more than thirty
-@ent2:Charles Sumner
-@ent3:1988
-@ent4:Look Homeward: A Life of
-@ent5:Abraham Lincoln
-@ent6:Thomas Wolfe
-@ent7:Pulitzer Prize
-@ent8:David Herbert Donald
+@entity0:
+@entity1:El Vendrell
+@entity2:Casals
+@entity3:Catalonia
+@entity4:Spain
+@entity5:Catalan
+@entity6:Sardana
+@entity7:Pablo Casals
+@entity8:early years

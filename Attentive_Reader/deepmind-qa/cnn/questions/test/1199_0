@@ -1,16 +1,14 @@
-8
+6
 
-@ent7 was nominated for @ent4 for his portrayal of @ent6 in the film , which won @ent3 @ent5 , including @ent1 .
+@entity1 is a museum at @entity5 in @entity2 , @entity3 .
 
-who played ' em ? : factory owner @ent2
+stately museums : @entity4 , mystic seaport
 
-@ent7
+@entity3
 
-@ent0:
-@ent1:Best Picture
-@ent2:Oskar Schindler
-@ent3:seven
-@ent4:the Academy Award for Best Actor
-@ent5:Oscars
-@ent6:Schindler
-@ent7:Liam Neeson
+@entity0:
+@entity1:The Housatonic Museum of Art
+@entity2:Bridgeport
+@entity3:Connecticut
+@entity4:Housatonic Museum of Art
+@entity5:Housatonic Community College

@@ -1,14 +1,13 @@
-6
+5
 
-@ent5 may refer to :   in real estate @ent5 ( law ) , the tenure of property in fee simple for life .
+  in his @entity2 !
 
-the boss : @ent3 was born in @ent4 in @ent5 , near @ent1 , in this state
+arnold : larger - than-life gambler @entity3 was implicated in this @entity4 baseball scandal involving bribed players
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Asbury Park
-@ent2:New Jersey
-@ent3:Bruce Springsteen
-@ent4:1949
-@ent5:Freehold
+@entity0:
+@entity1:the Black Sox Scandal
+@entity2:Kill the Dutchman
+@entity3:Arnold Rothstein
+@entity4:1919

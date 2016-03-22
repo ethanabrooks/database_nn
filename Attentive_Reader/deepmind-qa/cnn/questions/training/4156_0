@@ -1,13 +1,21 @@
-5
+13
 
-@ent1 is a national park located in @ent4 of @ent3 .
+  film and television   @entity4 ( film ) , a @entity8 film starring @entity6 and @entity2   blue sky studios , an academy award - winning computer animation studio   @entity9 , a tv station in @entity12   @entity10 , a local television station in @entity5 , @entity11   tv blue sky , a tv station in @entity1   teletubbies - blue sky , a @entity3 video   " blue sky " the name of the fictional methamphetamine produced in the series
 
-all god 's creatures : @ent1 in this country 's @ent2 is a bluenose caribou calving ground
+military wives : this actress won an @entity7 for playing a sexy & unstable military wife in " @entity4 "
 
-@ent3
+@entity6
 
-@ent0:
-@ent1:Tuktut Nogait National Park
-@ent2:Northwest Territories
-@ent3:Canada
-@ent4:the Northwest Territories
+@entity0:
+@entity1:Albania
+@entity2:Tommy Lee Jones
+@entity3:Teletubbies VHS
+@entity4:Blue Sky
+@entity5:Athens
+@entity6:Jessica Lange
+@entity7:Oscar
+@entity8:1994
+@entity9:Bluesky Channel
+@entity10:Blue Sky TV
+@entity11:Greece
+@entity12:Thailand

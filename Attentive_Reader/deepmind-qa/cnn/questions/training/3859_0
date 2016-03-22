@@ -1,14 +1,17 @@
-6
+9
 
-@ent3 introduced the series in @ent2 , and dr. @ent1 was played by @ent5 .
+in @entity1 , @entity8 began his business career at @entity4 @entity2 , working in economic planning and research and development .
 
-i'm not a doctor , but i play one on tv : dr. @ent4
+" t " for @entity6 ? : in @entity7 @entity3 @entity5 resigned from this company 's board of directors
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:Quinn
-@ent2:1993
-@ent3:CBS
-@ent4:Michaela Quinn
-@ent5:Jane Seymour
+@entity0:
+@entity1:1963
+@entity2:AT&T
+@entity3:Liberty Media's
+@entity4:Bell Telephone Laboratories of
+@entity5:John C. Malone
+@entity6:ONE
+@entity7:July 2001
+@entity8:Malone

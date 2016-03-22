@@ -1,16 +1,15 @@
-8
+7
 
-  the hull of the whaling vessel @ent6 , an artifact of the @ent3 @ent5 @ent2 , lay almost beneath the transamerica pyramid , and the location is marked by a historical plaque outside the building ( @ent5 historical landmark # @ent1 ) .
+plant dealer @entity2 was determined to find and clone the rare @entity1 for profit .
 
-skyscrapers by city : @ent7
+authors on film : @entity5 played this author of " @entity4 " in @entity3 's " adaptation "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:88
-@ent2:Gold Rush
-@ent3:1849
-@ent4:San Francisco
-@ent5:California
-@ent6:Niantic
-@ent7:Transamerica Pyramid
+@entity0:
+@entity1:Ghost Orchid
+@entity2:Laroche
+@entity3:2002
+@entity4:The Orchid Thief
+@entity5:Meryl Streep
+@entity6:Susan Orlean

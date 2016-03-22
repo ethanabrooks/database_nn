@@ -1,14 +1,22 @@
-6
+14
 
-  @ent3 single the song was covered by @ent3 in @ent1 , featured on @ent2 ' modern sounds in country and western music , and released as a single .
+@entity10   ( born @entity12 @entity11 ) is a @entity3 political figure , lawyer , professor at @entity1 in @entity5 and chair of the constitutional law department.http://www.venice.coe.int/webforms/pages/default.aspx?p=cv_79&lang=en   she served as the prime minister of @entity4 between @entity13 and @entity2 under the presidency of @entity8 .
 
-love songs : in @ent1 , his pop version of " @ent4 " was the no . @ent5 single of the year
+20th century women : @entity10 became this eastern @entity6 country 's @entity9 female prime minister in @entity7
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:1962
-@ent2:Charles
-@ent3:Ray Charles
-@ent4:I Can't Stop Loving You
-@ent5:1
+@entity0:
+@entity1:Adam Mickiewicz University
+@entity2:26 October 1993
+@entity3:Polish
+@entity4:Poland
+@entity5:Poznań
+@entity6:European
+@entity7:1992
+@entity8:Lech Wałęsa
+@entity9:first
+@entity10:Hanna Suchocka
+@entity11:April 1946
+@entity12:3
+@entity13:8 July 1992

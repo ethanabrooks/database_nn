@@ -1,16 +1,14 @@
-8
+6
 
-the show tells the story of the @ent6 family of @ent4 during @ent3 .
+rysy ( , ; , ) is a mountain in the crest of the high tatras , lying on the border between @entity1 and @entity4 .
 
-tv - podge : ( hi , i 'm @ent2 . )   as " @ent7 " is based around " @ent1 " in @ent5 , it 's set in this city
+mountains : this country 's highest mountain is @entity5 peak , @entity2 south of @entity3
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:American Bandstand
-@ent2:Will Estes
-@ent3:the mid-1960s
-@ent4:Philadelphia
-@ent5:the 1960s
-@ent6:Pryor
-@ent7:American Dreams
+@entity0:
+@entity1:Poland
+@entity2:about 60 miles
+@entity3:Krakow
+@entity4:Slovakia
+@entity5:Rysy

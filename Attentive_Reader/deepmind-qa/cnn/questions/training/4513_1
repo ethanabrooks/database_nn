@@ -1,13 +1,13 @@
 5
 
-@ent4
+a mysterious figure who appears several times during the novel .
 
-inaction movies : @ent2 , @ent1 & schoolmates talk through day - long detention in this film
+@entity2 : his novel " @entity1 " was first published in serial form in " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Molly Ringwald
-@ent2:Judd Nelson
-@ent3:The Breakfast Club
-@ent4:20.04.12
+@entity0:
+@entity1:Nicholas Nickleby
+@entity2:NOVELS & NOVELISTS
+@entity3:Bentley's Miscellany
+@entity4:Charles Dickens

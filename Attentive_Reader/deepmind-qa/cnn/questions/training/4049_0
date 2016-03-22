@@ -1,14 +1,18 @@
-6
+10
 
-mallrats is a @ent5 @ent1 romantic comedy film written and directed by @ent4 .
+@entity9 outpointed @entity2 in a rematch to become the @entity3 boxer to win the world heavyweight title @entity5 times at the superdome in @entity8 .
 
-to remain silent : he 's played @ent3 in a slew of films including " @ent2 " & " clerks "
+@entity6 :   @entity7 : on @entity4 he regained the heavyweight boxing crown for a record @entity1 time , by beating @entity2
 
-@ent4
+@entity9
 
-@ent0:
-@ent1:American
-@ent2:Mallrats
-@ent3:Silent Bob
-@ent4:Kevin Smith
-@ent5:1995
+@entity0:
+@entity1:third
+@entity2:Leon Spinks
+@entity3:first
+@entity4:September 15
+@entity5:three
+@entity6:20 YEARS AGO
+@entity7:1978
+@entity8:New Orleans
+@entity9:Muhammad Ali

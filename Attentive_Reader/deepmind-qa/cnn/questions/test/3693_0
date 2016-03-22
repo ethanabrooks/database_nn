@@ -1,12 +1,14 @@
-4
+6
 
-  there are several other films about @ent3 , a complete listing of which may be found in the @ent2 @ent1 site .
+  in @entity2 , @entity3 was the @entity4 female candidate for president of @entity1 .
 
-i'm so hot : in this language , @ent3 means " brother devil " ; you 'll know why when you eat it
+teens in history : @entity5 was a teen medium & fortune - teller before becoming the @entity4 woman to run for pres . of this country
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Wikipedia
-@ent2:Italian
-@ent3:Fra Diavolo
+@entity0:
+@entity1:the United States
+@entity2:1872
+@entity3:Woodhull
+@entity4:first
+@entity5:Victoria Woodhull

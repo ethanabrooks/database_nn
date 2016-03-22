@@ -1,11 +1,13 @@
-3
+5
 
-the revolutionary fighting had decimated the economy , destroyed the nation 's food supply , and the social disruption resulted in widespread disease .
+aasen continuously enlarged and improved his grammars and his dictionary .
 
-they used to be in charge : @ent1
+european languages : @entity2 , an official language of this country , was created by @entity4 in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Venustiano Carranza
-@ent2:Mexico
+@entity0:
+@entity1:the mid-19th century
+@entity2:Nynorsk
+@entity3:Norway
+@entity4:Ivar Aasen

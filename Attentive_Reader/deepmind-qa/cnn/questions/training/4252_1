@@ -1,17 +1,13 @@
-9
+5
 
-  early life @ent6 was born in @ent1 , @ent2 .
+they were divorced twice .
 
-r.e.m. : the lineup @ent5 : guitarist @ent3 , bassist @ent7 , drummer @ent8 & this singer
+film roles : @entity2 , @entity4 & @entity1 have all played this character on film
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Berkeley
-@ent2:California
-@ent3:Peter Buck
-@ent4:Michael Stipe
-@ent5:1980-1997
-@ent6:Peter Lawrence Buck
-@ent7:Mike Mills
-@ent8:Bill Berry
+@entity0:
+@entity1:Elliott Gould
+@entity2:Dick Powell
+@entity3:Philip Marlowe
+@entity4:Robert Mitchum

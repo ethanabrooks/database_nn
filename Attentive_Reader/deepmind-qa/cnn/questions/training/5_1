@@ -1,21 +1,15 @@
-13
+7
 
-@ent12 , @ent9 , @ent10 and @ent11 are @ent2 surnames derived from the @ent6 surname @ent7 .
+@entity5 and @entity1 eventually became lovers .
 
-cleveland athletes : " bullet bob " , this pitcher from @ent12 , @ent1 , joined the @ent3 at age @ent8 in @ent4
+full nelson : before @entity3 , " @entity6 " was the title of a @entity4 novel by this man
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Iowa
-@ent2:American
-@ent3:Indians
-@ent4:1936
-@ent5:Bob Feller
-@ent6:Dutch
-@ent7:Van Meteren
-@ent8:17
-@ent9: Van Metre
-@ent10:Van Mater
-@ent11:Van Matre
-@ent12:Van Meter
+@entity0:
+@entity1:Terasina
+@entity2:Nelson Algren
+@entity3:Lou Reed
+@entity4:1956
+@entity5:Dove
+@entity6:A Walk on the Wild Side

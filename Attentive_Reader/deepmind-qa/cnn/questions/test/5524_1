@@ -1,17 +1,13 @@
-9
+5
 
-  @ent1 " section the @ent3 section deals with @ent2 's views on various topics , such as being at airports ( he writes that he likes to ride around in the carts to make people move out of his way ) and the difference between @ent5 and @ent6 .
+amazon.com
 
-authors on audiotape : this sitcom star reads his own " @ent8 " , subjects he might have learned about in @ent7
+@entity1 : " @entity4 " introduced this actor , now tv 's @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The "Dirty Jokes
-@ent2:Drew
-@ent3:first
-@ent4:Drew Carey
-@ent5:Las Vegas
-@ent6:Atlantic City
-@ent7:Cleveland
-@ent8:Dirty Jokes and Beer
+@entity0:
+@entity1:MOVIE DEBUTS
+@entity2:Michael Richards
+@entity3:Kramer
+@entity4:Young Doctors In Love

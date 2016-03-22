@@ -1,14 +1,14 @@
 6
 
-@ent1 he was the music editor of @ent2 magazine .
+  in art thumb|left|150px|rouen cathedral , full sunlight , by @entity5 , in @entity2   the most famous paintings of the cathedral were done by the @entity1 artist @entity5 , who produced a series of paintings of the building showing the same scene at different times of the day and in different weather conditions .
 
-music : ( @ent4 ) keyboardist @ent5 entered the r&r hall of fame by editing this music journal for @ent3
+art & artists : this impressionist 's @entity3 paintings of @entity4 are noted for their use of atmosphere
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:From 1943 to 1973
-@ent2:Billboard
-@ent3:30 years
-@ent4:Typewriter
-@ent5:Paul Ackerman
+@entity0:
+@entity1:Impressionist
+@entity2:1894
+@entity3:1890s
+@entity4:Rouen Cathedral
+@entity5:Claude Monet

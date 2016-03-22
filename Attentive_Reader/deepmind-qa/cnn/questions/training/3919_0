@@ -1,14 +1,15 @@
-6
+7
 
-he was the highest ranking @ent2 casualty in @ent5 , killed by a sharpshooter at the battle of @ent3 , and is well - remembered for his ironic last words : " they could n't hit an elephant at this distance . "
+gastown is a national historic site in @entity4 , @entity6 , at the northeast end of downtown adjacent to @entity2 .
 
-not so famous last words : general @ent1 , near @ent4 during this war : " they could n't hit an elephant at this distance "
+world travel : @entity3 , a popular area of this @entity1 city , is named for saloonkeeper " gassy " @entity5
 
-@ent5
+@entity4
 
-@ent0:
-@ent1:John Sedgwick
-@ent2:Union
-@ent3:Spotsylvania Court House
-@ent4:Spotslyvania
-@ent5:the Civil War
+@entity0:
+@entity1:B.C.
+@entity2:the Downtown Eastside
+@entity3:Gastown
+@entity4:Vancouver
+@entity5:Jack Deighton
+@entity6:British Columbia

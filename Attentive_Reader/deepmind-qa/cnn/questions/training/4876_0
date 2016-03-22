@@ -1,15 +1,17 @@
-7
+9
 
-in @ent5 she replaced @ent1 for the role of @ent3 on the short lived series @ent2 .
+@entity7 ( born @entity3 ) served as the 76th governor of new hampshire and was a united states senator from @entity4 , who served as chairman of @entity5 .
 
-@ent4 role : in the @ent5 hour - long series " the bradys " , @ent6 assumed this @ent1 role
+@entity6 : after hours : in @entity1 , @entity8 , a millionaire senator from this " granite state " , won $ @entity2 in the powerball lottery
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:Maureen McCormick
-@ent2:The Bradys
-@ent3:Marcia Brady
-@ent4:ACTRESSES & TV
-@ent5:1990
-@ent6:Leah Ayres
+@entity0:
+@entity1:2005
+@entity2:853,492
+@entity3:February 14, 1947
+@entity4:New Hampshire
+@entity5:the Senate Budget Committee
+@entity6:THE U.S. SENATE
+@entity7:Judd Alan Gregg
+@entity8:Judd Gregg

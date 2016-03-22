@@ -1,18 +1,15 @@
-10
+7
 
-@ent1 , formerly @ent2 , is a @ent4 acre ( 16,000 m² ) park located in @ent5 , @ent8 .
+  cover versions @entity3 with @entity1 version , country singer @entity6 cover went top @entity4 on @entity5 .
 
-@ent3 : ( @ent6 of @ent9 reads from @ent1 . )   defying the notorious " bull " connor , thousands came to this city 's @ent1 to demonstrate for civil rights in @ent7
+hit songs : what a delight !   this band 's " @entity2 " topped the charts & went gold
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Kelly Ingram Park
-@ent2:West Park
-@ent3:20th CENTURY AMERICA
-@ent4:four
-@ent5:Birmingham
-@ent6:Cheryl
-@ent7:May 1963
-@ent8:Alabama
-@ent9:the Clue Crew
+@entity0:
+@entity1:the Starland Vocal Band
+@entity2:Afternoon Delight
+@entity3:Concurrent
+@entity4:10
+@entity5:Billboard Hot Country Singles
+@entity6:Johnny Carver's

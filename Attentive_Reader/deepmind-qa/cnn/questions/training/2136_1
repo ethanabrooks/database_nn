@@ -1,13 +1,16 @@
-5
+8
 
-@ent1 may refer to :   @ent1 ( green party ) , @ent3 politician
+in @entity2 , @entity4 had developed as a new ( shin ) station ( shuku or juku ) on @entity3 , @entity7 of the major highways of that era .
 
-show : before he was @ent1 , he played himself on " it 's " his " @ent2
+where were you @entity6 ? : singing karaoke in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Larry Sanders
-@ent2:Show"
-@ent3:British
-@ent4:Garry Shandling
+@entity0:
+@entity1:Shinjuku
+@entity2:1698
+@entity3:the Kōshū Kaidō
+@entity4:Naitō-Shinjuku
+@entity5:Tokyo
+@entity6:LAST NIGHT
+@entity7:one

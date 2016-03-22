@@ -1,14 +1,15 @@
-6
+7
 
-  in @ent3 , @ent5 proposed a new football league .
+@entity1 , @entity4 serial killer ( executed ) ( b. @entity2 )   @entity3 –
 
-blue : a 's owner @ent1 wanted this pitcher to change his @ent4 name to " true "
+river crossings : crossing the sabarmati river was part of this leader 's @entity6 protest march to the sea
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Charlie Finley
-@ent2:Vida Blue
-@ent3:March 1987
-@ent4:first
-@ent5:Finley
+@entity0:
+@entity1:Gordon Stewart Northcott
+@entity2:1906
+@entity3:October 15
+@entity4:American
+@entity5:Mahatma Gandhi
+@entity6:1930

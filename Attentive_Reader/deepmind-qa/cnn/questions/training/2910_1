@@ -1,16 +1,14 @@
-8
+6
 
-  historically the town developed around the medieval castle , looking down the valley .
+@entity5 patents the @entity2 production - model revolver , the .34-caliber .
 
-historic namesakes : born in @ent5 , @ent4 in @ent2 , he was named for a famous politician born in @ent7 , @ent3 in @ent1
+the korean war : the death of this @entity3 premier on @entity4 , 1953 probably accelerated the end of the conflict
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1806
-@ent2:1883
-@ent3:Mexico
-@ent4:Italy
-@ent5:Predappio
-@ent6:Benito Mussolini
-@ent7:Oaxaca
+@entity0:
+@entity1:Joseph Stalin
+@entity2:first
+@entity3:Soviet
+@entity4:March 5
+@entity5:Samuel Colt

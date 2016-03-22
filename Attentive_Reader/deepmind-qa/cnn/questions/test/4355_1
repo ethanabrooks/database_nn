@@ -1,17 +1,15 @@
-9
+7
 
-  recognition for his contribution to the television industry , @ent1 has a star on the hollywood walk of fame at @ent2 @ent7 blvd .
+under the @entity2 of the irish free state , the latter was vested with considerably less power and was largely just the chairman of the cabinet , @entity1 .
 
-people : @ent6 , who passed away in @ent8 , played dr. @ent3 on this daytime soap for @ent4
+follow the leader : @entity3 is the @entity4 or prime minister of this @entity6 nation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Beradino
-@ent2:6801
-@ent3:Steve Hardy
-@ent4:over 30 years
-@ent5:General Hospital
-@ent6:John Beradino
-@ent7:Hollywood
-@ent8:1996
+@entity0:
+@entity1:the Executive Council
+@entity2:Constitution
+@entity3:Bertie Ahern
+@entity4:Taoiseach
+@entity5:Ireland
+@entity6:European

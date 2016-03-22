@@ -1,18 +1,17 @@
-10
+9
 
-he addressed the @ent7 @ent6 in @ent9 .
+  after his retirement , @entity6 was a senior policy advisor at the firm of @entity4 and @entity8 in @entity2 , dc.   in @entity1 , he left that firm to found @entity7 consultants , a new lobbying firm .
 
-mayors : @ent1 of this @ent2 city is the @ent4 @ent5 mayor of a major @ent3 city since statehood
+people : senator @entity5 of this state was formerly a top - ranked judo champion
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ron Gonzales
-@ent2:Silicon Valley
-@ent3:California
-@ent4:first
-@ent5:Latino
-@ent6:Democratic National Convention
-@ent7:2000
-@ent8:San Jose
-@ent9:Los Angeles
+@entity0:
+@entity1:July 2012
+@entity2:Washington
+@entity3:Colorado
+@entity4:Holland
+@entity5:Ben Nighthorse Campbell
+@entity6:Campbell
+@entity7:Ben Nighthorse
+@entity8:Knight, LLP

@@ -1,14 +1,16 @@
-6
+8
 
-@ent1 is known about his life immediately following his escape .
+  @entity5 , grand prince of @entity4 ( d. @entity6 )
 
-bad time charlie : notorious pirate @ent2 made an @ent3 exit by hanging at this @ent4 island later famous as an entrance
+people in history : this scotsman known for his " brave heart " defeated an @entity2 army near @entity1 in @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1: Little
-@ent2:Charles Gibbs
-@ent3:1831
-@ent4:New York
-@ent5:Ellis Island
+@entity0:
+@entity1:Stirling Castle
+@entity2:English
+@entity3:William Wallace
+@entity4:Lithuania
+@entity5:Kęstutis
+@entity6:1382
+@entity7:1297

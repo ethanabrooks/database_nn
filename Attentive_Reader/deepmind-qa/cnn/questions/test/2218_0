@@ -1,14 +1,12 @@
-6
+4
 
-@ent3 of the town 's most celebrated citizens is the wolf of @ent2 , who was tamed by @ent1 and whose legend is related in @ent5 @ent4 .
+@entity3 is a series of books containing the texts of documents and letters from @entity1 older than 1590 , verbatim and in the original language .
 
-wolf gang : in a medieval legend , the town of @ent2 is terrorized by a wolf until this saint greets it & tames it
+historic historians : @entity2 edited " @entity3 " , a valuable source on this , his native land
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:St. Francis of Assisi
-@ent2:Gubbio
-@ent3:One
-@ent4:Fioretti
-@ent5:the 14th-century
+@entity0:
+@entity1:Norway
+@entity2:Christian Lange
+@entity3:Diplomatarium Norvegicum

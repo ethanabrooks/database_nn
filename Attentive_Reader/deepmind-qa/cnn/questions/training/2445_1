@@ -1,15 +1,14 @@
-7
+6
 
-  in @ent2 around @ent3 bc , @ent1 had a large temple and was listed @ent4 in the pantheon following a father - god and ēl , and preceding @ent5 ( that is the god haddu or hadad/adad ) .
+@entity1 : @entity3 .
 
-near east ancient history : @ent1 was the top god of these people , whose name has come to mean " uncouth " & " unsophisticated "
+museums : this country 's national museum has @entity5 sites in the capital & one in @entity2 devoted to rural life
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Dagon
-@ent2:Ugarit
-@ent3:1300
-@ent4:third
-@ent5:Baīl Ṣapān
-@ent6:Philistines
+@entity0:
+@entity1:Dublin
+@entity2:County Mayo
+@entity3:Royal Irish Academy
+@entity4:Ireland
+@entity5:3

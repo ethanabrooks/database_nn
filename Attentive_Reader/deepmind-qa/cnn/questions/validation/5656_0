@@ -1,14 +1,15 @@
-6
+7
 
-@ent3 – @ent5 president @ent4 establishes @ent2 .
+  she started her stage career in @entity6 in @entity3 and was @entity2 of the founding members of @entity1 in @entity5 .
 
-@ent3 : on @ent1 this helpful corps was created by presidential executive order
+oscar oddities : @entity4 is the only oscar - winning actress born in this country
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:March 1
-@ent2:the Peace Corps
-@ent3:1961
-@ent4:John F. Kennedy
-@ent5:United States
+@entity0:
+@entity1:the National Theatre of Greece
+@entity2:one
+@entity3:1928
+@entity4:Katina Paxinou
+@entity5:1932
+@entity6:Greece

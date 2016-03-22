@@ -1,15 +1,15 @@
 7
 
-@ent3 married tennis star @ent1 in @ent4 .
+while not disgraced , @entity4 had been displaced in ex - confederate affection after the war by his leading general , @entity5 .
 
-i married this sports star : @ent2 , in @ent5 ; singer @ent6 , in @ent4
+@entity2 : in @entity3 @entity1 named this @entity6 general his chief military advisor
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:John McEnroe
-@ent2:Tatum O'Neal
-@ent3:Smyth
-@ent4:1997
-@ent5:1986
-@ent6:Patty Smyth
+@entity0:
+@entity1:Jefferson Davis
+@entity2:HISTORY 101
+@entity3:1862
+@entity4:Davis
+@entity5:Robert E. Lee
+@entity6:Confederate

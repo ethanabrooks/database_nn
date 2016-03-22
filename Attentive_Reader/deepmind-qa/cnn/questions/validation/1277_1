@@ -1,17 +1,16 @@
-9
+8
 
-@ent1 was @ent4 of @ent2 children adopted by @ent3 .
+  his nephew , @entity2 , became the @entity3 @entity6 .
 
-" m.d."s : in @ent7 @ent3 hit no . @ent5 on the bestseller list with this book
+presidents of the continental congress : the @entity3 president of @entity7 , @entity2 gaveled @entity7 to order on @entity4 in this city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Christina
-@ent2:five
-@ent3:Christina Crawford
-@ent4:one
-@ent5:1
-@ent6:Mommie Dearest
-@ent7:1978
-@ent8:Joan Crawford
+@entity0:
+@entity1:Philadelphia
+@entity2:Edmund Randolph
+@entity3:first
+@entity4:September 5, 1774
+@entity5:Peyton Randolph
+@entity6:United States Attorney General
+@entity7:Congress

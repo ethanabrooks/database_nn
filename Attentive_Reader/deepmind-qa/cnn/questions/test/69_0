@@ -1,18 +1,14 @@
-10
+6
 
-it was the home of @ent3 from @ent7 to @ent4 , and later of @ent9 .
+  @entity2 is a ballet by choreographer @entity1 , set to music by @entity3 , for @entity4 .
 
-a trip to literary britain : this @ent6 was living at @ent2 in @ent8 when he wrote " @ent1 in @ent5
+ballet : @entity1 used the music of this group for the ballet " @entity2 "
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:The Ambassadors"
-@ent2:Lamb House
-@ent3:Henry James
-@ent4:1916
-@ent5:1903
-@ent6:American
-@ent7:1897
-@ent8:Rye
-@ent9:E.F. Benson
+@entity0:
+@entity1:Twyla Tharp
+@entity2:Deuce Coupe
+@entity3:the Beach Boys
+@entity4:the Joffrey Ballet
+@entity5:The Beach Boys

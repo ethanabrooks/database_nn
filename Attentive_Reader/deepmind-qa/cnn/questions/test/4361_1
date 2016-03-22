@@ -1,14 +1,18 @@
-6
+10
 
-@ent4 and @ent1 , their sisters and daughters .
+  the film was shot in the fall of @entity1 on the streets of @entity6 , @entity5 and @entity5 .
 
-& the 21st century emmy goes to ... : her in @ent3 , for going all historical on us as @ent1 in a miniseries
+@entity4 in the movies : this writer/director 's @entity2 - set films include " @entity7 " & " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Louisa Adams
-@ent2:Laura Linney
-@ent3:2008
-@ent4:Abigail
-@ent5:Abigail Adams
+@entity0:
+@entity1:1992
+@entity2:New York
+@entity3:Manhattan Murder Mystery
+@entity4:NEW YORK
+@entity5:the Upper West Side
+@entity6:Greenwich Village
+@entity7:Manhattan
+@entity8:the Upper East Side
+@entity9:Woody Allen

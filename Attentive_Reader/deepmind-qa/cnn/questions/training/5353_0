@@ -1,15 +1,15 @@
 7
 
-the idiot ( , @ent1 ) is a novel by @ent3 @ent2 author @ent6 .
+the nez perce national forest is a @entity6 ( 9,000.58 km2 ) @entity4 located in west - central @entity1 .
 
-foreign literature : this author of " @ent5 " wrote " @ent4 " while on the run from creditors
+forests : part of @entity2 , @entity3 deepest gorge , is in this state 's @entity4
 
-@ent6
+@entity1
 
-@ent0:
-@ent1:Idiot
-@ent2:Russian
-@ent3:the 19th-century
-@ent4:The Idiot
-@ent5:Crime and Punishment
-@ent6:Fyodor Dostoyevsky
+@entity0:
+@entity1:Idaho
+@entity2:Hells Canyon
+@entity3:North America's
+@entity4:United States National Forest
+@entity5:Nez Perce National Forest
+@entity6:2,224,091 acre

@@ -1,13 +1,15 @@
-5
+7
 
-  plot job and his wife are sitting out under a palm tree when a tree , called the burning @ent2 or @ent4 , enlightens itself .
+  chakkri ( officer under @entity2 ) , born as @entity4 ( ขุนเณร ) , a government officer under @entity1 .
 
-poets & poetry : you might read this new englander 's blank verse play " @ent1 " " on a snowy evening "
+world travel : @entity6 is a favorite seaside resort of this country 's ruling @entity5 family ; their summer palace is there
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:A Masque of Reason
-@ent2:Bush
-@ent3:Robert Frost
-@ent4:The Christmas Tree
+@entity0:
+@entity1:King Sanphet IX of Ayutthaya
+@entity2:Sanphet IX
+@entity3:Thailand
+@entity4:Khunnen
+@entity5:Chakkri
+@entity6:Hua HIn

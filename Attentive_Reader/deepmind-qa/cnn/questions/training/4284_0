@@ -1,17 +1,18 @@
-9
+10
 
-@ent6 also directed @ent2 , as well as documentaries on @ent4 and @ent7 .
+  the following season , @entity5 finished @entity2 to @entity6 at @entity7 and , while suffering from a bad head cold , to @entity8 at @entity1 .
 
-documentaries : in @ent5 's " @ent8 " , director @ent1 followed this other director & his jazz band around @ent3
+athletes : 14-year - old @entity9 upset this world champion at the @entity3 @entity4
 
-@ent7
+@entity6
 
-@ent0:
-@ent1:Barbara Kopple
-@ent2:A Conversation With Gregory Peck and Bearing Witness
-@ent3:Europe
-@ent4:Mike Tyson
-@ent5:1997
-@ent6:Kopple
-@ent7:Woody Allen
-@ent8:Wild Man Blues
+@entity0:
+@entity1:Trophée Lalique
+@entity2:second
+@entity3:1997
+@entity4:U.S. Figure Skating Championship
+@entity5:Lipinski
+@entity6:Michelle Kwan
+@entity7:Skate America
+@entity8:Laëtitia Hubert
+@entity9:Tara Lipinski

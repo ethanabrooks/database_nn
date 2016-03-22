@@ -1,14 +1,13 @@
-6
+5
 
-but numbers have risen steadily since unification , as evidence has been gathered from @ent4 records .
+@entity4 ( @entity1 )
 
-20th century europe : in @ent5 @ent1 quit as leader of this country that ceased to exist @ent3
+women in history : her life inspired the historical novel " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Erich Honecker
-@ent2:East Germany
-@ent3:a year later
-@ent4:East German
-@ent5:October 1989
+@entity0:
+@entity1:Page 2
+@entity2:Harriet Tubman
+@entity3:A Woman Called Moses
+@entity4:Van McCoy Music

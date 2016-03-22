@@ -1,13 +1,22 @@
-5
+14
 
-its capital is @ent1 ; the biggest city is @ent2 .
+( @entity13 ) , neighbors ( @entity3 ) , @entity5 @entity2 ) , @entity11 , part ii ( @entity4 ) , @entity11 , part iii ( @entity6 ) , @entity8 ( @entity6 ) , and @entity1 seconds ( @entity9 ) .
 
-world " c"ities : it 's the largest city in the @ent3 state of @ent4
+martial artists : " @entity7 " director @entity10 directed this @entity2 @entity12 film & 2 of its sequels
 
-@ent2
+@entity11
 
-@ent0:
-@ent1:Düsseldorf
-@ent2:Cologne
-@ent3:German
-@ent4:North Rhine-Westphalia
+@entity0:
+@entity1:8
+@entity2:1984
+@entity3:1981
+@entity4:1986
+@entity5:The Karate Kid (
+@entity6:1989
+@entity7:Rocky
+@entity8:Lean on Me
+@entity9:1994
+@entity10:John G. Avildsen
+@entity11:The Karate Kid
+@entity12:Ralph Macchio
+@entity13:1970

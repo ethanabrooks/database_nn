@@ -1,18 +1,12 @@
-10
+4
 
-  @ent1 served as co - chair of @ent2 olympic committee appointed by senators @ent8 and @ent6 to suggest reform of the organization ’s structure .
+@entity1 is the common name for cedar wood , used for several different trees that grow in different parts of the world .
 
-female firsts : in @ent9 @ent3 , an @ent5 attorney , became the @ent4 woman president of this organization
+@entity2 : knock wood , you may be lucky enough to receive this country 's order of the @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ramo
-@ent2:the United States
-@ent3:Roberta Cooper Ramo
-@ent4:first
-@ent5:Albuquerque
-@ent6:John McCain
-@ent7:the American Bar Association
-@ent8:Ted Stevens
-@ent9:1995
+@entity0:
+@entity1:Cedar
+@entity2:MEDALS & DECORATIONS
+@entity3:Lebanon

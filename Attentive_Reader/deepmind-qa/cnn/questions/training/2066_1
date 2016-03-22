@@ -1,18 +1,20 @@
-10
+12
 
-@ent9 , breed of dog originating in @ent2 , a projected dam in @ent3 to be built in @ent4
+he concluded @entity5 by competing in @entity8 official worldwide events winning @entity4 , placing @entity3 in @entity6 , and compiling @entity1 top-10 finishes .
 
-@ent6 geography : ranchers formed the territory of @ent5 in @ent1 ; it lasted until @ent8 when it became this state 's western panhandle
+golf : the famous triumverate of the @entity9 's was @entity2 , @entity11 , & this @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1887
-@ent2:Uruguay Cimarron Hydroelectric Power Project
-@ent3:El Salvador
-@ent4:2010
-@ent5:Cimarron
-@ent6:U.S.
-@ent7:Oklahoma
-@ent8:1890
-@ent9:Cimarrón Uruguayo
+@entity0:
+@entity1:15
+@entity2:Jack Nicklaus
+@entity3:second
+@entity4:seven
+@entity5:1972
+@entity6:four
+@entity7:South African
+@entity8:20
+@entity9:1960
+@entity10:Gary Player
+@entity11:Arnold Palmer

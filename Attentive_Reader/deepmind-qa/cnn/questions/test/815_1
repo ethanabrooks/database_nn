@@ -1,17 +1,16 @@
-9
+8
 
-he is the youngest of @ent2 sons : oldest brother @ent3 , who worked in the hops brokerage business and was an innovator in the cultivation of new hop varieties , and middle brother @ent4 , a screenwriter .
+his most successful and arguably most identifiable role is of @entity2 in @entity7 , which he played on both the broadway stage ( @entity6 ) and in the @entity5 @entity3 film .
 
-" black " movies : @ent7 played @ent8 in this @ent1 film satirizing " @ent6 "
+kiss your lass goodbye : in " @entity7 " , @entity4 says goodbye to his wife & starts flirting with this actress
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1975
-@ent2:three
-@ent3:John
-@ent4:Fred
-@ent5:The Black Bird
-@ent6:The Maltese Falcon
-@ent7:George Segal
-@ent8:Sam Spade Jr.
+@entity0:
+@entity1:Marilyn Monroe
+@entity2:Richard Sherman
+@entity3:Hollywood
+@entity4:Tom Ewell
+@entity5:1955
+@entity6:1952-1954
+@entity7:The Seven Year Itch

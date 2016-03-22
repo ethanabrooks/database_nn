@@ -1,16 +1,18 @@
-8
+10
 
-  @ent6 professor of @ent7 , @ent5 writes :   " there would be no enduring conflicts –
+actress @entity4 , who would die of the disease in @entity9 and was then married to actor @entity1 , named her own daughter @entity2 jones in the older actress 's honor .
 
-coming to america : @ent1 & @ent2 made names for themselves after both emigrating from this country in @ent3
+film stars : after divorcing @entity8 , @entity1 married this " @entity7 " producer in @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Frank Capra
-@ent2:Charles Atlas
-@ent3:1903
-@ent4:Italy
-@ent5:Leonard Quart
-@ent6:NYU
-@ent7:Humanities and Performing Arts
+@entity0:
+@entity1:Jennifer Jones
+@entity2:Jennifer Robin
+@entity3:Christopher Jones
+@entity4:Susan Strasberg
+@entity5:David O. Selznick
+@entity6:1949
+@entity7:Gone With The Wind
+@entity8:Robert Walker
+@entity9:1999

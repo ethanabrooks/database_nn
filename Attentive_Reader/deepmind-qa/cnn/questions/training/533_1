@@ -1,15 +1,12 @@
-7
+4
 
-the novel is set in @ent1 @ent5 , and follows the preparations and expedition of @ent4 westward to the new world .
+intolerance or intolerant may refer to :   medical/biological intolerance , or hypersensitivity , includes but is not limited to allergy .
 
-literature : " @ent2 " is a lesser - known novel by this author of " @ent6 "
+silent movie directors : most of his profits from " @entity3 " were lost when he made " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:15th century
-@ent2:Mercedes of Castile
-@ent3:James Fenimore Cooper
-@ent4:Christopher Columbus
-@ent5:Europe
-@ent6:The Leather-Stocking Tales
+@entity0:
+@entity1:D.W. Griffith
+@entity2:Intolerance
+@entity3:The Birth of a Nation

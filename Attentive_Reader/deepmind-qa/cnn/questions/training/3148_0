@@ -1,17 +1,14 @@
-9
+6
 
-@ent6 : @ent7 @ent5 capture @ent2 ( @ent8 ) from the @ent4 .
+liguria ( , ; @entity3 : ligury    or ) is a coastal region of north - western @entity1 , with capital @entity2 .
 
-arizona : a @ent1 rebellion by @ent3 against the @ent4 is named for these typical communal dwellings
+regions of the world : @entity4 is a resort area on this country 's @entity5
 
-@ent7
+@entity1
 
-@ent0:
-@ent1:1680
-@ent2:Santa Fe
-@ent3:the Hopi Indians
-@ent4:Spanish
-@ent5:Indians
-@ent6: August 21 – Pueblo Revolt
-@ent7:Pueblo
-@ent8:New Mexico
+@entity0:
+@entity1:Italy
+@entity2:Genoa
+@entity3:English
+@entity4:Liguria
+@entity5:Riviera

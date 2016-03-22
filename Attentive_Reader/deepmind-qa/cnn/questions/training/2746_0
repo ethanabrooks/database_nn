@@ -1,14 +1,12 @@
-6
+4
 
-the @ent4 bride ( ) is a painting by @ent5 , painted around @ent3 .
+dili ( ) is the capital , largest city , chief port and commercial centre of @entity1 .
 
-international artists : this dutchman 's @ent1 painting of " @ent2 " is in the rijksmuseum
+@entity3 capitals : have a dilly of a time in @entity2 , the capital of this new nation
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:1660s
-@ent2:The Jewish Bride
-@ent3:1667
-@ent4:Jewish
-@ent5:Rembrandt
+@entity0:
+@entity1:East Timor
+@entity2:Dili
+@entity3:ASIAN

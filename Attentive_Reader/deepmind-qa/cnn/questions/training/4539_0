@@ -1,15 +1,13 @@
-7
+5
 
-@ent4 is a city in central @ent6 , @ent3 , on @ent2 .
+thumb|350px|michigan @entity4 is a bay within @entity2 located on the eastern side of the @entity1 state of @entity3 .
 
-around the world : boomtown @ent1 is a recreated frontier street at a museum in @ent4 in this @ent5 province
+bodies of water : @entity4 , on the eastern coast of @entity3 , is an inlet of this great lake
 
-@ent6
+@entity2
 
-@ent0:
-@ent1:1910
-@ent2:the South Saskatchewan River
-@ent3:Canada
-@ent4:Saskatoon
-@ent5:Canadian
-@ent6:Saskatchewan
+@entity0:
+@entity1:U.S.
+@entity2:Lake Huron
+@entity3:Michigan
+@entity4:Saginaw Bay

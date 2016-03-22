@@ -1,14 +1,15 @@
-6
+7
 
-the album won @ent5 in @ent3 for @ent2 .
+entertainment weekly .
 
-music : this guitarist 's " @ent4 " was named @ent2 at @ent3 's grammys
+@entity3 , @entity4 : character played by @entity6 on @entity2 tv series " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:B.B. King
-@ent2:Best Traditional Blues Album
-@ent3:1994
-@ent4:Blues Summit
-@ent5:a Grammy Award
+@entity0:
+@entity1:Twin Peaks
+@entity2:David Lynch's
+@entity3:EMERSON
+@entity4:LAKE & PALMER
+@entity5:Laura Palmer
+@entity6:Sheryl Lee

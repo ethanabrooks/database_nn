@@ -1,16 +1,18 @@
-8
+10
 
-  in @ent2 @ent1 offered a handbag inspired by soldier 's bags .
+– @entity6 claims to have driven the @entity4 automobile in @entity1 , in @entity9 , @entity3 .
 
-what a year ! : @ent5 won @ent4 , @ent3 was the toast of @ent7 ! , the market crashed in @ent6
+@entity2 events : on or about @entity5 , maine & this other @entity7 state celebrate @entity8
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Chanel
-@ent2:1929
-@ent3:Coco Chanel
-@ent4:the Tour de France
-@ent5:Dewaele
-@ent6:this year
-@ent7:Paris & Sacre Bleu
+@entity0:
+@entity1:the United States
+@entity2:ANNUAL
+@entity3:Massachusetts
+@entity4:first
+@entity5:April 19
+@entity6:Charles Duryea
+@entity7:New England
+@entity8:Patriot's Day
+@entity9:Springfield

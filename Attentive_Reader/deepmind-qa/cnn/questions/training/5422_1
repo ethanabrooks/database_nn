@@ -1,16 +1,20 @@
-8
+12
 
-@ent2 hoped that somehow with @ent1 's parents out of the way she could marry the handsome , wealthy young man .
+  @entity2 's remains were returned to @entity3 in @entity1 after being exhumed from a military cemetery in @entity9 , and buried at @entity7 in @entity10 .
 
-their first feature films : this " @ent4 " got his head chopped off by an axe - wielding @ent7 in his @ent3 film , " @ent6 "
+on the warpath : the last @entity5 soldier killed in action in @entity4 , private @entity6 , died on this date in @entity11
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Michael
-@ent2:Carol
-@ent3:first
-@ent4:Bionic Man
-@ent5:Lee Majors
-@ent6:Strait-Jacket
-@ent7:Joan Crawford
+@entity0:
+@entity1:1923
+@entity2:Gunther
+@entity3:the United States
+@entity4:WWI
+@entity5:American
+@entity6:Henry Gunther
+@entity7:the Most Holy Redeemer Cemetery
+@entity8:November 11
+@entity9:France
+@entity10:Baltimore
+@entity11:1918

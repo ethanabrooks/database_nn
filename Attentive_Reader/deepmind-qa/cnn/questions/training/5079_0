@@ -1,16 +1,18 @@
-8
+10
 
-  his novel named @ent1 , concerning a @ent7 family , made him the @ent3 recipient of the   @ent6 for the novel ( @ent2 ) .
+@entity7 @entity2 ( ; born @entity8 @entity1 ) is a @entity4 politician , who served as the 47th prime minister of @entity6 from @entity9 to @entity3 .
 
-first things first : @ent4 became the @ent3 novelist to win this prize on @ent5
+take me to your leader : europe:prime minister @entity2
 
-@ent6
+@entity6
 
-@ent0:
-@ent1:His Family
-@ent2:1918
-@ent3:first
-@ent4:Ernest Poole
-@ent5:June 3, 1918
-@ent6:Pulitzer Prize
-@ent7:New York
+@entity0:
+@entity1:April 1953
+@entity2:Guy Verhofstadt
+@entity3:2008
+@entity4:Belgian
+@entity5:Louise Verhofstadt
+@entity6:Belgium
+@entity7:Guy Maurice Marie
+@entity8:11
+@entity9:1999

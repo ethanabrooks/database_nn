@@ -1,16 +1,14 @@
-8
+6
 
-@ent3 produced @ent7 films directed by the acclaimed @ent4 .
+@entity2 public officials and employees were dismissed without benefits , on account of age , health , incompetence , or malpractice .
 
-bought the farm : @ent2 , the producer who created this @ent1 - attacking giant lizard , died in @ent1 in @ent6
+international traffic : @entity4 , this country 's head of state , was shot dead in a @entity3 traffic jam in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tokyo
-@ent2:Tomoyuki Tanaka
-@ent3:Tanaka
-@ent4:Akira Kurosawa
-@ent5:Godzilla
-@ent6:April 1997
-@ent7:six
+@entity0:
+@entity1:1976
+@entity2:More than 10,000
+@entity3:Lagos
+@entity4:Murtala Mohammed
+@entity5:Nigeria

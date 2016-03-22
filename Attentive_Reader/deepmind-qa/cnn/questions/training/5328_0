@@ -1,18 +1,14 @@
-10
+6
 
-  the film stars @ent8 lover @ent6 as @ent7 , supported by @ent4 , @ent1 , @ent9 , and @ent5 .
+the @entity3 family is a fictional @entity2 family featured in a number of western novels , short stories and historical novels by @entity2 writer @entity5 .
 
-a study in scarlet : a scarlet woman in " shanghai express " , she was @ent3 in " @ent2 "
+@entity1 : this bestselling @entity4 author wrote about the @entity3 family in more than a dozen novels
 
-@ent6
+@entity5
 
-@ent0:
-@ent1:Sam Jaffe
-@ent2:The Scarlet Empress
-@ent3:Catherine the Great
-@ent4:John Davis Lodge
-@ent5:C. Aubrey Smith
-@ent6:Marlene Dietrich
-@ent7:Catherine
-@ent8:von Sternberg's
-@ent9:Louise Dresser
+@entity0:
+@entity1:AMERICAN LITERATURE
+@entity2:American
+@entity3:Sackett
+@entity4:Western
+@entity5:Louis L'Amour

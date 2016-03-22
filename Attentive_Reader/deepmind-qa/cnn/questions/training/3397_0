@@ -1,14 +1,18 @@
-6
+10
 
-friends university is a private non - denominational @ent5 university in @ent3 , @ent2 .
+@entity7 centre is located on @entity9 ridout street , @entity2 , @entity8 , @entity4 .
 
-@ent1 universities : high school buddies might want to apply to @ent4 , based in @ent3 in this state
+this old haunted house : a @entity3 officer who drowned in @entity6 nearby haunts @entity5 in this @entity1 province
 
-@ent2
+@entity8
 
-@ent0:
-@ent1:U.S.
-@ent2:Kansas
-@ent3:Wichita
-@ent4:Friends University
-@ent5:Christian
+@entity0:
+@entity1:Canadian
+@entity2:London
+@entity3:British
+@entity4:Canada
+@entity5:Eldon House
+@entity6:the Thames River
+@entity7:The Eldon House Interpretation
+@entity8:Ontario
+@entity9:481

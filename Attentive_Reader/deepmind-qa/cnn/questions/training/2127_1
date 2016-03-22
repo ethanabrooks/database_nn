@@ -1,16 +1,17 @@
-8
+9
 
-  it is located in @ent5 , situated in the southernmost part of @ent7 , and within @ent4 of @ent1 .
+  @entity4 entered the @entity5 , where he was ordered to flight school and was designated a naval aviator on @entity8 .
 
-when you were young : @ent6 , a breakaway republic , was overrun by the army of this country in @ent2
+@entity1 . government : in @entity6 @entity3 succeeded @entity2 as administrator of this agency
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Caspian Sea
-@ent2:1994
-@ent3:Russia
-@ent4:100 kilometers
-@ent5:the North Caucasus
-@ent6:Chechnya
-@ent7:Eastern Europe
+@entity0:
+@entity1:U.S
+@entity2:James C. Fletcher
+@entity3:Richard H. Truly
+@entity4:Truly
+@entity5:US Navy
+@entity6:July 1989
+@entity7:NASA
+@entity8:October 7, 1960

@@ -1,16 +1,12 @@
-8
+4
 
-  @ent1 contains @ent2 designated @ent6 wilderness areas , managed as such by @ent5 .
+  military thumb|right
 
-forests : @ent7 is n't in @ent4 but on this state 's upper peninsula
+books about tv shows : in " true blue " @entity3 & @entity1 relate true - life incidents that inspired this cop show
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Ottawa National Forest
-@ent2:three
-@ent3:Michigan
-@ent4:Canada
-@ent5:the Forest Service
-@ent6:U.S.
-@ent7:Ottawa National Forest
+@entity0:
+@entity1:Bill Clark
+@entity2:NYPD Blue
+@entity3:David Milch

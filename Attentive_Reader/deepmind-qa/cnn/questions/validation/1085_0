@@ -1,17 +1,16 @@
-9
+8
 
-the company is based in @ent2 , @ent8 , @ent7 .
+arica ( ) is a commune and a port city with a population of @entity1 in @entity3 of northern @entity2 's @entity5 .
 
-where am i ? : ( @ent5 of @ent6 sits amongst boxes of crayons . )   i 'm at the @ent3 factory in this state 's city of @ent1 , part of an industrial complex with @ent4
+partly cloudy , chance of rain : .03 " @entity6 of rain falls on @entity4 in this @entity7 country whose name sounds like a weather condition
 
-@ent7
+@entity2
 
-@ent0:
-@ent1:Easton
-@ent2:Forks Township
-@ent3:Crayola
-@ent4:Allentown & Bethlehem
-@ent5:Kelly
-@ent6:the Clue Crew
-@ent7:Pennsylvania
-@ent8:Northampton County
+@entity0:
+@entity1:196,590
+@entity2:Chile
+@entity3:the Arica Province
+@entity4:Arica
+@entity5:Arica y Parinacota Region
+@entity6:a year
+@entity7:South American

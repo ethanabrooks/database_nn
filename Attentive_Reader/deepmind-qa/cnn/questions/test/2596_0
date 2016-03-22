@@ -1,12 +1,14 @@
-4
+6
 
-he was an independent vice - presidential candidate in @ent3 with @ent1 .
+it stars @entity4 , @entity3 and @entity2 .
 
-famous johns : when he ran for president as an independent in @ent3 , his running mate was @ent2
+leading men : this romantic actor appeared in " @entity1 " , " @entity1 " & " ghosts italian style "
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:John Anderson
-@ent2:Patrick Lucey
-@ent3:1980
+@entity0:
+@entity1:Marriage Italian Style
+@entity2:Vito Moricone
+@entity3:Marcello Mastroianni
+@entity4:Sophia Loren
+@entity5:Divorce Italian Style

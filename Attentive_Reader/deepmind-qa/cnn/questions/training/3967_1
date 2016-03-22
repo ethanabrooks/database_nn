@@ -1,20 +1,16 @@
-12
+8
 
-and @ent7 for all ( film ) @ent8 , @ent1 @ent3 , @ent4 nobleman and @ent2 politician   see also @ent9 , physician and politician
+@entity5 .
 
-short stories : @ent9 appears in this author 's short story " @ent6 " as well as in " @ent11 "
+@entity4 joints : @entity6 , this chain 's training center , opened in @entity2 in @entity3 , @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:14th
-@ent2:Tory
-@ent3:Viscount Hereford
-@ent4:British
-@ent5:Stephen Crane
-@ent6:Lynx-Hunting
-@ent7:Justice
-@ent8:Henry Fleming Lea Devereux
-@ent9:Harry Fleming
-@ent10:Henry Fleming
-@ent11:The Red Badge of Courage
+@entity0:
+@entity1:Illinois
+@entity2:1961
+@entity3:Elk Grove Village
+@entity4:BURGER
+@entity5:The Motion Picture
+@entity6:Hamburger University
+@entity7:McDonald's

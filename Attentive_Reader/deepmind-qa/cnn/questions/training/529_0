@@ -1,13 +1,13 @@
 5
 
-@ent3 is a fictional character created by @ent1 .
+barbuda is an island in @entity3 , and forms part of the state of @entity2 and @entity4 .
 
-literature aliases : @ent3 , a character created by this man , is aka @ent2 , @ent4
+" a " in geography : it 's paired with @entity4 in the name of a @entity1 island country
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Stephen King
-@ent2:Nyarlathotep
-@ent3:Randall Flagg
-@ent4:Walter Padick & Walter O'Dim
+@entity0:
+@entity1:Caribbean
+@entity2:Antigua
+@entity3:the Eastern Caribbean
+@entity4:Barbuda

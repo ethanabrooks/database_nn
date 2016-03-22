@@ -1,13 +1,14 @@
-5
+6
 
-@ent1 and the origins of bibliography , trans .
+@entity4 ( , ; born @entity3 @entity5 ) is the current prime minister of @entity1 .
 
-ancient egypt : a @ent4 scholar named @ent2 wrote a bibliographical survey of the authors of the books held here
+they used to be in charge : @entity2
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:the Alexandrian Library
-@ent2:Callimachus
-@ent3:The Alexandrian Library
-@ent4:Greek
+@entity0:
+@entity1:Israel
+@entity2:Benjamin Netanyahu
+@entity3:21
+@entity4:Benjamin "Bibi" Netanyahu
+@entity5:October 1949

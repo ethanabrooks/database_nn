@@ -1,13 +1,12 @@
-5
+4
 
-the virgin spring ( ) is a @ent4 @ent2 film directed by @ent3 .
+she is portrayed by @entity3 .
 
-at the movies : this @ent2 film director 's classics include " @ent1 " , " the silence " & " wild strawberries "
+" l.b."s : oscar - nominated for her role in " goodfellas " , she went on to play dr. @entity1 on " @entity2 "
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:The Virgin Spring
-@ent2:Swedish
-@ent3:Ingmar Bergman
-@ent4:1960
+@entity0:
+@entity1:Jennifer Melfi
+@entity2:The Sopranos
+@entity3:Lorraine Bracco

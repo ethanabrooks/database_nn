@@ -1,20 +1,15 @@
-12
+7
 
-the city of @ent8 is divided into @ent6 districts :   i. innere stadt ( @ent3 ) ii. st. leonhard ( 12,377 ) iii. geidorf ( 19,119 ) iv. lend ( 22,369 ) v. gries ( @ent4 ) vi. @ent10 ( @ent2 ) vii. liebenau ( 11,556 ) viii. st. peter ( 12,809 ) ix. waltendorf ( 10,782)x. ries ( 5,789 ) xi. mariatrost ( 7,403 ) xii. andritz ( 16,316 ) xiii. gösting ( 11,489 )
+  according to @entity1 data from @entity4 , the largest sectors of non - agricultural employment were :
 
-@ent5 : @ent7 , whose name means " black plowman " in @ent11 , was born in @ent8 in this country in @ent1
+famous women : both @entity6 , her home now , and @entity2 , her home in @entity5 , have streets named for her
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1947
-@ent2:25,808
-@ent3:3,302
-@ent4:22,658
-@ent5:ARNOLD SCHWARZENEGGER
-@ent6:17
-@ent7:Schwarzenegger
-@ent8:Graz
-@ent9:Austria
-@ent10:Jakomini
-@ent11:German
+@entity0:
+@entity1:Bureau of Labor Statistics
+@entity2:Montgomery, Alabama
+@entity3:Rosa Parks
+@entity4:October 2008
+@entity5:1955
+@entity6:Detroit

@@ -1,18 +1,13 @@
-10
+5
 
-  @ent1 to @ent7 ( julius schepps freeway ) @ent9 was the @ent3 freeway in @ent7 , built as a new alignment of @ent6 75 .
+phase one is the reconstruction of the main lanes from the northern end of the project to just south of fm 1959 .
 
-statues : @ent5 stands @ent8 tall along @ent4 in this state
+statues : @entity3 stands @entity1 tall along @entity2 in this state
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Richland
-@ent2:Texas
-@ent3:first
-@ent4:Interstate 45
-@ent5:Sam Houston
-@ent6:US
-@ent7:Dallas
-@ent8:67 feet
-@ent9:The Central Expressway
+@entity0:
+@entity1:67 feet
+@entity2:Interstate 45
+@entity3:Sam Houston
+@entity4:Texas

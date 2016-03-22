@@ -1,16 +1,13 @@
-8
+5
 
-the @ent6 ( commonly referred to as @ent4 , @ent1 , or simply @ent5 ) is a private research university in @ent2 , @ent7 .
+the @entity2 ( ) is @entity3 of the best known dances of @entity4 .
 
-@ent3 geography : @ent6 in this city is the home of the lacrosse hall of fame
+europe : the @entity1 is one of the most popular wedding dances of this country
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:JHU
-@ent2:Baltimore
-@ent3:U.S.
-@ent4:Johns Hopkins
-@ent5:Hopkins
-@ent6:Johns Hopkins University
-@ent7:Maryland
+@entity0:
+@entity1:Kalamatianos
+@entity2:Kalamatianós
+@entity3:one
+@entity4:Greece

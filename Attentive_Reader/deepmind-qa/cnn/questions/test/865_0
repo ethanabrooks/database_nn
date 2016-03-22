@@ -1,16 +1,14 @@
-8
+6
 
-  from 1877 to 1878 , @ent5 attended the rockford female seminary , where she @ent3 met @ent2 .
+the @entity2 metropolitan area is also part of the region .
 
-@ent6 : after meeting this woman at @ent7 , @ent4 founded @ent1 with her
+@entity3 geography : this @entity4 port in @entity5 was once called " @entity1
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:Hull House
-@ent2:Jane Addams
-@ent3:first
-@ent4:Ellen Gates Starr
-@ent5:Starr
-@ent6:LESSER-KNOWN AMERICANS
-@ent7:the Rockford Female Seminary
+@entity0:
+@entity1:the Glass Capital of the World"
+@entity2:Toledo
+@entity3:U.S.
+@entity4:Lake Erie
+@entity5:Northwest Ohio

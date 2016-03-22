@@ -1,0 +1,11 @@
+3
+
+director @entity1 filmed @entity2 !
+
+born in burbank : this quirky director 's films include " @entity2 ! " & " sweeney todd "
+
+@entity1
+
+@entity0:
+@entity1:Tim Burton
+@entity2:Mars Attacks

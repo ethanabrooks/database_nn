@@ -1,19 +1,14 @@
-11
+6
 
-the @ent6 remained in @ent4 's mansion in @ent9 until @ent7 , and moved about @ent8 thereafter until the construction in @ent10 of its own buildings in @ent2 .
+in the basement of the old house , @entity1 finds a new strain of @entity2 purpurea which induces a great sense of calmness , sexual drive , confidence , etc .
 
-architects : in @ent3 he was appointed professor of astronomy at @ent8 's @ent1
+authors : this author of " @entity4 " has been dubbed " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Gresham College
-@ent2:Gresham Street EC2
-@ent3:1657
-@ent4:Gresham
-@ent5:Christopher Wren
-@ent6:College
-@ent7:1768
-@ent8:London
-@ent9:Bishopsgate
-@ent10:1842
+@entity0:
+@entity1:Edward
+@entity2:Claviceps
+@entity3:The Master of the Medical Thriller
+@entity4:Acceptable Risk
+@entity5:Robin Cook

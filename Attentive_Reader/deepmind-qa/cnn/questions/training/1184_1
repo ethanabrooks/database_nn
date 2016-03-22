@@ -1,14 +1,15 @@
-6
+7
 
-tahoma is the original form of the word " @ent1 " , as in the city of @ent1 , @ent2 .
+she amuses herself by not telling him the truth .
 
-mountains : @ent1 's name was derived from @ent4 , an @ent5 name for this mountain
+filmed in hawaii : set in @entity6 but filmed in @entity5 , @entity1 's " @entity4 " featured this star doing @entity3 of her famous water ballets
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tacoma
-@ent2:Washington
-@ent3:Mount Rainier
-@ent4:Tahoma
-@ent5:Indian
+@entity0:
+@entity1:1950
+@entity2:Esther Williams
+@entity3:one
+@entity4:Pagan Love Song
+@entity5:Hawaii
+@entity6:Tahiti

@@ -1,25 +1,12 @@
-17
+4
 
-@ent5 " bob " mackie ( born @ent15 ) is an @ent13 fashion designer , best known for his dressing of entertainment icons such as @ent14 , @ent2 , @ent8 , @ent10 , @ent7 , @ent6 , @ent11 , @ent4 , @ent16 , @ent12 and @ent3 .
+her book , @entity3 , describes her experiences raising a lion cub named @entity2 .
 
-the emmys : @ent9 sewed up a costume design emmy for her variety special " @ent1 carol "
+legendary lions : lioness that was " born free " in a @entity1 book
 
-@ent12
+@entity2
 
-@ent0:
-@ent1:Men, Movies and
-@ent2:Cher
-@ent3:Mitzi Gaynor
-@ent4:Liza Minnelli
-@ent5:Robert Gordon
-@ent6:Diana Ross
-@ent7:Bette Midler
-@ent8:RuPaul
-@ent9:Bob Mackie
-@ent10:Barbara Eden
-@ent11:Judy Garland
-@ent12:Carol Burnett
-@ent13:American
-@ent14:Joan Rivers
-@ent15:March 24, 1940
-@ent16:Tina Turner
+@entity0:
+@entity1:Joy Adamson
+@entity2:Elsa
+@entity3:Born Free

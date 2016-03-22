@@ -1,14 +1,15 @@
-6
+7
 
-@ent4 ) was an @ent1 actress , best known for her starring role as @ent3 in the 1950s television western series @ent3 .
+@entity3 , @entity5 and @entity1 were chosen as principal dancers .
 
-western stars : @ent5 did much of her own trick riding & sharpshooting on this @ent2 tv series
+ballet : when " @entity6 " premiered in @entity2 , @entity4 played the slave & she played armide
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:American
-@ent2:1953
-@ent3:Annie Oakley
-@ent4:March 15, 1997
-@ent5:Gail Davis
+@entity0:
+@entity1:Nijinsky
+@entity2:1907
+@entity3:Anna Pavlova
+@entity4:Vaslav Nijinsky
+@entity5:Karsavina
+@entity6:Le Pavillon d'Armide

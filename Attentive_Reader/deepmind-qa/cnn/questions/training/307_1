@@ -1,15 +1,15 @@
 7
 
-@ent5 , the lives of @ent4 , life of caligula 22 .
+there 's no business
 
-tales : this roman emperor who succeeded @ent2 narrates @ent1 novels by @ent6
+movie musicals : @entity1 played @entity5 in @entity4 production of this musical , but played @entity6 in the @entity2 film
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2
-@ent2:Caligula
-@ent3:Claudius
-@ent4:Twelve Caesars
-@ent5:Suetonius
-@ent6:Robert Graves
+@entity0:
+@entity1:George Chakiris
+@entity2:1961
+@entity3:West Side Story
+@entity4:the West End
+@entity5:Riff
+@entity6:Bernardo

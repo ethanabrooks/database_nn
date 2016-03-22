@@ -1,18 +1,15 @@
-10
+7
 
-  following the disintegration of @ent1 there were barbarian invasions ; @ent2 the city was occupied successively by @ent3 , @ent4 and vandals .
+@entity6 also participated in the @entity3 .
 
-historic names : @ent8 @ent5 became king of this country after his father was assassinated in @ent6 in @ent9
+@entity1 : @entity4 was once married to this beautiful movie star of @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Roman Empire
-@ent2:between 409 and 429
-@ent3:Sarmatians
-@ent4:Alans
-@ent5:Manuel II
-@ent6:Lisbon
-@ent7:Portugal
-@ent8:18-year-old
-@ent9:1908
+@entity0:
+@entity1:GENE POOL
+@entity2:the 1940s
+@entity3:ABC TV Superstars Competition
+@entity4:Oleg Cassini
+@entity5:Gene Tierney
+@entity6:Cassini

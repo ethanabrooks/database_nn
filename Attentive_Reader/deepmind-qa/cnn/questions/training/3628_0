@@ -1,13 +1,15 @@
-5
+7
 
-@ent1 is a comedy play by @ent3 .
+she became known in @entity5 , after the release of the film @entity2 , directed by @entity6 , for which she was credited with @entity4 as a co - writer of the screenplay , and in which she played a lead role .
 
-theatre : @ent4 directed the original @ent2 production of this playwright 's " @ent1 "
+movie number , please : co - written by @entity1 , @entity3 of its young tongue - studded stars:"____ "
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:Plaza Suite
-@ent2:Broadway
-@ent3:Neil Simon
-@ent4:Mike Nichols
+@entity0:
+@entity1:Nikki Reed
+@entity2:Thirteen
+@entity3:one
+@entity4:Hardwicke
+@entity5:2003
+@entity6:Catherine Hardwicke

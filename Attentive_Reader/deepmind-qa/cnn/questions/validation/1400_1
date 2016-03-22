@@ -1,13 +1,14 @@
-5
+6
 
-casiraghi gave the speech at the start of the event .
+@entity5 and the origins of the women 's rights movement .
 
-royalty : @ent2 hunky son @ent1 is @ent4 in line to the throne in this country
+hiram : @entity3 " @entity4 " , seen here , caused a sensation in @entity2 , & this woman wrote a sonnet about it
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Andrea Casiraghi
-@ent2:Princess Caroline's
-@ent3:Monaco
-@ent4:second
+@entity0:
+@entity1:Elizabeth Barrett Browning
+@entity2:the 1850s
+@entity3:Hiram Powers's
+@entity4:THe Greek Slave
+@entity5:Seneca Falls

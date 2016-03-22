@@ -1,16 +1,16 @@
 8
 
-after spending time in @ent4 he became a professor at @ent3 and , later , at @ent5 .
+  on @entity6 , he joined @entity4 , having endorsed president @entity1 for re - election in @entity2 .
 
-all hail : @ent1 , @ent7 , @ent2
+all you need is gov. : @entity5 successor @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Edna St. Vincent Millay
-@ent2:Margaret Chase Smith
-@ent3:Bowdoin
-@ent4:Europe
-@ent5:Harvard College
-@ent6:Maine
-@ent7:Henry Wadsworth Longfellow
+@entity0:
+@entity1:Barack Obama
+@entity2:2012
+@entity3:Charlie Crist
+@entity4:the Democratic Party
+@entity5:Jeb Bush
+@entity6:December 7, 2012
+@entity7:Florida

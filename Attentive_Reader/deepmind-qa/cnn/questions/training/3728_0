@@ -1,15 +1,19 @@
-7
+11
 
-while she made her career and fame performing in the theatrical " warhorses " of her day , she is @ent1 remembered more for her association with the plays of @ent2 and @ent3 .
+gen. @entity7 advance through @entity10 in @entity4 , the @entity8 of the @entity9 numbered over @entity6 men , and @entity3 's staff did the logistics and engineering for @entity1 's entire army group , including developing a novel series of @entity9 pontoons .
 
-actors of the past : @ent4 actress @ent5 was famous for her roles in this @ent6 's plays
+geographical nicknames : union gen. @entity5 was known as the " rock of chickamauga " , @entity2 being in this state
 
-@ent3
+@entity10
 
-@ent0:
-@ent1:today
-@ent2:Gabriele d'Annunzio
-@ent3:Henrik Ibsen
-@ent4:Italian
-@ent5:Eleonora Duse
-@ent6:Norwegian
+@entity0:
+@entity1:Sherman
+@entity2:Chickamauga
+@entity3:Thomas
+@entity4:the spring of 1864
+@entity5:George Henry Thomas
+@entity6:60,000
+@entity7:William Tecumseh Sherman's
+@entity8:Army
+@entity9:Cumberland
+@entity10:Georgia

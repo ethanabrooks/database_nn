@@ -1,15 +1,14 @@
-7
+6
 
-a classically trained baritone , he is best remembered for the @ent4 films in which he costarred with soprano @ent6 .
+she served as the president of the toy manufacturer @entity5 , and is best remembered for inventing the @entity3 doll .
 
-@ent5 : this singer made her film debut in " @ent2 " opposite @ent3 , not @ent1
+@entity2 : @entity4 named this doll , introduced in @entity1 as a teenage fashion model , for her daughter
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:Nelson Eddy
-@ent2:The Love Parade
-@ent3:Maurice Chevalier
-@ent4:eight
-@ent5:MOVIE DEBUTS
-@ent6:Jeanette MacDonald
+@entity0:
+@entity1:1959
+@entity2:TOYS & GAMES
+@entity3:Barbie
+@entity4:Ruth Handler
+@entity5:Mattel Inc.

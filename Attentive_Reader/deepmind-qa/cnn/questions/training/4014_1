@@ -1,11 +1,16 @@
-3
+8
 
-with no cities and many areas almost inaccessible except by boat or air .
+@entity1 is currently served by a suburban rail named @entity2 ( a1 ) and @entity3 subway lines ( m1 , m2 , m3 ) of @entity4 with @entity5 total @entity7 commuters , while an additional subway line ( m4 ) is currently under construction .
 
-nation"z " : this country has numerous national parks including @ent2 , tongariro & abel tasman
+you're in this country if ... : you 're buying ankle bracelets in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:New Zealand
-@ent2:Fiordland
+@entity0:
+@entity1:Ankara
+@entity2:Ankaray
+@entity3:three
+@entity4:the Ankara Metro
+@entity5:about 300,000
+@entity6:Turkey
+@entity7:daily

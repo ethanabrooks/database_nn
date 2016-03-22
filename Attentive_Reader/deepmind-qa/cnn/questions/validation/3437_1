@@ -1,14 +1,14 @@
 6
 
-  @ent3 .
+@entity4
 
-english literature : " @ent2 " is a recent work by this @ent5 author of " @ent4 "
+@entity1 england : the ceremony of riding the bounds in @entity2 , @entity3 began as defense against raiders from this nation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Doris Lessing
-@ent2:The Fifth Child
-@ent3:Helen
-@ent4:The Golden Notebook
-@ent5:English
+@entity0:
+@entity1:MERRIE OLDE
+@entity2:Berwick
+@entity3:Northumberland
+@entity4:Alnwick Amble
+@entity5:Scotland

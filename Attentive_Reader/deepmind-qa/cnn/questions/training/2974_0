@@ -1,15 +1,16 @@
-7
+8
 
-@ent6 – @ent4 reaches the @ent1 .
+– @entity2 , @entity1 general and politician , @entity3 president of @entity4 ( d. @entity6 )    1937    –
 
-" the " nation : the @ent3 arrived on this @ent5 island nation in @ent2 & later took control of it
+dictators by birthplace : @entity5 , @entity7 , @entity4
 
-the @ent1
+@entity2
 
-@ent0:
-@ent1:Philippines
-@ent2:1521
-@ent3:Spanish
-@ent4:Ferdinand Magellan
-@ent5:Asian
-@ent6: March 16
+@entity0:
+@entity1:Iraqi
+@entity2:Saddam Hussein
+@entity3:5th
+@entity4:Iraq
+@entity5:April 28
+@entity6:2006
+@entity7:1937:Tikrit

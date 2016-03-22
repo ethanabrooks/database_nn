@@ -1,17 +1,14 @@
-9
+6
 
-  biography he was born on @ent2 , @ent5 , @ent7 .
+@entity5 , @entity3 .
 
-research : @ent1 met this man in @ent8 & researched his " @ent6 ! " feature for @ent3
+poetry : his " @entity1 " rhymes " sober " with " lonesome @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Norbert Pearlroth
-@ent2:May 7, 1893
-@ent3:52 years
-@ent4:Robert Ripley
-@ent5:Tarnów
-@ent6:Believe It Or Not
-@ent7:Austria
-@ent8:1923
+@entity0:
+@entity1:Ulalume
+@entity2:October
+@entity3:Scott
+@entity4:Edgar Allan Poe
+@entity5:Peeples

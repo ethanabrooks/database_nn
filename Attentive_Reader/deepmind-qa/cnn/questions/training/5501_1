@@ -1,14 +1,15 @@
-6
+7
 
-calderone is an @ent2 - language occupational surname .
+  in @entity6 , @entity5 ( later renamed @entity3 ) line was introduced .
 
-world geography : the southernmost glacier in @ent5 , the @ent1 , is in this country 's @ent4
+of a salesman : this direct - selling co. known for products like @entity1 claims @entity4 independent business owners
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Calderone
-@ent2:Italian
-@ent3:Italy
-@ent4:Apennine mountains
-@ent5:Europe
+@entity0:
+@entity1:Nutrilite
+@entity2:Amway
+@entity3:Nutrilite Trim Advantage Body System
+@entity4:3 million
+@entity5:the Simply Nutrilite
+@entity6:2007

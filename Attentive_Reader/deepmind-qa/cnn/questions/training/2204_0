@@ -1,0 +1,13 @@
+5
+
+@entity3 ( ) is a county in @entity4 .
+
+on the stage : @entity1 actors play a townful of characters in the comedy " @entity2 in his pockets " , set in @entity3 in this country
+
+@entity4
+
+@entity0:
+@entity1:2
+@entity2:Stones
+@entity3:County Kerry
+@entity4:Ireland

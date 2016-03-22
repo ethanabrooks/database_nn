@@ -1,15 +1,17 @@
-7
+9
 
-@ent1 's wife , @ent2 , came to @ent3 's door dressed as a boy seeking employment named @ent6 , and @ent3 hired her .
+@entity4 , p. @entity2 .
 
-music : name shared by the operatic heroines of " @ent6 " and " @ent5 "
+@entity7 : it 's always " @entity1 " on @entity6 in this @entity3 state , home to @entity5 of them
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Florestan
-@ent2:Leonore
-@ent3:Rocco
-@ent4:Leonora
-@ent5:Il Trovatore
-@ent6:Fidelio
+@entity0:
+@entity1:The Night of the Iguana
+@entity2:9
+@entity3:U.S.
+@entity4:Stephens
+@entity5:1000s
+@entity6:Gasparilla Island
+@entity7:AMERICANA
+@entity8:Florida

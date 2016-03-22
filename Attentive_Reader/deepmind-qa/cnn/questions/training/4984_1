@@ -1,17 +1,14 @@
-9
+6
 
-in the @ent5 , the song went to number one on the billboard hot 100 , and it reached number @ent3 on the @ent7 charts .
+–
 
-your old albums : his @ent1 album " @ent8 " produced the no . @ent4 hits " @ent6 more night " & " sussudio "
+@entity3 : on @entity5 he was elected our nation 's @entity2 @entity1 president
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1985
-@ent2:Phil Collins
-@ent3:four
-@ent4:1
-@ent5:US
-@ent6:One
-@ent7:UK
-@ent8:No Jacket Required
+@entity0:
+@entity1:Roman Catholic
+@entity2:first
+@entity3:1960
+@entity4:John F. Kennedy
+@entity5:November 8

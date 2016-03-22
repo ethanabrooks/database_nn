@@ -1,19 +1,14 @@
-11
+6
 
-@ent10 " don " draper is a fictional character and the protagonist of @ent4 's television series @ent2 , portrayed by @ent5 .
+@entity1 is portrayed by actress @entity3 , and has appeared on the show since its pilot episode , first broadcast on @entity2 .
 
-people star tracks : " mr. @ent3 " was in @ent7 on @ent9 " as his alter ego , @ent1 ad exec @ent6 , on the set of @ent8 "
+colorful names : she played @entity4 on " @entity5 "
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:1960s
-@ent2:Mad Men
-@ent3:Smooth
-@ent4:AMC
-@ent5:Jon Hamm
-@ent6:Don Draper
-@ent7:L.A.
-@ent8:'Mad Men'
-@ent9:July 20, 2009
-@ent10:Donald Francis
+@entity0:
+@entity1:Sue Ellen
+@entity2:April 2, 1978
+@entity3:Linda Gray
+@entity4:Sue Ellen Ewing
+@entity5:Dallas

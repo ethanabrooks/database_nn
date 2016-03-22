@@ -1,16 +1,15 @@
-8
+7
 
-  @ent4 was established in @ent6 .
+he has been involved in environmental conservation efforts in eastern @entity3 and has served on the board of directors of the conservation organization @entity5 the east end since @entity4 .
 
-@ent3 business : in @ent5 @ent1 , a division of this automaker , agreed to buy part of @ent7
+my boys : @entity1 , the son of this woman , ran for mayor of nyc in @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Hughes Aircraft Co.
-@ent2:General Motors
-@ent3:1990S
-@ent4:Timeline  Electric Boat
-@ent5:1992
-@ent6:1899
-@ent7:General Dynamics
+@entity0:
+@entity1:Ronald Lauder
+@entity2:Estée Lauder
+@entity3:Long Island
+@entity4:2002
+@entity5:Group for
+@entity6:1989

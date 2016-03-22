@@ -1,12 +1,15 @@
-4
+7
 
-”
+he was married twice , and had @entity3 children , @entity1 grandchildren and a number of great - grandchildren .
 
-women : she was nominated for the @ent3 best actress oscar for her role in " @ent2 "
+30-something : these comedians were both in their @entity2 when paired by @entity5 in @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jill Clayburgh
-@ent2:An Unmarried Woman
-@ent3:1978
+@entity0:
+@entity1:eight
+@entity2:30th
+@entity3:six
+@entity4:the 1920s
+@entity5:Hal Roach
+@entity6:Laurel & Hardy

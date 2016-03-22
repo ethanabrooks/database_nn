@@ -1,15 +1,14 @@
-7
+6
 
-  the confessions of @ent4 ( @ent1 ) , a novel by @ent2 , won @ent6 for fiction in @ent5 .
+@entity3 is a property managed by @entity4 forest service in the hills of southern   @entity2 .
 
-south specific : he 's the late @ent3 novelist heard here:"i suppose i had been thinking about @ent4 for many , many years . "
+@entity5 : @entity1
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:1967
-@ent2:William Styron
-@ent3:American
-@ent4:Nat Turner
-@ent5:1968
-@ent6:the Pulitzer Prize
+@entity0:
+@entity1:Hoosier National Forest
+@entity2:Indiana
+@entity3:The Hoosier National Forest
+@entity4:the United States
+@entity5:NATIONAL FOREST STATES

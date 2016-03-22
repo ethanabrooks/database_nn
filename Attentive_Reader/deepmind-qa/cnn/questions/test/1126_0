@@ -1,0 +1,13 @@
+5
+
+@entity1 ( nwu ) is a private , coeducational university located in @entity3 , @entity2 , @entity4 .
+
+state capitals : @entity1 is in this state capital
+
+@entity3
+
+@entity0:
+@entity1:Nebraska Wesleyan University
+@entity2:Nebraska
+@entity3:Lincoln
+@entity4:United States

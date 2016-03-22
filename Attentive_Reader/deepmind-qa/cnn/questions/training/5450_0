@@ -1,18 +1,13 @@
-10
+5
 
-opened on @ent5 , the park is located between @ent8 and @ent9 off of @ent7 route 76 on @ent6 peninsula of @ent4 lake .
+  @entity2 is founded .
 
-@ent3 : @ent1 , the world 's largest tree house , is one of the features at @ent2 in this @ent7 tourist mecca
+countries of the world : this @entity4 grand duchy was founded in @entity1 when @entity3 acquired land in the area
 
-@ent8
+@entity2
 
-@ent0:
-@ent1:Geyser Gulch
-@ent2:Silver Dollar City
-@ent3:TRAVEL & TOURISM
-@ent4:Table Rock
-@ent5:May 1, 1960
-@ent6:the Indian Point
-@ent7:Missouri
-@ent8:Branson
-@ent9:Branson West
+@entity0:
+@entity1:963
+@entity2:Luxembourg
+@entity3:Count Siegfried
+@entity4:European

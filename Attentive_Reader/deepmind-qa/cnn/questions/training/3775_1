@@ -1,20 +1,15 @@
-12
+7
 
-in @ent5 , she married musician @ent3 ( ex - fuzztones ) ; they have @ent11 children and live in @ent7 , @ent2 .
+notable burials in the @entity1 cemetery on @entity2 include the architect @entity3 .
 
-m.c.s : from @ent1 to @ent8 it was hosted by @ent9 ; @ent6 joined him for @ent4
+around the world : @entity5 is buried on @entity2 in this city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1983
-@ent2:California
-@ent3:Jordan Tarlow
-@ent4:the last season
-@ent5:1992
-@ent6:Martha Quinn
-@ent7:Malibu
-@ent8:1995
-@ent9:Ed McMahon
-@ent10:Star Search
-@ent11:two
+@entity0:
+@entity1:Protestant
+@entity2:Mount Zion
+@entity3:Conrad Schick
+@entity4:Mt. Zion
+@entity5:Oskar Schindler
+@entity6:Jerusalem

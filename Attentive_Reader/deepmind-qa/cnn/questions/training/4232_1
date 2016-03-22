@@ -1,16 +1,14 @@
-8
+6
 
-he entered @ent6 as a midshipman in @ent2 , and became a lieutenant in @ent4 .
+the paperback ( isbn 0 - 345-43053-0 ) was published by @entity2 .
 
-@ent1 : captain @ent5 spots what will become @ent3 , a part of this continent
+bestsellers : " people like us " & " @entity3 " are @entity1 of the bestsellers by this @entity5 contributor
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1840
-@ent2:1818
-@ent3:Wilkes Land
-@ent4:1826
-@ent5:Charles Wilkes
-@ent6:the United States Navy
-@ent7:Antarctica
+@entity0:
+@entity1:2
+@entity2:Ballantine Books
+@entity3:An Inconvenient Woman
+@entity4:Dominick Dunne
+@entity5:Vanity Fair

@@ -1,12 +1,15 @@
-4
+7
 
-  @ent1 's strong character left an impression on many people who met him .
+he served @entity2 .
 
-getting jazzed : @ent3 composed classics like " take the ' a ' train " during his collaboration with this bandleader
+the heavyweight champ : @entity3 was in this champ 's corner from @entity5 to his @entity4 fight with @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Strayhorn
-@ent2:Duke Ellington
-@ent3:Billy Strayhorn
+@entity0:
+@entity1:Trevor Berbick
+@entity2:15 months
+@entity3:Trainer Angelo Dundee
+@entity4:1981
+@entity5:1960
+@entity6:Muhammad Ali

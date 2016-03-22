@@ -1,20 +1,14 @@
-12
+6
 
-@ent10 " @ent9 ( born @ent7 ) is an @ent6 investment banker , businessman , investor , and politician who served as the @ent1 mayor of @ent11 , @ent4 serving from @ent3 .
+the ballet was set to the music of the composer @entity2 , a noted music critic and student of @entity4 .
 
-mr. or ms. mayor : in @ent2 @ent8 succeeded @ent5 in running this city
+classical music : this @entity5 collaborated on " @entity3 " with choreographer @entity1
 
-@ent11
+@entity4
 
-@ent0:
-@ent1:39th
-@ent2:1993
-@ent3:1993 to 2001
-@ent4:California
-@ent5:Tom Bradley
-@ent6:American
-@ent7:May 1, 1930
-@ent8:Richard Riordan
-@ent9:Dick" Riordan
-@ent10:Richard Joseph
-@ent11:Los Angeles
+@entity0:
+@entity1:Marius Petipa
+@entity2:Mikhail Ivanov
+@entity3:Swan Lake
+@entity4:Tchaikovsky
+@entity5:Russian

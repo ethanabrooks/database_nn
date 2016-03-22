@@ -1,17 +1,16 @@
-9
+8
 
-@ent1 ) was the commander of the @ent7 and @ent4 and the de facto dictator of @ent2 from @ent8 to @ent5 .
+@entity5 @entity1   ( born @entity4 ) is a @entity6 politician ,   diplomat , lawyer and writer who served as the 19th prime minister of @entity3 , from @entity7 to november 4 , 1993 .
 
-coin of the realm : @ent3 balboa depicting @ent6
+she used to be in charge : prime minister @entity2
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:July 31, 1981
-@ent2:Panama
-@ent3:1982:1
-@ent4: National Guard
-@ent5:1981
-@ent6:Omar Torrijos
-@ent7:Panamanian
-@ent8:1968
+@entity0:
+@entity1:Douglas "Kim" Campbell
+@entity2:Kim Campbell
+@entity3:Canada
+@entity4:March 10, 1947
+@entity5:Avril Phædra
+@entity6:Canadian
+@entity7:June 25, 1993

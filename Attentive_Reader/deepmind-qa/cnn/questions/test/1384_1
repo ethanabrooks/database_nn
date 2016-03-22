@@ -1,20 +1,13 @@
-12
+5
 
-it was directed by @ent10 and starred @ent3 , @ent7 , @ent2 , @ent5 and @ent1 .
+  concept @entity1 said that the play is " about being @entity3 . "
 
-@ent6 : in @ent9 she won the best actress oscar for " @ent11 " , becoming the @ent4 to win for a foreign language film
+name the playwright : " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Sydney Penny
-@ent2:Leonardo Ferrantini
-@ent3:Loren
-@ent4:first
-@ent5:Dario Ghirardi
-@ent6:INTERNATIONAL FILM STARS
-@ent7:Robert Loggia
-@ent8:Sophia Loren
-@ent9:1961
-@ent10:Risi
-@ent11:Two Women
+@entity0:
+@entity1:Wasserstein
+@entity2:The Sisters Rosensweig
+@entity3:Jewish
+@entity4:Wendy Wasserstein

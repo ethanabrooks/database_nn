@@ -1,13 +1,14 @@
-5
+6
 
-@ent3 ekai , a discharged labourer formerly employed by @ent1 , was found guilty of murder and sentenced to indefinite imprisonment .
+@entity5          external links
 
-legendary lions : lioness that was " born free " in a @ent4 book
+@entity2 ! : this @entity3 museum began in part with the private collection of physician & naturalist sir @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Adamson
-@ent2:Elsa
-@ent3:Paul Nakware
-@ent4:Joy Adamson
+@entity0:
+@entity1:The British Museum
+@entity2:HANS UP
+@entity3:London
+@entity4:Hans Sloane
+@entity5:Copeland Bird Observatory

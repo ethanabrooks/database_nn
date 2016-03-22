@@ -1,14 +1,16 @@
-6
+8
 
-  acting career
+  – @entity5 , @entity6 mathematician and academic    @entity1    –
 
-movies in @ent5 : this 1979 @ent4 film featured @ent3 , @ent2 's sister
+june swoon : on @entity2 this country honors @entity7 mannerheim , a leader in its fight for independence from @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Manhattan
-@ent2:Mia
-@ent3:Tisa Farrow
-@ent4:Woody Allen
-@ent5:BLACK & WHITE
+@entity0:
+@entity1:1966
+@entity2:June 4
+@entity3:Russia
+@entity4:Finland
+@entity5:Vladimir Voevodsky
+@entity6:Russian
+@entity7:Carl Gustaf

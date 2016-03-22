@@ -1,16 +1,14 @@
-8
+6
 
-  it hosts the renowned @ent5 , @ent1 , and famous , among other things , for having had @ent6 galilei among its lecturers .
+the ugly truth   is a @entity4 @entity2 romantic comedy film starring @entity3 and @entity1 .
 
-astronomers : while teaching at the univ . of @ent3 in @ent4 , he discovered @ent2 moons of @ent7 using a 30-power telescope
+at the movies : she plays a romantically challenged tv producer in @entity4 's " @entity5 "
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:almost 800 years old
-@ent2:4
-@ent3:Padua
-@ent4:1610
-@ent5:University of Padua
-@ent6:Galileo
-@ent7:Jupiter
+@entity0:
+@entity1:Gerard Butler
+@entity2:American
+@entity3:Katherine Heigl
+@entity4:2009
+@entity5:The Ugly Truth

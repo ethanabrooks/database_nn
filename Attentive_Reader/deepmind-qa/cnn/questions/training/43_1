@@ -1,14 +1,15 @@
-6
+7
 
-  @ent4 the bay is a notable source of shrimp and sulfur , as well as of muskrat fur , natural gas , and petroleum .
+right|thumb| @entity5 [ lower right ] is a bay of the gulf of @entity2 that is located between empire and grand isle , @entity4 [ enlarge ] .
 
-historic names : this privateer operated from @ent3 in @ent1 just south of @ent5
+historic names : this privateer operated from @entity3 in @entity5 just south of @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Barataria Bay
-@ent2:Jean Lafitte
-@ent3:Grand Terre Island
-@ent4:Today
-@ent5:New Orleans
+@entity0:
+@entity1:Jean Lafitte
+@entity2:Mexico
+@entity3:Grand Terre Island
+@entity4:Louisiana
+@entity5:Barataria Bay
+@entity6:New Orleans

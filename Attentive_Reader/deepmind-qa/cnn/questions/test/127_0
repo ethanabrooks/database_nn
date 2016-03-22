@@ -1,17 +1,24 @@
-9
+16
 
-@ent2 ( cac)—one of the @ent3 contemporary art institutions in @ent6 a pioneering contemporary art museum located in @ent4 , @ent7 .
+  @entity8 unsuccessfully ran for office of governor ( the @entity10 female governor of @entity1 and the @entity14 member of the @entity8 family after her father and brother to serve in office ) , but was defeated by incumbent @entity5 governor @entity13 ( who also defeated @entity3 for @entity4 of @entity1 's @entity9 seats in @entity2 ) in the @entity11 gubernatorial election .
 
-contemporary art museums : founded in @ent5 , this city 's @ent8 was at the center of a @ent1 1st amendment case
+republicans : this @entity1 governor has defeated @entity6 @entity12 women , @entity7 & @entity3
 
-@ent4
+@entity13
 
-@ent0:
-@ent1:1990s
-@ent2:The Contemporary Arts Center
-@ent3:first
-@ent4:Cincinnati
-@ent5:1939
-@ent6:the United States—is
-@ent7:Ohio
-@ent8:Contemporary Arts Center
+@entity0:
+@entity1:California
+@entity2:1982
+@entity3:Kathleen Brown
+@entity4:one
+@entity5:Republican
+@entity6:2
+@entity7:Dianne Feinstein
+@entity8:Brown
+@entity9:US Senate
+@entity10:first
+@entity11:1994
+@entity12:Democratic
+@entity13:Pete Wilson
+@entity14:third
+@entity15:Jerry Brown

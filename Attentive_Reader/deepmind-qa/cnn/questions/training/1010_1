@@ -1,21 +1,15 @@
-13
+7
 
-@ent10 's @ent7 major role in a feature film was in @ent3 and confused ( @ent1 ) with @ent9 , @ent4 , and @ent12 .
+  with the incorporation of @entity1 , @entity2 and @entity5 in @entity3 , the municipality glarus now has an area of .
 
-@ent11 @ent5 femme : @ent2 , @ent8 , @ent6
+wisconsin : new glarus was settled by emigrants from this country 's canton of @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1993
-@ent2:Parker Stevenson
-@ent3:Dazed
-@ent4:Matthew McConaughey
-@ent5:LA
-@ent6:Parker Pyne
-@ent7:first
-@ent8:Parker Posey
-@ent9:Ben Affleck
-@ent10:Posey
-@ent11:CHERCHEZ
-@ent12:Jason London
+@entity0:
+@entity1:Ennenda
+@entity2:Netstal
+@entity3:2011
+@entity4:Glarus
+@entity5:Riedern
+@entity6:Switzerland

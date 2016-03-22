@@ -1,15 +1,17 @@
-7
+9
 
-@ent6 , @ent5 .
+in @entity3 , he won his @entity7 @entity8 singles title , following which he turned professional .
 
-bestsellers : " people like us " & " @ent1 " are @ent2 of the bestsellers by this @ent3 contributor
+the wonder years : @entity2 , this woman won the @entity1 singles @entity6 times & beat @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:An Inconvenient Woman
-@ent2:2
-@ent3:Vanity Fair
-@ent4:Dominick Dunne
-@ent5:Jill
-@ent6:Robinson
+@entity0:
+@entity1:Wimbledon
+@entity2:Between 1966 & 1975
+@entity3:1941
+@entity4:Billie Jean King
+@entity5:Bobby Riggs
+@entity6:6
+@entity7:second
+@entity8:U.S. Championships

@@ -1,14 +1,16 @@
-6
+8
 
-   central saint martins college of art and design , famous art school in @ent4
+@entity1 's godparents are his maternal aunt @entity6 and his paternal uncle , @entity2 .
 
-@ent5 : at its greatest enrollment , the @ent2 , which stood for this , had @ent3 men & officers
+royalty : @entity7 hunky son @entity2 is @entity4 in line to the throne in this country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Confederate States Marine Corps
-@ent2:CSMC
-@ent3:fewer than 600
-@ent4:London
-@ent5:THE CIVIL WAR
+@entity0:
+@entity1:Casiraghi
+@entity2:Andrea Casiraghi
+@entity3:Marco Casiraghi
+@entity4:second
+@entity5:Monaco
+@entity6:Princess Stéphanie
+@entity7:Princess Caroline's

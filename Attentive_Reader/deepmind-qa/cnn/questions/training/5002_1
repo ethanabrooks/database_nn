@@ -1,17 +1,14 @@
-9
+6
 
-@ent1 , writing for @ent5 , said the film was " impeccable " and " goofy fun all the way".tucker , @ent6 ( @ent8 ) " @ent4 .
+  references   external links
 
-movies : @ent3 was " @ent2 " playing this great folk singer
+bestsellers : her memoir " @entity5 " sold @entity4 copies on its @entity1 of release in @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ken Tucker
-@ent2:Bound for Glory
-@ent3:David Carradine
-@ent4:Dinogator Vs
-@ent5:Entertainment Weekly
-@ent6:Ken
-@ent7:Woody Guthrie
-@ent8:June 27, 2010
+@entity0:
+@entity1:first day
+@entity2:Hillary Clinton
+@entity3:2003
+@entity4:about 200,000
+@entity5:Living History

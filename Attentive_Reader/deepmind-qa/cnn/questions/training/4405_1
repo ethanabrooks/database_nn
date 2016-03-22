@@ -1,15 +1,16 @@
-7
+8
 
-@ent1 , a warlike man , is advised that he must demonstrate peaceful ways for @ent4 @ent5 will support the marriage .
+@entity2 is the controlling shareholder of @entity3 and has owned the @entity7 football club @entity4 since @entity5 .
 
-world playwrights : he was resident playwright at @ent2 when he wrote " @ent3 "
+i'm in charge ! : in southern europe:prime minister @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Knut
-@ent2:the National Theatre in Bergen
-@ent3:The Feast at Solhaug
-@ent4:a year before
-@ent5:Margit
-@ent6:Henrik Ibsen
+@entity0:
+@entity1:Italy
+@entity2: Berlusconi
+@entity3:Mediaset
+@entity4:A.C. Milan
+@entity5:1986
+@entity6:Silvio Berlusconi
+@entity7:Italian

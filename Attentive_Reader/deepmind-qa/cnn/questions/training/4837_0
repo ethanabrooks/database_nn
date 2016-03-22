@@ -1,18 +1,19 @@
-10
+11
 
-  he was arrested along with the other members of @ent4 in @ent7 , as part of a conspiracy by @ent2 and newly anointed party leader @ent6 .
+@entity5 ( @entity7 @entity2 – @entity10 ) was a @entity3 @entity9 graduate and @entity4 engineer who , in @entity8 , invented an additive polyalphabetic stream cipher and later co - invented an automated one - time pad cipher .
 
-names by the number : @ent5 , @ent3 , @ent9 & @ent1
+unbreakable : @entity6 , an engineer with this telecom company , came up with an " unbreakable " cipher , using a random code
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Jiang Qing
-@ent2:Ye Jianying
-@ent3:Zhang Chunqiao
-@ent4:The Gang of Four
-@ent5:Wang Hong-Wen
-@ent6:Hua Guofeng
-@ent7:October 1976
-@ent8:the Gang of Four
-@ent9:Yao Wen-Yuan
+@entity0:
+@entity1:AT&T
+@entity2:April 1890
+@entity3:Worcester Polytechnic Institute
+@entity4:AT&T Bell Labs
+@entity5:Gilbert Sandford Vernam
+@entity6:Gilbert Vernam
+@entity7:3
+@entity8:1917
+@entity9:1914
+@entity10:7 February 1960

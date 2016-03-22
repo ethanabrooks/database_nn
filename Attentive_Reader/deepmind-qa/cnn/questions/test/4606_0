@@ -1,17 +1,14 @@
-9
+6
 
-  @ent5 played the detective @ent7 in @ent1 's landmark @ent4 film noir @ent6 .
+the mysterious rider may refer to :    the mysterious rider ( @entity1 ) , a western novel by @entity5 .
 
-film roles : @ent3 , @ent8 & @ent2 have all played this character on film
+@entity2 bestsellers : " @entity3 " , " to the last man " & " @entity4 " were some of his @entity2 top westerns
 
-@ent7
+@entity5
 
-@ent0:
-@ent1:Altman
-@ent2:Elliott Gould
-@ent3:Dick Powell
-@ent4:1973
-@ent5:Gould
-@ent6:The Long Goodbye
-@ent7:Philip Marlowe
-@ent8:Robert Mitchum
+@entity0:
+@entity1:1921
+@entity2:1920s
+@entity3:The Mysterious Rider
+@entity4:The Call of the Canyon
+@entity5:Zane Grey

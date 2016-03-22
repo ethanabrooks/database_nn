@@ -1,15 +1,18 @@
-7
+10
 
-frame|right|book cover   red cavalry or @ent2 ( ) is a collection of short stories by @ent6 author @ent3 about @ent4 .
+   @entity6    the town of @entity8 ( meaning " black pool " ) or @entity7 ( modern @entity9 ) is founded by @entity2 on the south bank of the river liffey .
 
-russian authors : @ent5 's " @ent1 " is a famous collection of tales by this " tower"ing writer
+@entity5 : around @entity3 the vikings established a settlement at this @entity4 city on @entity1
 
-@ent3
+@entity7
 
-@ent0:
-@ent1:Red Cavalry
-@ent2:Konarmiya
-@ent3:Isaac Babel
-@ent4:the 1st Cavalry Army
-@ent5:1926
-@ent6:Russian
+@entity0:
+@entity1:the River Liffey
+@entity2:Norwegian Vikings
+@entity3:841
+@entity4:Irish
+@entity5:THE 9th CENTURY
+@entity6:Britain
+@entity7:Dublin
+@entity8:Dyflin
+@entity9:Ireland

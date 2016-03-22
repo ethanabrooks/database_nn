@@ -1,17 +1,12 @@
-9
+4
 
-@ent3 refers to @ent5 , which has @ent8 basic meanings : anything related to , or originating from @ent4 of @ent5 i.e. @ent6 kingdom of @ent7 .
+  " @entity1 "   beloved sweetheart bastard .
 
-world of christmas : in the low countries , st. @ent2 arrives to deliver presents on a boat from this @ent3 country
+a little dickens : all miss @entity1 's clocks are permanently stopped in this @entity3 work
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Spain
-@ent2:Nicholas
-@ent3:Iberian
-@ent4:Kingdom
-@ent5:Iberia
-@ent6:Georgian
-@ent7:Kartli
-@ent8:two
+@entity0:
+@entity1:Havisham
+@entity2:Great Expectations
+@entity3:1860

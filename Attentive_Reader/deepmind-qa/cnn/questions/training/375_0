@@ -1,15 +1,15 @@
 7
 
-return to me is a @ent3 @ent2 romantic comedy - drama film directed by @ent4 and starring @ent6 and @ent5 .
+it is the site of the famous meeting on @entity2 when @entity3 found   dr. @entity6 , and reputedly uttered the famous words “ dr. @entity4 , i presume ?
 
-initials m.d. : in " @ent1 " , @ent6 has a heart - to-heart with her
+the henry who ... : ... presumably made his greatest discovery @entity5 at the town of @entity1 on lake tanganyika
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:Return To Me
-@ent2:American
-@ent3:2000
-@ent4:Bonnie Hunt
-@ent5:Minnie Driver
-@ent6:David Duchovny
+@entity0:
+@entity1:Ujiji
+@entity2:10 November 1871
+@entity3:Henry Stanley
+@entity4:Livingstone
+@entity5:November 10, 1871
+@entity6:David Livingstone

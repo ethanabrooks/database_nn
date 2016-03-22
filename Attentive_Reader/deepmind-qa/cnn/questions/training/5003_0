@@ -1,16 +1,15 @@
-8
+7
 
-@ent1   is a city - owned public - use airport located @ent6 ( @ent2 ) northwest of the central business district of @ent7 , @ent5 .
+@entity5 marks the @entity4 big - screen appearance of @entity2 in the uncredited role of @entity3 's husband .
 
-@ent3 : this state capital has a @ent1 as well as a @ent1
+their first feature films : this " @entity6 " got his head chopped off by an axe - wielding @entity1 in his @entity4 film , " @entity5 "
 
-@ent7
+@entity2
 
-@ent0:
-@ent1:Wiley Post Airport
-@ent2:13 km
-@ent3:TRANSPORTATION
-@ent4:Will Rogers Airport
-@ent5:Oklahoma
-@ent6:seven nautical miles
-@ent7:Oklahoma City
+@entity0:
+@entity1:Joan Crawford
+@entity2:Lee Majors
+@entity3:Crawford
+@entity4:first
+@entity5:Strait-Jacket
+@entity6:Bionic Man

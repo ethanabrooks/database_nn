@@ -1,17 +1,16 @@
-9
+8
 
-@ent2 , who had murdered his wife earlier and blew up his house and farm , killed himself and @ent1 other people half an hour later , detonating a car bomb while sitting in his @ent5 truck .
+@entity3 ( @entity2 )
 
-historic names : in @ent7 this @ent4 aviator became the @ent8 man to fly the @ent3 solo
+historic names : in @entity6 this @entity4 aviator became the @entity1 man to fly the @entity7 solo
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:three
-@ent2:Kehoe
-@ent3:Atlantic
-@ent4:American
-@ent5:Ford
-@ent6:Charles Lindbergh
-@ent7:May 1927
-@ent8:first
+@entity0:
+@entity1:first
+@entity2:Friday
+@entity3: May 27, 1927
+@entity4:American
+@entity5:Charles Lindbergh
+@entity6:May 1927
+@entity7:Atlantic

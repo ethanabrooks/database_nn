@@ -1,16 +1,16 @@
 8
 
-@ent5   " @ent4 way or another " –
+@entity5 ; preface by @entity2 .
 
-comedy films : @ent6 played a " @ent1 cop " & this @ent3 alumnus plays a " @ent2 "
+@entity6 men : @entity7 , a merchant of this city , bragged in a letter that it " is more beautiful and @entity4 older " than @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Beverly Hills
-@ent2:Beverly Hills Ninja
-@ent3:SNL
-@ent4:One
-@ent5:Patti Rothberg
-@ent6:Eddie Murphy
-@ent7:Chris Farley
+@entity0:
+@entity1:Florence
+@entity2:Anthony Molho
+@entity3:Venice
+@entity4:540 years
+@entity5:Roberto Barducci
+@entity6:RENAISSANCE
+@entity7:Benedetto Dei

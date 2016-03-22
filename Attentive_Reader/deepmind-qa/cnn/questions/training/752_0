@@ -1,15 +1,12 @@
-7
+4
 
-@ent5 ( ; , , ) is the capital city of @ent2 located within @ent3 .
+during this time , @entity2 befriended fellow gospel singer and neighbor @entity3 , who sang in a rival gospel group .
 
-there are places : its capital has moved @ent1 inland from @ent4 to @ent6 to @ent5
+20th century music : this r&b great , singer of " you 'll never find another love like mine " , once sang backup for @entity1
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:about 750 miles
-@ent2:Pakistan
-@ent3:the Islamabad Capital Territory
-@ent4:Karachi
-@ent5:Islamabad
-@ent6:Rawalpindi
+@entity0:
+@entity1:Sam Cooke
+@entity2:Cooke
+@entity3:Lou Rawls

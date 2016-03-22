@@ -1,22 +1,15 @@
-14
+7
 
-  personal life @ent5 married @ent4 artist @ent3 on @ent2 in the chapel of her high school , @ent6 , in @ent7 .
+but @entity3 felt this role was too sad and declined .
 
-@ent12 : @ent1 actress @ent10 & welsh actor @ent13 play @ent9 of @ent11 children on this series
+actresses : @entity5 , @entity6 , and @entity4 were all born in this @entity2 country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Aussie
-@ent2:31 December 2002
-@ent3:Andrew Taylor
-@ent4:Australian
-@ent5:Griffiths
-@ent6:Star of the Sea College
-@ent7:Melbourne
-@ent8:Brothers & Sisters
-@ent9:2
-@ent10:Rachel Griffiths
-@ent11:Sally Field's
-@ent12:BRITS & AUSSIES ON TV
-@ent13:Matthew Rhys
+@entity0:
+@entity1:Japan
+@entity2:Asian
+@entity3:Ullmann
+@entity4:Joan Fontaine
+@entity5:Liv Ullmann
+@entity6:Victoria Principal

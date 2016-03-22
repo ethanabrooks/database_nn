@@ -1,16 +1,16 @@
 8
 
-  @ent3 traveled to @ent6 , @ent5 in @ent7 seeking federal sponsorship for a telegraph line but was not successful .
+he was also @entity2 of the original @entity5 of the former @entity7 colony of @entity1 and @entity6 .
 
-@ent4 cities : on @ent1 @ent2 was in this city demonstrating his invention
+the @entity3 colonies : this colony was granted to sir @entity4 who had been lt . governor of @entity2 of the channel islands
 
-@ent6 , @ent5
+@entity6
 
-@ent0:
-@ent1:May 24, 1844
-@ent2:Samuel Morse
-@ent3:Morse
-@ent4:U.S.
-@ent5:D.C.
-@ent6:Washington
-@ent7:1838
+@entity0:
+@entity1:Carolina
+@entity2:one
+@entity3:13
+@entity4:George Carteret
+@entity5:Lords Proprietor
+@entity6:New Jersey
+@entity7:British

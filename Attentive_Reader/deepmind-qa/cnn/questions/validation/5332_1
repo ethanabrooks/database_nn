@@ -1,16 +1,16 @@
 8
 
-  @ent1 ( price ) is a fisherman who provides a romantic interest for @ent2 , and helps her to recall the happiness of her youth , while also reminding her of the marriage and husband that she has lost .
+  from 1995 to 1996 , @entity3 was appointed commissioner of finance and administration for @entity5 , working for governor @entity6 .
 
-movie actresses : her career began with the silent " @ent6 " in @ent7 & ended with " @ent3 " @ent5
+new faces in @entity7 congress : @entity4 's @entity2 won the seat vacated by this ex - majority leader
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Maranov
-@ent2:Sarah
-@ent3:The Whales of August
-@ent4:Lillian Gish
-@ent5:75 years later
-@ent6:An Unseen Enemy
-@ent7:1912
+@entity0:
+@entity1:Bill Frist
+@entity2:Bob Corker
+@entity3:Corker
+@entity4:Tennessee
+@entity5:the State of Tennessee
+@entity6:Don Sundquist
+@entity7:THE 110th

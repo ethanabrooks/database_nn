@@ -1,21 +1,15 @@
-13
+7
 
-the kid from @ent1 is a @ent3 @ent10 musical comedy film directed by @ent9 and starring @ent7 , @ent8 , @ent11 , @ent4 , @ent6 , @ent12 , and @ent5 .
+@entity1 ( born @entity5 ) is an @entity4 actress and the widow of actor @entity3 .
 
-boxing movies : in " @ent2 " , this " white christmas " co - star played a meek milkman who accidentally becomes a champ
+directors : this actor directed himself & wife @entity1 in the @entity2 film " @entity6 "
 
-@ent7
+@entity3
 
-@ent0:
-@ent1:Brooklyn
-@ent2:The Kid From Brooklyn
-@ent3:1946
-@ent4:Steve Cochran
-@ent5:Fay Bainter
-@ent6:Walter Abel
-@ent7:Danny Kaye
-@ent8:Virginia Mayo
-@ent9:Norman Z. McLeod
-@ent10:American
-@ent11:Vera-Ellen
-@ent12:Eve Arden
+@entity0:
+@entity1:Trish Van Devere
+@entity2:1974
+@entity3:George C. Scott
+@entity4:American
+@entity5:March 9, 1943
+@entity6:The Savage Is Loose

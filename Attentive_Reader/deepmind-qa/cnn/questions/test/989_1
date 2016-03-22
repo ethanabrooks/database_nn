@@ -1,14 +1,16 @@
-6
+8
 
-this narrative has traditionally been considered literal fact , but is now generally interpreted as recording a gross popular irony by which the @ent3 expressed their loathing of the @ent1 and @ent2 .
+  metaphorical usage in @entity4 united states president @entity2 's vice - president , @entity1 ( 1969–1974 ) , known for his scathing criticisms of administration political opponents , once referred to them as " nattering nabobs of negativism " in a speech written by @entity3 .
 
-top gods : amen to @ent4 , the ram - headed ruler of heaven for this ancient civilization
+hills : this @entity6 area may take its name from " @entity5 " , a hindi word meaning " a rich man "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Moabites
-@ent2:Ammonites
-@ent3:Israelites
-@ent4:Ammon
-@ent5:Egypt
+@entity0:
+@entity1:Spiro Agnew
+@entity2:Richard Nixon
+@entity3:William Safire
+@entity4:the United States
+@entity5:Nabob
+@entity6:San Francisco
+@entity7:Nob Hill

@@ -1,14 +1,14 @@
 6
 
-seafair is a summer festival in @ent3 , @ent2 , that encompasses a wide variety of small neighborhood events leading up to several major city - wide celebrations .
+@entity3 is a tetralogy of novels by @entity5 writer @entity1 , published @entity4 .
 
-@ent1 state : hydroplane races & water carnivals highlight @ent4 , held annually on @ent5 near this largest wash. city
+authors : this author of " @entity3 " was the elder brother of zoologist & writer @entity1
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:WASHINGTON
-@ent2:Washington
-@ent3:Seattle
-@ent4:Seafair
-@ent5:Lake Washington
+@entity0:
+@entity1:Lawrence Durrell
+@entity2:Gerald Durrell
+@entity3:The Alexandria Quartet
+@entity4:between 1957 and 1960
+@entity5:British

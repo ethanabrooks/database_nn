@@ -1,20 +1,15 @@
-12
+7
 
-wrestling @ent9 is a @ent1 drama - romance film directed by @ent10 and written by @ent8 , starring @ent6 , @ent7 , @ent3 , @ent2 , and @ent4 .
+return to me is a @entity6 @entity4 romantic comedy - drama film directed by @entity3 and starring @entity5 and @entity2 .
 
-actress turned waitress : she was the cheerful waitress @ent5 in @ent1 's " @ent11 "
+initials m.d. : in " @entity1 " , @entity5 has a heart - to-heart with her
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:1993
-@ent2:Shirley MacLaine
-@ent3:Sandra Bullock
-@ent4:Piper Laurie
-@ent5:Elaine
-@ent6:Richard Harris
-@ent7:Robert Duvall
-@ent8:Steve Conrad
-@ent9:Ernest Hemingway
-@ent10:Randa Haines
-@ent11:Wrestling Ernest Hemingway
+@entity0:
+@entity1:Return To Me
+@entity2:Minnie Driver
+@entity3:Bonnie Hunt
+@entity4:American
+@entity5:David Duchovny
+@entity6:2000

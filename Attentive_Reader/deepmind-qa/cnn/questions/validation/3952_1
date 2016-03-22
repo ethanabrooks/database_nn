@@ -1,13 +1,16 @@
-5
+8
 
-@ent2 is a folk term used for brown bears ( from the @ent1 bruin meaning brown ) .
+@entity4 has recently ventured into advertising work that includes documentary - style commercials for @entity7 .
 
-sunset blvd. : sprawling south from @ent3 , you 'll find this university where something 's always " @ent2 "
+documentaries : in @entity2 's " @entity3 " , director @entity6 followed this other director & his jazz band around @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Dutch
-@ent2:Bruin
-@ent3:Sunset
-@ent4:UCLA
+@entity0:
+@entity1:Woody Allen
+@entity2:1997
+@entity3:Wild Man Blues
+@entity4:Kopple
+@entity5:Europe
+@entity6:Barbara Kopple
+@entity7:Target Stores

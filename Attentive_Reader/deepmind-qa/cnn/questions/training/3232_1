@@ -1,18 +1,17 @@
-10
+9
 
-  @ent6 ( located on @ent9 . in @ent7 , @ent2 ) was named in his honor in @ent4 .
+   reprinted in @entity7 and @entity6 ( eds . ) , critical essays on @entity1 moby - dick .
 
-people in space : with @ent5 grounded with a heart condition , this man got to be the @ent8 @ent1 man in space
+orson : bizarrely , @entity5 played @entity2 , @entity4 in a @entity8 experimental film version of this
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:U.S.
-@ent2:Texas
-@ent3:Scott Carpenter
-@ent4:2000
-@ent5:Deke Slayton
-@ent6:The Texas Oncology-Deke Slayton Cancer Center
-@ent7:Webster
-@ent8:second
-@ent9:Medical Center Blvd
+@entity0:
+@entity1:Herman Melville's
+@entity2:Captain Ahab
+@entity3:Moby Dick
+@entity4:Starbuck & Ishmael
+@entity5:Orson Welles
+@entity6:Hershel Parker
+@entity7:Brian Higgins
+@entity8:1971

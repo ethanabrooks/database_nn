@@ -1,16 +1,15 @@
-8
+7
 
-  following @ent2 election as president , @ent7 was invited into government where he served at first managing the consequences of the @ent5 breakup as ambassador - at-large and special adviser to the secretary of @ent1 @ent6 on @ent4 .
+roskilde cathedral ( ) , in the city of @entity5 on the island of @entity6 ( sjælland ) in eastern @entity3 , is a cathedral of @entity1 .
 
-secretaries of state : @ent3 is his deputy
+goulash : @entity4 has been the burial place for this nation 's monarchs since @entity2
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:State
-@ent2:Bill Clinton's
-@ent3:Strobe Talbott
-@ent4:the New Independent States
-@ent5:Soviet
-@ent6:Warren Christopher
-@ent7:Talbott
+@entity0:
+@entity1:the Lutheran Church of Denmark
+@entity2:the 16th century
+@entity3:Denmark
+@entity4:Roskilde Cathedral
+@entity5:Roskilde
+@entity6:Zealand

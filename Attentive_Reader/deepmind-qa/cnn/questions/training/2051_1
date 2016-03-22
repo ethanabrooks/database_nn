@@ -1,15 +1,17 @@
-7
+9
 
-tirana : the challenge of urban development , tirana : cetis , 2003 isbn 99927 - 880-0-3 aliaj , @ent1 .
+  @entity8 named @entity3 a " best western college " and ranks the university 's marketing programs as no . @entity6 in the nation .   the fiske guide to colleges , a best - selling resource for college - bound students and their parents , lists @entity5 a " best buy " for @entity1 .
 
-@ent5 capitals : @ent3 commander @ent4 founded @ent6 , this country 's capital
+twister : this @entity4 city , the home of @entity5 , still remembers the tornado of @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Besnik
-@ent2:Albania
-@ent3:Ottoman
-@ent4:B. Suleiman Pasha
-@ent5:EUROPEAN
-@ent6:Tirana
+@entity0:
+@entity1:2015
+@entity2:Waco
+@entity3:Baylor
+@entity4:Texas
+@entity5:Baylor University
+@entity6:2
+@entity7:1953
+@entity8:The Princeton Review

@@ -1,15 +1,16 @@
-7
+8
 
-woman of rome ( ) is a @ent6 @ent3 drama film directed by @ent5 and starring @ent4 .
+the king of @entity2 , @entity5 , was travelling to @entity4 in @entity7 .
 
-roman around at the movies : this sexpot nicknamed " @ent1 " lolled around with lots of men in the @ent6 film " @ent2 "
+world history : in @entity7 , @entity6 married this king of @entity2 in @entity3 , @entity1
 
-@ent4
+@entity5
 
-@ent0:
-@ent1:La Lollo
-@ent2:Woman of Rome
-@ent3:Italian
-@ent4:Gina Lollobrigida
-@ent5:Luigi Zampa
-@ent6:1954
+@entity0:
+@entity1:Cyprus
+@entity2:England
+@entity3:Limassol
+@entity4:the Holy Land
+@entity5:Richard the Lionheart
+@entity6:Berengaria
+@entity7:1191

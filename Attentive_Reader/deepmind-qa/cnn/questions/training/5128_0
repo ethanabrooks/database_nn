@@ -1,20 +1,21 @@
-12
+13
 
-@ent11 ( ; born @ent6 @ent8 ) is a @ent5 politician who has been president of @ent7 since @ent4 .
+a tramp abroad is a work of travel literature , including a mixture of autobiography and fictional events , by @entity10 author @entity9 , published in @entity11 .
 
-" u " had to be there : in @ent9 @ent10 & this republic led by @ent3 helped @ent2 unseat @ent1
+literary europe : ( @entity1 of @entity8 at caffe florian in @entity3 , @entity6 )   " i have not known any happier @entity7 than those i @entity5 spent in front of @entity4 's " , wrote this @entity2 author in " @entity12 "
 
-@ent7
+@entity9
 
-@ent0:
-@ent1:Mobutu Sese Seko
-@ent2:Zaire
-@ent3:Yoweri Museveni
-@ent4:29 January 1986
-@ent5:Ugandan
-@ent6:15
-@ent7:Uganda
-@ent8:September c. 1944
-@ent9:1997
-@ent10:Rwanda
-@ent11:Yoweri Kaguta Museveni
+@entity0:
+@entity1:Jimmy
+@entity2:U.S.
+@entity3:Venice
+@entity4:Florian
+@entity5:daily
+@entity6:Italy
+@entity7:hours
+@entity8:the Clue Crew
+@entity9:Mark Twain
+@entity10:American
+@entity11:1880
+@entity12:A Tramp Abroad

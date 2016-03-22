@@ -1,17 +1,16 @@
-9
+8
 
-@ent6 flew over the cuckoo 's nest may refer to :    @ent6 flew over the cuckoo 's nest ( novel ) , a @ent3 novel by @ent7   @ent6 flew over the cuckoo 's nest ( play ) , a @ent1 stage adaptation of the novel   @ent6 flew over the cuckoo 's nest ( film ) , a @ent2 film adaptation of the novel   see also   " @ent5 " , episode of @ent8   " @ent6 flew
+@entity5 is a concert piece for orchestra with piano by @entity4 composer @entity7 , written in @entity3 .
 
-authors : working in a mental hospital provided background for his " @ent4 "
+composers : this american wrote " @entity6 " in @entity2 & " @entity1 " in @entity3
 
-@ent7
+@entity7
 
-@ent0:
-@ent1:1963
-@ent2:1975
-@ent3:1962
-@ent4:One Flew Over the Cuckoo's Nest
-@ent5:One Flew Over the Cuckoo Clock
-@ent6:One
-@ent7:Ken Kesey
-@ent8:The Green Green Grass
+@entity0:
+@entity1:Second Rhapsody
+@entity2:1924
+@entity3:1931
+@entity4:American
+@entity5:The Second Rhapsody
+@entity6:Rhapsody in Blue
+@entity7:George Gershwin

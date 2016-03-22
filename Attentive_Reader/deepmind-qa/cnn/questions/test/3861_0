@@ -1,16 +1,17 @@
-8
+9
 
-  background the lead character is based on @ent6 , @ent5 hostess and @ent7 fundraiser @ent2 , who was appointed ambassador to @ent4 in @ent3 .
+@entity1 ivory @entity6 ) in @entity7 is one of the most important museums of decorative arts in @entity5 .
 
-nicknames : the musical " @ent1 " was inspired by this " hostess with the mostes "
+museums of germany : this city 's @entity3 was created in @entity8 by @entity2 to preserve @entity4 's artistic treasures
 
-@ent2
+@entity7
 
-@ent0:
-@ent1:Call Me Madam
-@ent2:Perle Mesta
-@ent3:1949
-@ent4:Luxembourg
-@ent5:D.C.
-@ent6:Washington
-@ent7:Democratic Party
+@entity0:
+@entity1:thumb|Bavarian National Museum thumb|Byzantine
+@entity2:Maximilian II
+@entity3:Bavarian National Museum
+@entity4:Bavaria
+@entity5:Europe
+@entity6:The Bavarian National Museum (Bayerisches Nationalmuseum
+@entity7:Munich
+@entity8:1855

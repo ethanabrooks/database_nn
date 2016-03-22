@@ -1,14 +1,18 @@
-6
+10
 
-  presentation
+in @entity6 , @entity7 starred in @entity1 by director @entity3 , playing @entity8 psychiatrist and psychologist @entity4 .
 
-@ent2 : it 's no fish story : @ent1 is a fish stew from this city 's @ent4 's @ent5
+from page to screen : this beloved novel was made into a film yet again in @entity6 , this time with @entity2 as mr. @entity9
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cioppino
-@ent2:FOOD & DRINK
-@ent3:San Francisco
-@ent4:Fisherman
-@ent5:Wharf
+@entity0:
+@entity1:A Dangerous Method
+@entity2:Michael Fassbender
+@entity3:David Cronenberg
+@entity4:Carl Jung
+@entity5:Jane Eyre
+@entity6:2011
+@entity7:Fassbender
+@entity8:Swiss
+@entity9:Rochester

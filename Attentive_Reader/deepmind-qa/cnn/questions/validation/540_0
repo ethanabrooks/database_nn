@@ -1,20 +1,17 @@
-12
+9
 
-  on @ent6 , @ent7 toured @ent9 , @ent11 as the @ent3 sitting @ent5 president to visit @ent4 .
+@entity7 ( born @entity8 ) is an @entity4 character actor famous for his role as @entity6 ( with @entity3 brothers named @entity1 ) on @entity5 television series @entity2 .
 
-" c " in geography : on a @ent10 trip , @ent8 made the @ent1 presidential visit to @ent2 to this nation
+tv hayseeds : on " @entity2 " @entity7 played this backwoodsman who had @entity3 brothers named @entity1
 
-@ent4
+@entity6
 
-@ent0:
-@ent1:1st
-@ent2:the Alaska Territory &
-@ent3:first
-@ent4:Canada
-@ent5:American
-@ent6:July 26, 1923
-@ent7:Harding
-@ent8:Warren G. Harding
-@ent9:Vancouver
-@ent10:1923
-@ent11:British Columbia
+@entity0:
+@entity1:Darryl
+@entity2:Newhart
+@entity3:2
+@entity4:American
+@entity5:the 1980s
+@entity6:Larry
+@entity7:William Sanderson
+@entity8:January 10, 1944/1948

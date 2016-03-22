@@ -1,16 +1,20 @@
-8
+12
 
-he played the title character in @ent3 @ent5 ( @ent4 ) and its sequel ( @ent7 ) .
+  the film stars @entity4 , @entity2 , @entity3 , @entity10 , @entity1 , and @entity5 .
 
-the new york times movies : the @ent2 liked the " smoky , greasy , steam - punk rendering of victorian @ent1 " in this @ent4 @ent6 caper
+@entity6 cinema : in @entity7 this little girl starred in " @entity11 " , " @entity9 " & " @entity8 "
 
-@ent5
+@entity4
 
-@ent0:
-@ent1:London
-@ent2:Times
-@ent3:Guy Ritchie's
-@ent4:2009
-@ent5:Sherlock Holmes
-@ent6:Robert Downey Jr.
-@ent7:2011
+@entity0:
+@entity1:Bill Robinson
+@entity2:Lionel Barrymore
+@entity3:Evelyn Venable
+@entity4:Shirley Temple
+@entity5:Hattie McDaniel
+@entity6:CLASSIC
+@entity7:1935
+@entity8:The Littlest Rebel
+@entity9:The Little Colonel
+@entity10:John Lodge
+@entity11:Our Little Girl

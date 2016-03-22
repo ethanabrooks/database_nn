@@ -1,13 +1,15 @@
-5
+7
 
-it was founded in @ent1 by @ent2 .
+@entity5 is located in the village and it is assumed to have been erected on the exact spot where @entity2 fell in the battle .
 
-state capitals : @ent3 is in this state capital
+theater alfresco : if you 're in this @entity1 country in @entity4 , do n't miss the ever - popular " st. olav play " in @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1887
-@ent2:Nebraska Methodists
-@ent3:Nebraska Wesleyan University
-@ent4:Lincoln
+@entity0:
+@entity1:Scandinavian
+@entity2:King Olaf II Haraldsson
+@entity3:Norway
+@entity4:July
+@entity5:Stiklestad Church
+@entity6:Stiklestad

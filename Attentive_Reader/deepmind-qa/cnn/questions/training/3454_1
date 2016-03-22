@@ -1,14 +1,12 @@
-6
+4
 
-the music video for " @ent5 , do n't go " was directed by @ent1 .
+library of congress catalog .
 
-country music : daughter @ent2 duetted with him on the recent hit " @ent4 "
+nutty tv : from 1979 to 1983 , rev. @entity2 was a regular on this variety series , country music 's answer to " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Elliot Lester
-@ent2:Miley
-@ent3:Billy Ray Cyrus
-@ent4:Ready, Set, Don't Go
-@ent5:Ready, Set
+@entity0:
+@entity1:Laugh-In
+@entity2:Grady Nutt
+@entity3:Hee Haw

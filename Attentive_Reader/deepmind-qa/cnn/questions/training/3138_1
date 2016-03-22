@@ -1,16 +1,14 @@
-8
+6
 
-  she went to work for @ent3 's @ent4 and exchanges , as office manager from @ent5 , and director from @ent6 .
+landscapes and portraits of people from the chadds ford area were presented at the exhibit .
 
-literary characters : wwii spymaster @ent1 inspired this secretary of m in @ent2 novels
+priceline : at a @entity1 auction @entity4 paid $ @entity2 for a @entity3 lithograph of this president in a sailboat
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Vera Atkins
-@ent2:James Bond
-@ent3:UNESCO
-@ent4:Central Bureau for Educational Visits
-@ent5:1948
-@ent6:1952
-@ent7:Moneypenny
+@entity0:
+@entity1:1996
+@entity2:43,700
+@entity3:Jamie Wyeth
+@entity4:Jimmy Buffett
+@entity5:John F. Kennedy

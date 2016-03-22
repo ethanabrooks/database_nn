@@ -1,12 +1,12 @@
 4
 
-  what hearts must i break ?
+@entity1 served to remind @entity2 of its former colonial glory that was rapidly fading with the modern era .
 
-world of poetry : the name of a @ent1 title character echoes this 19th c. french author of " @ent2 "
+design : the 17th & 18th c. french decorative style called @entity1 was influenced by the art of this country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Stallone
-@ent2:A Season In Hell
-@ent3:Arthur Rimbaud
+@entity0:
+@entity1:Chinoiserie
+@entity2:Britain
+@entity3:China

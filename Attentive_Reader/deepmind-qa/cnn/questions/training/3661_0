@@ -1,13 +1,17 @@
-5
+9
 
-@ent3 superintendent of finances is arrested in @ent2 by @ent4 , captain of the king 's musketeers .
+  the roles of @entity2 and @entity5 , sung by the castrato @entity8 and famous soprano @entity6 respectively , and which encompass @entity1 arias and @entity3 recitatives accompagnati each , make full use of the vocal capabilities of the singers .
 
-glory to the newborn king : @ent1 , 1638saint - germain-en-laye
+@entity4 : she 's the queen who captivates the operatic title character @entity7
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:September 5
-@ent2:Nantes
-@ent3:Louis XIV
-@ent4:D'Artagnan
+@entity0:
+@entity1:eight
+@entity2:Cesare
+@entity3:two
+@entity4:OTHER WORKS BY HANDEL
+@entity5:Cleopatra
+@entity6:Francesca Cuzzoni
+@entity7:Giulio Cesare
+@entity8:Senesino

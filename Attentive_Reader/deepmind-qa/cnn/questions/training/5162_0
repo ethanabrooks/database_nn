@@ -1,13 +1,16 @@
-5
+8
 
-@ent4 , or life at plumfield with jo 's boys , is a novel by @ent1 author @ent2 , first published in @ent3 .
+@entity4 was a settlement house in @entity3 that was co - founded in @entity6 by @entity7 and @entity1 .
 
-fictional characters : " little women " jo & meg march also appear in this author 's " @ent4 "
+@entity2 : after meeting this woman at @entity5 , @entity1 founded @entity4 with her
 
-@ent2
+@entity7
 
-@ent0:
-@ent1:American
-@ent2:Louisa May Alcott
-@ent3:1871
-@ent4:Little Men
+@entity0:
+@entity1:Ellen Gates Starr
+@entity2:LESSER-KNOWN AMERICANS
+@entity3:the United States
+@entity4:Hull House
+@entity5:the Rockford Female Seminary
+@entity6:1889
+@entity7:Jane Addams

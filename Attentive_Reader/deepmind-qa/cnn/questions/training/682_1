@@ -1,15 +1,14 @@
-7
+6
 
-@ent6 ( d. @ent4 )
+sometimes , outdoor scenes were filmed at the @entity4 .
 
-first year of the century : @ent5 explorer @ent1 discovered this isthmus in @ent2
+international actors : this brother - in-law of @entity1 was born in @entity3 , not on @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Rodrigo de Bastidas
-@ent2:1501
-@ent3:Panama
-@ent4:1555
-@ent5:Spanish
-@ent6:Pope Marcellus II
+@entity0:
+@entity1:Loretta Young
+@entity2:Fantasy Island
+@entity3:Mexico City
+@entity4:Arboretum
+@entity5:Ricardo Montalban

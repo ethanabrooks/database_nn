@@ -1,14 +1,15 @@
-6
+7
 
-the story is the basis for @ent3 's @ent4 opera @ent1 di lammermoor .
+  course the @entity2 chickamauga creeks are part of the @entity6 , @entity4 - chickamauga watershed .
 
-opera women : @ent3 's this woman " di lammermoor " was based on @ent5 " @ent2 "
+native american place names : in @entity5 a @entity3 took place around @entity1 in this state
 
-@ent1
+@entity6
 
-@ent0:
-@ent1:Lucia
-@ent2:The Bride of Lammermoor
-@ent3:Donizetti
-@ent4:1835
-@ent5:Walter Scott's
+@entity0:
+@entity1:Chickamauga Creek
+@entity2:two
+@entity3:Civil War battle
+@entity4:Middle Tennessee
+@entity5:1863
+@entity6:Georgia

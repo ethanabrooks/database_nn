@@ -1,16 +1,19 @@
-8
+11
 
-@ent3 was originally laid to rest in @ent5 , @ent7 @ent1 , then moved to @ent4 .
+@entity2 may refer to :    places    @entity2 , @entity5 , a town close to @entity10 , in @entity4   @entity1 , a village within @entity6 , in @entity5 , @entity4 .
 
-the " west " wing : dash or dot off a note to @ent2 , founder of this telegraph company
+@entity7 lit : she dedicated her book @entity9 to @entity8 , who played miss @entity2 in several films
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:N.Y.
-@ent2:Ezra Cornell
-@ent3:Cornell
-@ent4:Sage Chapel
-@ent5:Lake View Cemetery
-@ent6:Western Union
-@ent7:Ithaca
+@entity0:
+@entity1:Marple Bridge
+@entity2:Marple
+@entity3:Agatha Christie
+@entity4:England
+@entity5:Greater Manchester
+@entity6:the Metropolitan Borough of Stockport
+@entity7:BRIT
+@entity8:Margaret Rutherford
+@entity9:"The Mirror Crack'd"
+@entity10:Stockport

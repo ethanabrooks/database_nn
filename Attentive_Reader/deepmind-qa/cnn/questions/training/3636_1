@@ -1,14 +1,16 @@
-6
+8
 
-  @ent4 @ent4 the area offshore from @ent1 is the edward f. ricketts state marine conservation area ( part of the larger @ent5 )   and is home to a large resurgent population of @ent3 sea lions .
+@entity1 : @entity2 1986 .
 
-american literature : he described the setting of " @ent1 " as " a poem , a stink ... a habit , a nostalgia , a dream "
+u.s.a. : in @entity3 architect @entity4 designed a dramatic 23-story addition to this @entity7 city 's @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cannery Row
-@ent2:John Steinbeck
-@ent3:California
-@ent4:Today
-@ent5:Monterey Bay National Marine Sanctuary
+@entity0:
+@entity1:New York
+@entity2:NY Rizzoli International Publications Inc.
+@entity3:1982
+@entity4:Helmut Jahn
+@entity5:Board of Trade
+@entity6:Chicago
+@entity7:Midwest

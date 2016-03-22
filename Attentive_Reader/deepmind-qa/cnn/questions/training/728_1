@@ -1,13 +1,15 @@
-5
+7
 
-instead , the resolution stipulates withdrawal from occupied territories without defining the extent of withdrawal .
+@entity1 released the film on @entity4 .
 
-lawyers , guns & money : this lawyer & author seen here clerked for @ent2 justice @ent4 in @ent1
+@entity5 , swift : in a @entity3 film he played @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1963
-@ent2:Supreme Court
-@ent3:Alan Dershowitz
-@ent4:Arthur Goldberg
+@entity0:
+@entity1:Paramount Pictures
+@entity2:Drillbit Taylor
+@entity3:2008
+@entity4:March 21, 2008
+@entity5:TAYLOR
+@entity6:Owen Wilson

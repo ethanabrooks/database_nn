@@ -1,12 +1,14 @@
-4
+6
 
-the island is part of @ent2 .
+@entity4 is an @entity1 autobiographical novel , the last novel written by @entity2 .
 
-countries of the world : @ent1 is one of the islands of this @ent3 country , once home to a famous group of knights
+plays : @entity5 turned this " our town " playwright 's novel " @entity4 " into a play that premiered in @entity3
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:Gozo
-@ent2:Malta
-@ent3:Mediterranean
+@entity0:
+@entity1:1973
+@entity2:Thornton Wilder
+@entity3:2003
+@entity4:Theophilus North
+@entity5:Matthew Burnett

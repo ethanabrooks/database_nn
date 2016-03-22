@@ -1,18 +1,16 @@
-10
+8
 
-he was instrumental in the planning of the @ent5 , @ent3 , @ent9 , @ent4 , and @ent1 missions .
+( @entity5 in a special @entity2 episode ) and political figures ( president @entity6 and his wife , @entity1 . )
 
-gods among us : in @ent2 @ent7 's @ent6 gave the manned @ent8 program this name
+beaus : among those who called him beau : @entity3 , @entity4 , @entity7 ...
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:Voyager
-@ent2:the early 1960s
-@ent3:Ranger
-@ent4:Surveyor
-@ent5:Apollo
-@ent6:Abe Silverstein
-@ent7:NASA
-@ent8:Moon
-@ent9:Mariner
+@entity0:
+@entity1:Betty
+@entity2:one-hour
+@entity3:Dinah Shore
+@entity4:Sally Field
+@entity5:Burt Reynolds
+@entity6:Gerald Ford
+@entity7:Loni Anderson

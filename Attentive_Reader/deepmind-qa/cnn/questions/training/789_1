@@ -1,13 +1,16 @@
-5
+8
 
-a comprehensive bibliography and checklist .
+before the start of the race , @entity2 persuades @entity3 to make a wager with him on its outcome .
 
-" w"hodunnit ? : his last complete novel , @ent4 's " @ent3 " , involves further adventures of @ent1
+famous vehicles : @entity1 name given to @entity6 's " @entity4 " who starred in @entity5 movies
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Wooster & Jeeves
-@ent2:P.G. Wodehouse
-@ent3:Aunts Aren't Gentlemen
-@ent4:1974
+@entity0:
+@entity1:First
+@entity2:Thorndyke
+@entity3:Wu
+@entity4:The Love Bug
+@entity5:4
+@entity6:Disney
+@entity7:Herbie

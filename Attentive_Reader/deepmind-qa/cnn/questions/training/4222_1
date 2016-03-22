@@ -1,15 +1,14 @@
-7
+6
 
-essay die bilder ( in @ent3 ) on @ent4 centre website , accessed @ent5 .
+accessed @entity3 - 08-10 .
 
-i love a mozart opera : ilia , the daughter of @ent2 , is a captive princess in " @ent6 " , set just after this war
+@entity1 : @entity2 has a branch in this city named for frontiersman @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Trojan War
-@ent2:King Priam
-@ent3:German
-@ent4:Arnold Schoenberg
-@ent5:23.2.2014
-@ent6:Idomeneo
+@entity0:
+@entity1:AMERICAN TOWNS & CITIES
+@entity2:Montana State University
+@entity3:2013
+@entity4:Bozeman
+@entity5:John

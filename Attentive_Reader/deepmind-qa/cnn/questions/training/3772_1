@@ -1,11 +1,13 @@
-3
+5
 
-the clientele soon expanded to include other high - end document users , such as job seekers printing resumes and business users generating professional documentation .
+@entity1 .
 
-business & industry : the name of this photocopy store chain refers to the curly hair of its founder @ent2
+@entity4 ' relatives : @entity3 , a promoter of higher education for women , was the sister of this famous author
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kinko
-@ent2:Paul Orfalea
+@entity0:
+@entity1:Yale University Press
+@entity2:Harriet Beecher Stowe
+@entity3:Catharine Beecher
+@entity4:WRITERS

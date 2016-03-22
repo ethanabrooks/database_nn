@@ -1,14 +1,17 @@
-6
+9
 
-@ent3 ) was an @ent1 businessman , author , mathematician , and astronomer who fueled speculation that there were canals on @ent4 .
+   notable cases    golan v. gonzales ( representing multiple plaintiffs )   eldred v. @entity4 ( representing plaintiff @entity3 ) lost   @entity5 v. @entity4 ( also see @entity6 ) dismissed   @entity2 v. @entity8 ( special master and author of an amicus brief addressing @entity1 )
 
-the planets : in a @ent5 book @ent2 proposed that its surface markings were irrigation canals
+blogs : lawyer @entity7 started blogging after being thrown off the anti - trust case against this software giant
 
-@ent4
+@entity8
 
-@ent0:
-@ent1:American
-@ent2:Percival Lowell
-@ent3:November 12, 1916
-@ent4:Mars
-@ent5:1908
+@entity0:
+@entity1:the Sherman Act
+@entity2:United States
+@entity3:Eric Eldred
+@entity4:Ashcroft
+@entity5:Kahle
+@entity6:Brewster Kahle
+@entity7:Lawrence Lessig
+@entity8:Microsoft

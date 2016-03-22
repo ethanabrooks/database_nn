@@ -1,19 +1,16 @@
-11
+8
 
-from the 1980s to the present , the municipalities of @ent4 , @ent1 , @ent9 , @ent7 , @ent8 , and @ent6 have been added to the metropolitan area .
+  during @entity3 , the duo retreated to @entity7 in @entity4 and used a bank loan to establish a small 8-track studio above a picture framing factory , giving them freedom to record without having to pay expensive studio fees .
 
-world cities : the silver baron @ent3 laid out the famous @ent5 in @ent2 in this country
+singers : from @entity1 , this lead singer of @entity2 studied at @entity4 's @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jiutepec
-@ent2:Cuernavaca
-@ent3:Jose de la Borda
-@ent4:Emiliano Zapata
-@ent5:Borda Gardens
-@ent6:Yautepec
-@ent7:Tepoztlán
-@ent8:Xochitepec
-@ent9:Temixco
-@ent10:Mexico
+@entity0:
+@entity1:age 17 to 20
+@entity2:Eurythmics
+@entity3:1982
+@entity4:London
+@entity5:Royal Academy of Music
+@entity6:Annie Lennox
+@entity7:Chalk Farm

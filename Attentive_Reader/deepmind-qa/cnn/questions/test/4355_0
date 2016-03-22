@@ -1,18 +1,13 @@
-10
+5
 
->   after appearing in more than a dozen b - movies , as well as supporting roles , as @ent2 agent @ent8 in the espionage series i led @ent1 lives and as lapd sergeant vince cavelli in @ent6 , he was offered the role of dr. @ent3 on the soap opera @ent5 .
+the @entity2 ( ) is the head of government or prime minister of @entity3 .
 
-people : @ent9 , who passed away in @ent7 , played dr. @ent3 on this daytime soap for @ent4
+follow the leader : @entity4 is the @entity2 or prime minister of this @entity1 nation
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:Three
-@ent2:FBI
-@ent3:Steve Hardy
-@ent4:over 30 years
-@ent5:General Hospital
-@ent6:The New Breed
-@ent7:1996
-@ent8:Steve Daniels
-@ent9:John Beradino
+@entity0:
+@entity1:European
+@entity2:Taoiseach
+@entity3:Ireland
+@entity4:Bertie Ahern

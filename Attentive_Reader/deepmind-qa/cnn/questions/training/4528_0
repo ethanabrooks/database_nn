@@ -1,14 +1,18 @@
-6
+10
 
-in @ent5 , he was promoted to deputy secretary of the @ent4 under his long - time political mentor @ent1 .
+after the revolution of @entity6 , he returned to @entity1 , where his @entity3 credentials earned him a high rank in the party , and after @entity4 , he became editor of the party newspaper @entity7 .
 
-a man for all seasons : @ent3 , @ent1 & @ent2 all held this cabinet position
+newspapers & magazines : from @entity9 to @entity2 , @entity8 was editor of this official @entity5 newspaper
 
-secretary of the @ent4
+@entity7
 
-@ent0:
-@ent1:Robert Rubin
-@ent2:Lawrence Summers
-@ent3:Lloyd Bentsen
-@ent4:Treasury
-@ent5:1995
+@entity0:
+@entity1:Moscow
+@entity2:1929
+@entity3:Bolshevik
+@entity4:the October Revolution
+@entity5:Communist Party
+@entity6:February 1917
+@entity7:Pravda
+@entity8:Nikolai Bukharin
+@entity9:1917

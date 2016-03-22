@@ -1,14 +1,13 @@
-6
+5
 
-@ent4   is a private , coeducational @ent3 university in the central @ent5 , located in @ent1 , @ent2 .
+[ @entity1 ] ( @entity1 ) culture and customs of @entity2 .
 
-college towns : @ent4
+youth in asia : with songs like " fly away " , rock star @entity4 is one of the leading pop musicians from this @entity3 country
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Milwaukee
-@ent2:Wisconsin
-@ent3:Catholic
-@ent4:Marquette University
-@ent5:United States
+@entity0:
+@entity1:2002
+@entity2:China
+@entity3:Asian
+@entity4:Cui Jian

@@ -1,15 +1,17 @@
-7
+9
 
-@ent2 , she appeared on @ent3 @ent5 .
+@entity6 ( born @entity7 ) is an @entity5 theatre producer and general manager whose professional relationship with playwright @entity2 spans @entity4 years .
 
-actors : ( hi , i 'm @ent1 )   this " baywatch " star was once a centerfold ... a centerfold in the @ent6 issue of @ent4
+playbill : what a record !   @entity1 has produced all of this writer 's plays since @entity3 's " @entity8 "
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:Traci Bingham
-@ent2:Two years later
-@ent3:the Comedy Central Roast of
-@ent4:Cosmopolitan
-@ent5:David Hasselhoff
-@ent6:May 1990
+@entity0:
+@entity1:Emanuel Azenberg
+@entity2:Neil Simon
+@entity3:1972
+@entity4:thirty-three
+@entity5:American
+@entity6:Emanuel "Manny" Azenberg
+@entity7:January 22, 1934
+@entity8:The Sunshine Boys

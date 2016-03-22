@@ -1,15 +1,14 @@
-7
+6
 
-|sergeant [ [ @ent3 ( fictional character)|philip k. fish ] ] | < center > @ent2 , @ent5 |vigoda was a regular for @ent4 .
+her father was sir @entity1 , the physician .
 
-tv title role playing : " @ent6 "
+notable women : the eminent @entity3 archaeologist @entity1 was the @entity2 female professor at this @entity3 university
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Hal Linden
-@ent2:1–4
-@ent3:Phil Fish
-@ent4:the first three seasons
-@ent5:7
-@ent6:Barney Miller
+@entity0:
+@entity1:Dorothy Garrod
+@entity2:first
+@entity3:British
+@entity4:Archibald Garrod
+@entity5:Cambridge

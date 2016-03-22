@@ -1,0 +1,14 @@
+6
+
+" @entity1 " is an @entity2 country and pop song recorded by @entity4 .
+
+singers also known as : " @entity1 " was a hit for this tex - mex singer whose real name is @entity5
+
+@entity4
+
+@entity0:
+@entity1:Wasted Days And Wasted Nights
+@entity2:American
+@entity3:Wasted Days and Wasted Nights
+@entity4:Freddy Fender
+@entity5:Baldemar Huerta

@@ -1,22 +1,25 @@
-14
+17
 
-@ent10 segments were included in the program : @ent6 featuring @ent3 , another starring @ent11 and his sidekick @ent4 , and a @ent12 with @ent9 and @ent1 and mr. @ent2 , @ent13 mice who in each short found a new way to outwit the cat mr. @ent2 .
+  the film , produced by former silent film star @entity10 , stars @entity5 , @entity5 , and , in a smaller role than usual , @entity5 , plus @entity2 , @entity7 , @entity1 , @entity12 , @entity3 , @entity8 ( in his film debut ) , and @entity4 , with a walk - on by then unknown @entity9 .
 
-@ent8 : this smarter - than-the-average ursine debuted on " @ent7 " in @ent5
+monroe : in @entity13 she had @entity16 line in " @entity6 " , the last @entity14 movie
 
-@ent11
+@entity9
 
-@ent0:
-@ent1:Dixie
-@ent2:Jinks
-@ent3:Huckleberry Hound
-@ent4:Boo Boo
-@ent5:1958
-@ent6:one
-@ent7:The Huckleberry Hound Show
-@ent8:CLASSIC TV TOONS
-@ent9:Pixie
-@ent10:Three
-@ent11:Yogi Bear
-@ent12:third
-@ent13:two
+@entity0:
+@entity1:Paul Valentine
+@entity2:Ilona Massey
+@entity3:Raymond Burr
+@entity4:Eric Blore
+@entity5:Chico Marx
+@entity6:Love Happy
+@entity7:Vera-Ellen
+@entity8:Bruce Gordon
+@entity9:Marilyn Monroe
+@entity10:Mary Pickford
+@entity11:Groucho Marx
+@entity12:Marion Hutton
+@entity13:1948
+@entity14:Marx Brothers
+@entity15:Harpo Marx
+@entity16:one

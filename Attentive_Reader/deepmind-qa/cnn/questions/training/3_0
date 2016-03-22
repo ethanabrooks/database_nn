@@ -1,12 +1,12 @@
 4
 
-  @ent3 is part large urban parks for @ent2 , with in water and on land recreation .
+  @entity1 is part large urban parks for @entity2 , with in water and on land recreation .
 
-lakes : the axolotl is a salamander found in @ent1 near this world capital
+lakes : the axolotl is a salamander found in @entity3 near this world capital
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:Lake Xochimilco
-@ent2:Mexico City
-@ent3:Xochimilco Lake
+@entity0:
+@entity1:Xochimilco Lake
+@entity2:Mexico City
+@entity3:Lake Xochimilco

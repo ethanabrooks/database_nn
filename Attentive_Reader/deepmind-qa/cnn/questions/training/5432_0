@@ -1,17 +1,15 @@
-9
+7
 
-  @ent5 – @ent6 comedy @ent2 is @ent3 performed in @ent1 .
+@entity1 , @entity3 model and actress ( d. @entity2 )
 
-stars on the map : located on @ent7 , it 's been @ent4 's largest city since around @ent8
+@entity6 : a postage stamp featuring this blonde premiered on @entity5 , which would have been her @entity4 birthday
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:London
-@ent2:The Way of the World
-@ent3:first
-@ent4:Europe
-@ent5:early March
-@ent6:William Congreve's
-@ent7:the Thames River
-@ent8:1700
+@entity0:
+@entity1:Marilyn Monroe
+@entity2:1962
+@entity3:American
+@entity4:69th
+@entity5:June 1
+@entity6:1995

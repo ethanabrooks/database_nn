@@ -1,15 +1,17 @@
-7
+9
 
-  location @ent3 's boundaries are marked by @ent1 to the south , @ent6 to the east , @ent4 to the north and river kafu to the northwest .
+                              the spot resolutions were offered in @entity6 @entity1 on @entity3 by future president @entity4 , then a @entity5 representative from @entity2 .
 
-the @ent5 : the kingdom of @ent3 rose to prominence on the shores of this @ent2 lake
+a few good men : as an @entity2 congressman , he introduced " @entity8 " attacking @entity7 for starting the mexican war
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Lake Victoria
-@ent2:African
-@ent3:Buganda
-@ent4:Lake Kyoga
-@ent5:SWEET 1600s
-@ent6:the River Nile
+@entity0:
+@entity1:House of Representatives
+@entity2:Illinois
+@entity3:22 December 1847
+@entity4:Abraham Lincoln
+@entity5:Whig
+@entity6:the United States
+@entity7:Polk
+@entity8:Spot Resolutions

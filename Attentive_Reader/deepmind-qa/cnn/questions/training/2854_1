@@ -1,14 +1,19 @@
-6
+11
 
-@ent4 pro - regulatory stance has been criticized by @ent1 .
+@entity3 hosts the @entity5 @entity10 @entity2 every @entity9 through @entity7 .
 
-rebels with a cause : in @ent2 this consumer advocate founded @ent5
+@entity4 events : @entity1 , near @entity8 in this state , is the site of the annual @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the U.S. Chamber of Commerce
-@ent2:1971
-@ent3:Ralph Nader
-@ent4: Public Citizen's
-@ent5:Public Citizen
+@entity0:
+@entity1:Monroe
+@entity2:Evergreen State Fair
+@entity3:The Evergreen State Fairgrounds
+@entity4:ANNUAL
+@entity5:annual
+@entity6:Washington
+@entity7:Labor Day
+@entity8:Snohomish
+@entity9:August
+@entity10:12-day

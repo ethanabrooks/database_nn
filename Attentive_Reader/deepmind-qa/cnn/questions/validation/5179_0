@@ -1,0 +1,13 @@
+5
+
+@entity4 is a city in @entity1 .
+
+let 's go to santa : @entity2 was born in @entity3 & died in @entity4 , in this country on @entity3 's west border
+
+@entity1
+
+@entity0:
+@entity1:Colombia
+@entity2:Simon Bolivar
+@entity3:Venezuela
+@entity4:Santa Marta

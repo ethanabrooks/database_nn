@@ -1,15 +1,14 @@
-7
+6
 
-alongside @ent5 , the film stars @ent6 and @ent3 .
+he trained very hard so he could grow up to be like his idol @entity1 .
 
-the beautiful : in a @ent1 film photographer @ent2 loved her " @ent4 "
+boxing movies : @entity2 played this famous @entity3 , not @entity5 , in a @entity4 tv movie
 
-@ent6
+@entity1
 
-@ent0:
-@ent1:1957
-@ent2:Fred Astaire
-@ent3:Kay Thompson
-@ent4:Funny Face
-@ent5:Astaire
-@ent6:Audrey Hepburn
+@entity0:
+@entity1:Rocky Marciano
+@entity2:Tony Lo Bianco
+@entity3:Rocky
+@entity4:1979
+@entity5:Rocky Balboa

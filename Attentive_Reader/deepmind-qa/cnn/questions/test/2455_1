@@ -1,15 +1,14 @@
-7
+6
 
-@ent6 , @ent3 actor ( died @ent2 )
+  on @entity3 , @entity5 introduced a new on - air graphics package .
 
-@ent5 : in @ent1 this wounded pres . was treated by a gynecological surgeon who used a sewing needle to close him up
+tv stars : this " @entity5 " hostess ' " @entity2 " cookbook was a @entity1 bestseller
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1901
-@ent2:1960
-@ent3:American
-@ent4:William McKinley
-@ent5:MEDICAL DEVICES
-@ent6: Clark Gable
+@entity0:
+@entity1:1996
+@entity2:Healthy Cooking
+@entity3:October 22, 2007
+@entity4:Joan Lunden
+@entity5:Good Morning America

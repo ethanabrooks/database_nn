@@ -1,14 +1,14 @@
 6
 
-–
+@entity3 , p. @entity2 .
 
-@ent2 : on @ent1 @ent3 was ambushed by @ent4 in this country
+where 's my coffee ? : @entity1 's best coffee comes from @entity5 , a state that borders this noted coffee - growing nation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:August 22
-@ent2:1922
-@ent3:Michael Collins
-@ent4:Independent Republicans
-@ent5:Ireland
+@entity0:
+@entity1:Mexico
+@entity2:86
+@entity3:Higgens
+@entity4:Guatemala
+@entity5:Chiapas

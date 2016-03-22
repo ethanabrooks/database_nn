@@ -1,13 +1,15 @@
-5
+7
 
-@ent3
+the event was called @entity2 , it was held at @entity6 in @entity3 .
 
-let 's celebrate ! : celebrated on @ent1 , it honors those who served in our @ent2
+beastly books : @entity4 stripped humanity bare in this provocative @entity5 bestseller
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:November 11
-@ent2:Armed Forces
-@ent3:1620
-@ent4:Veterans Day
+@entity0:
+@entity1:The Naked Ape
+@entity2:The Lost Image
+@entity3:London
+@entity4:Desmond Morris
+@entity5:1967
+@entity6:the Royal Festival Hall

@@ -1,17 +1,18 @@
-9
+10
 
-  @ent5 people attended @ent4 's funeral held on @ent6 at the grace chapel at the inglewood park cemetery .
+  @entity9 in early @entity5 , before he had completed his contract , @entity7 entered the @entity8 , enlisting as a private , and served in recruiting .
 
-hollywood scandals : some claim the @ent1 " suicide " of this star 's husband @ent8 was murder ; she died @ent3 , at @ent7
+film biographies : this composer was portrayed by @entity3 in " @entity2 " & @entity6 in " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1932
-@ent2:Jean Harlow
-@ent3:5 years later
-@ent4:Bern
-@ent5:2,000
-@ent6:September 9, 1932
-@ent7:age 26
-@ent8:Paul Bern
+@entity0:
+@entity1:I Dream of Jeannie
+@entity2:Swanee River
+@entity3:Don Ameche
+@entity4:Stephen Foster
+@entity5:1942
+@entity6:Bill Shirley
+@entity7:Shirley
+@entity8:Army
+@entity9:World War II

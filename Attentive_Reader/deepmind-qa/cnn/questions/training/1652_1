@@ -1,13 +1,11 @@
-5
+3
 
-the article referred to a @ent4 government document to sustain its position .
+grand dieu !
 
-tonight--a world premier ! : @ent2 , this country 's premier , is also the mp for @ent3
+national anthems : " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jamaica
-@ent2:Bruce Golding
-@ent3:West Kingston
-@ent4:U.S
+@entity0:
+@entity1:France
+@entity2:La Marseillaise

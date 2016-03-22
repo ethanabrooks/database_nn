@@ -1,13 +1,16 @@
-5
+8
 
-they are placed in @ent2 .
+@entity5 # 1128."veterans and the military on stamps " , pp .
 
-legislatures of the world : @ent1 has a seimas ; this neighbor to the @ent4 has a saeima
+@entity2 : he & @entity6 made their @entity3 serious attempt to reach the @entity7 , but it would take @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Lithuania
-@ent2:Kandahar province
-@ent3:Latvia
-@ent4:North
+@entity0:
+@entity1:Robert Peary
+@entity2:1902
+@entity3:first
+@entity4:7 more years
+@entity5:Scott catalog
+@entity6:Matthew Henson
+@entity7:North Pole

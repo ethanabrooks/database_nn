@@ -1,15 +1,14 @@
-7
+6
 
-@ent3 , the highest point in the contiguous @ent4 , is only   to the north west .
+he died in the crash of his de havilland gipsy moth biplane in @entity4 .
 
-states ' lowest points : @ent2 below sea level at @ent5 in @ent6
+women writers : male pen name used by @entity1 baroness @entity2 for " out of @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:California
-@ent2:282 feet
-@ent3:Mount Whitney
-@ent4:48 United States
-@ent5:Badwater Basin
-@ent6:Inyo County
+@entity0:
+@entity1:Danish
+@entity2:Karen Blixen
+@entity3:Africa
+@entity4:1931
+@entity5:Isak Dinesen

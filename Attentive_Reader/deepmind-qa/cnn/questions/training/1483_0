@@ -1,16 +1,14 @@
-8
+6
 
-it was named after the famous @ent5 chief who had also given his name to the city of @ent7 , @ent2 where the car was produced .
+  timur raids the city of @entity3 in @entity5 .
 
-@ent1 : @ent6 east of @ent7 , the city of @ent4 in this state is home to @ent3
+first year of the century : in @entity1 @entity4 sacked this city that 's now the capital of @entity2
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:ROCHESTER
-@ent2:Michigan
-@ent3:Oakland University
-@ent4:Rochester
-@ent5:Ottawa
-@ent6:9 miles
-@ent7:Pontiac
+@entity0:
+@entity1:1401
+@entity2:Iraq
+@entity3:Baghdad
+@entity4:Tamerlane
+@entity5:the Jalayirid Empire

@@ -1,17 +1,14 @@
-9
+6
 
-  in @ent7 , @ent4 tribute film @ent6 starred @ent3 ( as @ent1 , not @ent2 ) .
+@entity2 , @entity4 was known as stabroek prior to @entity3 .
 
-german cinema : the father of @ent8 , he sank his teeth into the role of " @ent5 " in @ent7
+latin america : this guyanese capital once had the @entity5 name @entity1
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:Count Dracula
-@ent2:Orlok
-@ent3:Klaus Kinski
-@ent4:Werner Herzog's
-@ent5:Nosferatu
-@ent6:Nosferatu the Vampyre
-@ent7:1979
-@ent8:Nastassja
+@entity0:
+@entity1:Stabroek
+@entity2:Georgetown
+@entity3:1812
+@entity4:Guyana
+@entity5:Dutch

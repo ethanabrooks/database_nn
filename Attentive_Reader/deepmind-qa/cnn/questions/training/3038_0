@@ -1,11 +1,23 @@
-3
+15
 
-@ent2 is the capital and largest city of @ent1 .
+@entity1 is a fictional character and the protagonist of @entity14 @entity4 novel do @entity3   he was portrayed by @entity11 in the @entity2 film adaptation @entity5 directed by @entity6 and by @entity7 in the @entity9 @entity13 adaptation directed by @entity10 yevtushenko.http://www.bbc.co.uk/programmes/b047cz98    overview   @entity1 ( a play on the name @entity8 )   is a specialist plainclothes police officer with the san francisco police department in @entity12 , who goes after " andys " as they are called .
 
-hey " u " ! : @ent2 is its capital
+a ford in your past : he was @entity1 in " @entity5 "
 
-@ent1
+@entity11
 
-@ent0:
-@ent1:Uganda
-@ent2:Kampala
+@entity0:
+@entity1:Rick Deckard
+@entity2:1982
+@entity3:Androids Dream of Electric Sheep?.
+@entity4:1968
+@entity5:Blade Runner
+@entity6:Ridley Scott
+@entity7:James Purefoy
+@entity8:Rene Descartes
+@entity9:2014
+@entity10:Sasha
+@entity11:Harrison Ford
+@entity12:the early 21st Century
+@entity13:BBC Radio 4
+@entity14:Philip K. Dick's

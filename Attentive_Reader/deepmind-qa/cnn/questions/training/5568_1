@@ -1,14 +1,13 @@
-6
+5
 
-writer @ent2 , who obtained a copy of the hand - written list of rentals , wrote about it for @ent3 .
+  it was offered as a book of @entity3 selection .
 
-@ent4 : ... has a presidential surname & made it to the court after @ent5 was rejected
+' 80s bestsellers : his memoir " @entity1 " made the bestseller list in @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Anthony Kennedy
-@ent2:Michael Dolan
-@ent3:the Washington City Paper
-@ent4:THE CURRENT SUPREME COURT JUSTICE WHO
-@ent5:Robert Bork
+@entity0:
+@entity1:Gracie: A Love Story
+@entity2:1988
+@entity3:the Month Club
+@entity4:George Burns

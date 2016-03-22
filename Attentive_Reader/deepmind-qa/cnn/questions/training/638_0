@@ -1,15 +1,15 @@
 7
 
-the great caruso is a @ent1 biographical film made by @ent3 and starring @ent4 as @ent2 .
+she made her initial impact in @entity2 from her improvisational comedy routines with @entity6 , performing as @entity5 and @entity4
 
-super mario : called " @ent5 , he played the title role in the @ent1 film " @ent6 "
+i won an oscar , emmy , tony & grammy : the @entity1 grammy for best comedy performance went to " an evening with " him " and @entity3 "
 
-@ent4
+@entity6
 
-@ent0:
-@ent1:1951
-@ent2:Enrico Caruso
-@ent3:Metro-Goldwyn-Mayer
-@ent4:Mario Lanza
-@ent5:The Voice of the Century"
-@ent6:The Great Caruso
+@entity0:
+@entity1:1961
+@entity2:the 1950s
+@entity3:Elaine May
+@entity4:May.
+@entity5:Nichols
+@entity6:Mike Nichols

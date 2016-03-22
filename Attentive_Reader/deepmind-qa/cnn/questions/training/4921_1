@@ -1,13 +1,18 @@
-5
+10
 
-the brethren may refer to :   books
+  in @entity1 , he played @entity3 .
 
-attorney authors : in @ent1 he published " @ent2 " about @ent3 imprisoned ex - judges
+@entity6 - word movies : @entity8 brothers @entity2 , @entity7 & @entity9 survive in the forest in this @entity5 - set drama
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2000
-@ent2:The Brethren
-@ent3:3
-@ent4:John Grisham
+@entity0:
+@entity1:2015
+@entity2:Daniel Craig
+@entity3:The Thing in the Fantastic Four reboot
+@entity4:Defiance
+@entity5:WWII
+@entity6:ONE
+@entity7:Liev Schreiber
+@entity8:Jewish
+@entity9:Jamie Bell

@@ -1,14 +1,14 @@
 6
 
-the first man ( @ent4 title : @ent3 ) is @ent2 ' unfinished final novel .
+the baltimore sun has been home to some of the best @entity2 writers , including reporter , essayist , and language scholar @entity1 , who enjoyed a forty - plus year association with the paper .
 
-posthumous works : found at the car wreck that killed him , this writer 's " @ent5 " provides a glimpse of his childhood in @ent1
+notable names : this caustic critic & expert on " @entity4 " was associated with @entity5 for @entity3
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Algeria
-@ent2:Albert Camus
-@ent3:Le Premier homme
-@ent4:French
-@ent5:The First Man
+@entity0:
+@entity1:H.L. Mencken
+@entity2:American
+@entity3:over 40 years
+@entity4:The American Language
+@entity5:The Baltimore Sun

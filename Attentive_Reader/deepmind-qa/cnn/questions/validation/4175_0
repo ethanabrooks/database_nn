@@ -1,20 +1,21 @@
-12
+13
 
-front row : @ent2 , @ent1 , @ent11 ; back row : @ent4 , @ent10 , @ent5 .
+the following events occurred in @entity2 :   @entity10 ) at @entity1 a.m. in @entity9 ) , the @entity12 space probe @entity4 crashed on @entity3 , becoming the @entity7 spacecraft to land on another planet 's surface .
 
-@ent3 : during @ent9 this @ent7 psychiatrist gave a series of lectures at @ent6 in @ent8
+@entity5 : in @entity2 the @entity6 's @entity11 @entity8 became the @entity7 space probe to physically touch another planet , this one
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:G. Stanley Hall
-@ent2:Sigmund Freud
-@ent3:1909
-@ent4:Abraham A. Brill
-@ent5:Sándor Ferenczi
-@ent6:Clark University
-@ent7:Austrian
-@ent8:Massachusetts
-@ent9:the year
-@ent10:Ernest Jones
-@ent11:Carl Jung
+@entity0:
+@entity1:6:56 UTC (9:56 
+@entity2:March 1966
+@entity3:Venus
+@entity4:Venera 3
+@entity5:SCIENCE & NATURE
+@entity6:USSR
+@entity7:first
+@entity8:3
+@entity9:Moscow
+@entity10:March 1, 1966 (Tuesday
+@entity11:Venera
+@entity12:Soviet

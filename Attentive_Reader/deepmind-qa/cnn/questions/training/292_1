@@ -1,16 +1,14 @@
-8
+6
 
-@ent4 ( @ent5 edition ) .
+@entity4 : @entity1 ;
 
-irish eyes : this man with a grandmother from @ent1 played an @ent2 - american boxer in @ent6 's " @ent7 "
+musical instruments : the @entity3 family began making violins in this @entity2 city in the 1500s
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cork
-@ent2:Irish
-@ent3:John Wayne
-@ent4:Simon & Schuster Paperbacks
-@ent5:2005
-@ent6:1952
-@ent7:The Quiet Man
+@entity0:
+@entity1:Cambridge University Press
+@entity2:Italian
+@entity3:Amati
+@entity4:Cambridge
+@entity5:Cremona

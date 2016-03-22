@@ -1,18 +1,16 @@
-10
+8
 
-@ent6 and @ent4 , @ent1 @ent5 , @ent3 series ) at @ent9 .
+@entity6 @entity2 , @entity4 .
 
-jay : born on the six nations indian reservation in @ent8 , he played @ent4 to @ent2 @ent6
+@entity1 : this king romanced @entity5 before her sister @entity3 lost her head over him
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The (
-@ent2:Clayton Moore's
-@ent3:1994
-@ent4:Tonto
-@ent5:Topps
-@ent6:Lone Ranger
-@ent7:Jay Silverheels
-@ent8:Ontario
-@ent9:the Grand Comics Database
+@entity0:
+@entity1:BRITISH ROYAL LOVE AFFAIRS
+@entity2:Bruce
+@entity3:Anne
+@entity4:Marie-Louise
+@entity5:Mary Boleyn
+@entity6:ISBN 978-0-14-013293-9
+@entity7:Henry VIII

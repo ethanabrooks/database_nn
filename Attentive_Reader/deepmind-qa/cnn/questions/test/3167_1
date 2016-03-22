@@ -1,14 +1,14 @@
 6
 
-after their voices were recorded , the animators drew every motion of the characters ' lips to fit each enunciated syllable from the actors ' mouths , so that viewers would be able to " see " the voices and hear them .
+  @entity2 .
 
-film biographies : this composer was portrayed by @ent4 in " @ent1 " & @ent3 in " @ent5 "
+english literature : " @entity1 " is a recent work by this @entity3 author of " @entity5 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Swanee River
-@ent2:Stephen Foster
-@ent3:Bill Shirley
-@ent4:Don Ameche
-@ent5:I Dream of Jeannie
+@entity0:
+@entity1:The Fifth Child
+@entity2:Ben
+@entity3:English
+@entity4:Doris Lessing
+@entity5:The Golden Notebook

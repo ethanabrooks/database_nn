@@ -1,14 +1,12 @@
-6
+4
 
-other attractions include @ent1 on wikimapia   – the colonial style city hall –
+  roles rolevoice typepremiere cast7
 
-let 's visit africa : @ent2 , abuja & ogbomosho are all cities in this @ent4 nation of @ent5
+oh , no !   opera ! : she wrote the libretto for " @entity3 " ; maybe that 's why it features a character named " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mapo HallMapo Hall
-@ent2:Ibadan
-@ent3:Nigeria
-@ent4:African
-@ent5:over 125 million
+@entity0:
+@entity1:Gertrude Stein
+@entity2:Gertrude S.
+@entity3:The Mother of Us All

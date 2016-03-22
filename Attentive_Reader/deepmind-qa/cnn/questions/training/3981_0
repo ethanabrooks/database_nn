@@ -1,19 +1,20 @@
-11
+12
 
-@ent10 is a national park in the @ent7 states of @ent3 and @ent5 that is located east of @ent8 , occupying an interface zone between the arid @ent9 and mojave deserts in @ent1 .
+@entity11 , played by actor @entity9 , was a fictional character on the 1970s sitcom @entity1 , a spin - off of @entity7 .
 
-@ent6 : the largest national park outside @ent4 , @ent10 in this state is over @ent2
+@entity5 : ( hi , i 'm @entity8 of " general hospital " )   in @entity3 as @entity2 he married @entity4 on " @entity10 " , in @entity6 as @entity11 he married @entity1 on " @entity1 "
 
-@ent3
+@entity9
 
-@ent0:
-@ent1:the United States
-@ent2:3 million acres
-@ent3:California
-@ent4:Alaska
-@ent5:Nevada
-@ent6:NATIONAL PARK PLACE
-@ent7:U.S.
-@ent8:the Sierra Nevada
-@ent9:Great Basin
-@ent10:Death Valley National Park
+@entity0:
+@entity1:Rhoda
+@entity2:D.L. Brock
+@entity3:1984
+@entity4:Bobbie
+@entity5:MTM
+@entity6:1974
+@entity7:The Mary Tyler Moore Show
+@entity8:Tyler Christopher
+@entity9:David Groh
+@entity10:G.H.
+@entity11:Joe Gerard

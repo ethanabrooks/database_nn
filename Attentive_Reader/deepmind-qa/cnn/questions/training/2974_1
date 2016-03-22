@@ -1,14 +1,14 @@
 6
 
-@ent1 –
+@entity5 –
 
-" the " nation : the @ent5 arrived on this @ent4 island nation in @ent3 & later took control of it
+dictators by birthplace : @entity2 , @entity4 , @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1: April 27
-@ent2:Philippines
-@ent3:1521
-@ent4:Asian
-@ent5:Spanish
+@entity0:
+@entity1:Iraq
+@entity2:April 28
+@entity3:Saddam Hussein
+@entity4:1937:Tikrit
+@entity5:1994

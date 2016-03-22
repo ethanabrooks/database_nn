@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 ( , @ent1 ' t'my ) is a @ent4 - act drama by @ent5 .
+@entity1 is located on the east coast of @entity5 in the @entity4 province of @entity5 and @entity2 , along several inlets of @entity6 .
 
-world theatre : this " war and peace " author 's play " @ent2 " was once banned in his native @ent3
+parks : located in this province , @entity1 is @entity3 's most easterly national park
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:Vlast
-@ent2:The Power of Darkness
-@ent3:Russia
-@ent4:five
-@ent5:Leo Tolstoy
+@entity0:
+@entity1:Terra Nova National Park
+@entity2:Labrador
+@entity3:Canada
+@entity4:Canadian
+@entity5:Newfoundland
+@entity6:Bonavista Bay

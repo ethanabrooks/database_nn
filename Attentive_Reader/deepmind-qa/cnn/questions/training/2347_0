@@ -1,14 +1,16 @@
-6
+8
 
-@ent1 is a novel that was written in @ent4 by @ent3 .
+@entity2 ) , also known as @entity7 ( ) , in @entity3 , republic of ireland , first opened its doors to the public on @entity6 .
 
-" queen " for @ent5 : there 's no mystery that this sleuth solved " @ent1 " & " @ent1 "
+@entity4 : this city 's @entity1 was famous for debuting the plays of @entity5 , o'casey & yeats
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:The French Powder Mystery
-@ent2:The Roman Hat Mystery
-@ent3:Ellery Queen
-@ent4:1929
-@ent5:A DAY
+@entity0:
+@entity1:Abbey Theatre
+@entity2:The Abbey Theatre (
+@entity3:Dublin
+@entity4:THE GLOBE THEATRE
+@entity5:Synge
+@entity6:27 December 1904
+@entity7:the National Theatre of Ireland

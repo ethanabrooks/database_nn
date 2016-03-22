@@ -1,18 +1,17 @@
-10
+9
 
-@ent1 ( @ent3 @ent2 ) , known professionally as @ent4 , was an @ent6 actor , notable as the @ent8 actor to portray @ent9 on the television series @ent5 .
+@entity6 ( also @entity6 ) is an @entity3 brand of mineral water , and assorted real - fruit sodas , with carbonation added by the bottler , produced and bottled by @entity5 at @entity8 , in the province of @entity4 , @entity1 , @entity2 .
 
-sargent/york : @ent4 played this sitcom role from @ent7
+country of origin : @entity6 , as in sparkling natural mineral water
 
-@ent9
+@entity2
 
-@ent0:
-@ent1:Richard Stanford Cox
-@ent2:July 8, 1994
-@ent3:April 19, 1930 –
-@ent4:Dick Sargent
-@ent5:Bewitched
-@ent6:American
-@ent7:1969 to 1972
-@ent8:second
-@ent9:Darrin Stephens
+@entity0:
+@entity1:Lombardy
+@entity2:Italy
+@entity3:Italian
+@entity4:Bergamo
+@entity5:Nestlé Waters
+@entity6:San Pellegrino
+@entity7:S. Pellegrino
+@entity8:San Pellegrino Terme

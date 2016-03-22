@@ -1,14 +1,15 @@
-6
+7
 
-is a @ent5 alpinist who in @ent2 , at @ent4 , became the oldest person to reach the summit of @ent1 .
+with the coronation of their ruler @entity2 as   by @entity4 in @entity3 , he and his successors were portrayed   as legitimate successors to the emperors of the western roman empire .
 
-ski you at the movies : an oscar - winning documentary profiled @ent3 , " the man who skied down " this mountain
+grave matters : in @entity1 otto iii was buried near this king of the @entity6 whose body @entity5 had dug up to pray before
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Mount Everest
-@ent2:2003
-@ent3:Yuichiro Miura
-@ent4:age 70
-@ent5:Japanese
+@entity0:
+@entity1:1002
+@entity2:Charlemagne
+@entity3:800 AD
+@entity4:Pope Leo III
+@entity5:Otto
+@entity6:Franks

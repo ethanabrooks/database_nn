@@ -1,16 +1,16 @@
 8
 
-@ent6 is a fictional character and the protagonist of @ent1 @ent4 novel @ent3 .
+@entity6 is a @entity5 restaurant located in @entity7 , @entity1 .
 
-smith : @ent6 is a writer of @ent7 for @ent5 in this @ent2 novel
+sounds like sports equipment : in @entity3 this @entity2 - born chef opened @entity6 on @entity4
 
-@ent4
+@entity5
 
-@ent0:
-@ent1:George Orwell's
-@ent2:George Orwell
-@ent3:Nineteen Eighty-Four
-@ent4:1984
-@ent5:the Ministry of Truth
-@ent6:Winston Smith
-@ent7:Newspeak
+@entity0:
+@entity1:California
+@entity2:Austrian
+@entity3:1982
+@entity4:Sunset Boulevard
+@entity5:Wolfgang Puck
+@entity6:Spago
+@entity7:Beverly Hills

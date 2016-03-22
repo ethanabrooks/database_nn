@@ -1,16 +1,13 @@
-8
+5
 
-the most successful drivers are @ent5 , @ent1 , and @ent2 , each of whom have won the race @ent3 times .
+the @entity1 is a breed of draft horse that originated in the @entity3 river valley in western @entity2 , part of the former @entity4 province from which the breed takes its name .
 
-" u " who : in @ent4 he outraced his son to win his @ent6 @ent7
+horses : the @entity1 was first bred in & named for a district in this country
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Al Unser
-@ent2:Rick Mears
-@ent3:four
-@ent4:1987
-@ent5:A. J. Foyt
-@ent6:fourth
-@ent7:Indianapolis 500
+@entity0:
+@entity1:Percheron
+@entity2:France
+@entity3:Huisne
+@entity4:Perche

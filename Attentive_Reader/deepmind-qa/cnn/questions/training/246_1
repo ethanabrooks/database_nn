@@ -1,15 +1,17 @@
-7
+9
 
-( @ent5 , @ent3 )
+@entity2 .
 
-recent fiction : " empire " is nonfiction by @ent1 ; this is @ent2 's novel about small town man @ent4
+@entity4 football hall of fame : ( @entity7 of @entity3 walks near a larger - than-life statue . ) this statue brings to life one of the greatest athletes the world has known ; he won gold in the @entity6 @entity1 & played football & baseball for @entity8 teams
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Niall Ferguson
-@ent2:Richard Russo
-@ent3:2012
-@ent4:Miles Roby
-@ent5:Alfred A. Knopf
-@ent6:Empire Falls
+@entity0:
+@entity1:Olympics
+@entity2:Mississippi
+@entity3:the Clue Crew
+@entity4:THE PRO
+@entity5:Jim Thorpe
+@entity6:1912
+@entity7:Jon
+@entity8:New York Giants

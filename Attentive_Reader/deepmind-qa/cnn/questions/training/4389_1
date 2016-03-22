@@ -1,16 +1,17 @@
-8
+9
 
-@ent2 , @ent7 , @ent3 .
+  political , military , and judicial activities elected to the @entity3 @entity2 , @entity4 served from @entity6 to @entity5 .
 
-@ent6 drama : this author of the play " @ent1 " also did a homer translation that blew @ent5 away
+congressional misdemeanors : senator @entity1 was censured in @entity7 for leaking information about the annexation of this to the union
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Widow's Tears
-@ent2:Lincoln
-@ent3:1977
-@ent4:George Chapman
-@ent5:John Keats
-@ent6:JACOBEAN
-@ent7:NE, University of Nebraska Press
+@entity0:
+@entity1:Benjamin Tappan
+@entity2:Ohio State Senate
+@entity3:second
+@entity4:Tappan
+@entity5:1804
+@entity6:1803
+@entity7:1844
+@entity8:Texas

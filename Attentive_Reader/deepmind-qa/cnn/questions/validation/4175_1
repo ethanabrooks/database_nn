@@ -1,16 +1,19 @@
-8
+11
 
-retrieved @ent7 .
+selected for the ill - fated as-204 mission were @entity10 , @entity1 and @entity7 .
 
-@ent3 : during @ent5 this @ent2 psychiatrist gave a series of lectures at @ent6 in @ent4
+@entity9 : in @entity2 the @entity8 's @entity6 @entity3 became the @entity4 space probe to physically touch another planet , this one
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Sigmund Freud
-@ent2:Austrian
-@ent3:1909
-@ent4:Massachusetts
-@ent5:the year
-@ent6:Clark University
-@ent7:23 May 2015
+@entity0:
+@entity1:Ed White
+@entity2:March 1966
+@entity3:3
+@entity4:first
+@entity5:Venus
+@entity6:Venera
+@entity7:Roger Chaffee
+@entity8:USSR
+@entity9:SCIENCE & NATURE
+@entity10:Gus Grissom

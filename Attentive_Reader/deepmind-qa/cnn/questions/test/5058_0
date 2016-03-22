@@ -1,14 +1,11 @@
-6
+3
 
-it features @ent3 and @ent1 , the latter known in this picture as " @ent2 , a pirate .
+right|thumb|the holmenkollen ski jump is a landmark in @entity1 .
 
-@ent5 tunes : in " @ent3 " , he calls himself the " blood - thirsiest , shoot-'em firstiest , doggone worstiest "
+world capitals : it 's home to the @entity2 ski jump
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Yosemite Sam
-@ent2:Sea-Goin' Sam"
-@ent3:Bugs Bunny
-@ent4:Buccaneer Bunny
-@ent5:LOONEY
+@entity0:
+@entity1:Oslo
+@entity2:Holmenkollen

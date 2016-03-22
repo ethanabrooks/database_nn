@@ -1,17 +1,14 @@
-9
+6
 
-  popular culture @ent3 was satirized in the @ent1 comedy , @ent8 ...
+it was founded in @entity2 and is operating in its current building since @entity5 .
 
-@ent2 joints : @ent3 , this chain 's training center , opened in @ent6 in @ent4 , @ent7
+capital punishment : a former @entity4 republic : @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1986
-@ent2:BURGER
-@ent3:Hamburger University
-@ent4:Elk Grove Village
-@ent5:McDonald's
-@ent6:1961
-@ent7:Illinois
-@ent8:Hamburger
+@entity0:
+@entity1:Yerevan
+@entity2:1832
+@entity3:Armenia
+@entity4:Soviet
+@entity5:1939

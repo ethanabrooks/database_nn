@@ -1,13 +1,15 @@
-5
+7
 
-- vol .
+@entity5 , jr. , chapel talk , @entity2 , @entity6 , quoted in .
 
-@ent1 cities : @ent3 exerted major influence on the development of this city where he made his home in @ent4
+" green " geography : @entity4 is located in this @entity1 city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:FLORIDA
-@ent2:Sarasota
-@ent3:John Ringling
-@ent4:the 1920s
+@entity0:
+@entity1:South Carolina
+@entity2:February 8, 1965
+@entity3:Greenville
+@entity4:Bob Jones University
+@entity5:Bob Jones
+@entity6:Mack Library Archives

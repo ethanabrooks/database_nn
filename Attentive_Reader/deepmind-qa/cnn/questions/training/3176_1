@@ -1,13 +1,16 @@
-5
+8
 
-through the sale of tickets , concessions , and t - shirts , the fund raiser raises money for service organizations on campus .
+@entity1 ( disambiguation ) @entity1 ( disambiguation ) @entity2 ( disambiguation )
 
-when they were teens : this tv " @ent2 " was a cheerleader at @ent4 in @ent3
+architecture : @entity6 designed this @entity4 city 's @entity3 in the romanesque style
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Courteney Cox
-@ent2:Friend
-@ent3:Alabama
-@ent4:Mountain Brook High School
+@entity0:
+@entity1:Trinity Episcopal Church
+@entity2:Trinity Methodist Episcopal Church
+@entity3:Trinity Church
+@entity4:Massachusetts
+@entity5:Boston
+@entity6:Henry Hobson Richardson
+@entity7:Trinity Methodist Church

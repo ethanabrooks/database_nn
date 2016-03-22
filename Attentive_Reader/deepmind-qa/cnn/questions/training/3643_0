@@ -1,13 +1,14 @@
-5
+6
 
-a wild hare is considered by most film historians to be the @ent4 " official " @ent3 cartoon .
+in a @entity1 duel , he fatally shot @entity5 , a signer of @entity2 .
 
-bunny : in the @ent1 cartoon " @ent2 " , this character utters the iconic " what 's up , doc ? " line for the @ent4 time
+dueling : general @entity4 mortally wounded this @entity3 signer of @entity2
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:1940
-@ent2:A Wild Hare
-@ent3:Bugs Bunny
-@ent4:first
+@entity0:
+@entity1:1777
+@entity2:the Declaration of Independence
+@entity3:Georgia
+@entity4:Lachlan McIntosh
+@entity5:Button Gwinnett

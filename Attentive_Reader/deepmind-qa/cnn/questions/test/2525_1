@@ -1,13 +1,13 @@
 5
 
-@ent4 .
+president @entity3 remarked , " what a man !
 
-italian history : in @ent2 , he became the youngest prime minister in @ent3 's history
+gone too soon : heard here , he was the youngest of the @entity4 singers who perished in a @entity2 plane crash"para bailar la bamba /para bailar la bamba ... "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mussolini
-@ent2:October 1922
-@ent3:Italy
-@ent4:6
+@entity0:
+@entity1:Ritchie Valens
+@entity2:February 1959
+@entity3:Dwight D. Eisenhower
+@entity4:3

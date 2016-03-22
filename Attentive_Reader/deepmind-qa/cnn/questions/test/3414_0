@@ -1,15 +1,12 @@
-7
+4
 
-when @ent1 was @ent2 , the @ent3 moved to @ent6 , where his father worked as a labourer during the depression .
+he is the twin brother of @entity1 , a former running back for the new york giants .
 
-name that " oon " : hockey great @ent4 grew up in this @ent5 city
+the brethren : it 's not @entity1 so it must be this twin & fellow @entity2 star
 
-@ent6
+@entity1
 
-@ent0:
-@ent1:Gordie
-@ent2:nine days old
-@ent3:Howes
-@ent4:Gordie Howe
-@ent5:Canadian
-@ent6:Saskatoon
+@entity0:
+@entity1:Ronde Barber
+@entity2:NFL
+@entity3:Tiki Barber

@@ -1,14 +1,15 @@
-6
+7
 
-  – @ent2 , @ent1 television host and producer    @ent3    –
+kangaroo island is @entity1 's @entity6 - largest island , after @entity5 and @entity2 .
 
-scorpios : the tribe has spoken : this " survivor " host was born @ent5 , making him a @ent4
+world geography : @entity2 is the @entity4 largest offshore island of this country
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:American
-@ent2:Jeff Probst
-@ent3:1961
-@ent4:Scorpio
-@ent5:November 4
+@entity0:
+@entity1:Australia
+@entity2:Melville Island
+@entity3:Kangaroo Island
+@entity4:3rd
+@entity5:Tasmania
+@entity6:third

@@ -1,19 +1,17 @@
-11
+9
 
-while in @ent3 , @ent2 worked at @ent9 store , where he met future bandmate @ent6 as well as @ent1 's future legal and managerial representative , @ent5 .
+  @entity1 played the detective @entity4 in @entity6 's landmark @entity5 film noir @entity2 .
 
-r.e.m. : the lineup @ent7 : guitarist @ent4 , bassist @ent10 , drummer @ent8 & this singer
+film roles : @entity7 , @entity8 & @entity3 have all played this character on film
 
-@ent6
+@entity4
 
-@ent0:
-@ent1:R.E.M.
-@ent2:Buck
-@ent3:Athens
-@ent4:Peter Buck
-@ent5:Bertis Downs
-@ent6:Michael Stipe
-@ent7:1980-1997
-@ent8:Bill Berry
-@ent9:the Wuxtry Records
-@ent10:Mike Mills
+@entity0:
+@entity1:Gould
+@entity2:The Long Goodbye
+@entity3:Elliott Gould
+@entity4:Philip Marlowe
+@entity5:1973
+@entity6:Altman
+@entity7:Dick Powell
+@entity8:Robert Mitchum

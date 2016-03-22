@@ -1,17 +1,14 @@
-9
+6
 
-in the long line of @ent1 historians , @ent2 is arguably the most prolific and popular of all , with @ent4 his only conceivable rival .
+@entity5 .
 
-" cat " got your answer : " @ent3 " & " @ent5 " are @ent7 of this historian 's books on @ent6
+psych @entity3 : @entity1 & this @entity4 independently came up with " conditioned response " discoveries
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Civil War
-@ent2:Catton
-@ent3:Terrible Swift Sword
-@ent4:Shelby Foote
-@ent5:A Stillness at Appomattox
-@ent6:the Civil War
-@ent7:2
-@ent8:Bruce Catton
+@entity0:
+@entity1:Edwin B. Twitmyer
+@entity2:Ivan Pavlov
+@entity3:101
+@entity4:Russian
+@entity5:McGraw-Hill

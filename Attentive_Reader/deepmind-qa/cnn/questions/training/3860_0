@@ -1,20 +1,18 @@
-12
+10
 
-@ent3 is a @ent8 @ent7 action film directed by @ent10 , produced by @ent4 , @ent11 and @ent1 , distributed by @ent1 and starring @ent2 , @ent6 and @ent5 .
+@entity1 bittrick ( born @entity6 @entity7 in @entity9 , @entity8 , @entity5 ) is a @entity2 tv host , dancer , editor and beauty queen who was crowned miss universe 1990 .
 
-actresses ' tresses : she sported a shaved head & an incredibly buff bod in " @ent3 "
+@entity3 : @entity1 , @entity4 's miss universe , grew up in @entity9 in nord - trondelag county in this country
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Hollywood Pictures
-@ent2:Demi Moore
-@ent3:G.I. Jane
-@ent4:Largo Entertainment
-@ent5:Anne Bancroft
-@ent6:Viggo Mortensen
-@ent7:American
-@ent8:1997
-@ent9:Caravan Pictures
-@ent10:Ridley Scott
-@ent11:Scott Free Productions
+@entity0:
+@entity1:Mona Grudt
+@entity2:Norwegian
+@entity3:HELL ON EARTH
+@entity4:1990
+@entity5:Norway
+@entity6:6
+@entity7:April 1971
+@entity8:Stjørdal
+@entity9:Hell

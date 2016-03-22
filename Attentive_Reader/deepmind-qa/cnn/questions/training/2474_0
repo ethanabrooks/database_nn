@@ -1,14 +1,16 @@
-6
+8
 
-’twixt @ent5 and @ent4 is a book by @ent3 which offered advice to teenagers .
+  synopsis a complex , partly satirical thriller that studies a family unraveling under intense pressure , the novel is set amidst intricate political conspiracy and financial upheaval in @entity4 , @entity1 in @entity6 .
 
-@ent2 's bestsellers : " @ent1 " was an advice book by this " april love " singer
+@entity5 is heaven : @entity3 is from @entity7 groves , a suburb of this @entity1 city where he set " @entity2 "
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:Twixt Twelve and Twenty
-@ent2:1959
-@ent3:Pat Boone
-@ent4:Twenty
-@ent5:Twelve
+@entity0:
+@entity1:Missouri
+@entity2:The Twenty-Seventh City
+@entity3:Jonathan Franzen
+@entity4:St. Louis
+@entity5:27
+@entity6:the year 1984
+@entity7:Webster

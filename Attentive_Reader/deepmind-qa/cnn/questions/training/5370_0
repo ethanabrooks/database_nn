@@ -1,23 +1,20 @@
-15
+12
 
-@ent2 nations such as @ent6 and @ent1 , as well @ent11 settled in @ent8 , @ent13 , @ent7 , @ent9 , @ent5 and @ent12 and @ent14 .
+the film stars @entity7 , who also co - produced , as well as @entity8 , @entity1 , @entity11 , @entity10 , @entity4 , and @entity5 .
 
-russian history : on @ent10 this country attacked @ent3 , a @ent4 port leased by the @ent11 , beginning a 19-month war
+magazines : for its @entity2 issue , @entity3 put its @entity6 man on its cover , this star of " @entity9 "
 
-@ent13
+@entity7
 
-@ent0:
-@ent1:Poland
-@ent2:Central European
-@ent3:Port Arthur
-@ent4:Chinese
-@ent5:Brazil
-@ent6:Germany
-@ent7:South Korea
-@ent8:China
-@ent9:Mexico
-@ent10:Feb. 8, 1904
-@ent11:Russians
-@ent12:Argentina
-@ent13:Japan
-@ent14:Australia
+@entity0:
+@entity1:Shin Koyamada
+@entity2:Dec. 2003
+@entity3:the U.S. Marie Claire
+@entity4:Timothy Spall
+@entity5:Billy Connolly
+@entity6:first
+@entity7:Tom Cruise
+@entity8:Ken Watanabe
+@entity9:The Last Samurai
+@entity10:Hiroyuki Sanada
+@entity11:Tony Goldwyn

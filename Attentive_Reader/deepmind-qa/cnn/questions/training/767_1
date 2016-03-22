@@ -1,18 +1,14 @@
-10
+6
 
-  @ent1 and his former business partner @ent4 produced an interactive dance dvd released in @ent2 , and has prepared @ent3 musical for the luxor resort in @ent6 .
+@entity2 , by this time , had become an international celebrity , but owing to the lack of an international copyright law , bootleg copies of his works were freely available in @entity1 and he could not abide losing money .
 
-celebrity weddings : this diva looked far from " @ent9 " when she danced off with choreographer @ent8 in @ent7
+it 's tyler time ! : in his " @entity4 " , this @entity3 author relates meeting the " unaffected , gentlemanly , & agreeable " tyler
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Judd
-@ent2:summer 2005
-@ent3:the Midnight Fantasy
-@ent4:Eddie Garcia
-@ent5:Jennifer Lopez
-@ent6:Las Vegas
-@ent7:2001
-@ent8:Cris Judd
-@ent9:Puffy
+@entity0:
+@entity1:North America
+@entity2:Dickens
+@entity3:British
+@entity4:American Notes
+@entity5:Charles Dickens

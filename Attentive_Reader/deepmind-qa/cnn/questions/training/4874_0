@@ -1,17 +1,19 @@
-9
+11
 
-  in @ent4 , she starred in the television series @ent1 as francesca @ent5 , a role originally written for @ent2 , who had turned it down .
+the big lift is a @entity1 drama film shot in black - and-white on location in the city of @entity7 , @entity4 , that tells the story of " operation vittles " , @entity2 , through the experiences of @entity9 @entity8 sergeants ( played by @entity5 and @entity10 ) .
 
-@ent7 : @ent3 showed up as @ent8 @ent6 - sister on this series about a winery
+welcome to the 1950s : i ca n't wait to see " @entity3 " , starring @entity5 , set a couple of years ago in this city
 
-@ent1
+@entity7
 
-@ent0:
-@ent1:Falcon Crest
-@ent2:Sophia Loren
-@ent3:Gina Lollobrigida
-@ent4:the mid-1980s
-@ent5:Gioberti
-@ent6:half
-@ent7:BIRD-BRAINED TELEVISION
-@ent8:Jane Wyman's
+@entity0:
+@entity1:1950
+@entity2:the 1948–1949 Berlin Airlift
+@entity3:The Big Lift
+@entity4:Germany
+@entity5:Montgomery Clift
+@entity6:Monty Clift
+@entity7:Berlin
+@entity8:U.S. Air Force
+@entity9:two
+@entity10:Paul Douglas

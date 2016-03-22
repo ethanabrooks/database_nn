@@ -1,23 +1,16 @@
-15
+8
 
-  in @ent11 , @ent13 was indicted by a federal grand jury concerning the investigation of the leak of the covert identity of @ent12 officer @ent8 wilson."transcript of general @ent2 's interview with wtop " , @ent14 , @ent9 , " @ent4 was ' covert ' agent
+@entity3 , more commonly called the " bosque de chapultepec " ( @entity5 ) in @entity4 , is one of the largest city parks in @entity6 , measuring in total @entity2 hectares ( @entity7 ) .
 
-@ent5 , @ent10 , @ent3 , john & valerie : in @ent1 @ent6 was convicted of perjury & obstruction of justice regarding the leak of the i.d . of this @ent7 agent
+subway stops : you 'll have to switch lines in this city to go from @entity3 to @entity1
 
-@ent8
+@entity4
 
-@ent0:
-@ent1:2007
-@ent2:Hayden
-@ent3:LUKE
-@ent4:Plame
-@ent5:MATTHEW
-@ent6:Scooter Libby
-@ent7:CIA
-@ent8:Valerie Plame
-@ent9:2007Joel Seidman
-@ent10:MARK
-@ent11:October 2005
-@ent12:Central Intelligence Agency
-@ent13:Libby
-@ent14:June 1
+@entity0:
+@entity1:Politecnico
+@entity2:just over 686
+@entity3:Chapultepec
+@entity4:Mexico City
+@entity5:Chapultepec Forest
+@entity6:the Western Hemisphere
+@entity7:1,695 acres

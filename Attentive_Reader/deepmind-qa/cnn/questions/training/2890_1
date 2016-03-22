@@ -1,17 +1,14 @@
-9
+6
 
-  a @ent7 victim follows : @ent3 , a homeless man who was always wearing keys around his neck .
+there are a variety of buses travelling to and fro the city .
 
-@ent5 : her @ent8 novel " @ent6 " centers on young @ent2 , not chief inspector @ent4
+soccer to @entity3 ! : @entity1 of the world 's soccer balls are made in this country , most of them in @entity5 , north of @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ruth Rendell
-@ent2:Mary Jago
-@ent3:James "Pharaoh" Clancy
-@ent4:Wexford
-@ent5:AUTHORS & THEIR SLEUTHS
-@ent6:The Keys to the Street
-@ent7:second
-@ent8:1996
+@entity0:
+@entity1:About 80%
+@entity2:Pakistan
+@entity3:US
+@entity4:Lahore
+@entity5:Sialkot

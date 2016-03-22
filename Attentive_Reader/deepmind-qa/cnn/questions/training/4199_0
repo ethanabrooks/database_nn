@@ -1,13 +1,19 @@
-5
+11
 
-created for the @ent4 summer olympics in @ent2 , he was a dachshund , a popular breed of dog from @ent3 .
+  the film stars @entity3 , @entity10 , @entity4 , @entity9 , @entity1 , @entity5 and @entity2 .
 
-olympic mascots : a dachshund named @ent1 was the mascot of the summer games in this city in @ent4
+name 's the same : this star of " @entity6 " & " @entity7 " shares her name with @entity8 's wife
 
-@ent2
+@entity10
 
-@ent0:
-@ent1:Waldi
-@ent2:Munich
-@ent3:Germany
-@ent4:1972
+@entity0:
+@entity1:Chris Pratt
+@entity2:Kristen Johnston
+@entity3:Kate Hudson
+@entity4:Candice Bergen
+@entity5:Steve Howey
+@entity6:Bride Wars
+@entity7:The Princess Diaries
+@entity8:Shakespeare
+@entity9:Bryan Greenberg
+@entity10:Anne Hathaway

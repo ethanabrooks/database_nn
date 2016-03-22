@@ -1,13 +1,15 @@
-5
+7
 
-he has served as a manager and coach at other clubs as well as the national team of @ent2 .
+" @entity5 " is the @entity2 episode of the @entity4 sitcom @entity1 .
 
-around the world : in @ent4 soccer 's @ent1 joined this country 's national team when he was only @ent3
+do tell the hotel : episodes of this @entity3 sitcom included " @entity5 " & " @entity6 "
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Diego Maradona
-@ent2:Argentina
-@ent3:16 years old
-@ent4:1976
+@entity0:
+@entity1:Fawlty Towers
+@entity2:fourth
+@entity3:British
+@entity4:BBC
+@entity5:The Hotel Inspectors
+@entity6:Basil the Rat

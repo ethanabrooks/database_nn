@@ -1,21 +1,13 @@
-13
+5
 
-according to their plan , @ent9 majority leader @ent12 , @ent9 majority whip @ent11 , @ent4 and @ent8 were to present @ent10 with an ultimatum : resign , or be voted out .
+  in addition to his caucus duties , @entity1 is chairman the subcommittee on human rights and the subcommittee on @entity3 and general government .
 
-@ent3 : this @ent1 congresswoman & wife of @ent7 was the keynote speaker at the @ent6 @ent2
+politicos by state : @entity4 and the guy seen here are this state 's senators
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:N.Y.
-@ent2:Republican Convention
-@ent3:GOVERNMENT & POLITICS
-@ent4:Boehner
-@ent5:Susan Molinari
-@ent6:1996
-@ent7:Bill Paxon
-@ent8:Paxon
-@ent9:House
-@ent10:Gingrich
-@ent11:Tom DeLay
-@ent12:Dick Armey
+@entity0:
+@entity1:Durbin
+@entity2:Illinois
+@entity3:Financial Services
+@entity4:Dick Durbin

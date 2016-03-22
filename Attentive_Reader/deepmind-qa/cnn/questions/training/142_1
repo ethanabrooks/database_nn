@@ -1,19 +1,15 @@
-11
+7
 
-@ent1 electorate is held by @ent7 while the @ent3 electorate is occupied by @ent5 .
+@entity6   category:1998 debut albums category:destiny ( band ) albums
 
-@ent10 : in @ent2 gold was found in @ent4 on this country 's @ent9 ; the population tripled in @ent6
+@entity2 slater : @entity5 had a cameo in a film subtitled " @entity4 " , the @entity1 in this series
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Dunedin North
-@ent2:1861
-@ent3:Dunedin South
-@ent4:Otago
-@ent5:Clare Curran
-@ent6:a year
-@ent7:David Clark
-@ent8:New Zealand
-@ent9:South Island
-@ent10:THE 19th CENTURY
+@entity0:
+@entity1:sixth
+@entity2:CHRISTIAN
+@entity3:Star Trek
+@entity4:The Undiscovered Country
+@entity5:Christian
+@entity6:Håkan Svantesson

@@ -1,16 +1,14 @@
-8
+6
 
-@ent7 and the @ent5 is a @ent2 @ent3 cartoon in @ent4 and @ent1 series .
+she is the oldest daughter of actors @entity2 and @entity3 , stepdaughter of model @entity1 and former stepdaughter of actor @entity5 .
 
-toon up : in the @ent2 @ent3 cartoon " @ent6 " , it was the birdy
+from here to maternity : @entity2
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Tweety
-@ent2:1944
-@ent3:Warner Bros.
-@ent4:the Merrie Melodies
-@ent5:Beast
-@ent6:Birdy and the Beast
-@ent7:Birdy
+@entity0:
+@entity1:Emma Heming
+@entity2:Bruce Willis
+@entity3:Demi Moore
+@entity4:Rumer Willis
+@entity5:Ashton Kutcher

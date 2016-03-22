@@ -1,15 +1,17 @@
-7
+9
 
-in @ent1 the greek state reached an agreement with @ent6 shipping magnate @ent5 for @ent4 to purchase the airline .
+after leaving the airline industry august robert " gus " tiburzi owned and operated @entity4 - a flight school and charter company in @entity1 , @entity8 .
 
-fly countries : @ent2
+airlines : in @entity5 there was " @entity7 " : this airline 's @entity3 female pilot , @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:July 1956
-@ent2:Olympic Airlines
-@ent3:Greece
-@ent4:Onassis
-@ent5:Aristotle Onassis
-@ent6:Greek
+@entity0:
+@entity1:Danbury
+@entity2:Bonnie Tiburzi
+@entity3:first
+@entity4:Tiburzi Airways
+@entity5:1973
+@entity6:American Airlines
+@entity7:Something Special in the Air
+@entity8:Connecticut

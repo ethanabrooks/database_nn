@@ -1,12 +1,14 @@
-4
+6
 
-from @ent1 , at about 60 years of age , she was known as @ent2 .
+  @entity3 was best known for his series of @entity5 films .
 
-rad pseudonyms : pseudonym of labor activist & magazine namesake @ent3
+pay the " bill " : @entity4 kicked butt as this troublesome @entity1 hippie in @entity2 movies
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:1897
-@ent2:Mother Jones
-@ent3:Mary Harris Jones
+@entity0:
+@entity1:Indian
+@entity2:4
+@entity3:Laughlin
+@entity4:Tom Laughlin
+@entity5:Billy Jack

@@ -1,0 +1,12 @@
+4
+
+@entity3 ( dvd ) .
+
+documentaries : @entity1 documentary about the late activist & bear lover @entity2 is titled this " man "
+
+@entity3
+
+@entity0:
+@entity1:Werner Herzog's
+@entity2:Timothy Treadwell
+@entity3:Grizzly Man

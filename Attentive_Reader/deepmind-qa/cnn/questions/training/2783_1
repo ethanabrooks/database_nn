@@ -1,20 +1,16 @@
-12
+8
 
-  in @ent2 , @ent3 and @ent7 played @ent10 ( @ent1 ) and @ent5 ( @ent9 ) in @ent8 film adaption of " @ent4 "
+the show continued in its new time slot at @entity1   pm on @entity5 .
 
-maiden names : mrs. @ent6
+television : he placed @entity4 in @entity3 decathlon trials in @entity6 before limping into tv 's " @entity7 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Gorme
-@ent2:1985
-@ent3:Steve
-@ent4:Alice in Wonderland
-@ent5:Tweedledum
-@ent6:Steve Lawrence
-@ent7:Eydie Gorme
-@ent8:Steve Allen's
-@ent9:Lawrence
-@ent10:Tweedledee
-@ent11:Eydie Gormé
+@entity0:
+@entity1:8
+@entity2:Dennis Weaver
+@entity3:the U.S. Olympic
+@entity4:6th
+@entity5:Mondays
+@entity6:1948
+@entity7:Gunsmoke

@@ -1,16 +1,19 @@
-8
+11
 
-@ent3 m.d. ( maiden name @ent1 ; formerly @ent6 ) is a fictional character from @ent4 , an @ent5 soap opera on the @ent2 network .
+  in @entity4 , @entity6 married actress and screenwriter @entity8 , with whom he had @entity2 daughters : @entity3 ( b. @entity4 ) and actress @entity9 ( b. @entity5 ) .
 
-tv hospitals : since @ent7 dr. @ent3 has spent a lot of days living out dramas at this hospital
+a.k.a. : this star of the film " @entity10 " was born @entity3 ; her father was " combat " star @entity1
 
-@ent4
+@entity9
 
-@ent0:
-@ent1:Bard
-@ent2:ABC
-@ent3:Monica Quartermaine
-@ent4:General Hospital
-@ent5:American
-@ent6:Webber
-@ent7:1977
+@entity0:
+@entity1:Vic Morrow
+@entity2:two
+@entity3:Carrie Ann Morrow
+@entity4:1958
+@entity5:1962
+@entity6:Morrow
+@entity7:Jennifer Leigh Morrow
+@entity8:Barbara Turner
+@entity9:Jennifer Jason Leigh
+@entity10:Georgia

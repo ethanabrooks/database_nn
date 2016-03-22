@@ -1,17 +1,13 @@
-9
+5
 
-  early life and career @ent3 was born in @ent2 , @ent8 .
+  –
 
-canadian history : in @ent6 this party led by @ent1 , not @ent5 , was absorbed by @ent4
+let 's celebrate ! : on @entity2 this country honors its @entity3 king with st. @entity1 's day
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Preston Manning
-@ent2:Edmonton
-@ent3:Manning
-@ent4:the New Canadian Alliance
-@ent5:Pat Buchanan
-@ent6:2000
-@ent7:the Reform Party
-@ent8:Alberta
+@entity0:
+@entity1:Stephen
+@entity2:August 20
+@entity3:first
+@entity4:Hungary

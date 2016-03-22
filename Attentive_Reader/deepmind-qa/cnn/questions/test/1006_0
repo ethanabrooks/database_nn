@@ -1,12 +1,12 @@
 4
 
-@ent3 is a large blue supergiant star some 1,340 light years distant in the constellation of @ent1 .
+@entity1 is a division of @entity2 that primarily publishes paperback books .
 
-dancing with the stars : @ent3 , mintaka & altinak are the @ent2 stars in his belt
+famous pairs : they founded the comapny that launched @entity1 in @entity3
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Orion
-@ent2:3
-@ent3:Alnilam
+@entity0:
+@entity1:Pocket Books
+@entity2:Simon & Schuster
+@entity3:1939

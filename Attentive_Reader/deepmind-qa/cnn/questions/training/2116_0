@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 ) is a football stadium located in the suburb of @ent5 in @ent3 , @ent4 .
+@entity3 was a celebrated fighter coming off his @entity1 win against @entity5 and was looking for a tune - up fight to prepare for a super fight with @entity4 .
 
-take me out to ... : take me out to the futbol game at @ent1 in this capital city
+some men ( & women ) are islands : in @entity6 a loss to @entity2 by unanimous decision sent this middleweight into retirement
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:Estadio Azteca
-@ent2:The Estadio Azteca (
-@ent3:Mexico City
-@ent4:Mexico
-@ent5:Santa Ursula
+@entity0:
+@entity1:second
+@entity2:Winky Wright
+@entity3:Mosley
+@entity4:Felix Trinidad
+@entity5:Oscar De La Hoya
+@entity6:May 2005

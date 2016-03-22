@@ -1,14 +1,17 @@
-6
+9
 
-@ent5 , sr . is a fictional character created by screenwriter @ent4 , director @ent2 and actor and comedian @ent3 .
+@entity4 guebuza ( born @entity6 ) is a @entity7 politician who was president of @entity8 from @entity3 .
 
-comic actors : his title roles have included " @ent5 " & half of " @ent1 "
+" m " : a nation : @entity1 is the president of this @entity5 republic & former @entity2 colony
 
-@ent3
+@entity8
 
-@ent0:
-@ent1:Dumb & Dumber
-@ent2:Tom Shadyac
-@ent3:Jim Carrey
-@ent4:Jack Bernstein
-@ent5:Ace Ventura
+@entity0:
+@entity1:Armando Guebuza
+@entity2:Portuguese
+@entity3:2005 to 2015
+@entity4:Armando Emílio
+@entity5:African
+@entity6:20 January 1943
+@entity7:Mozambican
+@entity8:Mozambique

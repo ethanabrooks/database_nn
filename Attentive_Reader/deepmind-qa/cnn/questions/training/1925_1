@@ -1,15 +1,18 @@
-7
+10
 
-the @ent1 kill an important leader ( gyula or horka ) of the @ent2 tribal confederation , @ent6 in an ambush .
+@entity2 , breed of dog originating in @entity4 , a projected dam in @entity7 to be built in @entity5
 
-short papal : the v pope of this name came in like a lion in @ent3 ( but went out like a lamb by @ent4 )
+@entity3 geography : ranchers formed the territory of @entity6 in @entity8 ; it lasted until @entity1 when it became this state 's western panhandle
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bavarians
-@ent2:Hungarian
-@ent3:903
-@ent4:904
-@ent5:Leo
-@ent6:Kurszán
+@entity0:
+@entity1:1890
+@entity2:Cimarrón Uruguayo
+@entity3:U.S.
+@entity4:Uruguay Cimarron Hydroelectric Power Project
+@entity5:2010
+@entity6:Cimarron
+@entity7:El Salvador
+@entity8:1887
+@entity9:Oklahoma

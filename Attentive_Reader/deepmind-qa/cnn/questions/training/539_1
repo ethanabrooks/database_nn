@@ -1,12 +1,17 @@
-4
+9
 
-@ent2 is the name of :    @ent1 , sr .
+  @entity7 campaign for governor   on @entity4 , @entity6 announced that he was opening a campaign account for governor in the @entity7 elections , allowing him to fundraise a campaign to succeed @entity8 as the @entity2 governor of @entity1 .
 
-statuary hall : @ent2
+big city mayors : @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Robert M. La Follette
-@ent2:Robert La Follette
-@ent3:Wisconsin
+@entity0:
+@entity1:California
+@entity2:40th
+@entity3:San Francisco
+@entity4:February 11, 2015
+@entity5:Gavin Newsom
+@entity6:Newsom
+@entity7:2018
+@entity8:Jerry Brown

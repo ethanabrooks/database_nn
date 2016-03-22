@@ -1,18 +1,13 @@
-10
+5
 
-@ent5 may refer to :    people   o'connell ( name ) , people with @ent5 as a last name or given name @ent3 , a roman catholic bishop @ent3 ( 1849–1927 ) , a roman catholic bishop @ent3 ( 1916–2001 ) an @ent2 attorney , appellate judge and university president .
+its colors match the rainbow dispersion of white light by an optical prism : red , orange , yellow , green , and blue .
 
-@ent1 : this capital 's @ent5 street , one of @ent7 's widest , was previously called @ent6 street
+@entity2 national parks : @entity1 in @entity4 is this park 's largest hot springs
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:TRAVEL & TOURISM
-@ent2:American
-@ent3:Denis J. O'Connell
-@ent4:Stephen C. O'Connell
-@ent5:O'Connell
-@ent6:Sackville
-@ent7:Europe
-@ent8:David G. O'Connell
-@ent9:Dublin
+@entity0:
+@entity1:Grand Prismatic Spring
+@entity2:U.S.
+@entity3:Yellowstone
+@entity4:Midway Geyser Basin

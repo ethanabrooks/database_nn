@@ -1,14 +1,12 @@
-6
+4
 
-@ent4 ( , pronounced ) is the largest city and seaside resort on @ent5 and the @ent1 largest city in @ent2 with a population of @ent3 .
+he was the youngest brother of novelist @entity1 .
 
-countries of the world : you 'll find this country 's major airports in @ent4 , burgas & sofia
+authors : this author of " @entity3 " was the elder brother of zoologist & writer @entity1
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:third
-@ent2:Bulgaria
-@ent3:335,949
-@ent4:Varna
-@ent5:the Bulgarian Black Sea Coast
+@entity0:
+@entity1:Lawrence Durrell
+@entity2:Gerald Durrell
+@entity3:The Alexandria Quartet

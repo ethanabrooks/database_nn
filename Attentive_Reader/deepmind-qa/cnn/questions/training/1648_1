@@ -1,17 +1,14 @@
-9
+6
 
-@ent6 in summer   the decision to build was finally taken in @ent7 .
+this fact explains the distinctively local flavour of the campus as compared to @entity1 style of other historic @entity2 universities .
 
-competitors to @ent5 : @ent3 is located near @ent4 , way north of @ent1 in this @ent2 country
+@entity3 geography : @entity5 in this city is the home of the lacrosse hall of fame
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Arctic Circle
-@ent2:European
-@ent3:Esrange Space Center
-@ent4:Kiruna
-@ent5:NASA
-@ent6:thumb|right|Kiruna City Hall
-@ent7:1898
-@ent8:Sweden
+@entity0:
+@entity1:the Collegiate Gothic
+@entity2:American
+@entity3:U.S.
+@entity4:Baltimore
+@entity5:Johns Hopkins University

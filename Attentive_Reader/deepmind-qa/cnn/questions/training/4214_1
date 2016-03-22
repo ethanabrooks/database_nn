@@ -1,14 +1,19 @@
-6
+11
 
-@ent3 .
+@entity4 further reading    sterling quinlan , @entity6 '' ( @entity1 , @entity10 , @entity8 ) , isbn 0 - 87955-310-3 .
 
-all " american " : the screenplay for this @ent2 musical was written by @ent5
+newspapers : he now owns @entity5 , @entity7 , @entity2 , @entity1 @entity9
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:American
-@ent2:Gene Kelly - Leslie Caron
-@ent3:Barricade Books
-@ent4:Paris
-@ent5:Alan Jay Lerner
+@entity0:
+@entity1:Chicago
+@entity2:Boston Herald
+@entity3:Rupert Murdoch
+@entity4:The Boston PostReferences  
+@entity5:the New York Post
+@entity6:The Hundred Million Dollar Lunch
+@entity7:Village Voice
+@entity8:1974
+@entity9:Sun-Times & San Antonio Express
+@entity10:J.P. O'Hara

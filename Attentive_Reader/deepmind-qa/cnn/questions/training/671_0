@@ -1,17 +1,17 @@
 9
 
-@ent1 is a nature reserve in @ent3 of @ent8 .
+breathing lessons is a @entity7 @entity3 - winning novel by @entity4 author @entity8 .
 
-primates : ( @ent2 of @ent7 reads with a lemur from the duke u. primate center in @ent4 , @ent6 )   @ent5 is part of a project to return captive - bred lemurs to @ent1 on this island , their native habitat
+@entity6 : she received a @entity2 @entity5 for her bestselling novel " @entity1 "
 
-@ent8
+@entity8
 
-@ent0:
-@ent1:Betampona Reserve
-@ent2:Sarah
-@ent3:Toamasina Province
-@ent4:Durham
-@ent5:The Duke University Primate Center
-@ent6:NC.
-@ent7:the Clue Crew
-@ent8:Madagascar
+@entity0:
+@entity1:Breathing Lessons
+@entity2:1989
+@entity3:Pulitzer Prize
+@entity4:American
+@entity5:Pulitzer
+@entity6:PULITZER PRIZE NOVELS
+@entity7:1988
+@entity8:Anne Tyler

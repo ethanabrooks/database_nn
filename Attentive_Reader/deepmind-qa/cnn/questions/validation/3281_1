@@ -1,17 +1,14 @@
-9
+6
 
-  a post office was operated at @ent7 from @ent5 until @ent2 , and again from @ent1 until @ent3 .
+the suburb was gazetted in @entity2 and is named after him .
 
-colorful america : at @ent4 @ent7 is the highest point in these @ent8 hills
+down under : in @entity1 @entity4 explorer @entity5 led an expedition south to explore the east coast of this continent
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1945
-@ent2:1942
-@ent3:1946
-@ent4:7,242 feet
-@ent5:1936
-@ent6:the Black Hills
-@ent7:Harney Peak
-@ent8:South Dakota
+@entity0:
+@entity1:1912
+@entity2:1966
+@entity3:Antarctica
+@entity4:Aussie
+@entity5:Douglas Mawson

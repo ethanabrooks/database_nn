@@ -1,16 +1,14 @@
-8
+6
 
-  its name is derived from a @ent4 village in @ent5 , near to where @ent2 filmed various movie scenes .
+@entity2 – @entity5 @entity4 : @entity1 secedes from the union .
 
-" tu " much : ( @ent3 reads the clue . ) the scenes filmed on @ent6 's home planet , @ent1 , were actually filmed in this @ent7 " t " country
+@entity2 yearbook : most likely to secede : on @entity3 this state , rarin ' to go despite having the smallest population in the confederacy
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Tatooine
-@ent2:George Lucas
-@ent3:Mark Hamill
-@ent4:Southern
-@ent5:Tunisia
-@ent6:Luke
-@ent7:African
+@entity0:
+@entity1:Florida
+@entity2:1861
+@entity3:January 10
+@entity4:Civil War
+@entity5:American

@@ -1,23 +1,16 @@
-15
+8
 
-@ent2 ( @ent6 @ent10 ) also known as @ent12 was the founder of @ent4 , and the @ent14 recipient of @ent5 .
+an american tragedy ( @entity3 ) is a novel by the @entity5 writer @entity1 .
 
-the nobel peace prize : ( @ent1 of @ent13 presents from @ent8 in @ent11 , @ent7 . ) @ent12 , who founded this international organization that works to relieve suffering , won a share of the @ent14 peace prize in @ent3 ; since then , the organization itself has won an unprecedented @ent9 prizes
+inspired characters : @entity2 , who was killed at @entity7 , inspired @entity4 , who drowns in his " @entity6 "
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Sarah
-@ent2:Jean Henri Dunant
-@ent3:1901
-@ent4:the Red Cross
-@ent5:the Nobel Peace Prize
-@ent6:8 May 1828 –
-@ent7:Norway
-@ent8:the Nobel Peace Prize Center
-@ent9:three
-@ent10:30 October 1910
-@ent11:Oslo
-@ent12:Henry Dunant
-@ent13:the Clue Crew
-@ent14:first
+@entity0:
+@entity1:Theodore Dreiser
+@entity2:Grace Brown
+@entity3:1925
+@entity4:Roberta Alden
+@entity5:American
+@entity6:An American Tragedy
+@entity7:Big Moose Lake

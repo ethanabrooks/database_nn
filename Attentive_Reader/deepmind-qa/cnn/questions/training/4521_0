@@ -1,14 +1,16 @@
-6
+8
 
-@ent4 is a coeducational private environmental liberal arts college located in @ent3 , @ent1 , @ent5 .
+@entity3 is a private liberal arts college located in @entity5 , @entity6 , @entity2 .
 
-@ent2 : @ent4 is located in @ent3 in this state
+libraries : @entity4 at @entity3 in this state 's @entity7 has a @entity1 copy of the constitution
 
-@ent1
+@entity6
 
-@ent0:
-@ent1:Vermont
-@ent2:COLLEGES & UNIVERSITIES
-@ent3:Poultney
-@ent4:Green Mountain College
-@ent5:United States
+@entity0:
+@entity1:1787
+@entity2:United States
+@entity3:Williams College
+@entity4:The Chapin Library of Rare Books
+@entity5:Williamstown
+@entity6:Massachusetts
+@entity7:Berkshire Hills

@@ -1,14 +1,16 @@
-6
+8
 
-@ent1 , @ent3 .
+a rising talent , he was tapped by @entity6 in @entity4 and moved to @entity5 @entity7 .
 
-unicef : ( the queen reads once more . ) to help generate international support , in @ent4 i brought relief supplies to @ent5 after a devastating earthquake in this country
+the new york times fashion : nytimes.com reported on the " terrifying schmaltz " of the @entity2 show at this @entity1 city 's fashion week
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Peshawar Museum Publications New Series
-@ent2:Pakistan
-@ent3:Peshawar
-@ent4:2005
-@ent5:Muzaffarabad
+@entity0:
+@entity1:Italian
+@entity2:Gucci
+@entity3:Milan
+@entity4:2002
+@entity5:Gucci’s London-based
+@entity6:Tom Ford
+@entity7:Design Office

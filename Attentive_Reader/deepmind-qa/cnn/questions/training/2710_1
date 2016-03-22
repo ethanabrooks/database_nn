@@ -1,13 +1,15 @@
-5
+7
 
-as of 2012 , it is sold in most of @ent1 .
+the shop sold silk lingerie and took its name from a popular play of the moment ( 1800s ) entitled @entity1 .
 
-soda pop quiz : introduced in @ent4 , @ent2 is a bolder version of this similarly named beverage
+literary europe : this author hung out at @entity5 in @entity3 , & wrote of drinking there with @entity6 in " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the United States
-@ent2:Pibb Xtra
-@ent3:Pibb
-@ent4:2001
+@entity0:
+@entity1:Les Deux Magots de la Chine
+@entity2:Ernest Hemingway
+@entity3:Paris
+@entity4:A Movable Feast
+@entity5:Les Deux Magots
+@entity6:James Joyce

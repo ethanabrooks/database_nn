@@ -1,13 +1,15 @@
-5
+7
 
-the demon - haunted world : science as a @ent1 in the dark is a @ent4 book by astrophysicist @ent2 .
+@entity1 may refer to : sackville street ( @entity5 ) ( before @entity6 , now known as @entity1 ) , @entity5 's main thoroughfare .
 
-nonfiction : in " @ent3 " , this astronomer examines the evidence for unexplainable phenomena
+@entity4 : this capital 's @entity1 , one of @entity3 's widest , was previously called @entity1
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Candle
-@ent2:Carl Sagan
-@ent3:The Demon-Haunted World
-@ent4:1995
+@entity0:
+@entity1:O'Connell Street
+@entity2:Sackville Street
+@entity3:Europe
+@entity4:TRAVEL & TOURISM
+@entity5:Dublin
+@entity6:1924

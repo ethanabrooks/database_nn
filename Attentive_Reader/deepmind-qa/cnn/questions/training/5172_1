@@ -1,14 +1,13 @@
-6
+5
 
-the @ent4 action of the campaign was at @ent5 .
+her father , @entity3 , was a store keeper , later a railroad telegraph operator and salesman .
 
-quotations : on @ent1 @ent3 said this man " belongs to the ages "
+st. paul - y girl : @entity4 @entity1 gave her wealth to many causes , including these houses for sick kid 's parents
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:April 15, 1865
-@ent2:Abraham Lincoln
-@ent3:Edwin Stanton
-@ent4:first
-@ent5:Yorktown
+@entity0:
+@entity1:Joan Kroc
+@entity2:Ronald McDonald Houses
+@entity3:Charles Smart Mansfield
+@entity4:St. Paul-born

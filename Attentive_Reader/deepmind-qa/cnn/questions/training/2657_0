@@ -1,14 +1,13 @@
-6
+5
 
-@ent5 ( ;   ,   ) is a stratovolcano in @ent1 , @ent2 , about   east of @ent3 and a short distance from the shore .
+tordesillas ( ) is a town and municipality in the province of @entity1 ,   castile and león , central @entity4 .
 
-@ent4 : @ent5 looms over this city
+tough history : the @entity3 treaty of @entity2 divided the new world between portugal & this neighboring country
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:the Gulf of Naples
-@ent2:Italy
-@ent3:Naples
-@ent4:NATIONAL GEOGRAPHIC
-@ent5:Mount Vesuvius
+@entity0:
+@entity1:Valladolid
+@entity2:Tordesillas
+@entity3:1494
+@entity4:Spain

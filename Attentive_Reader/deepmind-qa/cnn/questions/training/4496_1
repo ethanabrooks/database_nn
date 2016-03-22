@@ -1,18 +1,13 @@
-10
+5
 
-@ent7 was the epicenter of @ent8 major earthquakes on @ent6 , a magnitude @ent5 foreshock and a magnitude @ent9 main shock , @ent4 apart .
+  the opening song on @entity1 album @entity2 is an adaptation of " @entity3 " , though   this version is about the ten commandments .
 
-you move , to fast : move to @ent2 in this state if you want to fast before hunting , like the lingit @ent3 once did
+killer musicals : the murder mystery musical " something 's afoot " parodies the plot of this author 's " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Alaska
-@ent2:Yakutat Bay
-@ent3:Indians
-@ent4:37 minutes
-@ent5:7.4
-@ent6:September 10, 1899
-@ent7: Yakutat Bay
-@ent8:two
-@ent9:8.0
+@entity0:
+@entity1:Harry Nilsson's
+@entity2:Pandemonium Shadow Show
+@entity3:Ten Little Indians
+@entity4:Agatha Christie

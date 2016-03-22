@@ -1,14 +1,17 @@
-6
+9
 
-  @ent1 was the capital of the district of @ent5 and is the seat of the verwaltungsgemeinschaft ( " collective municipality " ) @ent4 .
+  tempelsman is a trustee of @entity8 , and a director of @entity3 , @entity7 , @entity5 , and @entity1 .
 
-european history : this leader of the @ent3 was born in @ent1 , saxony november 10 , 1483
+famous women : in her final years , this former @entity4 lady kept company with diamond trader @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Eisleben
-@ent2:Martin Luther
-@ent3:Reformation
-@ent4:Lutherstadt Eisleben
-@ent5:Mansfelder Land
+@entity0:
+@entity1:the U.S.-Russia Business Council
+@entity2:Maurice Tempelsman
+@entity3:the National Democratic Institute for International Affairs
+@entity4:first
+@entity5:the Business Council for International Understanding
+@entity6:Jacqueline Kennedy Onassis
+@entity7:the Center for National Policy
+@entity8:the Eurasia Foundation

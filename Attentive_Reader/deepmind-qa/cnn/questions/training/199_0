@@ -1,16 +1,15 @@
-8
+7
 
-in @ent5 , he was the standard bearer of @ent2 of @ent1 ( @ent3 ) as its @ent5 presidential candidate .
+@entity2 , she appeared on @entity5 @entity6 .
 
-politics : in @ent4 this party nominated @ent7 for president ; in @ent5 its standard - bearer was @ent6
+actors : ( hi , i 'm @entity4 )   this " baywatch " star was once a centerfold ... a centerfold in the @entity1 issue of @entity3
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:the United States
-@ent2:the Green Party
-@ent3:GPUS
-@ent4:2000
-@ent5:2004
-@ent6:David Cobb
-@ent7:Ralph Nader
+@entity0:
+@entity1:May 1990
+@entity2:Two years later
+@entity3:Cosmopolitan
+@entity4:Traci Bingham
+@entity5:the Comedy Central Roast of
+@entity6:David Hasselhoff

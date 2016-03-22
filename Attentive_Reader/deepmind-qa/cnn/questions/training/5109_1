@@ -1,19 +1,17 @@
-11
+9
 
-  in @ent9 : feldkirch ( hartheim ) , a village in the municipality @ent2 , in @ent3    see also feldkirchen ( disambiguation )
+a constituent assembly on @entity1 formed @entity8 , to whom the @entity2 governor of the province handed power .
 
-@ent1 events : this country has an @ent4 @ent7 festival in @ent10 @ent6 festival in @ent5
+countries that end in " ia " : at @entity3 @entity7 , this country received the provinces of @entity4 , banat & transylvania from @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:ANNUAL
-@ent2:Hartheim
-@ent3:Baden-Württemberg
-@ent4:annual
-@ent5:Feldkirch
-@ent6:Schubert
-@ent7:Haydn
-@ent8:Austria
-@ent9:Germany
-@ent10:Eisenstadt & a
+@entity0:
+@entity1:14/27 October 1918
+@entity2:Austrian
+@entity3:the end of
+@entity4:Bukovina
+@entity5:Austria-Hungary
+@entity6:Romania
+@entity7:World War I
+@entity8:an Executive Committee

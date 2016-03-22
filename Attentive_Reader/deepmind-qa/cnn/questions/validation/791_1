@@ -1,13 +1,18 @@
-5
+10
 
-visitors can rent kayaks , canoes , and non - motorized jon boats to explore the lake as well as fish for the catfish , bass , and bream found in the lake .
+@entity2   lindros draft and trade   in @entity6 , the @entity8 once again had the @entity4 overall pick in the nhl entry draft .
 
-@ent2 events : @ent3 is the site of this state 's annual @ent1 regatta
+sports : in @entity9 the @entity1 's @entity5 moved to this city & became @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Palmetto
-@ent2:ANNUAL
-@ent3:Cheraw State Park
-@ent4:South Carolina
+@entity0:
+@entity1:NHL
+@entity2: 1990s
+@entity3:Denver
+@entity4:first
+@entity5:Quebec Nordiques
+@entity6:1991
+@entity7:the Colorado Avalanche
+@entity8:Nordiques
+@entity9:1995

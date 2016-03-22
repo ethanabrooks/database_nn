@@ -1,16 +1,15 @@
-8
+7
 
-@ent2 ( commonly referred to as @ent6 ) is a comprehensive state - related ( formerly private ) research - intensive university in @ent1 , @ent5 , @ent7 .
+the film is based on the @entity4 novel of the same name by @entity3 author @entity1 , who has a small role in the film as the @entity2 .
 
-you're the mayor : sworn in as this city 's 97th mayor in @ent4 , @ent3 is a graduate of its @ent2
+writers named james : he adapted his novel " @entity5 " for the big screen & played a sheriff in the @entity6 movie
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Philadelphia
-@ent2:Temple University
-@ent3:John F. Street
-@ent4:2000
-@ent5:Pennsylvania
-@ent6:Temple
-@ent7:United States
+@entity0:
+@entity1:James Dickey
+@entity2:Sheriff
+@entity3:American
+@entity4:1970
+@entity5:Deliverance
+@entity6:1972

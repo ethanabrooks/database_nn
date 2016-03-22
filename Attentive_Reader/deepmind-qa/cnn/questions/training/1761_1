@@ -1,13 +1,19 @@
-5
+11
 
-cites @ent2 .
+on @entity1 is a @entity3 thriller novel written by @entity4 author @entity6 .
 
-tudor garage : @ent4 was the whipping boy & close friend of this @ent1 crown prince & future king
+men of letter : his rescue of @entity7 @entity10 employees from a prison in @entity2 was the subject of @entity9 " @entity5 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tudor
-@ent2:Ham
-@ent3:Edward VI
-@ent4:Barnaby Fitzpatrick
+@entity0:
+@entity1:Wings of Eagles
+@entity2:Iran
+@entity3:1983
+@entity4:British
+@entity5:On Wings of Eagles
+@entity6:Ken Follett
+@entity7:2
+@entity8:H. Ross Perot
+@entity9:Ken Follett's
+@entity10:EDS

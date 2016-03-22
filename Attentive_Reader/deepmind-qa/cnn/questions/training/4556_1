@@ -1,16 +1,15 @@
-8
+7
 
-the house is now owned and loaned by business tycoon @ent1 @ent3 to @ent5 where bamboo exhibits are shown for the public for a fee .
+  @entity5 lost the @entity3 presidential election to @entity4 .
 
-around the world : cities in this country include @ent4 , @ent7 & @ent6
+the world of politics : @entity6 is an opposition leader in this troubled @entity2 country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Lucio Tan's
-@ent2:Philippines
-@ent3:Tan Yan Kee Foundation
-@ent4:Baguio
-@ent5:the Bamboo Foundation
-@ent6:Manila
-@ent7:Quezon City
+@entity0:
+@entity1:Zimbabwe
+@entity2:African
+@entity3:March 2002
+@entity4:Mugabe
+@entity5:Tsvangirai
+@entity6:Morgan Tsvangirai

@@ -1,17 +1,15 @@
-9
+7
 
-@ent1 and @ent3 become betrothed at the end of @ent2 , to be married at easter after @ent1 returns from a visit to @ent4 .
+@entity5 disambiguation )
 
-@ent6 : @ent7 are characters in @ent8 " @ent3 " , set in the 1490s in this city
+@entity2 : this @entity1 school 's @entity4 play their home game in @entity3 , aka " death valley "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tito
-@ent2:Carnival
-@ent3:Romola
-@ent4:Rome
-@ent5:Florence
-@ent6:NOVELS & NOVELISTS
-@ent7:Savonarola & Machiavelli
-@ent8:George Eliot's
+@entity0:
+@entity1:South Carolina
+@entity2:COLLEGE STADIUMS & ARENAS
+@entity3:Memorial Stadium
+@entity4:Tigers
+@entity5: War Memorial Stadium (
+@entity6:Clemson

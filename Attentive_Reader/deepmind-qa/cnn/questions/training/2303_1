@@ -1,18 +1,13 @@
-10
+5
 
-  @ent9 also appeared in the mid-80s spinoff series @ent7 , which portrays her husband @ent8 for the @ent4 time .
+@entity3 is an @entity1 businessman .
 
-she was in that ? : she was married to @ent6 when she played @ent2 , @ent5 's mom in " @ent3 " movie
+organizations : @entity3 is the ceo of this organization for those @entity4 & older
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Elizabeth Taylor
-@ent2:Pearl Slaghoople
-@ent3:The Flintstones
-@ent4:first
-@ent5:Wilma
-@ent6:Larry Fortensky
-@ent7:The Flintstone Kids
-@ent8:Ricky
-@ent9:Pearl
+@entity0:
+@entity1:American
+@entity2:AARP
+@entity3:Bill Novelli
+@entity4:50

@@ -1,16 +1,13 @@
-8
+5
 
-@ent3 and @ent7 both turned down the role .
+that summer , he played for the hyannis mets in the cape cod baseball league , hitting .370 and led the league in runs batted in with @entity2 .
 
-the movies : he directed " @ent4 " in @ent2 & " @ent5 in @ent1
+pitchers : this strikeput king 's last season , @entity3 , was marred by injuries & a fistfight with @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1994
-@ent2:1984
-@ent3:Robert De Niro
-@ent4:Broadway Danny Rose
-@ent5:Bullets Over Broadway"
-@ent6:Woody Allen
-@ent7:Sylvester Stallone
+@entity0:
+@entity1:Nolan Ryan
+@entity2:37
+@entity3:1993
+@entity4:Robin Ventura

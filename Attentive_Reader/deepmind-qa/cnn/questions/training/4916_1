@@ -1,15 +1,14 @@
-7
+6
 
-  category:german - language surnames category:jewish surnames
+@entity2 )   whatever happens to you has been waiting to happen since @entity5 .
 
-@ent4 , @ent2 , @ent6 : best known for his science of cybernetics , this math professor graduated from college in @ent1 at age @ent5
+@entity3 favorite books : after some careful thought , " @entity4 " by this roman philosopher & emperor made the list
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1909
-@ent2:MEYER
-@ent3:Norbert Wiener
-@ent4:OSCAR
-@ent5:14
-@ent6:WIENER
+@entity0:
+@entity1:Marcus Aurelius
+@entity2:George Long
+@entity3:BILL CLINTON'S
+@entity4:Meditations
+@entity5:the beginning of time

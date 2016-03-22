@@ -1,21 +1,18 @@
-13
+10
 
-@ent3 is a new @ent11 restaurant located at @ent4 @ent6 ( at @ent6 ) in @ent9 , @ent1 , in @ent12 , co - owned by @ent10 , @ent8 and @ent2 , among others .
+@entity5 – constitution of the province of @entity1 ratified at @entity6 in @entity8 la @entity2 , @entity3 , @entity4 .
 
-i'll take manhattan : when dining at this oscar - winning actor 's @ent3 , look for the artworks by his father , @ent5 , senior
+independence days : on @entity7 @entity9 celebrates its independence from this country
 
-@ent10
+@entity4
 
-@ent0:
-@ent1:Manhattan
-@ent2:Lou Diamond Phillips
-@ent3:Tribeca Grill
-@ent4:375
-@ent5:Robert
-@ent6:Greenwich Street
-@ent7:Franklin Street
-@ent8:Drew Nieporent
-@ent9:Tribeca
-@ent10:Robert De Niro
-@ent11:American
-@ent12:New York City
+@entity0:
+@entity1:Cantabria
+@entity2:Puente
+@entity3:Reocín
+@entity4:Spain
+@entity5:1778
+@entity6:the Assembly Hall
+@entity7:July 28
+@entity8:Bárcena
+@entity9:Peru

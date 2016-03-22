@@ -1,13 +1,25 @@
-5
+17
 
-his @ent2 film out of @ent4 won him academy awards for directing and producing ; he was also nominated for @ent3 oscars for they
+@entity10   " @entity8 " – @entity16 stage musical   in @entity9 , @entity2 singer/songwriter @entity1 joined forces with the film 's screenwriter @entity12 to produce a musical adaptation of the film , which premiered @entity15 at @entity11 on @entity13 .
 
-drop " out " : @ent1 directed this @ent2 best picture oscar winner
+the @entity7 tony awards : yes sir--this @entity3 composer 's adaptation of " @entity14 " won @entity6 @entity5 , including @entity4
 
-out of @ent4
+@entity1
 
-@ent0:
-@ent1:Sydney Pollack
-@ent2:1985
-@ent3:Best Director
-@ent4:Africa
+@entity0:
+@entity1:Elton John
+@entity2:English
+@entity3:British
+@entity4:Best Musical
+@entity5:Tonys
+@entity6:10
+@entity7:2009
+@entity8:Ride a White Swan
+@entity9:2004
+@entity10:The Style Council
+@entity11:the Victoria Palace Theatre
+@entity12:Lee Hall
+@entity13:the West End
+@entity14:Billy Elliot
+@entity15:31 March 2005
+@entity16:T. Rex  

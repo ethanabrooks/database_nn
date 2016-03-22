@@ -1,14 +1,15 @@
-6
+7
 
-  in popular culture @ent1 has been portrayed by actors @ent4 , @ent5 , and @ent2 .
+in the film series , @entity2 is portrayed by actress @entity5 .
 
-playing doctor : he played physician & poet @ent1 in a @ent3 film
+child actors : at @entity6 , this future portrayer of @entity4 was @entity1 daughter in " @entity3 "
 
-@ent4
+@entity5
 
-@ent0:
-@ent1:Yuri Zhivago
-@ent2:Oleg Menshikov
-@ent3:1965
-@ent4:Omar Sharif
-@ent5:Hans Matheson
+@entity0:
+@entity1:Jodie Foster's
+@entity2:Bella
+@entity3:Panic Room
+@entity4:Bella Swan
+@entity5:Kristen Stewart
+@entity6:age 11

@@ -1,14 +1,15 @@
-6
+7
 
-fred , jr. ( born @ent4 ) , appeared with his father in the movie @ent5 but became a charter pilot and rancher instead of an actor .
+the film was adapted into an unsuccessful @entity1 @entity3 musical of the same name .
 
-the chinese theatre : to make her imprint this partner of @ent1 wore her mother 's size 4 1/2 shoes instead of her own @ent2
+' 80s film comedy : he played movie star & tv guest star @entity4 in @entity2 's " @entity5 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Fred Astaire
-@ent2:5 1/2s
-@ent3:Ginger Rogers
-@ent4:January 21, 1936
-@ent5:Midas Run
+@entity0:
+@entity1:1992
+@entity2:1982
+@entity3:Broadway
+@entity4:Alan Swann
+@entity5:My Favorite Year
+@entity6:Peter O'Toole

@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 starred in the successful comedies f troop , the andy griffith show spin - off @ent1 , and @ent4 spin - off mama 's family .
+@entity4 ( who in his @entity5 billed himself as " @entity6 " ) often boasted that if he saw a card trick performed @entity3 times in a row he would be able to figure it out .
 
-i want my " m " tv : @ent3 played a widower raising a young son on this " @ent5 show " spinoff
+magic : the legendary @entity2 was known as " @entity1 " this escape king
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Mayberry R.F.D.
-@ent2:Berry
-@ent3:Ken Berry
-@ent4:The Carol Burnett Show
-@ent5:Andy Griffith
+@entity0:
+@entity1:The Man Who Fooled
+@entity2:Dai Vernon
+@entity3:three
+@entity4:Harry Houdini
+@entity5:early years
+@entity6:The King of Kards

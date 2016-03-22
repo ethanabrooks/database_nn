@@ -1,14 +1,17 @@
-6
+9
 
-  @ent5 was the nominee of @ent1 for vice president in @ent3 , as the running mate of @ent4 .
+@entity2 was the origin of the only @entity3 pope , pope adrian iv , and @entity8 , the founder of the southern @entity5 territory of @entity4 .
 
-he 's my running mate : @ent2
+@entity1 : born on @entity6 in @entity2 , he later founded @entity7 mining company
 
-@ent4
+@entity8
 
-@ent0:
-@ent1:the Republican Party
-@ent2:Earl Warren
-@ent3:1948
-@ent4:Thomas E. Dewey
-@ent5:Warren
+@entity0:
+@entity1:1853
+@entity2:Hertfordshire
+@entity3:English
+@entity4:Rhodesia
+@entity5:African
+@entity6:July 5, 1853
+@entity7:the De Beers
+@entity8:Cecil Rhodes

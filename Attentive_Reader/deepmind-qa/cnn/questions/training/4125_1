@@ -1,14 +1,13 @@
-6
+5
 
-the region is vaguely defined , and the distinction between @ent5 and @ent3 is unclear ; by some they are seen to overlap , while others consider @ent3 a part of @ent5 .
+at low tide , much of the arms ' silty bottoms are exposed , making marine navigation difficult .
 
-literature : in this novel , d'artagnan , a native of @ent3 , is described as " @ent2 at @ent1 "
+hotels , motels & inns : @entity1 covers a city block in this @entity3 city on @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:18
-@ent2:Don Quixote
-@ent3:Gascony
-@ent4:Three
-@ent5:Guyenne
+@entity0:
+@entity1:The Hotel Captain Cook
+@entity2:Cook Inlet
+@entity3:Alaskan
+@entity4:Anchorage

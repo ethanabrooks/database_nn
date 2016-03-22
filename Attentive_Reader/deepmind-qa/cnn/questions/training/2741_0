@@ -1,16 +1,19 @@
-8
+11
 
-  @ent1 narrowly defeated @ent6 mayor @ent4 in the general election .
+@entity1 , a @entity8 @entity7 comedy - drama film written and directed by @entity4 , tells the story of an introverted young boy ( @entity9 ) who is sent to live with his eccentric great - uncles ( @entity10 and @entity2 ) on a farm in @entity3 .
 
-@ent3 governors : in @ent2 @ent7 beat this @ent5 mayor to win the office
+celebrities : this young star was @entity2 & @entity6 grandnephew in " @entity5 "
 
-@ent4
+@entity9
 
-@ent0:
-@ent1:Deukmejian
-@ent2:1982
-@ent3:CALIFORNIA
-@ent4:Tom Bradley
-@ent5:L.A.
-@ent6:Los Angeles
-@ent7:George Deukmejian
+@entity0:
+@entity1: Secondhand Lions
+@entity2:Michael Caine
+@entity3:Texas
+@entity4:Tim McCanlies
+@entity5:Secondhand Lions
+@entity6:Robert Duvall's
+@entity7:American
+@entity8:2003
+@entity9:Haley Joel Osment
+@entity10:Robert Duvall

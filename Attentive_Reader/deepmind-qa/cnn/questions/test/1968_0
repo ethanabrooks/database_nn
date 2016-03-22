@@ -1,13 +1,14 @@
-5
+6
 
-the golden bowl is a @ent1 novel by @ent3 .
+@entity5 ) is a football stadium located in the suburb of @entity3 in @entity2 , @entity1 .
 
-my name is henry , i'll be your writer : @ent1 's " @ent2 " was one of my last novels ; i later became a @ent4 subject
+take me out to ... : take me out to the futbol game at @entity4 in this capital city
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:1904
-@ent2:The Golden Bowl
-@ent3:Henry James
-@ent4:British
+@entity0:
+@entity1:Mexico
+@entity2:Mexico City
+@entity3:Santa Ursula
+@entity4:Estadio Azteca
+@entity5:The Estadio Azteca (

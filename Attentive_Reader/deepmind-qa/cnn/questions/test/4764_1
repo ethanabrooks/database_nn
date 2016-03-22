@@ -1,20 +1,14 @@
-12
+6
 
-  @ent6 's tenure at @ent3 is best known for her work as a defense attorney for @ent4 company @ent8 during major litigation , including both civil lawsuits and @ent5 criminal and civil racketeering probes .
+@entity3 ( @entity5 )
 
-i went to ucla : @ent7 got her law degree from @ent9 in @ent10 & filled the @ent11 seat left vacant by this woman in @ent1
+@entity1 quotes : in " kings row " , he asked @entity2 , " where 's the rest of me ? "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2009
-@ent2:Hillary Clinton
-@ent3:Davis Polk
-@ent4:Tobacco
-@ent5:U.S. Justice Department
-@ent6:Gillibrand
-@ent7:Kirsten Gillibrand
-@ent8:Philip Morris
-@ent9:UCLA
-@ent10:1991
-@ent11:Senate
+@entity0:
+@entity1:MOVIE
+@entity2:Ann Sheridan
+@entity3: Wagon Wheels
+@entity4:Ronald Reagan
+@entity5:1934

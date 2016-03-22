@@ -1,14 +1,13 @@
-6
+5
 
-by train through asia is a travelogue by the @ent1 novelist @ent5 , first published in @ent2 .
+@entity4 is a fictional character in a series of novels by @entity1 .
 
-peter , paul & mary : his world travels helped him write " @ent4 " , " @ent3 " & " riding the iron rooster "
+children 's lit : she 's famous for her books about @entity2 , as well as " @entity3 "
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:American
-@ent2:1975
-@ent3:The Mosquito Coast
-@ent4:The Great Railway Bazaar
-@ent5:Paul Theroux
+@entity0:
+@entity1:Beverly Cleary
+@entity2:Ramona Quimby
+@entity3:The Mouse and the Motorcycle
+@entity4:Ramona Geraldine Quimby

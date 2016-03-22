@@ -1,15 +1,17 @@
-7
+9
 
-vahine no te vi ( @ent3 : woman of the @ent4 ) is an @ent2 painting by @ent1 , currently in the collection of @ent6 .
+  @entity7 had contributed to several @entity5 musicals before teaming up with his most important collaborator , @entity1 , in @entity2 .
 
-art : in @ent2 he painted " @ent5 .   woman with mango "
+@entity8 : he collaborated on his hit comedy " @entity4 " with @entity6 , not @entity3
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Paul Gauguin
-@ent2:1892
-@ent3:English
-@ent4:Mango
-@ent5:Vahine No Te Vi
-@ent6:the Baltimore Museum of Art
+@entity0:
+@entity1:George S. Kaufman
+@entity2:1921
+@entity3:Moss Hart
+@entity4:Beggar On Horseback
+@entity5:Broadway
+@entity6:Marc Connelly
+@entity7:Connelly
+@entity8:PLAYS & PLAYWRIGHTS

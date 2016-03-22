@@ -1,12 +1,13 @@
-4
+5
 
-@ent2 ( ; ) is a city on the coast of @ent3 .
+@entity1 :
 
-world cities : @ent2 , which lies on an island in @ent1 , is the main port of this e. african country
+berkeley in the ' 60s : in @entity2 @entity4 police turned back over @entity3 marchers protesting this war
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:the Indian Ocean
-@ent2:Mombasa
-@ent3:Kenya
+@entity0:
+@entity1:Vietnam War
+@entity2:October 1965
+@entity3:10,000
+@entity4:Oakland

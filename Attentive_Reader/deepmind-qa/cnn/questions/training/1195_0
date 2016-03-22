@@ -1,14 +1,18 @@
-6
+10
 
-@ent3 ) was the managing general partner , president and ceo of @ent4 @ent1 franchise from 1984 to 1999 .
+@entity2 ( born @entity6 ) is the @entity4 @entity7 american mayor of @entity1 .
 
-women in sports : in @ent2 @ent5 , owner of this team , was suspended for making racist remarks
+@entity3 mayors : in @entity9 mayor @entity8 of this state capital asked the @entity5 to cancel its convention there
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Cincinnati Reds
-@ent2:1993
-@ent3:March 2, 2004
-@ent4:Major League Baseball's
-@ent5:Marge Schott
+@entity0:
+@entity1:Denver
+@entity2:Wellington E. Webb
+@entity3:U.S.
+@entity4:first
+@entity5:NRA
+@entity6:February 17, 1941
+@entity7:African
+@entity8:Wellington Webb
+@entity9:1999

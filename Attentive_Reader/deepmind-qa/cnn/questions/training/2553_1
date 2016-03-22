@@ -1,17 +1,13 @@
-9
+5
 
-60 , 8   as a people they are rarely mentioned in history .
+@entity1 .
 
-@ent1 lecture : @ent5 of @ent2 's @ent3 victories in @ent8 was against the chief town of the @ent4 people , @ent6 this " shrouded " city
+@entity3 : many men died searching for the lost dutchman gold mine in this southwest state 's @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:HANNIBAL
-@ent2:Hannibal
-@ent3:first
-@ent4:Taurini
-@ent5:One
-@ent6:today
-@ent7:Turin
-@ent8:Italy
+@entity0:
+@entity1:1973
+@entity2:Superstition Mountains
+@entity3:AMERICANA
+@entity4:Arizona

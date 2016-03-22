@@ -1,13 +1,14 @@
-5
+6
 
-birds of the chukchi peninsula and @ent2 = ptitsy chukotskogo poluostrova i ostrova vrangelya .
+@entity2 she wrote feature articles for @entity3 .
 
-peninsulas : this country 's @ent4 is the easternmost mainland part of @ent1
+children 's authors : @entity4 lived most of her life in this state & set her novel " @entity5 " there
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Asia
-@ent2:Wrangel Island
-@ent3:Russia
-@ent4:Chukchi Peninsula
+@entity0:
+@entity1:Massachusetts
+@entity2:From 1924 to 1926
+@entity3:the Boston Evening Transcript
+@entity4:Esther Forbes
+@entity5:Johnny Tremain

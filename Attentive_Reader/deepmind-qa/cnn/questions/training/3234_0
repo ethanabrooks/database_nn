@@ -1,14 +1,14 @@
 6
 
-she played dr. @ent5 on the @ent1 medical drama er , and @ent2 on the @ent1 thriller @ent4 .
+he apprenticed with photographer @entity1 in @entity3 and collaborated with @entity2 , whom he showed how to use his @entity4 camera .
 
-tv characters : @ent3 plays this " er " doc who 's physically challenged & always challenging the other docs
+artists : the self - portraits of this artist seen here are based on photos by @entity5
 
-dr. @ent5
+@entity2
 
-@ent0:
-@ent1:NBC
-@ent2:Sophia
-@ent3:Laura Innes
-@ent4:The Event
-@ent5:Kerry Weaver
+@entity0:
+@entity1:Man Ray
+@entity2:Andy Warhol
+@entity3:Paris
+@entity4:first
+@entity5:Christopher Makos

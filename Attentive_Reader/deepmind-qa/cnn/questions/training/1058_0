@@ -1,18 +1,13 @@
-10
+5
 
-  ibadan ( or fully ( ìlú ) ẹ̀bá-ọ̀dàn , ( the city at ) the edge of the savannah ) is the capital city of @ent1 and the @ent6 largest metropolitan area , by population , in @ent5 , after @ent7 and @ent4 , with a population of @ent2 , and the largest metropolitan geographical area .
+the mother of us all is an opera by @entity1 to a libretto by @entity2 .
 
-let 's visit africa : @ent9 , abuja & ogbomosho are all cities in this @ent8 nation of @ent2
+oh , no !   opera ! : she wrote the libretto for " @entity4 " ; maybe that 's why it features a character named " @entity3 "
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:Oyo State
-@ent2:over 3 million
-@ent3:over 125 million
-@ent4:Kano
-@ent5:Nigeria
-@ent6:third
-@ent7:Lagos
-@ent8:African
-@ent9:Ibadan
+@entity0:
+@entity1:Virgil Thomson
+@entity2:Gertrude Stein
+@entity3:Gertrude S.
+@entity4:The Mother of Us All

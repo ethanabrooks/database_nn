@@ -1,15 +1,14 @@
-7
+6
 
-tirana   ( standard ; regional gheg albanian : @ent1 ) is the capital and largest city of @ent2 .
+@entity4 is a private @entity3 university in @entity1 , @entity5 .
 
-@ent5 capitals : @ent3 commander @ent4 founded @ent6 , this country 's capital
+twister : this @entity5 city , the home of @entity4 , still remembers the tornado of @entity2
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Tirona
-@ent2:Albania
-@ent3:Ottoman
-@ent4:B. Suleiman Pasha
-@ent5:EUROPEAN
-@ent6:Tirana
+@entity0:
+@entity1:Waco
+@entity2:1953
+@entity3:Baptist
+@entity4:Baylor University
+@entity5:Texas

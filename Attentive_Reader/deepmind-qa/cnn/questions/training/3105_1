@@ -1,13 +1,13 @@
 5
 
-the netherlands signs the treaty of @ent1 .
+@entity3 helps get her released .
 
-scientists : at his death in @ent3 , he became the @ent4 scientist buried in westminster abbey
+artists on film : @entity1 was this painter & husband of the title character in " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Seville
-@ent2:Isaac Newton
-@ent3:1727
-@ent4:first
+@entity0:
+@entity1:Alfred Molina
+@entity2:Frida
+@entity3:Rivera
+@entity4:Diego Rivera

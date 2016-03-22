@@ -1,13 +1,15 @@
-5
+7
 
-@ent3 is a brand of sunglasses and eyeglasses founded in @ent4 by @ent1 company @ent2 .
+it was directed by @entity6 .
 
-____ & ____ brands : @ent3 glasses , developed by this company , were so named because they reduce uv & infrared rays
+@entity5 films : this star of tv 's " @entity1 " directed the @entity3 @entity2 thriller " @entity4 "
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:American
-@ent2:Bausch & Lomb
-@ent3:Ray-Ban
-@ent4:1937
+@entity0:
+@entity1:Jake And The Fatman
+@entity2:Joey Heatherton
+@entity3:1965
+@entity4:My Blood Runs Cold
+@entity5:DIRECTORS & THEIR
+@entity6:William Conrad

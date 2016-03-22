@@ -1,19 +1,16 @@
-11
+8
 
-@ent8 15 , 1896 , in @ent1 , @ent5 to @ent10 immigrants , she grew up poor in @ent4 , @ent1 and attended girls ' high school.http://web.njit.edu/~cjohnson/tree/bio/wg.htm " @ent3 .
+@entity3 was born in @entity2 , @entity5 , @entity1 .
 
-smith : @ent2 wrote about young @ent6 in her novel " @ent7 in " this @ent9 borough
+state facts : ( hi , i"m @entity4 from " @entity7 " )   " @entity6 " is the official motto of this state , my birthplace
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Brooklyn
-@ent2:Betty Smith
-@ent3:A Tree Grows in Brooklyn
-@ent4:Williamsburg
-@ent5:New York
-@ent6:Francie Nolan
-@ent7:A Tree Grows
-@ent8: Biography Born on December
-@ent9:New York City
-@ent10:German
+@entity0:
+@entity1:February 8, 1974
+@entity2:Juneau
+@entity3:Morrow
+@entity4:Joshua Morrow
+@entity5:Alaska
+@entity6:North to the Future
+@entity7:The Young and the Restless

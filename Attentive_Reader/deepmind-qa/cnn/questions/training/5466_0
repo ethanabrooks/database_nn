@@ -1,14 +1,17 @@
-6
+9
 
-in @ent4 , she began a series of guest spots on the nighttime soap opera @ent2 .
+" d - i-v-o-r-c-e " is an @entity5 country music song written by @entity1 and @entity7 , and made famous by @entity4 .
 
-@ent1 : @ent5 went prime - time as @ent3 on this soap , whose leading man was described as " that human oil slick "
+albums : ( hi , i 'm @entity3 )   i recorded " you and me " for a @entity8 tribute album to this late legend ; @entity6 contributed " @entity2 "
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:GEOGRAPHIC FILM & TV
-@ent2:Dallas
-@ent3:Sheila Foley
-@ent4:1990–1991
-@ent5:Susan Lucci
+@entity0:
+@entity1:Bobby Braddock
+@entity2:D-I-V-O-R-C-E
+@entity3:Lorrie Morgan
+@entity4:Tammy Wynette
+@entity5:American
+@entity6:Rosanne Cash
+@entity7:Curly Putman
+@entity8:1998

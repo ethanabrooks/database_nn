@@ -1,14 +1,18 @@
-6
+10
 
-the novel takes @ent1 from birth to his years in the lycee , or secondary school , in @ent4 .
+features sections debuting in @entity5 included a @entity9 home section , a @entity7 style section and a @entity6 section called " @entity3 .
 
-posthumous works : found at the car wreck that killed him , this writer 's " @ent5 " provides a glimpse of his childhood in @ent2
+notable names : this caustic critic & expert on " @entity4 " was associated with @entity1 for @entity8
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jacques Cormery
-@ent2:Algeria
-@ent3:Albert Camus
-@ent4:Algiers
-@ent5:The First Man
+@entity0:
+@entity1:The Baltimore Sun
+@entity2:H.L. Mencken
+@entity3:Sunrise
+@entity4:The American Language
+@entity5:2010
+@entity6:Monday
+@entity7:Thursday
+@entity8:over 40 years
+@entity9:Saturday

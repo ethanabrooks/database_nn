@@ -1,20 +1,15 @@
-12
+7
 
-@ent10 , in the @ent2 neighborhood of @ent1 's @ent9 in @ent11 , is a 652-bed , tertiary - care hospital and a teaching hospital of @ent5 medical college , @ent3 , @ent8 , @ent6 and @ent7 .
+dubliners is a collection of @entity4 short stories by @entity5 , first published in @entity6 .
 
-borough babies : before moving to " the o.c. " , @ent4 debuted at @ent10 here
+short fiction : " the sisters " & " araby " are @entity3 of the @entity1 stories in his " @entity2 "
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Manhattan
-@ent2:Lenox Hill
-@ent3:State University of New York Downstate Medical Center College of Medicine
-@ent4:Peter Gallagher
-@ent5:New York
-@ent6:Long Island University
-@ent7:Pace University
-@ent8:New York University School of Medicine
-@ent9:Upper East Side
-@ent10:Lenox Hill Hospital
-@ent11:New York City
+@entity0:
+@entity1:15
+@entity2:Dubliners
+@entity3:2
+@entity4:fifteen
+@entity5:James Joyce
+@entity6:1914

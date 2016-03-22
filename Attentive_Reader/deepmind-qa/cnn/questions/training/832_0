@@ -1,16 +1,15 @@
-8
+7
 
-  the movie beyond the @ent1 of the dolls , written by @ent4 and @ent6 and directed by @ent2 , was a parody of @ent1 of the dolls .
+he was married to @entity1 , and is the father of actress @entity3 .
 
-pop culture : @ent3 plays a pill - popping movie star in this trashy @ent7 film based on a @ent5 novel
+@entity2 : in a @entity5 tv movie , @entity6 played @entity3 , the bodybuilding husband of this late actress
 
-the @ent1 of the dolls
+@entity1
 
-@ent0:
-@ent1:Valley
-@ent2:Meyer
-@ent3:Patty Duke
-@ent4:Russ Meyer
-@ent5:Jacqueline Susann
-@ent6:Roger Ebert
-@ent7:1967
+@entity0:
+@entity1:Jayne Mansfield
+@entity2:ARNOLD SCHWARZENEGGER
+@entity3:Mariska Hargitay
+@entity4:Mickey Hargitay
+@entity5:1980
+@entity6:Arnold

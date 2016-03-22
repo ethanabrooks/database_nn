@@ -1,16 +1,16 @@
 8
 
-@ent2   he is the father of @ent4 , who became @ent3 's all - time race winner .
+" i feel the earth move " is a song written and recorded by pop singer - songwriter @entity3 on her album @entity6 the song is @entity2 of the double a - sided single , the flip side which was " it 's too late " .
 
-motor sports : in @ent1 @ent4 became the @ent7 to win the daytona 500 ; this son later won the race a record @ent5 times
+sides : side @entity7 of her album " @entity4 " starts with " @entity1 " ; side @entity5 ends with " ( you make me feel like ) a natural woman "
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:1959
-@ent2: Petty Enterprises
-@ent3:NASCAR
-@ent4:Lee Petty
-@ent5:7
-@ent6:Richard Petty
-@ent7:first
+@entity0:
+@entity1:I Feel The Earth Move
+@entity2:one half
+@entity3:Carole King
+@entity4:Tapestry
+@entity5:2
+@entity6:Tapestry,
+@entity7:1

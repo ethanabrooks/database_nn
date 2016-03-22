@@ -1,13 +1,21 @@
-5
+13
 
-retrieved : @ent3 .
+the fuel cell @entity7 is one of several vehicles with green technology being featured at the @entity8 show , including the @entity9 @entity2 , @entity12 emissions compliant @entity11 and @entity6 models and a @entity9 @entity10 @entity3 super duty outfitted with @entity10 's clean diesel technology .
 
-beach boys : this actor rolls on the sand & in the surf with @ent4 in " @ent2 "
+also a planet : founded in @entity1 , it was a @entity4 brand name of semi - luxury models
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Burt Lancaster
-@ent2:From Here to Eternity
-@ent3:19 November 2007
-@ent4:Deborah Kerr
+@entity0:
+@entity1:1938
+@entity2:Ford Escape Hybrid
+@entity3:F-Series
+@entity4:Ford Motor Company
+@entity5:Mercury
+@entity6:Focus
+@entity7:Explorer
+@entity8:L.A.
+@entity9:2008
+@entity10:Ford
+@entity11:Fusion
+@entity12:PZEV

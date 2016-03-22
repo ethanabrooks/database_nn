@@ -1,14 +1,12 @@
-6
+4
 
-@ent2 ( , ; born @ent5 @ent4 ) is the current prime minister of @ent1 .
+@entity2 has found @entity3 to be pregnant and in this verse considers leaving her .
 
-they used to be in charge : @ent3
+the bible : @entity1 shows him as a just man by his refusal to divorce & humiliate the pregnant @entity3
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Israel
-@ent2:Benjamin "Bibi" Netanyahu
-@ent3:Benjamin Netanyahu
-@ent4:October 1949
-@ent5:21
+@entity0:
+@entity1:Matthew 1:19
+@entity2:Joseph
+@entity3:Mary

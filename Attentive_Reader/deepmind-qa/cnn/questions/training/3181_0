@@ -1,13 +1,14 @@
-5
+6
 
-@ent3 ( wvu ) is a public land grant research university in @ent4 , @ent1 , @ent2 .
+   events    by place    byzantine empire    emperors nikephoros i and @entity3 settle their imperial boundaries in the adriatic sea and sign @entity5 ( " @entity4 " ) .
 
-did you hear about the morgans ? : it 's home to @ent3
+andorra : andorrans date their independence to @entity2 a.d. , when this " emperor of the @entity1 " drove out the moors
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:West Virginia
-@ent2:United States
-@ent3:West Virginia University
-@ent4:Morgantown
+@entity0:
+@entity1:Romans
+@entity2:803
+@entity3:Charlemagne
+@entity4:Peace of Nikephoros
+@entity5:Pax Nicephori

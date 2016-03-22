@@ -1,16 +1,15 @@
-8
+7
 
-the kid stays in the picture is both the name of the @ent1 autobiography by film producer @ent2 and the title of the @ent3 film adaptation of @ent5 ' book .
+principal dancers were @entity2 in the role of @entity5 , @entity3 as her slave , and @entity4 as the vicomte rené de beaugency .
 
-readers : @ent6 is all ears for " @ent4 " by this producer & ex - husband of @ent7
+ballet : when " @entity6 " premiered in @entity1 , @entity3 played the slave & she played armide
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:1994
-@ent2:Robert Evans
-@ent3:2002
-@ent4:The Kid Stays in the Picture
-@ent5:Evans
-@ent6:Hollywood
-@ent7:Ali MacGraw
+@entity0:
+@entity1:1907
+@entity2:Anna Pavlova
+@entity3:Vaslav Nijinsky
+@entity4:Pavel Gerdt
+@entity5:Armida
+@entity6:Le Pavillon d'Armide

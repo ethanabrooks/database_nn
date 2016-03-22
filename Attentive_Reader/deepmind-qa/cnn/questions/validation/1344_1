@@ -1,19 +1,14 @@
-11
+6
 
-after @ent5 enlisted a @ent2 , a @ent1 and a @ent4 mp.    references    category:human rights category:1961 in @ent7
+before the cave became a tourist attraction , it was used over the years by @entity1 , @entity5 soldiers and outlaws , including outlaw @entity4 .
 
-@ent6 ago--1961 : @ent3 @ent8 news article " @ent10 " is considered the birth of this organization
+park place : @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Liberal
-@ent2:Tory
-@ent3:Peter Benenson's
-@ent4:Labour
-@ent5:Benenson
-@ent6:50 YEARS
-@ent7:the United Kingdom
-@ent8:1961
-@ent9:Amnesty International
-@ent10:The Forgotten Prisoners
+@entity0:
+@entity1:Indians
+@entity2:Longhorn Cavern State Park
+@entity3:Texas
+@entity4:Sam Bass
+@entity5:Confederate

@@ -1,15 +1,14 @@
-7
+6
 
-the story is set in @ent6 , @ent1 .
+he was inspired by @entity5 's " vivid description of flogging , a brutal staple of @entity2 naval discipline " in his " novelized memoir " @entity3 .
 
-get your phil : in the @ent2 classic " @ent4 " , he played @ent3
+authors : he followed his @entity4 sea tale " @entity3 " with another sea tale about a white object
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:California
-@ent2:1946
-@ent3:Philip Marlowe
-@ent4:The Big Sleep
-@ent5:Humphrey Bogart
-@ent6:Los Angeles
+@entity0:
+@entity1:Herman Melville
+@entity2:19th century
+@entity3:White-Jacket
+@entity4:1850
+@entity5:Melville

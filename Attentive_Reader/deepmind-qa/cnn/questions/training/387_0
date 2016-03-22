@@ -1,17 +1,12 @@
-9
+4
 
-  the movie stars @ent6 as @ent3 ( not   related to elvis ) , who comes from @ent8 to @ent2 , where she auditions at @ent5 .
+@entity1 is a collection of comic sketches by @entity3 that was first published in @entity2 .
 
-i love the nightlife : the bluebird cafe in this @ent1 city was featured prominently in @ent4 film " @ent7 "
+literature : he wrote " @entity1 " , " @entity1 and son " & " penrod jashber "
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Tenn.
-@ent2:Nashville
-@ent3:Miranda Presley
-@ent4:the River Phoenix
-@ent5:The Bluebird Cafe
-@ent6:Samantha Mathis
-@ent7:The Thing Called Love
-@ent8:New York City
+@entity0:
+@entity1:Penrod
+@entity2:1914
+@entity3:Booth Tarkington

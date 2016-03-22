@@ -1,17 +1,16 @@
-9
+8
 
-the other incorporated cities in the @ent1 are @ent8 , @ent2 , @ent4 , @ent7 , and @ent3 .
+  life   born in @entity3 , @entity5 , @entity6 spent his early life in @entity7 , @entity1 , with his paternal grandparents after his parents ' marriage failed .
 
-warner bros. : you can tour the @ent5 lot online , or in person in this @ent6 city
+the state of my birth : @entity6 , @entity4 , @entity2
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Valley
-@ent2:Burbank
-@ent3:Calabasas
-@ent4:San Fernando
-@ent5:Warner Bros.
-@ent6:San Fernando Valley
-@ent7:Hidden Hills
-@ent8:Glendale
+@entity0:
+@entity1:South Carolina
+@entity2:Rosalynn Carter
+@entity3:Augusta
+@entity4:Julia Roberts
+@entity5:Georgia
+@entity6:Jasper Johns
+@entity7:Allendale

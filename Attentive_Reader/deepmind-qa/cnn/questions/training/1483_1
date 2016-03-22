@@ -1,17 +1,15 @@
-9
+7
 
-@ent4 attempted to buy the rights back , however , @ent6 wished , instead , to sell the engines directly .
+@entity2 , @entity5 pirate
 
-@ent1 : @ent7 east of @ent8 , the city of @ent5 in this state is home to @ent3
+first year of the century : in @entity1 @entity4 sacked this city that 's now the capital of @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:ROCHESTER
-@ent2:Michigan
-@ent3:Oakland University
-@ent4:GM
-@ent5:Rochester
-@ent6:Rover
-@ent7:9 miles
-@ent8:Pontiac
+@entity0:
+@entity1:1401
+@entity2:Klaus Störtebeker
+@entity3:Iraq
+@entity4:Tamerlane
+@entity5:German
+@entity6:Baghdad

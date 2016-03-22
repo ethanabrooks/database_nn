@@ -1,19 +1,19 @@
 11
 
-@ent7 the @ent5 capital @ent9 are usually bilingual in @ent4 and @ent10 .
+@entity5 the @entity9 capital @entity2 are usually bilingual in @entity3 and @entity10 .
 
-@ent6 capitals : in @ent2 , during the reign of @ent3 , the @ent1 rulers moved their capital from @ent8 to this city
+@entity6 capitals : in @entity7 , during the reign of @entity4 , the @entity8 rulers moved their capital from @entity1 to this city
 
-@ent9
+@entity2
 
-@ent0:
-@ent1:Durrani
-@ent2:1776
-@ent3:Timur Shah
-@ent4:Pashto
-@ent5:Afghan
-@ent6:ASIAN
-@ent7:The Durrani Pashtuns of
-@ent8:Kandahar
-@ent9:Kabul
-@ent10:Dari Persian
+@entity0:
+@entity1:Kandahar
+@entity2:Kabul
+@entity3:Pashto
+@entity4:Timur Shah
+@entity5:The Durrani Pashtuns of
+@entity6:ASIAN
+@entity7:1776
+@entity8:Durrani
+@entity9:Afghan
+@entity10:Dari Persian

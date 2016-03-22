@@ -1,12 +1,18 @@
-4
+10
 
-p.   491
+  the city has @entity4 artificial lakes : the tirana artificial lake around which was built the big park , @entity3 ,   @entity3 , @entity3 , and other smaller lakes or reservoirs .
 
-authors ' native lands : writer of " @ent1 " @ent2
+@entity7 capitals : @entity9 commander @entity8 founded @entity1 , this country 's capital
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ficciones
-@ent2:Jorge Luis Borges
-@ent3:Argentina
+@entity0:
+@entity1:Tirana
+@entity2:Albania
+@entity3:Farka Lake
+@entity4:four
+@entity5:Tufina Lake
+@entity6:Paskuqani Lake
+@entity7:EUROPEAN
+@entity8:B. Suleiman Pasha
+@entity9:Ottoman

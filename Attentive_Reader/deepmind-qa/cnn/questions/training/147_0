@@ -1,14 +1,15 @@
-6
+7
 
-an account of corsica is the earliest piece of writing related to the grand tour literature that was written by the @ent1 author @ent2 .
+@entity2 : @entity1 , @entity5 is a @entity3 biography of general of the army douglas macarthur by @entity4 historian @entity6 .
 
-the " james " gang : his @ent5 major work was " @ent3 " ; his most famous , an account of @ent4
+biographies : @entity6 kept this soldier from fading away in his biography " @entity2 "
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Scottish
-@ent2:James Boswell
-@ent3:An Account of Corsica
-@ent4:Samuel Johnson
-@ent5:first
+@entity0:
+@entity1:Douglas MacArthur
+@entity2:American Caesar
+@entity3:1978
+@entity4:American
+@entity5:1880-1964
+@entity6:William Manchester

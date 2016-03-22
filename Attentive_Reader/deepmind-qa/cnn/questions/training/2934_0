@@ -1,16 +1,13 @@
-8
+5
 
-president @ent4 's nomination of @ent1 to become @ent5 secretary of commerce in @ent3 was not confirmed by the @ent7 .
+@entity3 ( wvu ) is a public land grant research university in @entity4 , @entity1 , @entity2 .
 
-secretaries of commerce : though sworn in @ent6 , @ent2 was denied confirmation by this body in @ent3
+did you hear about the morgans ? : it 's home to @entity3
 
-@ent7
+@entity4
 
-@ent0:
-@ent1:Strauss
-@ent2:Lewis Strauss
-@ent3:1959
-@ent4:Eisenhower
-@ent5:U.S.
-@ent6:7 months earlier
-@ent7:Senate
+@entity0:
+@entity1:West Virginia
+@entity2:United States
+@entity3:West Virginia University
+@entity4:Morgantown

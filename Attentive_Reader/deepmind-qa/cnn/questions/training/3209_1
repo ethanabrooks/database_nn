@@ -1,15 +1,14 @@
-7
+6
 
-@ent4 ( born @ent2 ) is an @ent3 author , teacher , and adventurer .
+@entity3 fat margot , keeper of a tavern - brothel –
 
-st. paul - y girl : former @ent5 teacher @ent4 is the @ent1 woman to reach both these extremes by land
+@entity1 : this star of the " naked gun " movies made his feature film debut in the @entity2 musical " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:first
-@ent2:September 29, 1955
-@ent3:American
-@ent4:Ann Bancroft
-@ent5:St. Paul
-@ent6:North
+@entity0:
+@entity1:MOVIE DEBUTS
+@entity2:1956
+@entity3:Earl Waldo
+@entity4:The Vagabond King
+@entity5:Leslie Nielsen

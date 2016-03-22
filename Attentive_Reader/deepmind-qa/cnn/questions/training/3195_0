@@ -1,14 +1,16 @@
-6
+8
 
-   @ent3    @ent1 branded vehicles are manufactured by @ent3 , which along with @ent5 comprises the @ent1 @ent4 .
+@entity1 is a port city and commune in southern @entity2 , located at the northern end of @entity4 in the llanquihue province , los lagos region , @entity3   km to the south of the capital , @entity5 .
 
-you've got company : now owned by @ent1 , this company 's models include the @ent2 sedan & the rio compact
+@entity7 : the pan - american highway 's southernmost point is @entity1 , @entity6 south of @entity5 in this country
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:Hyundai
-@ent2:Optima
-@ent3:Hyundai Motor Company
-@ent4:Kia Automotive Group
-@ent5:Kia
+@entity0:
+@entity1:Puerto Montt
+@entity2:Chile
+@entity3:1,055
+@entity4:the Reloncaví Sound
+@entity5:Santiago
+@entity6:560 miles
+@entity7:TRANSPORTATION

@@ -1,15 +1,12 @@
-7
+4
 
-@ent2 .
+  because of its hilly terrain , most of the people in the galilee live in small villages connected by relatively few roads .
 
-@ent3 : @ent4 , @ent5 & @ent6
+countries ' highest points : @entity3 in @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Auto Racing
-@ent2:Simon & Schuster
-@ent3:THE SPORT PLAYED
-@ent4:Bobby Rahal
-@ent5:Danny Sullivan
-@ent6:Michael Andretti
+@entity0:
+@entity1:Israel
+@entity2:Galilee
+@entity3:Mount Meron

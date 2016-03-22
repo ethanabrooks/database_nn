@@ -1,17 +1,15 @@
-9
+7
 
-@ent4 can refer to :    @ent8 , the @ent6 @ent3 to explore @ent5 .
+married @entity1 ; a @entity2 @entity6 dancer .
 
-historic america : @ent1 , on the coast of this @ent5 city , marks the site where @ent4 landed in @ent2
+straight men : " my friend irma " was his @entity3 film debut ; he may have heard @entity4 say , " hey laaaaaaady ! " a lot
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cabrillo Nat'l Monument
-@ent2:1542
-@ent3:European
-@ent4:Cabrillo
-@ent5:California
-@ent6:first
-@ent7:San Diego
-@ent8:Juan Rodriguez Cabrillo
+@entity0:
+@entity1:February 13, 1983
+@entity2:32-year-old
+@entity3:1949
+@entity4:Jerry Lewis
+@entity5:Dean Martin
+@entity6:Las Vegas

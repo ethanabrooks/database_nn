@@ -1,12 +1,16 @@
-4
+8
 
-these wienermobiles were piloted by " little oscar " who would visit stores , schools , orphanages , and children 's hospitals and participate in parades and festivals .
+  @entity5 –
 
-the producer : this brand 's @ent1 dates back to @ent2
+" b " in geography : this southern @entity6 capital city 's @entity2 @entity7 visitor was @entity3 in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Wienermobile
-@ent2:1936
-@ent3:Oscar Mayer
+@entity0:
+@entity1:1536
+@entity2:first
+@entity3:Pedro de Mendoza
+@entity4:Buenos Aires
+@entity5:February 2
+@entity6:South American
+@entity7:European

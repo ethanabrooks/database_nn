@@ -1,13 +1,15 @@
-5
+7
 
-  @ent1 .
+reprinted , @entity2 , @entity3 .
 
-world religions : his book " @ent2 " gave rise to @ent4
+all hail : @entity6 , @entity1 , @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2
-@ent2:Dianetics
-@ent3:L. Ron Hubbard
-@ent4:the Church of Scientology
+@entity0:
+@entity1:Henry Wadsworth Longfellow
+@entity2:Books for Libraries Press
+@entity3:1972
+@entity4:Margaret Chase Smith
+@entity5:Maine
+@entity6:Edna St. Vincent Millay

@@ -1,14 +1,13 @@
-6
+5
 
-retrieved @ent2 .
+upon announcing the refusal of the budgeted grant money for the state , his office stated , " there is much uncertainty surrounding the ability of the federal government to meet its already budgeted future spending obligations .
 
-remember @ent5 ? : army troops seized a pajama - ed @ent1 , president of this central @ent4 nation , & sent him into exile
+state the state : @entity4 @entity2 & @entity1 are its senate delegation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Manuel Zelaya
-@ent2:July 2009
-@ent3:Honduras
-@ent4:American
-@ent5:2009
+@entity0:
+@entity1:Pat Roberts
+@entity2:Sam Brownback
+@entity3:Kansas
+@entity4:Republicans

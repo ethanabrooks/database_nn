@@ -1,11 +1,14 @@
-3
+6
 
-staff . "
+@entity4 4 played by @entity2 .
 
-women photographers : berenice abbott assisted @ent1 before opening her own portrait studio , where she photographed this " orphée " writer
+posthumous works : " @entity5 " is a comic journey through the galaxy of this @entity3 creator
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Man Ray
-@ent2:Jean Cocteau
+@entity0:
+@entity1:Douglas Adams
+@entity2:Harry Enfield
+@entity3:Dirk Gently
+@entity4:BBC Radio
+@entity5:The Salmon of Doubt

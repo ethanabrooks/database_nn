@@ -1,13 +1,15 @@
-5
+7
 
-thumb|righttippecanoe river is a state park in @ent3 , @ent4 , @ent2 .
+moneyball : the art of winning an unfair game is a book by @entity6 , published in @entity5 , about @entity3 baseball team and its general manager @entity1 .
 
-state parks : @ent1
+in the bookstore : @entity1 , this team 's wizard of a general manager , is profiled in @entity2 " @entity4 "
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:Tippecanoe River State Park
-@ent2:United States
-@ent3:Pulaski County
-@ent4:Indiana
+@entity0:
+@entity1:Billy Beane
+@entity2:Michael Lewis'
+@entity3:the Oakland Athletics
+@entity4:Moneyball
+@entity5:2003
+@entity6:Michael Lewis

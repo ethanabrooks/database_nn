@@ -1,14 +1,12 @@
-6
+4
 
-the polo lounge is located inside the @ent3 at @ent1 , @ent2 , @ent5 .
+" @entity2 " is a popular country/novelty song written , produced , and sung by @entity3 .
 
-beverly hills : nicknamed the " pink palace " , it 's home to the world famous @ent4 -- check in & check it out
+' 70s fads & fashions : in @entity1 this singer streaked to the top of the pop charts with the fad - based song " @entity2 "
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:9641 Sunset Boulevard
-@ent2:Beverly Hills
-@ent3:Beverly Hills Hotel
-@ent4:Polo Lounge
-@ent5:California
+@entity0:
+@entity1:1974
+@entity2:The Streak
+@entity3:Ray Stevens

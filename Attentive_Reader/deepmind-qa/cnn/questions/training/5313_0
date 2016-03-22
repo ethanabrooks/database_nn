@@ -1,23 +1,17 @@
-15
+9
 
-@ent11 can refer to :   places @ent11 , @ent10 , a village in @ent10 municipality , @ent3 , @ent2 , @ent5 , a village in @ent3 , @ent2 , @ent8   the town of @ent11 , @ent6 , @ent1   @ent11 , @ent4   other   @ent11 ( name ) , @ent7 masculine given name @ent2 farm was listed on @ent9 in @ent14 .
+it is one of the @entity1 books that was used to create the movie @entity4 , the other being the @entity3 .
 
-state of interest : the town of @ent11 ( navel , backwards ) is located in the middle of this state whose symbol is a beehive
+films of the ' @entity2 : @entity7 had rights to " @entity6 , @entity5 had rights to " @entity4 " & this movie was the result
 
-@ent8
+@entity4
 
-@ent0:
-@ent1:United Kingdom
-@ent2:Albania Levan
-@ent3:Fier County
-@ent4:Afghanistan
-@ent5:Berat
-@ent6:Inverclyde
-@ent7:Georgian
-@ent8:Utah
-@ent9:the National Register of Historic Places
-@ent10:Fier
-@ent11:Levan
-@ent12:Berat County
-@ent13: Levan
-@ent14:1978
+@entity0:
+@entity1:two
+@entity2:70s
+@entity3:Tower
+@entity4:The Glass Inferno
+@entity5:Fox
+@entity6:The Tower"
+@entity7:Warner Bros.
+@entity8:The Towering Inferno

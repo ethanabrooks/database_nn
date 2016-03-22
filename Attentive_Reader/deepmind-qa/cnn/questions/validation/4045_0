@@ -1,18 +1,13 @@
-10
+5
 
-@ent6 , p. @ent7 . @ent8 and her elder sister @ent1 are the only set of siblings to have won lead acting @ent4 .
+talara is a province in @entity4 , @entity3 .
 
-birthplaces : she was born in @ent2 on @ent9 ; her sister @ent5 was born there @ent3
+south american geography : punta pariñas , @entity2 westernmost mainland point , lies in this country 's @entity1
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Olivia de Havilland
-@ent2:Tokyo
-@ent3:the following year
-@ent4:Academy Awards
-@ent5:Joan Fontaine
-@ent6:Booker 2011
-@ent7:134
-@ent8:Fontaine
-@ent9:July 1, 1916
+@entity0:
+@entity1:Talara province
+@entity2:South America's
+@entity3:Peru
+@entity4:the Piura Region

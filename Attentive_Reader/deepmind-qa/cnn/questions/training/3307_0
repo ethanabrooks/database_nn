@@ -1,17 +1,14 @@
-9
+6
 
-retrieved @ent6 , 2012ossie @ent2 of @ent4 @ent5 .
+" @entity1 " is a folk rock song written by @entity4 and @entity3 about @entity5 , and is one of the @entity2 official state songs of @entity5 .
 
-old hollywood : at @ent7 this widow of @ent3 received an @ent8 nomination for " @ent1 "
+state slogans : " @entity1 "
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:American Gangster
-@ent2:Davis Television Credits Official Website
-@ent3:Ossie Davis
-@ent4:Ossie Davis &
-@ent5:Ruby Dee
-@ent6:March 17
-@ent7:83
-@ent8:Oscar
+@entity0:
+@entity1:Rocky Mountain High
+@entity2:two
+@entity3:Mike Taylor
+@entity4:John Denver
+@entity5:Colorado

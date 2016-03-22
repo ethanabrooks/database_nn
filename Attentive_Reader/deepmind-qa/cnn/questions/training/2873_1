@@ -1,20 +1,16 @@
-12
+8
 
-over @ent6 in @ent9 , @ent2 swam from @ent5 to @ent1 , setting a distance record for non - stop swimming without a wetsuit that still stands @ent4 .
+many of her works display her thorough knowledge of biology and ecology ; for example , the novel @entity5 has extensive commentary on the value of higher predators in ecosystems , and many of her essays in the book @entity4 are based upon the lessons of biodiversity .
 
-newsmakers of the ' @ent7 : in @ent11 @ent10 tried to swim from this @ent3 capital to @ent1 in a shark - proof cage
+books & authors : in @entity6 was this @entity1 saga of a @entity3 missionary & his family in the @entity2 congo
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Florida
-@ent2:Nyad
-@ent3:Cuban
-@ent4:today
-@ent5:Bimini
-@ent6:two days
-@ent7:70s
-@ent8:Havana
-@ent9:1979
-@ent10:Diana Nyad
-@ent11:1978
+@entity0:
+@entity1:Barbara Kingsolver
+@entity2:Belgian
+@entity3:Southern
+@entity4:Small Wonder
+@entity5:Prodigal Summer
+@entity6:the beginning
+@entity7:The Poisonwood Bible

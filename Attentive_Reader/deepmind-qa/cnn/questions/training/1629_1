@@ -1,14 +1,17 @@
-6
+9
 
-@ent5 's art through the ages .
+  @entity2 and @entity6 are in @entity1 .
 
-art & artists : this pop artist 's @ent2 painting " @ent4 " is in @ent1
+oceania : the largest city in @entity4 outside @entity7 & @entity8 is @entity5 in this nation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Whitney Museum
-@ent2:1962
-@ent3:Andy Warhol
-@ent4:Green Coca-Cola Bottles
-@ent5:Gardner
+@entity0:
+@entity1:Waigani
+@entity2:The PNG National Museum
+@entity3:Papua New Guinea
+@entity4:Oceania
+@entity5:Port Moresby
+@entity6:National Library
+@entity7:Hawaii
+@entity8:New Zealand

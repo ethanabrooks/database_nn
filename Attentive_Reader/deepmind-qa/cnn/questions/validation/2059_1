@@ -1,13 +1,12 @@
-5
+4
 
-a @ent2 , little , brown and co. , ( @ent1 )
+the maiolica industry at @entity2 reached its apogee in @entity1 , with metallic lustre glazes imitating gold and copper .
 
-painted ladies : this painting by @ent4 depicts his neighbor crawling through the grass toward her farmhouse
+wolf gang : in a medieval legend , the town of @entity2 is terrorized by a wolf until this saint greets it & tames it
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2000
-@ent2:Century of Change
-@ent3:Christina's World
-@ent4:Andrew Wyeth
+@entity0:
+@entity1:the first half of the 16th century
+@entity2:Gubbio
+@entity3:St. Francis of Assisi

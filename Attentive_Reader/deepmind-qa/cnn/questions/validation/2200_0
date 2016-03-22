@@ -1,17 +1,11 @@
-9
+3
 
-  @ent6 portrays @ent5 , the now mother of @ent4 , @ent3 , and @ent5 now , and the wife of @ent5 .
+he is played by @entity1 .
 
-an hour of tv : this ' @ent2 teen actress plays a mom on " @ent1 "
+mike tv : he played the title detective on the long - running series " @entity2 "
 
-@ent6
+@entity1
 
-@ent0:
-@ent1:The Secret Life of the American Teenager
-@ent2:80s
-@ent3:Ashley
-@ent4:Amy
-@ent5:Anne Juergens
-@ent6:Molly Ringwald
-@ent7:Robert Juergens
-@ent8:George Juergens
+@entity0:
+@entity1:Mike Connors
+@entity2:Mannix

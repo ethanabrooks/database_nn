@@ -1,13 +1,11 @@
-5
+3
 
-@ent3 .
+he was accused of appointing an attorney general who would reduce the charges and prosecutors ruled that there was insufficient evidence to go to trial .
 
-ancient egypt : a @ent2 scholar named @ent4 wrote a bibliographical survey of the authors of the books held here
+they used to be in charge : @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Alexandrian Library
-@ent2:Greek
-@ent3:ISBN 978-0-19-958101-6
-@ent4:Callimachus
+@entity0:
+@entity1:Israel
+@entity2:Benjamin Netanyahu

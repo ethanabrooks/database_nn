@@ -1,14 +1,13 @@
-6
+5
 
-negotiations dragged on into @ent1 with a contract finally signed in @ent3 .
+in a single paragraph @entity4 recaps @entity2 and foreign films .
 
-childrens literature : the illustrator of @ent2 's " @ent5 "
+20th century women : her books include " i lost it at the movies " & " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the following year
-@ent2:1902
-@ent3:June 1902
-@ent4:Beatrix Potter
-@ent5:The Tale of Peter Rabbit
+@entity0:
+@entity1:5001 Nights At The Movies
+@entity2:American
+@entity3:Pauline Kael
+@entity4:Kael

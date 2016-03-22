@@ -1,16 +1,13 @@
-8
+5
 
-@ent1 , the @ent5 , 3rd ed . , @ent4 , @ent6 : @ent3 , @ent2 .
+@entity2 , called @entity1 by the @entity4 tribe , is a potentially active stratovolcano in the cascade volcanic arc of northern @entity3 .
 
-dogs : despite its name , @ent7 originated in this country , as did the @ent5
+top o ' the state : @entity2
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:Adolf Pienkoss
-@ent2:2008
-@ent3:Internationale Föderation der Rottweilerfreunde
-@ent4:Borken
-@ent5:Rottweiler
-@ent6:Germany
-@ent7:the Great Dane
+@entity0:
+@entity1:Wy'east
+@entity2:Mount Hood
+@entity3:Oregon
+@entity4:Multnomah

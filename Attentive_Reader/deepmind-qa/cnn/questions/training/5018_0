@@ -1,14 +1,17 @@
-6
+9
 
-the state capital is @ent2 ; the largest city is @ent4 am @ent3 .
+after his career at @entity1 , he joined @entity5 in @entity6 and retired in @entity2 after @entity7 .
 
-european cities : referring to the mineral springs , the name of this @ent5 resort city in @ent1 means " baths on the meadow "
+leader of the " pack " : @entity8 , @entity3 ( no , not that @entity4 ) are in this team 's hall of fame
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Hesse
-@ent2:Wiesbaden
-@ent3:Main
-@ent4:Frankfurt
-@ent5:German
+@entity0:
+@entity1:Alabama
+@entity2:1945
+@entity3:Paul Hornung & Lou Brock
+@entity4:Lou Brock
+@entity5:the Green Bay Packers
+@entity6:1935
+@entity7:11 seasons
+@entity8:Don Hutson

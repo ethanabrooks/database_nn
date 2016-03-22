@@ -1,15 +1,22 @@
-7
+14
 
-  @ent1 is successor to the nation 's oldest technical school , @ent6 , established in @ent5 and renamed his majesty 's naval academy in @ent4 .
+  @entity5 college @entity11 's centre for applied zoology has @entity3 buildings , @entity4 @entity1 , opened by his wife @entity6 in @entity13    species and homages @entity8 salanoia durrelli : a carnivoran species related to the brown - tailed mongoose , from @entity2 , @entity9 .
 
-countries of the world : you 'll find this country 's major airports in @ent3 , burgas & sofia
+authors : this author of " @entity12 " was the elder brother of zoologist & writer @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Nikola Vaptsarov Naval Academy
-@ent2:Bulgaria
-@ent3:Varna
-@ent4:1942
-@ent5:1881
-@ent6:the Naval Machinery School
+@entity0:
+@entity1:the Durrell Building
+@entity2:Lake Alaotra
+@entity3:two
+@entity4:one
+@entity5:Cornwall
+@entity6:Gerald Durrell
+@entity7:Lee Durrell
+@entity8:   
+@entity9:Madagascar
+@entity10:Lawrence Durrell
+@entity11:Newquay
+@entity12:The Alexandria Quartet
+@entity13:2007

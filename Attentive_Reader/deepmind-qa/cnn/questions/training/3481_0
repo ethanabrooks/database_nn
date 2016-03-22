@@ -1,15 +1,19 @@
-7
+11
 
-@ent3 square park is a   public park in the @ent6 neighborhood of @ent4 , @ent1 .
+@entity3 ( born @entity7 ) is a @entity8 - born @entity6 journalist who is a @entity10 correspondent for @entity9 .
 
-@ent5 : @ent2 is the hub of this area of @ent6
+african history : ( i 'm author and journalist @entity3 . ) in @entity5 a government based on that of the @entity2 was established by free black men & former slaves in the @entity4 nation they called this
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Manhattan
-@ent2:Washington Square Park
-@ent3:Washington
-@ent4:Greenwich Village
-@ent5:VILLAGES
-@ent6:New York City
+@entity0:
+@entity1:Liberia
+@entity2:U.S.
+@entity3:Helene Cooper
+@entity4:West African
+@entity5:1847
+@entity6:American
+@entity7:April 22, 1966
+@entity8:Liberian
+@entity9:the New York Times
+@entity10:Pentagon

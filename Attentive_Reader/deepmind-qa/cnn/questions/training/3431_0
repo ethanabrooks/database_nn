@@ -1,14 +1,14 @@
 6
 
-@ent2 is a private liberal arts college located in @ent1 , @ent3 , @ent5 .
+@entity3 , @entity1 is a history museum complex in @entity2 , @entity5 .
 
-@ent4 : @ent2 , in this state capital , is called the oldest institution of higher learning in the west
+around the usa : history buffs enjoy touring @entity4 , a reconstructed pioneer village in @entity2 in this state
 
-@ent1 , @ent3
+@entity5
 
-@ent0:
-@ent1:Salem
-@ent2:Willamette University
-@ent3:Oregon
-@ent4:COLLEGES & UNIVERSITIES
-@ent5:United States
+@entity0:
+@entity1:USA
+@entity2:West Fargo
+@entity3:Bonanzaville
+@entity4:Bonanzaville, USA
+@entity5:North Dakota

@@ -1,19 +1,13 @@
-11
+5
 
-  @ent3 as businessman # 1   @ent7 as @ent4   @ent9 as lounge singer   @ent6 as little breather   @ent2 ( uncredited ) as ticket agent   @ent5 magazine commented that " it ca n't be said that airplane ii is no better or worse than its predecessor .
+it is also the home town of association football player @entity1 .
 
-getting your actor together : " @ent10 anchorman " in " @ent8 " , he 's a bit more well - known as a tv vowel salesman
+railroad ties : the trans - siberian rr , the world 's longest track , covers @entity2 from @entity3 to this capital
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Pat Sajak
-@ent2:George Wendt
-@ent3:Michael Currie
-@ent4:Phoenix Six Captain
-@ent5:Reception Variety
-@ent6:Herve Villechaize
-@ent7:Lee Patterson
-@ent8:Airplane II: The Sequel
-@ent9:Jack Jones
-@ent10:Buffalo
+@entity0:
+@entity1:Viktor Fayzulin
+@entity2:5,700 miles
+@entity3:Nakhodka
+@entity4:Moscow

@@ -1,23 +1,16 @@
-15
+8
 
-this region is the birthplace of many prominent @ent12 politicians , such as @ent10 , @ent8 , @ent5 , @ent1 , @ent9 , @ent14 , @ent6 , @ent1 , @ent2 , @ent7 and @ent3 .
+during the @entity7 flight , the crew of @entity4 conducted a wide variety of materials science experiments , both on the wake shield facility and in the spacehab , earth observation , and life science experiments .
 
-world leaders : in @ent11 he was born the son of a tembu chief in what 's now @ent13 province
+@entity3 : @entity5 " found " himself the @entity2 @entity6 to fly on a @entity1 spacecraft , this space shuttle
 
-@ent10
+@entity4
 
-@ent0:
-@ent1:Thabo Mbeki
-@ent2:Steve Biko
-@ent3:Charles Coghlan
-@ent4:Govan Mbeki
-@ent5:Walter Sisulu
-@ent6:Chris Hani
-@ent7:Bantu Holomisa
-@ent8:Oliver Tambo
-@ent9:Raymond Mhlaba
-@ent10:Nelson Mandela
-@ent11:1918
-@ent12:South African
-@ent13:Eastern Cape
-@ent14:Robert Mangaliso Sobukwe
+@entity0:
+@entity1:U.S.
+@entity2:first
+@entity3:1994
+@entity4:Discovery
+@entity5:Sergei Krikalev
+@entity6:Russian
+@entity7:eight-day

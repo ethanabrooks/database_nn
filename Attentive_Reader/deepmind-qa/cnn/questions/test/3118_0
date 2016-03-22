@@ -1,17 +1,11 @@
-9
+3
 
-@ent6 ( ; born @ent5 @ent4 ) is the founder and leader of the @ent3 musical group @ent2 and has played on every one of their albums .
+sophisticated ladies is a musical revue based on the music of @entity1 .
 
-history on tv : @ent6 of the @ent8 produced the soundtrack for @ent1 ' series on these people " in @ent7 "
+musical nobility : the revue " @entity2 " is based on the music of this " noble " composer & bandleader
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:PBS
-@ent2:The Chieftains
-@ent3:Irish
-@ent4:August 1938
-@ent5:1
-@ent6:Paddy Moloney
-@ent7:America
-@ent8:Chieftains
+@entity0:
+@entity1:Duke Ellington
+@entity2:Sophisticated Ladies

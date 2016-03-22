@@ -1,16 +1,13 @@
-8
+5
 
-@ent3 , a member of @ent4 , served as mayor of @ent2 from @ent7 .
+@entity3 is a fictional character on the @entity2 television show @entity1 .
 
-@ent6 mayors : @ent5 was elected mayor of this city when @ent1 died after the primary
+tv pop quiz : @entity4
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Frank Rizzo
-@ent2:Philadelphia
-@ent3:Rendell
-@ent4:the Democratic Party
-@ent5:Ed Rendell
-@ent6:U.S.
-@ent7:1992 to 2000
+@entity0:
+@entity1:Frasier
+@entity2:American
+@entity3:Martin "Marty" Crane
+@entity4:Martin Crane

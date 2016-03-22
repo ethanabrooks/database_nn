@@ -1,19 +1,14 @@
-11
+6
 
-  @ent9 literary critic @ent10 claimed in his book @ent3 that the character of @ent6 was based on journalist @ent2 .
+the area is home to a variety of wildlife including raccoon , egrets , hawks , and coyotes .
 
-contemporary novelists : @ent8 's @ent1 wrote " @ent7 " & this @ent9 woman wrote " @ent4 "
+all around new york : while @entity3 in the @entity1 is @entity2 's largest park , this 840-acre one in @entity5 is more famous
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Eudora Welty
-@ent2:Barbara Amiel
-@ent3:Character Parts: Who's Really Who in Canlit
-@ent4:The Robber Bride
-@ent5:Margaret Atwood
-@ent6:Zenia
-@ent7:The Robber Bridegroom
-@ent8:America
-@ent9:Canadian
-@ent10:Brian Busby
+@entity0:
+@entity1:Bronx
+@entity2:NYC
+@entity3:Pelham Bay Park
+@entity4:Central Park
+@entity5:Manhattan

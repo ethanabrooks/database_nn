@@ -1,16 +1,14 @@
-8
+6
 
-he is succeeded by his brother @ent4 .
+the @entity2 arena is already undergoing major expansion beginning in @entity4 of 2014 with the goal of expanding to @entity3 seats .
 
-@ent3 : @ent2 posthumous @ent1 bestseller inspired this @ent7 name of a prince born in @ent6
+state capitals : @entity1 is located in this state capital
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1485
-@ent2:Thomas Malory's
-@ent3:BRITISH ROYAL NAMES
-@ent4:Auitzotl
-@ent5:Arthur
-@ent6:1486
-@ent7:first
+@entity0:
+@entity1:Grand Canyon University
+@entity2:three-year-old
+@entity3:about 7,000
+@entity4:Spring
+@entity5:Phoenix

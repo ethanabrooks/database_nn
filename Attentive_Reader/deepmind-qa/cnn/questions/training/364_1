@@ -1,22 +1,13 @@
-14
+5
 
-@ent9 @ent1 , graig   great western/gyfeillion colliery , hopkinstown   lan colliery , hopkinstown   newbridge colliery , graig   pen - y-rhiw colliery , graig   pontypridd/maritime collieries , graig & maesycoed   pwllgwaun colliery/'dan 's muck hole ' , @ent12   red ash colliery , cilfynydd   ty - mawr colliery , hopkinstown & pantygraigwen   typica colliery , hopkinstown & pantygraigwen and   @ent7 , @ent10   as well as the deep - mined collieries , there were many coal levels and trial shafts dug into the hillsides overlooking the town from @ent2 , @ent8 , @ent13 , and @ent3 .
+these areas operate under separate regulations .
 
-tom jones : @ent4 was born the son of a coal miner in @ent5 in this @ent11 country
+@entity4 : @entity3 , along @entity2 , is the smallest of this country 's national parks
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Colliery
-@ent2:Cilfynydd
-@ent3:Hafod
-@ent4:Tom
-@ent5:Pontypridd
-@ent6:Wales
-@ent7:Victoria Colliery
-@ent8:Graig
-@ent9: Gelli-whion
-@ent10:Maesycoed
-@ent11:U.K.
-@ent12:Pwllgwaun
-@ent13:Graigwen
+@entity0:
+@entity1:New Zealand
+@entity2:Tasman Bay
+@entity3:Abel Tasman National Park
+@entity4:NATIONAL PARKS OF THE WORLD

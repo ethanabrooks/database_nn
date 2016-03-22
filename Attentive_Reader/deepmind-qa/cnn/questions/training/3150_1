@@ -1,19 +1,14 @@
-11
+6
 
-  @ent5 and @ent4 , @ent2 play in @ent3 , features the encounter of @ent7 and @ent8 , @ent1 of the boys who inspired @ent9 character .
+  cooper , @entity5 , history of the @entity3 ( @entity4 ) .
 
-photography : this author excelled as a photographer of children & @ent6 was @ent1 of his subjects
+ships : the flagship of @entity2 was named for this captain who said , " do n't give up the ship "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:one
-@ent2:John Logan's
-@ent3:2013
-@ent4:Alice
-@ent5:Peter
-@ent6:Alice Liddell
-@ent7:Alice Liddell Hargreaves
-@ent8:Peter Llewelyn Davies
-@ent9:the Peter Pan
-@ent10:Lewis Carroll
+@entity0:
+@entity1:James Lawrence
+@entity2:Oliver Hazard Perry
+@entity3:Navy
+@entity4:1839
+@entity5:James Fenimore

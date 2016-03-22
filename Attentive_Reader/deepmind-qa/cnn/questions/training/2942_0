@@ -1,13 +1,12 @@
-5
+4
 
-is the largest and only permanently populated island of the svalbard archipelago in northern @ent3 .
+@entity2 , located in north - central @entity3 , is part of the forested @entity1 ridge that forms the eastern rampart of the appalachian mountains .
 
-way up north : in this country @ent2 people live in @ent1 fewer than 5,000 live way up north on the island of @ent4
+parks : camp david , the presidential mountain retreat , is in @entity2 , in this state
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:Bergen &
-@ent2:200,000
-@ent3:Norway
-@ent4:Spitsbergen
+@entity0:
+@entity1:Catoctin Mountain
+@entity2:Catoctin Mountain Park
+@entity3:Maryland

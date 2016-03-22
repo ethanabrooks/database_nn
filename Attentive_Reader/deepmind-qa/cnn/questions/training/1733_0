@@ -1,13 +1,15 @@
-5
+7
 
-in @ent3 , this then became the famous " i 'll gladly pay you @ent4 for a hamburger @ent1 " .
+@entity1 )   @entity6 is a @entity3 novel by author and priest @entity4 .
 
-day time : @ent2 often said , " i will gladly pay you " this day " for a hamburger @ent1 "
+authors : this author of " @entity6 " was ordained a @entity2 priest in @entity5
 
-@ent4
+@entity4
 
-@ent0:
-@ent1:today
-@ent2:J. Wellington Wimpy
-@ent3:1932
-@ent4:Tuesday
+@entity0:
+@entity1:Warner Books
+@entity2:Catholic
+@entity3:1981
+@entity4:Andrew Greeley
+@entity5:1954
+@entity6:The Cardinal Sins

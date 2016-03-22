@@ -1,16 +1,12 @@
-8
+4
 
-de profundis refers to @ent6 ( @ent4 in the vulgate ) , traditionally known as the de profundis from its opening words in @ent7 .
+its territory corresponded with that of the current municipal unit @entity1 and the village @entity2 .
 
-prisoners ' sentences : this @ent3 wit 's " @ent5 " was inspired by his stay at @ent2
+a potent potable tour : i 'll ooze delight if you take me to the ouzo festival in @entity1 in this country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Oscar Wilde
-@ent2:Reading Gaol
-@ent3:Irish
-@ent4:129
-@ent5:De Profundis
-@ent6:Psalm 130
-@ent7:Latin
+@entity0:
+@entity1:Plomari
+@entity2:Stavros
+@entity3:Greece

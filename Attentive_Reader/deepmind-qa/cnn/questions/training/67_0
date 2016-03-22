@@ -1,15 +1,16 @@
-7
+8
 
-" @ent6 " is a short story published in @ent2 by @ent3 writer @ent5 .
+he was given his assignment largely due to his previous work investigating the @entity6 forts surrounding @entity5 , @entity7 .
 
-novelists : this author , a native of @ent4 , @ent1 , wrote about witchcraft in the @ent4 area in @ent2 's " @ent6 "
+generals : in @entity3 of @entity4 , general @entity1 captured the fortress city of @entity2 in this country
 
-@ent5
+@entity7
 
-@ent0:
-@ent1:Mass.
-@ent2:1835
-@ent3:American
-@ent4:Salem
-@ent5:Nathaniel Hawthorne
-@ent6:Young Goodman Brown
+@entity0:
+@entity1:Erich Ludendorff
+@entity2:Liege
+@entity3:the early days
+@entity4:WWI
+@entity5:Liège
+@entity6:dozen
+@entity7:Belgium

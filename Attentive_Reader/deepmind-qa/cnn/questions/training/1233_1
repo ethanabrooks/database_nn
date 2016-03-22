@@ -1,15 +1,13 @@
-7
+5
 
-@ent3 is the oldest synagogue in @ent6 and a rare surviving example of an @ent1 synagogue .
+@entity1 's poem was widely published in newspaper accounts of the dedication ; in contrast there is no record of congressman @entity3 speech that day .
 
-flags : this @ent4 state 's flag features a red lion , just like the coat of arms of its capital , @ent2
+american poets : in " @entity2 " , he wrote , " here once the embattled farmers stood , and fired the shot heard round the world "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Egyptian Revival
-@ent2:Hobart
-@ent3:The Hobart Synagogue
-@ent4:Australian
-@ent5:Tasmania
-@ent6:Australia
+@entity0:
+@entity1:Emerson
+@entity2:Concord Hymn
+@entity3:Samuel Hoar's
+@entity4:Ralph Waldo Emerson

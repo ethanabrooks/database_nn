@@ -1,17 +1,23 @@
-9
+15
 
-  the book was acclaimed as the @ent3 " serious " work by @ent2 , who had previously been known for his mr. @ent6 spy novels and other popular fiction .
+  other performances of @entity14 include @entity12 , @entity7 , @entity6 , @entity10 , @entity13 , @entity3 , @entity2 , @entity5 , @entity8 , @entity11 and @entity4 .
 
-@ent1 : @ent7 , who won a @ent8 for " @ent4 , " created this @ent5 spy/detective
+shakespearean actors : he starred in " @entity14 " in @entity9 ; @entity1 he was " driving miss daisy "
 
-mr. @ent6
+@entity5
 
-@ent0:
-@ent1:AMERICAN LITERATURE
-@ent2:Marquand
-@ent3:first
-@ent4:The Late George Apley
-@ent5:Japanese
-@ent6:Moto
-@ent7:J.P. Marquand
-@ent8:Pulitzer
+@entity0:
+@entity1:a few years later
+@entity2:Christopher Walken
+@entity3:Robert Ryan
+@entity4:Tom Hiddleston
+@entity5:Morgan Freeman
+@entity6:Ian McKellen
+@entity7:Paul Scofield
+@entity8:Colm Feore
+@entity9:1979
+@entity10:Ian Richardson
+@entity11:Ralph Fiennes
+@entity12:Alan Howard
+@entity13:Toby Stephens
+@entity14:Coriolanus

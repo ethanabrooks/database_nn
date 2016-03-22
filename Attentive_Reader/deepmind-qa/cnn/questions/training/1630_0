@@ -1,17 +1,15 @@
-9
+7
 
-@ent8 ( born @ent3 @ent6 ) is a former politician from @ent5 ( @ent4 ) , who was the country 's last communist leader during @ent7 .
+after being convicted of murdering @entity3 and for piracy ,   captain @entity2 is hanged in @entity1 .
 
-eastern europe : in @ent2 this country 's leader , @ent1 , opened its borders to halt population loss
+people in history : claiming he was innocent , captain @entity4 was hanged in @entity5 in this @entity6 capital for murder & piracy
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Egon Krenz
-@ent2:1989
-@ent3:19
-@ent4:East Germany
-@ent5:the German Democratic Republic
-@ent6:March 1937
-@ent7:the final months of 1989
-@ent8:Egon Rudi Ernst Krenz
+@entity0:
+@entity1:London
+@entity2:William Kidd
+@entity3:William Moore
+@entity4:Kidd
+@entity5:1701
+@entity6:English

@@ -1,16 +1,14 @@
-8
+6
 
-@ent2 , 2002 , isbn 1 - 900924-41-2   @ent3 ( @ent6 )
+the album earned @entity1 @entity2 @entity3 nominations : best rap album and best rap solo performance for " the rain ( supa dupa fly ) " .
 
-led zeppelin : a member of @ent1 , this guitarist formed @ent4 under the name @ent7
+' 90s music : a successful songwriter & producer , she had " criminal " success with her debut album " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Yardbirds
-@ent2:Helter Skelter
-@ent3:Dick Heckstall-Smith
-@ent4:Led Zeppelin
-@ent5:Jimmy Page
-@ent6:2004
-@ent7:The New Yardbirds
+@entity0:
+@entity1:Elliott
+@entity2:two
+@entity3:Grammy Award
+@entity4:Supa Dupa Fly
+@entity5:Missy "Misdemeanor" Elliott

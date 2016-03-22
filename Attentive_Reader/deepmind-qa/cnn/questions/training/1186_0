@@ -1,14 +1,20 @@
-6
+12
 
-it gained its fame in @ent1 when @ent2 singer @ent3 recorded his version of it .
+@entity11 play and @entity5 musical that he wrote won @entity10 for drama : you ca n't take it with you ( @entity7 , with @entity3 ) , and of @entity2 i sing ( @entity9 , with @entity6 and @entity4 ) .
 
-waynes world : reaching no . 13 in @ent1 , " @ent5 " was this man 's @ent4 top 40 hit
+play time : @entity1 co - wrote " you ca n't take it with you " & " @entity8 " with this man
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:1963
-@ent2:American
-@ent3:Wayne Newton
-@ent4:first
-@ent5:Danke Schoen
+@entity0:
+@entity1:George S. Kaufman
+@entity2:Thee
+@entity3:Moss Hart
+@entity4:Ira Gershwin
+@entity5:one
+@entity6:Morrie Ryskind
+@entity7:1937
+@entity8:The Man Who Came to Dinner
+@entity9:1932
+@entity10:the Pulitzer Prize
+@entity11:One

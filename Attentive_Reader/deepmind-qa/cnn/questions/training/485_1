@@ -1,20 +1,16 @@
-12
+8
 
-@ent4 reported on her website that the @ent2 most popular fan suggestions for actors to play @ent9 were @ent8 , @ent11 , @ent1 and @ent5 .
+@entity4 , open access journal founded in @entity5
 
-@ent3 - word movies : @ent11 played dreamy vampire @ent10 in this @ent6 blockbuster
+college hodgepodge : @entity3 is @entity7 for " high hill " , but @entity3 is n't in @entity1 ; it 's in this @entity2 state
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Orlando Bloom
-@ent2:four
-@ent3:ONE
-@ent4:Meyer
-@ent5:Gerard Way
-@ent6:2008
-@ent7:Twilight
-@ent8:Hayden Christensen
-@ent9:Edward
-@ent10:Edward Cullen
-@ent11:Robert Pattinson
+@entity0:
+@entity1:Wales
+@entity2:U.S.
+@entity3:Bryn Mawr
+@entity4: Bryn Mawr Classical Review
+@entity5:1990
+@entity6:Pennsylvania
+@entity7:Welsh

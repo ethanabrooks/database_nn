@@ -1,13 +1,15 @@
-5
+7
 
-@ent3 ( mrs. @ent4 ) takes her husband 's paint and enamels and changes his unrestrained , sweeping lines into neat little squares and triangles."wagner , @ent1 .
+the @entity2 powder mystery is a novel that was written in @entity6 by @entity4 .
 
-art & artists : @ent3 , whose work is seen here , married this man in @ent2 & they influenced each other 's art
+" queen " for @entity3 : there 's no mystery that this sleuth solved " @entity1 " & " @entity1 "
 
-@ent4
+@entity4
 
-@ent0:
-@ent1:Anne
-@ent2:1945
-@ent3:Lee Krasner
-@ent4:Jackson Pollock
+@entity0:
+@entity1:The Roman Hat Mystery
+@entity2:French
+@entity3:A DAY
+@entity4:Ellery Queen
+@entity5:The French Powder Mystery
+@entity6:1930

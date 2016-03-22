@@ -1,19 +1,19 @@
 11
 
-the title track and " @ent8 " both reached @ent10 on the @ent3 country singles charts , " @ent4 " reached # @ent1 , and " king of the mountain " peaked at # @ent9 .
+the title track , a number @entity10 @entity3 hit , was the @entity4 song @entity5 had ever composed , written at @entity9 using " when you wish upon a star " as his inspiration .
 
-by george , it 's george ! : with hits like " @ent2 texas " & " @ent7 " , he 's " @ent5 "
+' @entity7 pop music : songwriter who gave us the classics   " help me @entity8 , " @entity1 " & " @entity6 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:4
-@ent2:All My Ex's Live in
-@ent3:Billboard
-@ent4:I Can Still Make Cheyenne
-@ent5:Pure Country
-@ent6:George Strait
-@ent7:Blue Clear Sky
-@ent8:Carried Away
-@ent9:19
-@ent10:Number One
+@entity0:
+@entity1:Surfer Girl
+@entity2:Brian Wilson
+@entity3:US
+@entity4:first
+@entity5:Brian
+@entity6:California Girls
+@entity7:60s
+@entity8:Rhonda"
+@entity9:the age of 19
+@entity10:7

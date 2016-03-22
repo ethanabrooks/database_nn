@@ -1,17 +1,19 @@
-9
+11
 
-the name also may appear as a @ent4 translation of the @ent7 @ent8 .
+this is acting   @entity4 ( band ) , a @entity10 rock band   see also       @entity9 ( " @entity2 " )   " walking on @entity3 , a song by @entity8   breaking glass ( disambiguation )   shattered glass ( disambiguation )
 
-discovery : in @ent5 @ent2 discovered this future @ent6 commonwealth & named it @ent1
+theatre : @entity6 starred in the @entity1 premiere of " @entity4 " by this " @entity5 " playwright
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:San Juan Bautista
-@ent2:Christopher Columbus
-@ent3:Puerto Rico
-@ent4:Spanish
-@ent5:1493
-@ent6:U.S.
-@ent7:French
-@ent8:Jean-Baptiste
+@entity0:
+@entity1:Broadway
+@entity2:Night of Broken Glass
+@entity3:Broken Glass"
+@entity4:Broken Glass
+@entity5:Death of A Salesman
+@entity6:Amy Irving
+@entity7:Arthur Miller
+@entity8:Annie Lennox
+@entity9:Kristallnacht
+@entity10:British

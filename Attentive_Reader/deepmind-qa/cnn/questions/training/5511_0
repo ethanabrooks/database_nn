@@ -1,15 +1,18 @@
-7
+10
 
-@ent3 mines ( @ent6 ) is a popular novel by the @ent5 adventure writer and fabulist sir @ent2 .
+@entity1 ( born @entity3 , @entity5 , @entity8 ) , manufacturer of @entity9 , is an @entity6 businessman .
 
-authors : his @ent6 work " @ent1 " was suggested by the ruins at @ent4
+i'm @entity2 & i like it : the mass market versions of these @entity1 dolls @entity4 born in @entity7 are now ready for college
 
-@ent2
+@entity9
 
-@ent0:
-@ent1:King Solomon's Mines
-@ent2:H. Rider Haggard
-@ent3:King Solomon's
-@ent4:Zimbabwe
-@ent5:Victorian
-@ent6:1885
+@entity0:
+@entity1:Xavier Roberts
+@entity2:18
+@entity3:October 31, 1955
+@entity4:first
+@entity5:Cleveland
+@entity6:American
+@entity7:1983
+@entity8:Georgia
+@entity9:Cabbage Patch Kids

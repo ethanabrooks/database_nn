@@ -1,16 +1,14 @@
-8
+6
 
-according to @ent1 slave census , by @ent5 the dower share included @ent2 .
+@entity5
 
-@ent6 ladies : a widow when she wed the future president in @ent4 , she had been married to @ent7
+the emmys : @entity2 won for playing this king in the " @entity4 " episode of a @entity3 series
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Mount Vernon
-@ent2:153 slaves
-@ent3:Martha Washington
-@ent4:1759
-@ent5:1799
-@ent6:FIRST
-@ent7:Daniel Parke Custis
+@entity0:
+@entity1:Henry VIII
+@entity2:Keith Michell
+@entity3:1971
+@entity4:Catherine Howard
+@entity5:John Churchill

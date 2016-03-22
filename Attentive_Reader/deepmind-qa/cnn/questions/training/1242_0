@@ -1,15 +1,13 @@
-7
+5
 
-@ent4 is a @ent5 , @ent1 am radio station operating on @ent2 khz with @ent3 of power from a transmitter site near @ent6 ( east los angeles ) .
+@entity4 and the neighbouring island of @entity2 constitute @entity3 country : @entity1 and @entity2 .
 
-radio city : in this city , @ent4 hosts " traffic on the ones " to help you avoid getting stuck on the freeways
+the and lands : @entity4 and ...
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:California
-@ent2:980
-@ent3:5,000 watts
-@ent4:KFWB
-@ent5:Los Angeles
-@ent6:Lincoln Park
+@entity0:
+@entity1:the Federation of Saint Kitts
+@entity2:Nevis
+@entity3:one
+@entity4:Saint Kitts

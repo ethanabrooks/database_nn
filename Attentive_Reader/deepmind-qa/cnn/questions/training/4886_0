@@ -1,16 +1,18 @@
-8
+10
 
-the grass harp is a novel by @ent7 published on @ent3 , 1951clarke , @ent5 .
+@entity1 ) was an @entity7 entrepreneur , abolitionist and philanthropist of @entity5 @entity8 , @entity3 .
 
-@ent6 : this author of " @ent1 " was born in @ent4 on @ent2
+hospitals : this city 's @entity2 hospital opened on @entity4 ; @entity6 , it 's part of a @entity9 medical system
 
-@ent7
+@entity8
 
-@ent0:
-@ent1:The Grass Harp
-@ent2:Sept. 30, 1924
-@ent3:October 1
-@ent4:New Orleans
-@ent5:Gerald
-@ent6:SEPTEMBER 30
-@ent7:Truman Capote
+@entity0:
+@entity1:December 24, 1873
+@entity2:Johns Hopkins
+@entity3:Maryland
+@entity4:May 7, 1889
+@entity5:19th-century
+@entity6:today
+@entity7:American
+@entity8:Baltimore
+@entity9:$5 billion

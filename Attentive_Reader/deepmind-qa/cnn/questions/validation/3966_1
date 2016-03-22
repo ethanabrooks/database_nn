@@ -1,16 +1,18 @@
-8
+10
 
-  early life @ent7 was born @ent3 .
+  the graveyard scene was shot at @entity4 in @entity6 , @entity9 , and the concert sequences were filmed at concert venues in @entity5 , including @entity7 .
 
-airlines : in @ent6 there was " @ent5 " : this airline 's @ent4 female pilot , @ent1
+by george , it 's george ! : with hits like " @entity1 texas " & " @entity8 " , he 's " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bonnie Tiburzi
-@ent2:American Airlines
-@ent3:Bonnie Linda Tiburzi
-@ent4:first
-@ent5:Something Special in the Air
-@ent6:1973
-@ent7:Bonnie Tiburzi Caputo
+@entity0:
+@entity1:All My Ex's Live in
+@entity2:Pure Country
+@entity3:George Strait
+@entity4:Cresson Cemetery
+@entity5:Fort Worth
+@entity6:Cresson
+@entity7:North Side Coliseum
+@entity8:Blue Clear Sky
+@entity9:Texas

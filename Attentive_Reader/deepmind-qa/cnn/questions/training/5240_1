@@ -1,14 +1,11 @@
-6
+3
 
-@ent5 charity .
+heart and soul , not merely by word but by deed , he has severed every link with the social order and with the entire civilized world ; with the laws , good manners , conventions , and morality of that world .
 
-state facts : ( hi , i"m @ent3 from " @ent2 " )   " @ent1 " is the official motto of this state , my birthplace
+ooh ... a wise guy : the writings of this man seen here were truly @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:North to the Future
-@ent2:The Young and the Restless
-@ent3:Joshua Morrow
-@ent4:Alaska
-@ent5:The V Foundation for Cancer Research
+@entity0:
+@entity1:Karl Marx
+@entity2:Revolutionary

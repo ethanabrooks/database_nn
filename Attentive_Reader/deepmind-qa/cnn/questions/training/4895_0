@@ -1,18 +1,16 @@
-10
+8
 
-in @ent2 @ent3 directed @ent6 , starring @ent7 , @ent9 and @ent1 , which was released the following year .
+@entity6 ( @entity1 – @entity3 ) was the @entity2 doge of @entity4 , appointed on @entity5 .
 
-twice - told tales : you know who i really like ?   me !   @ent8 remade his own " @ent5 " as this golden western just @ent4
+history : @entity6 , who was the doge of this , led a plot to kill the nobles & was executed in @entity7
 
-@ent6
+@entity4
 
-@ent0:
-@ent1:James Caan
-@ent2:1966
-@ent3:Hawks
-@ent4:8 years later
-@ent5:Rio Bravo
-@ent6:El Dorado
-@ent7:Wayne
-@ent8:Howard Hawks
-@ent9:Robert Mitchum
+@entity0:
+@entity1:1285
+@entity2:fifty-fifth
+@entity3:17 April 1355
+@entity4:Venice
+@entity5:11 September 1354
+@entity6:Marino Faliero
+@entity7:1355

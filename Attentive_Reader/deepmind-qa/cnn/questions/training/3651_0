@@ -1,19 +1,15 @@
-11
+7
 
-the capital city of the @ent1 dynasty in @ent3 @ent10 is moved from @ent5 ( now @ent8 ) to @ent2 ( now @ent4 ) .
+200px|right|interstates in @entity5 @entity4 is a nickname given to the state of @entity5 as it , and , more specifically , the city of @entity2 is the hub for several major @entity3 highways that criss - cross the state , connecting hoosiers to the rest of @entity1 .
 
-world capitals : no , @ent7 is not the queen of this @ent9 city made a capital in @ent6
+state quarters : a racecar superimposed on an outline of the state & the motto " @entity6 "
 
-@ent4
+@entity5
 
-@ent0:
-@ent1:Joseon
-@ent2:Hanseong
-@ent3:present-day
-@ent4:Seoul
-@ent5:Gaegyeong
-@ent6:1394
-@ent7:Aretha Franklin
-@ent8:Gaeseong
-@ent9:Asian
-@ent10:Korea
+@entity0:
+@entity1:the United States
+@entity2:Indianapolis
+@entity3:Interstate
+@entity4:The Crossroads of America
+@entity5:Indiana
+@entity6:Crossroads of America

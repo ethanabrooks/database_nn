@@ -1,17 +1,13 @@
-9
+5
 
-@ent4 , @ent4 , @ent1 judge ( b. @ent2 )    references
+@entity1
 
-would - be assassins : police reportedly arrested every dwarf in @ent6 after @ent5 tried to kill her in @ent8
+theater : based on " @entity4 " , this musical opens with the song " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Scottish
-@ent2:1760
-@ent3:Queen Victoria
-@ent4:Lord Gillies
-@ent5:John Bean
-@ent6:London
-@ent7:Adam Gillies
-@ent8:1842
+@entity0:
+@entity1:212–227
+@entity2:Mack the Knife
+@entity3:The Threepenny Opera
+@entity4:The Beggar's Opera

@@ -1,14 +1,16 @@
-6
+8
 
-facing opposition from above , @ent2 removed and @ent5 co - operation—the harsher poems .
+a @entity1 is a person from the @entity5 world .
 
-chicago : in @ent3 he gave us his " @ent4 "
+the oscars : this 3-time @entity2 winner won his @entity6 academy award for playing judge @entity7 in " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Carl Sandburg
-@ent2:Harcourt
-@ent3:1916
-@ent4:Chicago Poems
-@ent5:censored—with Sandburg's
+@entity0:
+@entity1:Westerner
+@entity2:Oscar
+@entity3:Walter Brennan
+@entity4:The Westerner
+@entity5:Western
+@entity6:third
+@entity7:Roy Bean

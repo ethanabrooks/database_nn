@@ -1,14 +1,16 @@
-6
+8
 
-  in the tanakh   some examples from the book of @ent3 , which have been frequently recited and memorized by @ent1 for centuries , state :    " by the rivers of @ent4 , there we sat down , yea , we wept , when we remembered @ent2 . " ( psalm 137:1 )   " for there they that carried us away captive required of us a song ; and they that wasted us required of us mirth , saying , sing us one of the songs of @ent2 .
+cluster office to @entity2 , @entity1 , @entity6 and @entity5   @entity3 –
 
-geographic quotations : psalm 137 says " by the rivers of " this place " we sat down ... we wept when we remembered @ent5 "
+world heritage sites : @entity4 lauded the art & architecture of @entity7 de caracas in this country
 
-@ent4
+@entity5
 
-@ent0:
-@ent1:Jews
-@ent2:Tzion
-@ent3:Psalms
-@ent4:Babylon
-@ent5:Zion
+@entity0:
+@entity1:Colombia
+@entity2:Bolivia
+@entity3:San José
+@entity4:UNESCO
+@entity5:Venezuela
+@entity6:Ecuador
+@entity7:Ciudad Universitaria

@@ -1,14 +1,19 @@
-6
+11
 
-  there he met and had a brief summer romance with @ent5 .
+in addition there are population centers at @entity10 , @entity8 , @entity4 , and @entity7 .
 
-world art : " @ent3 " is a work by @ent1 , a landscapist in this country 's @ent2
+food for thought : in @entity1 a world record @entity3 @entity2 salami was made in this @entity6 country 's city of @entity9
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tom Thomson
-@ent2:Algonquin Park
-@ent3:Spring Ice
-@ent4:Canada
-@ent5:Alice Elinor Lambert
+@entity0:
+@entity1:1992
+@entity2:9-inch
+@entity3:68-foot
+@entity4:Rasvåg
+@entity5:Norway
+@entity6:Scandinavian
+@entity7:Kirkehavn
+@entity8:Gyland
+@entity9:Flekkefjord
+@entity10:Sira

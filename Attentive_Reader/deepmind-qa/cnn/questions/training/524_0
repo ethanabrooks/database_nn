@@ -1,15 +1,18 @@
-7
+10
 
-directed by @ent6 , the film starred @ent4 as @ent1 and @ent5 as @ent1 .
+  the @entity3 explorer @entity1 met @entity4 authorities in @entity6 to sign a trade agreement and hire a guide for the voyage to @entity7 , when he erected a coral pillar .
 
-tv movies : she played @ent1 , who was accused of murdering her husband , in " @ent2 "
+exploration : ( @entity5 of @entity2 reads next to a world map . )   leaving portugal in @entity9 , going around @entity8 & with the help of a pilot from @entity4 , this explorer made it to @entity7 in @entity6
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Mickey Hughes
-@ent2:The Burning Bed
-@ent3:Francine Hughes
-@ent4:Farrah Fawcett
-@ent5:Paul LeMat
-@ent6:Robert Greenwald
+@entity0:
+@entity1:Vasco da Gama
+@entity2:the Clue Crew
+@entity3:Portuguese
+@entity4:Malindi
+@entity5:Jon
+@entity6:1498
+@entity7:India
+@entity8:Africa
+@entity9:July 1497

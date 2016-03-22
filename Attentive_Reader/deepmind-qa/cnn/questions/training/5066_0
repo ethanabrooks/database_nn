@@ -1,12 +1,16 @@
-4
+8
 
-@ent2 is a large complex of hot springs on a hill of travertine in @ent1 national park adjacent to @ent3 and the mammoth hot springs historic district .
+the peter norbeck national scenic byway passes through the forest in proximity to @entity1 and along with @entity6 , provide @entity2 of the more scenic drives in the country .
 
-i am curious " yellow " : its headquarters are located in @ent2
+@entity4 : established in @entity5 , @entity3 is home to @entity7 this national memorial
 
-@ent1 national park
+@entity1
 
-@ent0:
-@ent1:Yellowstone
-@ent2:Mammoth Hot Springs
-@ent3:Fort Yellowstone
+@entity0:
+@entity1:Mount Rushmore
+@entity2:two
+@entity3:Black Hills National Forest
+@entity4:NATIONAL FORESTS
+@entity5:1897
+@entity6:the Spearfish Canyon National Forest Scenic Byway
+@entity7:Wind Cave National Park &

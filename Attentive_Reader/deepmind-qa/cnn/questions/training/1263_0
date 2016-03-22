@@ -1,12 +1,17 @@
-4
+9
 
-he secured power in @ent3 , serving as head of state @ent1 .
+  @entity6 was born at @entity7 in @entity2 ( then ørsten ) , in the district of @entity5 , on the west coast of @entity4 .
 
-they used to be in charge : @ent2
+european languages : @entity1 , an official language of this country , was created by @entity6 in @entity3
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:1915-1917
-@ent2:Venustiano Carranza
-@ent3:Mexico
+@entity0:
+@entity1:Nynorsk
+@entity2:Ørsta
+@entity3:the mid-19th century
+@entity4:Norway
+@entity5:Sunnmøre
+@entity6:Background Aasen
+@entity7:Åsen
+@entity8:Ivar Aasen

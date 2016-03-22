@@ -1,16 +1,15 @@
-8
+7
 
-a well - known @ent2 publisher during @ent3 rule was @ent1 , known as the father of @ent6 journalism , who started several news magazines .
+@entity4 .
 
-religion @ent5 : @ent7 , followers of jainism travel to @ent2 in this country to bathe a statue of gomateshwara
+the art world : in @entity1 this @entity5 moved permanently to @entity2 where she developed a friendship with @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:M. Venkatakrishnaiah
-@ent2:Mysore
-@ent3:Wodeyar
-@ent4:India
-@ent5:101
-@ent6:Kannada
-@ent7:Every 12 years
+@entity0:
+@entity1:1874
+@entity2:France
+@entity3:Edgar Degas
+@entity4:May 1979
+@entity5:American
+@entity6:Mary Cassatt

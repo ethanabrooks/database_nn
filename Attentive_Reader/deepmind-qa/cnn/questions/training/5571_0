@@ -1,24 +1,15 @@
-16
+7
 
-  major films @ent14 starred in @ent4 ( @ent11 ) , the hustler ( @ent15 ) , @ent8 ( @ent7 ) , @ent3 ( @ent1 ) , hombre ( @ent5 ) , cool hand luke ( @ent5 ) , @ent2 ( @ent6 ) , slap shot ( @ent12 ) , and the verdict ( @ent13 ) .
+" @entity4 " is a song performed by @entity5 from their @entity3 album @entity1 .
 
-hot movies : @ent10 & @ent9 did some of their own stunts in this @ent6 special - effects extravaganza
+alphabet rockers : their @entity6 boogie rock hits include " @entity2 " & " @entity4 "
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:1966
-@ent2:The Towering Inferno
-@ent3:Harper
-@ent4:Exodus
-@ent5:1967
-@ent6:1974
-@ent7:1963
-@ent8:Hud
-@ent9:Paul Newman
-@ent10:Steve McQueen
-@ent11:1960
-@ent12:1977
-@ent13:1982
-@ent14:Newman
-@ent15:1961
+@entity0:
+@entity1:Eliminator
+@entity2:Gimme All Your Lovin
+@entity3:1983
+@entity4:Sharp Dressed Man
+@entity5:ZZ Top
+@entity6:Texas

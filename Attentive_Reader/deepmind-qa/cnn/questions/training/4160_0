@@ -1,14 +1,16 @@
-6
+8
 
-@ent5 ( ) is an island in western @ent4 and part of @ent1 .
+he is known for his plan for the city of @entity3 , the monumental funeral pyre for @entity5 and the reconstruction of the temple of artemis at @entity4 , as well as other works .
 
-" in " places : in @ent2 an earthquake struck the island of @ent5 in this nation , killing @ent3 people
+african cities : founded in @entity2 @entity6 , this port city was designed by @entity1 , architect to @entity7
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:the Sunda Islands
-@ent2:February 1994
-@ent3:215
-@ent4:Indonesia
-@ent5:Sumatra
+@entity0:
+@entity1:Dinocrates
+@entity2:332
+@entity3:Alexandria
+@entity4:Ephesus
+@entity5:Hephaestion
+@entity6:B.C.
+@entity7:Alexander the Great

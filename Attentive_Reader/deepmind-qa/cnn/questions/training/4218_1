@@ -1,16 +1,16 @@
 8
 
-retrieved @ent2 who was known as @ent5 or @ent3 .
+innsbruck   olympiaworld innsbruck
 
-@ent6 women : in @ent1 dr. @ent4 hired her as an assistant in his sex research project
+@entity7 : @entity4 , a suspect for @entity1 in this city 's @entity2 @entity6 bombing , got an apology from @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1956
-@ent2:1 Oct 2014
-@ent3:Betty
-@ent4:William Masters
-@ent5:Libby
-@ent6:1950s
-@ent7:Virginia Johnson
+@entity0:
+@entity1:3 months
+@entity2:1996
+@entity3:Janet Reno
+@entity4:Richard Jewell
+@entity5:Atlanta
+@entity6:Olympic Park
+@entity7:SORRY ABOUT THAT

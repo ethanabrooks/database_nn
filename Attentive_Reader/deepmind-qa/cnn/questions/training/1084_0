@@ -1,33 +1,19 @@
-25
+11
 
-  @ent20 , a club in @ent3 in @ent22   fiction   gas light ( @ent15 ) a @ent12 stage play   gaslight ( @ent2 film ) , starring @ent19 , @ent21 , @ent18 , based on the play   gaslight ( @ent8 film ) , directed by @ent7 , starring @ent5 and @ent23 and @ent11 , based on the play   gaslighted : slappy the ventriloquist dummy vs. aloysius pendergas ; a @ent9 novel starring @ent6 dummy and @ent13 by @ent10 and @ent16 and @ent17 .
+the portrait of a lady is a novel by @entity5 , first published as a serial in @entity1 @entity8 's magazine in @entity7 and then as a book in @entity2 .
 
-@ent14 's hollywood : come with me to the casbah & name this @ent4 star of flims like " @ent1 " & " @ent24 "
+@entity9 , author : @entity4 editions of his " @entity3 " & " the @entity10 " each have @entity6 voulmes
 
-@ent23
+@entity5
 
-@ent0:
-@ent1:Gaslight
-@ent2:1940
-@ent3:Greenwich Village
-@ent4:French
-@ent5:Ingrid Bergman
-@ent6:Slappy the
-@ent7:George Cukor
-@ent8:1944
-@ent9:2014
-@ent10:RL Stine
-@ent11:Angela Lansbury
-@ent12:Patrick Hamilton
-@ent13:Aloysius Pendergast
-@ent14:HURRELL
-@ent15:1938
-@ent16:Douglas Preston
-@ent17:Lincoln Child
-@ent18:Frank Pettingell
-@ent19:Diana Wynyard
-@ent20:The Gaslight Cafe
-@ent21:Anton Walbrook
-@ent22:New York
-@ent23:Charles Boyer
-@ent24:Algiers
+@entity0:
+@entity1:The Atlantic Monthly and
+@entity2:1881
+@entity3:The Portrait of A Lady
+@entity4:First
+@entity5:Henry James
+@entity6:3
+@entity7:1880–81
+@entity8:Macmillan
+@entity9:AUTHOR
+@entity10:Bostonians

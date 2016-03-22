@@ -1,13 +1,15 @@
-5
+7
 
-  vice president @ent4 and @ent3 .
+  in @entity3 , @entity1 made one of his most acclaimed films , @entity4 , on @entity6 's victory over the teutonic knights .
 
-tough history : in @ent1 this man 's running mate was @ent2
+@entity2 : this man directed the classic @entity5 films " @entity4 " & " ivan the terrible "
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:1904
-@ent2:Charles W. Fairbanks
-@ent3:Theodore Roosevelt
-@ent4:thumb|left|150px|Fairbanks
+@entity0:
+@entity1:Sergei Eisenstein
+@entity2:RUSSIAN CINEMA
+@entity3:1938
+@entity4:Alexander Nevsky
+@entity5:Russian
+@entity6:Alexander

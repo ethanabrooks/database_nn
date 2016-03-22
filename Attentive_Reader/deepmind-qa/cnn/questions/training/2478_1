@@ -1,17 +1,12 @@
-9
+4
 
-pullata , @ent3 desertorum , @ent4 hyperborea , thalictrum fendleri , @ent6 canadensis , chenopodium album , @ent5 detonsa var .
+stanislavski : his life and art .
 
-mountains : few know that @ent1 in this state is the @ent7 - tallest in the lower @ent2 states
+world theatre : this " war and peace " author 's play " @entity1 " was once banned in his native @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mount Elbert
-@ent2:48
-@ent3:Salix
-@ent4:Platanthera
-@ent5:Gentiana
-@ent6:Aquilegia
-@ent7:second
-@ent8:Colorado
+@entity0:
+@entity1:The Power of Darkness
+@entity2:Leo Tolstoy
+@entity3:Russia

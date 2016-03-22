@@ -1,14 +1,13 @@
-6
+5
 
-the architect responsible was sir @ent2 .
+@entity1 finally collapsed on @entity2 , ending the pursuit .
 
-@ent1 : government ministry offices line this street that runs from @ent3 to @ent3
+africa : @entity3 , this country 's highest point , is also the continent 's highest point
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:HIGHWAYS & BYWAYS
-@ent2:Charles Barry
-@ent3:Trafalgar Square
-@ent4:Parliament Square
-@ent5:Whitehall
+@entity0:
+@entity1:Tone
+@entity2:Kibo
+@entity3:Mount Kilimanjaro
+@entity4:Tanzania

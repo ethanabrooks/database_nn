@@ -1,20 +1,16 @@
-12
+8
 
-@ent1 , she toured selected venues in @ent3 and the @ent6   it was stated on her web page that she is working on a new cd produced by @ent5 , to be released in @ent11 .
+in @entity1 , @entity4 was badly injured when on approach to landing at @entity5 , @entity2 , his aircraft clipped some power lines and crashed upside down in a field .
 
-@ent2 : in @ent10 this @ent4 singer paired with @ent7 in the no . @ent8 hit " up where we belong "
+bird books : some took flight with this @entity7 allegory by @entity6 ; others felt it was bird - brained
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:October 2012
-@ent2:FAMOUS JOES & JOSEPHS
-@ent3:Canada
-@ent4:British
-@ent5:Roscoe Beck
-@ent6:U.S.
-@ent7:Jennifer Warnes
-@ent8:1
-@ent9:Joe Cocker
-@ent10:1982
-@ent11:2015
+@entity0:
+@entity1:late August 2012
+@entity2:Washington
+@entity3:Jonathan Livingston Seagull
+@entity4:Bach
+@entity5:Friday Harbor
+@entity6:Richard Bach
+@entity7:1970

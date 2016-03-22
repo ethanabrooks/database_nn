@@ -1,15 +1,16 @@
-7
+8
 
-@ent5 wanted to do aerial exploration and brought the @ent3 aeroplane to @ent2 .
+@entity1 ( born @entity7 ) is the co - founder and publisher of the popular culture biweekly @entity3 , as well as the current owner of @entity6 and @entity5 magazines .
 
-down under : in @ent6 @ent1 explorer @ent4 led an expedition south to explore the east coast of this continent
+american lit : like @entity4 , @entity2 ran a magazine called this
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Aussie
-@ent2:Antarctica
-@ent3:first
-@ent4:Douglas Mawson
-@ent5:Mawson
-@ent6:1912
+@entity0:
+@entity1:Jann Simon Wenner
+@entity2:O.Henry
+@entity3:Rolling Stone
+@entity4:Jann Wenner
+@entity5:Us Weekly
+@entity6:Men's Journal
+@entity7:January 7, 1946

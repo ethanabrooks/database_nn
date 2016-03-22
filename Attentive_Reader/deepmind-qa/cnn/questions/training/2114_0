@@ -1,18 +1,17 @@
-10
+9
 
-@ent1 – @ent3 becomes the @ent9 reigning @ent2 monarch to travel by train , on @ent7 between slough and @ent6 @ent5 station .
+  @entity2 ( with @entity3 ) and @entity1 adapted the opera into @entity4 ( @entity7 ) in @entity5 , sticking closely to the original plot and characters but with a new libretto and mostly new music .
 
-would - be assassins : police reportedly arrested every dwarf in @ent6 after @ent8 tried to kill her in @ent4
+theater : based on " @entity8 " , this musical opens with the song " @entity6 "
 
-@ent3
+@entity7
 
-@ent0:
-@ent1: June 13
-@ent2:British
-@ent3:Queen Victoria
-@ent4:1842
-@ent5:Paddington
-@ent6:London
-@ent7:the Great Western Railway
-@ent8:John Bean
-@ent9:first
+@entity0:
+@entity1:Kurt Weill
+@entity2:Elisabeth Hauptmann
+@entity3:Bertolt Brecht
+@entity4:Die Dreigroschenoper
+@entity5:1928
+@entity6:Mack the Knife
+@entity7:The Threepenny Opera
+@entity8:The Beggar's Opera

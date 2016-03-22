@@ -1,13 +1,15 @@
-5
+7
 
-  @ent4 wrote and illustrated several children 's books during his career , and his book @ent1 won the newbery medal .
+in @entity5 she replaced @entity3 for the role of @entity4 on the short lived series @entity2 .
 
-biographies : this pioneer was a man , yes , a big man , & his bio won a @ent2 for @ent3
+@entity6 role : in the @entity5 hour - long series " the bradys " , @entity1 assumed this @entity3 role
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Daniel Boone
-@ent2:Newbery Medal
-@ent3:James Daugherty
-@ent4:Daugherty
+@entity0:
+@entity1:Leah Ayres
+@entity2:The Bradys
+@entity3:Maureen McCormick
+@entity4:Marcia Brady
+@entity5:1990
+@entity6:ACTRESSES & TV

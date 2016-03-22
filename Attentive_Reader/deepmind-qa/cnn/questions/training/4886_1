@@ -1,16 +1,14 @@
-8
+6
 
-the @ent2 production was the last musical presented on @ent3 without mikes for the cast .
+this article is about the philanthropist .
 
-@ent6 : this author of " @ent1 " was born in @ent4 on @ent7
+hospitals : this city 's @entity2 hospital opened on @entity4 ; @entity1 , it 's part of a @entity5 medical system
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Grass Harp
-@ent2:Grass Harp
-@ent3:Broadway
-@ent4:New Orleans
-@ent5:Truman Capote
-@ent6:SEPTEMBER 30
-@ent7:Sept. 30, 1924
+@entity0:
+@entity1:today
+@entity2:Johns Hopkins
+@entity3:Baltimore
+@entity4:May 7, 1889
+@entity5:$5 billion

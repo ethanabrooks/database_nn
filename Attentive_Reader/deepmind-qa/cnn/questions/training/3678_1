@@ -1,17 +1,15 @@
-9
+7
 
-  in @ent6 , @ent4 calypso artiste , lord invader recorded a track entitled @ent2 .
+@entity5 is a street in @entity4 , central @entity2 .
 
-@ent8 den beatles : the @ent7 honed their chops playing clubs in the @ent5 , a red - light district in this @ent3 port city
+poets : in @entity3 , she moved with her family to @entity6 @entity5 in @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Hamburg
-@ent2:"My Experience On The Reeperbahn"
-@ent3:German
-@ent4:Trinidadian
-@ent5:Reeperbahn
-@ent6:1958
-@ent7:Beatles
-@ent8:MIT
+@entity0:
+@entity1:Elizabeth Barrett Browning
+@entity2:London
+@entity3:1838
+@entity4:Marylebone
+@entity5:Wimpole Street
+@entity6:50

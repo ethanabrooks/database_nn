@@ -1,14 +1,13 @@
-6
+5
 
-" ready , set , do n't go " is a country song performed by @ent1 recording artists @ent4 and @ent5 .
+  in @entity4 , he was added to the regular cast of @entity2 , a position he held until his death .
 
-country music : daughter @ent3 duetted with him on the recent hit " @ent2 "
+nutty tv : from 1979 to 1983 , rev. @entity3 was a regular on this variety series , country music 's answer to " @entity1 "
 
-@ent4
+@entity2
 
-@ent0:
-@ent1:American
-@ent2:Ready, Set, Don't Go
-@ent3:Miley
-@ent4:Billy Ray Cyrus
-@ent5:Miley Cyrus
+@entity0:
+@entity1:Laugh-In
+@entity2:Hee Haw
+@entity3:Grady Nutt
+@entity4:1979

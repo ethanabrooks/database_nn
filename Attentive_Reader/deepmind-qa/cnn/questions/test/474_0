@@ -1,19 +1,15 @@
-11
+7
 
-the @ent7 ( ; ; ) is a strait running between the southeast coast of @ent8 , the southwest coast of @ent10 , and the @ent9 peninsula of @ent3 , connecting @ent5 and the @ent4 sea area , which leads to the @ent1 .
+zathura is an illustrated children 's book by the @entity4 author @entity5 as well as the title of a @entity3 film based on the book .
 
-world war i : the @ent2 battle of jutland was fought in the @ent7 , an arm of this sea
+@entity6 : the films " @entity1 " & " jumanji " are based on books by this @entity2
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:North Sea
-@ent2:1916
-@ent3:Denmark
-@ent4:Kattegat
-@ent5:the North Sea
-@ent6:Baltic Sea
-@ent7:Skagerrak
-@ent8:Norway
-@ent9:Jutland
-@ent10:Sweden
+@entity0:
+@entity1:Zathura
+@entity2:Chris
+@entity3:2005
+@entity4:American
+@entity5:Chris Van Allsburg
+@entity6:CHRIS & TELL

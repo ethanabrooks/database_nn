@@ -1,15 +1,13 @@
-7
+5
 
-@ent4 is burned to the ground by the forces of @ent2 during @ent6 's rebellion .
+bolesław i chrobry is crowned as the @entity4 king of @entity1 .
 
-old farmers : as part of his " rebellion " this @ent3 farmer captured & burned @ent1 in @ent5
+world history : in @entity3 boleslaw i became this country 's @entity4 king but died within @entity2
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Jamestown
-@ent2:Nathaniel Bacon
-@ent3:Virginia
-@ent4: September 19 – Jamestown
-@ent5:1676
-@ent6:Bacon
+@entity0:
+@entity1:Poland
+@entity2:the year
+@entity3:1025
+@entity4:first

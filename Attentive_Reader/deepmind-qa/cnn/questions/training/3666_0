@@ -1,19 +1,11 @@
-11
+3
 
-@ent1 is a @ent10 @ent5 road comedy film directed by @ent4 , written by @ent9 and @ent6 , produced by @ent8 , and starring former @ent3 and close friends @ent7 and @ent2 .
+no ( film ) , played by @entity2
 
-playing the buffoon : he made us laugh as " @ent1 " , the dimwitted heir to an auto parts factory
+bond girls : she set the style for girls to come with her body of work as @entity1 in " dr. no "
 
-@ent7
+@entity2
 
-@ent0:
-@ent1:Tommy Boy
-@ent2:David Spade
-@ent3:Saturday Night Live castmates
-@ent4:Peter Segal
-@ent5:American
-@ent6:Terry Turner
-@ent7:Chris Farley
-@ent8:Lorne Michaels
-@ent9:Bonnie
-@ent10:1995
+@entity0:
+@entity1:Honey Ryder
+@entity2:Ursula Andress

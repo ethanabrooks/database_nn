@@ -1,20 +1,13 @@
-12
+5
 
-the film stars @ent8 , @ent5 , and @ent1 as the plantation family and @ent2 as their slave with @ent6 as a @ent3 officer .
+" @entity2 " is a song co - written and recorded by @entity1 country music artist @entity4 .
 
-@ent11 cinema : in @ent10 this little girl starred in " @ent4 " , " @ent7 " & " @ent9 "
+country singers : his @entity3 music video " @entity2 " created controversy because of its violence
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Shirley Temple
-@ent2:Bill Robinson
-@ent3:Union
-@ent4:Our Little Girl
-@ent5:Karen Morley
-@ent6:Jack Holt
-@ent7:The Little Colonel
-@ent8:John Boles
-@ent9:The Littlest Rebel
-@ent10:1935
-@ent11:CLASSIC
+@entity0:
+@entity1:American
+@entity2:The Thunder Rolls
+@entity3:1991
+@entity4:Garth Brooks

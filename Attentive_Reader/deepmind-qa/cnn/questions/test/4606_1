@@ -1,15 +1,29 @@
-7
+21
 
-out @ent2   @ent4 2013 live at the foxes den paul munchak   television   year title role notes 1964
+  @entity17 ( @entity1 film ) , an @entity14 western silent film directed by @entity12 that was based on the novel   @entity17 ( @entity8 film ) , an @entity14 western silent film directed by @entity16 that was based on the novel   @entity17 ( @entity6 film ) , an @entity14 western film directed by @entity7   the mysterious rider ( @entity3 film ) , an @entity14 western film directed by @entity19 that was based on the novel   @entity17 ( @entity20 film ) , an @entity14 western film directed by @entity5   @entity17 ( @entity11 film ) , @entity4 title for @entity2 cavaliere misterioso , an @entity10 historical - adventure film directed by @entity9
 
-film roles : @ent3 , @ent6 & @ent5 have all played this character on film
+@entity18 bestsellers : " @entity17 " , " to the last man " & " @entity15 " were some of his @entity18 top westerns
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Philip Marlowe
-@ent2:Fred Switchmas
-@ent3:Dick Powell
-@ent4:Sam Finkelstein
-@ent5:Elliott Gould
-@ent6:Robert Mitchum
+@entity0:
+@entity1:1921
+@entity2:Il
+@entity3:1938
+@entity4:English
+@entity5:Sam Newfield
+@entity6:1933
+@entity7:Fred Allen
+@entity8:1927
+@entity9:Riccardo Freda
+@entity10:Italian
+@entity11:1948
+@entity12:Benjamin B. Hampton
+@entity13:Zane Grey
+@entity14:American
+@entity15:The Call of the Canyon
+@entity16:John Waters
+@entity17:The Mysterious Rider
+@entity18:1920s
+@entity19:Lesley Selander
+@entity20:1942

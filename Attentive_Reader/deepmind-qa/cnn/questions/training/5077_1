@@ -1,13 +1,19 @@
-5
+11
 
-this added to the knowledge of @ent3 fever , which was the disease observed by @ent2 .
+the album debuted at number @entity6 on the billboard 200 ; with @entity1 sales of @entity7 copies , it became @entity5 's lowest @entity1 sales and her @entity4 studio album not to peak atop the @entity3 200 chart .
 
-institutions : @ent1 left most of his estate to this state to establish a college
+writing for tv : no script overlap here : @entity10 both wrote for " @entity8 " & co - created this @entity9 phenomenon
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Thomas Green Clemson
-@ent2:Clemson
-@ent3:Texas
-@ent4:South Carolina
+@entity0:
+@entity1:first-week
+@entity2:Hannah Montana
+@entity3:Billboard
+@entity4:first
+@entity5:Cyrus
+@entity6:three
+@entity7:106,000
+@entity8:CSI: Miami
+@entity9:Miley Cyrus
+@entity10:Barry O'Brien

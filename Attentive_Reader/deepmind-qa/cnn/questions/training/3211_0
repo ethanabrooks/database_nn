@@ -1,14 +1,15 @@
-6
+7
 
-  at the age of ten , he was apprenticed to the famous sculptor @ent1 , designer of the doors of @ent4 , whose workshop was the premier centre for florentine art at the time .
+@entity2 is a fictional character and primary antagonist in the @entity3 novel @entity4 by @entity5 .
 
-@ent5 artists : at age @ent3 artist @ent2 assisted this sculptor on his bronze doors of the florentine baptistry
+literary characters : @entity6 is @entity1 's wronged husband in this @entity3 novel
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Lorenzo Ghiberti
-@ent2:Paolo Uccello
-@ent3:10
-@ent4:the Florence Baptistery
-@ent5:RENAISSANCE
+@entity0:
+@entity1:Hester
+@entity2:Roger Prynne
+@entity3:1850
+@entity4:The Scarlet Letter
+@entity5:Nathaniel Hawthorne
+@entity6:Roger Chillingworth

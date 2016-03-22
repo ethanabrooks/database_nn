@@ -1,20 +1,15 @@
-12
+7
 
-@ent7 astronauts @ent10 and @ent2 landed their @ent9 at approximately 20:17:40 @ent1 on @ent6 .
+  in @entity5 mythology , @entity2 ( ; ) was a king of @entity4 , the son of oedipus and either @entity3 or @entity6 .
 
-the wonder years : at @ent11 @ent5 , the world heard him say , " @ent8 , @ent3 here .   the @ent4 has landed "
+mr. & myth : while king of this city , @entity2 was killed by one of the @entity1 against it
 
-@ent10
+@entity4
 
-@ent0:
-@ent1:UTC
-@ent2:Buzz Aldrin
-@ent3:Tranquility Base
-@ent4:Eagle
-@ent5:P.M. EDT
-@ent6:July 20, 1969
-@ent7:American
-@ent8:Houston
-@ent9:Apollo Lunar Module Eagle
-@ent10:Neil Armstrong
-@ent11:about 4:17
+@entity0:
+@entity1:seven
+@entity2:Eteocles
+@entity3:Jocasta
+@entity4:Thebes
+@entity5:Greek
+@entity6:Euryganeia

@@ -1,12 +1,12 @@
 4
 
-@ent2 is a fictional character created by author @ent1 .
+@entity2 commonly refers to : @entity2 , @entity1 , capital of @entity1 .
 
-@ent3 : @ent2
+famous percivals : as prime minister of this country , @entity3 makes his home in @entity2
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:James Patterson
-@ent2:Alex Cross
-@ent3:AUTHORS & THEIR SLEUTHS
+@entity0:
+@entity1:Jamaica
+@entity2:Kingston
+@entity3:Percival J. Patterson

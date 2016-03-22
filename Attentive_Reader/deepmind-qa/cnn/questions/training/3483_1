@@ -1,16 +1,15 @@
-8
+7
 
-the longhorn ballroom is a music venue and country western dance hall in @ent5 , @ent2 ( usa ) .
+@entity5 blogs , @entity1 .
 
-i love the nightlife : @ent5 ' @ent7 , site of an infamous @ent3 concert , was once run by this man who shot @ent4
+@entity6 : senator @entity4 's @entity2 wife
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jack
-@ent2:Texas
-@ent3:Sex Pistols
-@ent4:Lee Harvey Oswald
-@ent5:Dallas
-@ent6:Ruby
-@ent7:Longhorn Ballroom
+@entity0:
+@entity1:Ibid
+@entity2:second
+@entity3:Elizabeth Taylor
+@entity4:John Warner
+@entity5:New York Times
+@entity6:MARRIAGE-GO-ROUND

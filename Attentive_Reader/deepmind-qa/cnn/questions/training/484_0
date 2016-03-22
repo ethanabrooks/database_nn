@@ -1,18 +1,13 @@
-10
+5
 
-@ent2 ( @ent7 – @ent4 ) , was an @ent6 politician who represented @ent8 's   twelfth congressional district in @ent1 @ent5 .
+@entity1 is a fictional character created by @entity2 .
 
-@ent9 crockett : like @ent3 , son @ent2 served as a congressman from this state
+literature aliases : @entity1 , a character created by this man , is aka @entity4 , @entity3
 
-@ent8
+@entity2
 
-@ent0:
-@ent1:the United States
-@ent2:John Wesley Crockett
-@ent3:Davy
-@ent4:November 24, 1852
-@ent5:House of Representatives
-@ent6:American
-@ent7:July 10, 1807
-@ent8:Tennessee
-@ent9:DAVY
+@entity0:
+@entity1:Randall Flagg
+@entity2:Stephen King
+@entity3:Walter Padick & Walter O'Dim
+@entity4:Nyarlathotep

@@ -1,14 +1,16 @@
-6
+8
 
-  president @ent2 ( @ent5 )
+@entity3 is an @entity2 - language public research university in @entity5 , @entity4 .
 
-@ent1 presidents : former first lady @ent3 is a distant cousin of this @ent4 president
+@entity1 : @entity3 in this @entity6 city is known as the " harvard of the @entity7 "
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:U.S.
-@ent2:Franklin Pierce
-@ent3:Barbara Bush
-@ent4:1850s
-@ent5:United States
+@entity0:
+@entity1:COLLEGES & UNIVERSITIES
+@entity2:English
+@entity3:McGill University
+@entity4:Canada
+@entity5:Montreal
+@entity6:Canadian
+@entity7:North

@@ -1,17 +1,13 @@
-9
+5
 
-the museum features exhibits on @ent5 , @ent3 , @ent6 and others .
+in @entity1 , he is the buffoonish suitor of @entity2 married women .
 
-musical instruments : the horn seen at @ent1 @ent8 belonged to this ' @ent4 @ent7 musician who grew up in @ent2
+the bard writes : when @entity4 receives a love letter from @entity3 in this play , she asks , " how shall i be revenged on him ? "
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Kansas City's
-@ent2:Kansas City
-@ent3:Duke Ellington
-@ent4:40s & '
-@ent5:Charlie Parker
-@ent6:Louis Armstrong
-@ent7:50s
-@ent8:American Jazz Museum
+@entity0:
+@entity1:The Merry Wives of Windsor
+@entity2:two
+@entity3:Falstaff
+@entity4:Mistress Page

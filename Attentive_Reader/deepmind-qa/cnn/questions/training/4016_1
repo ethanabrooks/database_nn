@@ -1,18 +1,19 @@
-10
+11
 
-  the @ent7 biographical film @ent2 tells @ent1 's story .
+in the [ [ @entity10 wimbledon ] ] final , [ [ @entity4 ] ] countered this strategy by taking the pace off the ball , giving @entity9 only soft junk shots ( dinks , drop shots , and lobs ) to hit .
 
-what a knockout ! : in @ent5 he became the @ent4 @ent8 - amer . heavyweight champ since @ent9 , with a k.o. of @ent3
+@entity5 , anyone ? : @entity3 won a record @entity1 men 's singles titles ; this @entity2 is no . @entity6 with @entity8
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Braddock
-@ent2:Cinderella Man
-@ent3:James J. Braddock
-@ent4:first
-@ent5:1937
-@ent6:Joe Louis
-@ent7:2005
-@ent8:African
-@ent9:Jack Johnson
+@entity0:
+@entity1:109
+@entity2:Czech
+@entity3:Jimmy Connors
+@entity4:Arthur Ashe
+@entity5:TENNIS
+@entity6:2
+@entity7:Ivan Lendl
+@entity8:94
+@entity9:Connors
+@entity10:1975

@@ -1,14 +1,13 @@
-6
+5
 
-floor lamp a805   @ent4 :
+he introduced musical and comedy acts , and performed songs and monologues himself .
 
-finlandia : this city boasts @ent1 , designed by @ent5 architect @ent2
+tv actors & roles : she played @entity2 on " @entity1 " before she wrote " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Finlandia Hall
-@ent2:Alvar Aalto
-@ent3:Helsinki
-@ent4:1959
-@ent5:Finnish
+@entity0:
+@entity1:The Morey Amsterdam Show
+@entity2:Lola the Cigarette Girl
+@entity3:Valley of the Dolls
+@entity4:Jacqueline Susann

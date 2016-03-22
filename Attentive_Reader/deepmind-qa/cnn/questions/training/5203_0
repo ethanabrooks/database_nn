@@ -1,15 +1,17 @@
-7
+9
 
-@ent6 ( born @ent1 ) is the founding editor of @ent5 and @ent4 , and current editor of @ent3 .
+  she was married for @entity7 ( @entity1 ) to the playwright and screenwriter @entity3 , who was the writer of @entity5 of her @entity4 nominated roles .
 
-books about teens : " for real " is " @ent2 " about teens from @ent6 , who edited this " backtalking " magazine
+@entity6 : @entity2 met him after she auditioned for his play @entity8 & later married him
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:November 11, 1962
-@ent2:The Uncensored Truth
-@ent3:xoJane
-@ent4:Jane
-@ent5:Sassy
-@ent6:Jane Pratt
+@entity0:
+@entity1:1973-1983
+@entity2:Marsha Mason
+@entity3:Neil Simon
+@entity4:Oscar
+@entity5:three
+@entity6:PLAYWRIGHTS & ACTRESSES
+@entity7:ten years
+@entity8:"The Good Doctor"

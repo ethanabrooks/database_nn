@@ -1,13 +1,15 @@
-5
+7
 
-role ! class="unsortable " | notes
+@entity2 served as speaker of the landtag in @entity6 .
 
-i want a divorce : she was married to @ent1 for just a few months , but her tv marriage to @ent4 ran for @ent2
+leading men : @entity4 is prime minister of this small @entity3 nation between @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Troy Donahue
-@ent2:6 years
-@ent3:Suzanne Pleshette
-@ent4:Bob Newhart
+@entity0:
+@entity1:Liechtenstein
+@entity2:Hasler
+@entity3:Alpine
+@entity4:Otmar Hasler
+@entity5:Switzerland & Austria
+@entity6:1995

@@ -1,18 +1,13 @@
-10
+5
 
-well - known columnists include @ent7 - winning political commentator @ent4 , @ent5 , @ent7 - winning reporter @ent6 , humorist @ent9 and novelist @ent8 .
+it features an academy award - winning musical score , adapted by @entity1 and @entity3 - nominated lead performance by @entity4 .
 
-south specific : a @ent3 columnist since @ent1 , he 's known for comic novels about @ent2 corruption
+" bu " who : this actor 's films include " lethal weapon " , " predator ii " , & " @entity2 "
 
-@ent8
+@entity4
 
-@ent0:
-@ent1:1985
-@ent2:Floridian
-@ent3:Miami Herald
-@ent4:Leonard Pitts
-@ent5:Jr.
-@ent6:Mirta Ojito
-@ent7:Pulitzer
-@ent8:Carl Hiaasen
-@ent9:Dave Barry
+@entity0:
+@entity1:Joe Renzetti
+@entity2:The Buddy Holly Story
+@entity3:Oscar
+@entity4:Gary Busey

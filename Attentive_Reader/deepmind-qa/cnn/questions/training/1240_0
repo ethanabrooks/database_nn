@@ -1,15 +1,16 @@
-7
+8
 
-it is the third of his @ent2 detective stories featuring the fictional @ent4 , the other @ent6 being " @ent3 " and " @ent5 " .
+@entity4 , jr. ( born @entity6 ) is an @entity3 weather presenter , author , television personality and occasional actor , best known for his tv work on the @entity1 show and as the creator and original portrayer of @entity2 .
 
-19th century fiction : this amateur detective solves the mystery of " @ent1 "
+people : " @entity1 " show weatherman @entity7 was the 1st to play this clown for @entity5
 
-@ent4
+@entity2
 
-@ent0:
-@ent1:The Purloined Letter
-@ent2:three
-@ent3:The Murders in the Rue Morgue
-@ent4:C. Auguste Dupin
-@ent5:The Mystery of Marie Rogêt
-@ent6:two
+@entity0:
+@entity1:Today
+@entity2:Ronald McDonald
+@entity3:American
+@entity4:Willard Herman Scott
+@entity5:McDonald's
+@entity6:March 7, 1934
+@entity7:Willard Scott

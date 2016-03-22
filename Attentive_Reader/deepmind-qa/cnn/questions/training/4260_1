@@ -1,17 +1,16 @@
-9
+8
 
-  @ent4 – war of the spanish succession : barcelona taken after a long siege and @ent6 surrenders to @ent2 and @ent7 bourbon armies .
+@entity4 gives birth to @entity5 's son @entity3 , but call refuses to acknowledge the child is his .
 
-english monarchs : in @ent8 the prince of hanover , who spoke little @ent3 , became king of @ent1 under this name
+authors : in @entity1 he published " @entity7 " , a prequel to his " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:England
-@ent2:Spanish
-@ent3:English
-@ent4:September 11
-@ent5:George I
-@ent6:Catalonia
-@ent7:French
-@ent8:1714
+@entity0:
+@entity1:1997
+@entity2:Lonesome Dove
+@entity3:Newt
+@entity4:Maggie
+@entity5:Call
+@entity6:Larry McMurtry
+@entity7:Comanche Moon

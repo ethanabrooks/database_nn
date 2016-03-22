@@ -1,0 +1,16 @@
+8
+
+  @entity1 ( @entity5 )
+
+film renoir : in @entity4 @entity3 filmed this @entity7 novel , with @entity6 in the title role
+
+@entity0
+
+@entity0:
+@entity1:Lucrèce Borgia
+@entity2:Madame Bovary
+@entity3:Jean Renoir
+@entity4:1934
+@entity5:1953
+@entity6:Valentine Tessier
+@entity7:Gustave Flaubert

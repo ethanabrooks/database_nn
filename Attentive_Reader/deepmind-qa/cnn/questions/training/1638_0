@@ -1,12 +1,15 @@
-4
+7
 
-he was the youngest brother of novelist @ent1 .
+in @entity5 , it merged with @entity3 to form @entity2 martin .
 
-authors : this author of " @ent3 " was the elder brother of zoologist & writer @ent1
+the great & powerful woz : @entity6 was born in @entity1 , the son of an electrical engineer at this co. that merged with @entity4 in @entity5
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Gerald Durrell
-@ent2:Lawrence Durrell
-@ent3:The Alexandria Quartet
+@entity0:
+@entity1:1950
+@entity2:Lockheed
+@entity3:Lockheed Corporation
+@entity4:Martin Marietta
+@entity5:1995
+@entity6:Woz

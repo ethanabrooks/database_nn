@@ -1,15 +1,14 @@
-7
+6
 
-@ent2 most of the health services of @ent4 are public , but there are some private institutions , of which the best known is the hospital established in @ent1 in @ent6 by @ent5 .
+the presenter and host @entity4 ( @entity3 ) is then shown walking on desolate train tracks with his dog @entity5 .
 
-goulash : his later years were devoted to his hospital in @ent4 , but he still found time to give organ recitals in @ent3
+the small screen : this " x - files " star also hosts @entity1 's " @entity2 "
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:1913
-@ent2:  Health   
-@ent3:Europe
-@ent4:Gabon
-@ent5:Albert Schweitzer
-@ent6:Lambaréné
+@entity0:
+@entity1:Showtime
+@entity2:Red Shoe Diaries
+@entity3:David Duchovny
+@entity4:Jake Winters
+@entity5:Stella

@@ -1,17 +1,17 @@
 9
 
-najaf ( ; bgn : an najaf ) is a city in @ent1 @ent6   km ( @ent2 ) south of @ent5 .
+king @entity1 of @entity3 ( d. @entity2 )   @entity5 :
 
-the clash : site of a @ent7 battleground for @ent4 soldiers , a tomb in this country 's city of @ent3 is a major @ent8 shrine
+tudor garage : in brief : born in @entity4 in @entity7 , becomes king at @entity8 , has some pope problems & oh , yeah -- @entity6 wives
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Iraq
-@ent2:roughly 100 miles
-@ent3:Najaf
-@ent4:U.S.
-@ent5:Baghdad
-@ent6:about 160
-@ent7:2003
-@ent8:Shiite
+@entity0:
+@entity1:Henry VIII
+@entity2:1547
+@entity3:England
+@entity4:Greenwich
+@entity5:November 11
+@entity6:6
+@entity7:1491
+@entity8:17

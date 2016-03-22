@@ -1,14 +1,15 @@
-6
+7
 
-the judges praised her performance , but they did not think the song was right for @ent1 .
+in @entity1 , @entity4 .
 
-pop culture : young singer @ent3 won the @ent5 season of this tv show now judged by @ent4
+file under " e " : @entity6 , now the northernmost province of this country , was an @entity2 colony from @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ryan
-@ent2:America
-@ent3:Bianca Ryan
-@ent4:Sharon Osbourne & others
-@ent5:first
+@entity0:
+@entity1:1869Ullendorff
+@entity2:Italian
+@entity3:Ethiopia
+@entity4:Edward
+@entity5:1890-1941
+@entity6:Eritrea

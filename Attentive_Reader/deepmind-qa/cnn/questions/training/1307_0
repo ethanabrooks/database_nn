@@ -1,15 +1,14 @@
-7
+6
 
-on @ent5 , @ent1 senate confirmed him as the @ent3 secretary of @ent2 , and he was sworn in on @ent4 .
+  lacking a local name , the name @entity1 - austen was suggested , in honor of @entity2 , an early explorer of the area , and while the name was rejected by @entity4 , it was used on several maps , and continues to be used occasionally .
 
-to neil : from 1979 to 1981 , @ent6 was secretary of this department abbreviated d.o.t.
+mountains : this englishman was the @entity3 to survey @entity5 's peak
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:the United States
-@ent2:the Department of Transportation
-@ent3:sixth
-@ent4:September 24
-@ent5:September 21, 1979
-@ent6:Neil Goldschmidt
+@entity0:
+@entity1:Mount Godwin
+@entity2:Henry Godwin-Austen
+@entity3:first
+@entity4:the Royal Geographical Society
+@entity5:K2

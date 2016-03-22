@@ -1,17 +1,19 @@
-9
+11
 
-@ent2 ( born @ent4 ) is a former @ent5 football defensive end , who played primarily for @ent7 of @ent8 .
+@entity5 " bertie " @entity9 ( born @entity2 @entity1 ) is a former @entity6 politician who served as taoiseach of @entity4 from @entity8 june 1997 to @entity10 @entity3 .
 
-we're talking football : in @ent3 @ent1 was @ent6 as part of this team 's dominating defense
+men in charge : prime minister @entity7
 
-@ent7
+@entity4
 
-@ent0:
-@ent1:Richard Dent
-@ent2:Richard Lamar Dent
-@ent3:1986
-@ent4:December 13, 1960
-@ent5:American
-@ent6:Super Bowl MVP
-@ent7:the Chicago Bears
-@ent8:the National Football League
+@entity0:
+@entity1:September 1951
+@entity2:12
+@entity3:May 2008
+@entity4:Ireland
+@entity5:Patrick Bartholomew
+@entity6:Irish Fianna Fáil
+@entity7:Bertie Ahern
+@entity8:26
+@entity9:Ahern
+@entity10:7

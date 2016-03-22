@@ -1,16 +1,16 @@
 8
 
-  @ent2 was elected in the wake of a corruption scandal that involved several @ent6 @ent1 leaders .
+@entity5
 
-politicians : in @ent5 @ent7 defeated this man in @ent4 's @ent1 mayoral primary
+research : @entity3 's @entity1 is the @entity4 equivalent of this repository on @entity2 's @entity7 .
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Democratic
-@ent2:Dinkins
-@ent3:Ed Koch
-@ent4:NYC
-@ent5:1989
-@ent6:New York City
-@ent7:David Dinkins
+@entity0:
+@entity1:Public Record Office
+@entity2:Washington
+@entity3:London
+@entity4:British
+@entity5:David Lewis Evans
+@entity6:the National Archives
+@entity7:Constitution Ave

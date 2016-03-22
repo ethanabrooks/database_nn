@@ -1,14 +1,16 @@
-6
+8
 
-@ent2 ( born @ent4 ) is an @ent1 lawyer and the arbitrator on the court series @ent3 .
+everyday @entity2 is a @entity7 show hosted by @entity5 .
 
-tv judges : couples live unhappily ever after on this show featuring judge @ent5
+hail to the chef : this host of @entity1 " @entity4 " was born in @entity3 & is the granddaughter of film producer @entity6
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:American
-@ent2:Lynn Candace Toler
-@ent3:Divorce Court
-@ent4:October 25, 1958
-@ent5:Lynn Toler
+@entity0:
+@entity1:the Food Network's
+@entity2:Italian
+@entity3:Rome
+@entity4:Everyday Italian
+@entity5:Giada De Laurentiis
+@entity6:Dino
+@entity7:Food Network

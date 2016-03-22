@@ -1,12 +1,16 @@
-4
+8
 
-@ent2 ( ) , known as @ent3 before independence , is the capital and largest city of @ent1 .
+  in @entity5 , @entity7 was defeated in a landslide by former @entity4 united states senator @entity3 .
 
-high " iq " : @ent2 is its capital
+floridians : he defeated incumbent @entity2 by over @entity1 votes in @entity5 to become @entity6 governor
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Mozambique
-@ent2:Maputo
-@ent3:Lourenço Marques
+@entity0:
+@entity1:400,000
+@entity2:Bob Martinez
+@entity3:Lawton Chiles
+@entity4:Democratic
+@entity5:1990
+@entity6:Florida
+@entity7:Martinez

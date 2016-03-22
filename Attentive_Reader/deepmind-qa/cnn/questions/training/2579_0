@@ -1,17 +1,18 @@
-9
+10
 
-@ent3 is a @ent4 @ent5 romantic comedy - drama film directed , produced by , and starring @ent1 , based on the book @ent7 @ent2 .
+on @entity5 , the south fork dam failed catastrophically and @entity3 of water from @entity7 burst through and raced @entity1 ( 23   km ) downstream , causing @entity4 .
 
-actress - directors : in @ent4 she directed & starred in " @ent3 " , about a mother of 7 , who tries to make ends meet in @ent6 @ent8
+dam it ! : @entity8 on @entity2 failed completely , causing this @entity9 disaster
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Anjelica Huston
-@ent2:Brendan O'Carroll
-@ent3:Agnes Browne
-@ent4:1999
-@ent5:American/Irish
-@ent6:1960s
-@ent7:The Mammy by
-@ent8:Dublin
+@entity0:
+@entity1:14 miles
+@entity2:the Little Conemaugh River
+@entity3:20 million tons
+@entity4:the Johnstown Flood
+@entity5:May 31, 1889
+@entity6:The Johnstown Flood
+@entity7:Lake Conemaugh
+@entity8:South Fork Dam
+@entity9:1889

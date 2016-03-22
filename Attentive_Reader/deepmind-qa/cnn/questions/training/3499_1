@@ -1,13 +1,12 @@
-5
+4
 
-  in the period soon after the revolt , whites did not try to interpret @ent1 's motives and ideas .
+   trail location uses length ( miles )
 
-south specific : he 's the late @ent2 novelist heard here:"i suppose i had been thinking about @ent4 for many , many years . "
+@entity2 : @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Turner
-@ent2:American
-@ent3:William Styron
-@ent4:Nat Turner
+@entity0:
+@entity1:Hoosier National Forest
+@entity2:NATIONAL FOREST STATES
+@entity3:Indiana

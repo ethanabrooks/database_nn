@@ -1,16 +1,11 @@
-8
+3
 
-elvis and @ent7 is a @ent6 made - for-tv film starring @ent3 and @ent4 .
+( isbn 0 - 86278-656-8 ) is a city in @entity2 .
 
-@ent1 : in the @ent6 tv movie " @ent5 " , this " @ent2 " star portrayed elvis presley
+european cuisine : blaa may not sound appetizing , but it 's a nice floury bread from @entity1 in this country
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:ACTORS & ACTRESSES
-@ent2:Miami Vice
-@ent3:Don Johnson
-@ent4:Stephanie Zimbalist
-@ent5:Elvis and the Beauty Queen
-@ent6:1981
-@ent7:the Beauty Queen
+@entity0:
+@entity1:Waterford
+@entity2:Ireland

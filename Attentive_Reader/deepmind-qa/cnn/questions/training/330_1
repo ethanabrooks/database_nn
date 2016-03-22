@@ -1,13 +1,11 @@
-5
+3
 
-@ent2 said , " mr chalabi has helped us with contacts in @ent4 like other people have done and we thank them . "
+the administrative building has the administrative offices , a book acquisition section , a book processing section , a reprographic section , a book binding section , a manuscript section , and a seminar section .
 
-city of birth : the controversial @ent1
+libraries : this country 's largest library is part of its @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ahmed Chalabi
-@ent2:Fairooz
-@ent3:Baghdad
-@ent4:Washington
+@entity0:
+@entity1:University of Dhaka
+@entity2:Bangladesh

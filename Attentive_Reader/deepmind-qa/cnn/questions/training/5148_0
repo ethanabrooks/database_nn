@@ -1,11 +1,14 @@
-3
+6
 
-alprazolam   or , available as the trade name @ent2   among others , is a short - acting anxiolytic of the benzodiazepine class .
+it is notable as the location where bank robber @entity3 was shot by   @entity1 agents after watching a gangster movie on @entity4 .
 
-palindroming : this tranquilizer & anxiety suppressor is a brand name for @ent1
+gangsters : his fateful @entity4 night at @entity2 's @entity5 might be featured on " biography "
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Alprazolam
-@ent2:Xanax
+@entity0:
+@entity1:FBI
+@entity2:Chicago
+@entity3:John Dillinger
+@entity4:July 22, 1934
+@entity5:Biograph Theater

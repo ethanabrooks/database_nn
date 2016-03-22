@@ -1,17 +1,13 @@
-9
+5
 
-@ent1 , @ent7 & @ent3 : @ent2 , @ent4 .
+@entity2 also became a skilled pianist .
 
-19th century literature : you 'll find whaleboats not only in his masterpiece but also in his story " @ent6 " & his novel " @ent5 "
+singers : @entity1 & keyboardist @entity3 form this duo
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cambridge
-@ent2:Cambridge University Press
-@ent3:New York
-@ent4:1998
-@ent5:Mardi
-@ent6:Benito Cereno
-@ent7:UK
-@ent8:Herman Melville
+@entity0:
+@entity1:Singer Neil Tennant
+@entity2:Lowe
+@entity3:Chris Lowe
+@entity4:The Pet Shop Boys

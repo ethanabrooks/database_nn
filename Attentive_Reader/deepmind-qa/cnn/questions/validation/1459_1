@@ -1,14 +1,12 @@
-6
+4
 
-@ent4 : @ent5 ( @ent3 ) .
+@entity3 , 1976 .
 
-feminism : title of the @ent2 art work seen here
+the killing : he was shot in @entity2 while giving a speech at the audubon ballroom in harlem
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Dinner Party
-@ent2:Judy Chicago
-@ent3:2010
-@ent4:New York
-@ent5:Prestel USA
+@entity0:
+@entity1:Malcolm X
+@entity2:February 1965
+@entity3:Harmony Books

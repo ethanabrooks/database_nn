@@ -1,17 +1,16 @@
-9
+8
 
-( northern sami : , @ent4 : ) is the northernmost town in @ent8 , situated in the province of @ent6 .
+the @entity7 ( commonly referred to as @entity2 , @entity5 , or simply @entity1 ) is a private research university in @entity6 , @entity3 .
 
-competitors to @ent5 : @ent3 is located near @ent7 , way north of @ent1 in this @ent2 country
+@entity4 geography : @entity7 in this city is the home of the lacrosse hall of fame
 
-@ent8
+@entity6
 
-@ent0:
-@ent1:the Arctic Circle
-@ent2:European
-@ent3:Esrange Space Center
-@ent4:Finnish
-@ent5:NASA
-@ent6:Lapland
-@ent7:Kiruna
-@ent8:Sweden
+@entity0:
+@entity1:Hopkins
+@entity2:Johns Hopkins
+@entity3:Maryland
+@entity4:U.S.
+@entity5:JHU
+@entity6:Baltimore
+@entity7:Johns Hopkins University

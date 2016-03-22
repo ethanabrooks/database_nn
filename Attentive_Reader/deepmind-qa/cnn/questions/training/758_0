@@ -1,19 +1,14 @@
-11
+6
 
-  the film 's stars are @ent7 and @ent5 : @ent10 , @ent8 , @ent6 , @ent1 , @ent4 and @ent3 .
+  in novels such as @entity1 by @entity3 and the @entity5 series by @entity2 , covens are families or unrelated groups of vampires who live together .
 
-famous couples : when this @ent5 actress starred in " @ent2 " , she was married to its screenwriter , @ent9
+contemporary authors : among the items that have been sold on her website are a @entity4 party fan & lestat cologne & wine
 
-@ent8
+@entity3
 
-@ent0:
-@ent1:Christopher Jones
-@ent2:Ryan's Daughter
-@ent3:Leo McKern
-@ent4:Trevor Howard
-@ent5:British
-@ent6:John Mills
-@ent7:American
-@ent8:Sarah Miles
-@ent9:Robert Bolt
-@ent10:Robert Mitchum
+@entity0:
+@entity1:The Vampire Chronicles
+@entity2:Stephenie Meyer
+@entity3:Anne Rice
+@entity4:Coven
+@entity5:Twilight

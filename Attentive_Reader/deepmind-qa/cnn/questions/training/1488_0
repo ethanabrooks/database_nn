@@ -1,13 +1,14 @@
-5
+6
 
-@ent3 becoming one of @ent1 's greatest allies and heroes .
+lieutenant anita @entity4 is a fictional character on @entity3 's long - running police procedural and legal drama television series @entity5 , portrayed by @entity1 .
 
-defender : in a @ent4 work , @ent2 is a mighty defender of this city
+who 's the tv boss ? : no - nonsense police lt . @entity2
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Troy
-@ent2:Sarpedon
-@ent3:876
-@ent4:Homer
+@entity0:
+@entity1:S. Epatha Merkerson
+@entity2:Anita Van Buren
+@entity3:NBC
+@entity4:Van Buren
+@entity5:Law & Order

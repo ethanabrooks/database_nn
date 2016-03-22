@@ -1,17 +1,13 @@
-9
+5
 
-@ent6 " @ent1 " @ent7 ( born @ent2 ) is an @ent5 actress .
+he attended the moscow state university in the @entity2 and studied faculty of law .
 
-young stars : " all my children " star @ent8 has a stake in this title tv role based on a @ent3 film
+names in the news : @entity1 , son - in-law of this @entity4 leader , was tried for taking bribes
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kristy
-@ent2:December 19, 1969
-@ent3:Kristy Swanson
-@ent4:Buffy the Vampire Slayer
-@ent5:American
-@ent6:Kristen Nöel
-@ent7:Swanson
-@ent8:Sarah Michelle Gellar
+@entity0:
+@entity1:Yuri Churbanov
+@entity2:1960s
+@entity3:Leonid Brezhnev
+@entity4:Soviet

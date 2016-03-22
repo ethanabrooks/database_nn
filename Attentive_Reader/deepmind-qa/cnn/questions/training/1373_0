@@ -1,15 +1,13 @@
-7
+5
 
-the harder they come is a @ent4 @ent2 crime film directed by @ent3 and co - written by @ent6 , and starring @ent5 .
+heidelberg ( ) is a city situated on @entity2 in south - west @entity3 .
 
-reggae : he sang " @ent1 " & his performance in that @ent4 film made reggae internationally popular
+thinking about college : study at @entity1 's @entity4 college & you could spend your jr . year abroad at this country 's u. of heidelberg
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:The Harder They Come
-@ent2:Jamaican
-@ent3:Perry Henzell
-@ent4:1972
-@ent5:Jimmy Cliff
-@ent6:Trevor D. Rhone
+@entity0:
+@entity1:Ohio
+@entity2:the River Neckar
+@entity3:Germany
+@entity4:Heidelberg

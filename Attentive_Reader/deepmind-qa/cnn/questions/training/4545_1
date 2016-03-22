@@ -1,18 +1,16 @@
-10
+8
 
-@ent2 @ent7 ) ; @ent3 @ent5 , @ent4 .
+@entity4 baseball team has played games at the metrodome during @entity3 and @entity6 since @entity2 because of weather .
 
-here 's " @ent9 " : @ent1 won her only @ent8 playing a young deaf - mute girl in this film
+@entity7 home stadiums : @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jane Wyman
-@ent2:McFarland & Company (
-@ent3:ISBN
-@ent4:Bob
-@ent5:0-7864-1137-6.Colacello
-@ent6:Johnny Belinda
-@ent7:October 2001
-@ent8:Oscar
-@ent9:JOHNNY
+@entity0:
+@entity1:Minnesota Vikings
+@entity2:1985
+@entity3:February
+@entity4:The University of Minnesota Golden Gophers
+@entity5:Hubert H. Humphrey Metrodome
+@entity6:March
+@entity7:NFL

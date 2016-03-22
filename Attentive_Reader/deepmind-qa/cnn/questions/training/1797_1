@@ -1,21 +1,17 @@
-13
+9
 
-@ent5 , @ent7 lawyer and scholar ( d. @ent4 ) @ent2 –
+" @entity1 " , a decidedly smaller group , believe that @entity7 invented the existence of @entity4 .
 
-@ent12 explorers : in @ent1 @ent8 's king @ent6 i made this explorer governor of @ent10 ; he arrived near present - day @ent9 in @ent11
+@entity8 : in this @entity2 's " @entity6 " , @entity4 is the late author of a @entity3 poem
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1536
-@ent2: December 5
-@ent3:Hernando de Soto
-@ent4:1596
-@ent5:Pierre Pithou
-@ent6:Charles
-@ent7:French
-@ent8:Spain
-@ent9:Tampa Bay
-@ent10:Cuba
-@ent11:1539
-@ent12:EUROPEAN
+@entity0:
+@entity1:Kinboteans
+@entity2:Russian-American
+@entity3:999-line
+@entity4:John Shade
+@entity5:Vladimir Nabokov
+@entity6:Pale Fire
+@entity7:Kinbote
+@entity8:LITERARY LITERARY CHARACTERS

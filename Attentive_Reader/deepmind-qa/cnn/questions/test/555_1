@@ -1,16 +1,15 @@
-8
+7
 
-@ent6 nurse : a southern white girl , blond , not too pretty , @ent1
+  in @entity5 todd acquired the harris and selwyn theaters in downtown @entity2 .
 
-playwrights : his @ent3 @ent7 produced plays were " @ent4 " and " @ent5 "
+between : @entity4 husband between @entity6 & @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:about thirty.
-@ent2:Edward Albee
-@ent3:first
-@ent4:The Zoo Story
-@ent5:The Death of Bessie Smith
-@ent6:Second
-@ent7:two
+@entity0:
+@entity1:Richard Burton
+@entity2:Chicago
+@entity3:Eddie Fisher
+@entity4:Liz Taylor's
+@entity5:the 1950s
+@entity6:Mike Todd

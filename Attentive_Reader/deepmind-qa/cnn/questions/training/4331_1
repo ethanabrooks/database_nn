@@ -1,17 +1,17 @@
 9
 
-  in @ent1 , the president has issued a proclamation @ent3 for @ent8 day since @ent4 .
+the article implies that @entity8 should have been @entity7 's target instead of @entity5 .
 
-@ent2 : @ent5 falls on the anniversary of its founding , the @ent7 of this month
+@entity3 : @entity4 was executed in @entity1 , @entity6 after he assassinated this man
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the United States
-@ent2:HOLIDAYS & OBSERVANCES
-@ent3:each year
-@ent4:1946
-@ent5:United Nations Day
-@ent6:October
-@ent7:24th
-@ent8:United Nations
+@entity0:
+@entity1:November
+@entity2:Mohandas Gandhi
+@entity3:50 YEARS AGO
+@entity4:Nathuram Godse
+@entity5:Gandhi
+@entity6:almost 2 years
+@entity7:Godse
+@entity8:Nehru

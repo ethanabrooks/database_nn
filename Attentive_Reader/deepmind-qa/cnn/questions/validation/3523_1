@@ -1,13 +1,16 @@
-5
+8
 
-the @ent1 book shows change over time .
+”
 
-authors : this author of " @ent4 " was the elder brother of zoologist & writer @ent2
+@entity2 : in @entity6 @entity1 , the @entity5 's @entity4 black diplomat , became minister to this @entity3 - speaking nation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:fourth
-@ent2:Gerald Durrell
-@ent3:Lawrence Durrell
-@ent4:The Alexandria Quartet
+@entity0:
+@entity1:Ebenezer Bassett
+@entity2:LATIN AMERICAN HISTORY
+@entity3:French
+@entity4:first
+@entity5:USA
+@entity6:1869
+@entity7:Haiti

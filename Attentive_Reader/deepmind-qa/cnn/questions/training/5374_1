@@ -1,18 +1,14 @@
-10
+6
 
-  in @ent5 he resigned from @ent1 following cancellation of his column , after he criticised the paper 's coverage of @ent6 development .
+  there , @entity5 began writing poetry .
 
-oscar nominees : ( hi , i 'm @ent9 ) i earned an @ent7 nomination for playing @ent8 reporter @ent2 in this film set in war - torn @ent3
+authors in their youth : poet @entity4 went on the beat path after meeting this poet in a @entity3 bar in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the New York Times
-@ent2:Sydney Schanberg
-@ent3:Cambodia
-@ent4:The Killing Fields
-@ent5:September 1985
-@ent6:the Westway Highway
-@ent7:Oscar
-@ent8:NY Times
-@ent9:Sam Waterston
+@entity0:
+@entity1:1950
+@entity2:Allen Ginsberg
+@entity3:Greenwich Village
+@entity4:Gregory Corso
+@entity5:Corso

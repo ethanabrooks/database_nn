@@ -1,11 +1,15 @@
-3
+7
 
-@ent2 is notable for its car chase scene through the streets of @ent1 , regarded as one of the most influential in movie history .
+  the sugarland express is a @entity5 @entity4 neo - noir drama film co - written and directed by @entity2 in his theatrical feature film directorial debut .
 
-movies : been there , done that : " what 's up , doc ? " & " @ent2 " both featured chase scenes through this city
+movie directors : @entity3 on " @entity6 " idolized this man who directed " @entity1 " in his mid-20s
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:San Francisco
-@ent2:Bullitt
+@entity0:
+@entity1:The Sugarland Express
+@entity2:Steven Spielberg
+@entity3:Dawson
+@entity4:American
+@entity5:1974
+@entity6:Dawson's Creek

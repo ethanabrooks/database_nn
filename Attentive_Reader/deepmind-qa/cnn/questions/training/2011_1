@@ -1,18 +1,13 @@
-10
+5
 
-with @ent3 she had @ent6 son , @ent5 , in @ent9 .
+suggestions about how ms. should be used , or whether it should be used at all , are varied .
 
-wacky tv neighbors : in @ent2 @ent1 replaced @ent8 in the role of this nosy neighbor on " @ent4 "
+women authors : in @entity4 this co - founder of @entity3 magazine wrote for the tv series " that was the @entity2 that was "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Sandra Gould
-@ent2:1966
-@ent3:Berns
-@ent4:Bewitched
-@ent5:Michael Berns
-@ent6:one
-@ent7:Gladys Kravitz
-@ent8:Alice Pearce
-@ent9:1965
+@entity0:
+@entity1:Gloria Steinem
+@entity2:Week
+@entity3:Ms.
+@entity4:the mid-1960s

@@ -1,19 +1,15 @@
-11
+7
 
-@ent10 , @ent5 . " @ent3 on procedural issue " , @ent1 @ent9 , @ent2 .
+  @entity6 of @entity2 's friends explains that the election was " a last hurrah " for the kind of old - style machine politics that @entity1 had mastered .
 
-political parties : in @ent8 this @ent4 candidate received almost 10 million votes & won @ent7 states
+who 's the boss : @entity3 inspired the novel " @entity4 " as a political boss & mayor of this city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ballot Access
-@ent2:August 26, 2008
-@ent3:Keyes Wins California Lawsuit
-@ent4:American Independent Party
-@ent5:Richard
-@ent6:George Wallace
-@ent7:5
-@ent8:1968
-@ent9:News
-@ent10:Winger
+@entity0:
+@entity1:Skeffington
+@entity2:Adam
+@entity3:James Curley
+@entity4:The Last Hurrah
+@entity5:Boston
+@entity6:One

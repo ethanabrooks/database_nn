@@ -1,15 +1,13 @@
-7
+5
 
-it ran on @ent1 in @ent2 .
+according to @entity2 , cited by @entity3 .
 
-singing actors : actor heard here in the @ent1 musical " @ent6 " @ent5 he starred in a @ent4 film
+ancient greece : the @entity1 were the unfree peasants of this militaristic city - state
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Broadway
-@ent2:1960
-@ent3:Anthony Perkins
-@ent4:Hitchcock
-@ent5:the same year
-@ent6:Greenwillow
+@entity0:
+@entity1:Helots
+@entity2:Myron of Priene
+@entity3:Athenaeus,Athenaeus
+@entity4:Sparta

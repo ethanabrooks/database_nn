@@ -1,18 +1,14 @@
-10
+6
 
-@ent8 database - gemeinde statistics 1981 - 2008   accessed @ent6   over @ent4 ( @ent2 ) the population has changed at a rate of @ent5 .
+@entity5 died on @entity3 , after a severe cold worsened into pneumonia .
 
-@ent9 : the world 's oldest cake , made around 2200 b.c. , is in a food museum in @ent7 in this @ent3 country
+let 's go shopping : tremont street in this city 's shopping district is where @entity2 gave his @entity4 antislavery speech
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Switzerland
-@ent2:1999–2009
-@ent3:Alpine
-@ent4:the last 10 years
-@ent5:16.2%
-@ent6:19 June 2010
-@ent7:Vevey
-@ent8:Swiss Federal Statistical Office - Superweb
-@ent9:GUINNESS FOOD & DRINK RECORDS
+@entity0:
+@entity1:Boston
+@entity2:William Lloyd Garrison
+@entity3:January 25, 1876
+@entity4:first
+@entity5:Helen

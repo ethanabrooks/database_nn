@@ -1,15 +1,16 @@
-7
+8
 
-the north side is joined to   the rest of @ent5 , at @ent3 .
+  primary source material including family letters , business documents , ledgers , maps of property and other of @entity6 's writings are housed in @entity7 .
 
-all around new york : while @ent5 in the @ent2 is @ent6 's largest park , this 840-acre one in @ent1 is more famous
+potpourri : this @entity2 composer was born @entity5 to @entity1 , a @entity3 merchant
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Manhattan
-@ent2:Bronx
-@ent3:Orchard Beach
-@ent4:Central Park
-@ent5:Pelham Bay Park
-@ent6:NYC
+@entity0:
+@entity1:William Barclay Foster
+@entity2:U.S.
+@entity3:Pennsylvania
+@entity4:Stephen Foster
+@entity5:July 4, 1826
+@entity6:Barclay
+@entity7:the University of Pittsburgh Library System Archives Service Center

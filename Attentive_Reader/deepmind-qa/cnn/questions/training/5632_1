@@ -1,14 +1,11 @@
-6
+3
 
-( with acceptance speech by @ent1 . ) " arts and letters " was an award category from 1964 to 1976 .
+this resolves the romantic entanglements to everyone 's satisfaction .
 
-nonfiction : @ent2 is editing a @ent5 edition of this book of familiar quotations which is due out in @ent3
+languages : the famous operetta " @entity1 " was written in this language
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kaplan
-@ent2:Justin Kaplan
-@ent3:1992
-@ent4:Bartlett's Familiar Quotations
-@ent5:16th
+@entity0:
+@entity1:The Gondoliers
+@entity2:English

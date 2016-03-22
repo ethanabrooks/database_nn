@@ -1,13 +1,17 @@
-5
+9
 
-the sale was completed on @ent2 .
+  pulliam era @entity5 , who bought the @entity1 gazettes as well as the republic , ran all @entity3 newspapers until his death in @entity8 at the age of @entity2 .
 
-also a planet : founded in @ent3 , it was a @ent4 brand name of semi - luxury models
+@entity4 : @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mercury
-@ent2:December 22, 2005
-@ent3:1938
-@ent4:Ford Motor Company
+@entity0:
+@entity1:two
+@entity2:86
+@entity3:three
+@entity4:NEWSPAPER TOWNS
+@entity5:Pulliam
+@entity6:The Arizona Republic
+@entity7:Phoenix
+@entity8:1975

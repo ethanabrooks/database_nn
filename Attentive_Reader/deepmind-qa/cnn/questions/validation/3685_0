@@ -1,18 +1,15 @@
-10
+7
 
-@ent1 centre is located on @ent3 ridout street , @ent7 , @ent8 , @ent4 .
+cowcaddens ( , )list of railway station names in @entity2 , @entity4 and gaelic – newsnetscotland is an area of the city of @entity6 , @entity5 .
 
-this old haunted house : a @ent5 officer who drowned in @ent2 nearby haunts @ent6 in this @ent9 province
+subway stops : going from @entity3 to @entity1 on this city 's subway , you 'll cross the clyde & kelvin rivers
 
-@ent8
+@entity6
 
-@ent0:
-@ent1:The Eldon House Interpretation
-@ent2:the Thames River
-@ent3:481
-@ent4:Canada
-@ent5:British
-@ent6:Eldon House
-@ent7:London
-@ent8:Ontario
-@ent9:Canadian
+@entity0:
+@entity1:Cowcaddens
+@entity2:English
+@entity3:Govan
+@entity4:Scots
+@entity5:Scotland
+@entity6:Glasgow

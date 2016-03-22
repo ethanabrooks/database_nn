@@ -1,13 +1,17 @@
-5
+9
 
-@ent4 .
+their mascot is the mariner moose .
 
-that 's not where you think it is : @ent2 in this state is n't too far from @ent3
+@entity1 : in @entity3 this @entity7 ' @entity8 " @entity6 lefty became the @entity5 pitcher in his team 's history to win @entity4 games
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Florida
-@ent2:Hollywood
-@ent3:Biscayne Bay
-@ent4:1996
+@entity0:
+@entity1:MAJOR LEAGUE BASEBALL
+@entity2:Randy Johnson
+@entity3:1997
+@entity4:20
+@entity5:first
+@entity6:Seattle Mariners
+@entity7:6
+@entity8:10

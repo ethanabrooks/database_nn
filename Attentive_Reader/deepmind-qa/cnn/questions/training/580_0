@@ -1,18 +1,18 @@
 10
 
-  in @ent1 , he emigrated with his parents to @ent2 , settling @ent5 in @ent8 , and then @ent6 .
+in addition to @entity6 and @entity5 , the larger cities along the route include @entity9 and @entity8 , @entity4 , and @entity3 , @entity1 .
 
-@ent7 : this @ent4 city is home to @ent3 revival mansion of beer baron capt . @ent9
+the south : the historic @entity7 runs @entity2 north of this @entity4 capital
 
-@ent8
+@entity9
 
-@ent0:
-@ent1:1848
-@ent2:the United States
-@ent3:the Flemish Renaissance
-@ent4:U.S.
-@ent5:first
-@ent6:Chicago
-@ent7:BETTER HOMES & GARDENS
-@ent8:Milwaukee
-@ent9:Frederick Pabst
+@entity0:
+@entity1:Alabama
+@entity2:about 10 miles
+@entity3:Florence
+@entity4:Mississippi
+@entity5:Nashville
+@entity6:Natchez
+@entity7:Natchez Trace Parkway
+@entity8:Tupelo
+@entity9:Jackson

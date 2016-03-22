@@ -1,20 +1,21 @@
-12
+13
 
-@ent1 ( ; born @ent2 @ent7 ) is a @ent9 politician who was president of @ent8 from @ent5 .
+@entity12 ( @entity7 – @entity6 ) was a prominent @entity11 architect who designed buildings in @entity8 , @entity4 , @entity2 , @entity1 , @entity5 , @entity3 , and other cities .
 
-@ent6 news : former bishop @ent3 was elected pres . of this @ent11 country after @ent4 of @ent10 rule
+architecture : @entity12 designed this @entity10 city 's @entity9 in the romanesque style
 
-@ent8
+@entity4
 
-@ent0:
-@ent1:Fernando Armindo Lugo Méndez
-@ent2:30
-@ent3:Fernando Lugo
-@ent4:6 decades
-@ent5:2008 to 2012
-@ent6:2008
-@ent7:May 1951
-@ent8:Paraguay
-@ent9:Paraguayan
-@ent10:1-party
-@ent11:South American
+@entity0:
+@entity1:Chicago
+@entity2:Buffalo
+@entity3:Cincinnati
+@entity4:Boston
+@entity5:Pittsburgh
+@entity6:April 27, 1886
+@entity7:September 29, 1838
+@entity8:Albany
+@entity9:Trinity Church
+@entity10:Massachusetts
+@entity11:American
+@entity12:Henry Hobson Richardson

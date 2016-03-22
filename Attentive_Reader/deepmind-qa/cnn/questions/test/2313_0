@@ -1,14 +1,17 @@
-6
+9
 
-the @ent3 pennies ' version of " ida , sweet as apple cider " was a surprise hit record .
+@entity6 and @entity3 , @entity4 : a biography ( @entity8 and schuster , 1973 ) , p. @entity5 .
 
-@ent4 movies : @ent2 starred in this @ent1 biography of @ent5 named for his backing group
+british authors : from @entity7 , his " @entity1 " & " @entity2 " proved eerily prophetic
 
-the @ent3 pennies
+@entity4
 
-@ent0:
-@ent1:1959
-@ent2:Danny Kaye
-@ent3:Five
-@ent4:5
-@ent5:Red Nichols
+@entity0:
+@entity1:The First Men in the Moon
+@entity2:The War in the Air
+@entity3:Jeanne Mackenzie
+@entity4:H.G. Wells
+@entity5:234
+@entity6:Norman
+@entity7:the early 1900s
+@entity8:Simon

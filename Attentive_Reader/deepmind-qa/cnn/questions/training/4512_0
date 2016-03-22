@@ -1,16 +1,19 @@
-8
+11
 
-other cities in the region , such as @ent2 , @ent4 , @ent3 , @ent1 , and @ent7 , were founded as company towns during this period .
+@entity1 starred @entity5 , @entity10 , @entity7 , @entity3 , @entity6 , and @entity4 .
 
-@ent6 place names : this town , site of the scopes trial , plays host to the annual @ent5 strawberry festival
+killer musicals : when this tv star played @entity9 in @entity8 , @entity2 critic dubbed him " ' @entity1 ' with a razor "
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Dayton
-@ent2:Lenoir City
-@ent3:Rockwood
-@ent4:Harriman
-@ent5:East Tennessee
-@ent6:U.S.
-@ent7:Englewood
+@entity0:
+@entity1:Frasier
+@entity2:one
+@entity3:Jane Leeves
+@entity4:Moose/Enzo
+@entity5:Kelsey Grammer
+@entity6:Peri Gilpin
+@entity7:John Mahoney
+@entity8:1999
+@entity9:Sweeney Todd
+@entity10:David Hyde Pierce

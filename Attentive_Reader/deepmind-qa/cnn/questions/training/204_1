@@ -1,13 +1,17 @@
-5
+9
 
-@ent1 , p.   44
+okay @entity8 ( @entity1 ) save the tiger ( @entity4 )
 
-world " c"ities : it 's the largest city in the @ent3 state of @ent4
+martial artists : " @entity7 " director @entity3 directed this @entity2 @entity6 film & 2 of its sequels
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Nordrhein-Westfalen
-@ent2:Cologne
-@ent3:German
-@ent4:North Rhine-Westphalia
+@entity0:
+@entity1:1972
+@entity2:1984
+@entity3:John G. Avildsen
+@entity4:1973
+@entity5:The Karate Kid
+@entity6:Ralph Macchio
+@entity7:Rocky
+@entity8:Bill

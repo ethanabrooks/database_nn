@@ -1,13 +1,18 @@
-5
+10
 
-some of his better - known poems are close translations of @ent2 or @ent1 models ; all display the careful attention to form and style that often came naturally to those trained in classics in the humanist manner .
+  biography born @entity4 in @entity3 , he studied under his renowned great - uncle @entity6 , @entity9 of the originators of the classical tradition in @entity2 architecture ; @entity5 inherited @entity1 's collection of plans and drawings and adopted his well - regarded name .
 
-shakespearean potpourri : he probably studied the classics , but @ent4 implied he had " small @ent3 and less " this language
+the family jules : architect @entity8 designed the church of the @entity7 in the invalides in this city
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Roman
-@ent2:Greek
-@ent3:Latin
-@ent4:Ben Jonson
+@entity0:
+@entity1:Mansart
+@entity2:French
+@entity3:Paris
+@entity4:Jules Hardouin
+@entity5:Hardouin
+@entity6:François Mansart
+@entity7:Dome
+@entity8:Jules Hardouin-Mansart
+@entity9:one

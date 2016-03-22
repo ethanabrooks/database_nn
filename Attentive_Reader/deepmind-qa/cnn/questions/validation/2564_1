@@ -1,16 +1,14 @@
-8
+6
 
-in @ent5 , she appeared alongside @ent3 in the hallmark hall of fame tv film @ent6 .
+a series of @entity3 films at @entity1 came to a crashing halt with his production of make way
 
-writers on film : in @ent2 @ent4 also appeared when @ent7 played this witty writer
+" duck soup " : the film 's director , @entity4 , was the genius who got @entity2 to team up with this man
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Dorothy Parker
-@ent2:1994
-@ent3:Campbell Scott
-@ent4:Ferber & Fitzgerald
-@ent5:1998
-@ent6:The Love Letter
-@ent7:Jennifer Jason Leigh
+@entity0:
+@entity1:Paramount
+@entity2:Stan Laurel
+@entity3:six
+@entity4:Leo McCarey
+@entity5:Oliver Hardy

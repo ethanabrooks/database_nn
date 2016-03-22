@@ -1,14 +1,13 @@
-6
+5
 
-@ent2 is a female given name , a diminutive of @ent5 , @ent3 and @ent4 .
+clayburgh married screenwriter and playwright @entity1 in @entity3 .
 
-mythology : go to @ent2 in the name books & you 'll find it 's a form of this name from @ent1 myth
+playwrights : in @entity3 this author of " @entity2 " married @entity4
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Greek
-@ent2:Ellen
-@ent3:Eleanor
-@ent4:Helen
-@ent5:Elizabeth
+@entity0:
+@entity1:David Rabe
+@entity2:Streamers
+@entity3:1979
+@entity4:Jill Clayburgh

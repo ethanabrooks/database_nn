@@ -1,14 +1,15 @@
-6
+7
 
-@ent3 and @ent2 were featured in villainous roles .
+the @entity6 taj mahal is a casino located at @entity3 boardwalk in @entity2 , @entity5 , @entity1 , in the casino area along the shore .
 
-@ent4 : this star of the " naked gun " movies made his feature film debut in the @ent5 musical " @ent1 "
+sky high : @entity4 at @entity3 boardwalk
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:The Vagabond King
-@ent2:Jack Lord
-@ent3:Leslie Nielsen
-@ent4:MOVIE DEBUTS
-@ent5:1956
+@entity0:
+@entity1:United States
+@entity2:Atlantic City
+@entity3:1000
+@entity4:Trump Taj Mahal
+@entity5:New Jersey
+@entity6:Trump

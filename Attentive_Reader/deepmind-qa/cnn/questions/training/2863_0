@@ -1,14 +1,14 @@
 6
 
-in @ent2 , she married home alone actor @ent3 .
+@entity3 is a @entity2 book by @entity1 that became an international bestseller and an important text in the feminist movement .
 
-@ent4 's break up : looks like he 's going to be " @ent5 " since he & @ent1 called it quits
+" g.g. " : born near @entity4 , this @entity5 feminist is best known for her revolutionary work " @entity3 "
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:Rachel Miner
-@ent2:1998
-@ent3:Macaulay Culkin
-@ent4:LET
-@ent5:Home Alone
+@entity0:
+@entity1:Germaine Greer
+@entity2:1970
+@entity3:The Female Eunuch
+@entity4:Melbourne
+@entity5:Aussie

@@ -1,15 +1,17 @@
-7
+9
 
-  a video slot machine based on @ent1 was released by @ent4 in @ent5 .
+@entity3 ( @entity5 ) at @entity1 @entity8 .
 
-game show biz : he produced " @ent1 " & " @ent1 " & produced & hosted " @ent3 "
+from tv to film : in the ' 80s he was the villainous @entity2 on " @entity4 " ; in @entity6 he was the super - villainous @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Dating Game
-@ent2:The Newlywed Game
-@ent3:The Gong Show
-@ent4:IGT
-@ent5:2004
-@ent6:Chuck Barris
+@entity0:
+@entity1:Don Markstein's
+@entity2:Mel Profitt
+@entity3:Lex Luthor
+@entity4:Wiseguy
+@entity5:1986
+@entity6:2006
+@entity7:Kevin Spacey
+@entity8:Toonopedia

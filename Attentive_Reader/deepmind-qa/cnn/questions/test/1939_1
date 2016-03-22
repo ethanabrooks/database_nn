@@ -1,13 +1,16 @@
-5
+8
 
-  the book is an autobiographical account of a @ent3 struggle with neurasthenia in the aftermath of sister @ent1 's financial failure .
+  the islands are served by @entity6 .
 
-nonfiction : " @ent4 " tells of his unhappy , impoverished period after the publication of " sister carrie "
+@entity4 : just smaller than @entity7 , this republic consists of @entity5 @entity1 islands , including the @entity3 group
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Carrie
-@ent2:Theodore Dreiser
-@ent3:three-year
-@ent4:An Amateur Laborer
+@entity0:
+@entity1:South Pacific
+@entity2:Fiji
+@entity3:Yasawa
+@entity4:TRAVEL & TOURISM
+@entity5:about 300
+@entity6:the Yasawa Island Airport
+@entity7:New Jersey

@@ -1,17 +1,15 @@
-9
+7
 
-she became the @ent5 @ent8 person to win an academy award , for her role in room at the top ( @ent4 ) .
+it only became an island following a flood in @entity2 .
 
-women of the world : @ent8 film star @ent3 married @ent1 men named @ent2 :   director @ent6 & this actor
+@entity5 : the @entity6 horse is named for this country 's @entity3 , where it has been bred for @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2
-@ent2:Yves
-@ent3:Simone Signoret
-@ent4:1959
-@ent5:first
-@ent6:Yves Allegret
-@ent7:Yves Montand
-@ent8:French
+@entity0:
+@entity1:centuries
+@entity2:1825
+@entity3:Jutland Peninsula
+@entity4:Denmark
+@entity5:HORSE BREED NAMES
+@entity6:Jutland

@@ -1,0 +1,14 @@
+6
+
+@entity3 is a dystopian novel by @entity1 published in @entity2 .
+
+authors : in @entity4 a play based on his novel " @entity3 " was produced in @entity5
+
+@entity1
+
+@entity0:
+@entity1:Ray Bradbury
+@entity2:1953
+@entity3:Fahrenheit 451
+@entity4:1979
+@entity5:Los Angeles

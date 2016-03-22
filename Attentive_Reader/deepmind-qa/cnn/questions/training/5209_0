@@ -1,15 +1,12 @@
-7
+4
 
-denpasar ( @ent2 : @ent1 , ) is the capital of @ent5 .
+the @entity1 computer virus begins to affect computers .
 
-around the world , @ent3 style : my travels took me to this @ent2 island 's provincial capital of @ent6 where the winds blow hot , east of @ent4
+software that bytes : every @entity2 your computer can be infected by this virus named for a @entity3 artist
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Kota Denpasar
-@ent2:Indonesian
-@ent3:J. PETERMAN
-@ent4:Java
-@ent5:Bali
-@ent6:Denpasar
+@entity0:
+@entity1:Michelangelo
+@entity2:March 6
+@entity3:Renaissance

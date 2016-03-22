@@ -1,20 +1,17 @@
-12
+9
 
-  personal life @ent6 was born in @ent3 in @ent2 , @ent5 to a @ent4 - american family , the son of @ent8 and @ent9 .
+in @entity7 @entity2 film of @entity3 of @entity5 , a character recites " @entity8 " prior to @entity3 's rousing rendition of " @entity4 " .
 
-tv actors & roles : ( video daily double):"(hi , i 'm @ent9 )   when i played legal eagle @ent10 on this hit tv series , i got to date @ent1 "
+poets & poetry : after writing about " @entity8 " , he wrote " @entity6 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Vanna White
-@ent2:Cambridge
-@ent3:1942
-@ent4:Jewish
-@ent5:Massachusetts
-@ent6:Rachins
-@ent7:L.A.
-@ent8:Edward
-@ent9:Ida Rachins
-@ent10:Douglas Brackman
-@ent11:Alan Rachins
+@entity0:
+@entity1:Henry Wadsworth Longfellow
+@entity2:1985
+@entity3:Anne
+@entity4:The Highwayman
+@entity5:Green Gables
+@entity6:The Building of the Ship
+@entity7:Kevin Sullivan's
+@entity8:The Wreck of the Hesperus

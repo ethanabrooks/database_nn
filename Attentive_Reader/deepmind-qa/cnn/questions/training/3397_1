@@ -1,15 +1,16 @@
-7
+8
 
-@ent5 , accessed @ent6 .
+the museum is affiliated with : cma , @entity1 , and @entity4 .
 
-@ent4 universities : high school buddies might want to apply to @ent3 , based in @ent2 in this state
+this old haunted house : a @entity2 officer who drowned in @entity5 nearby haunts @entity3 in this @entity6 province
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kansas
-@ent2:Wichita
-@ent3:Friends University
-@ent4:U.S.
-@ent5:Graduate School
-@ent6:December 10, 2013
+@entity0:
+@entity1: CHIN
+@entity2:British
+@entity3:Eldon House
+@entity4:Virtual Museum of Canada
+@entity5:the Thames River
+@entity6:Canadian
+@entity7:Ontario

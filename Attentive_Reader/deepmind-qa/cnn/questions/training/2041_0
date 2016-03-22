@@ -1,20 +1,14 @@
-12
+6
 
-@ent4 , @ent3 of @ent1   ( born @ent10 @ent11 ) is chancellor of @ent9 and a former governor of @ent7 and @ent6 .
+tema is a city on @entity1 and @entity5 coast of @entity4 .
 
-now get out ! : @ent3 , governor of this @ent5 colony , left it on @ent2 on the royal yacht britannia
+" g"eography : important towns in this west @entity2 republic include @entity3 , kumasi & accra
 
-@ent7
+@entity4
 
-@ent0:
-@ent1:Barnes
-@ent2:July 1, 1997
-@ent3:Baron Patten
-@ent4:Christopher Francis Patten
-@ent5:British
-@ent6:the BBC Trust
-@ent7:Hong Kong
-@ent8:Chris Patten
-@ent9:the University of Oxford
-@ent10:12
-@ent11:May 1944
+@entity0:
+@entity1:the Gulf of Guinea
+@entity2:African
+@entity3:Tema
+@entity4:Ghana
+@entity5:Atlantic

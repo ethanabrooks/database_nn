@@ -1,12 +1,17 @@
-4
+9
 
-was the @ent1 emperor of @ent2 , according to legend .
+@entity8 ( born @entity3 ; @entity4 ) is an @entity7 musician , singer and songwriter best known as a member of the rock band @entity1 , with whom he performs lead vocals and is @entity2 of @entity5 guitarists .
 
-chronicles : you 'll find the deeds of @ent3 in the " nihon shoki " , or " chronicle of " this country
+bands of the ' 90s : side projects by members of this band have included @entity6 , featuring @entity8
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:first
-@ent2:Japan
-@ent3:Emperor Jimmu
+@entity0:
+@entity1:Pearl Jam
+@entity2:one
+@entity3:Edward Louis Severson
+@entity4:December 23, 1964
+@entity5:three
+@entity6:Hovercraft
+@entity7:American
+@entity8:Eddie Vedder

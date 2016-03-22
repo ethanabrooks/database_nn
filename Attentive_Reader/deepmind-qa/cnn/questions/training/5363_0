@@ -1,18 +1,16 @@
-10
+8
 
-in @ent3 , after @ent2 , @ent1 was included in the unrecognised state of @ent9 , @ent8 and @ent4 which seceded from @ent7 - hungary and merged into the kingdom of @ent6 .
+he won @entity5 for his novel @entity4 ( @entity1 ) , which was adapted as the @entity2 film of the same name .
 
-foreign countries : the sabor is the legislative body of @ent1 , which was part of this country until it broke away in @ent5
+@entity3 : a burned man is the title figure of this novel by @entity7 that 's set in @entity6
 
-@ent6
+@entity4
 
-@ent0:
-@ent1:Croatia
-@ent2:World War I
-@ent3:1918
-@ent4:Serbs
-@ent5:1991
-@ent6:Yugoslavia
-@ent7:Austria
-@ent8:Croats
-@ent9:Slovenes
+@entity0:
+@entity1:1992
+@entity2:1996
+@entity3:THE MAN BOOKER PRIZE
+@entity4:The English Patient
+@entity5:the Booker Prize
+@entity6:1945
+@entity7:Michael Ondaatje

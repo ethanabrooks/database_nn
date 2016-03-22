@@ -1,22 +1,16 @@
-14
+8
 
-in @ent5 , their son @ent9 published a compilation of letters from @ent2 to his father .
+he based @entity6 on @entity4 , deliberately giving him the same initials .
 
-the nobel peace prize : ( @ent1 of @ent6 presents from @ent11 in @ent13 , @ent4 . ) @ent10 , who founded this international organization that works to relieve suffering , won a share of the @ent12 peace prize in @ent8 ; since then , the organization itself has won an unprecedented @ent7 prizes
+inspired characters : @entity2 , who was killed at @entity7 , inspired @entity3 , who drowns in his " @entity5 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Sarah
-@ent2:Dunant
-@ent3:the Red Cross
-@ent4:Norway
-@ent5:1935
-@ent6:the Clue Crew
-@ent7:three
-@ent8:1901
-@ent9:René
-@ent10:Henry Dunant
-@ent11:the Nobel Peace Prize Center
-@ent12:first
-@ent13:Oslo
+@entity0:
+@entity1:Theodore Dreiser
+@entity2:Grace Brown
+@entity3:Roberta Alden
+@entity4:Chester Gillette
+@entity5:An American Tragedy
+@entity6:Clyde Griffiths
+@entity7:Big Moose Lake

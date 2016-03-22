@@ -1,12 +1,18 @@
-4
+10
 
-he is best known as the original founder and lead singer of the rock bands @ent3 and @ent2 .
+  in @entity1 , president - elect barack obama nominated @entity7 as secretary of @entity9 , leaving an empty seat in the @entity2 senate delegation .
 
-bands by lead singer : @ent1
+i went to ucla : @entity4 got her law degree from @entity8 in @entity6 & filled the @entity5 seat left vacant by this woman in @entity3
 
-@ent3
+@entity7
 
-@ent0:
-@ent1:Liam Gallagher
-@ent2:Beady Eye
-@ent3:Oasis
+@entity0:
+@entity1:December 2008
+@entity2:New York
+@entity3:2009
+@entity4:Kirsten Gillibrand
+@entity5:Senate
+@entity6:1991
+@entity7:Hillary Clinton
+@entity8:UCLA
+@entity9:State

@@ -1,14 +1,16 @@
-6
+8
 
-kangaroos are endemic to @ent5 .
+in @entity5 , a controversy over a state income tax increase—on which he refused to take a position—and his proposal on merit pay for teachers , which led the @entity4 to support his opponent , turned his once - obscure rival for the @entity2 , @entity7 , into a viable candidate , and @entity3 won by only a slim margin .
 
-literary geography : @ent3 visited this country in @ent2 & set his @ent4 novel " @ent1 " there
+governors : in @entity5 she came within @entity6 percentage points of defeating @entity1 for his senate seat
 
-@ent5
+@entity7
 
-@ent0:
-@ent1:Kangaroo
-@ent2:1922
-@ent3:D.H. Lawrence
-@ent4:1923
-@ent5:Australia
+@entity0:
+@entity1:Bill Bradley
+@entity2:Senate
+@entity3:Bradley
+@entity4:NJEA
+@entity5:1990
+@entity6:2
+@entity7:Christine Todd Whitman

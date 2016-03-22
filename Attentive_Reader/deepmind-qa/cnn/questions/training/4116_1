@@ -1,16 +1,15 @@
-8
+7
 
-construction : @ent4 .
+she breaks their engagement and accepted the marriage proposal from her patient @entity1 .
 
-mythology : common group name for @ent7 , @ent3 , @ent1 , @ent2 , @ent5 , merope & taygete
+people : @entity4 , who passed away in @entity2 , played dr. @entity6 on this daytime soap for @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Celaeno
-@ent2:Electra
-@ent3:Sterope
-@ent4:Wood
-@ent5:Maia
-@ent6:Pleiades
-@ent7:Alcyone
+@entity0:
+@entity1:Randy
+@entity2:1996
+@entity3:General Hospital
+@entity4:John Beradino
+@entity5:over 30 years
+@entity6:Steve Hardy

@@ -1,12 +1,16 @@
-4
+8
 
-by your man , which detailed the life of country music legend @ent2 .
+@entity5 played @entity2 matches against @entity3 .
 
-they all played country singers : @ent3 , seen here in the audience at " @ent1 ! " , played this singer in the tv movie " stand by your man "
+20th century russia : in @entity4 & 1981 @entity6 defector @entity1 lost championship chess matches to this @entity7 " k "
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Jeopardy
-@ent2:Tammy Wynette
-@ent3:Annette O'Toole
+@entity0:
+@entity1:Viktor Korchnoi
+@entity2:three
+@entity3:Anatoly Karpov
+@entity4:1978
+@entity5:Korchnoi
+@entity6:Soviet
+@entity7:Russian

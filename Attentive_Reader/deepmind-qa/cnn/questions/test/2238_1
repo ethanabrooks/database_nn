@@ -1,16 +1,16 @@
 8
 
-  @ent2   @ent6   @ent4   @ent5 –
+in @entity6 it won an @entity1 and a trailblazer award from @entity2 .
 
-the movies : this classic @ent3 western features @ent1 as clementine
+nonfiction : the @entity7 pulitzer for history went to @entity4 for " @entity5 " this home
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cathy Downs
-@ent2:Martin Scorsese
-@ent3:John Ford
-@ent4:François Truffaut
-@ent5:Orson Welles
-@ent6:Steven Spielberg
-@ent7:Darling Clementine
+@entity0:
+@entity1:Anisfield-Wolf Book Award
+@entity2:the Metropolitan Black Bar Association
+@entity3:Monticello
+@entity4:Annette Gordon-Reed
+@entity5:The Hemingses of
+@entity6:2002
+@entity7:2009

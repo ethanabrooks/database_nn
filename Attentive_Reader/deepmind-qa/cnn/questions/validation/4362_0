@@ -1,15 +1,16 @@
-7
+8
 
-in @ent4 , he returned to @ent2 , and may have studied with @ent6 , 1905–1906 .
+is a town and municipality in the county of @entity6 , @entity5 .
 
-world art : " @ent3 " is a work by @ent1 , a landscapist in this country 's @ent5
+food for thought : in @entity1 a world record @entity3 @entity2 salami was made in this @entity7 country 's city of @entity4
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Tom Thomson
-@ent2:Canada
-@ent3:Spring Ice
-@ent4:1904
-@ent5:Algonquin Park
-@ent6:William Cruikshank
+@entity0:
+@entity1:1992
+@entity2:9-inch
+@entity3:68-foot
+@entity4:Flekkefjord
+@entity5:Norway
+@entity6:Vest-Agder
+@entity7:Scandinavian

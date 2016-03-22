@@ -1,15 +1,17 @@
-7
+9
 
-   events    by place     @ent3    the viking explorer @ent1 leaves @ent5 to survey west of @ent2 .
+@entity5 at the southeast entrance @entity2 , @entity8   @entity5 is an outdoor football stadium , located on the campus of @entity7 , in @entity4 , @entity3 , @entity1 .
 
-in exile : exiled for manslaughter , @ent4 was forced to leave this country around @ent6
+" t"s me : @entity5 is found in this city
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:Eric the Red-haired
-@ent2:Iceland
-@ent3:Europe
-@ent4:Eric the Red
-@ent5:Norway
-@ent6:981
+@entity0:
+@entity1:United States
+@entity2:300px|right|thumb|Sun Devil Stadium Press Box
+@entity3:Arizona
+@entity4:Tempe
+@entity5:Sun Devil Stadium
+@entity6:300px|right|thumb|Sun Devil Stadium
+@entity7:Arizona State University
+@entity8:1998

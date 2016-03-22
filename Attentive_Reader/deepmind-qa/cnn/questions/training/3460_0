@@ -1,16 +1,17 @@
-8
+9
 
-@ent6 ( born @ent1 ) is the senior @ent7 senator from @ent2 and a member of @ent3 .
+@entity6 accused @entity7 of being soft on child pornography , charges that were roundly criticized by many , including @entity2 , @entity1 @entity5 party rival and then - senate colleague , who recorded a statement for television refuting @entity6 's charges .
 
-a woman 's place is in the house : former rep. @ent4 took a stab & is now a @ent5 senator from this state
+elections : while this man was preparing for space , @entity4 & @entity8 were campaigning for his @entity3 seat
 
-@ent2
+@entity2
 
-@ent0:
-@ent1:April 29, 1950
-@ent2:Michigan
-@ent3:the Democratic Party
-@ent4:Debbie Stabenow
-@ent5:U.S.
-@ent6:Deborah Ann "Debbie" Greer Stabenow
-@ent7:United States
+@entity0:
+@entity1: Metzenbaum's
+@entity2:John Glenn
+@entity3:Senate
+@entity4:George Voinovich
+@entity5:Democratic
+@entity6:Voinovich
+@entity7:Metzenbaum
+@entity8:Mary Boyle

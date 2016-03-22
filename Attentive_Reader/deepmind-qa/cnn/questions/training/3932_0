@@ -1,16 +1,15 @@
-8
+7
 
-  @ent1 ( @ent2 – 10 @ent7 ) was an @ent3 independence activist and the prime minister of @ent6 from @ent4 to @ent5 .
+@entity5 ( @entity2 ) is an agency in @entity3 @entity6 that regulates the trucking industry in @entity3 .
 
-they used to be in charge : @ent1
+which @entity1 cabinet department ? : @entity4
 
-@ent6
+@entity6
 
-@ent0:
-@ent1:Morarji Desai
-@ent2:29 February 1896
-@ent3:Indian
-@ent4:1977
-@ent5:1979
-@ent6:India
-@ent7:April 1995
+@entity0:
+@entity1:U.S.
+@entity2:FMCSA
+@entity3:the United States
+@entity4:Federal Motor Carrier Safety Administration
+@entity5:The Federal Motor Carrier Safety Administration
+@entity6:Department of Transportation

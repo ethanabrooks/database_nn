@@ -1,20 +1,21 @@
-12
+13
 
-these have included @ent5 , @ent11 , @ent4 , @ent2 , @ent6 , @ent8 , @ent3 , and @ent1 .
+  culture   marker ( @entity2 film ) , an action movie with @entity8   @entity6 ( novel ) , a @entity9 novel by @entity5   @entity6 ( tv series ) , a @entity12 @entity10 drama on upn   companies   @entity6 ( ski bindings ) , a company specializing in ski bindings   places   4253 @entity7 , a main belt asteroid   @entity6 , @entity4 , a municipality in @entity1 , @entity4   see also   @entity3 ( disambiguation )   markup ( disambiguation )
 
-guys named gary : this @ent9 won golf 's @ent7 in @ent10
+literary thrillers : @entity9 's " @entity6 " is the @entity11 medical thriller from this bestselling physician/author
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Gary Player
-@ent2:Sam Snead
-@ent3:Jack Nicklaus
-@ent4:Gene Sarazen
-@ent5:Fred McLeod
-@ent6:Byron Nelson
-@ent7:Masters Tournament
-@ent8:Arnold Palmer
-@ent9:South African
-@ent10:1961
-@ent11:Jock Hutchinson
+@entity0:
+@entity1:Østfold county
+@entity2:2008
+@entity3:Mark
+@entity4:Norway
+@entity5:Robin Cook
+@entity6:Marker
+@entity7:Märker
+@entity8:Steven Seagal
+@entity9:2005
+@entity10:American
+@entity11:25th
+@entity12:1995

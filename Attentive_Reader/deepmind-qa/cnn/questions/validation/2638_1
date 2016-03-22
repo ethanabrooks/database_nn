@@ -1,14 +1,15 @@
-6
+7
 
-@ent1 was drafted , and later captured , while @ent4 stayed behind to produce boots for the wehrmacht and then broke away from @ent5 .
+  in @entity4 she starred in the western t.v. series @entity3 .
 
-pop culture : this sneakers & sportswear brand was named for its creator , @ent3
+name calling : he named a character in a @entity6 novel for @entity1 movie star @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Rudolf
-@ent2:Adidas
-@ent3:Adolf Dassler
-@ent4:Adi
-@ent5:the Nazi Party
+@entity0:
+@entity1:1940s
+@entity2:Joan Caulfield
+@entity3:The High Chaparral as Annalee Cannon on the pilot episode of the series
+@entity4:1967
+@entity5:J.D. Salinger
+@entity6:1951

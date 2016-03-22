@@ -1,15 +1,13 @@
-7
+5
 
-@ent1 ( later @ent4 ) is a fictional character on the @ent5 television sitcom @ent2 , played by @ent6 .
+innisfree may refer to :    places in @entity4    inisfree , a   fictional village in @entity4 , which provides the setting for the award - winning film @entity2 ( @entity3 ) .
 
-tv characters : @ent1 is the woman @ent3 moons over on this sitcom
+perfume : perfumes from this country include @entity1 , connemara & eire
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:Daphne Moon
-@ent2:Frasier
-@ent3:Niles Crane
-@ent4:Crane
-@ent5:American
-@ent6:Jane Leeves
+@entity0:
+@entity1:Innisfree
+@entity2:The Quiet Man
+@entity3:1952
+@entity4:Ireland

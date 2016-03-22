@@ -1,16 +1,15 @@
-8
+7
 
-it is named for then - secretary of @ent1 @ent2 , who negotiated the purchase from @ent7 .
+@entity1 's resistance was memorialized in a poem by poet laureate @entity5 whittier .
 
-@ent3 : the last monday in @ent5 is @ent6 in this state
+19th century america : @entity6 penned " @entity4 " after watching the bombardment of fort mchenry in @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:State
-@ent2:William H. Seward
-@ent3:HOLIDAYS & OBSERVANCES
-@ent4:Alaska
-@ent5:March
-@ent6:Seward's Day
-@ent7:Russia
+@entity0:
+@entity1:Fritchie
+@entity2:1814
+@entity3:this year
+@entity4:The Star-Spangled Banner
+@entity5:John Greenleaf
+@entity6:Francis Scott Key

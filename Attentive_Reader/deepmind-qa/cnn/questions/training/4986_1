@@ -1,15 +1,19 @@
-7
+11
 
-a street in @ent3 's hometown was renamed @ent2 .
+operation buster–jangle : @entity3 @entity6 soldiers are exposed to @entity10 atomic explosions for training purposes in @entity5 .
 
-people in space : astronaut @ent4 was left in the dark in @ent6 after a supply ship punctured this craft 's @ent5 module
+all saints ' day babies : in @entity9 the @entity1 acquired this pitcher born @entity8 from @entity2 of @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mir
-@ent2:Michael Foale Lane
-@ent3:Foale
-@ent4:Michael Foale
-@ent5:Spektr
-@ent6:June 1997
+@entity0:
+@entity1:Dodgers
+@entity2:Puebla
+@entity3:Six thousand five hundred
+@entity4:Fernando Valenzuela
+@entity5:Nevada
+@entity6:American
+@entity7:the Mexican League
+@entity8:November 1
+@entity9:1979
+@entity10:'Desert Rock'

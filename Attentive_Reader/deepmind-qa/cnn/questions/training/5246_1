@@ -1,13 +1,15 @@
-5
+7
 
-@ent2 advised the school board to comply with the decision immediately .
+it only appeared for @entity3 and hit # @entity1 .
 
-let 's make a dale : in the ' @ent3 governors of this state included @ent4 & a future president
+lyricists : this @entity2 great collaborator of @entity4 wrote " @entity6 " & " is n't it romantic ? "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Arkansas
-@ent2:Bumpers
-@ent3:70s
-@ent4:Dale Bumpers
+@entity0:
+@entity1:16
+@entity2:first
+@entity3:one week
+@entity4:Richard Rodgers
+@entity5:Lorenz Hart
+@entity6:My Funny Valentine

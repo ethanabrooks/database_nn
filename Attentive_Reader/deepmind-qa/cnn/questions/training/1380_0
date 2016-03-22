@@ -1,19 +1,13 @@
-11
+5
 
-  @ent4 selected @ent10 as @ent5 of its delegates to the continental congress in @ent2 in @ent1 and @ent8 .
+@entity2 ( @entity4 ) is a novel by @entity3 .
 
-presidents of the continental congress : the @ent3 president of @ent7 , @ent9 gaveled @ent7 to order on @ent6 in this city
+contemporary authors : the paperback release of his " @entity2 " climbed the best seller charts in @entity1
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:1774
-@ent2:Philadelphia
-@ent3:first
-@ent4:Virginia
-@ent5:one
-@ent6:September 5, 1774
-@ent7:Congress
-@ent8:1775
-@ent9:Peyton Randolph
-@ent10:Randolph
+@entity0:
+@entity1:1996
+@entity2:The Apocalypse Watch
+@entity3:Robert Ludlum
+@entity4:1995

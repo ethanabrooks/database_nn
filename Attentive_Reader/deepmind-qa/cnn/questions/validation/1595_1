@@ -1,16 +1,15 @@
-8
+7
 
-( the @ent2 @ent4 production to include the prologue was in @ent3 . )
+he recorded @entity2 song , " @entity1 and lola , " which he had written with @entity4 who died in @entity3 .
 
-playwrights : in @ent5 this alliterative @ent7 wrote the play " @ent1 "
+stars , not cars : on the hit album " @entity6 " , this " indy " actor provided the bullwhip cracks
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Caucasian Chalk Circle
-@ent2:first
-@ent3:1965
-@ent4:US
-@ent5:the 1940s
-@ent6:Bertolt Brecht
-@ent7:German
+@entity0:
+@entity1:Frank
+@entity2:one
+@entity3:1984
+@entity4:Steve Goodman
+@entity5:Harrison Ford
+@entity6:Last Mango in Paris

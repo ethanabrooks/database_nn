@@ -1,14 +1,13 @@
-6
+5
 
-@ent4 soprano @ent3 sang the title role .
+@entity1 –
 
-latin authors : " @ent5 " is a collection by this @ent2 woman with political connections
+there are places : to fight the spanish armada in @entity4 , the @entity2 fleet made its pilgrimage out of this port city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Isabel Allende
-@ent2:Chilean
-@ent3:María Eugenia Antúnez
-@ent4:Uruguayan
-@ent5:The Stories of Eva Luna
+@entity0:
+@entity1: July 31
+@entity2:British
+@entity3:Plymouth
+@entity4:1588

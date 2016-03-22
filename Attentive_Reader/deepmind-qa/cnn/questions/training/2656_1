@@ -1,15 +1,15 @@
 7
 
-@ent1 are a minor league baseball team based in @ent2 , @ent6 .
+the bob cummings show ( also known as love
 
-minor league baseball : famed member of the @ent3 @ent5 seen here:[video clue ]
+@entity3 emmys : she won @entity2 as shultzy on " @entity5 " ; none as @entity1 on " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Birmingham Barons
-@ent2:Birmingham
-@ent3:1994
-@ent4:Michael Jordan
-@ent5:Birmingham Barons
-@ent6:Alabama
+@entity0:
+@entity1:Alice
+@entity2:2 Emmys
+@entity3:1950s
+@entity4:The Brady Bunch
+@entity5:The Bob Cummings Show
+@entity6:Ann B. Davis

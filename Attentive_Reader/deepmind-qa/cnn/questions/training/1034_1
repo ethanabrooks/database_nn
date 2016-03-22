@@ -1,13 +1,23 @@
-5
+15
 
-@ent4 .
+born : @entity10 , actress , in @entity5 , @entity1 died : @entity4 , @entity6 , @entity8 businessman and philanthropist   @entity2 ( @entity9 ) @entity13 was dedicated near @entity7 , @entity14 .
 
-tunnel : dating from the time of @ent2 , @ent1 diverts water under this city to a pool inside the city walls
+country time : in @entity3 this country absorbed @entity11
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Siloam Tunnel
-@ent2:Hezekiah
-@ent3:Jerusalem
-@ent4:2009
+@entity0:
+@entity1:Australia
+@entity2:April 21, 1939
+@entity3:April 1939
+@entity4:Teodoro R. Yangco
+@entity5:Adelaide
+@entity6:77
+@entity7:Houston
+@entity8:Philippine
+@entity9:Friday
+@entity10:Elspeth Ballantyne
+@entity11:Albania
+@entity12:Italy
+@entity13:The San Jacinto Monument
+@entity14:Texas

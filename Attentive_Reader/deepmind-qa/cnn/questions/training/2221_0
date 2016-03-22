@@ -1,17 +1,13 @@
-9
+5
 
-the @ent7 chef is a television cooking show created and hosted by @ent6 , and produced and broadcast by @ent8 , the public television station in @ent2 , @ent3 , from @ent5 to @ent1 .
+malgudi is a fictitious town in @entity3 created by @entity1 in his novels and short stories .
 
-cooking on tv : after she cooked an omelette on a book review show , @ent8 created " @ent4 " for her
+imaginary places : in a series of novels including " @entity2 " , @entity4 is a made - up city in this real country
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:February 11, 1973
-@ent2:Boston
-@ent3:Massachusetts
-@ent4:The French Chef
-@ent5:February 11, 1963
-@ent6:Julia Child
-@ent7:French
-@ent8:WGBH
+@entity0:
+@entity1:R.K. Narayan
+@entity2:A Tiger for Malgudi
+@entity3:India
+@entity4:Malgudi

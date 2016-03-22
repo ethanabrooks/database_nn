@@ -1,15 +1,17 @@
-7
+9
 
-@ent6 is a @ent1 film based on a non - fiction book of the same name by @ent3 .
+@entity2 ( pronounced , ; born @entity6 ) is an @entity5 actor , television producer , and director , known for his role as the vampire @entity4 on the supernatural drama series @entity8 , and as @entity1 special agent seeley booth on the television crime drama bones .
 
-the movies : of @ent2 , @ent4 , or @ent6 , the one played in film by @ent5
+tv : played by @entity7 , @entity3 was the vampire who turned this @entity2 character into a vampire as well
 
-@ent6
+@entity4
 
-@ent0:
-@ent1:1957
-@ent2:Beau Brummel
-@ent3:Gene Fowler
-@ent4:Beau Geste
-@ent5:Bob Hope
-@ent6:Beau James
+@entity0:
+@entity1:FBI
+@entity2:David Boreanaz
+@entity3:Darla
+@entity4:Angel
+@entity5:American
+@entity6:May 16, 1969
+@entity7:Julie Benz
+@entity8:Buffy the Vampire Slayer and Angel

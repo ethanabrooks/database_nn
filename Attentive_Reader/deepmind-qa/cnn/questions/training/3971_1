@@ -1,17 +1,15 @@
-9
+7
 
-@ent7   may refer to :   places   ayala/aiara , a town in @ent8 province , @ent1   @ent6 , a barangay in @ent4 , @ent2
+@entity6 owen election case .
 
-sounds like a plan : @ent5 's plan of @ent7 called for redistribution of land to indigenous people in this country
+@entity1 record : @entity5 , following this @entity4 , her father , found a woman 's place is in the @entity3 , too
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Spain
-@ent2:Philippines
-@ent3:Mexico
-@ent4:Muntinlupa
-@ent5:Zapata
-@ent6:Ayala Alabang
-@ent7:Ayala
-@ent8:Álava
+@entity0:
+@entity1:CONGRESSIONAL
+@entity2:William Jennings Bryan
+@entity3:House
+@entity4:Nebraskan
+@entity5:Ruth Bryan Owen
+@entity6:William C. Lawson-Ruth Bryan

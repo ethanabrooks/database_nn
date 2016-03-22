@@ -1,14 +1,15 @@
-6
+7
 
-a submarine eruption in @ent1 from a vent off the northwest coast is the only confirmed historical activity.http://www.volcano.si.edu/world/volcano.cfm?vnum=0101 - 071&volpage=erupt   currently the island is subsiding , and @ent3 is slowly sinking .
+@entity1 . " how do you solve a problem like maria ? "
 
-world geography : this large island forms an autonomous region of @ent5 along with smaller islands , like @ent2
+@entity6 @entity2 stamps : @entity4 is featured alone but this man shares a stamp with @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1891
-@ent2:Pantelleria
-@ent3:Montagna Grande
-@ent4:Sicily
-@ent5:Italy
+@entity0:
+@entity1:November 7, 2006
+@entity2:U.S.
+@entity3:Richard Rodgers
+@entity4:Lorenz Hart
+@entity5:Oscar Hammerstein II
+@entity6:1999

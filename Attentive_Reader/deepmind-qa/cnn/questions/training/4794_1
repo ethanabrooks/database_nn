@@ -1,15 +1,16 @@
-7
+8
 
-@ent6 challenge : design an advertising campaign for @ent4 @ent1 products .
+  @entity3 settled in @entity2 , the third of the @entity1 winter encampments of the revolution , on @entity4 .
 
-tv shows you might have missed : the title character of the reality spoof " @ent3 " was " mr. @ent2 , an anagram of this man 's name
+presidential hitching posts : george & @entity5 , on @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:3
-@ent2:N. Paul Todd"
-@ent3:My Big Fat Obnoxious Boss
-@ent4:1 of
-@ent5:Donald Trump
-@ent6:March 2005
+@entity0:
+@entity1:eight
+@entity2:Valley Forge
+@entity3:The Continental Army
+@entity4:December 19, 1777
+@entity5:Martha Washington
+@entity6:Jan. 6, 1759
+@entity7:Virginia

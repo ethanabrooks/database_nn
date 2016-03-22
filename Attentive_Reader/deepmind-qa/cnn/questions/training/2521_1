@@ -1,13 +1,15 @@
-5
+7
 
-@ent1 , part of the @ent3 plateau .
+  decommissioning by @entity6 , plans were under way to replace @entity4 with a new airport .
 
-museums : the pot seen here in this state 's state museum is from the @ent2 culture , possible ancestor of the hopi
+state capitals : @entity5 in this capital is @entity2 of the @entity1 's busiest
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Mogollon Plateau
-@ent2:Mogollon
-@ent3:Colorado
-@ent4:Arizona
+@entity0:
+@entity1:USA
+@entity2:one
+@entity3:Denver
+@entity4:Stapleton
+@entity5:Stapleton International Airport
+@entity6:the 1980s

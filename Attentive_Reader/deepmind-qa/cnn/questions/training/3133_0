@@ -1,17 +1,14 @@
-9
+6
 
-" @ent1 " is a song from @ent5 film @ent7 , and it is composed by @ent2 and @ent2 .
+friends university is a private non - denominational @entity4 university in @entity1 , @entity3 .
 
-albums : " @ent1 " was a track on this soundtrack album that toppled " @ent6 @ent3 " from the no . @ent4 spot
+@entity5 universities : high school buddies might want to apply to @entity2 , based in @entity1 in this state
 
-@ent7
+@entity3
 
-@ent0:
-@ent1:The Perfect Nanny
-@ent2:Robert B. Sherman
-@ent3:65
-@ent4:1
-@ent5:Walt Disney's
-@ent6:Beatles '
-@ent7:Mary Poppins
-@ent8:Richard M. Sherman
+@entity0:
+@entity1:Wichita
+@entity2:Friends University
+@entity3:Kansas
+@entity4:Christian
+@entity5:U.S.

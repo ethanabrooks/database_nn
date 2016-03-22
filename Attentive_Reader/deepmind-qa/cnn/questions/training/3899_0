@@ -1,14 +1,18 @@
-6
+10
 
-golden hind was an @ent5 galleon best known for her circumnavigation of the globe between 1577 and 1580 , captained by sir @ent2 .
+  life and career @entity3 was born as @entity1 in @entity8 , @entity9 , the son of @entity4 ( née @entity7 ) and @entity1 .
 
-very non - breaking news : in @ent1 this @ent4 sailor represented the town of @ent3 in the house of commons
+birthplaces : @entity6 , @entity5 & babe didrikson were all born in @entity8 in this state
 
-sir @ent2
+@entity9
 
-@ent0:
-@ent1:1584
-@ent2:Francis Drake
-@ent3:Bossiney
-@ent4:Golden Hind
-@ent5:English
+@entity0:
+@entity1:Ernest R. Rauschenberg
+@entity2:Milton Ernest Rauschenberg
+@entity3:Rauschenberg
+@entity4:Dora Carolina
+@entity5:Robert Rauschenberg
+@entity6:Janis Joplin
+@entity7:Matson
+@entity8:Port Arthur
+@entity9:Texas

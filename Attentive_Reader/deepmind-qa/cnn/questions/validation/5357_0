@@ -1,15 +1,12 @@
-7
+4
 
-@ent1 is the pseudonym of the authors of the @ent3 mystery stories and @ent4 mystery stories , both produced by @ent6 .
+right|thumb|200px|cover , 1911 sheet music " @entity1 " is a song by @entity3 .
 
-@ent2 bestsellers : " @ent5 " this @ent1 sleuth provide an interactive guide to her cases
+city folks : in @entity2 he established his reputation as a songwriter with " @entity1 "
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:Carolyn Keene
-@ent2:2007
-@ent3:Nancy Drew
-@ent4:The Dana Girls
-@ent5:The Lost Files Of
-@ent6:the Stratemeyer Syndicate
+@entity0:
+@entity1:Alexander's Ragtime Band
+@entity2:1911
+@entity3:Irving Berlin

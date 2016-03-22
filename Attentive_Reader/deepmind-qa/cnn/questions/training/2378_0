@@ -1,15 +1,18 @@
-7
+10
 
-@ent5 ( born @ent3 ) is the senior @ent6 senator from @ent2 and a member of @ent1 .
+  in @entity2 she appeared as miss @entity5 in a series of @entity4 @entity1 films loosely based on the novels of @entity3 .
 
-the state 's jr. senator : @ent4
+@entity6 lit : she dedicated her book @entity8 to @entity7 , who played miss @entity9 in several films
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:the Republican Party
-@ent2:Louisiana
-@ent3:May 3, 1961
-@ent4:David Vitter
-@ent5:David Bruce Vitter
-@ent6:United States
+@entity0:
+@entity1:George Pollock
+@entity2:the early 1960s
+@entity3:Agatha Christie
+@entity4:four
+@entity5:Jane Marple
+@entity6:BRIT
+@entity7:Margaret Rutherford
+@entity8:"The Mirror Crack'd"
+@entity9:Marple

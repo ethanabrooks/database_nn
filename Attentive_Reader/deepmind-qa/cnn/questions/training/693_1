@@ -1,14 +1,15 @@
-6
+7
 
-  @ent3 on the country charts .
+the los angeles county museum of art , for instance , was a complex of @entity3 @entity1 - esque buildings rising up out of a lake and interconnected by a series of causeways and bridges .
 
-women of country : ( hi , i 'm @ent5 )   in @ent4 i was named @ent1 , this country 's equivalent of the grammys
+architects : @entity5 erected his @entity2 " @entity4 " in this city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Best Country Artist by the Juno Awards
-@ent2:Canada
-@ent3:5
-@ent4:2002
-@ent5:Carolyn Dawn Johnson
+@entity0:
+@entity1:Googie
+@entity2:Transamerica
+@entity3:three
+@entity4:Pyramid
+@entity5:William Pereira
+@entity6:San Francisco

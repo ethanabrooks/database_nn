@@ -1,16 +1,16 @@
 8
 
-@ent1 , located in @ent5 , @ent3 , @ent7 is the flagship university of the @ent6 - campus @ent1 system .
+  @entity6 helped make history in @entity3 as a key figure in stopping the 56-game hitting streak by @entity4 .
 
-@ent4 : @ent1 operates a @ent2 campus jointly with this state 's university
+in the big inning : in @entity5 game , a play by shortstop @entity1 ended this @entity7 's @entity2 hitting streak
 
-@ent3
+@entity4
 
-@ent0:
-@ent1:Purdue University
-@ent2:Fort Wayne
-@ent3:Indiana
-@ent4:COLLEGES & UNIVERSITIES
-@ent5:West Lafayette
-@ent6:six
-@ent7:United States
+@entity0:
+@entity1:Lou Boudreau
+@entity2:56-game
+@entity3:1941
+@entity4:Joe DiMaggio
+@entity5:the 8th inning of a 1941
+@entity6:Boudreau
+@entity7:Yankee

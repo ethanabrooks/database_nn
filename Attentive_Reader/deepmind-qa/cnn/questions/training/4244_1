@@ -1,33 +1,13 @@
-25
+5
 
-  examples of @ent2 districts in cities and towns    @ent7    baden bei @ent1 , @ent1 , lower austria graz judenburg salzburg schärding steyr zell am see   germany   @ent10 bamberg ( a world heritage site ) @ent12 bietigheim büdingen celle cologne ( @ent20 ) dinkelsbühl düsseldorf ( altstadt ( düsseldorf ) ) @ent6 ( :de:altstadt ( freiburg i m @ent18 ) ) @ent21 ( :de:görlitzer altstadt ) goslar ( a world heritage site ) @ent23 ( altstadt ) heidelberg ( :de:heidelberger altstadt ) konstanz landshut limburg an der @ent19 lübeck ( a world heritage site ) lüneburg marbach am @ent9 mosbach munich ( altstadt - lehel ) neustrelitz nuremberg nördlingen putbus quedlinburg ( a world heritage site ) @ent4 ( a world heritage site ) rostock rothenburg ob der @ent15 schwerin stade stralsund ( a world heritage site ) tangermünde trier tübingen überlingen waren ( müritz ) weingarten ( baden ) weinheim wernigerode wetzlar ( :de:historische altstadt wetzlar ) wismar ( a world heritage site )   @ent14   baden ( ag )
+@entity1 is @entity2 of the largest manufacturers of cigars in the world .
 
-the united nations : ( @ent13 of @ent17 reports from @ent5 , @ent8 . )   in @ent16 , this @ent3 organization placed @ent5 's entire @ent2 , or old town , on @ent24
+smoking : @entity1 brand & national poet of @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Wien Gmünd
-@ent2:Altstadt
-@ent3:U.N.
-@ent4:Ravensburg Regensburg
-@ent5:Lubeck
-@ent6:Erfurt Freiburg
-@ent7:Austria
-@ent8:Germany
-@ent9:Neckar Marburg
-@ent10:Amberg Baden-Baden
-@ent11:Carinthia Gmünd
-@ent12:Bayreuth Bernkastel-Kues
-@ent13:Kelly
-@ent14:Switzerland
-@ent15:Tauber Rüdesheim
-@ent16:1987
-@ent17:the Clue Crew
-@ent18:Breisgau
-@ent19:Lahn Lindau
-@ent20:Altstadt Nord & Süd
-@ent21:Gernsbach Görlitz
-@ent22:UNESCO
-@ent23:Güstrow Hamburg
-@ent24:the World Heritage List
+@entity0:
+@entity1:General Cigar Company
+@entity2:one
+@entity3:Robert Burns
+@entity4:Scotland

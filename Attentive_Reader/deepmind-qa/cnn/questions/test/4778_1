@@ -1,14 +1,18 @@
-6
+10
 
-in @ent1 , @ent4 offers many concerts of world music .
+  the @entity7 moved west to @entity8 prior to the @entity1 season .
 
-world geography : @ent3 , this country 's main seaport , is on its @ent5 coast
+the world series : ( video daily double):"(hi , i 'm @entity6 )   only 3 men have been named @entity9 @entity2 twice :   me , @entity4 & this cardinals pitcher in @entity5 & 1967 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:October
-@ent2:France
-@ent3:Marseille
-@ent4:the Fiesta des Suds
-@ent5:Mediterranean
+@entity0:
+@entity1:1968
+@entity2:the World Series
+@entity3:Bob Gibson
+@entity4:Sandy Koufax
+@entity5:1964
+@entity6:Reggie Jackson
+@entity7:Athletics
+@entity8:Oakland
+@entity9:MVP of

@@ -1,15 +1,17 @@
-7
+9
 
-as @ent2 is a revue with a book by @ent3 and music and lyrics by @ent4 , first performed in @ent5 .
+@entity6 , @entity1 . @entity5 is an orchestral suite by @entity2 written in @entity4 .
 
-tunes from revues : this composer 's " @ent6 " first turned up in @ent5 's " @ent1 "
+european composers : this @entity8 was known for his " @entity3 " before he wrote " @entity7 "
 
-@ent4
+@entity2
 
-@ent0:
-@ent1:As Thousands Cheer
-@ent2:Thousands Cheer
-@ent3:Moss Hart
-@ent4:Irving Berlin
-@ent5:1933
-@ent6:Easter Parade
+@entity0:
+@entity1:Op
+@entity2:Sergei Prokofiev
+@entity3:Scythian Suite
+@entity4:1915
+@entity5:20
+@entity6:The Scythian Suite
+@entity7:Peter And The Wolf
+@entity8:Russian

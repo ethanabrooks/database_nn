@@ -1,17 +1,22 @@
-9
+14
 
-@ent3 was a cast - iron and plate - glass structure erected in @ent8 , @ent5 , @ent2 , to house the great exhibition of @ent4 .
+  in @entity9 , @entity12 , whose original @entity11 and @entity6 aspirin business was seized as enemy property during @entity7 and subsequently sold as enemy assets , purchased @entity4 and its subsidiary @entity3 to reestablish a presence in @entity1 , in the process also acquiring such products as @entity8 , @entity2 , one - a-day vitamins and @entity5 ; it also included the s.o.s soap pad and @entity10 .
 
-@ent7 !   may day ! : the " great exhibition " of industry opened at @ent3 in this city @ent1
+medicines : @entity4 has been selling this analgesic antacid tablet since @entity13
 
-@ent5
+@entity8
 
-@ent0:
-@ent1:May 1, 1851
-@ent2:England
-@ent3:the Crystal Palace
-@ent4:1851
-@ent5:London
-@ent6:The Crystal Palace
-@ent7:MAY DAY
-@ent8:Hyde Park
+@entity0:
+@entity1:North America
+@entity2:Flintstones Vitamins
+@entity3:Miles Canada
+@entity4:Miles Laboratories
+@entity5:Bactine
+@entity6:Canadian
+@entity7:World War I
+@entity8:Alka-Seltzer
+@entity9:1979
+@entity10:Worthington Foods
+@entity11:U.S.
+@entity12:Bayer AG
+@entity13:1931

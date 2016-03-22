@@ -1,16 +1,20 @@
-8
+12
 
-in @ent4 , his father , @ent3 , was elected head of the merchant class in @ent1 ( one of the most important and influential positions in the city ) ; that year , he had a fully equipped theatre built on his estate at @ent6 , providing a forum for @ent5 's adolescent theatrical impulses .
+he ran for the office of the mayor of @entity5 , @entity6 , in @entity3 , losing to @entity4 candidate @entity8 , the @entity2 @entity7 @entity9 mayor of a major city .
 
-theater : method actors know @ent2 opened his influential theater in this capital city in @ent7
+first things first : in @entity3 @entity10 defeated @entity11 to become the @entity2 black mayor of a major @entity1 city , this one
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Moscow
-@ent2:Konstantin Stanislavsky
-@ent3:Sergei Vladimirovich Alexeyev
-@ent4:1877
-@ent5:Stanislavsky
-@ent6:Lyubimovka
-@ent7:1898
+@entity0:
+@entity1:U.S.
+@entity2:first
+@entity3:1967
+@entity4:Democratic
+@entity5:Cleveland
+@entity6:Ohio
+@entity7:African
+@entity8:Carl B. Stokes
+@entity9:American
+@entity10:Carl Stokes
+@entity11:Seth Taft

@@ -1,16 +1,17 @@
-8
+9
 
-@ent6 published in @ent2 , the book was one of the @ent4 people 's @ent3 literary exposures to the dark , bitter reality of the war .
+@entity7 , @entity1 , p. @entity8 .
 
-russian authors : @ent5 's " @ent1 " is a famous collection of tales by this " tower"ing writer
+@entity6 : around @entity3 the vikings established a settlement at this @entity4 city on @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Red Cavalry
-@ent2:the 1920s
-@ent3:first
-@ent4:Russian
-@ent5:1926
-@ent6:First
-@ent7:Isaac Babel
+@entity0:
+@entity1:Struggle for Empire
+@entity2:Dublin
+@entity3:841
+@entity4:Irish
+@entity5:the River Liffey
+@entity6:THE 9th CENTURY
+@entity7:Eric Joseph
+@entity8:103

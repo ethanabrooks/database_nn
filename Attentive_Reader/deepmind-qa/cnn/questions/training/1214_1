@@ -1,14 +1,15 @@
-6
+7
 
-@ent4 .
+in @entity5 , @entity6 character , who is suffering with amnesia , assumes the name of " @entity3 " after seeing a poster for @entity2 .
 
-the state of the state : confused--in @ent1 this state was unsure who got elected as its new senator , @ent2 or @ent3
+@entity4 quotes : in " @entity2 " this actress declares , " if i 'd been a ranch , they would 've named me the bar nothing "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Nov. 2008
-@ent2:Mark Begich
-@ent3:Ted Stevens
-@ent4:November 20, 2008
-@ent5:Alaska
+@entity0:
+@entity1:Rita Hayworth
+@entity2:Gilda
+@entity3:Rita
+@entity4:MOVIE
+@entity5:Mulholland Drive
+@entity6:Laura Harring's

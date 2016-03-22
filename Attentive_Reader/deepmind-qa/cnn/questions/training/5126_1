@@ -1,15 +1,13 @@
-7
+5
 
-@ent1 .
+the small coffee farming communities of @entity4 @entity2 are located near the peak .
 
-@ent3 men : @ent6 , a merchant of this city , bragged in a letter that it " is more beautiful and @ent5 older " than @ent2
+around the world : hey mon !   @entity3 is the highest point in this island country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ed
-@ent2:Venice
-@ent3:RENAISSANCE
-@ent4:Florence
-@ent5:540 years
-@ent6:Benedetto Dei
+@entity0:
+@entity1:Jamaica
+@entity2:Hagley Gap
+@entity3:Blue Mountain Peak
+@entity4:Claverty Cottage and

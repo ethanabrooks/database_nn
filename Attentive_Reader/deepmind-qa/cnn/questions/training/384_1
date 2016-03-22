@@ -1,13 +1,14 @@
-5
+6
 
-they married on @ent3 .
+  the peninsula lies along @entity2 , or @entity3 passage .
 
-websites : did @ent2 write on @ent1 wall & send a friend request when they started this website ?
+peninsulas : this country 's @entity5 is the easternmost mainland part of @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mark Zuckerberg's
-@ent2:Chris Hughes
-@ent3:June 30, 2012
-@ent4:Facebook
+@entity0:
+@entity1:Russia
+@entity2:the Northern Sea Route
+@entity3:Northeast
+@entity4:Asia
+@entity5:Chukchi Peninsula

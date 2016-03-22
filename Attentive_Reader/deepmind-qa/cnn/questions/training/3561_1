@@ -1,16 +1,14 @@
-8
+6
 
-  in @ent5 , @ent4 married his cousin , @ent1 .
+while there , she charms the local gentry , especially @entity1 , while her press attaché @entity5 falls in love with @entity4 .
 
-the declaration of independence : brothers @ent6 & @ent6 signed @ent3 from this state
+nicknames : the musical " @entity2 " was inspired by this " hostess with the mostes "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Rebecca Plater Tayloe
-@ent2:Virginia
-@ent3:the Declaration as representatives
-@ent4:Francis
-@ent5:1772
-@ent6:Richard Henry Lee
-@ent7:Francis Lightfoot Lee
+@entity0:
+@entity1:Cosmo Constantine
+@entity2:Call Me Madam
+@entity3:Perle Mesta
+@entity4:Princess Maria
+@entity5:Kenneth Gibson

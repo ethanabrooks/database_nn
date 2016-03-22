@@ -1,13 +1,15 @@
-5
+7
 
-   in @ent2   nothing is known about @ent1 ’s life in @ent2 .
+obnoxiously films a typical suburban family in an effort to win both an @entity3 and @entity4 , was a sendup of @entity1 's an @entity6 documentary .
 
-colonial america : @ent1 , the @ent3 person executed for a murder in the colonies , came over on this ship
+heavenly bodies : @entity5 cast her as " the muse "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:John Billington
-@ent2:England
-@ent3:first
-@ent4:Mayflower
+@entity0:
+@entity1:PBS
+@entity2:Sharon Stone
+@entity3:Oscar
+@entity4:a Nobel Prize
+@entity5:Albert Brooks
+@entity6:American Family

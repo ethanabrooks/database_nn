@@ -1,12 +1,15 @@
-4
+7
 
-@ent1 is a collection of comic sketches by @ent3 that was first published in @ent2 .
+@entity3 bc ) was the horse of @entity6 , and @entity2 of the most famous actual horses of antiquity .
 
-literature : he wrote " @ent1 " , " @ent1 and son " & " penrod jashber "
+they're great ! : in @entity3 b.c. his horse @entity1 died in @entity5 ; he built a city to honor his trusty steed
 
-@ent3
+@entity6
 
-@ent0:
-@ent1:Penrod
-@ent2:1914
-@ent3:Booth Tarkington
+@entity0:
+@entity1:Bucephalus
+@entity2:one
+@entity3:about 326
+@entity4:June 326
+@entity5:India
+@entity6:Alexander the Great

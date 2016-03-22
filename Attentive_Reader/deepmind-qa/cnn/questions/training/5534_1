@@ -1,12 +1,16 @@
-4
+8
 
-   etymology   the word " @ent1 " comes from the tupi language and means " stinky lake " , from upaba ( " lake " ) and nem ( " stinky " ) .
+it is situated midway between @entity2 and @entity6 .
 
-brazil : this famous beach is just northeast of @ent1 in @ent3
+@entity3 nations : a map of this country bears many @entity1 ;   @entity5 , @entity7 ....
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Ipanema
-@ent2:Copacabana
-@ent3:Rio de Janeiro
+@entity0:
+@entity1:Kualas
+@entity2:Tanjung Jara
+@entity3:ASIAN
+@entity4:Malaysia
+@entity5:Kuala Dungun
+@entity6:Paka
+@entity7:Kuala Lumpur

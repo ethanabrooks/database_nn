@@ -1,19 +1,16 @@
-11
+8
 
-@ent2 are an @ent7 football team based in @ent8 , @ent9 .
+serrano , @entity3 .
 
-sports stars : in @ent3 this @ent5 quarterback retired after @ent10 & @ent1 @ent4 championships
+show biz award winners : his tv wife @entity6 had @entity4 @entity7 for her role when he won his @entity2 in @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2
-@ent2:The Denver Broncos
-@ent3:1999
-@ent4:Super Bowl
-@ent5:Denver Broncos
-@ent6:John Elway
-@ent7:American
-@ent8:Denver
-@ent9:Colorado
-@ent10:16 seasons
+@entity0:
+@entity1:Ray Romano
+@entity2:first
+@entity3:Alfonso
+@entity4:2
+@entity5:2002
+@entity6:Patricia Heaton
+@entity7:Emmys

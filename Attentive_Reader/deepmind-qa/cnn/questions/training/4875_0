@@ -1,14 +1,18 @@
-6
+10
 
-@ent4 is a collection of bathhouses , associated buildings , and gardens located at @ent1 in the city of @ent2 , @ent3 .
+  is a @entity8 mountain - climber who , on @entity1 , became the @entity2 woman to reach the summit of @entity5 .
 
-national parks : the bathhouses on @ent4 in this @ent3 park were modeled on those in @ent5
+@entity4 's firsts : in @entity9 , @entity6 after @entity7 achieved the feat , @entity3 became the @entity2 woman to reach its summit
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Hot Springs National Park
-@ent2:Hot Springs
-@ent3:Arkansas
-@ent4:Bathhouse Row
-@ent5:Europe
+@entity0:
+@entity1:May 16, 1975
+@entity2:first
+@entity3:Junko Tabei
+@entity4:WOMEN
+@entity5:Mount Everest
+@entity6:22 years
+@entity7:Edmund Hillary
+@entity8:Japanese
+@entity9:1975

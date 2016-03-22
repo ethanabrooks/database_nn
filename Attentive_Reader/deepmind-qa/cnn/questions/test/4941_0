@@ -1,13 +1,17 @@
-5
+9
 
-  @ent4 was for a period of years in @ent1 the favorite ski resort of @ent2 .
+@entity4 was a cast - iron and plate - glass structure erected in @entity7 , @entity3 , @entity2 , to house the great exhibition of @entity8 .
 
-let 's visit austria : preferring to go where the rain turns to snow , he wintered in @ent4 while writing " @ent3 "
+@entity5 !   may day ! : the " great exhibition " of industry opened at @entity4 in this city @entity1
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:the early 1920s
-@ent2:Ernest Hemingway
-@ent3:The Sun Also Rises
-@ent4:Schruns
+@entity0:
+@entity1:May 1, 1851
+@entity2:England
+@entity3:London
+@entity4:The Crystal Palace
+@entity5:MAY DAY
+@entity6:the Crystal Palace
+@entity7:Hyde Park
+@entity8:1851

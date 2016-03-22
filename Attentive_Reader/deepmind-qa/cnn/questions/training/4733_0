@@ -1,18 +1,15 @@
-10
+7
 
-the film stars @ent9 , @ent1 , @ent5 , @ent2 and @ent6 .
+he spent the majority of his life in @entity2 , where he was an adjutant to the medici and to the @entity3 , a merchant house .
 
-comedy films : @ent7 played a " @ent3 cop " & this @ent8 alumnus plays a " @ent4 "
+@entity5 men : @entity6 , a merchant of this city , bragged in a letter that it " is more beautiful and @entity4 older " than @entity1
 
-@ent9
+@entity2
 
-@ent0:
-@ent1:Nicollette Sheridan
-@ent2:Nathaniel Parker
-@ent3:Beverly Hills
-@ent4:Beverly Hills Ninja
-@ent5:Robin Shou
-@ent6:Chris Rock
-@ent7:Eddie Murphy
-@ent8:SNL
-@ent9:Chris Farley
+@entity0:
+@entity1:Venice
+@entity2:Florence
+@entity3:Portinari
+@entity4:540 years
+@entity5:RENAISSANCE
+@entity6:Benedetto Dei

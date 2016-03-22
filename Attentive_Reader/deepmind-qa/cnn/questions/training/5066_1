@@ -1,13 +1,20 @@
-5
+12
 
-shallow circulation along this corridor allows @ent4 ' superheated water to slightly cool before surfacing at @ent3 , generally at about .
+@entity3 president @entity7 issued a presidential proclamation on @entity9 appending @entity1 geographic boundaries while acknowledging the forest preservation decrees established by @entity11 and forest reserve act of @entity8 .
 
-i am curious " yellow " : its headquarters are located in @ent2
+@entity5 : established in @entity6 , @entity4 is home to @entity10 this national memorial
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Yellowstone
-@ent2:Mammoth Hot Springs
-@ent3:Mammoth
-@ent4:Norris
+@entity0:
+@entity1:the Black Hills Forest Reserve
+@entity2:Mount Rushmore
+@entity3:U.S.
+@entity4:Black Hills National Forest
+@entity5:NATIONAL FORESTS
+@entity6:1897
+@entity7:William McKinley
+@entity8:1891
+@entity9:September 19, 1898
+@entity10:Wind Cave National Park &
+@entity11:the Timber Culture Act

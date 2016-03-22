@@ -1,42 +1,18 @@
-34
+10
 
-@ent14 @ent11 @ent25 @ent3 @ent18 josé bonifácio de andrada josé de san martín josé gervasio artigas josé maría morelos josé martí josé rizal joseph stalin @ent17 josip broz tito józef piłsudski jyotirao phule @ent26 duarte julius nyerere kader siddique @ent31 @ent32 khudiram @ent6 gu @ent5 kwame @ent16 @ent30 khaled @ent13 lev kamenev lord byron louis antoine de saint - just luís carlos prestes macario sakay @ent27 madan @ent9 matangini hazra malala yousafzai @ent22 mammad amin rasulzade mangal pandey @ent15 @ent10 @ent24 marcus garvey maria nikiforova maria spiridonova martin luther king , jr. @ent2 maurice bishop maximilien robespierre mehmet shehu @ent7 @ent12 y costilla mikhail @ent4 hatta mohandas gandhi muammar gaddafi @ent21 muhammad naguib mustafa kemal atatürk @ent28 @ent1 nestor makhno omar mukhtar oliver cromwell óscar @ent33 pascual orozco patrice lumumba @ent19 pavel dybenko pedro i of @ent8 kropotkin @ent23 phan bội châu pridi banomyong pritilata waddedar pol pot pope @ent29 bismil rani of jhansi rash behari bose raúl castro rigas feraios
+the south street seaport is a historic area in the @entity4 borough of @entity7 , centered where @entity9 meets @entity5 , and adjacent to @entity8 .
 
-ooh ... a wise guy : the writings of this man seen here were truly @ent20
+shopping u.s.a. : @entity3 picked this city 's @entity1 as the site for its @entity6 retail store , opened in @entity2
 
-@ent31
+@entity4
 
-@ent0:
-@ent1:Nelson Mandela
-@ent2:Martin Luther
-@ent3:John Lennon
-@ent4:Bakunin Mohammad
-@ent5:Kim Il-sung
-@ent6:Bose Kim
-@ent7:Michael Collins
-@ent8:Brazil Peter
-@ent9:Lal Dhingra
-@ent10:Manuel Belgrano
-@ent11:John Brown
-@ent12:Miguel Hidalgo
-@ent13:Leon Trotsky
-@ent14:John Adams
-@ent15:Manuel Marulanda
-@ent16:Nkrumah Lech
-@ent17:Joshua Nkomo
-@ent18:John Reed
-@ent19:Patrick Henry Patrick Pearse
-@ent20:Revolutionary
-@ent21:Muhammad Ali Jinnah
-@ent22:Malcolm X
-@ent23:Peter Tosh
-@ent24:Mao Zedong
-@ent25:John Hancock
-@ent26:Juan Pablo
-@ent27:Mahatma Gandhi
-@ent28:Napoleon Nat Turner
-@ent29:Francis Ram Prasad
-@ent30:Wałęsa Leila
-@ent31:Karl Marx
-@ent32:Kenneth Kaunda
-@ent33:Romero Pancho Villa
+@entity0:
+@entity1:South Street Seaport
+@entity2:1989
+@entity3:J. Crew
+@entity4:New York City
+@entity5:the East River
+@entity6:first
+@entity7:Manhattan
+@entity8:the Financial District
+@entity9:Fulton Street

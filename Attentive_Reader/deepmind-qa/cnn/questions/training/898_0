@@ -1,16 +1,15 @@
-8
+7
 
-@ent1 's last jam is a musical with a book by @ent2 , lyrics by @ent5 , and music by @ent3 and luther henderson .
+she is the younger sister of the late prima ballerina , @entity1 , and was the @entity2 @entity5 to be named " première danseuse étoile " in @entity4 .
 
-broadway musicals : @ent4 tapped his way to a @ent6 when he played this title role in " @ent7 "
+ballet : in @entity6 @entity1 helped this older sister found the chicago city ballet
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:Jelly
-@ent2:George C. Wolfe
-@ent3:Jelly Roll Morton
-@ent4:Gregory Hines
-@ent5:Susan Birkenhead
-@ent6:Tony
-@ent7:Jelly's Last Jam
+@entity0:
+@entity1:Marjorie Tallchief
+@entity2:first
+@entity3:Maria Tallchief
+@entity4:the Paris Opera Ballet
+@entity5:Native American
+@entity6:1980

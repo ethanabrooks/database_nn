@@ -1,16 +1,16 @@
 8
 
-@ent3 @ent4   ( born @ent7 ) is a @ent6 politician ,   diplomat , lawyer and writer who served as the 19th prime minister of @ent2 , from @ent5 to november 4 , 1993 .
+@entity4 ( @entity5 – 19 @entity2 ) , better known as @entity7 ( ) , was an @entity3 painter of landscapes , or vedute , of @entity6 .
 
-she used to be in charge : prime minister @ent1
+let me paint you a picture : in the @entity1 @entity7 was busy painting scenic views of this city , his birthplace
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:Kim Campbell
-@ent2:Canada
-@ent3:Avril Phædra
-@ent4:Douglas "Kim" Campbell
-@ent5:June 25, 1993
-@ent6:Canadian
-@ent7:March 10, 1947
+@entity0:
+@entity1:1730s
+@entity2:April 1768
+@entity3:Italian
+@entity4:Giovanni Antonio Canal
+@entity5:17 or 18 October 1697
+@entity6:Venice
+@entity7:Canaletto

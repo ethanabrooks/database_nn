@@ -1,16 +1,14 @@
-8
+6
 
-  friends of @ent3 went to @ent6 , ( @ent7 ) , a lawyer in @ent2 , ( and later in @ent4 ) for help on the release of the elderly doctor .
+@entity2 is a private liberal arts college in @entity3 , @entity5 .
 
-scott free : in @ent5 , while this lawyer & poet was helping to free his friend @ent1 , he saw the bombing of fort mchenry
+@entity1 : @entity2 in this state was founded in @entity4 , while that state was still a territory
 
-@ent6
+@entity5
 
-@ent0:
-@ent1:William Beanes
-@ent2:Georgetown
-@ent3:Beanes
-@ent4:Frederick
-@ent5:1814
-@ent6:Francis Scott Key
-@ent7:1779-1843
+@entity0:
+@entity1:COLLEGES & UNIVERSITIES
+@entity2:Beloit College
+@entity3:Beloit
+@entity4:1846
+@entity5:Wisconsin

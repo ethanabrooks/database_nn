@@ -1,13 +1,13 @@
 5
 
-it is at its highest point in the sky around midnight on @ent1 .
+@entity1
 
-dancing with the stars : @ent3 , mintaka & altinak are the @ent2 stars in his belt
+famous pairs : they founded the comapny that launched @entity1 in @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:December 15
-@ent2:3
-@ent3:Alnilam
-@ent4:Orion
+@entity0:
+@entity1:WWE Books
+@entity2:Pocket Books
+@entity3:Simon & Schuster
+@entity4:1939

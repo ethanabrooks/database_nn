@@ -1,13 +1,12 @@
-5
+4
 
-to the west , @ent3 faces @ent1 .
+they include the quaternions h , introduced by sir @entity2 , in which multiplication is not commutative , and the octonions , in which multiplication is not associative .
 
-mountains : the pindus mountains of this country separate @ent2 from @ent3
+@entity1 , please : when you celebrate a semicentennial , you 're celebrating the passage of this many years
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Ionian Sea
-@ent2:Thessaly
-@ent3:Epirus
-@ent4:Greece
+@entity0:
+@entity1:NUMBER
+@entity2:William Rowan Hamilton
+@entity3:50

@@ -1,12 +1,12 @@
 4
 
-he also created @ent3 magazine .
+he also created @entity3 magazine .
 
-magazines : @ent2 founded this teenage girls ' magazine in the ' @ent1
+magazines : @entity1 founded this teenage girls ' magazine in the ' @entity2
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:40s
-@ent2:Walter Annenberg
-@ent3:Seventeen
+@entity0:
+@entity1:Walter Annenberg
+@entity2:40s
+@entity3:Seventeen

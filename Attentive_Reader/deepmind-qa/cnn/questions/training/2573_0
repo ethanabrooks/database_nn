@@ -1,15 +1,20 @@
-7
+12
 
-@ent2 : writings .
+@entity9 , @entity4 , @entity6 , and @entity10 naval commander    surnames    most common surnames in @entity1 at the time of @entity7 of @entity2 , by order of incidence :    @entity11 .
 
-@ent4 : " @ent1 " was a @ent3 autobiography of this first black @ent5 to get a doctoral degree from @ent6
+the american revolution : born in @entity1 , @entity8 in @entity5 , he took command of the providence in @entity3
 
-@ent2
+@entity9
 
-@ent0:
-@ent1:Dusk Of Dawn
-@ent2:W.E.B. Du Bois
-@ent3:1940
-@ent4:DAWN
-@ent5:American
-@ent6:Harvard
+@entity0:
+@entity1:Kirkcudbrightshire
+@entity2:1881
+@entity3:1776
+@entity4:Scottish
+@entity5:1747
+@entity6:American
+@entity7:the United Kingdom Census
+@entity8:Scotland
+@entity9:John Paul Jones
+@entity10:Russian
+@entity11:1

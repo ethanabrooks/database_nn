@@ -1,16 +1,16 @@
 8
 
-  during a brilliant student career at the @ent2 de @ent5 , @ent1 won many prizes , including the prestigious prix de rome in @ent6 .
+@entity4 is a painting by @entity6 completed in @entity1 , shortly after he moved to @entity2 in @entity7 .
 
-@ent3 : it 's the capital city where " carmen " composer @ent7 was born in @ent4
+art & artists : in @entity7 this @entity5 abstract artist moved to @entity3 , which influenced his masterpiece " @entity4 "
 
-@ent5
+@entity6
 
-@ent0:
-@ent1:Bizet
-@ent2:Conservatoire
-@ent3:CARMEN
-@ent4:1838
-@ent5:Paris
-@ent6:1857
-@ent7:Georges Bizet
+@entity0:
+@entity1:1943
+@entity2:New York
+@entity3:NYC
+@entity4:Broadway Boogie-Woogie
+@entity5:Dutch
+@entity6:Piet Mondrian
+@entity7:1940

@@ -1,17 +1,16 @@
-9
+8
 
-@ent3 preserves the @ent8 , @ent7 home and a historic district where @ent5 lived from @ent6 , before becoming the @ent2 president of @ent1 .
+ciudad real ( ; @entity3 : @entity5 ) is a city in @entity2 , @entity4 , with a population of c. @entity6 .
 
-historical marker ahead : the @ent3 covers @ent4 blocks in this capital city
+windmills : famous in literature for its windmills , this dry region is in @entity4 's @entity1 province
 
-@ent8 , @ent7
+@entity2
 
-@ent0:
-@ent1:the United States
-@ent2:16th
-@ent3:Lincoln Home National Historic Site
-@ent4:4
-@ent5:Abraham Lincoln
-@ent6:1844 to 1861
-@ent7:Illinois
-@ent8:Springfield
+@entity0:
+@entity1:Ciudad Real
+@entity2:Castile–La Mancha
+@entity3:English
+@entity4:Spain
+@entity5:Royal City
+@entity6:75,000
+@entity7:La Mancha

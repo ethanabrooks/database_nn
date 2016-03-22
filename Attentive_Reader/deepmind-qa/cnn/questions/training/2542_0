@@ -1,17 +1,16 @@
-9
+8
 
-although there are @ent8 later @ent2 films starring @ent7 , most of the films in the series starred sellers as @ent3 and were directed and co - written by @ent5 .
+he was a @entity1 congressman from @entity7 before serving as secretary of @entity3 from @entity2 to @entity4 under president @entity5 .
 
-@ent1 first names ? : in @ent4 this funnyman was back as the bumbling @ent3 in " @ent6 2 "
+that 's my secretary of defense : @entity6
 
-@ent7
+@entity5
 
-@ent0:
-@ent1:2
-@ent2:Pink Panther
-@ent3:Inspector Clouseau
-@ent4:2009
-@ent5:Blake Edwards
-@ent6:The Pink Panther
-@ent7:Steve Martin
-@ent8:two
+@entity0:
+@entity1:U.S.
+@entity2:1969
+@entity3:Defense
+@entity4:1973
+@entity5:Richard Nixon
+@entity6:Melvin Laird
+@entity7:Wisconsin

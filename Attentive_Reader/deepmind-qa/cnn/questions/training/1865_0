@@ -1,15 +1,14 @@
-7
+6
 
-   biography    early life @ent2 was born in @ent1 , into the @ent5 - highest level of the @ent4 aristocracy .
+@entity4 ( 13 august 1866 – 16 @entity5 ) was an @entity1 entrepreneur , who founded @entity3 car manufacturing in @entity2 .
 
-@ent3 : prince @ent6
+mr. businessman : @entity4 made a pronouncement in @entity2 : he was founding this @entity1 auto company
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Moscow
-@ent2:Kropotkin
-@ent3:CAPITAL CITY BIRTHPLACES
-@ent4:Russian
-@ent5:second
-@ent6:Peter Kropotkin
+@entity0:
+@entity1:Italian
+@entity2:1899
+@entity3:Fiat
+@entity4:Giovanni Agnelli
+@entity5:December 1945

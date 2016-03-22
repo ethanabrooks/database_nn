@@ -1,19 +1,15 @@
-11
+7
 
-@ent9 , who has been eavesdropping , leaves to inform @ent10 so that he might catch @ent8 and @ent1 together .
+  in addition to l , p and many other medieval manuscripts , there are also fragments of plays recorded on papyrus .
 
-music : @ent6 of the @ent3 composers to make records , he supervised his own " @ent4 " for @ent7 in @ent2
+@entity4 drama : according to a play about her by @entity3 , this woman did not spend @entity5 at @entity2 but in @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Nedda
-@ent2:1907
-@ent3:first
-@ent4:Pagliacci
-@ent5:Ruggero Leoncavallo
-@ent6:One
-@ent7:one
-@ent8:Silvio
-@ent9:Tonio
-@ent10:Canio
+@entity0:
+@entity1:Egypt
+@entity2:Troy
+@entity3:Euripides
+@entity4:ANCIENT GREEK
+@entity5:the Trojan war
+@entity6:Helen

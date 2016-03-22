@@ -1,17 +1,15 @@
-9
+7
 
-after returning from @ent4 , @ent1 found that @ent6 had published a @ent8 story which bore similarities to his proposal .
+@entity4 has now been spun off into its own independent entity .
 
-joe - pourri : in ' @ent7 @ent3 & @ent2 created this guy who could fly but was somehow unrecognizable wearing glasses
+mind your business : @entity1 heads up this company whose properties include @entity3 , @entity5 , @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Siegel
-@ent2:Jerry Siegel
-@ent3:Joe Shuster
-@ent4:World War II
-@ent5:Superman
-@ent6:DC
-@ent7:38
-@ent8:Superboy
+@entity0:
+@entity1:Sumner Redstone
+@entity2:Viacom
+@entity3:MTV
+@entity4:Blockbuster
+@entity5:VH1
+@entity6:Nick & Paramount

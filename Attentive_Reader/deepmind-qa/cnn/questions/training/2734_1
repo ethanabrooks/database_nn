@@ -1,11 +1,13 @@
-3
+5
 
-her performance on the broadcast was heavily criticized .
+@entity2 ( photo chief )
 
-lisa : @ent1 is the sideline reporter for this popular weekly sports event
+the @entity4 pulitzer prizes : a gold medal went to this state 's @entity1 for coverage of a flood & other disasters
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Lisa Guerrero
-@ent2:Monday
+@entity0:
+@entity1:Grand Forks Herald
+@entity2:John Stennes
+@entity3:North Dakota
+@entity4:1998

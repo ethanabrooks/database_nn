@@ -1,16 +1,15 @@
-8
+7
 
-the breast ( @ent3 ) is a novella by @ent1 , in which the main character , @ent4 , becomes a @ent6 breast .
+@entity4 , @entity3 was the viceroy 's residence until @entity5 , when the governor of @entity6 moved in .
 
-... or bust : in addition to " goodbye , @ent2 " & " @ent7 " , he wrote " @ent5 "
+world " c"ities : the government of the state of @entity1 lives in the raj dhavan , or @entity2 , in this city
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Philip Roth
-@ent2:Columbus
-@ent3:1972
-@ent4:David Kepesh
-@ent5:The Breast
-@ent6:155-pound
-@ent7:The Anatomy Lesson
+@entity0:
+@entity1:West Bengal
+@entity2:Government House
+@entity3:Calcutta
+@entity4: Government House
+@entity5:1911
+@entity6:Bengal

@@ -1,17 +1,16 @@
-9
+8
 
-@ent3 sought the @ent5 nomination for president but @ent7 ( who chose not to seek reelection ) supported @ent8 as his potential successor in @ent6 , sending @ent3 back to the practice of law .
+  on @entity4 , @entity3 was declared the main hero of @entity7 ’s history by popular vote , as reported by the @entity5 newspaper .
 
-tough history : in @ent4 this man 's running mate was @ent1
+@entity2 : this man directed the classic @entity6 films " @entity3 " & " ivan the terrible "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Charles W. Fairbanks
-@ent2:Theodore Roosevelt
-@ent3:Fairbanks
-@ent4:1904
-@ent5:Republican
-@ent6:1908
-@ent7:Roosevelt
-@ent8:William Howard Taft
+@entity0:
+@entity1:Sergei Eisenstein
+@entity2:RUSSIAN CINEMA
+@entity3:Alexander Nevsky
+@entity4:24 September 2008
+@entity5:Kommersant
+@entity6:Russian
+@entity7:Russia

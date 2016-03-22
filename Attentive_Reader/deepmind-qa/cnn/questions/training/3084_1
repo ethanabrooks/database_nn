@@ -1,16 +1,12 @@
-8
+4
 
-ct .
+he stated that some other members of the band may also suffer from the condition .
 
-@ent6 : @ent3 @ent7 of @ent5 is the @ent1 congressman of this faith , to which he converted at @ent2
+the dan band : he was " only a lad " when he was the lead singer of @entity1 ; he went on to score films for @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1st
-@ent2:19
-@ent3:African-American
-@ent4:Islam
-@ent5:Minnesota
-@ent6:ELECTION 2006
-@ent7:Keith Ellison
+@entity0:
+@entity1:Oingo Boingo
+@entity2:Tim Burton
+@entity3:Danny Elfman

@@ -1,17 +1,15 @@
-9
+7
 
-@ent1 , renowned architects like @ent2 , @ent5 and @ent8 competed presenting their drafts , superseded by @ent7 in @ent6 .
+  characteristics of @entity6 was characterized by a hysterical reaction to @entity4 and his concerts .
 
-the end of the marathon : in the @ent4
+movies : @entity2 profiled in " @entity3 " and " @entity5 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:From 1864 onwards
-@ent2:Carl von Hasenauer
-@ent3:Vienna
-@ent4:Heldenplatz
-@ent5:Theophil Hansen
-@ent6:1869
-@ent7:Gottfried Semper
-@ent8:Heinrich Ferstel
+@entity0:
+@entity1:Franz Liszt
+@entity2:Composer
+@entity3:Song Without End
+@entity4:Liszt
+@entity5:Lisztomania
+@entity6:Lisztomania Lisztomania

@@ -1,15 +1,18 @@
-7
+10
 
-trading places is a @ent1 @ent4 comedy film directed by @ent6 , starring @ent3 and @ent5 .
+@entity9 is a commemoration day of the granting of national status in @entity2 , and was the same in @entity8 until @entity7 and @entity5 until @entity6 .
 
-eddie murphy movies : he played the man with whom @ent5 traded places in " @ent2 "
+" c"s the day : formerly @entity9 , it recognizes the @entity1 date of the @entity3 @entity4 colony to become a dominion
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:1983
-@ent2:Trading Places
-@ent3:Dan Aykroyd
-@ent4:American
-@ent5:Eddie Murphy
-@ent6:John Landis
+@entity0:
+@entity1:July 1
+@entity2:New Zealand
+@entity3:first
+@entity4:British
+@entity5:Canada
+@entity6:1982
+@entity7:1949
+@entity8:Newfoundland
+@entity9:Dominion Day

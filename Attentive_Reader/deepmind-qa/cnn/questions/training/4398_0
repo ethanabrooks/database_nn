@@ -1,16 +1,18 @@
-8
+10
 
-  the influence of @ent5 , who bequeathed the world latitude and longitude , is apparent , but every attempt is made to incorporate the discoveries of the later @ent4 ( including information from the voyages of @ent7 , among others ) .
+the @entity8 , also known as @entity3 , @entity3 , or @entity4 del popolo ( palace of the people ) is a former barracks and prison , now an art museum , in @entity2 , @entity1 .
 
-@ent1 : @ent2 made a globe based on the writings of @ent3 @ent6 traveler among others
+art & artists : @entity5 's statue of @entity6 is among the art treasures in the @entity8 in this @entity9 city
 
-@ent7
+@entity2
 
-@ent0:
-@ent1:1492
-@ent2:Martin Behaim
-@ent3:Ptolemy & this
-@ent4:Middle Ages
-@ent5:Ptolemy
-@ent6:Italian
-@ent7:Marco Polo
+@entity0:
+@entity1:Italy
+@entity2:Florence
+@entity3:the Palazzo del Bargello
+@entity4:Palazzo
+@entity5:Michelangelo
+@entity6:Bacchus
+@entity7:Museo Nazionale del Bargello
+@entity8:Bargello
+@entity9:Italian

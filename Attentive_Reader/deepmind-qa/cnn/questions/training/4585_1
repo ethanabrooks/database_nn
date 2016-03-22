@@ -1,15 +1,12 @@
-7
+4
 
-@ent1 , @ent4 .
+the @entity3 episode was a brief adaptation of odds against ; the other episodes were original stories created for the series by various writers .
 
-unreal estate : a weekend party at a mansion called @ent2 turns deadly in her @ent6 novel " @ent5 "
+foreign eye : he created jockey - turned-private eye @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Morgan
-@ent2:Chimneys
-@ent3:Agatha Christie
-@ent4:Janet
-@ent5:The Secret Of Chimneys
-@ent6:1925
+@entity0:
+@entity1:Sid Halley
+@entity2:Dick Francis
+@entity3:first

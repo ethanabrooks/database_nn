@@ -1,14 +1,11 @@
-6
+3
 
-retrieved @ent3 .
+the park is centered on the big sur river .
 
-state capitals : @ent5 in this capital is @ent2 of the @ent4 's busiest
+your state is parked : @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Denver
-@ent2:one
-@ent3:February 8, 2010
-@ent4:USA
-@ent5:Stapleton International Airport
+@entity0:
+@entity1:California
+@entity2:Pfeiffer Big Sur State Park

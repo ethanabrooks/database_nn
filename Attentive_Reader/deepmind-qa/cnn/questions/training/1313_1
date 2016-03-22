@@ -1,16 +1,14 @@
-8
+6
 
-  her next victim is @ent1 ( @ent5 ) , a lonely bachelor .
+deep trail ruts can be seen in the park complex .
 
-french actresses : in @ent4 this star of @ent2 's " @ent3 " directed her @ent7 film , " lumiere "
+the pony express : this " wild " west hero was a @entity1 agent at @entity4 near @entity5 , @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Coral
-@ent2:Truffaut
-@ent3:The Bride Wore Black
-@ent4:1976
-@ent5:Michel Bouquet
-@ent6:Jeanne Moreau
-@ent7:first
+@entity0:
+@entity1:Pony Express
+@entity2:Nebraska
+@entity3:Wild Bill Hickok
+@entity4:Rock Creek Station
+@entity5:Fairbury

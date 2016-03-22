@@ -1,15 +1,13 @@
-7
+5
 
-though he could not speak coherently , his son @ent1 , himself @ent6 at the time , recalled some of the stories that his father had told him .
+  @entity1 .
 
-the hardy boys : @ent1 , who died in @ent4 at @ent2 , was one of the last surviving veterans of this war
+a european tour : tired of @entity3 smorgasbord ?   cross the @entity2 for some of this peninsular country 's smorrebrod
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Moses Hardy
-@ent2:the age of 113
-@ent3:World War I
-@ent4:2006
-@ent5:Haywood Hardy
-@ent6:80 years old
+@entity0:
+@entity1:Kungsbacka Fjord
+@entity2:Kattegat
+@entity3:Swedish
+@entity4:Denmark

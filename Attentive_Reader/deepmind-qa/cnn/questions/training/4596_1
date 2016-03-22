@@ -1,19 +1,18 @@
-11
+10
 
-the title character is a @ent2 - educated @ent6 living on @ent7 in downtown @ent4 .
+its principal connection to @entity7 is indirect ; @entity5 @entity2 production at @entity3 used some passages of @entity9 's .
 
-@ent1 : @ent9 , who won a @ent10 for " @ent5 , " created this @ent8 spy/detective
+shakespearean actors : he starred in " @entity6 " in @entity8 ; @entity1 he was " driving miss daisy "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:AMERICAN LITERATURE
-@ent2:Harvard
-@ent3:Moto
-@ent4:Boston
-@ent5:The Late George Apley
-@ent6:WASP
-@ent7:Beacon Hill
-@ent8:Japanese
-@ent9:J.P. Marquand
-@ent10:Pulitzer
+@entity0:
+@entity1:a few years later
+@entity2:1752
+@entity3:Smock Alley
+@entity4:Morgan Freeman
+@entity5:Thomas Sheridan's
+@entity6:Coriolanus
+@entity7:Shakespeare
+@entity8:1979
+@entity9:Thomson

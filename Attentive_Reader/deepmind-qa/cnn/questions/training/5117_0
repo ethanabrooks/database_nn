@@ -1,19 +1,17 @@
-11
+9
 
-@ent1 ( @ent6   – @ent4 ) was a @ent10 government official who served as secretary of @ent5 under presidents @ent3 and @ent9 .
+in @entity3 , the novel was adapted as a film of the same name with script by the playwright @entity2 , directed by @entity5 and starring @entity6 and @entity4 .
 
-cabinet members : those who have held this cabinet post include @ent2 , @ent7 & @ent8
+playwrights : this " @entity7 " dramatist adapted @entity8 novel " @entity1 " for the screen
 
-secretary of @ent5
+@entity2
 
-@ent0:
-@ent1:Earl Lauer Butz
-@ent2:Bob Bergland
-@ent3:Richard Nixon
-@ent4:February 2, 2008
-@ent5:Agriculture
-@ent6:July 3, 1909
-@ent7:J. Sterling Morton
-@ent8:Earl Butz
-@ent9:Gerald Ford
-@ent10:United States
+@entity0:
+@entity1:The French Lieutenant's Woman
+@entity2:Harold Pinter
+@entity3:1981
+@entity4:Jeremy Irons
+@entity5:Karel Reisz
+@entity6:Meryl Streep
+@entity7:Betrayal
+@entity8:John Fowles'

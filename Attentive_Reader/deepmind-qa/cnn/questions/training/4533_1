@@ -1,13 +1,15 @@
-5
+7
 
-reviews were extremely positive .
+commissioned by @entity1 , the ballet was written to a scenario by @entity5 poet @entity4 .
 
-tunes from revues : this composer 's " @ent4 " first turned up in @ent3 's " @ent2 "
+european composers : this @entity5 was known for his " @entity2 " before he wrote " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Irving Berlin
-@ent2:As Thousands Cheer
-@ent3:1933
-@ent4:Easter Parade
+@entity0:
+@entity1:Sergei Diaghilev
+@entity2:Scythian Suite
+@entity3:Peter And The Wolf
+@entity4:Sergey Gorodetsky
+@entity5:Russian
+@entity6:Sergei Prokofiev

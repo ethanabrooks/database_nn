@@ -1,16 +1,16 @@
 8
 
-@ent6 is a short novel by the @ent2 writer @ent1 , first published in @ent7 in @ent3 , and since translated into a number of languages .
+the northernmost county of @entity2 , it borders @entity5 to the west , @entity3 to the south and @entity6 to the north .
 
-english literature : " @ent6 " is a recent work by this @ent4 author of " @ent5 "
+@entity4 england : the ceremony of riding the bounds in @entity1 , @entity7 began as defense against raiders from this nation
 
-@ent1
+@entity6
 
-@ent0:
-@ent1:Doris Lessing
-@ent2:British
-@ent3:1988
-@ent4:English
-@ent5:The Golden Notebook
-@ent6:The Fifth Child
-@ent7:the United Kingdom
+@entity0:
+@entity1:Berwick
+@entity2:England
+@entity3:County Durham
+@entity4:MERRIE OLDE
+@entity5:Cumbria
+@entity6:Scotland
+@entity7:Northumberland

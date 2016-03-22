@@ -1,20 +1,14 @@
-12
+6
 
-@ent10 , @ent6 @ent1 general and the 18th president of @ent2 , dies at @ent3 .
+  cast
 
-african cities : this @ent8 capital was destroyed by the @ent5 in @ent11 ; @ent9 began to rebuild it in @ent7
+comedy films : @entity1 played a " @entity5 cop " & this @entity3 alumnus plays a " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Civil War
-@ent2:the United States
-@ent3:age 63
-@ent4:Khartoum
-@ent5:Mahdists
-@ent6:American
-@ent7:1898
-@ent8:Sudanese
-@ent9:Lord Kitchener
-@ent10:Ulysses S. Grant
-@ent11:1885
+@entity0:
+@entity1:Eddie Murphy
+@entity2:Chris Farley
+@entity3:SNL
+@entity4:Beverly Hills Ninja
+@entity5:Beverly Hills

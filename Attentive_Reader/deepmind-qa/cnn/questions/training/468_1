@@ -1,15 +1,13 @@
-7
+5
 
-@ent1 @ent3 becomes prime minister of @ent5 .
+however , a re - released version of the " you were meant for me " single cd had a hidden bonus track of the single version of " @entity1 " .
 
-@ent2 : a simple white cross marks the grave of this attorney general , buried near his brother in @ent6
+@entity2 , @entity3 : the thing is what 's cut from the object seen here ; the person is the woman who sang " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1: September 27 –
-@ent2:ARLINGTON NATIONAL CEMETERY
-@ent3:Marcelo Caetano
-@ent4:Robert F. Kennedy
-@ent5:Portugal
-@ent6:1968
+@entity0:
+@entity1:Foolish Games
+@entity2:PERSON
+@entity3:PLACE OR THING
+@entity4:Jewel

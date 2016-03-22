@@ -1,13 +1,16 @@
-5
+8
 
-@ent2 shots were fired at the inn and at a nearby restaurant in their attempts to kill @ent4 .
+general @entity5 .... .
 
-don't be cruel : after the st. valentine 's day massacre , @ent3 said , " only " this man " kills like that "
+broadway : @entity4 is a @entity1 theatre & " @entity4 " is a @entity7 play by this @entity3 woman
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Al Capone
-@ent2:More than one thousand
-@ent3:Bugs Moran
-@ent4:Capone
+@entity0:
+@entity1:Broadway
+@entity2:Lillian Hellman
+@entity3:American
+@entity4:The Autumn Garden
+@entity5:Benjamin Griggs Kent Smith
+@entity6:The Winter Garden
+@entity7:1951

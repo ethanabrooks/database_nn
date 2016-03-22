@@ -1,16 +1,20 @@
-8
+12
 
-the writer @ent1 made a speech in @ent7 in which he attacked the isolationist activism of @ent2 , saying , " i wish i could look you in the eye , colonel @ent4 , when i tell you that you simply do n't know what it 's all about ...
+@entity1 ( @entity9 – @entity10 ) was an @entity8 politician who was the mayor of @entity6 for @entity4 ( 1955–1976 ) and chairman of the cook county democratic central committee for @entity4 , holding both positions until his death in office in @entity5 .
 
-famous americans : after his public comments were criticized by @ent6 , he resigned his @ent5 commission in @ent3
+mr. or ms. mayor : @entity11 mayor @entity1 begat @entity1 of this city
 
-@ent2
+@entity6
 
-@ent0:
-@ent1:Rex Stout
-@ent2:Charles Lindbergh
-@ent3:April 1941
-@ent4:Lindbergh
-@ent5:Air Corps Reserve
-@ent6:FDR
-@ent7:New York City
+@entity0:
+@entity1:Richard J. Daley
+@entity2:Richard Joseph Daley
+@entity3:Richard M. Daley
+@entity4:23 years
+@entity5:1976
+@entity6:Chicago
+@entity7:21 years
+@entity8:American
+@entity9:May 15, 1902
+@entity10:December 20, 1976
+@entity11:6-term

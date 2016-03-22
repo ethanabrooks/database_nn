@@ -1,14 +1,19 @@
-6
+11
 
-in the same time sequence @ent1 hosted @ent5 @ent2 students with the same programme .
+  in @entity3 : feldkirch ( hartheim ) , a village in the municipality @entity2 , in @entity8    see also feldkirchen ( disambiguation )
 
-@ent3 : city in which you 'd find @ent1 & the university of the bosporus
+@entity4 events : this country has an @entity5 @entity1 festival in @entity9 @entity10 festival in @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Marmara University
-@ent2:European
-@ent3:COLLEGES & UNIVERSITIES
-@ent4:Istanbul
-@ent5:839
+@entity0:
+@entity1:Haydn
+@entity2:Hartheim
+@entity3:Germany
+@entity4:ANNUAL
+@entity5:annual
+@entity6:Austria
+@entity7:Feldkirch
+@entity8:Baden-Württemberg
+@entity9:Eisenstadt & a
+@entity10:Schubert

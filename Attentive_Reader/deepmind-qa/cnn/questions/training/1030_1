@@ -1,14 +1,16 @@
-6
+8
 
-the study of these languages remained enduring passions for @ent1 throughout his life .
+this follows a series of natural disasters in @entity6 in @entity2 , and 1545 .
 
-libraries : in @ent4 @ent2 began to rebuild the library at this university ; it reopened in @ent5
+a czar is born : born @entity7 , died @entity5 , inspired a drama by @entity1 opera by @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bodley
-@ent2:Thomas Bodley
-@ent3:Oxford
-@ent4:1598
-@ent5:1602
+@entity0:
+@entity1:Pushkin & an
+@entity2:the years 1528, 1531, 1539
+@entity3:Mussorgsky
+@entity4:Boris Godunov
+@entity5:1605
+@entity6:Henan
+@entity7:1551

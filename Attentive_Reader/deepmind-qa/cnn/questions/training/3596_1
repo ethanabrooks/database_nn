@@ -1,17 +1,13 @@
-9
+5
 
-@ent6 i is crowned king of scots , at @ent2 , @ent1   @ent5 –
+i’ve
 
-science : in @ent4 descartes suppressed his book @ent3 because it supported the ideas of this @ent8
+@entity2 is here to stay : this " super freak " singer was once in a band calle @entity3 with @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Edinburgh
-@ent2:St Giles' Cathedral
-@ent3:"The World"
-@ent4:1633
-@ent5:June 22
-@ent6:Charles
-@ent7:Galileo
-@ent8:Italian
+@entity0:
+@entity1:Neil Young
+@entity2:ROCK & ROLL
+@entity3:the Mynah Birds
+@entity4:Rick James

@@ -1,15 +1,13 @@
-7
+5
 
-@ent4 is a village and civil parish in @ent6 district of @ent2 , @ent3 .
+the new york times .
 
-women authors : tourists may visit the @ent4 , @ent3 home of this sensible 19th c. novelist , still popular @ent1
+pseudo movie ratings : in @entity3 @entity2 appointed him chief minister of @entity4 's main temple
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:today
-@ent2:Hampshire
-@ent3:England
-@ent4:Chawton
-@ent5:Jane Austen
-@ent6:the East Hampshire
+@entity0:
+@entity1:Malcolm X
+@entity2:Elijah Muhammad
+@entity3:1954
+@entity4:Harlem

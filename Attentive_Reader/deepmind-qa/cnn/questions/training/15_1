@@ -1,15 +1,14 @@
-7
+6
 
-  @ent4 claimed to have translated from this language in his @ent6 corpus .
+@entity5 identifies the nabatu of southern arabia ( pre - khalan migration ) as their ancestors .
 
-@ent1 , @ent3 : it was once populated by a people known as the @ent2
+@entity3 , @entity2 : it was once populated by a people known as the @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:JAMAICA
-@ent2:Nabataeans
-@ent3:JORDAN OR JAPAN
-@ent4:Ibn Wahshiyya
-@ent5:Jordan
-@ent6:Nabataean
+@entity0:
+@entity1:Jordan
+@entity2:JORDAN OR JAPAN
+@entity3:JAMAICA
+@entity4:Nabataeans
+@entity5:Starcky

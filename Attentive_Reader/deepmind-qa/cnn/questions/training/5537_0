@@ -1,15 +1,14 @@
-7
+6
 
-the origin is an opera/oratorio composed by @ent6 to a libretto by @ent6 and @ent5 based on the writings of @ent1 .
+barbarosa is a @entity3 motion picture starring @entity2 and @entity5 about a young cowboy on the run from the law who partners with a famous bandito and learns about life from him .
 
-historical novels : @ent3 " @ent2 " is " @ent4 of " the life & career of this scientist
+@entity1 : " @entity4 "
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Charles Darwin
-@ent2:The Origin
-@ent3:Irving Stone's
-@ent4:A Biographical Novel
-@ent5:Catherine Barnett
-@ent6:Richard Einhorn
+@entity0:
+@entity1:MOVIE TITLE ROLES
+@entity2:Willie Nelson
+@entity3:1982
+@entity4:Barbarosa
+@entity5:Gary Busey

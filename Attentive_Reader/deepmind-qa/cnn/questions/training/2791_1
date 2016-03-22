@@ -1,13 +1,14 @@
-5
+6
 
-@ent1 .
+@entity5 nicknames him " @entity2 " , as a word play on rab 's name .
 
-alan : @ent4 played him , claus von bulow 's lawyer , in " @ent2 "
+children 's authors : @entity3 lived most of her life in this state & set her novel " @entity4 " there
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:September 3, 2004
-@ent2:Reversal of Fortune
-@ent3:Alan Dershowitz
-@ent4:Ron Silver
+@entity0:
+@entity1:Massachusetts
+@entity2:Rabbit
+@entity3:Esther Forbes
+@entity4:Johnny Tremain
+@entity5:Johnny

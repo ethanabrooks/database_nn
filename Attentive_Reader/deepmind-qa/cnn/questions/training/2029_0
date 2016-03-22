@@ -1,20 +1,13 @@
-12
+5
 
-@ent3   ( , ; born @ent10 @ent5 ) is a @ent9 politician who served as the @ent11 president of @ent7 , from @ent6 to @ent4 @ent8 .
+@entity3 is a regional shopping mall and trade area located in @entity2 , @entity4 .
 
-countries led by women : the daughter of @ent1 former leaders , @ent2 is president of this country highlighted here
+malls of america : the sooner you get to this state 's @entity3 , the sooner you can find the deals at @entity1 's or old navy
 
-@ent7
+@entity4
 
-@ent0:
-@ent1:2
-@ent2:Chandrika Kumaratunga
-@ent3:Chandrika Bandaranaike Kumaratunga
-@ent4:19
-@ent5:June 1945
-@ent6:12 November 1994
-@ent7:Sri Lanka
-@ent8:November 2005
-@ent9:Sri Lankan
-@ent10:29
-@ent11:fifth
+@entity0:
+@entity1:Dillard
+@entity2:Norman
+@entity3:Sooner Mall
+@entity4:Oklahoma

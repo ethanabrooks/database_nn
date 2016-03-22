@@ -1,12 +1,14 @@
-4
+6
 
-  "
+@entity2 - peggy sue 5   references   sources   amburn , ellis ( @entity5 ) .
 
-surely you joust : in this @ent1 film @ent2 is a peasant who vows to become a knight by jousting his way to the top
+@entity4 : " @entity1 got married "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2001
-@ent2:Heath Ledger
-@ent3:Knight
+@entity0:
+@entity1:Peggy Sue
+@entity2:Peakposition Dutch ChartsDutch Charts
+@entity3:Kathleen Turner
+@entity4:TITLE ROLE PLAYING
+@entity5:1995

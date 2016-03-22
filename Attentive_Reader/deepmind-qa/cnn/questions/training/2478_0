@@ -1,16 +1,14 @@
-8
+6
 
-@ent1 is the highest summit of the rocky mountains of @ent5 and the highest point in the @ent3 state of @ent4 and the entire @ent7 drainage basin .
+@entity1 ( , @entity5 ' t'my ) is a @entity2 - act drama by @entity3 .
 
-mountains : few know that @ent1 in this state is the @ent6 - tallest in the lower @ent2 states
+world theatre : this " war and peace " author 's play " @entity1 " was once banned in his native @entity4
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:Mount Elbert
-@ent2:48
-@ent3:U.S.
-@ent4:Colorado
-@ent5:North America
-@ent6:second
-@ent7:Mississippi River
+@entity0:
+@entity1:The Power of Darkness
+@entity2:five
+@entity3:Leo Tolstoy
+@entity4:Russia
+@entity5:Vlast

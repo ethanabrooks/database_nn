@@ -1,24 +1,16 @@
-16
+8
 
-@ent14   @ent12 as @ent1   @ent2 as dixie    @ent3 as general 's aide    @ent9 as @ent13 as @ent15 as hillbilly dancer    kent mccord as extra    @ent8 as jonesy    soundtrack   awards and nominations screenwriters @ent10 and @ent11 were nominated by @ent4 in the category of best written musical for their screenplay .
+an @entity6 daughter is a play written by @entity1 .
 
-elvis movies : @ent6 eldest child , she played the role of @ent5 in " @ent7 "
+notable women : @entity4 won @entity3 @entity2 for acting in " @entity5 " by this author of " @entity7 "
 
-@ent9
+@entity1
 
-@ent0:
-@ent1:Trudy
-@ent2:Hortense Petra
-@ent3:Bobby Stone
-@ent4:the Writers Guild of America
-@ent5:Lorraine
-@ent6:Ronald Reagan's
-@ent7:Kissin' Cousins
-@ent8:Joan Staley
-@ent9:Maureen Reagan
-@ent10:Gene Nelson
-@ent11:Gerald Drayson Adams
-@ent12:Beverly Powers
-@ent13:Lorraine   Joe Esposito
-@ent14:William George Bailey
-@ent15:Mike   Teri Garr
+@entity0:
+@entity1:Wendy Wasserstein
+@entity2:1997
+@entity3:a Tony in
+@entity4:Lynne Thigpen
+@entity5:An American Daughter
+@entity6:American
+@entity7:The Heidi Chronicles

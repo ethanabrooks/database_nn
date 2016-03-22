@@ -1,14 +1,14 @@
 6
 
-in fact , the great artiste was @ent3 .
+the title refers to the scandal magazine @entity5 , which is fictionalized as @entity3 .
 
-da bomb : @ent5 dropped the bomb on @ent4 ; @ent2 dropped the bomb on this city
+at the movies : she won an oscar for playing @entity1 in " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Nagasaki
-@ent2:Bockscar
-@ent3:Victor 89
-@ent4:Hiroshima
-@ent5:The Enola Gay
+@entity0:
+@entity1:Lynn Bracken
+@entity2:Kim Basinger
+@entity3:Hush-Hush
+@entity4:L.A. Confidential
+@entity5:Confidential

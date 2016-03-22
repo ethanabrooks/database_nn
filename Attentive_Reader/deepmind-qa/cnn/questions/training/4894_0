@@ -1,16 +1,12 @@
-8
+4
 
-@ent6 is a private liberal arts college located in @ent5 , @ent3 , @ent7 .
+@entity3 ,   is a fictional character in the aubrey–maturin series of novels by @entity2 .
 
-libraries : @ent4 at @ent6 in this state 's @ent1 has a @ent2 copy of the constitution
+the library : " blue at the mizzen " is the 20th of his books detailing the naval career of @entity1
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:Berkshire Hills
-@ent2:1787
-@ent3:Massachusetts
-@ent4:The Chapin Library of Rare Books
-@ent5:Williamstown
-@ent6:Williams College
-@ent7:United States
+@entity0:
+@entity1:Jack Aubrey
+@entity2:Patrick O'Brian
+@entity3:John "Jack" Aubrey

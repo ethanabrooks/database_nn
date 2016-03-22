@@ -1,18 +1,13 @@
-10
+5
 
-  early life @ent9 was born in @ent3 , @ent4 , the son of @ent1 , a business consultant , and @ent2 .
+she received the orange prize for fiction and the pen/faulkner award in @entity1 for her novel @entity3 .
 
-american hodgepodge : ( hey , i 'm @ent2 from " @ent7 " . ) i was born in this northern @ent4 city that elected @ent5 as its mayor in @ent8
+women writers : the name of this @entity2 bestseller about a soprano is an @entity4 musical term
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:Marilyn Wilson
-@ent2:Sherrod Moore
-@ent3:Oakland
-@ent4:California
-@ent5:Jerry Brown
-@ent6:Shemar Moore
-@ent7:The Young and the Restless
-@ent8:1998
-@ent9:Moore
+@entity0:
+@entity1:2002
+@entity2:Ann Patchett
+@entity3:Bel Canto
+@entity4:Italian

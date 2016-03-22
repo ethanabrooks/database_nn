@@ -1,14 +1,13 @@
-6
+5
 
-  governor @ent3 the governor of @ent1 prior to the occupation by the @ent5 army .
+she is best known for her work with @entity3 , whom she married in @entity1 .
 
-children 's authors : @ent2 lived most of her life in this state & set her novel " @ent4 " there
+alma matters : @entity4 , this director 's wife , co - scripted his films " @entity2 " & " the lady vanishes "
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Massachusetts
-@ent2:Esther Forbes
-@ent3:Thomas Hutchinson -  
-@ent4:Johnny Tremain
-@ent5:British
+@entity0:
+@entity1:1926
+@entity2:The 39 Steps
+@entity3:Alfred Hitchcock
+@entity4:Alma Reville

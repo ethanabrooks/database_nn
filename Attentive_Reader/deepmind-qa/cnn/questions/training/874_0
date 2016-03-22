@@ -1,13 +1,20 @@
-5
+12
 
-the hopi are a @ent4 tribe , who primarily live on the   hopi reservation in northeastern @ent2 .
+@entity4 @entity3 ( rle : @entity8 politics ) , @entity2 , page @entity11   however , as @entity10 citizens , @entity1 were able to stand for election , such as @entity6 chancellor @entity5 , who was elected via his party 's list of candidates .
 
-states of the union : a @ent3 village in this state is probably the oldest continuously inhabited @ent1 settlement
+@entity7 bin ein berliner : his resume includes reporter , @entity9 mayor , @entity10 chancellor & nobel peace prize winner
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:U.S.
-@ent2:Arizona
-@ent3:Hopi
-@ent4:Native American
+@entity0:
+@entity1:West Berliners
+@entity2:Karl Koch Routledge
+@entity3:Today
+@entity4:West Germany
+@entity5:Willy Brandt
+@entity6:Social Democrat
+@entity7:ICH
+@entity8:German
+@entity9:West Berlin
+@entity10:West German
+@entity11:3

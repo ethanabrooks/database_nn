@@ -1,17 +1,15 @@
-9
+7
 
-@ent4 , @ent3 .
+in @entity2 , he began devoting himself to the study of @entity6 .
 
-before i was elected : senator @ent7 of this @ent6 state spent @ent1 as a blacksmith at racetracks in the @ent5 & @ent8
+exploration : on a trip in this country in @entity4 @entity3 set angkor , finding @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:7 years
-@ent2:Rhode Island
-@ent3:Providence Journal
-@ent4:December 15, 2006
-@ent5:U.S.
-@ent6:New England
-@ent7:Lincoln Chafee
-@ent8:Canada
+@entity0:
+@entity1:Wat & Thom
+@entity2:1856
+@entity3:Henri Mouhot
+@entity4:1860
+@entity5:Cambodia
+@entity6:Natural Science

@@ -1,16 +1,14 @@
-8
+6
 
-@ent1 ( born @ent6 ) is an @ent5 politician from the @ent4 state of @ent3 .
+he was a student of @entity5 .
 
-@ent2 : this state 's governor @ent7 selected a peach of a quarter
+art : a @entity2 work is sometimes known as " @entity4 this painter with whom @entity1 studied in @entity3 leiden
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:Zell Bryan Miller
-@ent2:QUARTER BACKS
-@ent3:Georgia
-@ent4:U.S.
-@ent5:American
-@ent6:February 24, 1932
-@ent7:Zell Miller
+@entity0:
+@entity1:Dou
+@entity2:Gerrit Dou
+@entity3:17th century
+@entity4:The Mother of"
+@entity5:Rembrandt

@@ -1,15 +1,14 @@
-7
+6
 
-@ent1 is an actress ; she has performed in @ent3 theatre , film , and television .
+@entity1 is a city in @entity2 , site of @entity4 .
 
-teens on broadway : in @ent4 @ent2 replaced @ent5 as this teenage diarist
+in the doghouse : @entity3 at this capital 's @entity1 airport will not only take your terrier but will also house your hamster
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Nathalie Nicole Paulding
-@ent2:Nathalie Paulding
-@ent3:American
-@ent4:June 1998
-@ent5:Natalie Portman
-@ent6:Anne Frank
+@entity0:
+@entity1:Narita
+@entity2:Japan
+@entity3:The Petinn Royal
+@entity4:the Narita International Airport
+@entity5:Tokyo

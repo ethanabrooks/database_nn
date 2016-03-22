@@ -1,18 +1,13 @@
-10
+5
 
-  in @ent9 , @ent4 auditioned for the role of @ent7 for the television series @ent2 but lost the role to @ent8 .
+the moai have been under restoration since @entity1 .
 
-tv : played by @ent1 , @ent3 was the vampire who turned this @ent5 character into a vampire as well
+@entity4 : @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Julie Benz
-@ent2:Buffy the Vampire Slayer
-@ent3:Darla
-@ent4:Benz
-@ent5:David Boreanaz
-@ent6:Angel
-@ent7:Buffy Summers
-@ent8:Sarah Michelle Gellar
-@ent9:1996
+@entity0:
+@entity1:1950
+@entity2:Rapa Nui National Park
+@entity3:Chile
+@entity4:NATIONAL PARKS OF THE WORLD

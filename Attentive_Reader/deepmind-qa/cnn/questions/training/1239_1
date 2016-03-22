@@ -1,14 +1,13 @@
-6
+5
 
-@ent5 ;   pp .
+officially , the area of @entity3 is   of land area and   of sea area .
 
-museums : @ent1 donated his @ent2 doll collection to @ent4 in this state capital
+on your indonesia : @entity2 , the capital of @entity4 , is on this island
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Barry Goldwater
-@ent2:Kachina
-@ent3:Phoenix
-@ent4:the Heard Museum
-@ent5:ISBN 978-0-7643-4429-9
+@entity0:
+@entity1:Java
+@entity2:Jakarta
+@entity3:the Jakarta Special District
+@entity4:Indonesia

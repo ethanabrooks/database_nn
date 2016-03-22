@@ -1,19 +1,13 @@
-11
+5
 
-@ent6 is a @ent4 romantic comedy film directed by @ent8 , written by @ent10 and @ent9 , and starring @ent5 and @ent3 .
+  a clear variety @entity3 found in @entity1 , @entity2 can be cut into a gemstone .
 
-jennifer : in @ent4 she made history : her album " @ent1 & her movie " @ent6 " were both no . @ent2 in @ent7
+geology : the mineral @entity4 was discovered in & named for a region in this country
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:J. Lo"
-@ent2:1
-@ent3:Matthew McConaughey
-@ent4:2001
-@ent5:Jennifer Lopez
-@ent6:The Wedding Planner
-@ent7:the same week
-@ent8:Adam Shankman
-@ent9:Pamela Falk
-@ent10:Michael Ellis
+@entity0:
+@entity1:Andalusia
+@entity2:Spain
+@entity3:first
+@entity4:Andalusite

@@ -1,12 +1,16 @@
-4
+8
 
-  cape breton island is part of the province of @ent2 , @ent3 .
+incarcerated at @entity1 and then moved to @entity1 , they were eventually hanged at @entity4 on @entity3 .
 
-just say " no " : @ent3 's @ent1 forms part of this province
+bad time charlie : notorious pirate @entity2 made an @entity7 exit by hanging at this @entity5 island later famous as an entrance
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:Cape Breton Island
-@ent2:Nova Scotia
-@ent3:Canada
+@entity0:
+@entity1:Bridewell Prison
+@entity2:Charles Gibbs
+@entity3:April 22, 1831
+@entity4:Ellis Island
+@entity5:New York
+@entity6:Bellevue Prison
+@entity7:1831

@@ -1,16 +1,14 @@
-8
+6
 
-  early life and marriages @ent5 was born on @ent1 on her parents ' plantation @ent7 in the @ent3 colony , province of @ent4 .
+her father was @entity3 passenger @entity2 .
 
-presidential hitching posts : george & @ent6 , on @ent2
+the mayflower : no @entity1 , this friend of @entity5 was the last surviving signer of @entity4
 
-@ent4
+@entity2
 
-@ent0:
-@ent1:June 2, 1731
-@ent2:Jan. 6, 1759
-@ent3:British
-@ent4:Virginia
-@ent5:Martha Dandridge
-@ent6:Martha Washington
-@ent7:Chestnut Grove
+@entity0:
+@entity1:Puritan
+@entity2:John Alden
+@entity3:Mayflower
+@entity4:The Mayflower Compact
+@entity5:Myles Standish

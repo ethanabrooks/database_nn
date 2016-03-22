@@ -1,20 +1,14 @@
-12
+6
 
-@ent8 ( born @ent7 ) is the head coach of @ent11 in the @ent2   he previously was a men 's college basketball coach at @ent3 ( 1981–85 ) , @ent4 ( 1987–94 ) , @ent9 ( 1994–2006 ) and @ent10 ( 2006–08 ) .
+@entity5 is a waterfall in @entity1 , @entity4 .
 
-sports : in @ent5 @ent6 found he could no longer phone it in as hoops coach of this " hoosier " school
+waterfalls : @entity5 in this island 's @entity3 has a single drop of @entity2 mile
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Indiana
-@ent2:NCAA.
-@ent3:Montana Tech
-@ent4:Washington State University
-@ent5:2008
-@ent6:Kelvin Sampson
-@ent7:October 5, 1955
-@ent8:Kelvin Matthew Sampson
-@ent9:the University of Oklahoma
-@ent10:Indiana University
-@ent11:the Houston Cougars
+@entity0:
+@entity1:the Waimanu Valley
+@entity2:almost a half
+@entity3:Waimanu Valley
+@entity4:Hawaii
+@entity5:Waihilau Falls

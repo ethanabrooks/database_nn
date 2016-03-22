@@ -1,15 +1,15 @@
 7
 
-  @ent6 night football in @ent4 , she left @ent5 to join @ent1 's @ent6 @ent2 football television crew .
+the grand forks herald is a daily broadsheet newspaper , established in @entity1 , published in @entity5 , @entity3 , @entity2 .
 
-lisa : @ent3 is the sideline reporter for this popular weekly sports event
+the @entity6 pulitzer prizes : a gold medal went to this state 's @entity4 for coverage of a flood & other disasters
 
-@ent6 night football
+@entity3
 
-@ent0:
-@ent1:ABC
-@ent2:Night
-@ent3:Lisa Guerrero
-@ent4:2003
-@ent5:The Best Damn Sports Show Period
-@ent6:Monday
+@entity0:
+@entity1:1879
+@entity2:United States
+@entity3:North Dakota
+@entity4:Grand Forks Herald
+@entity5:Grand Forks
+@entity6:1998

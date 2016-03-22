@@ -1,18 +1,19 @@
-10
+11
 
-built on the island @ent3 ( in @ent1 of @ent2 ) , it is one of @ent9 's @ent6 .
+@entity4 ( born @entity9 ) was president of @entity6 from @entity8 to @entity7 january 2002 and president of the national congress from @entity5 @entity1 to @entity5 @entity10 .
 
-@ent7 : this country 's @ent8 , seen here , lives in @ent4 just outside of @ent5
+countries of the world : @entity2 is the current president of this @entity3 nation
 
-@ent9
+@entity6
 
-@ent0:
-@ent1:Ekerö Municipality
-@ent2:Stockholm County
-@ent3:Lovön
-@ent4:Drottningholm Palace
-@ent5:Stockholm
-@ent6:Royal Palaces
-@ent7:QUEENS
-@ent8:Queen Silvia
-@ent9:Sweden
+@entity0:
+@entity1:January 1994
+@entity2:Carlos Roberto Flores
+@entity3:Central American
+@entity4:Carlos Roberto Flores Facussé
+@entity5:25
+@entity6:Honduras
+@entity7:27
+@entity8:27 January 1998
+@entity9:10 March 1950
+@entity10:January 1998

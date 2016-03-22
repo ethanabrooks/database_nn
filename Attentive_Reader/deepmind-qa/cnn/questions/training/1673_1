@@ -1,13 +1,13 @@
 5
 
-( @ent4 , @ent1 ) .
+   @entity2    –
 
-ballet is for the birds ! : @ent3 gets chased after stealing a bird in a ballet based on this novel
+let 's celebrate ! : celebrated on @entity1 , it honors those who served in our @entity3
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1930
-@ent2:Don Quixote
-@ent3:Sancho Panza
-@ent4:Lorenzo Coullaut Valera
+@entity0:
+@entity1:November 11
+@entity2:1983
+@entity3:Armed Forces
+@entity4:Veterans Day

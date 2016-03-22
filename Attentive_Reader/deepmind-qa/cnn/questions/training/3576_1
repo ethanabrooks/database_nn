@@ -1,14 +1,14 @@
 6
 
-events @ent4 bc –
+  act @entity2 the party to celebrate @entity5 's graduation is going on .
 
-@ent1 : @ent3 , 1972:ceylon officially becomes @ent2
+operas teens love : a high school graduation party leads to romance in " @entity4 " by this " @entity3 " composer
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:INTERNATIONAL DATE LINE
-@ent2:the Republic of this
-@ent3:May 22
-@ent4:334
-@ent5:Sri Lanka
+@entity0:
+@entity1:Aaron Copland
+@entity2:2
+@entity3:Appalachian Spring
+@entity4:The Tender Land
+@entity5:Laurie

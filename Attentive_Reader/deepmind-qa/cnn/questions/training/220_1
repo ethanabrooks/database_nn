@@ -1,17 +1,14 @@
-9
+6
 
-   events    by place    roman empire    flavius aetius , @ent2 general ( magister militum ) , in the service of emperor @ent1 , holds power in @ent3 for @ent7 .
+  accession and membership   the process of becoming a @entity2 member is unique to each applicant country , and the terms of accession are dependent upon the country 's stage of economic development and current trade regime .
 
-world history 101 : these @ent5 nomads were led by attila from @ent4 to @ent6 a.d.
+world cities : in @entity5 the new @entity4 established its headquarters in this @entity3 city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Valentinian III
-@ent2:Roman
-@ent3:Rome
-@ent4:434
-@ent5:Asiatic
-@ent6:453
-@ent7:twenty years
-@ent8:Huns
+@entity0:
+@entity1:Geneva
+@entity2:WTO
+@entity3:Swiss
+@entity4:World Trade Organization
+@entity5:1995

@@ -1,14 +1,16 @@
-6
+8
 
-@ent5 ( gcu ) is a private , for - profit @ent2 university located in @ent1 , @ent3 , @ent4 .
+@entity4 , the main campus is a   parcel in @entity6 , along the shores of @entity5 @entity7 north of downtown @entity2 .
 
-state capitals : @ent5 is located in this state capital
+@entity1 : you 'll find both campuses of @entity3 on this great lake
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Phoenix
-@ent2:Christian
-@ent3:Arizona
-@ent4:United States
-@ent5:Grand Canyon University
+@entity0:
+@entity1:COLLEGES & UNIVERSITIES
+@entity2:Chicago
+@entity3:Northwestern University
+@entity4:Today
+@entity5:Lake Michigan
+@entity6:Evanston
+@entity7:just 12 miles

@@ -1,15 +1,19 @@
-7
+11
 
-  to the southeast is @ent2 , separated by @ent1 .
+he also worked on an incomplete funerary monument for @entity3 's father , @entity6 other works include several city plans and temples in @entity10 , @entity5 and other @entity9 cities .
 
-" in " places : in @ent6 an earthquake struck the island of @ent3 in this nation , killing @ent4 people
+african cities : founded in @entity2 @entity8 , this port city was designed by @entity1 , architect to @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Sunda Strait
-@ent2:Java
-@ent3:Sumatra
-@ent4:215
-@ent5:Indonesia
-@ent6:February 1994
+@entity0:
+@entity1:Dinocrates
+@entity2:332
+@entity3:Alexander
+@entity4:Alexander the Great
+@entity5:Delos
+@entity6:Philip II.
+@entity7:Alexandria
+@entity8:B.C.
+@entity9:Greek
+@entity10:Delphi

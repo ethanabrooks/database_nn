@@ -1,18 +1,13 @@
-10
+5
 
-@ent2 before the visit of president @ent5 to @ent8 , @ent4 agent @ent3 removed the name of @ent7 from the bureau 's watch list of persons requiring surveillance .
+  @entity2 wrote and illustrated several children 's books during his career , and his book @entity4 won the newbery medal .
 
-major @ent1 : he began working at @ent9 in @ent6
+biographies : this pioneer was a man , yes , a big man , & his bio won a @entity1 for @entity3
 
-@ent7
+@entity4
 
-@ent0:
-@ent1:LEES
-@ent2: Six weeks
-@ent3:Marvin Gheesling
-@ent4:FBI
-@ent5:Kennedy
-@ent6:October 1963
-@ent7:Lee Harvey Oswald
-@ent8:Dallas
-@ent9:the Texas School Book Depository
+@entity0:
+@entity1:Newbery Medal
+@entity2:Daugherty
+@entity3:James Daugherty
+@entity4:Daniel Boone

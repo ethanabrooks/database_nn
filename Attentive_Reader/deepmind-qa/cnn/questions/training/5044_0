@@ -1,17 +1,17 @@
 9
 
-@ent7 @ent6 meets @ent2 at @ent3 is inspired by @ent5 nuova ( @ent2 is in white ) .
+@entity3 ( @entity7 : oost - vlaanderen , every word in isolation : . , ) is a province of @entity2 , @entity8 of the @entity4 regions of @entity6 .
 
-@ent4 : this poet 's " @ent1 " was just a warmup for his " @ent8 "
+@entity5 , page 1 : the city of @entity1 is found in this country 's province of @entity3
 
-@ent6
+@entity6
 
-@ent0:
-@ent1:La Vita Nuova
-@ent2:Beatrice
-@ent3:Ponte Santa Trinità
-@ent4:LESSER-KNOWN POEMS
-@ent5:La Vita
-@ent6:Dante
-@ent7:thumb|300px|right|Henry Holiday's
-@ent8:Divine Comedy
+@entity0:
+@entity1:Aalst
+@entity2:Flanders
+@entity3:East Flanders
+@entity4:three
+@entity5:THE AMERICAN HERITAGE DICTIONARY
+@entity6:Belgium
+@entity7:Dutch
+@entity8:one

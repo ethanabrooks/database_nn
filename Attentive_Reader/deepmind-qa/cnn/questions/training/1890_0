@@ -1,17 +1,15 @@
-9
+7
 
-@ent2 ( @ent6   – @ent7 ) , born as @ent4 , became an influential leader of the @ent8 in @ent1 .
+@entity4 was the drummer for the @entity5 before joining the beatles in @entity3 , replacing original drummer @entity6 .
 
-@ent3 americans : in the mid-1830s @ent2 , a leader in this tribe , waged guerrilla warfare against @ent5 troops in the everglades
+pop music : prior to the @entity1 , he was the drummer for @entity2 and the hurricanes
 
-@ent8
+@entity4
 
-@ent0:
-@ent1:Florida
-@ent2:Osceola
-@ent3:NATIVE
-@ent4:Billy Powell
-@ent5:U.S.
-@ent6:1804
-@ent7:January 30, 1838
-@ent8:Seminole
+@entity0:
+@entity1:Beatles
+@entity2:Rory Storm
+@entity3:August 1962
+@entity4:Ringo Starr
+@entity5:Hurricanes
+@entity6:Pete Best

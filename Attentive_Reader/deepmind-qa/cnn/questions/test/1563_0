@@ -1,19 +1,18 @@
-11
+10
 
-@ent3 ( born @ent9 ) is an @ent5 politician and a former @ent8 member of @ent4 senate from @ent6 .
+  early life @entity7 was born in @entity6 , @entity5 , the @entity8 of @entity3 children of @entity9 and @entity1 .
 
-government : incumbent @ent10 defeated @ent7 in this state 's @ent2 @ent1 race
+@entity2 : mass murderer @entity1
 
-@ent6
+@entity6
 
-@ent0:
-@ent1:Senate
-@ent2:1988
-@ent3:David Ferdinand Durenberger
-@ent4:the U.S.
-@ent5:American
-@ent6:Minnesota
-@ent7:Hubert Humphrey III
-@ent8:Republican
-@ent9:August 19, 1934
-@ent10:David Durenberger
+@entity0:
+@entity1:Charles Starkweather
+@entity2:STATE CAPITAL BIRTHPLACES
+@entity3:seven
+@entity4:Helen Starkweather
+@entity5:Nebraska
+@entity6:Lincoln
+@entity7:Starkweather
+@entity8:third
+@entity9:Guy

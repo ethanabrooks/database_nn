@@ -1,13 +1,14 @@
-5
+6
 
-they also relied on hunting , fishing and gathering resources from their rich environment .
+isbn 9789042038998 .
 
-@ent1 place names : @ent3 recorded the name of this river as @ent4 , but it is now called this
+opera : he wrote the libretto for @entity2 's " @entity1 " & @entity5 's " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:U.S.
-@ent2:Potomac
-@ent3:John Smith
-@ent4:Patawomeck
+@entity0:
+@entity1:The Trial of Lucullus
+@entity2:Dessau
+@entity3:Bertolt Brecht
+@entity4:The Threepenny Opera
+@entity5:Weill

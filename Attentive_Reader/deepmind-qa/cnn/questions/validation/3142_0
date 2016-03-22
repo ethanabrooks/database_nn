@@ -1,16 +1,14 @@
-8
+6
 
-  @ent4 's @ent6 marriage ( 1995 - 2011 ) was to @ent3 actress @ent2 .
+kolno   is a town in northeastern @entity1 , located in @entity4 , @entity3   km northeast of @entity5 .
 
-tv actors & actresses : she co - starred with her husband @ent1 in the @ent7 miniseries " @ent5 "
+ideas for tourism campaigns : from koluszki to @entity2 , & wozniki to strzelce , visit us , but just know we 've heard all the jokes already
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Bruce Boxleitner
-@ent2:Melissa Gilbert
-@ent3:American
-@ent4:Boxleitner
-@ent5:Danielle Steel's Zoya
-@ent6:second
-@ent7:1995
+@entity0:
+@entity1:Poland
+@entity2:Kolno
+@entity3:about 150
+@entity4:the Podlaskie Voivodeship
+@entity5:Warsaw

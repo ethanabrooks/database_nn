@@ -1,16 +1,15 @@
-8
+7
 
-@ent7 clipper can refer to :   the nickname of @ent4 , a @ent2 player    @ent1 is a sea scout sailing vessel ( gaff headed ketch ) in the city of @ent6 .
+it has developed packages of @entity4 for multiple operating systems , including @entity2 debian/ubuntu and red hat ) -based and @entity3 @entity6 - based operating systems .
 
-bride of the yankees : married in @ent5 , this " @ent1 " has roses delivered to his ex - wife 's grave for @ent3 after her death
+the new york times tech biz : the @entity1 exposed memos from this company 's execs who had trouble upgrading to its @entity5 operating system
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:Yankee Clipper
-@ent2:Major League Baseball
-@ent3:20 years
-@ent4:Joe DiMaggio
-@ent5:1954
-@ent6:Seattle
-@ent7:Yankee
+@entity0:
+@entity1:Times
+@entity2:Linux (
+@entity3:Microsoft
+@entity4:WorldVistA
+@entity5:Vista
+@entity6:Windows

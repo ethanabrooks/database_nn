@@ -1,12 +1,14 @@
-4
+6
 
-@ent2 .
+the painter wing , built in @entity2 , is the oldest existing portion of the hotel .
 
-miscellany : in legend , after slaying a dragon , @ent3 sowed its teeth & grew a crop of warriors who helped him defeat this city
+@entity5 : @entity4 is a famous resort in this @entity3 national park
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Thebes
-@ent2:The Dictionary of Classical Mythology
-@ent3:Cadmus
+@entity0:
+@entity1:Banff
+@entity2:1913
+@entity3:Canadian
+@entity4:Chateau Lake Louise
+@entity5:NATIONAL PARKS OF THE WORLD

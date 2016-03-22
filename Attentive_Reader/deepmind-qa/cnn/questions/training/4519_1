@@ -1,17 +1,13 @@
-9
+5
 
-@ent2 sold the rights for @ent1 one dollar with the promise that she would produce it only if @ent2 was to direct it .
+@entity1 may refer to :   @entity3 , sr .
 
-films of the ' @ent7 : in @ent4 films , @ent5 was " @ent8 " & he was " @ent3 "
+before i was elected : a regular rocket scientist , @entity2 representative @entity1 of this " garden state " was a nuclear physicist
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Terminator to Hurd for
-@ent2:Cameron
-@ent3:The Terminator
-@ent4:1984
-@ent5:Robert Ginty
-@ent6:Arnold Schwarzenegger
-@ent7:80s
-@ent8:The Exterminator
+@entity0:
+@entity1:Rush Holt
+@entity2:U.S.
+@entity3:Rush D. Holt
+@entity4:New Jersey

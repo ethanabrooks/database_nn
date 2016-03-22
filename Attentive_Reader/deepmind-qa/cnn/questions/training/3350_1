@@ -1,15 +1,19 @@
-7
+11
 
-the @ent6 motion picture was based on a novel by @ent4 .
+the @entity8 stands @entity6 as @entity10 next to the casa monica hotel in st. augustine that flager bought from @entity3 .
 
-stupid answers : actor @ent2 changed his name to this after playing a man named @ent1 in the @ent3 film " @ent5 "
+@entity2 history : @entity1 , a founder of @entity7 , was @entity4 of the original stockholders in this @entity5 - based oil company
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Gig Young
-@ent2:Byron Barr
-@ent3:1942
-@ent4:Stephen Longstreet
-@ent5:The Gay Sisters
-@ent6:Warner Bros.
+@entity0:
+@entity1:Henry Flagler
+@entity2:U.S.
+@entity3:Franklin W. Smith
+@entity4:one
+@entity5:Ohio
+@entity6:today
+@entity7:Miami
+@entity8:Alcazar
+@entity9:Standard Oil
+@entity10:the Lightner Museum

@@ -1,19 +1,12 @@
-11
+4
 
-@ent4 was a ballpark in @ent5 , @ent9 , the home of @ent6 from @ent1 through   @ent8 .
+@entity3 is the name of several places : @entity2 @entity3 , @entity1 , the largest city with this name .
 
-baseball : the @ent7 : on @ent3 this city 's @ent4 hosted the @ent10 all - star game ; the american league won , @ent2
+capitals at statehood : @entity3
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:1910
-@ent2:4-2
-@ent3:July 6, 1933
-@ent4:Comiskey Park
-@ent5:Chicago
-@ent6:the Chicago White Sox
-@ent7:1930s
-@ent8:1990
-@ent9:Illinois
-@ent10:first
+@entity0:
+@entity1:Alabama
+@entity2: United States
+@entity3:Huntsville

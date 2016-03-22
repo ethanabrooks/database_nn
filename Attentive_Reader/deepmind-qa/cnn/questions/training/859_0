@@ -1,16 +1,14 @@
-8
+6
 
-the testament is a adventure story by @ent5 author @ent4 .
+sophisticated lady ’ is a jazz standard , composed as an instrumental in @entity3 by @entity4 , with additional credit given to publisher @entity5 , and to which words were added by @entity1 .
 
-@ent2 read : in @ent3 his " @ent1 " was @ent6 's top hardback & his " @ent7 " was top paperback
+composers : this " noble " jazzman wrote " @entity2 " & " mood indigo "
 
-@ent4
+@entity4
 
-@ent0:
-@ent1:The Testament
-@ent2:BRIT
-@ent3:Feb. 1999
-@ent4:John Grisham
-@ent5:American
-@ent6:London
-@ent7:The Street Lawyer
+@entity0:
+@entity1:Mitchell Parish
+@entity2:Sophisticated Lady
+@entity3:1932
+@entity4:Duke Ellington
+@entity5:Irving Mills

@@ -1,18 +1,15 @@
-10
+7
 
-  @ent7 ( @ent4 ) , @ent3 poet and novelist   @ent9 ( @ent1 ) , @ent6 physiologist and @ent8 laureate
+the organization reformulates many elements from @entity5 tradition , such as christmas or prayers , reflecting instead details from @entity6 .
 
-they used to be in charge : supreme director @ent2 o'higgins
+around the world : in @entity2 soccer 's @entity3 joined this country 's national team when he was only @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1887-1971
-@ent2:Bernardo
-@ent3:Brazilian
-@ent4:1825-1884
-@ent5:Chile
-@ent6:Argentine
-@ent7:Bernardo Guimarães
-@ent8:Nobel Prize
-@ent9:Bernardo Houssay
+@entity0:
+@entity1:16 years old
+@entity2:1976
+@entity3:Diego Maradona
+@entity4:Argentina
+@entity5:Christian
+@entity6:Maradona

@@ -1,13 +1,18 @@
-5
+10
 
-his physical similarity to @ent2 led to his being cast as the former president for the film @ent1 .
+  regular сast @entity8 as lieutenant colonel @entity1 , commander of @entity6   season @entity9 kristanna loken as @entity4 , @entity3 .
 
-movie role in common : @ent3 & @ent4 : this political figure
+tv actors & roles : barbra @entity7 knows he played lt . col . @entity1 on " @entity5 "
 
-@ent2
+@entity8
 
-@ent0:
-@ent1:Dick
-@ent2:Richard Nixon
-@ent3:Anthony Hopkins
-@ent4:Dan Hedaya
+@entity0:
+@entity1:Bill "Raider" Kelly
+@entity2:Bill 'Raven' Kelly
+@entity3:LtCol
+@entity4:Janine Kelly
+@entity5:Pensacola: Wings of Gold
+@entity6:the Sea Dragons
+@entity7:Streisand
+@entity8:James Brolin
+@entity9:1

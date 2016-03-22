@@ -1,17 +1,15 @@
-9
+7
 
-   @ent6    after @ent4 , @ent5 was elected the @ent3 president of @ent8 , an organization that advocated universal suffrage .
+the @entity6 regime greatly expanded the @entity2 del yaque , a nature reserve around the yaque del sur river .
 
-american women : she and @ent2 organized the @ent3 women 's rights convention in @ent1
+capitals of the west indies : from @entity4 to @entity3 this capital was called ciudad trujillo after dictator @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1848
-@ent2:Lucretia Mott
-@ent3:first
-@ent4:the Civil War
-@ent5:Mott
-@ent6:American Equal Rights Association
-@ent7:Elizabeth Cady Stanton
-@ent8:the American Equal Rights Association
+@entity0:
+@entity1:Rafael Trujillo
+@entity2:Vedado
+@entity3:1961
+@entity4:1936
+@entity5:Santo Domingo
+@entity6:Trujillo

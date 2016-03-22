@@ -1,18 +1,13 @@
-10
+5
 
-  @ent9 's film @ent3 ( @ent1 ) , based on the novel by @ent8 , won @ent2 .
+     @entity1 at the kinozal.tv   category:1953 births category:american male film actors category:american male television actors category:american television directors category:living people category:people from @entity3 , @entity2 category:principia college alumni category:male actors from @entity2 ( state )
 
-film roles : @ent4 , @ent6 & @ent7 have all played this character on film
+spouse in common to ... : @entity1 &david e. kelley
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1957
-@ent2:the Academy Award for Special Effects
-@ent3:The Enemy Below
-@ent4:Dick Powell
-@ent5:Philip Marlowe
-@ent6:Robert Mitchum
-@ent7:Elliott Gould
-@ent8:Denys Rayner
-@ent9:Powell
+@entity0:
+@entity1:Peter Horton
+@entity2:Washington
+@entity3:Bellevue
+@entity4:Michelle Pfeiffer

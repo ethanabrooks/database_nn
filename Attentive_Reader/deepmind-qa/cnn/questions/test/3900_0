@@ -1,0 +1,14 @@
+6
+
+buried child is a play by @entity2 first presented in @entity1 .
+
+theater : actor - playwright who won a @entity5 @entity4 for " @entity3 "
+
+@entity2
+
+@entity0:
+@entity1:1978
+@entity2:Sam Shepard
+@entity3:Buried Child
+@entity4:Pulitzer Prize
+@entity5:1979

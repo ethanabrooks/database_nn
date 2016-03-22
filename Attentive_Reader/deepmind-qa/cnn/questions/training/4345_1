@@ -1,14 +1,15 @@
-6
+7
 
-@ent1 anchored at the uninhabited island of @ent2 and lured and captured @ent5 natives off a lebou fishing canoe before being driven off .
+while the battle is termed the battle of bennington , it actually occurred about   away , in @entity1 ;   the bennington battlefield , a @entity3 is entirely within @entity2 .
 
-capital punishment : @ent4
+u.s.a. : @entity5 high , the @entity6 in this state was once the tallest battle monument in the world
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Álvaro Fernandes
-@ent2:Goree
-@ent3:Senegal
-@ent4:Dakar
-@ent5:two
+@entity0:
+@entity1:New York
+@entity2:New York State
+@entity3:U.S. National Historic Landmark
+@entity4:Vermont
+@entity5:At 306 feet
+@entity6:Bennington Battle Monument

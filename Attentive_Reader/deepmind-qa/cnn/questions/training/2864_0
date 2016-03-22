@@ -1,13 +1,22 @@
-5
+14
 
-@ent1 is a fictional character in @ent2 novel @ent4 .
+during her career she attained several firsts for a woman scientist , including @entity4 of the @entity10 @entity3 women elected a fellow of @entity12 ( @entity13 ) in @entity1 ( along with @entity2 ) , @entity10 woman tenured professor at @entity9 , @entity10 woman president of @entity5 , and @entity10 woman president of @entity11 for the advancement of science .
 
-book by characters : @ent1 , @ent3
+female firsts : after @entity6 , in @entity1 this @entity7 organization inducted its @entity10 women , including @entity8 , seen here
 
-@ent4
+@entity12
 
-@ent0:
-@ent1:Isabella Linton
-@ent2:Emily Brontë's
-@ent3:Hareton Earnshaw
-@ent4:Wuthering Heights
+@entity0:
+@entity1:1945
+@entity2:Marjory Stephenson
+@entity3:two
+@entity4:one
+@entity5:the International Union of Crystallography
+@entity6:285 years
+@entity7:British
+@entity8:Kathleen Lonsdale
+@entity9:University College London
+@entity10:first
+@entity11:the British Association
+@entity12:the Royal Society
+@entity13:FRS

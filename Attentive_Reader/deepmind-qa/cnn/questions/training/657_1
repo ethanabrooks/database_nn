@@ -1,13 +1,15 @@
-5
+7
 
-the " decomposer engine " is a component of the scanning system that opens containers , such as compressed files , so that the scanner can evaluate the files within .
+  in an @entity1 interview with a local newspaper of @entity5 , @entity3 recalled what prompted her to write the letter .
 
-software : @ent3 has a popular line of anti - virus software named for this man , @ent4 name @ent2
+famous beards : @entity2 , @entity6 , thought this man would win an election by more than a hair if he grew whiskers ; he agreed
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Norton
-@ent2:Peter
-@ent3:Symantec
-@ent4:first
+@entity0:
+@entity1:1878
+@entity2:Grace Bedell
+@entity3:Grace Bedell-Billings
+@entity4:Abraham Lincoln
+@entity5:Westfield
+@entity6:age 11

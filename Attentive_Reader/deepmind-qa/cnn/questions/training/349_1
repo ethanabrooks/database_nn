@@ -1,12 +1,12 @@
 4
 
-at @ent1 , the longest dam is the cushaw hydroelectric project due to the highly angled path the dam takes across the river .
+her son , @entity2 , is also a novelist .
 
-states ' longest rivers : @ent3
+bestsellers : the title of this @entity2 bestseller referes to a painting of the heroine as a child on this beach
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1,617 feet
-@ent2:Virginia
-@ent3:James River
+@entity0:
+@entity1:The Shell Seekers
+@entity2:Robin Pilcher
+@entity3:Rosamunde Pilcher

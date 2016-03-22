@@ -1,16 +1,14 @@
-8
+6
 
-@ent5 , @ent4 , and @ent7 also co - star in this film .
+shavit ( @entity5 : " comet " – שביט ) is a space launch vehicle produced by @entity1 to launch small satellites into low @entity3 orbit .
 
-feature film debuts : this movie @ent1 debuted as @ent2 son in " @ent3 " & appeared with her again in " @ent6 "
+countries in space : to launch satellites , this country 's @entity4 rockets take the @entity2 route to avoid hostile neighbors
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Robin
-@ent2:Jessica Lange's
-@ent3:Men Don't Leave
-@ent4:Joan Cusack
-@ent5:Chris O'Donnell
-@ent6:Blue Sky
-@ent7:Kathy Bates
+@entity0:
+@entity1:Israel
+@entity2:Mediterranean
+@entity3:Earth
+@entity4:Shavit
+@entity5:Hebrew

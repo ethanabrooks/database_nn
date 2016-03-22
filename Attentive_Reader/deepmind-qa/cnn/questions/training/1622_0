@@ -1,16 +1,16 @@
 8
 
-@ent5 is married to @ent1 , @ent3 @ent7 chief anchor correspondent and former political adviser to the @ent2 administration .
+on @entity5 , @entity1 replaced @entity4 as host of @entity3 .
 
-i'm getting married ! : @ent6 ( @ent4 )
+funny for nothin ' : on his @entity2 night taking over " @entity3 " , he informed us , " @entity7 is on assignment in @entity6 "
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:George Stephanopoulos
-@ent2:Clinton
-@ent3:ABC
-@ent4:2001
-@ent5:Wentworth
-@ent6:Alexandra Wentworth
-@ent7:News
+@entity0:
+@entity1:Jon Stewart
+@entity2:first
+@entity3:The Daily Show
+@entity4:Kilborn
+@entity5:January 11, 1999
+@entity6:Kuala Lumpur
+@entity7:Craig Kilborn

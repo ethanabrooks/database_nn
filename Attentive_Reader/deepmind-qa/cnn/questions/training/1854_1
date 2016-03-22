@@ -1,13 +1,13 @@
 5
 
-retrieved @ent3 author ] ( 23 december 2006 ) .
+  the title of the portfolio was problematic to @entity2 .
 
-music : @ent4 , better known as @ent1 , is this group 's lead singer
+photographers : this californian 's books include " @entity1 " & " @entity4 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bono
-@ent2:U2
-@ent3:14 January 2007[Unknown
-@ent4:Paul Hewson
+@entity0:
+@entity1:My Camera in the National Parks
+@entity2:Adams
+@entity3:Ansel Adams
+@entity4:Parmelian Prints of the High Sierras

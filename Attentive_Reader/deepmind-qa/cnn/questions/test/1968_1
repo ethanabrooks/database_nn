@@ -1,13 +1,14 @@
-5
+6
 
-  external links
+since its opening in @entity2 , the stadium has been the official home stadium of the professional football team @entity3 and the official national stadium of the @entity1 national football team .
 
-my name is henry , i'll be your writer : @ent1 's " @ent2 " was one of my last novels ; i later became a @ent4 subject
+take me out to ... : take me out to the futbol game at @entity5 in this capital city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1904
-@ent2:The Golden Bowl
-@ent3:Henry James
-@ent4:British
+@entity0:
+@entity1:Mexico
+@entity2:1966
+@entity3:Club América
+@entity4:Mexico City
+@entity5:Estadio Azteca

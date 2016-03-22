@@ -1,15 +1,16 @@
-7
+8
 
-the human stain ( @ent4 ) is a novel by @ent1 set in @ent3 rural @ent5 .
+  he is a patron of @entity6 career best known as a producer and director , @entity4 has also acted , most famously portraying @entity1 in the @entity5 film @entity3 , a film which he co - wrote and produced .
 
-awards : in @ent2 this author won a pen/faulkner award for best american work of fiction for " @ent6 "
+they played jesse james : this @entity5 film featured the carradines as the youngers & stacy & @entity7 as @entity2
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Philip Roth
-@ent2:2001
-@ent3:late 1990s
-@ent4:2000
-@ent5:New England
-@ent6:The Human Stain
+@entity0:
+@entity1:Jesse James
+@entity2:Frank & Jesse James
+@entity3:The Long Riders
+@entity4:Keach
+@entity5:1980
+@entity6:Meningitis UK.  
+@entity7:James Keach

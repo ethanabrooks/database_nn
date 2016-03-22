@@ -1,16 +1,13 @@
-8
+5
 
-it is located in the eastern @ent4 delta , west of @ent1 and the @ent2 canal .
+the library is also the academic , social , and intellectual center of the campus , hosting a variety of lectures , exhibits and performances to the benefit of the campus community .
 
-on @ent7 : land o ' @ent6 ! there 's a city called @ent6 in @ent5 in this state
+college folk : @entity2 was renamed this in @entity3 after a colorful grad of the class of @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Sinai Peninsula
-@ent2:Suez
-@ent3:Indiana
-@ent4:Nile
-@ent5:Elkhart County
-@ent6:Goshen
-@ent7:THE U.S. MAP
+@entity0:
+@entity1:1786
+@entity2:Rhode Island College
+@entity3:1804
+@entity4:Brown University

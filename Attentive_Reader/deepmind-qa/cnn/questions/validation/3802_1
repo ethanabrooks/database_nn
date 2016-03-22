@@ -1,16 +1,13 @@
-8
+5
 
-@ent4 served as chairman of the board for @ent1 from @ent2 .
+@entity2 , @entity4 , p. tv3 .
 
-women 's work : in @ent3 @ent4 founded what is now this cable network , now home to " @ent6 "
+choice parents : now for some good news : this anchorwoman & @entity1 adopted a beautiful boy
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kate Spade & Company
-@ent2:2007 to 2013
-@ent3:1977
-@ent4: Koplovitz
-@ent5:Kay Koplovitz
-@ent6:La Femme Nikita
-@ent7:the USA Network
+@entity0:
+@entity1:Maury Povich
+@entity2:The Washington Post
+@entity3:Connie Chung
+@entity4:23 March 1969

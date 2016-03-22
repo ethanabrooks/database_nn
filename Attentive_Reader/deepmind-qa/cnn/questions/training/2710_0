@@ -1,14 +1,17 @@
-6
+9
 
-@ent1 , formerly called mr. @ent3 ( sometimes styled as mr. @ent2 ) , is a soft drink marketed by @ent5 .
+its historical reputation is derived from the patronage of @entity5 artists , intellectuals such as @entity7 and @entity1 , and young writers , such as @entity2 .
 
-soda pop quiz : introduced in @ent4 , @ent1 is a bolder version of this similarly named beverage
+literary europe : this author hung out at @entity8 in @entity3 , & wrote of drinking there with @entity6 in " @entity4 "
 
-mr. @ent3
+@entity2
 
-@ent0:
-@ent1:Pibb Xtra
-@ent2:PiBB
-@ent3:Pibb
-@ent4:2001
-@ent5:The Coca-Cola Company
+@entity0:
+@entity1:Jean-Paul Sartre
+@entity2:Ernest Hemingway
+@entity3:Paris
+@entity4:A Movable Feast
+@entity5:Surrealist
+@entity6:James Joyce
+@entity7:Simone de Beauvoir
+@entity8:Les Deux Magots

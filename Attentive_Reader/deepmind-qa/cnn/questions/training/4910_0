@@ -1,19 +1,18 @@
-11
+10
 
-a monetary history of @ent1 , @ent6 is a book written in @ent2 by @ent3 prize–winning economist @ent9 and @ent7 .
+  the film stars @entity1 , @entity2 , and @entity8 , with @entity4 and @entity3 .
 
-let 's get economical : in @ent5 this author of " @ent10 , @ent8 " won @ent4 for economics
+thanks for the memoirs : this star of the @entity7 movie " @entity6 " called her @entity9 memoir @entity5
 
-@ent9
+@entity1
 
-@ent0:
-@ent1:the United States
-@ent2:1963
-@ent3:Nobel
-@ent4:the Nobel Prize
-@ent5:1976
-@ent6:1867–1960
-@ent7:Anna J. Schwartz
-@ent8:1867-1960
-@ent9:Milton Friedman
-@ent10:A Monetary History of the United States
+@entity0:
+@entity1:Esther Williams
+@entity2:Victor Mature
+@entity3:Donna Corcoran
+@entity4:David Brian
+@entity5:"The Million Dollar Mermaid"
+@entity6:Million Dollar Mermaid
+@entity7:1952
+@entity8:Walter Pidgeon
+@entity9:1999

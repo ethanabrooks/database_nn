@@ -1,14 +1,16 @@
-6
+8
 
-  nativity scenes
+@entity6
 
-museums of germany : this city 's @ent2 was created in @ent5 by @ent1 to preserve @ent3 's artistic treasures
+henry ford : @entity1 's father @entity2 emigrated to this @entity3 state from @entity7 in @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Maximilian II
-@ent2:Bavarian National Museum
-@ent3:Bavaria
-@ent4:Munich
-@ent5:1855
+@entity0:
+@entity1:Henry
+@entity2:William Ford
+@entity3:U.S.
+@entity4:Michigan
+@entity5:1847
+@entity6:Civil War
+@entity7:Ireland

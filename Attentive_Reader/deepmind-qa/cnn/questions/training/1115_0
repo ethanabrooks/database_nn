@@ -1,16 +1,16 @@
 8
 
-the city of @ent4 , @ent2 ( belonging to @ent7 at the time ) is founded by @ent3 i of @ent7 .
+portrait in @entity6 ( retrato en sepia , in @entity1 ) is a @entity7 novel by @entity4 .
 
-city founders : founded by @ent7 's gustav i @ent5 in @ent1 , this city , @ent2 's largest , moved to its present site in @ent6
+world lit : this @entity3 continued the story of " @entity5 " in her novel " @entity2 "
 
-@ent4
+@entity4
 
-@ent0:
-@ent1:1550
-@ent2:Finland
-@ent3:King Gustav
-@ent4:Helsinki
-@ent5:Vasa
-@ent6:1640
-@ent7:Sweden
+@entity0:
+@entity1:Spanish
+@entity2:Portrait in Sepia
+@entity3:Chilean
+@entity4:Isabel Allende
+@entity5:Daughter of Fortune
+@entity6:Sepia
+@entity7:2000

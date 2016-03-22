@@ -1,16 +1,18 @@
-8
+10
 
-@ent4 became @ent5 of @ent1 songwriters of @ent3 , and @ent5 of the most important writers during the emergence of rock and roll .
+@entity2 – @entity9 : @entity1 is captured by @entity5 .
 
-barry me : with @ent6 , he 's written songs like " @ent7 " & " we gotta get out of this place "
+@entity3 : on @entity4 @entity6 was ambushed by @entity7 in this country
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Brill Building
-@ent2:Barry Mann
-@ent3:the 1960s
-@ent4:Weil
-@ent5:one
-@ent6:Cynthia Weil
-@ent7:Make Your Own Kind of Music
+@entity0:
+@entity1:Romania
+@entity2:1944
+@entity3:1922
+@entity4:August 22
+@entity5:the Soviet Union
+@entity6:Michael Collins
+@entity7:Independent Republicans
+@entity8:Ireland
+@entity9:World War II

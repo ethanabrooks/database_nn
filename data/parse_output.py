@@ -104,7 +104,7 @@ def write_example_to_file(data_file, index, question, answer, sentence, nlp_pars
 		for (ent_text, ent) in ents_dict.items():
 			# Make sure the ent is non-empty
 			if len(ent_text) > 0:
-				ents_id_tuple.append((ent, "@ent" + str(index)))
+				ents_id_tuple.append((ent, '@entity' + str(index)))
 				index+=1
 
 		(sentence, sent_vocab) = change_ent_in_doc(parsed_sent, ents_id_tuple)
@@ -116,7 +116,7 @@ def write_example_to_file(data_file, index, question, answer, sentence, nlp_pars
 		answer = get_tokenized_string(nlp_parser, answer)
 		sentence = get_tokenized_string(nlp_parser, sentence)
 
-	if correct and ((answer not in sentence) or ('@ent' not in answer)):
+	if correct and ((answer not in sentence) or (answer[:7] != '@entity') or (' ' in answer)):
 		return (False, None)
 
 	data_file.write(str(index) + '\n' + '\n')
@@ -127,7 +127,7 @@ def write_example_to_file(data_file, index, question, answer, sentence, nlp_pars
 	if (correct):
 		data_file.write(answer + '\n\n')
 	else:
-		data_file.write('@ent0' + '\n\n')
+		data_file.write('@entity0' + '\n\n')
 
 	if (replace_ents):
 		write_ents_map(data_file, ents_id_tuple)
@@ -135,7 +135,7 @@ def write_example_to_file(data_file, index, question, answer, sentence, nlp_pars
 
 def write_ents_map(data_file, ents_id_tuple):
 	#Append the no answer option
-	data_file.write('@ent0:\n')
+	data_file.write('@entity0:\n')
 	for (k, v) in ents_id_tuple:
 		data_file.write(v+ ':' + k.text + '\n')
 

@@ -1,15 +1,15 @@
 7
 
-the plane , a twin - engine @ent2 , suffered engine failure while being flown , grossly overloaded , in icing conditions at an altitude that was too high to sustain flight with only @ent3 working engine under those conditions .
+it was transferred to the u.s. forest service in @entity2 and became a national forest on @entity4 .
 
-between : @ent5 husband between @ent1 & @ent6
+state @entity1 : @entity6 , which includes @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mike Todd
-@ent2:Lockheed Lodestar
-@ent3:one
-@ent4:Eddie Fisher
-@ent5:Liz Taylor's
-@ent6:Richard Burton
+@entity0:
+@entity1:THE GEOGRAPHIC CENTER
+@entity2:1906
+@entity3:Arizona
+@entity4:March 4, 1907
+@entity5:Prescott National Forest
+@entity6:Yavapai County

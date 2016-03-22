@@ -1,16 +1,15 @@
-8
+7
 
-membership is declining , @ent5 is pulled in a @ent3 directions by his parishioner 's needs , and the church 's finances are in trouble .
+@entity1     category:rivers of @entity4
 
-singers on film : in @ent7 @ent6 portrayed " @ent4 " & this singer played " @ent1 "
+german rivers : the pegnitz & the @entity2 join to form @entity6 just nw of this @entity5 city famous for its trials & rallies
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Preacher's Wife
-@ent2:Whitney Houston
-@ent3:hundred
-@ent4:Evita
-@ent5:Henry
-@ent6:Madonna
-@ent7:1996
+@entity0:
+@entity1:ISBN 978-3-936897-47-0
+@entity2:Rednitz
+@entity3:Nuremberg
+@entity4:Bavaria
+@entity5:German
+@entity6:the Regnitz River

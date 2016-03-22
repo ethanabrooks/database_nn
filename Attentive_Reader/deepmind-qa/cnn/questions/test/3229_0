@@ -1,20 +1,14 @@
-12
+6
 
-@ent6 ) is an oil painting by @ent2 artist @ent5 painted in @ent3 in @ent10 , @ent9 .
+school colors–university of @entity3 - traditions while not an original color of the school , @entity2 was suggested to honor a @entity4 graduate who donated money for an athletic field at the school .
 
-@ent4 painters : he painted his @ent11 major work , " @ent7 " , in @ent8 while living with his parents in @ent10
+@entity1 : this ivy league university has been turning out its " @entity2 " newspaper since @entity5
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Van Gogh
-@ent2:Dutch
-@ent3:April 1885
-@ent4:DUTCH & FLEMISH
-@ent5:Vincent van Gogh
-@ent6:The Potato Eaters (
-@ent7:The Potato Eaters
-@ent8:1885
-@ent9:Netherlands
-@ent10:Nuenen
-@ent11:first
+@entity0:
+@entity1:COLLEGES & UNIVERSITIES
+@entity2:Crimson
+@entity3:Kansas
+@entity4:Harvard
+@entity5:1873

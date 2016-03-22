@@ -1,19 +1,13 @@
-11
+5
 
-@ent10 ( born @ent8 , @ent5 – @ent4 ) was an @ent7 author , best known for her controversial novel @ent3 , which stayed on @ent6 bestseller list for @ent2 .
+  @entity4 was for a period of years in @entity3 the favorite ski resort of @entity2 .
 
-original titles : @ent10 @ent9 titled this book " @ent1 " , but her publisher changed the title to its locale
+let 's visit austria : preferring to go where the rain turns to snow , he wintered in @entity4 while writing " @entity1 "
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:The Tree and the Blossom
-@ent2:59 weeks
-@ent3:Peyton Place
-@ent4:February 25, 1964
-@ent5:September 8, 1924
-@ent6:The New York Times
-@ent7:American
-@ent8:Marie Grace DeRepentigny
-@ent9:first
-@ent10:Grace Metalious
+@entity0:
+@entity1:The Sun Also Rises
+@entity2:Ernest Hemingway
+@entity3:the early 1920s
+@entity4:Schruns

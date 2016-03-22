@@ -1,14 +1,12 @@
-6
+4
 
-@ent2 is a city in @ent4 , site of @ent3 .
+he provided @entity3 name for both categories : @entity1 .
 
-in the doghouse : @ent5 at this capital 's @ent2 airport will not only take your terrier but will also house your hamster
+painted ladies : this painting by @entity1 depicts his neighbor crawling through the grass toward her farmhouse
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Tokyo
-@ent2:Narita
-@ent3:the Narita International Airport
-@ent4:Japan
-@ent5:The Petinn Royal
+@entity0:
+@entity1:Andrew Wyeth
+@entity2:Christina's World
+@entity3:one

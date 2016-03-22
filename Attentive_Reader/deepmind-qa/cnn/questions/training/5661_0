@@ -1,15 +1,16 @@
-7
+8
 
-  @ent4 @ent2 – @ent1 informs the @ent3 viceroy of @ent5 that civil disobedience will begin the following week .
+@entity7   can refer to :   people   @entity7 tribe , @entity5 tribe   places   @entity2   @entity7 , @entity4 , largest city in the @entity3 with that name ; named after @entity7 , @entity1 .
 
-river crossings : crossing the sabarmati river was part of this leader 's @ent6 protest march to the sea
+@entity6 : this language spoken by the @entity7 tribe shares its name with a state
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Mahatma Gandhi
-@ent2:March 2
-@ent3:British
-@ent4:March   
-@ent5:India
-@ent6:1930
+@entity0:
+@entity1:Illinois
+@entity2:United States
+@entity3:U.S.
+@entity4:Arizona
+@entity5:Native American
+@entity6:NATIVE AMERICAN LANGUAGE
+@entity7:Peoria

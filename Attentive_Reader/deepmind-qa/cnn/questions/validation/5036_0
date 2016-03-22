@@ -1,18 +1,16 @@
-10
+8
 
-@ent4 is a @ent5 novel first published by @ent1 and @ent6 in @ent3 .
+the section of the park within @entity4 borders is @entity5 times the size of @entity6 's @entity3 .
 
-contemporary novelists : @ent7 's @ent9 wrote " @ent2 " & this @ent8 woman wrote " @ent4 "
+all around new york : while @entity2 in the @entity7 is @entity1 's largest park , this 840-acre one in @entity6 is more famous
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:McClelland
-@ent2:The Robber Bridegroom
-@ent3:1993
-@ent4:The Robber Bride
-@ent5:Margaret Atwood
-@ent6:Stewart
-@ent7:America
-@ent8:Canadian
-@ent9:Eudora Welty
+@entity0:
+@entity1:NYC
+@entity2:Pelham Bay Park
+@entity3:Central Park
+@entity4:New York City's
+@entity5:more than three
+@entity6:Manhattan
+@entity7:Bronx

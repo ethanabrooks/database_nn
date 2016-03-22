@@ -1,16 +1,18 @@
-8
+10
 
-  @ent3 , located on the grounds of the drottningholm palace park , is a @ent1 - inspired royal pavilion built in 1763–1770   the gardens the gardens and park areas surrounding the castle and its buildings are one of the main attractions for the tourists that visit the palace each year .
+@entity4   @entity5 is the son of @entity7 journalist @entity8 and @entity9 , and is of @entity3 descent .
 
-@ent7 : this country 's @ent6 , seen here , lives in @ent2 just outside of @ent4
+countries of the world : @entity2 is the current president of this @entity6 nation
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Chinese
-@ent2:Drottningholm Palace
-@ent3:The Chinese Pavilion  The Chinese Pavilion
-@ent4:Stockholm
-@ent5:Sweden
-@ent6:Queen Silvia
-@ent7:QUEENS
+@entity0:
+@entity1:Honduras
+@entity2:Carlos Roberto Flores
+@entity3:Palestinian
+@entity4:  Background
+@entity5:Flores Facussé
+@entity6:Central American
+@entity7:Honduran
+@entity8:Oscar Flores Midence
+@entity9:Margarita Facussé de Flores

@@ -1,12 +1,16 @@
-4
+8
 
-@ent3 ( ) ( born @ent2 ) , nicknamed " @ent1 " because of his curly red hair , founded the copy - chain @ent1 's .
+she was the sister of   @entity4 , @entity3 abolitionist and writer most famous for her groundbreaking novel @entity6 cabin , and of clergymen @entity7 and @entity1 .
 
-business & industry : the name of this photocopy store chain refers to the curly hair of its founder @ent3
+@entity2 ' relatives : @entity1 , a promoter of higher education for women , was the sister of this famous author
 
-@ent1 's
+@entity4
 
-@ent0:
-@ent1:Kinko
-@ent2:November 28, 1947
-@ent3:Paul Orfalea
+@entity0:
+@entity1:Catharine Beecher
+@entity2:WRITERS
+@entity3:the 19th century
+@entity4:Harriet Beecher Stowe
+@entity5:Charles Beecher
+@entity6:Uncle Tom's
+@entity7:Henry Ward Beecher

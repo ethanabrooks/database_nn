@@ -1,17 +1,15 @@
-9
+7
 
-after making @ent3 thackeray ’s epic @ent2 ( @ent6 ) , she directed a film based on jhumpa lahiri ’s best - selling novel @ent8 .
+@entity3   is a novel by @entity4 , first published on @entity5 .
 
-women directing women : @ent4 had " @ent5 " before directing @ent1 in this @ent7 film
+@entity6 @entity2 's " @entity1 " was his next novel after " @entity3 "
 
-@ent2
+@entity4
 
-@ent0:
-@ent1:Reese Witherspoon
-@ent2:Vanity Fair
-@ent3:William Makepeace
-@ent4:Mira Nair
-@ent5:Hysterical Blindness
-@ent6:2004
-@ent7:Thackeray
-@ent8:The Namesake(2006)
+@entity0:
+@entity1:The Adventures of Captain Singleton
+@entity2:1720
+@entity3:Robinson Crusoe
+@entity4:Daniel Defoe
+@entity5:25 April 1719
+@entity6:18th CENTURY LITERATURE:

@@ -1,16 +1,19 @@
-8
+11
 
-a change of pace about misfits on a @ent5 baseball team turned - out to be a solid hit when @ent1 starred as coach @ent7 in the comedy @ent6 @ent3 ( @ent4 ) .
+  the film 's stars are @entity5 and @entity3 : @entity10 , @entity1 , @entity4 , @entity2 , @entity6 and @entity8 .
 
-walter matthau : @ent2 coached a ragtag @ent5 team with a girl pitcher in this @ent4 film
+famous couples : when this @entity3 actress starred in " @entity9 " , she was married to its screenwriter , @entity7
 
-@ent6 @ent3
+@entity1
 
-@ent0:
-@ent1:Matthau
-@ent2:Walter Matthau
-@ent3:News Bears
-@ent4:1976
-@ent5:Little League
-@ent6:The Bad
-@ent7:Morris Buttermaker
+@entity0:
+@entity1:Sarah Miles
+@entity2:Christopher Jones
+@entity3:British
+@entity4:John Mills
+@entity5:American
+@entity6:Trevor Howard
+@entity7:Robert Bolt
+@entity8:Leo McKern
+@entity9:Ryan's Daughter
+@entity10:Robert Mitchum

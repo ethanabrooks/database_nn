@@ -1,17 +1,13 @@
-9
+5
 
-@ent6 , @ent5 chess master @ent6 , @ent5 scientist @ent6 , @ent5 author , husband of writer @ent2 and father of actress @ent1 .
+she was portrayed by @entity3 .
 
-it ain't me , babe : i played the simply named @ent3 , but i was born with the last name @ent4
+the emmys : @entity1 best supporting comedy actress winner for playing @entity4 on " @entity2 "
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:Winona Ryder
-@ent2:Cynthia Palmer
-@ent3:Jo March
-@ent4:Horowitz
-@ent5:American
-@ent6:Israel Horowitz
-@ent7:Jerome Horowitz
-@ent8:Michael Horowitz
+@entity0:
+@entity1:1974
+@entity2:The Mary Tyler Moore Show
+@entity3:Cloris Leachman
+@entity4:Phyllis Lindstrom

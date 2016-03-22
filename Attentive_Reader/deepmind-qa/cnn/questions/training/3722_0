@@ -1,18 +1,15 @@
-10
+7
 
-   @ent1 has come is the @ent7 @ent5 - language studio album by @ent8 singer @ent3 , released by @ent6 on @ent9 .
+trading places is a @entity2 @entity4 comedy film directed by @entity5 , starring @entity1 and @entity3 .
 
-21st century music : @ent4 after her " @ent2 " cd was released , it was certified multi - platinum
+eddie murphy movies : he played the man with whom @entity3 traded places in " @entity6 "
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:A New Day
-@ent2:A New Day has Come
-@ent3:Celine Dion
-@ent4:Just one month
-@ent5:English
-@ent6:Sony Music Entertainment
-@ent7:seventh
-@ent8:Canadian
-@ent9:March 22, 2002
+@entity0:
+@entity1:Dan Aykroyd
+@entity2:1983
+@entity3:Eddie Murphy
+@entity4:American
+@entity5:John Landis
+@entity6:Trading Places

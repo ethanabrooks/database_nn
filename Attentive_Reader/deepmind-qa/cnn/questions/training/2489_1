@@ -1,16 +1,28 @@
-8
+20
 
-@ent4 shareholders received @ent3 share of @ent4 for each @ent1 shares of @ent4 .
+  @entity7 : all - girls school located in @entity8 , @entity11 ( @entity2 , @entity13 ) , listed on the @entity19 in @entity11 ( @entity9 , @entity13 ) , listed on the @entity19 in @entity13 @entity12 : @entity5 college preparatory school in @entity15 , @entity1 loretto school : a well - known @entity6 private / independent school @entity3 : catholic elementary and secondary all - girls school in @entity14 , @entity16 , coleraine : @entity5 grammar school in @entity10 , kolkata
 
-@ent2 : here 's some current info : @ent4 , headquartered in this state , brings electric power to @ent5 people
+have a whiskey : the maker 's mark bourbon distillery in @entity18 in this state is a national historic landmark
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:2
-@ent2:THE ELECTRIC COMPANY
-@ent3:1
-@ent4:Duke Energy
-@ent5:4 million
-@ent6:North Carolina
-@ent7:Spectra Energy
+@entity0:
+@entity1:California
+@entity2:Kansas City
+@entity3:Teikyo Loretto Heights University
+@entity4:Kentucky
+@entity5:Catholic
+@entity6:Scottish
+@entity7:Loretto Abbey Catholic High School
+@entity8:Toronto
+@entity9:St. Louis
+@entity10:Northern Ireland Loreto Schools
+@entity11:Ontario Loretto Academy
+@entity12:Loretto High School
+@entity13:Missouri
+@entity14:Denver
+@entity15:Sacramento
+@entity16:Colorado Loreto College
+@entity17:Missouri Loretto Academy
+@entity18:Loretto
+@entity19:NRHP

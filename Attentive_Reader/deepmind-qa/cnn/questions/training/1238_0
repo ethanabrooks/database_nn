@@ -1,17 +1,16 @@
-9
+8
 
-nevertheless , @ent5 's candidate @ent7 did win the vote for prime minister in @ent8 and was given the task of forming a government after the @ent8 elections .
+a painted house is a @entity4 novel by @entity5 author @entity1 .
 
-@ent3 : @ent2 & this @ent5 leader signed a @ent6 accord on @ent4 troop withdrawal from most of the city of @ent1
+bestsellers : his " @entity3 " & " @entity2 " were among the top @entity6 bestselling books of @entity7
 
-@ent7
+@entity1
 
-@ent0:
-@ent1:Hebron
-@ent2:Arafat
-@ent3:YASIR
-@ent4:Israeli
-@ent5:Likud
-@ent6:1997
-@ent7:Benjamin Netanyahu
-@ent8:1996
+@entity0:
+@entity1:John Grisham
+@entity2:A Painted House
+@entity3:Skipping Christmas
+@entity4:February 2001
+@entity5:American
+@entity6:10
+@entity7:2001

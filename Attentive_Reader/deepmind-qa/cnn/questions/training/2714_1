@@ -1,13 +1,15 @@
-5
+7
 
-  @ent3 , @ent2 , is founded .
+  the island was @entity4 used as a whaling base in the 17th and @entity3 , after which it was abandoned .
 
-early man : homo erectus reached this island between 1 & 2 million b.c. ; homo dutch traderensis , in @ent1 a.d.
+way up north : in this country @entity1 people live in @entity6 fewer than 5,000 live way up north on the island of @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1596
-@ent2:Cambridge
-@ent3:Sidney Sussex College
-@ent4:Java
+@entity0:
+@entity1:200,000
+@entity2:Norway
+@entity3:18th centuries
+@entity4:first
+@entity5:Spitsbergen
+@entity6:Bergen &

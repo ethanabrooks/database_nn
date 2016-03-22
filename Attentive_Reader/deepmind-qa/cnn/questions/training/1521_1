@@ -1,21 +1,13 @@
-13
+5
 
-@ent6 won the @ent3 @ent11 primary with @ent12 of the vote , defeating @ent7 opponents http://www.ourcampaigns.com/racedetail.html?raceid=47027   in the general election , he faced @ent1 @ent4 in the @ent8 general election .
+officially , she ruled jointly with @entity1 who had ascended to the throne as a child @entity2 .
 
-run : before his @ent10 run to be governor of this state , @ent2 represented its @ent9 district , which includes coeur d'alene
+literature : " child of the morning " is the story of @entity4 , a woman who ruled this country as a pharaoh
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Democrat
-@ent2:Butch Otter
-@ent3:May
-@ent4:Jerry Brady
-@ent5:Idaho
-@ent6:Otter
-@ent7:three
-@ent8:November 7
-@ent9:First
-@ent10:2006
-@ent11:Republican
-@ent12:70%
+@entity0:
+@entity1:Thutmose III
+@entity2:one year earlier
+@entity3:Egypt
+@entity4:Hatshepsut

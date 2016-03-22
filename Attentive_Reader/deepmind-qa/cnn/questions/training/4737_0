@@ -1,16 +1,15 @@
-8
+7
 
-@ent1 acquired @ent2 's personal computer business in @ent7 and agreed to acquire its @ent6 - based server business in @ent5 .
+@entity4 ) winter trees is a @entity6 posthumous collection of poetry by @entity3 , published by her husband @entity2 .
 
-all things chinese : @ent3 company @ent1 now markets the @ent4 , having bought this co. 's personal computing division
+poets & poetry : " crossing the water " & " @entity1 " are @entity5 posthumous collections by this " bell jar " author
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Lenovo
-@ent2:IBM
-@ent3:Chinese
-@ent4:Thinkpad
-@ent5:2014
-@ent6:Intel
-@ent7:2005
+@entity0:
+@entity1:Winter Trees
+@entity2:Ted Hughes
+@entity3:Sylvia Plath
+@entity4:Faber & Faber
+@entity5:2
+@entity6:1971

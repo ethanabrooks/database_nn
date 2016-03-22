@@ -1,14 +1,16 @@
-6
+8
 
-various artists   –
+@entity1 , mj ( @entity3 ) . " interview with @entity5 " http://www.mjsimpson.co.uk/interviews/rogercorman.html .
 
-r.e.m. : the lineup @ent2 : guitarist @ent4 , bassist @ent3 , drummer @ent5 & this singer
+special effects : this former art director for @entity5 directed the @entity6 - heavy hits " @entity7 " & " @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Michael Stipe
-@ent2:1980-1997
-@ent3:Mike Mills
-@ent4:Peter Buck
-@ent5:Bill Berry
+@entity0:
+@entity1:Simpson
+@entity2:James Cameron
+@entity3:September 23, 1995
+@entity4:The Abyss"
+@entity5:Roger Corman
+@entity6:FX
+@entity7:True Lies

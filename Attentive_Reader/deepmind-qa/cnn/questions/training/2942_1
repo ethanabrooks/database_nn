@@ -1,14 +1,14 @@
 6
 
-all settlements have ports and @ent4 has a bus system .
+  see also     catoctin mountain   catoctin trail   camp misty @entity5 and @entity1   references    @entity4 : index 2001 - 2003 .
 
-way up north : in this country @ent2 people live in @ent1 fewer than 5,000 live way up north on the island of @ent3
+parks : camp david , the presidential mountain retreat , is in @entity2 , in this state
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bergen &
-@ent2:200,000
-@ent3:Spitsbergen
-@ent4:Longyearbyen
-@ent5:Norway
+@entity0:
+@entity1:Camp Greentop Historic District
+@entity2:Catoctin Mountain Park
+@entity3:Maryland
+@entity4:The National Parks
+@entity5:Mount Historic District

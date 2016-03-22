@@ -1,18 +1,15 @@
-10
+7
 
-  death @ent2 died on @ent6 in @ent4 in @ent3 after suffering from bowel cancer , aged @ent8 .
+  @entity4 is " one of the largest , most diverse , and organizationally complex bases in @entity5 " with a long history of flight tests spanning from @entity6 into @entity3 .
 
-the jimmy : lightning rod @ent1 politician @ent9 is a member of the @ent5 parliament for this political party
+ohio : the largest single employer of this city associated with aviation is @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Scottish
-@ent2:Wray
-@ent3:Renfrewshire
-@ent4:Mearnskirk Home Hospital
-@ent5:British
-@ent6:25 May 2013
-@ent7:Labour
-@ent8:78
-@ent9:Jimmy Wray
+@entity0:
+@entity1:Dayton
+@entity2:Wright-Patterson Air Force Base
+@entity3:the Space Age
+@entity4:Overview Wright-Patterson AFB
+@entity5:the Air Force
+@entity6:the Wright Brothers

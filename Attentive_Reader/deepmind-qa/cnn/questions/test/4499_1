@@ -1,14 +1,12 @@
-6
+4
 
-@ent1 there are @ent5 very widely known quotations in the play ; from the opening to the play : music has charms to soothe a savage breast,from text at .
+the title character , lt . col .
 
-dramatists : his @ent2 tragedy " @ent3 " contains the well - known line " music has charms to soothe a savage breast "
+contemporary novelists : " @entity1 " was the @entity3 novel by this " prince of tides " author
 
-@ent0
+@entity0
 
-@ent0:
-@ent1: Quotations
-@ent2:1697
-@ent3:The Mourning Bride
-@ent4:William Congreve
-@ent5:two
+@entity0:
+@entity1:The Great Santini
+@entity2:Pat Conroy
+@entity3:first

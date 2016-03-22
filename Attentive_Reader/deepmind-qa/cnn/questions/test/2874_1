@@ -1,20 +1,11 @@
-12
+3
 
-@ent2 , @ent7 actor and potter   @ent8   @ent4 , @ent5 author and editor ( d. 1992 ) @ent9 , @ent7 radio personality ( d. @ent10 )
+  toxicity large amounts of holmium salts can cause severe damage if inhaled , consumed orally , or injected .
 
-literary classics : the home @ent11 went back to in the @ent6 novel " @ent1 " was in this country
+element names : @entity1 was named for this city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Lassie Come Home
-@ent2:Lance Henriksen
-@ent3:England
-@ent4:Angela Carter
-@ent5:English
-@ent6:1940
-@ent7:American
-@ent8:May 7
-@ent9:Jim Connors
-@ent10:1987
-@ent11:Lassie
+@entity0:
+@entity1:Holmium
+@entity2:Stockholm

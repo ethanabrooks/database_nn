@@ -1,14 +1,16 @@
-6
+8
 
-feeling that a relationship with @ent2 is unlikely , @ent4 begins dating sandee ( @ent5 ) , a ditzy wannabe spokesmodel whom he meets at a clothing store .
+@entity3 ( born @entity2 ) served as mayor of @entity5 , @entity7 ( @entity4 ) from @entity6 .
 
-tv & movie actors : she found out about " @ent3 " in " @ent1 " & " honeymoon in vegas "
+you're the mayor : the most populous @entity4 city with an elected female mayor is this @entity1 - largest @entity7 city , with @entity3
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:L.A. Story
-@ent2:Sara
-@ent3:Sex And The City
-@ent4:Harris
-@ent5:Sarah Jessica Parker
+@entity0:
+@entity1:2nd
+@entity2:November 18, 1958
+@entity3:Laura Miller
+@entity4:U.S.
+@entity5:Dallas
+@entity6:2002 through 2007
+@entity7:Texas

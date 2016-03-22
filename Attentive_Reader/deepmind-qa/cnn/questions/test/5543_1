@@ -1,12 +1,20 @@
-4
+12
 
-in an attempt to eliminate this , he uses a risky experiment to extract @ent3 's dna from his system .
+  other television @entity1 appeared in " @entity5 " , a @entity9 episode of @entity10 .
 
-the roles of a lifetime : papa klump,mama klump,ernie klump,prof . @ent2
+it happens every year : in @entity11 @entity4 , @entity3 ' @entity7 @entity6 celebration will unveil a statue of actress @entity8 as this character
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Eddie Murphy
-@ent2:Sherman Klump
-@ent3:Buddy
+@entity0:
+@entity1:Neill
+@entity2:Lois Lane
+@entity3:Illinois
+@entity4:Metropolis
+@entity5:Letter of the Law
+@entity6:Superman
+@entity7:annual
+@entity8:Noel Neill
+@entity9:1951
+@entity10:The Lone Ranger
+@entity11:2007

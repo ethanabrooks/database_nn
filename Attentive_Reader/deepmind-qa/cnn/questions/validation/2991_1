@@ -1,16 +1,18 @@
-8
+10
 
-  @ent5 – raphael , @ent1 painter and architect ( b. @ent6 ) @ent4 –
+  @entity1 and @entity4 one of the most popular events of @entity3 is the seafair cup , which is an @entity5 unlimited hydroplane racing circuit stop at @entity9 on lake washington in the mount @entity7 neighborhood .
 
-16th century names : in his @ent7 " address to the christian nobility of the @ent3 nation " , he called for church reform
+@entity8 state : hydroplane races & water carnivals highlight @entity3 , held annually on @entity2 near this largest wash. city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Italian
-@ent2:Martin Luther
-@ent3:German
-@ent4: May 22
-@ent5:April 6
-@ent6:1483
-@ent7:1520
+@entity0:
+@entity1:The Seafair Cup
+@entity2:Lake Washington
+@entity3:Seafair
+@entity4:the Blue Angels
+@entity5:American Boat Racing Association
+@entity6:Seattle
+@entity7:Baker
+@entity8:WASHINGTON
+@entity9:Stan Sayres Pits

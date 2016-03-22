@@ -1,15 +1,18 @@
-7
+10
 
-@ent2 performed the song live on the mtv movie awards .
+in @entity1 , @entity8 becomes acquainted with @entity9 , a woman from his home country , and despite being from different ethnic groups who despise each other , @entity8 falls in love with @entity5 and they eventually get married ( although in @entity1 , @entity8 marries an @entity4 prostitute strictly to avoid being deported back to his home country ) .
 
-the cinema : [ hi , i 'm @ent5 ] my debut single " you 're invited but your @ent1 ca n't come " , appeared in this @ent4 @ent6 comedy
+r.e.m. : the song " @entity2 " is a tribute to this late comedian , tv 's @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Friend
-@ent2:Neil
-@ent3:Encino
-@ent4:1992
-@ent5:Vince Neil
-@ent6:Brendan Fraser-Pauly Shore
+@entity0:
+@entity1:the second season
+@entity2:Man on the Moon
+@entity3:the first season
+@entity4:American
+@entity5:Simka
+@entity6:Andy Kaufman
+@entity7:Latka Gravas
+@entity8:Latka
+@entity9:Simka Dahblitz

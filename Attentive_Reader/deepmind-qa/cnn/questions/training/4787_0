@@ -1,14 +1,14 @@
 6
 
-after the accession of @ent1 , he was imprisoned in the tower of @ent2 and executed @ent4 on a treason charge .
+she is married to actor @entity5 .
 
-but you can never leave : this fortress was the last address of @ent5 , sir thomas more & the 11th lord lovat , @ent3
+@entity1 : in @entity2 he married model @entity3 , the mother of his infant daughter @entity4
 
-the tower of @ent2
+@entity5
 
-@ent0:
-@ent1:Henry VIII
-@ent2:London
-@ent3:Simon Fraser
-@ent4:the next year
-@ent5:Edmund Dudley
+@entity0:
+@entity1:ACTORS & ACTRESSES
+@entity2:1997
+@entity3:Jennifer Flavin
+@entity4:Sophia
+@entity5:Sylvester Stallone

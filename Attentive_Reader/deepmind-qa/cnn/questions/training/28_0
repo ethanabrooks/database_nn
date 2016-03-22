@@ -1,18 +1,18 @@
 10
 
-to @ent3 , @ent1 , @ent5 , letters , vol.1 , p.379 she drew maps to help the @ent4 army reach @ent6 safely .
+to @entity5 , @entity7 , @entity3 , letters , vol.1 , p.379 she drew maps to help the @entity4 army reach @entity2 safely .
 
-adventurous women : around @ent9 archaeologist @ent7 excavated many of the ruins of @ent2 & later began this city 's @ent8 . museum
+adventurous women : around @entity9 archaeologist @entity1 excavated many of the ruins of @entity6 & later began this city 's @entity8 . museum
 
-@ent6
+@entity2
 
-@ent0:
-@ent1:Basrah
-@ent2:Iraq
-@ent3:Herbert Baker
-@ent4:British
-@ent5:June 25th 1916
-@ent6:Baghdad
-@ent7:Gertrude Bell
-@ent8:Natl
-@ent9:1901
+@entity0:
+@entity1:Gertrude Bell
+@entity2:Baghdad
+@entity3:June 25th 1916
+@entity4:British
+@entity5:Herbert Baker
+@entity6:Iraq
+@entity7:Basrah
+@entity8:Natl
+@entity9:1901

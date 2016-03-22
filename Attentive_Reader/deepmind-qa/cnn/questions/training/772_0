@@ -1,16 +1,18 @@
-8
+10
 
-  @ent2 is the northernmost point of mainland @ent6 at   and is @ent1   km ( @ent5   nm / 442 miles ) from the geographic @ent3 .
+@entity1 , actress/fashion model ( fun with @entity3 and jane , law & order ) @entity8 , singer/actress ( party of @entity6 , @entity2 , @entity5 ) @entity4 , singer/actress ( high school musical , bandslam ) miranda cosgrove,(february 11 , 2010 . )
 
-geography : this island 's @ent2 is @ent4 from @ent7
+stars in music videos : @entity9 's " girl on tv " is this girl who has the time of her life in @entity7 ads
 
-@ent6
+@entity8
 
-@ent0:
-@ent1:711.8
-@ent2:Cape Morris Jesup
-@ent3:North Pole
-@ent4:about 500 miles
-@ent5:384
-@ent6:Greenland
-@ent7:the North Pole
+@entity0:
+@entity1:Angie Harmon
+@entity2:Time of Your Life
+@entity3:Dick
+@entity4:Vanessa Hudgens
+@entity5:Ghost Whisperer
+@entity6:Five
+@entity7:Neutrogena
+@entity8:Jennifer Love Hewitt
+@entity9:LFO

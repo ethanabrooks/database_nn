@@ -1,15 +1,20 @@
-7
+12
 
-@ent5 of his collaborators was @ent6 , who was fired because of his alcoholic binge during a visit with @ent4 to @ent1 .
+  early life @entity7 , the @entity5 of @entity1 children , was born in @entity2 , @entity11 , the daughter of @entity6 and his wife @entity10 ( née @entity4 ) .
 
-@ent3 : @ent2 based the alcoholic central character of " the disenchanted " on this " gatsby " author
+international actresses : @entity8 was born in @entity2 -- not in @entity3 , but in this @entity9 province
 
-@ent6
+@entity11
 
-@ent0:
-@ent1:Dartmouth
-@ent2:Budd Schulberg
-@ent3:AUTHORS & THEIR WORKS
-@ent4:Schulberg
-@ent5:One
-@ent6:F. Scott Fitzgerald
+@entity0:
+@entity1:six
+@entity2:London
+@entity3:England
+@entity4:Deir
+@entity5:fourth
+@entity6:Patrick Joseph Nelligan
+@entity7:Nelligan
+@entity8:Kate Nelligan
+@entity9:Canadian
+@entity10:Josephine Alice
+@entity11:Ontario

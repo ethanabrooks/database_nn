@@ -1,15 +1,13 @@
-7
+5
 
-it stars @ent6 , @ent5 , @ent1 , and @ent2 , and features @ent3 in a recurring role .
+the history of @entity3 is a historical novel by @entity4 , originally published in @entity2 .
 
-tv title role playing : " @ent4 "
+english literature : some consider this author 's " @entity1 " his greatest work , not " vanity fair "
 
-@ent6
+@entity4
 
-@ent0:
-@ent1:Matt Czuchry
-@ent2:Alan Cumming
-@ent3:Chris Noth
-@ent4:The Good Wife
-@ent5:Christine Baranski
-@ent6:Julianna Margulies
+@entity0:
+@entity1:The History of Henry Esmond
+@entity2:1852
+@entity3:Henry Esmond
+@entity4:William Makepeace Thackeray

@@ -1,17 +1,11 @@
-9
+3
 
-  in literature   @ent6 studies   @ent1 , @ent8 : a life on the north american frontier ( @ent4 ) @ent2 , @ent5 pp .
+  gainsborough had already drawn something on the canvas before beginning @entity2 , which he painted over .
 
-state capitals : this city was laid out in @ent3 on property once owned by @ent8
+art : this englishman painted a " girl with pigs " as well as " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Albert L. Hurtado
-@ent2:University of Oklahoma Press
-@ent3:the late 1840s
-@ent4:2006
-@ent5:416
-@ent6:Scholarly
-@ent7:Sacramento
-@ent8:John Sutter
+@entity0:
+@entity1:Thomas Gainsborough
+@entity2:The Blue Boy

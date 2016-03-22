@@ -1,16 +1,15 @@
-8
+7
 
-@ent5 ( play ) ( grove press , inc. @ent2 )   @ent1 , @ent4 .
+@entity5 ) .
 
-movie biographies : he was nominated for a @ent7 oscar for playing @ent3
+rabbit stew : he munched his @entity2 carrot in the @entity6 @entity1 cartoon " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bruce
-@ent2:1971
-@ent3:Lenny Bruce
-@ent4:Honey
-@ent5:Lenny
-@ent6:Dustin Hoffman
-@ent7:1974
+@entity0:
+@entity1:Tex Avery
+@entity2:first
+@entity3:A Wild Hare
+@entity4:Bugs Bunny
+@entity5:May 7, 1940
+@entity6:1940

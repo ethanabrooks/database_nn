@@ -1,14 +1,14 @@
 6
 
-@ent1 is a fictional character from the sketch comedy program @ent3 @ent5 .
+@entity1 is a fictional character from the sketch comedy program @entity2 @entity3 .
 
-@ent4 : he bellowed , " my name is @ent1 , i 'm @ent2 , divorced , and i live in a van down by the river ! "
+@entity4 : he bellowed , " my name is @entity1 , i 'm @entity5 , divorced , and i live in a van down by the river ! "
 
-@ent5
+@entity3
 
-@ent0:
-@ent1:Matt Foley
-@ent2:35
-@ent3:Saturday Night Live performed by
-@ent4:SATURDAY NIGHT LIVE
-@ent5:Chris Farley
+@entity0:
+@entity1:Matt Foley
+@entity2:Saturday Night Live performed by
+@entity3:Chris Farley
+@entity4:SATURDAY NIGHT LIVE
+@entity5:35

@@ -1,17 +1,13 @@
-9
+5
 
-in @ent2 , @ent6 separated from his then wife , @ent4 , and @ent3 and @ent6 started living together shortly afterwards .
+@entity3 : the last spring .
 
-@ent8 singers : in @ent5 he married his backup vocalist @ent1
+world art : " @entity2 " is a work by @entity3 , a landscapist in this country 's @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Patti Scialfa
-@ent2:the spring of 1987
-@ent3:Scialfa
-@ent4:Julianne Phillips
-@ent5:1991
-@ent6:Springsteen
-@ent7:Bruce Springsteen
-@ent8:HUSBAND & WIFE
+@entity0:
+@entity1:Algonquin Park
+@entity2:Spring Ice
+@entity3:Tom Thomson
+@entity4:Canada

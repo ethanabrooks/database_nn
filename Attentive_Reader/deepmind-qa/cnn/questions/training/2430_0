@@ -1,14 +1,12 @@
-6
+4
 
-their eponymous ancestor is @ent5 ibn @ent4 , great - grandfather of the @ent3 prophet , @ent1 .
+he is best known for his writings on @entity2 .
 
-world religion : by definition , the @ent2 are either direct or collateral descendants of this prophet
+the library of america : @entity3 & @entity1 are represented in a collection of reportage of this event
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Muhammad
-@ent2:Hashemites
-@ent3:Islamic
-@ent4:Abd Manaf
-@ent5:Hashim
+@entity0:
+@entity1:Stanley Karnow
+@entity2:the Vietnam War
+@entity3:David Halberstam

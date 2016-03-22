@@ -1,13 +1,15 @@
-5
+7
 
-isbn 0520221540 .
+   see also    haven ( disambiguation )   new haven ( disambiguation )   @entity1 ( disambiguation )   @entity1 ( disambiguation )   @entity1 ( disambiguation )
 
-art : this @ent3 artist painted a unique triple portrait of @ent2 's king charles i around @ent1
+streetcar : rent a streetcar for your birthday party at @entity4 in this state 's @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1637
-@ent2:England
-@ent3:Flemish
-@ent4:Anthony van Dyck
+@entity0:
+@entity1:West Haven
+@entity2:North Haven
+@entity3:East Haven
+@entity4:the Shore Line Trolley Museum
+@entity5:South Haven
+@entity6:Connecticut

@@ -1,14 +1,15 @@
-6
+7
 
-  @ent1 made his film debut in @ent5 's @ent4 , directed by and also starring @ent3 .
+@entity5 ) is a university located in the @entity4 section of @entity3 , @entity6 .
 
-intelligent films : @ent1 plays the young title intellectual & @ent3 his mother in this @ent5 film
+countries by college : @entity1 for computer science,braunschweig tech,the @entity2
 
-@ent4
+@entity6
 
-@ent0:
-@ent1:Career Hann-Byrd
-@ent2:Adam Hann-Byrd
-@ent3:Jodie Foster
-@ent4:Little Man Tate
-@ent5:1991
+@entity0:
+@entity1:Max Planck Institute
+@entity2:University of Augsburg
+@entity3:Augsburg
+@entity4:Universitätsviertel
+@entity5:The University of Augsburg (
+@entity6:Germany

@@ -1,18 +1,19 @@
-10
+11
 
-  @ent2 was originally portrayed by @ent1 in the musical @ent3 ( @ent5 ) .
+  @entity7 was portrayed again by @entity4 in the tv movie @entity9 ( @entity10 ) , a sequel to @entity8 .
 
-" d " talks : @ent6 @ent4 head @ent9 helped engineer the killing of this man in @ent8
+" d " talks : @entity2 @entity1 head @entity6 helped engineer the killing of this man in @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Chuck Wagner
-@ent2:Purvis
-@ent3:Dillinger, Public Enemy Number One
-@ent4:FBI
-@ent5:2002
-@ent6:Chicago
-@ent7:John Dillinger
-@ent8:1934
-@ent9:Melvin Purvis
+@entity0:
+@entity1:FBI
+@entity2:Chicago
+@entity3:John Dillinger
+@entity4:Dale Robertson
+@entity5:1934
+@entity6:Melvin Purvis
+@entity7:Purvis
+@entity8:Melvin Purvis - G-Man
+@entity9:The Kansas City Massacre
+@entity10:1975

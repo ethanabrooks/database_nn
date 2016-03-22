@@ -1,15 +1,19 @@
-7
+11
 
-the prairie : a tale ( @ent6 ) is a novel by @ent1 , the @ent3 novel written by him featuring natty bumppo .
+" @entity4 " , @entity10 of the @entity6 short @entity7 stories written by the @entity5 author sir @entity8 , is the @entity9 of the @entity2 stories in @entity3 .
 
-fictional characters : @ent4 is a bee hunter who ends up as a congressman in his @ent5 novel " @ent2 "
+mystery ! : @entity1 played this consulting detective in programs like " @entity4 "
 
-@ent1
+@entity7
 
-@ent0:
-@ent1:James Fenimore Cooper
-@ent2:The Prairie
-@ent3:third
-@ent4:Paul Hover
-@ent5:1820s
-@ent6:1827
+@entity0:
+@entity1:Jeremy Brett
+@entity2:twelve
+@entity3:The Adventures of Sherlock Holmes
+@entity4:The Boscombe Valley Mystery
+@entity5:British
+@entity6:56
+@entity7:Sherlock Holmes
+@entity8:Arthur Conan Doyle
+@entity9:fourth
+@entity10:one

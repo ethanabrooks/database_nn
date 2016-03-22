@@ -1,18 +1,19 @@
-10
+11
 
-  @ent7 you ca n't take it with you ( won @ent4 ) ( @ent8 and @ent1 )
+  relationships @entity2 's closest friends are @entity3 , @entity9 , and @entity6 .
 
-@ent9 : he collaborated on his hit comedy " @ent2 " with @ent6 , not @ent5
+@entity4 emmy winners : @entity10 enjoys @entity1 as physicist @entity8 on this @entity5 sitcom ; he also enjoys his new emmy
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Hart
-@ent2:Beggar On Horseback
-@ent3:George S. Kaufman
-@ent4:a Pulitzer Prize
-@ent5:Moss Hart
-@ent6:Marc Connelly
-@ent7:1936
-@ent8:Kaufman
-@ent9:PLAYS & PLAYWRIGHTS
+@entity0:
+@entity1:Klingon Boggle
+@entity2:Sheldon
+@entity3:Leonard Hofstadter
+@entity4:2010
+@entity5:CBS
+@entity6:Raj Koothrappali
+@entity7:The Big Bang Theory
+@entity8:Sheldon Cooper
+@entity9:Howard Wolowitz
+@entity10:Jim Parsons

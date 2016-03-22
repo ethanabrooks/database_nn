@@ -1,14 +1,14 @@
 6
 
-" @ent5 " ( , meaning " the little girl with the matchsticks " ) is a short story by @ent1 poet and author @ent2 .
+   briand plan for @entity5 union   as foreign minister @entity4 formulated an original proposal for a new economic union of @entity3 .
 
-@ent4 ! : he wrote " @ent5 " & " @ent3 "
+the league of nations : on @entity2 @entity1 presented a plan to create a " united states of " this
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Danish
-@ent2:Hans Christian Andersen
-@ent3:The Ugly Duckling
-@ent4:HANS UP
-@ent5:The Little Match Girl
+@entity0:
+@entity1:Aristide Briand
+@entity2:September 5, 1929
+@entity3:Europe
+@entity4:Briand
+@entity5:European

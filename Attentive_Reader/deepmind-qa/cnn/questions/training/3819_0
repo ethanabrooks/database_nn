@@ -1,15 +1,16 @@
-7
+8
 
-@ent6 ) is a university located in the @ent4 section of @ent1 , @ent5 .
+  @entity6 made his big - screen acting debut in @entity1 's win a date with @entity2 ! and continued on to star in the thriller @entity7 ( @entity3 ) .
 
-countries by college : @ent2 for computer science,braunschweig tech,the @ent3
+@entity5 : @entity4 plays the title movie star : " win a date with ____ ____ ! "
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:Augsburg
-@ent2:Max Planck Institute
-@ent3:University of Augsburg
-@ent4:Universitätsviertel
-@ent5:Germany
-@ent6:The University of Augsburg (
+@entity0:
+@entity1:2004
+@entity2:Tad Hamilton
+@entity3:2006
+@entity4:Josh Duhamel
+@entity5:MOVIE NAMES
+@entity6:Duhamel
+@entity7:Turistas

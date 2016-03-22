@@ -1,15 +1,13 @@
-7
+5
 
-@ent2 ( born @ent3 )   is an @ent4 rock vocalist , songwriter , actor , author , and former radio personality .
+@entity2 is an off - @entity4 musical by @entity1 .
 
-your parents ' music : of @ent1 , @ent1 or @ent2 , the one who was the lead singer for @ent6
+who : " @entity2 " , an opera by this widow of @entity3 , is a love story ending in a murder
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Alex Van Halen
-@ent2:David Lee Roth
-@ent3:October 10, 1954
-@ent4:American
-@ent5:Eddie Van Halen
-@ent6:Van Halen
+@entity0:
+@entity1:Yoko Ono
+@entity2:New York Rock
+@entity3:John Lennon
+@entity4:Broadway

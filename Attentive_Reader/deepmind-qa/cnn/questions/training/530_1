@@ -1,16 +1,16 @@
 8
 
-@ent1 , open access journal founded in @ent6
+@entity2 , p. @entity6 .
 
-college hodgepodge : @ent5 is @ent2 for " high hill " , but @ent5 is n't in @ent3 ; it 's in this @ent4 state
+@entity5 : this @entity3 city is home to @entity7 revival mansion of beer baron capt . @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1: Bryn Mawr Classical Review
-@ent2:Welsh
-@ent3:Wales
-@ent4:U.S.
-@ent5:Bryn Mawr
-@ent6:1990
-@ent7:Pennsylvania
+@entity0:
+@entity1:Frederick Pabst
+@entity2:Eastberg
+@entity3:U.S.
+@entity4:Milwaukee
+@entity5:BETTER HOMES & GARDENS
+@entity6:3
+@entity7:the Flemish Renaissance

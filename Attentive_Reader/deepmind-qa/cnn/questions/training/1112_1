@@ -1,14 +1,18 @@
-6
+10
 
-a bridge , a pathway , a tree , a pasture : any and all elements are brought together to produce a particular effect .
+@entity5 operates alumni relations from the complex .
 
-architects : in @ent1 @ent2 submitted a plan for this , @ent5 's @ent4 great urban park
+architects : ( @entity1 of @entity7 delivers the clue from @entity8 , @entity3 . )   this american architect , born in @entity2 and known for his work in glass , designed @entity6 , made with @entity4 pieces of glass
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1858
-@ent2:Frederick Law Olmsted
-@ent3:Central Park
-@ent4:first
-@ent5:America
+@entity0:
+@entity1:Sarah
+@entity2:1906
+@entity3:Pennsylvania
+@entity4:20,000
+@entity5:Carnegie Mellon University
+@entity6:PPG Place
+@entity7:the Clue Crew
+@entity8:Pittsburgh
+@entity9:Philip Johnson

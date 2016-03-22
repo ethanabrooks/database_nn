@@ -1,12 +1,16 @@
-4
+8
 
-  @ent1 lives in @ent3 with his wife @ent1 , herself a well - known bestselling crime writer .
+@entity2 is married to @entity6 , @entity4 @entity1 chief anchor correspondent and former political adviser to the @entity3 administration .
 
-women authors : married to bestselling author @ent1 , she 's a bestselling author , too
+i'm getting married ! : @entity5 ( @entity7 )
 
-@ent1
+@entity6
 
-@ent0:
-@ent1:Faye Kellerman
-@ent2:Jonathan Kellerman
-@ent3:Los Angeles
+@entity0:
+@entity1:News
+@entity2:Wentworth
+@entity3:Clinton
+@entity4:ABC
+@entity5:Alexandra Wentworth
+@entity6:George Stephanopoulos
+@entity7:2001

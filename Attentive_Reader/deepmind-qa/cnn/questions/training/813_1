@@ -1,15 +1,13 @@
-7
+5
 
-isbn 0 - 7083-1386-8 .
+  much of the region is at risk from lahars , which have reached as far as the coast .
 
-maybe we'll invade britain ! : a @ent2 named @ent3 opposed this @ent1 's invasion in the @ent6 @ent5
+volcanoes : @entity4 in this country gets its name from a @entity1 word for " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Roman
-@ent2:Brit
-@ent3:Cassivellaunus
-@ent4:Julius Caesar
-@ent5:B.C.
-@ent6:50s
+@entity0:
+@entity1:Maori
+@entity2:New Zealand
+@entity3:Barren Mountain
+@entity4:Mount Taranaki

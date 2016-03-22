@@ -1,19 +1,14 @@
-11
+6
 
-@ent2 is a @ent8 @ent6 film , directed by @ent5 starring @ent7 , @ent1 , and @ent9 .
+" @entity2 " is a blues standard first recorded by @entity5 in @entity4 .
 
-@ent4 : @ent8 's " @ent2 " reteamed @ent3 with this " @ent10 " co - star
+singing the blues : credited with writing " @entity2 " , this " king of @entity1 " said the @entity3 taught him to play guitar
 
-@ent7
+@entity5
 
-@ent0:
-@ent1:Bette Davis
-@ent2:The Petrified Forest
-@ent3:Bette
-@ent4:BETTE DAVIS FILMS
-@ent5:Archie Mayo
-@ent6:American
-@ent7:Leslie Howard
-@ent8:1936
-@ent9:Humphrey Bogart
-@ent10:Of Human Bondage
+@entity0:
+@entity1:the Delta Blues
+@entity2:Sweet Home Chicago
+@entity3:Devil
+@entity4:1936
+@entity5:Robert Johnson

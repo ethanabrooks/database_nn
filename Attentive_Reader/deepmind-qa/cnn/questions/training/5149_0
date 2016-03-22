@@ -1,15 +1,21 @@
-7
+13
 
-  notable alumni @ent1 , author @ent2 references   the school appears in the @ent1 novel 11/22/63 as the school at which the main character , @ent5 , is a teacher .
+@entity8 started out as @entity10 , and was also understudy for @entity11 ( one of the lead roles ) and @entity5 .
 
-authors : while attending @ent3 in @ent6 , this horror author published a newspaper , @ent4
+broadway : ( @entity1 of @entity7 reports from @entity2 . )   in " @entity4 , " @entity6 played this man on film ; @entity9 and @entity3 have played him here on @entity12
 
-@ent1
+@entity11
 
-@ent0:
-@ent1:Stephen King
-@ent2:  Cultural
-@ent3:Lisbon Falls High School
-@ent4:The Village Vomit
-@ent5:Jake Epping
-@ent6:Maine
+@entity0:
+@entity1:Jimmy
+@entity2:the St. James Theatre
+@entity3:Brad Oscar
+@entity4:The Producers
+@entity5:Roger De Bris
+@entity6:Zero Mostel
+@entity7:the Clue Crew
+@entity8:Oscar
+@entity9:Nathan Lane
+@entity10:Franz Liebkind
+@entity11:Max Bialystock
+@entity12:Broadway

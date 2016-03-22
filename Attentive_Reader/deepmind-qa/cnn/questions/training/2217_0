@@ -1,17 +1,20 @@
-9
+12
 
-both the novel and the film are based on @ent6 sensory deprivation research conducted in isolation tanks under the influence of psychoactive drugs like mescaline , ketamine and @ent3 the film was directed by @ent2 and was also the film debut of @ent5 and @ent1 .
+the film was written by @entity1 , @entity4 , and @entity10 , and stars @entity8 , @entity2 , @entity5 , @entity7 , @entity11 , and @entity3 .
 
-@ent7 : this blonde actor suffered through some painful experiments in his @ent4 film " @ent8 "
+young stars : she got " @entity9 " playing " @entity6 " during an " interview with the vampire "
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:Drew Barrymore
-@ent2:Ken Russell
-@ent3:LSD.    
-@ent4:first
-@ent5:William Hurt
-@ent6:John C. Lilly's
-@ent7:MOVIE DEBUTS
-@ent8:Altered States
+@entity0:
+@entity1:Greg Taylor
+@entity2:Kirsten Dunst
+@entity3:Bebe Neuwirth
+@entity4:Jonathan Hensleigh
+@entity5:David Alan Grier
+@entity6:Jumanji
+@entity7:Bonnie Hunt
+@entity8:Robin Williams
+@entity9:Greedy
+@entity10:Jim Strain
+@entity11:Jonathan Hyde

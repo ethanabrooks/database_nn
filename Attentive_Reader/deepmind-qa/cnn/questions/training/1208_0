@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 was played by @ent5 .
+snipp is a village in @entity5 socken , @entity1 , @entity2 , @entity4 .
 
-who played ' @ent4 ? : @ent3 lawyer @ent1
+fictional characters : @entity3 , snapp & snurr , who star in a series of books , are brothers from this @entity6 country
 
-@ent5
+@entity4
 
-@ent0:
-@ent1:Bobby Donnell
-@ent2:Donnell
-@ent3:Boston
-@ent4:EM ON TV
-@ent5:Dylan McDermott
+@entity0:
+@entity1:Skellefteå Municipality
+@entity2:Västerbotten County
+@entity3:Snipp
+@entity4:Sweden
+@entity5:Jörns
+@entity6:Scandinavian

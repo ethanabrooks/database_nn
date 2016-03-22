@@ -1,15 +1,15 @@
 7
 
-  @ent4 was born in @ent2 , @ent2 .
+rouen cathedral ( ) is a @entity2 gothic cathedral in @entity1 , in northwestern @entity3 .
 
-music : ( @ent5 ) keyboardist @ent6 entered the r&r hall of fame by editing this music journal for @ent1
+art & artists : this impressionist 's @entity6 paintings of @entity5 are noted for their use of atmosphere
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:30 years
-@ent2:New York
-@ent3:Billboard
-@ent4:Ackerman
-@ent5:Typewriter
-@ent6:Paul Ackerman
+@entity0:
+@entity1:Rouen
+@entity2:Roman Catholic
+@entity3:France
+@entity4:Claude Monet
+@entity5:Rouen Cathedral
+@entity6:1890s

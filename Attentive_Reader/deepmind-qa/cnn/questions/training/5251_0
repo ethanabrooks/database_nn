@@ -1,16 +1,20 @@
-8
+12
 
-@ent3 is a @ent4 @ent5 film starring @ent7 and @ent1 .
+among those in attendance are @entity4 's longtime companion and film actress @entity5 , fellow actor @entity10 , writer @entity11 , columnist @entity2 , and actress @entity7 .
 
-role call : @ent3 , @ent2 , @ent6
+citizen @entity9 : this actress whose career is caricatured in " @entity1 " was played by @entity3 in @entity6 's " @entity8 "
 
-@ent7
+@entity5
 
-@ent0:
-@ent1:Sondra Locke
-@ent2:Thunderbolt Doherty
-@ent3:Bronco Billy
-@ent4:1980
-@ent5:American
-@ent6:Harry Callahan
-@ent7:Clint Eastwood
+@entity0:
+@entity1:Kane
+@entity2:Louella Parsons
+@entity3:Kirsten Dunst
+@entity4:Hearst
+@entity5:Marion Davies
+@entity6:2002
+@entity7:Margaret Livingston
+@entity8:The Cat's Meow
+@entity9:KANE
+@entity10:Charlie Chaplin
+@entity11:Elinor Glyn

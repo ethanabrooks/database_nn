@@ -1,16 +1,17 @@
-8
+9
 
-  @ent2 was born in @ent5 , @ent6 , which was then a part of @ent4 .
+@entity7 " @entity6 crist , jr. ( ; born @entity2 ) is an @entity5 attorney and politician who served as the 44th governor of @entity8 from @entity4 .
 
-all hail : @ent3 , @ent7 , @ent1
+all you need is gov. : @entity3 successor @entity1
 
-@ent6
+@entity8
 
-@ent0:
-@ent1:Margaret Chase Smith
-@ent2:Longfellow
-@ent3:Edna St. Vincent Millay
-@ent4:Massachusetts
-@ent5:Portland
-@ent6:Maine
-@ent7:Henry Wadsworth Longfellow
+@entity0:
+@entity1:Charlie Crist
+@entity2:July 24, 1956
+@entity3:Jeb Bush
+@entity4:2007 to 2011
+@entity5:American
+@entity6:Charlie"
+@entity7:Charles Joseph
+@entity8:Florida

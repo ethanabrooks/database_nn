@@ -1,19 +1,13 @@
-11
+5
 
-  @ent3 was hospitalized with influenza at the mayo clinic , in @ent5 , @ent6 , in @ent9 .
+  pre - production , early casting and the search for @entity4 quickly followed .
 
-@ent1 : in @ent4 this @ent7 senator was runner - up to @ent2 at @ent10
+the beautiful : he was the title character in @entity3 's " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:GOVERNMENT & POLITICS
-@ent2:Walter Mondale
-@ent3:Mondale
-@ent4:1984
-@ent5:Rochester
-@ent6:Minnesota
-@ent7:Colorado
-@ent8:Gary Hart
-@ent9:March 2015
-@ent10:the Democratic National Convention
+@entity0:
+@entity1:Johnny Suede
+@entity2:Brad Pitt
+@entity3:1991
+@entity4:Johnny

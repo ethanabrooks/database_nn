@@ -1,14 +1,12 @@
-6
+4
 
-" i wanna be " @ent4 unfabulous and more " dummy "
+the island lies in the outer reaches of the harbor and was thus a strategic location in the american @entity2 .
 
-at the movies : @ent1 stars as this title teen sleuth , new to @ent3 & trying to solve the mystery of a @ent2 actress ' death
+to the lighthouse : @entity3 light,hilton head light
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Emma Roberts
-@ent2:Hollywood
-@ent3:L.A.
-@ent4:2005
-@ent5:Nancy Drew
+@entity0:
+@entity1:South Carolina
+@entity2:Civil War
+@entity3:Morris Island

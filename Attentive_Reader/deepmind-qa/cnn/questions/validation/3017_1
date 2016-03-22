@@ -1,15 +1,14 @@
-7
+6
 
-@ent1 replied that although she did not see the potential for a movie in the story , she would agree to their option .
+   vocational schools    institute for industrial technology ( @entity3 ) : founded in @entity4 , @entity3 is a technical vocational school for male youth from families with limited resources .
 
-mcpeople : in @ent3 this jeans - clad author & @ent4 won an @ent5 for their screenplay of " @ent2 "
+treks : to trek on foot from @entity1 to @entity5 , you 'll have to cross this 3.5 million - square-mile area
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Proulx
-@ent2:Brokeback Mountain
-@ent3:2006
-@ent4:Diana Ossana
-@ent5:Oscar
-@ent6:Larry McMurtry
+@entity0:
+@entity1:Lagos
+@entity2:the Sahara Desert
+@entity3:IIT
+@entity4:2000
+@entity5:Algiers

@@ -1,15 +1,18 @@
-7
+10
 
-they have @ent6 children , @ent4 and @ent5 .
+in @entity3 , @entity9 received @entity6 votes and @entity5 received @entity7 votes .
 
-a woman 's place is in the house : former rep. @ent2 took a stab & is now a @ent3 senator from this state
+elections : while this man was preparing for space , @entity4 & @entity8 were campaigning for his @entity2 seat
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Michigan
-@ent2:Debbie Stabenow
-@ent3:U.S.
-@ent4:Michelle
-@ent5:Todd
-@ent6:two
+@entity0:
+@entity1:John Glenn
+@entity2:Senate
+@entity3:1994
+@entity4:George Voinovich
+@entity5:Michael Italie
+@entity6:48
+@entity7:24
+@entity8:Mary Boyle
+@entity9:Keith Hatton

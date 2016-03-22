@@ -1,22 +1,14 @@
-14
+6
 
-on @ent8 , @ent2 new students from @ent1 different states and @ent13 other countries entered classes on a newly built campus on   at @ent6 and @ent9 in @ent7 neighborhood of @ent12 @ent5 , referred to later as @ent9 campus .
+as the aircraft approached the target , the pilot turned the aircraft over to the bombardier and the @entity3 bombsight , which was also an automatic pilot that flew the aircraft as bombs were released over the target .
 
-university towns : @ent3
+museums : @entity5 is located at @entity4 near this largest @entity1 city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:22
-@ent2:167
-@ent3:Pepperdine University
-@ent4:Malibu
-@ent5:Los Angeles
-@ent6:West 79th Street
-@ent7:the Vermont Knolls
-@ent8:September 21, 1937
-@ent9:South Vermont Avenue
-@ent10:the Vermont Avenue
-@ent11:California
-@ent12:South Central
-@ent13:two
+@entity0:
+@entity1:New Mexico
+@entity2:Albuquerque
+@entity3:Norden
+@entity4:Kirtland Air Force Base
+@entity5:The National Atomic Museum

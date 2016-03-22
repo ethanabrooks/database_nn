@@ -1,18 +1,22 @@
-10
+14
 
-during the design phase there was an alternative sending the route further along @ent5 71 through the bigger towns of @ent6 , @ent8 , and @ent3 , @ent1 .
+  early life and education @entity6 was born in @entity2 , @entity12 , @entity7 , the son of @entity3 ( @entity13 ) and @entity11 ( @entity8 ) , a naval officer .
 
-flyover country : heading north on @ent9 from @ent4 , you pass through this state before reaching @ent2
+@entity4 : this spy helped @entity5 & @entity9 escape from @entity7 on @entity10
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Iowa
-@ent2:Canada
-@ent3:Clarinda
-@ent4:North Dakota
-@ent5:U.S.
-@ent6:Maryville
-@ent7:South Dakota
-@ent8:Missouri
-@ent9:Interstate 29
+@entity0:
+@entity1:Kim Philby
+@entity2:Devonport
+@entity3:Evelyn Mary
+@entity4:LESSER-KNOWN NAMES
+@entity5:Guy Burgess
+@entity6:Burgess
+@entity7:England
+@entity8:1881-1925
+@entity9:Donald Maclean
+@entity10:May 26, 1951
+@entity11:Malcolm Kingsford de Moncy Burgess
+@entity12:Devon
+@entity13:Gillman

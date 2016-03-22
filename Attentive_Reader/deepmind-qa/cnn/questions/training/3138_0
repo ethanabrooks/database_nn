@@ -1,14 +1,15 @@
-6
+7
 
-@ent2 is one of several women who have been speculated to be the basis for the character miss @ent1 in @ent3 @ent5 novels .
+  @entity5 had worked for @entity6 when he was a senator and president .
 
-literary characters : wwii spymaster @ent2 inspired this secretary of m in @ent5 novels
+priceline : at a @entity1 auction @entity2 paid $ @entity4 for a @entity3 lithograph of this president in a sailboat
 
-miss @ent1
+@entity6
 
-@ent0:
-@ent1:Moneypenny
-@ent2:Vera Atkins
-@ent3:Ian Fleming's
-@ent4: Atkins
-@ent5:James Bond
+@entity0:
+@entity1:1996
+@entity2:Jimmy Buffett
+@entity3:Jamie Wyeth
+@entity4:43,700
+@entity5:Phyllis
+@entity6:John F. Kennedy

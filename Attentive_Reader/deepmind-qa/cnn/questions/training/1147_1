@@ -1,18 +1,20 @@
-10
+12
 
-a hard road to glory is the @ent2 emmy award - winning documentary examining the impact of @ent9 @ent5 athletes on civil rights in @ent4 .
+this resulted in @entity4 slumping to @entity6 place in the @entity8 elections and losing @entity11 seats in the @entity9 .
 
-@ent1 : this tennis player published @ent3 's " @ent8 " , a 3-volume history of @ent7 athletes
+@entity10 : @entity5 & this @entity4 leader signed a @entity2 accord on @entity1 troop withdrawal from most of the city of @entity7
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:A.A.
-@ent2:1986
-@ent3:1988
-@ent4:America
-@ent5:American
-@ent6:Arthur Ashe
-@ent7:African-American
-@ent8:A Hard Road to Glory
-@ent9:African
+@entity0:
+@entity1:Israeli
+@entity2:1997
+@entity3:Benjamin Netanyahu
+@entity4:Likud
+@entity5:Arafat
+@entity6:fourth
+@entity7:Hebron
+@entity8:2006
+@entity9:Knesset
+@entity10:YASIR
+@entity11:twenty-eight

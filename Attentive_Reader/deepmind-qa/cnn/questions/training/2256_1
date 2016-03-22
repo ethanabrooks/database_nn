@@ -1,15 +1,13 @@
-7
+5
 
-in mid-1947 , @ent1 opened a school in @ent6 of the barracks , teaching tailoring , dressmaking , electrical and radio technology , baking , beautician training , and upholstery to over @ent3 students .
+the island at @entity3 .
 
-@ent5 history : for centuries the nearby @ent4 mines made this city the center of regional salt trade
+islands : almost all the inhabitants of this @entity2 island live in the village of @entity4 on the west coast
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:ORT
-@ent2:Salzburg
-@ent3:200
-@ent4:Hallein
-@ent5:AUSTRIAN
-@ent6:two
+@entity0:
+@entity1:Easter Island
+@entity2:Chilean
+@entity3:the end of the world
+@entity4:Hanga Roa

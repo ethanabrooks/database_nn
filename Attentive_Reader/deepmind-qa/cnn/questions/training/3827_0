@@ -1,13 +1,16 @@
-5
+8
 
-that ' @ent3 show .
+the gunman was @entity2 @entity1 , jr. , a student from @entity7 .
 
-you tube : ukrainian - born @ent2 played @ent1 on this @ent4 sitcom
+@entity3 : this man shot president @entity5 , @entity4 & 2 security men in @entity6
 
-that ' @ent3 show
+@entity1
 
-@ent0:
-@ent1:Jackie Burkhart
-@ent2:Mila Kunis
-@ent3:70s
-@ent4:Fox
+@entity0:
+@entity1:John Hinckley
+@entity2:26 year old
+@entity3:1981
+@entity4:James Brady
+@entity5:Reagan
+@entity6:March
+@entity7:Texas Tech University

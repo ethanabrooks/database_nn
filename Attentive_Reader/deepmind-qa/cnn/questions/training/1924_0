@@ -1,14 +1,11 @@
-6
+3
 
-@ent5 soon earned a high school equivalency diploma and kept a steady job in the prison 's textile plant , while also playing for the prison 's country music band , attributing a @ent3 performance by @ent2 at the prison as his main inspiration to join it .
+women ’s murder club is a murder mystery franchise by the author @entity1 .
 
-country music : his famed @ent1 concert inspired inmate @ent4
+writers : this " roses are red " author also inspired a tv show with his " @entity2 " series
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:San Quentin
-@ent2:Johnny Cash
-@ent3:1958
-@ent4:Merle Haggard
-@ent5:Haggard
+@entity0:
+@entity1:James Patterson
+@entity2:Women's Murder Club

@@ -1,17 +1,17 @@
 9
 
-his @ent4 film for @ent1 was @ent7 @ent6 ( @ent5 ) .
+she toured @entity3 with the ballet in @entity5 and danced it in @entity7 in @entity8 .
 
-casablanca : the dashing resistance hero played by @ent3 , he 's been " killed in @ent8 different places "
+ballet : when this ballet premiered in @entity1 , @entity4 danced the role of @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:RKO
-@ent2:Victor Laszlo
-@ent3:Paul Henreid
-@ent4:first
-@ent5:1942
-@ent6:Paris
-@ent7:Joan of
-@ent8:five
+@entity0:
+@entity1:1890
+@entity2:Princess Aurora
+@entity3:the United States
+@entity4:Carlotta Brianza
+@entity5:1883
+@entity6:The Sleeping Beauty
+@entity7:Saint Petersburg
+@entity8:1887

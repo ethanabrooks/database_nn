@@ -1,16 +1,17 @@
-8
+9
 
-in @ent5 , @ent1 , @ent4 .
+@entity4 teaches @entity8 how to look inside himself for spiritual guidance .
 
-" u " countries : @ent2 has been the president of this @ent7 nation since @ent3
+" h"istoric people : " @entity1 " & " journey to the @entity7 " are @entity5 novels by this @entity2 winner who wrote in @entity6
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Radio Free Europe/Radio Liberty
-@ent2:Islam Karimov
-@ent3:1991
-@ent4:November 21, 2007
-@ent5:Karimov Presidential Bid Draws Fire"
-@ent6:Uzbekistan
-@ent7:Central Asian
+@entity0:
+@entity1:Demian
+@entity2:Nobel Prize
+@entity3:Hermann Hesse
+@entity4:Pistorius
+@entity5:2
+@entity6:German
+@entity7:East
+@entity8:Sinclair

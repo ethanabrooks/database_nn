@@ -1,18 +1,15 @@
-10
+7
 
-@ent9 's politics were unacceptable to the @ent3 : @ent5 was a staunch @ent4 , whereas @ent9 was an ardent supporter of @ent8 nor was his lack of fortune in his favour .
+@entity6 had collected reinforcements and prepared to do battle , assisted by general @entity1 .
 
-opera women : @ent2 's this woman " di lammermoor " was based on @ent7 " @ent6 "
+native american place names : in @entity5 a @entity4 took place around @entity3 in this state
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Lucia
-@ent2:Donizetti
-@ent3:Dalrymples
-@ent4:Whig
-@ent5:Lord Stair
-@ent6:The Bride of Lammermoor
-@ent7:Walter Scott's
-@ent8:Charles II.
-@ent9:Rutherfurd
+@entity0:
+@entity1:James Longstreet
+@entity2:Georgia
+@entity3:Chickamauga Creek
+@entity4:Civil War battle
+@entity5:1863
+@entity6:Confederate General Braxton Bragg

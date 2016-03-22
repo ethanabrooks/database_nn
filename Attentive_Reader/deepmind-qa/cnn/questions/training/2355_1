@@ -1,18 +1,14 @@
-10
+6
 
-he was opposed in the @ent7 primary election by conservative businessman @ent8 and former @ent3 secretary of @ent2 @ent5 .
+@entity2 , la violette et le papillon .
 
-mr. or ms. mayor : in @ent4 @ent1 succeeded @ent6 in running this city
+classical music : this @entity5 collaborated on " @entity4 " with choreographer @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Richard Riordan
-@ent2:State
-@ent3:California
-@ent4:1993
-@ent5:Bill Jones
-@ent6:Tom Bradley
-@ent7:Republican
-@ent8:Bill Simon
-@ent9:Los Angeles
+@entity0:
+@entity1:Marius Petipa
+@entity2: La Rose
+@entity3:Tchaikovsky
+@entity4:Swan Lake
+@entity5:Russian

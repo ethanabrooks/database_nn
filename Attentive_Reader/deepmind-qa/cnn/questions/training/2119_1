@@ -1,16 +1,13 @@
-8
+5
 
-fda/cfsan @ent5 backgrounder : @ent3 items are also calorie - controlled , with most items in the @ent4 - 300 calorie range , with a minimum of @ent7 calories and a maximum of @ent1 calories .
+( disambiguation )
 
-out of the microwave : this brand of microwaveable dinners makes @ent6
+recent books : this @entity2 author of " @entity3 " turned to young adult fiction with " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:400
-@ent2:Stouffer
-@ent3:The Food Label Lean Cuisine
-@ent4:200
-@ent5:FDA
-@ent6:Lean Cuisine
-@ent7:140
+@entity0:
+@entity1:Slam
+@entity2:British
+@entity3:About a Boy
+@entity4:Nick Hornby

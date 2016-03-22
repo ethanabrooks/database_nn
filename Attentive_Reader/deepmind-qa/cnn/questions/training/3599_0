@@ -1,13 +1,14 @@
-5
+6
 
-" @ent1 " is a song co - written and recorded by @ent4 country music artist @ent2 .
+  president @entity3 ( @entity2 )
 
-country singers : his @ent3 music video " @ent1 " created controversy because of its violence
+@entity5 presidents : former first lady @entity1 is a distant cousin of this @entity4 president
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:The Thunder Rolls
-@ent2:Garth Brooks
-@ent3:1991
-@ent4:American
+@entity0:
+@entity1:Barbara Bush
+@entity2:United States
+@entity3:Franklin Pierce
+@entity4:1850s
+@entity5:U.S.

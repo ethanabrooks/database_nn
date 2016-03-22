@@ -1,18 +1,12 @@
-10
+4
 
-@ent1 's decision to run in the recall election was controversial , as many supporters of governor @ent6 had urged prominent @ent2 not to run , in an attempt to undermine the legitimacy of the event .
+( copy # 1 )   the entire speech , verbatim .
 
-noted hispanics : in @ent7 @ent8 was sworn in as this state 's @ent5 @ent3 lt . gov . in @ent9
+the written word : it 's been said that @entity2 was the " american scholar " that this transcendentalist called for in " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Bustamante
-@ent2:Democrats
-@ent3:Hispanic
-@ent4:California
-@ent5:first
-@ent6:Davis
-@ent7:1999
-@ent8:Cruz Bustamante
-@ent9:over 120 years
+@entity0:
+@entity1:The American Scholar
+@entity2:Thoreau
+@entity3:Ralph Waldo Emerson

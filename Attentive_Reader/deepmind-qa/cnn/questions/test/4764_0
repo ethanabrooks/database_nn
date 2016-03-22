@@ -1,18 +1,29 @@
-10
+21
 
-  in @ent8 , president - elect barack obama nominated @ent2 as secretary of @ent1 , leaving an empty seat in the @ent3 senate delegation .
+@entity2   she received substantial roles and positive reaction from critics and moviegoers in such films as @entity16 with dirty faces ( @entity3 ) , opposite @entity7 and @entity12 , @entity15 ( @entity11 ) with @entity20 and @entity17 , torrid zone with cagney and they drive by night with @entity8 and @entity1 ( both @entity18 ) , the man who came to dinner ( @entity6 ) with @entity13 , and @entity19 ( @entity6 ) , in which she received top billing playing opposite @entity10 , @entity9 , and @entity5 .
 
-i went to ucla : @ent5 got her law degree from @ent7 in @ent4 & filled the @ent6 seat left vacant by this woman in @ent9
+@entity4 quotes : in " kings row " , he asked @entity14 , " where 's the rest of me ? "
 
-@ent2
+@entity10
 
-@ent0:
-@ent1:State
-@ent2:Hillary Clinton
-@ent3:New York
-@ent4:1991
-@ent5:Kirsten Gillibrand
-@ent6:Senate
-@ent7:UCLA
-@ent8:December 2008
-@ent9:2009
+@entity0:
+@entity1:Bogart
+@entity2:Whitman Authorized Editions for Girls
+@entity3:1938
+@entity4:MOVIE
+@entity5:Betty Field
+@entity6:1942
+@entity7:James Cagney
+@entity8:George Raft
+@entity9:Robert Cummings
+@entity10:Ronald Reagan
+@entity11:1939
+@entity12:Humphrey Bogart
+@entity13:Bette Davis
+@entity14:Ann Sheridan
+@entity15:Dodge City
+@entity16:Angels
+@entity17:Olivia de Havilland
+@entity18:1940
+@entity19:Kings Row
+@entity20:Errol Flynn

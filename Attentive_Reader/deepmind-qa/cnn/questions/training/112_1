@@ -1,15 +1,15 @@
 7
 
-  @ent2
+@entity2 , fred ( @entity5 ) .
 
-country twosomes : before sailing off for " @ent5 " with @ent1 , she was " @ent6 " with @ent4
+@entity3 hits : in @entity4 she topped the charts with " how will i know " & " @entity6 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Kenny Rogers
-@ent2:Announcer Don Howser
-@ent3:Dolly Parton
-@ent4:Porter Wagoner
-@ent5:Islands in the Stream
-@ent6:Making Plans
+@entity0:
+@entity1:Whitney Houston
+@entity2:Bronson
+@entity3:NO. 1
+@entity4:1986
+@entity5:2003
+@entity6:The Greatest Love of All

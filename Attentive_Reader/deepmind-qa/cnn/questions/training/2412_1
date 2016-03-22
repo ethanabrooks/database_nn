@@ -1,17 +1,14 @@
-9
+6
 
-@ent3 may be one of the following :   mountain passes @ent3 ( @ent2 ) – a pass on @ent7 between @ent1 and @ent8 , @ent2 south pass ( attu island )
+@entity3 .
 
-the @ent5 states : in @ent4 the pony express & the oregon trail crossed over the rockies at @ent3 in this state
+duets : this singer featured on " ally mcbeal " duetted with @entity1 on @entity4 's " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Alberta
-@ent2:Canada
-@ent3:South Pass
-@ent4:the 1800s
-@ent5:50
-@ent6:Wyoming
-@ent7:the Continental Divide of the Americas
-@ent8:British Columbia
+@entity0:
+@entity1:Dan Hill
+@entity2:Can't We Try
+@entity3:14
+@entity4:1987
+@entity5:Vonda Shepard

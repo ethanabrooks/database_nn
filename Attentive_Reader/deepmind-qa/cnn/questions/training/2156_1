@@ -1,18 +1,15 @@
-10
+7
 
-on his return to the @ent7 after @ent2 in @ent5 he moved to @ent8 and operated his   telescope in an observatory there .
+@entity1 cop ( @entity4 )
 
-astronomy : @ent1 after this planet was discovered in @ent6 , @ent3 found one of its satellites , @ent4
+ford : in @entity6 @entity3 directed an episode of this tv western featuring his friend @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:17 days
-@ent2:several years
-@ent3:William Lassell
-@ent4:Triton
-@ent5:Malta
-@ent6:1846
-@ent7:UK
-@ent8:Maidenhead
-@ent9:Neptune
+@entity0:
+@entity1:Second
+@entity2:Wagon Train
+@entity3:John Ford
+@entity4:1934
+@entity5:Ward Bond
+@entity6:1960

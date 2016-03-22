@@ -1,15 +1,13 @@
-7
+5
 
-goodbye to @ent6 is a @ent3 novel by @ent1 set in @ent5 .
+@entity3 is a @entity4 novel by @entity2 .
 
-books & authors : @ent2 , a minimally talented nightclub singer , is the heroine of his " @ent4 " stories
+inspired characters : this " sister carrie " author modeled the heroine of his novel " @entity3 " in part on his sister @entity1
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Christopher Isherwood
-@ent2:Sally Bowles
-@ent3:1939
-@ent4:Goodbye To Berlin
-@ent5:Weimar Germany
-@ent6:Berlin
+@entity0:
+@entity1:Mame
+@entity2:Theodore Dreiser
+@entity3:Jennie Gerhardt
+@entity4:1911

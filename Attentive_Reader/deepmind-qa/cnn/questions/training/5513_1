@@ -1,15 +1,17 @@
-7
+9
 
-@ent5 's family included a sister , @ent6 , for whom @ent5 's younger daughter was named .
+  – @entity2 ( @entity8 )   best family tv drama series ( @entity4 )   best performance in a tv series   –
 
-the golden age of television : in @ent3 @ent2 won an emmy for playing secretary @ent4 on this long - running courtroom drama
+tv stars : in @entity8 this actress , borg babe @entity3 of @entity5 on " @entity6 " , joined the cast of " @entity7 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Perry Mason
-@ent2:Barbara Hale
-@ent3:1959
-@ent4:Della Street
-@ent5:Hale
-@ent6:Juanita
+@entity0:
+@entity1:Jeri Ryan
+@entity2:Ashley Tisdale
+@entity3:Seven
+@entity4:2002
+@entity5:Nine
+@entity6:Voyager
+@entity7:Boston Public
+@entity8:2001

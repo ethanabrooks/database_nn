@@ -1,15 +1,15 @@
 7
 
-@ent6 caused the financial ruin of many people , including many famous people such as @ent1 and the former @ent2 president @ent5 , who had helped him start his banking business .
+@entity6 ( born @entity2 ) founded @entity1 and is the @entity3 woman to serve as network president in television history .
 
-money men : this president seen on a bill lost all his money to swindler @ent4 in @ent3
+women 's work : in @entity5 @entity6 founded what is now this cable network , now home to " @entity4 "
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Thomas Nast
-@ent2:U.S.
-@ent3:1884
-@ent4:Ferdinand Ward
-@ent5:Ulysses S. Grant
-@ent6:Ward
+@entity0:
+@entity1:the USA Network
+@entity2:April 11, 1945
+@entity3:first
+@entity4:La Femme Nikita
+@entity5:1977
+@entity6:Kay Koplovitz

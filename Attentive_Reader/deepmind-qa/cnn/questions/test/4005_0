@@ -1,0 +1,12 @@
+4
+
+his father was actor/playwright @entity2 and his maternal grandfather was actor @entity1 .
+
+celebrity relatives : @entity3 is the grandson of this late tv star who was famous for playing a bus driver
+
+@entity1
+
+@entity0:
+@entity1:Jackie Gleason
+@entity2:Jason Miller
+@entity3:Jason Patric

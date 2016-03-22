@@ -1,15 +1,20 @@
-7
+12
 
-@ent5 ' most famous role is that of detective @ent3 on @ent1 tv series @ent4 .
+@entity1   ( , ; born @entity11 @entity4 ) is a @entity10 politician who served as the @entity3 president of @entity9 , from @entity2 to @entity5 @entity8 .
 
-singing tv stars : @ent6 was the co - star of this cop series when he released his album " somebody " in @ent2
+countries led by women : the daughter of @entity6 former leaders , @entity7 is president of this country highlighted here
 
-@ent4
+@entity9
 
-@ent0:
-@ent1:the hit 1980s
-@ent2:1988
-@ent3:Ricardo Tubbs
-@ent4:Miami Vice
-@ent5:Thomas
-@ent6:Philip Michael Thomas
+@entity0:
+@entity1:Chandrika Bandaranaike Kumaratunga
+@entity2:12 November 1994
+@entity3:fifth
+@entity4:June 1945
+@entity5:19
+@entity6:2
+@entity7:Chandrika Kumaratunga
+@entity8:November 2005
+@entity9:Sri Lanka
+@entity10:Sri Lankan
+@entity11:29

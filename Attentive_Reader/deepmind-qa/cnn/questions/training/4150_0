@@ -1,16 +1,19 @@
-8
+11
 
-the gunman was @ent7 @ent4 , jr. , a student from @ent3 .
+he has played in @entity2 ( mlb ) for @entity6 , @entity4 , @entity7 and @entity9 .
 
-@ent6 : this man shot president @ent1 , @ent5 & 2 security men in @ent2
+cy young award winners : in @entity3 @entity5 won the @entity10 for this team , just like @entity8 did @entity1
 
-@ent4
+@entity6
 
-@ent0:
-@ent1:Reagan
-@ent2:March
-@ent3:Texas Tech University
-@ent4:John Hinckley
-@ent5:James Brady
-@ent6:1981
-@ent7:26 year old
+@entity0:
+@entity1:the year before
+@entity2:Major League Baseball
+@entity3:2008
+@entity4:Philadelphia Phillies
+@entity5:Cliff Lee
+@entity6:the Cleveland Indians
+@entity7:Seattle Mariners
+@entity8:C.C. Sabathia
+@entity9:Texas Rangers
+@entity10:A.L. Cy Young

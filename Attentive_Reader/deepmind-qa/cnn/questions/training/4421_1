@@ -1,17 +1,20 @@
-9
+12
 
-his book on the subject , @ent6 :   a reporter 's story , was named @ent4 of @ent7 by @ent2 .
+@entity6 , @entity9 , @entity4 )
 
-at the magazine stand : @ent8 of this @ent1 magazine rival nearly broke the @ent3 story , but his editors held it back
+@entity5 's gone wild ! : in @entity10 @entity3 ,   @entity1 defeated the @entity11 in @entity2 , capturing the city of @entity7 , now this northen city
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Time
-@ent2:the Book of the Month Club
-@ent3:Monicagate
-@ent4:Best Non-Fiction Book
-@ent5:Newsweek
-@ent6:Uncovering Clinton
-@ent7:1999
-@ent8:Michael Isikoff
+@entity0:
+@entity1:Romans
+@entity2:Italy
+@entity3:B.C.
+@entity4:Marian Holland McAllister
+@entity5:GAUL
+@entity6:Richard Stillwell
+@entity7:Mediolanum
+@entity8:Milan
+@entity9:William L. MacDonald
+@entity10:222
+@entity11:Gauls

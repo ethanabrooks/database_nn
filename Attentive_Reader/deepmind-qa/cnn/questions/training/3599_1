@@ -1,13 +1,15 @@
-5
+7
 
-this would tie together the @ent4 versions of the song .
+  president @entity4 ( @entity2 )
 
-country singers : his @ent2 music video " @ent1 " created controversy because of its violence
+@entity3 presidents : former first lady @entity1 is a distant cousin of this @entity5 president
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Thunder Rolls
-@ent2:1991
-@ent3:Garth Brooks
-@ent4:two
+@entity0:
+@entity1:Barbara Bush
+@entity2:United States
+@entity3:U.S.
+@entity4:James Buchanan
+@entity5:1850s
+@entity6:Franklin Pierce

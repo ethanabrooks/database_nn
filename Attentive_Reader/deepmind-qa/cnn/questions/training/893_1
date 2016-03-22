@@ -1,15 +1,14 @@
-7
+6
 
-@ent1 , @ent6 .
+orig .
 
-@ent4 : @ent2 , the @ent5 woman lawyer to practice before this court , had drafted the law to allow it
+postage stamps : mighty @entity5 , @entity2 , @entity1 & this lumberjack appeared on @entity4 stamps honoring folk heroes
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Spring 2005
-@ent2:Belva Ann Lockwood
-@ent3:the Supreme Court
-@ent4:THE NATIONAL WOMEN'S HALL OF FAME
-@ent5:1st
-@ent6:Vol
+@entity0:
+@entity1:John Henry
+@entity2:Pecos Bill
+@entity3:Paul Bunyan
+@entity4:1996
+@entity5:Casey

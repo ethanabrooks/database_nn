@@ -1,12 +1,19 @@
-4
+11
 
-@ent2 is the former husband of actress @ent1 .
+  in @entity1 , on a stop in @entity4 promoting the book , @entity3 was presented the key to the city by mayor @entity5 , who stated : " you captured the spirit of @entity10 and president @entity9 represents the spirit of independence."letter to @entity2 dated @entity6 , from mayor @entity7 .
 
-the moore the merrier : once married to producer @ent3
+i'm just wild about harry : " plain speaking : @entity8 biography " was co - written by @entity2 & this man
 
-@ent1
+@entity10
 
-@ent0:
-@ent1:Mary Tyler Moore
-@ent2:Tinker
-@ent3:Grant Tinker
+@entity0:
+@entity1:October 1974
+@entity2:Merle Miller
+@entity3:Miller
+@entity4:Independence
+@entity5:Richard King
+@entity6:November 27, 1974
+@entity7:Richard A. King
+@entity8:An Oral
+@entity9:Truman
+@entity10:Harry S. Truman

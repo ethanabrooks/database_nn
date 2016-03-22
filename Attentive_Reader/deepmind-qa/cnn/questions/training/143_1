@@ -1,18 +1,15 @@
-10
+7
 
-retrieved : @ent4 @ent6 collaborated with @ent3 in @ent2 to write an original song for @ent5 @ent7 .
+though his known ancestry contains no indication that this was so .
 
-lyricists : after parting ways with @ent1 , he wrote " @ent9 "
+@entity5 : @entity1 and @entity6 ( @entity4 non - chinese ) played this @entity2 detective on film
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Burt Bacharach
-@ent2:2002
-@ent3:Cathy Dennis
-@ent4:October 25, 2006
-@ent5:the Pop Idol winner
-@ent6:Bacharach
-@ent7:Will Young
-@ent8:Hal David
-@ent9:To All the Girls I've Loved Before
+@entity0:
+@entity1:Warner Oland
+@entity2:Chinese
+@entity3:Charlie Chan
+@entity4:2
+@entity5:CHARLIE
+@entity6:Sydney Toland

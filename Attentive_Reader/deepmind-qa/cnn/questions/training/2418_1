@@ -1,13 +1,12 @@
-5
+4
 
-she speaks or moderates at numerous conferences across the country on history and law - related topics .
+  although the design of the script may be featural , for all practical purposes it behaves as an alphabet .
 
-nonfiction : the @ent4 pulitzer for history went to @ent2 for " @ent3 " this home
+@entity1 letters : the combination of consonants and vowels make syllabic letters as in " ka , kya " and " kyo " in @entity3 , the writing of this peninsular language
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Monticello
-@ent2:Annette Gordon-Reed
-@ent3:The Hemingses of
-@ent4:2009
+@entity0:
+@entity1:OTHER ALPHABETS'
+@entity2:Korean
+@entity3:Hangul

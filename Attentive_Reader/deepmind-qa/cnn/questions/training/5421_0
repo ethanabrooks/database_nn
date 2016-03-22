@@ -1,19 +1,13 @@
-11
+5
 
-  @ent9 's book reviews and description @ent2 editorial reviews and overview    ontheissues.org 's book review and excerpts   category:2003 books category:books by @ent4 category:american memoirs category:political memoirs category:books about @ent3 about the @ent6 administration @ent10 books
+burning @entity2 is a @entity1 novella by @entity3 written as an experiment with producing a play in novel format .
 
-bestsellers : her memoir " @ent5 " sold @ent1 copies on its @ent7 of release in @ent8
+alcoholics unanimous : this author of the @entity1 novel " @entity4 " felt the wrath of grapes
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:about 200,000
-@ent2:  Barnes & Noble's
-@ent3:Hillary Clinton Category:Books
-@ent4:Hillary Clinton
-@ent5:Living History
-@ent6:Clinton
-@ent7:first day
-@ent8:2003
-@ent9:Amazon.com
-@ent10:Category:Simon & Schuster
+@entity0:
+@entity1:1950
+@entity2:Bright
+@entity3:John Steinbeck
+@entity4:Burning Bright

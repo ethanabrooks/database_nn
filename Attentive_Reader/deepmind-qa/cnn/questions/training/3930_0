@@ -1,20 +1,13 @@
-12
+5
 
-@ent8 " dan " white ( @ent7 @ent1 , @ent2 ) was a @ent3 supervisor who assassinated @ent3 mayor @ent6 and supervisor @ent4 , on @ent5 , at @ent11 .
+@entity2 plays the title character .
 
-behind bars : @ent9 , paroled in @ent10 after killing the mayor & a supervisor of this city , killed himself in @ent2
+@entity3 : he took time off from playing @entity1 to hook the title role in " @entity4 "
 
-@ent3
+@entity2
 
-@ent0:
-@ent1:– October 21
-@ent2:1985
-@ent3:San Francisco
-@ent4:Harvey Milk
-@ent5:Monday, November 27, 1978
-@ent6:George Moscone
-@ent7:September 2, 1946
-@ent8:Daniel James
-@ent9:Dan White
-@ent10:1984
-@ent11:City Hall
+@entity0:
+@entity1:Barney Fife
+@entity2:Don Knotts
+@entity3:LESSER-KNOWN MOVIES
+@entity4:The Incredible Mr. Limpet

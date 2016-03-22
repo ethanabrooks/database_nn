@@ -1,14 +1,15 @@
-6
+7
 
-  presidential politics
+  tourists are encouraged by the @entity4 government to visit @entity1 .
 
-@ent2 : after hours : in @ent3 , @ent4 , a millionaire senator from this " granite state " , won $ @ent1 in the powerball lottery
+holiday in ... ? : @entity2 in this @entity5 capital to visit a former @entity3 embassy & the killing fields of @entity1
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:853,492
-@ent2:THE U.S. SENATE
-@ent3:2005
-@ent4:Judd Gregg
-@ent5:New Hampshire
+@entity0:
+@entity1:Choeung Ek
+@entity2:Holiday
+@entity3:U.S.
+@entity4:Cambodian
+@entity5:Asian
+@entity6:Phnom Penh

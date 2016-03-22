@@ -1,16 +1,14 @@
-8
+6
 
-  various editions are currently in print including @ent2 @ent5 , by @ent4 , and @ent2 @ent3 .
+pioneers of rock and roll .
 
-world literature : author of " @ent1 " , at @ent6 he went south of the border & was never seen again
+@entity1 singers : their @entity4 hit , @entity5 's “ love will keep us together ” , was written by @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Devil's Dictionary
-@ent2:ISBN
-@ent3:0-8203-2401-9
-@ent4:Oxford University Press
-@ent5:0-19-512627-0
-@ent6:71
-@ent7:Ambrose Bierce
+@entity0:
+@entity1:HUSBAND & WIFE
+@entity2:Neil Sedaka
+@entity3:Captain & Tennille
+@entity4:first
+@entity5:1975

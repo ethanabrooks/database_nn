@@ -1,15 +1,13 @@
-7
+5
 
-  in @ent4 @ent1 succeeded @ent6 as rector of the university .
+he planned to attend dental school , but dropped out @entity3 - and-a-half credits shy of his undergraduate degree .
 
-countries by college : @ent2 for computer science,braunschweig tech,the @ent3
+@entity2 : @entity4 plays the title movie star : " win a date with ____ ____ ! "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Sabine Doering Manteuffel
-@ent2:Max Planck Institute
-@ent3:University of Augsburg
-@ent4:October 2011
-@ent5:Germany
-@ent6:Alois Loidl
+@entity0:
+@entity1:Tad Hamilton
+@entity2:MOVIE NAMES
+@entity3:one
+@entity4:Josh Duhamel

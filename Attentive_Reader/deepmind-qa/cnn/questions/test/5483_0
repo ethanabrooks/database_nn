@@ -1,11 +1,14 @@
-3
+6
 
-right|thumb|the holmenkollen ski jump is a landmark in @ent2 .
+@entity4 encompasses part of the blue ridge mountains in the @entity2 state of @entity5 .
 
-world capitals : it 's home to the @ent1 ski jump
+@entity3 routes : @entity1 provides spectacular views of this state 's @entity4
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:Holmenkollen
-@ent2:Oslo
+@entity0:
+@entity1:The Skyline Drive
+@entity2:U.S.
+@entity3:SCENIC
+@entity4:Shenandoah National Park
+@entity5:Virginia

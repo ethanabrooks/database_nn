@@ -1,13 +1,15 @@
-5
+7
 
-the city is situated on the shores of @ent2 ( , or simply @ent3 ) .
+  he won @entity4 for @entity3 ( @entity1 ) .
 
-on the map : @ent4 , @ent1 is n't the last resort on this lake
+kiss your lass goodbye : @entity2 leaves @entity5 thomas in a cave in this tragic romance directed by @entity6
 
-@ent2
+@entity3
 
-@ent0:
-@ent1:Switzerland
-@ent2:Lake Geneva
-@ent3:Le Léman
-@ent4:Lausanne
+@entity0:
+@entity1:1996
+@entity2:Ralph Fiennes
+@entity3:The English Patient
+@entity4:the Academy Award for Best Director
+@entity5:Kristin Scott
+@entity6:Anthony Minghella

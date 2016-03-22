@@ -1,17 +1,14 @@
-9
+6
 
-@ent1 )   @ent4 is a book of poetry by @ent5 that was published in @ent7 , and for which she received the pulitzer prize in 1950."annie allen " , @ent8 .
+@entity3 grimley is a fictional character created and portrayed by @entity1 .
 
-poets : this black poetess won a @ent6 for " @ent4 " & became @ent2 ' poet laureate in @ent3
+comedians : @entity5 , superstar @entity4 , jr. & @entity2 are some of this man 's alter egos
 
-@ent5
+@entity1
 
-@ent0:
-@ent1:Harper & Brothers
-@ent2:Illinois
-@ent3:1969
-@ent4:Annie Allen
-@ent5:Gwendolyn Brooks
-@ent6:Pulitzer
-@ent7:1949
-@ent8:The Concise Oxford Companion to African American Literature
+@entity0:
+@entity1:Martin Short
+@entity2:Ed Grimley
+@entity3:Edward Mayhoff 'Ed'
+@entity4:Jackie Rogers
+@entity5:Nathan Thurn

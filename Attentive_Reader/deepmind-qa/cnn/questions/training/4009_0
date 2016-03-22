@@ -1,14 +1,15 @@
-6
+7
 
-  in @ent1 , @ent4 was the @ent5 female candidate for president of @ent2 .
+	   @entity5 ( @entity2 0 - 385-32405-7 ) is a @entity6 novel by @entity1 .
 
-teens in history : @ent3 was a teen medium & fortune - teller before becoming the @ent5 woman to run for pres . of this country
+audio books : she read her own " tales of a @entity4 grade nothing " , but @entity3 read her adult novel " @entity5 "
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:1872
-@ent2:the United States
-@ent3:Victoria Woodhull
-@ent4:Woodhull
-@ent5:first
+@entity0:
+@entity1:Judy Blume
+@entity2:ISBN
+@entity3:Annabeth Gish
+@entity4:Fourth
+@entity5:Summer Sisters
+@entity6:1998

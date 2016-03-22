@@ -1,23 +1,17 @@
-15
+9
 
-@ent3 ( born @ent13 @ent4 as per travel manifests at ancestry.com , showing @ent5 and her mother , @ent5 here , departing @ent11 , @ent7 , on @ent1 , for @ent9 ( age given for @ent5 is @ent2 ; birthdate is @ent4 )
+he bought @entity8 muskets and @entity7 cannon , but was captured at sea , taken to @entity2 , placed on trial , charged with furnishing arms for @entity4 rebels , but was acquitted after a lawsuit which lasted @entity3 .
 
-actresses : @ent12 , @ent3 , and @ent8 were all born in this @ent6 country
+famous names : @entity1 , a brother of @entity1 , was a founder of this state 's university
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:January 20, 1958
-@ent2:8
-@ent3:Victoria Principal
-@ent4:January 3, 1950
-@ent5:Vicki R. Principal
-@ent6:Asian
-@ent7:England
-@ent8:Joan Fontaine
-@ent9:New York
-@ent10:Ree V. Principal
-@ent11:Southampton
-@ent12:Liv Ullmann
-@ent13:January 3, 1950)Born
-@ent14:Japan
+@entity0:
+@entity1:Ethan Allen
+@entity2:England
+@entity3:eight years
+@entity4:Irish
+@entity5:Ira Allen
+@entity6:Vermont
+@entity7:24
+@entity8:20,000

@@ -1,17 +1,19 @@
-9
+11
 
-@ent2 ( born @ent8 ) is an @ent5 writer and actress , best known as the author of @ent3 , an autobiographical account of alleged child abuse by her adoptive mother , famous @ent6 actress @ent2 .
+  @entity10 selected @entity9 as @entity5 of its delegates to the continental congress in @entity1 in @entity3 and @entity7 .
 
-" m.d."s : in @ent7 @ent2 hit no . @ent1 on the bestseller list with this book
+presidents of the continental congress : the @entity4 president of @entity6 , @entity8 gaveled @entity6 to order on @entity2 in this city
 
-@ent3
+@entity1
 
-@ent0:
-@ent1:1
-@ent2:Christina Crawford
-@ent3:Mommie Dearest
-@ent4:Joan Crawford
-@ent5:American
-@ent6:Hollywood
-@ent7:1978
-@ent8:June 11, 1939
+@entity0:
+@entity1:Philadelphia
+@entity2:September 5, 1774
+@entity3:1774
+@entity4:first
+@entity5:one
+@entity6:Congress
+@entity7:1775
+@entity8:Peyton Randolph
+@entity9:Randolph
+@entity10:Virginia

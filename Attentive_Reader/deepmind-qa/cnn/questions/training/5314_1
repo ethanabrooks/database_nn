@@ -1,16 +1,19 @@
-8
+11
 
-  plot set in @ent7 , @ent2 , in @ent1 , the book is the story of middle - class housewife @ent3 's attempts to maintain her family 's social position during @ent4 .
+died:thea von harbou , @entity6 actress ( b. @entity9 ) @entity1 ( @entity4 ) @entity1 ( @entity8 )
 
-leading ladies : she won an @ent6 for playing housewife - turned-waitress @ent3
+artists : in @entity3 her coffin was draped with a hammer & sickle flag while lying in state in @entity2 's @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the 1930s
-@ent2:California
-@ent3:Mildred Pierce
-@ent4:the Great Depression
-@ent5:Joan Crawford
-@ent6:Oscar
-@ent7:Glendale
+@entity0:
+@entity1: July 2, 1954
+@entity2:Mexico
+@entity3:July 1954
+@entity4:Friday
+@entity5:Palace of Fine Arts
+@entity6:German
+@entity7:Frida Kahlo
+@entity8:Saturday
+@entity9:1888
+@entity10: July 3, 1954

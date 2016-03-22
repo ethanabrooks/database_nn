@@ -1,17 +1,13 @@
-9
+5
 
-her parents were illiterate , unskilled , and impoverished immigrants who came to @ent1 in @ent3 from @ent5 , @ent4 , during @ent7 .
+csi : @entity3 season @entity1 10 ( " shattered " ) is set in @entity4 .
 
-humanitarians : her parents asked @ent6 about a teacher for their daughter ; @ent8 was soon hired
+miami : great shopping can be found in @entity4 or in this area with the same initials to the west
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the United States
-@ent2:Helen Keller
-@ent3:1860
-@ent4:Ireland
-@ent5:County Limerick
-@ent6:Alexander Graham Bell
-@ent7:the Great Potato Famine
-@ent8:Anne Sullivan
+@entity0:
+@entity1:4 episode
+@entity2:Coral Gables
+@entity3:Miami
+@entity4:Coconut Grove

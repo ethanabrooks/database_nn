@@ -1,14 +1,12 @@
-6
+4
 
-@ent2 used a @ent4 model 1866 , caliber .50 - 70 rifle , nicknamed @ent5 , to shoot buffalo for feeding the track workers employed by @ent1 during the construction of @ent1 .
+@entity2 is a novella by @entity1 .
 
-the old west : he called his buffalo gun @ent5
+19th century literature : you 'll find whaleboats not only in his masterpiece but also in his story " @entity2 " & his novel " @entity3 "
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Kansas Pacific Railroad
-@ent2:Buffalo Bill Cody
-@ent3:the Transcontinental Railroad
-@ent4:Springfield
-@ent5:Lucrezia Borgia
+@entity0:
+@entity1:Herman Melville
+@entity2:Benito Cereno
+@entity3:Mardi

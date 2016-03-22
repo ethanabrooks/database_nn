@@ -1,20 +1,17 @@
-12
+9
 
-@ent1 " paul " kruger ( ; ; @ent4 – @ent7 ) was @ent6 of the dominant political and military figures in @ent3 @ent5 , and president of the south african republic ( or @ent10 ) from @ent2 to @ent9 .
+in @entity8 , @entity6 was traded to @entity5 and helped the team win their @entity1 @entity3 championship .
 
-african geography : we do n't mean to " @ent11 " you , but @ent8 has a national park named for him in this country
+@entity8 : a sports odyssey : with the help of defensemen @entity2 & @entity4 , this hockey team cascaded to @entity7
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:Stephanus Johannes Paulus
-@ent2:1883
-@ent3:19th-century
-@ent4:10 October 1825
-@ent5:South Africa
-@ent6:one
-@ent7:14 July 1904
-@ent8:Paul Kruger
-@ent9:1900
-@ent10:Transvaal
-@ent11:Boer
+@entity0:
+@entity1:second
+@entity2:Ray Bourque
+@entity3:Stanley Cup
+@entity4:Rob Blake
+@entity5:the Colorado Avalanche
+@entity6:Blake
+@entity7:the Stanley Cup
+@entity8:2001

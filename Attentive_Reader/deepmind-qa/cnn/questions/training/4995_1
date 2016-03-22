@@ -1,17 +1,15 @@
-9
+7
 
-  @ent1 started his own film and television production company , @ent4 , in @ent3 .
+ellyn works at @entity3 and is initially involved with @entity6
 
-@ent5 : it was anchorman @ent8 in this @ent7 @ent2 film
+@entity4 ____ : this attractive brunette played thirtysomething @entity5 on " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Brooks
-@ent2:James L. Brooks
-@ent3:1984
-@ent4:Gracie Films
-@ent5:WILLIAM HURT FILMS
-@ent6:News
-@ent7:1987
-@ent8:Bill
+@entity0:
+@entity1:thirtysomething
+@entity2:Mel Harris
+@entity3:City Hall
+@entity4:MEL
+@entity5:Hope Steadman
+@entity6:Steve Woodman

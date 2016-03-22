@@ -1,13 +1,12 @@
-5
+4
 
-  @ent1 has finished at @ent2 since @ent3 .
+@entity1 is the female national personification of @entity3 , officially   confœderatio helvetica , the swiss confederation .
 
-the end of the marathon : in @ent2
+nation"z " : its @entity2 name , @entity1 , appears on its coins & stamps
 
-@ent1
+@entity3
 
-@ent0:
-@ent1:the Boston Marathon
-@ent2:Copley Square
-@ent3:1986
-@ent4:The Boston Marathon
+@entity0:
+@entity1:Helvetia
+@entity2:Latin
+@entity3:Switzerland

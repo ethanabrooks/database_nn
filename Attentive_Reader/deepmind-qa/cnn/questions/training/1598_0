@@ -1,14 +1,13 @@
-6
+5
 
-  timur raids the city of @ent3 in @ent4 .
+his career is a history of associations with bandleader @entity3 and former musicians and singers who worked with @entity4 .
 
-first year of the century : in @ent1 @ent2 sacked this city that 's now the capital of @ent5
+music : tenor sax man @entity1 sang on this orchestra leader 's hit " @entity2 "
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:1401
-@ent2:Tamerlane
-@ent3:Baghdad
-@ent4:the Jalayirid Empire
-@ent5:Iraq
+@entity0:
+@entity1:Tex Beneke
+@entity2:Chattanooga Choo Choo
+@entity3:Glenn Miller
+@entity4:Miller

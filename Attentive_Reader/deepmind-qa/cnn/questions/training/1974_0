@@ -1,14 +1,15 @@
-6
+7
 
-@ent5 is an @ent2 screenwriter , producer and director , best known for creating the television show @ent4 and writing and directing the @ent3 feature film , the women .
+@entity1 severs diplomatic relations with @entity3 over the latter 's nationalization of @entity5 assets .
 
-the emmys : in @ent1 @ent5 won an emmy for comedy writing for " respect " , the pilot episode of this series
+@entity2 : on @entity6 the @entity4 severed diplomatic relations with this nation
 
-@ent4
+@entity3
 
-@ent0:
-@ent1:1989
-@ent2:American
-@ent3:2008
-@ent4:Murphy Brown
-@ent5:Diane English
+@entity0:
+@entity1:The United States
+@entity2:1961
+@entity3:Cuba
+@entity4:U.S.
+@entity5:American
+@entity6:January 3

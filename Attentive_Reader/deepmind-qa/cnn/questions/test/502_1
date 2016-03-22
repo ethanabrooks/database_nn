@@ -1,12 +1,14 @@
-4
+6
 
-@ent1 .
+the song was also a hit in a number of other countries , but was less successful in @entity4 , where it reached only no .
 
-english literature : some consider this author 's " @ent3 " his greatest work , not " vanity fair "
+@entity2 is so talented : he sang lead vocals on the no . @entity5 hit " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1990
-@ent2:William Makepeace Thackeray
-@ent3:The History of Henry Esmond
+@entity0:
+@entity1:The House of the Rising Sun
+@entity2:ERIC
+@entity3:Eric Burdon
+@entity4:Ireland
+@entity5:1

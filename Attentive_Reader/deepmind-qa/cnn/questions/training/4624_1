@@ -1,14 +1,15 @@
-6
+7
 
-( @ent3 ) .
+  it is the @entity1 - designated reliever airport for @entity4 world airport and serves business and corporate air travelers and functions as a lively center for general aviation .
 
-____ the ____ : in " portrait of a killer " , @ent2 contends that this killer was actor & artist @ent5
+@entity3 : this state capital has a @entity2 as well as a @entity2
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Jack
-@ent2:Patricia Cornwell
-@ent3:1981
-@ent4:Ripper
-@ent5:Walter Sickert
+@entity0:
+@entity1:FAA
+@entity2:Will Rogers Airport
+@entity3:TRANSPORTATION
+@entity4:Will Rogers
+@entity5:Oklahoma City
+@entity6:Wiley Post Airport

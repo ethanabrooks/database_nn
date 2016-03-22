@@ -1,17 +1,13 @@
-9
+5
 
-  the religious practices of @ent5 are enumerated in the @ent3 pillars of @ent6 , which , in addition to @ent8 , consist of daily prayers ( salat ) , fasting during the @ent7 month of @ent4 ( sawm ) , almsgiving ( zakat ) , and the pilgrimage to @ent1 ( hajj ) at least once in a lifetime .
+xai - xai ( ) is a city in the south of @entity4 .
 
-religion : a hajji is a @ent2 who 's made a pilgrimage to this city
+obscure geography : formerly @entity1 joao belo , the city of @entity2 is found in this country of southern @entity3
 
-@ent1
+@entity4
 
-@ent0:
-@ent1:Mecca
-@ent2:Muslim
-@ent3:Five
-@ent4:Ramadan
-@ent5:Muslims
-@ent6:Islam
-@ent7:Islamic
-@ent8:Shahadah
+@entity0:
+@entity1:Vila De
+@entity2:Xai-Xai
+@entity3:Africa
+@entity4:Mozambique

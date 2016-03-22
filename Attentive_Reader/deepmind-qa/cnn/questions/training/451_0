@@ -1,15 +1,16 @@
-7
+8
 
-@ent4 's @ent6 or @ent5 is a breakfast cereal , produced by @ent3 and consisting of sugar - coated corn flakes .
+  a native of smock , a coal - mining region in @entity1 , @entity3 , near @entity4 , and of @entity7 origin , he is the son of @entity5 , @entity2 's youngest brother .
 
-the tiger : @ent2 the @ent1 is the gr - r-reat spokescat for this company 's @ent6
+city of birth : mad magazine illustrator @entity5
 
-@ent4 's
+@entity4
 
-@ent0:
-@ent1:Tiger
-@ent2:Tony
-@ent3:the Kellogg Company
-@ent4:Kellogg
-@ent5:Frosties
-@ent6:Frosted Flakes
+@entity0:
+@entity1:Fayette County
+@entity2:Andy Warhol
+@entity3:Pennsylvania
+@entity4:Pittsburgh
+@entity5:James Warhola
+@entity6:Paul Warhola
+@entity7:Rusyn

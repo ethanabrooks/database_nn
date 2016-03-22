@@ -1,15 +1,14 @@
-7
+6
 
-  a notable historic building in @ent5 is @ent3 , which dates from @ent2 or earlier , and which may have been the birthplace of @ent4 the @ent1 .
+@entity2 , @entity4 , at dawn @entity2 is an embayment of @entity5 into @entity4 .
 
-" bert"days : a warrior ruler : @ent6 in @ent5
+pacific islands : @entity1 , this island 's only village , is located on its northern coast near @entity2
 
-@ent4 the @ent1
+@entity4
 
-@ent0:
-@ent1:Bruce
-@ent2:the 13th century
-@ent3:Turnberry Castle
-@ent4:Robert
-@ent5:Ayrshire
-@ent6:July 11, 1274
+@entity0:
+@entity1:Adamstown
+@entity2:thumb|right|Bounty Bay
+@entity3:Bounty Bay
+@entity4:Pitcairn Island
+@entity5:the Pacific Ocean

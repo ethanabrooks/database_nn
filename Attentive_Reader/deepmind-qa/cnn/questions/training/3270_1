@@ -1,15 +1,13 @@
-7
+5
 
-@ent1   @ent2 with its annexe is situated to the south of @ent2 .
+@entity2 .
 
-treks : to trek on foot from @ent5 to @ent3 , you 'll have to cross this 3.5 million - square-mile area
+world capitals : it 's located on @entity1 's @entity3 & cape mesurado
 
-@ent0
+@entity0
 
-@ent0:
-@ent1: Victoria Island
-@ent2:Lagos Island
-@ent3:Algiers
-@ent4:the Sahara Desert
-@ent5:Lagos
-@ent6:Victoria Island
+@entity0:
+@entity1:Liberia
+@entity2:Slave Ship Guerrero
+@entity3:Bushrod Island
+@entity4:Monrovia

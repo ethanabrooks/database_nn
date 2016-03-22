@@ -1,14 +1,15 @@
-6
+7
 
-  effendi is still used as an honorific in @ent5 , @ent3 , and @ent1 ( as well as some other former @ent2 states ) , and is the source of the word أفندم؟ afandim ?
+the tale of pigling bland is a children 's book written and illustrated by @entity5 and @entity1 published by @entity4 in @entity3 .
 
-world history : @ent4 , bey , & pasha were titles of nobility in this country 's @ent2 empire
+ham lit : this @entity2 woman wrote " @entity6 " , a tale of the christmas pig
 
-@ent1
+@entity5
 
-@ent0:
-@ent1:Turkey
-@ent2:Ottoman
-@ent3:Jordan
-@ent4:Effendi
-@ent5:Egypt
+@entity0:
+@entity1:first
+@entity2:British
+@entity3:1913
+@entity4:Frederick Warne & Co.
+@entity5:Beatrix Potter
+@entity6:The Tale of Pigling Bland

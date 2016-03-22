@@ -1,14 +1,13 @@
-6
+5
 
-his painting of @ent1 ( @ent3 ) was given to the subject and was then apparently destroyed on the orders of @ent1 ; studies for the portrait have survived .
+the golden bowl is a @entity4 novel by @entity2 .
 
-artists & their subjects : this @ent5 prime minister must have hated his @ent3 birthday portrait by @ent4 ; his wife destroyed it
+my name is henry , i'll be your writer : @entity4 's " @entity1 " was one of my last novels ; i later became a @entity3 subject
 
-@ent1
+@entity2
 
-@ent0:
-@ent1:Winston Churchill
-@ent2:Lady Churchill
-@ent3:1954
-@ent4:Graham Sutherland
-@ent5:British
+@entity0:
+@entity1:The Golden Bowl
+@entity2:Henry James
+@entity3:British
+@entity4:1904

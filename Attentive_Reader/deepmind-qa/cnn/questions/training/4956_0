@@ -1,12 +1,13 @@
-4
+5
 
-  the grand mesa is a large mesa in western @ent3 in @ent1 .
+the actress @entity3 is her maternal aunt .
 
-state the state : the world 's largest flat - top mountain , @ent2 , is found there
+20th century women : @entity2 lawmaker @entity1 is the granddaughter of @entity1 & the niece of this famous actress
 
-@ent3
+@entity3
 
-@ent0:
-@ent1:the United States
-@ent2:Grand Mesa
-@ent3:Colorado
+@entity0:
+@entity1:Alessandra Mussolini
+@entity2:Italian
+@entity3:Sophia Loren
+@entity4:Benito Mussolini

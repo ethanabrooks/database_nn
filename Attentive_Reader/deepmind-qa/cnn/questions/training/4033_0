@@ -1,14 +1,18 @@
-6
+10
 
-@ent1 is a neighborhood , or barrio of the @ent5 capital , @ent3 .
+@entity2 , @entity7 wife of @entity4 of @entity5 ( d. @entity3 ) @entity1
 
-south american cities : @ent1 , an area of this @ent5 capital , is often called " @ent4 " because of its large @ent2 community
+@entity6 : this country celebrates @entity8 birthday on @entity9
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:La Boca
-@ent2:Italian
-@ent3:Buenos Aires
-@ent4:Little Genoa
-@ent5:Argentine
+@entity0:
+@entity1:1697
+@entity2:Anne Sophie Reventlow
+@entity3:1743
+@entity4:Frederick IV
+@entity5:Denmark
+@entity6:HOLIDAYS & OBSERVANCES
+@entity7:Danish
+@entity8:Queen Margrethe's
+@entity9:April 16

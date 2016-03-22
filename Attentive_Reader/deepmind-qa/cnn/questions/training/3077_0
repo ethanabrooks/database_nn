@@ -1,13 +1,19 @@
-5
+11
 
-@ent2 (    ) was a judge in the trial of @ent1 former president @ent3 who was replaced after allegations of bias .
+he accompanied @entity1 to @entity4 for an article for the magazine @entity2 's , to @entity5 for the magazine running , and illustrated both fear and loathing in @entity8 and fear and loathing on @entity7 @entity3 .
 
-judges : in @ent4 , @ent2 was removed as judge amid charges he was too soft on this notorious defendant
+father of the bride : in @entity6 @entity9 , who took a wild trip to this city with @entity10 , went back to see his daughter wed
 
-@ent3
+@entity8
 
-@ent0:
-@ent1:Iraqi
-@ent2:Abdullah al-Amiri
-@ent3:Saddam Hussein
-@ent4:2006
+@entity0:
+@entity1:Thompson
+@entity2:Scanlan
+@entity3:72
+@entity4:the Kentucky Derby
+@entity5:the Honolulu Marathon
+@entity6:2002
+@entity7:the Campaign Trail '
+@entity8:Las Vegas
+@entity9:Ralph Steadman
+@entity10:Hunter Thompson

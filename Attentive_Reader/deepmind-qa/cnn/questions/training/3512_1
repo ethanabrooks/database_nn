@@ -1,15 +1,21 @@
-7
+13
 
-it is the capital of the canton of @ent5 , which is part of the district of @ent1 .
+  over @entity12 , the @entity1 repeatedly bombarded @entity8 with naval artillery and heavy field artillery along with dive - bombing raids by @entity11 .
 
-@ent2 : during @ent6 in exile , this " @ent4 " author lived for a while in @ent5 ; his house there is now a museum
+world war ii in europe : ( @entity3 of @entity6 reads from @entity10 in @entity8 , @entity7 . )   i 'm in @entity8 , where early on @entity9 , a @entity4 battleship opened fire on this country 's forces & began @entity5
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Diekirch
-@ent2:LUXEMBOURG
-@ent3:Victor Hugo
-@ent4:Les Miserables
-@ent5:Vianden
-@ent6:his years
+@entity0:
+@entity1:Germans
+@entity2:Poland
+@entity3:Jon
+@entity4:German
+@entity5:World War II
+@entity6:the Clue Crew
+@entity7:Germany
+@entity8:Westerplatte
+@entity9:September 1, 1939
+@entity10:the WW II Memorial
+@entity11:Junkers Ju 87 Stukas
+@entity12:the coming days

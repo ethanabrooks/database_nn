@@ -1,21 +1,14 @@
-13
+6
 
-  @ent10 in @ent2 , guitarists @ent3 and @ent7 filed a lawsuit against @ent11 members of @ent6 , singer @ent5 , drummer @ent9 and bassist @ent12 , along with producer @ent4 and attorney @ent1 .
+@entity5 is the debut novel by @entity3 about an eccentric family that lives in a @entity1 fishing village .
 
-rock me : the secret 's out -- this @ent5 group grew out of another band called @ent8
+world literature : " @entity2 " was this @entity4 sequel to " @entity5 "
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:David Mantel
-@ent2:1997
-@ent3:Jay Stanley
-@ent4:Matt Serletic
-@ent5:Rob Thomas
-@ent6:Matchbox 20
-@ent7:John Goff
-@ent8:Tabitha's Secret
-@ent9:Paul Doucette
-@ent10:The Lawsuit
-@ent11:three
-@ent12:Brian Yale
+@entity0:
+@entity1:Massachusetts
+@entity2:The Wapshot Scandal
+@entity3:John Cheever
+@entity4:New Englander's
+@entity5:The Wapshot Chronicle

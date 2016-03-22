@@ -1,31 +1,19 @@
-23
+11
 
-@ent1   may refer to :   mountains    @ent2   @ent1 ( @ent11 ) , in the city of @ent16 ( @ent21 ) , @ent2 , in @ent20 , @ent3 , @ent6    blue mountain , @ent3 , @ent6    @ent4   @ent5 , @ent12 , @ent4 , also known as @ent1 ; home of @ent1 national park nilgiri mountains of south @ent4    @ent18   blue mountain peak , @ent18 , in the blue mountains range    @ent22   @ent1 ( @ent15 ) , in @ent13 blue mountain ( @ent19 ) blue mountain ( @ent17 , @ent19 )   blue mountain ( @ent14 ) , in @ent9   blue mountain , a prominence of @ent1 in @ent7 .
+  college career @entity9 played college football at @entity5 , where he caught @entity7 passes for @entity3 and @entity8 in @entity4 seasons .
 
-placement : you 're on this island if you 're enjoying some @ent1 coffee on the peaks of the same name
+college team nicknames : ( hi , i 'm wide receiver @entity6 )   in @entity10 the @entity1 of this school , my alma mater , had @entity2 of their greatest seasons , going undefeated
 
-@ent18
+@entity5
 
-@ent0:
-@ent1:Kittatinny Mountain
-@ent2:Canada
-@ent3:Pictou County
-@ent4:India
-@ent5:Phawngpui
-@ent6:Nova Scotia
-@ent7:New Jersey
-@ent8:Blue Mountain
-@ent9:Missoula
-@ent10:Kings County
-@ent11:British Columbia
-@ent12:Mizoram
-@ent13:the Ouachita Mountains
-@ent14:Montana
-@ent15:Arkansas
-@ent16:Coquitlam Blue Mountain
-@ent17:San Bernardino County
-@ent18:Jamaica
-@ent19:California
-@ent20:the Niagara Escarpment Blue Mountain
-@ent21:Ontario
-@ent22:United States
+@entity0:
+@entity1:Hokies
+@entity2:one
+@entity3:1,534 yards
+@entity4:three
+@entity5:Virginia Tech
+@entity6:Antonio Freeman
+@entity7:93
+@entity8:16 touchdowns
+@entity9:Freeman
+@entity10:1999

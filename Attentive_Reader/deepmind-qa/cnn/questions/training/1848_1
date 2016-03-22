@@ -1,14 +1,16 @@
-6
+8
 
-  the archipelago was a locus of @ent1 during @ent3 .
+   j. jonah jameson appears in @entity5 2.0 : @entity6 , voiced by @entity7 .
 
-archipelagos : @ent4 is the largest city in this state 's @ent5
+the performer : @entity1 , seriously evil in " oz " , brought it down to " not so nice " as publisher @entity3 in this @entity4 film
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:the Maritime Fur Trade
-@ent2:Alaska
-@ent3:the early 19th century
-@ent4:Sitka
-@ent5:Alexander Archipelago
+@entity0:
+@entity1:J.K. Simmons
+@entity2:Spider-Man
+@entity3:J. Jonah Jameson
+@entity4:2002
+@entity5:Disney Infinity
+@entity6:Marvel Super Heroes
+@entity7:Kyle Hebert

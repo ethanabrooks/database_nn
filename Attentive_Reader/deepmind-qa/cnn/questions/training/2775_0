@@ -1,15 +1,15 @@
 7
 
-latest @ent6 ) is a national @ent1 newspaper published in @ent3 , @ent5 .
+the great dividing range , or the eastern highlands , is @entity2 's most substantial mountain range and the @entity6 longest land - based range in the world .
 
-countries by newspaper : @ent4 , @ent2
+geography : the @entity5 , a part of this continent 's @entity1 , is also known by its @entity4 name , @entity3
 
-@ent5
+@entity2
 
-@ent0:
-@ent1:daily
-@ent2:Yedioth Ahronoth
-@ent3:Tel Aviv
-@ent4:Haaretz
-@ent5:Israel
-@ent6:News
+@entity0:
+@entity1:Great Dividing Range
+@entity2:Australia
+@entity3:Gariwerd
+@entity4:Aboriginal
+@entity5:Grampians
+@entity6:third

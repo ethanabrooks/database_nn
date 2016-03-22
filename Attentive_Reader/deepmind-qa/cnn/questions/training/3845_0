@@ -1,15 +1,16 @@
-7
+8
 
-@ent2 , inc. ( ) is an @ent4 multinational corporation based in @ent6 , @ent5 , that operates in the food industry .
+@entity4 , who suffered from tuberculosis , wintered in @entity2 in @entity6 upon the recommendation of his @entity3 physician dr. @entity1 .
 
-just @ent3 chickens : @ent2 could tell you that this state leads the @ent1 in broiler production
+at home in europe : while living in @entity2 , @entity7 , far from an ocean , he wrapped up " @entity5 "
 
-@ent5
+@entity4
 
-@ent0:
-@ent1:USA
-@ent2:Tyson Foods
-@ent3:US
-@ent4:American
-@ent5:Arkansas
-@ent6:Springdale
+@entity0:
+@entity1:George Balfour
+@entity2:Davos
+@entity3:Edinburgh
+@entity4:Robert Louis Stevenson
+@entity5:Treasure Island
+@entity6:1880
+@entity7:Switzerland

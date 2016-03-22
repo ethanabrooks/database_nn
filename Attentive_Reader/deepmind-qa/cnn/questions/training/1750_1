@@ -1,14 +1,15 @@
-6
+7
 
-  president @ent1 continued to push for increased funds throughout @ent2 .
+  history the @entity1 explored the north of @entity2 some decades after their victory in the capital of the aztecs .
 
-around new york state : now at @ent4 , this author 's study was made to look like a @ent3 riverboat 's pilothouse
+american history : in @entity6 this area asked to separate from @entity5 to become its own @entity3 state
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Cowles
-@ent2:the 1870s
-@ent3:Mississippi
-@ent4:Elmira College
-@ent5:Mark Twain
+@entity0:
+@entity1:Spanish
+@entity2:Mexico
+@entity3:Mexican
+@entity4:Texas
+@entity5:Coahuila
+@entity6:1833

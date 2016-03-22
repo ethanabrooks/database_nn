@@ -1,15 +1,18 @@
-7
+10
 
-@ent3 is a geographic feature in @ent4 national military park , south of the town of @ent4 , @ent5 , that figured prominently in @ent2 , @ent6 to july 3 , 1863 .
+born @entity4 is a play written by @entity2 which premiered on @entity3 in @entity8 , starring @entity1 as @entity6 .
 
-civil war diary : @ent1 : good news , get to keep leg ; bad news , i 'm going to @ent3 for this penn . battle
+clowning around : this " @entity7 " star co - wrote the title tune for the @entity5 film " @entity9 "
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:July 1, 1863
-@ent2:the Battle of Gettysburg
-@ent3:Cemetery Ridge
-@ent4:Gettysburg
-@ent5:Pennsylvania
-@ent6:July 1
+@entity0:
+@entity1:Judy Holliday
+@entity2:Garson Kanin
+@entity3:Broadway
+@entity4:Yesterday
+@entity5:1965
+@entity6:Billie Dawn
+@entity7:Born Yesterday
+@entity8:1946
+@entity9:A Thousand Clowns

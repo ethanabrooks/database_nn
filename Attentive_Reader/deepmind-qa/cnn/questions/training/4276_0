@@ -1,13 +1,14 @@
-5
+6
 
-she was with her boss , @ent2 , as he made the @ent4 film , the most studied record of the assassination .
+actor   @entity5 –
 
-" z"owee ! : @ent3 , this man 's secretary , braced him as he filmed @ent1 's assassination
+celebrity alumni : he wrote his @entity2 complete play , " @entity1 " , while studying at @entity4 ; " @entity3 " came later
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:JFK
-@ent2:Abraham Zapruder
-@ent3:Marilyn Sitzman
-@ent4:Zapruder
+@entity0:
+@entity1:Camel
+@entity2:1st
+@entity3:Glengarry Glen Ross
+@entity4:Goddard College
+@entity5:David Mamet

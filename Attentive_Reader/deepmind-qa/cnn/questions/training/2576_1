@@ -1,13 +1,18 @@
-5
+10
 
-the film won @ent4 best documentary , the @ent3 sports film to do so .
+  @entity6 , @entity4 , and @entity3 , @entity8 @entity1 's fall : narrators and sources of early medieval history .
 
-ski you at the movies : an oscar - winning documentary profiled @ent2 , " the man who skied down " this mountain
+grave matters : in @entity2 otto iii was buried near this king of the @entity9 whose body @entity7 had dug up to pray before
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Mount Everest
-@ent2:Yuichiro Miura
-@ent3:first
-@ent4:the Academy Award for
+@entity0:
+@entity1:Rome
+@entity2:1002
+@entity3:Goffart
+@entity4:Archibald Callander
+@entity5:Charlemagne
+@entity6:Murray
+@entity7:Otto
+@entity8:Walter A. After
+@entity9:Franks

@@ -1,19 +1,14 @@
-11
+6
 
-@ent3 ( born @ent1 ) is an @ent9 politician and member of @ent4 , who served as the 63rd mayor of @ent8 , @ent5 .
+he was a @entity3 senator from @entity2 from @entity4 until @entity1 .
 
-mayors : @ent2 of this @ent10 city is the @ent6 @ent7 mayor of a major @ent5 city since statehood
+people : senator @entity5 of this state was formerly a top - ranked judo champion
 
-@ent8
+@entity2
 
-@ent0:
-@ent1:1951
-@ent2:Ron Gonzales
-@ent3:Ronald R. Gonzales
-@ent4:the Democratic Party
-@ent5:California
-@ent6:first
-@ent7:Latino
-@ent8:San Jose
-@ent9:American
-@ent10:Silicon Valley
+@entity0:
+@entity1:2005
+@entity2:Colorado
+@entity3:U.S.
+@entity4:1993
+@entity5:Ben Nighthorse Campbell

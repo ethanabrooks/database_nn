@@ -1,13 +1,15 @@
-5
+7
 
-the label was founded in @ent1 by @ent4 .
+denpasar ( @entity6 : @entity4 , ) is the capital of @entity2 .
 
-let 's be frank : this founder of @ent3 was the leader of @ent2
+around the world , @entity5 style : my travels took me to this @entity6 island 's provincial capital of @entity3 where the winds blow hot , east of @entity1
 
-@ent4
+@entity2
 
-@ent0:
-@ent1:1981
-@ent2:the Mothers of Invention
-@ent3:Barking Pumpkin Records
-@ent4:Frank Zappa
+@entity0:
+@entity1:Java
+@entity2:Bali
+@entity3:Denpasar
+@entity4:Kota Denpasar
+@entity5:J. PETERMAN
+@entity6:Indonesian

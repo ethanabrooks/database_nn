@@ -1,16 +1,13 @@
-8
+5
 
-@ent2 macy ( @ent3 @ent6 ) , better known as @ent7 , was an @ent4 teacher , best known for being the instructor and lifelong companion of @ent1 .
+city of @entity2 official map it is south of the neighborhoods of @entity3 and the roads and east of @entity1 .
 
-humanitarians : her parents asked @ent5 about a teacher for their daughter ; @ent7 was soon hired
+miami : great shopping can be found in @entity4 or in this area with the same initials to the west
 
-@ent1
+@entity1
 
-@ent0:
-@ent1:Helen Keller
-@ent2:Johanna "Anne" Mansfield Sullivan
-@ent3:April 14, 1866 –
-@ent4:American
-@ent5:Alexander Graham Bell
-@ent6:October 20, 1936
-@ent7:Anne Sullivan
+@entity0:
+@entity1:Coral Gables
+@entity2:Miami
+@entity3:Brickell
+@entity4:Coconut Grove

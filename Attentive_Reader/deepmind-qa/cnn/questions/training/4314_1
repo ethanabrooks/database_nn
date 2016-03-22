@@ -1,13 +1,17 @@
-5
+9
 
-  quotes
+accessed @entity2 . "
 
-photography : @ent3 shot this magazine 's @ent4 anniversary centerfold , @ent2
+stupid answers at the movies : @entity1 wrote , directed & starred in this @entity6 film about @entity8 brothers : @entity7 , @entity3 & @entity4
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Playboy
-@ent2:Anna-Marie Goddard
-@ent3:Arny Freytag
-@ent4:40th
+@entity0:
+@entity1:Edward Burns
+@entity2:October 10, 2007
+@entity3:Barry
+@entity4:Patrick McMullen
+@entity5:The Brothers McMullen
+@entity6:1995
+@entity7:Jack
+@entity8:3

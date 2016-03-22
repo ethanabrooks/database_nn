@@ -1,16 +1,18 @@
-8
+10
 
-  the earliest recorded occurrence of the name @ent3 , in @ent6 , refers to the disciple " @ent3 the wife of @ent2 , " who was an associate of @ent7 .
+madama butterfly ( ; @entity3 ) is an opera in @entity5 acts ( originally @entity2 ) by @entity1 , with an @entity8 libretto by @entity7 and @entity4 .
 
-@ent1 people : in @ent5 , @ent4 is followed by @ent3 , susanna & this devoted woman out of whom devils were cast
+composers : he revised " @entity3 " in the weeks following its less - than-successful @entity6 premiere
 
-@ent7
+@entity1
 
-@ent0:
-@ent1:BIBLICAL
-@ent2:Chuza
-@ent3:Joanna
-@ent4:Jesus
-@ent5:Luke 8
-@ent6:Luke 8:3
-@ent7:Mary Magdalene
+@entity0:
+@entity1:Giacomo Puccini
+@entity2:two
+@entity3:Madame Butterfly
+@entity4:Giuseppe Giacosa
+@entity5:three
+@entity6:La Scala
+@entity7:Luigi Illica
+@entity8:Italian
+@entity9:Madama Butterfly

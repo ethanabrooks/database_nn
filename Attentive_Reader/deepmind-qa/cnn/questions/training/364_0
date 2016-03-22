@@ -1,17 +1,15 @@
-9
+7
 
-pontypridd   is both a community and a principal town of @ent4 , @ent2 , and is situated @ent7 miles/19   km north of the @ent6 capital city of @ent3 .
+@entity5 is a @entity1 national park located between @entity2 and @entity2 at the north end of the @entity4 .
 
-tom jones : @ent8 was born the son of a coal miner in @ent1 in this @ent5 country
+@entity3 : @entity5 , along @entity2 , is the smallest of this country 's national parks
 
-@ent2
+@entity1
 
-@ent0:
-@ent1:Pontypridd
-@ent2:Wales
-@ent3:Cardiff
-@ent4:Rhondda Cynon Taf
-@ent5:U.K.
-@ent6:Welsh
-@ent7:12
-@ent8:Tom
+@entity0:
+@entity1:New Zealand
+@entity2:Tasman Bay
+@entity3:NATIONAL PARKS OF THE WORLD
+@entity4:South Island
+@entity5:Abel Tasman National Park
+@entity6:Golden Bay

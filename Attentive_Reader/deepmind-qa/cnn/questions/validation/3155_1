@@ -1,16 +1,12 @@
-8
+4
 
-  on his @ent1 expedition , he visited @ent2 , the former capital of siam ( already charted territory ) , and gathered an extensive collection of insects , terrestrial and river shells , and sent them on to @ent5 .
+they are , moreover , useless , their aesthetic value not entering into the equation .
 
-exploration : on a trip in this country in @ent3 @ent7 set angkor , finding @ent6
+@entity3 , a wise guy : his " @entity2 " influenced the declaration of independence with all its talk of rights
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1st
-@ent2:Ayutthaya
-@ent3:1860
-@ent4:Cambodia
-@ent5:England
-@ent6:Wat & Thom
-@ent7:Henri Mouhot
+@entity0:
+@entity1:John Locke
+@entity2:Two Treatises of Government
+@entity3:OOH

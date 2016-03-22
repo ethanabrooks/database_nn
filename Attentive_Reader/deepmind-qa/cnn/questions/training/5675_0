@@ -1,15 +1,17 @@
-7
+9
 
-@ent6 ( born @ent1 ) is an @ent4 novelist and screenwriter , best known as the creator of the fictional character @ent2 , and a sequence of novels and films beginning with the life of a thirtysomething singleton in @ent5 trying to make sense of life and love .
+@entity3 served as the @entity1 governor of @entity5 from @entity2 to @entity8 .
 
-british fictional characters : self - described " @ent3 " whose bestselling " diary " was concocted by @ent6
+politicians : @entity7 was governor of this state from @entity2 to @entity8 & later served as @entity4 ambassador to the @entity6
 
-@ent2
+@entity5
 
-@ent0:
-@ent1:19 February 1958
-@ent2:Bridget Jones
-@ent3:singleton
-@ent4:English
-@ent5:London
-@ent6:Helen Fielding
+@entity0:
+@entity1:38th
+@entity2:1963
+@entity3:Scranton
+@entity4:U.S.
+@entity5:Pennsylvania
+@entity6:U.N.
+@entity7:William Scranton
+@entity8:1967

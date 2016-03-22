@@ -1,19 +1,16 @@
-11
+8
 
-@ent2 may refer to :    places    @ent2 , @ent7 , a town close to @ent9 , in @ent5   @ent4 , a village within @ent10 , in @ent7 , @ent5 .
+  legacy and honors numerous landmarks , including @entity1 counties in @entity7 , @entity4 , and @entity6 , were named after him .
 
-@ent8 lit : she dedicated her book @ent1 to @ent6 , who played miss @ent2 in several films
+@entity5 americans : in the mid-1830s @entity1 , a leader in this tribe , waged guerrilla warfare against @entity2 troops in the everglades
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:"The Mirror Crack'd"
-@ent2:Marple
-@ent3:Agatha Christie
-@ent4:Marple Bridge
-@ent5:England
-@ent6:Margaret Rutherford
-@ent7:Greater Manchester
-@ent8:BRIT
-@ent9:Stockport
-@ent10:the Metropolitan Borough of Stockport
+@entity0:
+@entity1:Osceola
+@entity2:U.S.
+@entity3:Seminole
+@entity4:Iowa
+@entity5:NATIVE
+@entity6:Michigan
+@entity7:Florida

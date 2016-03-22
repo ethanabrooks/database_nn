@@ -1,15 +1,17 @@
-7
+9
 
-  @ent2 , dated by archaeologists to @ent6 - 2300 bc , was one of the earliest settlements in @ent5 that were protected by stone walls with rounded bastions .
+@entity1 ( @entity6   – @entity4 ) was the founder of the @entity7 sportswear company @entity5 , and the younger brother of @entity2 , founder of @entity8 .
 
-" g"eography : @ent1 , skyros & skiathos are just @ent4 of this @ent3 country 's many islands
+pop culture : this sneakers & sportswear brand was named for its creator , @entity2
 
-@ent5
+@entity5
 
-@ent0:
-@ent1:Syros
-@ent2:Kastri
-@ent3:Balkan
-@ent4:3
-@ent5:Greece
-@ent6:2800
+@entity0:
+@entity1:Adolf "Adi" Dassler
+@entity2:Rudolf Dassler
+@entity3:Adolf Dassler
+@entity4:6 September 1978
+@entity5:Adidas
+@entity6:3 November 1900
+@entity7:German
+@entity8:Puma

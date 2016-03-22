@@ -1,13 +1,17 @@
-5
+9
 
-  act 2   scene @ent4 .
+a humanist family , they had @entity4 children ; @entity3 is now deceased .
 
-oh , no !   opera ! : she wrote the libretto for " @ent2 " ; maybe that 's why it features a character named " @ent1 "
+famous norwegians : @entity8 , @entity6 's @entity2 woman @entity5 , became director of this @entity7 agency for global well - being
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Gertrude S.
-@ent2:The Mother of Us All
-@ent3:Gertrude Stein
-@ent4:1
+@entity0:
+@entity1:the World Health Organization
+@entity2:first
+@entity3:one
+@entity4:four
+@entity5:P.M.
+@entity6:Norway
+@entity7:U.N.
+@entity8:Gro Harlem Brundtland

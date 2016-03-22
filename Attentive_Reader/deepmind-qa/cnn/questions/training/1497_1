@@ -1,11 +1,15 @@
-3
+7
 
-  activities and amenities the park offers a visitors center , a , wheelchair - accessible boardwalk , and a   meadow used for picnicking , concerts , and arts & crafts fairs .
+the movie version of the book 's predecessor , @entity2 , incorporates several of the story lines in @entity6 .
 
-states by state parks : @ent2
+@entity3 : the musical " @entity4 " was set in @entity5 based on this author 's novel " @entity6 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Massachusetts
-@ent2:Fall River Heritage State Park
+@entity0:
+@entity1:John Steinbeck
+@entity2:Cannery Row
+@entity3:RODGERS & HAMMERSTEIN
+@entity4:Pipe Dream
+@entity5:Cannery Row &
+@entity6:Sweet Thursday

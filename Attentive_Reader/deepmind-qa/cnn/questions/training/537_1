@@ -1,12 +1,19 @@
-4
+11
 
-the realistically rendered paintings depict human sacrifices , musicians and scenes of the royal court .
+  @entity7 –
 
-where 's my coffee ? : @ent2 's best coffee comes from @ent1 , a state that borders this noted coffee - growing nation
+@entity3 , @entity8 , @entity6 : born in @entity5 in @entity2 , this @entity9 violin virtuoso led a ' @entity1 fight to save @entity10 from demolition
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Chiapas
-@ent2:Mexico
-@ent3:Guatemala
+@entity0:
+@entity1:60s
+@entity2:1920
+@entity3:ABRAHAM
+@entity4:Isaac Stern
+@entity5:Ukraine
+@entity6:JACOB
+@entity7:May 3
+@entity8:ISAAC
+@entity9:American
+@entity10:Carnegie Hall

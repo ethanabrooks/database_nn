@@ -1,17 +1,18 @@
-9
+10
 
-he participated in the @ent1   @ent5 military takeover of @ent3 and the battle of @ent8 .
+@entity8 's politics were unacceptable to the @entity3 : @entity2 was a staunch @entity5 , whereas @entity8 was an ardent supporter of @entity4 nor was his lack of fortune in his favour .
 
-soviet bloc heads : gen. @ent2 was military dictator of @ent7 when @ent6 headed this organization
+opera women : @entity9 's this woman " di lammermoor " was based on @entity1 " @entity7 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1945
-@ent2:Wojciech Jaruzelski
-@ent3:Warsaw
-@ent4:Solidarity
-@ent5:Soviet
-@ent6:Lech Walesa
-@ent7:Poland
-@ent8:Berlin
+@entity0:
+@entity1:Walter Scott's
+@entity2:Lord Stair
+@entity3:Dalrymples
+@entity4:Charles II.
+@entity5:Whig
+@entity6:Lucia
+@entity7:The Bride of Lammermoor
+@entity8:Rutherfurd
+@entity9:Donizetti

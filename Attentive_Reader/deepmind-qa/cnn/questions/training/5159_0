@@ -1,17 +1,12 @@
-9
+4
 
-@ent5 founds @ent6 , @ent8 .
+" @entity1 " ( @entity2 : den standhaftige tinsoldat ) is a literary fairy tale by @entity3 about a tin soldier 's love for a paper ballerina .
 
-" b " in geography : this southern @ent7 capital city 's @ent4 @ent3 visitor was @ent1 in @ent2
+ballet : " @entity1 " is based on a fairy tale by this famous dane
 
-@ent6
+@entity3
 
-@ent0:
-@ent1:Pedro de Mendoza
-@ent2:1536
-@ent3:European
-@ent4:first
-@ent5:Spaniard Pedro de Mendoza
-@ent6:Buenos Aires
-@ent7:South American
-@ent8:Argentina
+@entity0:
+@entity1:The Steadfast Tin Soldier
+@entity2:Danish
+@entity3:Hans Christian Andersen

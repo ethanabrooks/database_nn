@@ -1,16 +1,13 @@
-8
+5
 
-  the @ent3 film @ent5 is set at a fictional neo - burlesque club on @ent2 .
+@entity4 had a very strained relationship with his father , and was decidedly closer to his mother .
 
-@ent4 : @ent7 address of detectives @ent1 & jeff spencer
+tv stars : this actor who plays dr. @entity2 on " er " became the @entity3 cast member to direct an episode
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Stu Bailey
-@ent2:the Sunset Strip
-@ent3:2010
-@ent4:BLACK & WHITE TV
-@ent5:Burlesque
-@ent6:77
-@ent7:Sunset Strip
+@entity0:
+@entity1:Anthony Edwards
+@entity2:Mark Greene
+@entity3:first
+@entity4:Mark

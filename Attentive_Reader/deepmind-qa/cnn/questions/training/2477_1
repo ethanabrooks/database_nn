@@ -1,16 +1,15 @@
-8
+7
 
-@ent2 ( @ent7 ) " @ent1 " .
+" this convinces @entity6 that @entity4 is actually the inspector .
 
-around the world : in @ent4 soccer 's @ent5 joined this country 's national team when he was only @ent3
+do tell the hotel : episodes of this @entity3 sitcom included " @entity5 " & " @entity2 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Maradona: The Hand of God
-@ent2:Jimmy Burns
-@ent3:16 years old
-@ent4:1976
-@ent5:Diego Maradona
-@ent6:Argentina
-@ent7:2011
+@entity0:
+@entity1:Fawlty Towers
+@entity2:Basil the Rat
+@entity3:British
+@entity4:Walt
+@entity5:The Hotel Inspectors
+@entity6:Basil

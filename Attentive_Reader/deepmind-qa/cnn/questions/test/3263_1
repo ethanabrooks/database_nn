@@ -1,14 +1,15 @@
-6
+7
 
-  @ent4 immigrant .
+  plot summary @entity6 summons @entity4 to a community in @entity5 , where a local landowner has been murdered outdoors .
 
-fictional characters : @ent3 is a bee hunter who ends up as a congressman in his @ent1 novel " @ent5 "
+mystery ! : @entity2 played this consulting detective in programs like " @entity1 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:1820s
-@ent2:James Fenimore Cooper
-@ent3:Paul Hover
-@ent4:Ishmael Bush - Rugged
-@ent5:The Prairie
+@entity0:
+@entity1:The Boscombe Valley Mystery
+@entity2:Jeremy Brett
+@entity3:Sherlock Holmes
+@entity4:Holmes
+@entity5:Herefordshire
+@entity6:Lestrade

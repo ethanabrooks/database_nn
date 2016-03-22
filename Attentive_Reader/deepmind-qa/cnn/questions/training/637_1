@@ -1,16 +1,13 @@
-8
+5
 
-however , this goal is not due to be completed for @ent5 .
+the postscript to the book , written soon after the initial injury , gives @entity4 's account of what happened , as well as his hopes for a comeback .
 
-science fiction : in " @ent2 " , @ent3 sequel to this @ent4 novel , the hero travels to @ent7 a.d. to rescue @ent6
+autobiographies : this sports star tells all in his @entity2 autobiography , " @entity3 "
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:The Time Machine
-@ent2:The Time Ships
-@ent3:Stephen Baxter's
-@ent4:H.G. Wells
-@ent5:a million years
-@ent6:Weena
-@ent7:802,701
+@entity0:
+@entity1:Bo Jackson
+@entity2:1990
+@entity3:Bo Knows Bo
+@entity4:Jackson

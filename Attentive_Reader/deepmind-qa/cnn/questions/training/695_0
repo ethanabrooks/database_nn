@@ -1,19 +1,18 @@
-11
+10
 
-  in @ent7 , @ent1 married actress and screenwriter @ent2 , with whom he had @ent10 daughters : @ent3 ( b. @ent7 ) and actress @ent4 ( b. @ent8 ) .
+she won a primetime emmy award for outstanding lead actress in a miniseries or a @entity6 and received @entity5 nomination for her performance as @entity1 in the @entity3 biographical drama film @entity9 ( @entity4 ) .
 
-a.k.a. : this star of the film " @ent5 " was born @ent3 ; her father was " combat " star @ent6
+moved to france : the story of this dancer who became a @entity2 citizen in @entity7 was made into a telepic starring @entity8
 
-@ent4
+@entity1
 
-@ent0:
-@ent1:Morrow
-@ent2:Barbara Turner
-@ent3:Jennifer Leigh Morrow
-@ent4:Jennifer Jason Leigh
-@ent5:Georgia
-@ent6:Vic Morrow
-@ent7:1958
-@ent8:1962
-@ent9:Carrie Ann Morrow
-@ent10:two
+@entity0:
+@entity1:Josephine Baker
+@entity2:French
+@entity3:HBO
+@entity4:1991
+@entity5:Golden Globe Award
+@entity6:Movie
+@entity7:1937
+@entity8:Lynn Whitfield
+@entity9:The Josephine Baker Story

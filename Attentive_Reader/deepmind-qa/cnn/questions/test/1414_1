@@ -1,17 +1,15 @@
-9
+7
 
-  @ent2 did play the song for @ent5 while they were in @ent7 together .
+  infrastructure rail kalutara has @entity1 railway stations , @entity2 and @entity6 .
 
-under the covers : @ent3 cover version of this group 's " @ent8 " hit no . @ent4 in the @ent1
+look out below : you can see the tsunami pulling back out to sea after it struck at @entity4 , south of @entity5 on this island
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:U.K.
-@ent2:Lennon
-@ent3:Siouxie & the Banshees'
-@ent4:3
-@ent5:Farrow
-@ent6:Beatles
-@ent7:India
-@ent8:Dear Prudence
+@entity0:
+@entity1:two
+@entity2:Kalutara North
+@entity3:Sri Lanka
+@entity4:Kalutara
+@entity5:Colombo
+@entity6:Kalutara South

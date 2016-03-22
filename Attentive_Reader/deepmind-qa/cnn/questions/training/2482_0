@@ -1,16 +1,20 @@
-8
+12
 
-  in @ent4 , the veteran reporter became the co - anchor of the abc evening @ent7 , first with @ent6 , then the following year with another @ent2 alumnus , @ent3 .
+@entity7 , @entity8 ( born @entity1 @entity10 ) is an @entity4 former politician from @entity9 , @entity5 .
 
-call me harry : this man co - anchored the @ent5 news with @ent1
+split : the @entity11 @entity2 money was split between @entity7 & @entity3 for their work in this part of the @entity6
 
-@ent3
+@entity5
 
-@ent0:
-@ent1:Howard K. Smith
-@ent2:CBS
-@ent3:Harry Reasoner
-@ent4:1969
-@ent5:ABC
-@ent6:Frank Reynolds
-@ent7:News
+@entity0:
+@entity1:18
+@entity2:Nobel Peace Prize
+@entity3:David Trimble
+@entity4:Irish
+@entity5:Northern Ireland
+@entity6:U.K.
+@entity7:John Hume
+@entity8:KCSG
+@entity9:Derry
+@entity10:January 1937
+@entity11:1998

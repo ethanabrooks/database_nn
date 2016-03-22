@@ -1,14 +1,17 @@
-6
+9
 
-hermine is a feminine form of @ent3 .
+  @entity1 , @entity2 , @entity6 ( since @entity4 )
 
-tales : in this @ent1 work , @ent4 meets a doppelganger of himself named @ent2
+international : a castle built by @entity7 dominates the port of @entity3 on this island nation near @entity8
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Hesse
-@ent2:Hermine
-@ent3:Herman
-@ent4:Harry Haller
-@ent5:Steppenwolf
+@entity0:
+@entity1:Muratpaşa
+@entity2:Antalya
+@entity3:Kyrenia
+@entity4:2009
+@entity5:Cyprus
+@entity6:Turkey
+@entity7:Crusaders
+@entity8:Lebanon

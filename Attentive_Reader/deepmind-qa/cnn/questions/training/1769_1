@@ -1,13 +1,13 @@
 5
 
-( @ent2 ) .
+he holds the club record for games , innings pitched , and career wins with @entity2 .
 
-world history : the @ent1 were a @ent4 force battling the government of this country
+shots heard around the world : his " called shot " home run off @entity1 in the 1932 @entity3 is baseball legend
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Contras
-@ent2:1987
-@ent3:Nicaragua
-@ent4:U.S.-backed
+@entity0:
+@entity1:Charlie Root
+@entity2:201
+@entity3:World Series
+@entity4:Babe Ruth

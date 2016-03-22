@@ -1,14 +1,19 @@
-6
+11
 
-@ent2 , named after the mayor @ent5 .
+major roads include @entity10 routes e70 to @entity3 and @entity6 to @entity1 and @entity7 , @entity2 ; national motorways a-2 ( hemus motorway ) to @entity5 and a-5 ( cherno more motorway ) to @entity4 .
 
-around the world : pope @ent3 was born in the city of @ent4 in this country
+countries of the world : you 'll find this country 's major airports in @entity9 , burgas & sofia
 
-@ent0
+@entity0
 
-@ent0:
-@ent1:Poland
-@ent2:19th century
-@ent3:John Paul II
-@ent4:Wadowice
-@ent5:Mikołaj Komorowski
+@entity0:
+@entity1:Istanbul
+@entity2:Romania
+@entity3:Bucharest
+@entity4:Burgas
+@entity5:Sofia
+@entity6:E87
+@entity7:Constanta
+@entity8:Bulgaria
+@entity9:Varna
+@entity10:European
