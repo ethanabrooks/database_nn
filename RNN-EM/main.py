@@ -1,4 +1,5 @@
 import argparse
+import copy
 
 import re
 
@@ -30,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=20,
+    parser.add_argument('--num_questions', type=int, default=100,
                         help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
@@ -124,8 +125,8 @@ if __name__ == '__main__':
         vocsize = nclasses = len(dic)
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
         if s.debug:
-            test = train.copy()
-            valid = train.copy()
+            test = copy.deepcopy(train)
+            valid = copy.deepcopy(train)
 
     else:
         train_set, valid_set, test_set, dic = load.atisfold(s.fold)
