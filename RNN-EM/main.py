@@ -3,7 +3,7 @@ import copy
 
 import re
 
-import numpy
+import numpy as np
 import time
 import sys
 import subprocess
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
     parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
     parser.add_argument('--seed', type=int, default=345, help='Seed')
-    parser.add_argument('--bs', type=int, default=8, help='Number of backprop through time steps')
+    parser.add_argument('--bs', type=int, default=64, help='Number of backprop through time steps')
     parser.add_argument('--win', type=int, default=7, help='Number of words in context window')
     parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
     parser.add_argument('--lr', type=float, default=0.0627142536696559, help='Learning rate')
@@ -63,8 +63,9 @@ if __name__ == '__main__':
 
 
         def to_array(string):
-            tokens = [token.lower_ for token in tokenizer(unicode(string, 'utf-8'))]
-            sentence_vector = numpy.empty(len(tokens), dtype=int)
+            tokens = [token.lower_.encode('unicode-escape')
+                      for token in tokenizer(unicode(string, 'utf-8'))]
+            sentence_vector = np.empty(len(tokens), dtype=int)
             for i, word in enumerate(tokens):
                 sentence_vector[i] = to_int(word)
             return sentence_vector
@@ -72,12 +73,14 @@ if __name__ == '__main__':
 
         def to_instance(line, answer=None):
             inpt = to_array(line)
-            target = numpy.zeros_like(inpt)
+            target = np.zeros_like(inpt)
             if answer is not None:
                 answer_array = to_array(answer)
-                pad = numpy.zeros_like(answer_array)
-                inpt, target = (numpy.r_[start, end] for (start, end)
-                                in [(inpt, pad), (target, answer_array)])
+                answer_length = answer_array.size
+                for i in range(inpt.size - answer_length):
+                    idxs = np.arange(i, i + answer_length)
+                    if np.array_equal(inpt[idxs], answer_array):
+                        target[idxs] = 1
             return inpt, target
 
 
@@ -87,7 +90,7 @@ if __name__ == '__main__':
 
 
         num_questions = 0
-        with open(root_dir + "nn_output") as inputs:
+        with open(root_dir + "wiki.dat") as inputs:
             for line in inputs:
                 if new_question:
                     num_questions += 1
@@ -96,11 +99,11 @@ if __name__ == '__main__':
                     else:
                         # determine train, valid, or test
                         random_num = random.random()
-                        if random_num < .7:  # 70% percent of the time
+                        if random_num < .7 or not train_y:  # 70% percent of the time
                             set = train
-                        elif random_num < .8:  # 10% percent of the time
+                        if .7 <= random_num < .8 or not valid_y:  # 10% percent of the time
                             set = valid
-                        else:  # 20% percent of the time
+                        if .8 <= random_num or not test_y:  # 20% percent of the time
                             set = test
                     lex, y = set
 
@@ -112,10 +115,11 @@ if __name__ == '__main__':
                     remaining_sentences = int(next(inputs))
                     input_target_tuples = []
                     new_question = False
+                    input_target_tuples.append(instance)
                 else:
                     remaining_sentences -= 1
-                    instance = to_instance(line)
-                input_target_tuples.append(instance)
+                #     instance = to_instance(line)
+                # input_target_tuples.append(instance)
                 if not remaining_sentences:
                     new_question = True
                     # set target of eos for answer sentence to answer
@@ -124,12 +128,15 @@ if __name__ == '__main__':
                         append_to_set(instance)
                     if num_questions >= s.num_questions:
                         break
-        vocsize = nclasses = len(dic)
-        idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
+        vocsize = len(dic)
+        nclasses = 2
+        idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
+        idx2label = {0: '0', 1: '1'}
         if s.debug:
-            test = copy.deepcopy(train)
-            valid = copy.deepcopy(train)
+            test_lex = valid_lex = train_lex
+            test_y = valid_y = train_y
 
+        print "number of questions:", num_questions
     else:
         train_set, valid_set, test_set, dic = load.atisfold(s.fold)
         idx2label = dict((k, v) for v, k in dic['labels2idx'].iteritems())  # {numeric code: label}
@@ -154,10 +161,9 @@ if __name__ == '__main__':
     nsentences = len(train_lex)  # perhaps train_lex is a list of sentences
     print "size of dictionary:", vocsize
     print "number of sentences:", nsentences
-    print "number of questions:", num_questions
 
-    # instanciate the RNN-EM
-    numpy.random.seed(s.seed)
+    # instantiate the RNN-EM
+    np.random.seed(s.seed)
     random.seed(s.seed)
     rnn = model(nh=s.hidden_size,
                 nc=nclasses,
@@ -168,7 +174,7 @@ if __name__ == '__main__':
                 n_memory_slots=s.n_memory_slots)
 
     # train with early stopping on validation set
-    best_f1 = -numpy.inf
+    best_f1 = -np.inf
     s.clr = s.lr
     for e in xrange(s.n_epochs):
         # shuffle
@@ -178,7 +184,7 @@ if __name__ == '__main__':
         tic = time.time()
         for i in xrange(nsentences):  # for each sentence
             cwords = contextwin(train_lex[i], s.win)
-            words = map(lambda x: numpy.asarray(x).astype('int32'),
+            words = map(lambda x: np.asarray(x).astype('int32'),
                         minibatch(cwords, s.bs))
             labels = train_y[i]
             for word_batch, label_last_word in zip(words, labels):
@@ -191,15 +197,19 @@ if __name__ == '__main__':
 
         # evaluation // back into the real world : idx -> words
 
-        predictions_test = [map(lambda x: idx2label[x],
-                                rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32')))
-                            for x in test_lex]
+        predictions_test = []
+        raw_predictions = []
+        for x in test_lex:
+            raw_prediction = rnn.classify(np.asarray(contextwin(x, s.win)).astype('int32'))
+            raw_predictions.append(raw_prediction)
+            predictions_test.append(map(lambda x: idx2label[x],
+                                        raw_prediction))
 
         groundtruth_test = [map(lambda x: idx2label[x], y) for y in test_y]
         words_test = [map(lambda x: idx2word[x], w) for w in test_lex]
 
         predictions_valid = [map(lambda x: idx2label[x],
-                                 rnn.classify(numpy.asarray(contextwin(x, s.win)).astype('int32')))
+                                 rnn.classify(np.asarray(contextwin(x, s.win)).astype('int32')))
                              for x in valid_lex]
         groundtruth_valid = [map(lambda x: idx2label[x], y) for y in valid_y]
         words_valid = [map(lambda x: idx2word[x], w) for w in valid_lex]
@@ -219,9 +229,10 @@ if __name__ == '__main__':
             subprocess.call(['mv', folder + '/current.test.txt', folder + '/best.test.txt'])
             subprocess.call(['mv', folder + '/current.valid.txt', folder + '/best.valid.txt'])
 
-            print('Predictions: ')
-            for prediction in predictions_test:
-                print(' '.join(prediction))
+        # print('Predictions: ')
+        # for raw_prediction, prediction in zip(raw_predictions, predictions_test):
+        #     print(raw_prediction)
+        #     print(' '.join(prediction))
 
         else:
             print ''

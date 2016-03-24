@@ -124,12 +124,15 @@ class model(object):
         self.M = M
 
         p_y_given_x_lastword = s[-1, 0, :]
+        p_y_given_x_lastword_print = theano.printing.Print('p(y|x) last word')(p_y_given_x_lastword)
         p_y_given_x_sentence = s[:, 0, :]
         y_pred = T.argmax(p_y_given_x_sentence, axis=1)
+        y_pred_print = theano.printing.Print('y_pred')(y_pred)
 
         # cost and gradients and learning rate
         lr = T.scalar('lr')
         nll = -T.mean(T.log(p_y_given_x_lastword)[y])
+        nll_print = theano.printing.Print('negative log likelihood: ')(nll)
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
