@@ -95,13 +95,15 @@ def read_question_answer_pair(filename, nlp_parser):
     d = []
     for line in lines:
         decoded_line = line.strip()
-        l = decoded_line.split('|')
+        l = decoded_line.decode('utf-8').split('|')
         question = l[0]
         answer = l[1]
         entities = get_ents_from_string(nlp_parser(l[0]))
         # stores a list of the entity texts
         entities = [ent.text for ent in entities]
         d.append(jeopardy_obj(question, answer, entities))
+
+        print('len of d: ' + str(len(d)))
         # for entity in entities:
         #     # does not account for the fact that the same entity can appear in different questions!
         #     # Also entities are indexed by their lowercase forms (not case sensitive)
@@ -113,7 +115,7 @@ def read_question_answer_pair(filename, nlp_parser):
 # Class that extends ContentHandler
 # Ignores cases when comparing to document
 class WikiContentHandler(xml.sax.ContentHandler):
-    def __init__(self, nlp_parser, entity_pairs):
+    def __init__(self, nlp_parser, entity_pairs, output):
         xml.sax.ContentHandler.__init__(self)
         self.nlp_parser = nlp_parser
         # entity_answer pairs from read_entity_answer_pair function
@@ -132,6 +134,7 @@ class WikiContentHandler(xml.sax.ContentHandler):
 
         # Keep track of the current matched entity (title) and text
         self.current_entity_text = ''
+        self.output = output
 
     # Removes wikipedia markup using external library
     def clean_markup(self, content):
@@ -150,6 +153,7 @@ class WikiContentHandler(xml.sax.ContentHandler):
             matched_obj.has_matched = True
             matched_obj.store_correct_sents(correct_sents)
             matched_obj.store_wrong_sents(incorrect_sents)
+            # print('matched correct sentences: incorrect len: ' + str(len(matched_obj.wrong_sents)))
         return
 
     def startElement(self, name, attrs):
@@ -166,11 +170,15 @@ class WikiContentHandler(xml.sax.ContentHandler):
 
             # If entity has been matched, reset state
             if self.entity_flag:
-                print('ended current matched')
                 for matched_obj in self.current_matched_obj:
+                    # print('updating question: ' + matched_obj.question)
                     self.update_entity_from_wiki_text(matched_obj)
+                    if matched_obj.has_matched:
+                        s = matched_obj.get_qa_string()
+                        self.output.write(s + '\n')
                 self.entity_flag = False
                 self.current_matched_obj = []
+                self.current_entity_text = ''
         elif name == 'title':
             self.title_flag = False
         elif name == 'text':
@@ -185,9 +193,10 @@ class WikiContentHandler(xml.sax.ContentHandler):
                     continue
                 for ent in obj.entities:
                     if ent.lower().strip() == title.strip():
-                        print('matched: ' + title.strip())
+                        # print('matched obj for: ' + title.strip())
                         self.entity_flag = True
                         self.current_matched_obj.append(obj)
+                        # print('len of array: ' + str(len(self.current_matched_obj)))
                         break
         elif self.text_flag:
             if self.entity_flag:
@@ -198,7 +207,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 4:
         print('Not enough arguments given', file=sys.stderr)
         sys.exit()
-
+    print('starting')
     input_filename = sys.argv[1]
     xml_sourcename = sys.argv[2]
     output_filename = sys.argv[3]
@@ -206,23 +215,19 @@ if __name__ == '__main__':
 
     nlp_parser = English()
     d = read_question_answer_pair(input_filename, nlp_parser)
-    print('finished reading')
+    print('finished reading question answers')
+
     source = open(xml_sourcename)
-    handler = WikiContentHandler(nlp_parser, d)
+    output = io.open(output_filename, 'w+', encoding='utf-8')
+    handler = WikiContentHandler(nlp_parser, d, output)
     xml.sax.parse(source, handler)
 
-    pairs = handler.entity_pairs
-
-    print('len: ' + str(len(pairs)))
-
     print('finished parsing')
-    output = io.open(output_filename, 'w+', encoding='utf-8')
+
+    pairs = handler.entity_pairs
     output_2 = io.open(output2_filename, 'w+', encoding='utf-8')
 
     for obj in pairs:
-        if obj.has_matched:
-            s = obj.get_qa_string()
-            output.write(s + '\n')
-        else:
+        if not obj.has_matched:
             output_2.write(obj.question + '\n' + 'Not matched' + '\n')
     source.close()
