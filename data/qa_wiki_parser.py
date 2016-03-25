@@ -119,7 +119,7 @@ class WikiContentHandler(xml.sax.ContentHandler):
         # entity_answer pairs from read_entity_answer_pair function
         self.entity_pairs = entity_pairs
 
-        self.current_matched_obj = None
+        self.current_matched_obj = []
 
         # Page check
         self.page_flag = False
@@ -139,17 +139,17 @@ class WikiContentHandler(xml.sax.ContentHandler):
         return clean_code
 
     # Updates the entity/object pair by storing the correct/wrong sentence results
-    def update_entity_from_wiki_text(self):
+    def update_entity_from_wiki_text(self, matched_obj):
         wiki_text = self.clean_markup(self.current_entity_text)
         parsed_wiki_text = self.nlp_parser(wiki_text)
 
-        correct_sents = filter_sentences(parsed_wiki_text, self.current_matched_obj.answer)
+        correct_sents = filter_sentences(parsed_wiki_text, matched_obj.answer)
         incorrect_sents = []
         if correct_sents != []:
-            incorrect_sents = fetch_random_sentences(parsed_wiki_text, self.current_matched_obj.answer, 15)
-            self.current_matched_obj.has_matched = True
-            self.current_matched_obj.store_correct_sents(correct_sents)
-            self.current_matched_obj.store_wrong_sents(incorrect_sents)
+            incorrect_sents = fetch_random_sentences(parsed_wiki_text, matched_obj.answer, 15)
+            matched_obj.has_matched = True
+            matched_obj.store_correct_sents(correct_sents)
+            matched_obj.store_wrong_sents(incorrect_sents)
         return
 
     def startElement(self, name, attrs):
@@ -166,9 +166,11 @@ class WikiContentHandler(xml.sax.ContentHandler):
 
             # If entity has been matched, reset state
             if self.entity_flag:
-                self.update_entity_from_wiki_text()
+                print('ended current matched')
+                for matched_obj in self.current_matched_obj:
+                    self.update_entity_from_wiki_text(matched_obj)
                 self.entity_flag = False
-                self.current_matched_obj = ''
+                self.current_matched_obj = []
         elif name == 'title':
             self.title_flag = False
         elif name == 'text':
@@ -182,9 +184,10 @@ class WikiContentHandler(xml.sax.ContentHandler):
                 if obj.has_matched:
                     continue
                 for ent in obj.entities:
-                    if ent.lower().strip() in title.strip():
+                    if ent.lower().strip() == title.strip():
+                        print('matched: ' + title.strip())
                         self.entity_flag = True
-                        self.current_matched_obj = obj
+                        self.current_matched_obj.append(obj)
                         break
         elif self.text_flag:
             if self.entity_flag:
