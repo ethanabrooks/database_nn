@@ -103,7 +103,7 @@ def read_question_answer_pair(filename, nlp_parser):
         entities = [ent.text for ent in entities]
         d.append(jeopardy_obj(question, answer, entities))
 
-        print('len of d: ' + str(len(d)))
+    print('len of d: ' + str(len(d)))
         # for entity in entities:
         #     # does not account for the fact that the same entity can appear in different questions!
         #     # Also entities are indexed by their lowercase forms (not case sensitive)
@@ -175,7 +175,10 @@ class WikiContentHandler(xml.sax.ContentHandler):
                     self.update_entity_from_wiki_text(matched_obj)
                     if matched_obj.has_matched:
                         s = matched_obj.get_qa_string()
-                        self.output.write(s + '\n')
+                        try:
+                            self.output.write(s + '\n')
+                        except:
+                            print('error in : ' + matched_obj.question)
                 self.entity_flag = False
                 self.current_matched_obj = []
                 self.current_entity_text = ''
