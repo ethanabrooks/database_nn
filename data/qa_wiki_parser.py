@@ -15,6 +15,7 @@ class jeopardy_obj:
         self.correct_sents = []
         self.wrong_sents = []
         self.has_matched = False
+        self.error = False
 
     def store_correct_sents(self, sents):
         self.correct_sents = sents
@@ -178,7 +179,7 @@ class WikiContentHandler(xml.sax.ContentHandler):
                         try:
                             self.output.write(s + '\n')
                         except:
-                            print('error in : ' + matched_obj.question)
+                            matched_obj.error = True
                 self.entity_flag = False
                 self.current_matched_obj = []
                 self.current_entity_text = ''
@@ -232,5 +233,9 @@ if __name__ == '__main__':
 
     for obj in pairs:
         if not obj.has_matched:
-            output_2.write(obj.question + '\n' + 'Not matched' + '\n')
+            output_2.write(obj.question + '\n' + 'Not matched')
+            if obj.error:
+                output_2.write(' error\n')
+            else:
+                output_2.write('\n')
     source.close()
