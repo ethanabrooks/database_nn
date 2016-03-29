@@ -150,7 +150,7 @@ class WikiContentHandler(xml.sax.ContentHandler):
         correct_sents = filter_sentences(parsed_wiki_text, matched_obj.answer)
         incorrect_sents = []
         if correct_sents != []:
-            incorrect_sents = fetch_random_sentences(parsed_wiki_text, matched_obj.answer, 15)
+            incorrect_sents = fetch_random_sentences(parsed_wiki_text, matched_obj.answer, 3)
             matched_obj.has_matched = True
             matched_obj.store_correct_sents(correct_sents)
             matched_obj.store_wrong_sents(incorrect_sents)
