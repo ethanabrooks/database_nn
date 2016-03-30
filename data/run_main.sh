@@ -2,5 +2,5 @@
 
 for i in `seq 0 49`;
     do
-    	qsub -VRUN_NUMBER=i run_parser.sh
+    	qsub -v RUN_NUMBER=$i run_parser.sh
     done

@@ -7,6 +7,6 @@ export JOB_PATH=/home1/b/bensonc/database_nn/data
 
 date
 
-python $JOB_PATH/qa_wiki_parser.py $JOB_PATH/question_answer_pairs_$RUN_NUMBER /scratch-shared/users/bensonc/enwiki-20160204-pages-meta-current.xml $JOB_PATH/jeopardy_results/nn_output_$RUN_NUMBER $JOB_PATH/jeopardy_results/nn_output/question_status_$RUN_NUMBER
+python $JOB_PATH/qa_wiki_parser.py $JOB_PATH/jeopardy_question/question_answer_pairs_$RUN_NUMBER /scratch-shared/users/bensonc/enwiki-20160204-pages-meta-current.xml $JOB_PATH/jeopardy_results/nn_output_$RUN_NUMBER $JOB_PATH/jeopardy_results/nn_output/question_status_$RUN_NUMBER
 
 date
