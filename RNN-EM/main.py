@@ -251,9 +251,10 @@ for epoch in range(s.n_epochs):
 
             predicted_labels, actual_labels = map(translate,
                                                   (predictions, dataset.targets))
+            print(predicted_labels[0])
             input_words = translate(dataset.inputs, idx2word)
             res = conlleval(predicted_labels, actual_labels, input_words,
-                            folder + '/current.' + set_name + '.txt')
+                            '{0}/current.{1}.txt'.format(folder, set_name))
             exec 'res_{0} = res'.format(set_name)
     else:
         def save_predictions(filename, targets, predictions):
