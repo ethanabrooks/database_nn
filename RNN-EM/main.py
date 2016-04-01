@@ -25,7 +25,7 @@ parser.add_argument('--debug', help='Set test = train = valid',
 parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
 parser.add_argument('--emb_size', type=int, default=100, help='Embedding size')
-parser.add_argument('--n_memory_slots', type=int, default=1, help='Memory slots')
+parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
 parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
 parser.add_argument('--seed', type=int, default=345, help='Seed')
 parser.add_argument('--batch_size', type=int, default=64,
@@ -39,7 +39,7 @@ parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=100,
+parser.add_argument('--num_questions', type=int, default=100000,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
 
@@ -49,11 +49,16 @@ folder = os.path.basename(__file__).split('.')[0]
 if not os.path.exists(folder): os.mkdir(folder)
 
 
-def evaluate(raw, y):
-    def confusion(predicted=True, actual=True):
-        return raw[np.logical_and(raw == predicted, y == actual)].sum()
+def evaluate(predictions, targets):
+    measures = np.zeros(3)
+    for pred, target in zip(predictions, targets):
+        def confusion((predicted, actual)):
+            return pred[np.logical_and(pred == predicted, target == actual)].sum()
 
-    tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
+        tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
+        measures += np.array((tp, fp, fn))
+
+    tp, fp, fn = measures
     precision = tp / (tp + fp)
     recall = tp / (tp + fn)
     f1 = 2 * precision * recall / (precision + recall)
@@ -144,7 +149,6 @@ if s.dataset == 'jeopardy':
                 targets[i] = np.all(window == answer_array)
         return inputs, targets
 
-
     num_questions = 0
     with open(root_dir + "wiki.dat") as data:
         for line in data:
@@ -158,6 +162,7 @@ if s.dataset == 'jeopardy':
 
                 inputs, targets = to_instance(line)
                 dataset.append(inputs, targets)  # question
+
                 answer = next(data).rstrip()  # answer
                 line = next(data)  # answer sentence
 
@@ -184,8 +189,7 @@ if s.dataset == 'jeopardy':
     idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
     idx2label = {0: '0', 1: '1'}
     if s.debug:
-        test.inputs = valid.inputs = train.inputs
-        test.targets = valid.targets = train.targets
+        test = valid = train
 
     print("number of questions:", num_questions)
 else:
@@ -211,6 +215,7 @@ print("number of sentences:", nsentences)
 # instantiate the RNN-EM
 np.random.seed(s.seed)
 random.seed(s.seed)
+
 rnn = model(s.hidden_size,
             nclasses,
             vocsize,
@@ -226,7 +231,6 @@ for epoch in range(s.n_epochs):
     shuffle([train.inputs, train.targets], s.seed)
     s.current_epoch = epoch
     tic = time.time()
-    nsentences = 20
     for i in range(nsentences):  # for each sentence
         context_words = contextwin(train.inputs[i], s.window_size)
         words = [np.asarray(instance, dtype='int32') for instance in
@@ -260,9 +264,13 @@ for epoch in range(s.n_epochs):
     else:
         def save_predictions(filename, targets, predictions):
             filename = 'current.{0}.txt'.format(filename)
-            with open(os.path.join(folder, filename), 'w') as save:
-                y_vs_predicted = zip(targets, predictions)
-                save.write(table.tabulate(y_vs_predicted))
+            filepath = os.path.join(folder, filename)
+            with open(filepath, 'w') as handle:
+                for target, prediction in zip(targets, predictions):
+                    for label, arr in (('t: ', target), ('p: ', prediction)):
+                        handle.write(label)
+                        np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
+                        handle.write('\n')
 
 
         for set_name in ('test', 'valid'):
@@ -280,6 +288,7 @@ for epoch in range(s.n_epochs):
                   'valid F1', res_valid['f1'],
                   'best test F1', res_test['f1'],
                   ' ' * 20)
+            sys.stdout.flush()
 
         for key in res_test:
             exec "s.test_{0} = res_test['{0}']".format(key)
