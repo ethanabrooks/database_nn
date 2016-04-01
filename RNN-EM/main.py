@@ -49,7 +49,7 @@ folder = os.path.basename(__file__).split('.')[0]
 if not os.path.exists(folder): os.mkdir(folder)
 
 
-def evaluation(raw, y):
+def evaluate(raw, y):
     def confusion(predicted=True, actual=True):
         return raw[np.logical_and(raw == predicted, y == actual)].sum()
 
@@ -99,9 +99,9 @@ if s.dataset == 'jeopardy':
     dic = {'*': 0}
     tokenizer = English(parser=False)
 
-    datasets = (Dataset(percent=p) for p in (.7,   # train
+    datasets = [Dataset(percent=p) for p in (.7,   # train
                                              .2,   # test
-                                             .1))  # valid
+                                             .1)]  # valid
     train, test, valid = datasets
 
 
@@ -154,7 +154,7 @@ if s.dataset == 'jeopardy':
                     dataset = train
                 else:
                     # determine train, valid, or test
-                    input_words, targets = choose_set()
+                    dataset = choose_set()
 
                 inputs, targets = to_instance(line)
                 dataset.append(inputs, targets)  # question
@@ -226,6 +226,7 @@ for epoch in range(s.n_epochs):
     shuffle([train.inputs, train.targets], s.seed)
     s.current_epoch = epoch
     tic = time.time()
+    nsentences = 20
     for i in range(nsentences):  # for each sentence
         context_words = contextwin(train.inputs[i], s.window_size)
         words = [np.asarray(instance, dtype='int32') for instance in
@@ -255,10 +256,11 @@ for epoch in range(s.n_epochs):
             input_words = translate(dataset.inputs, idx2word)
             res = conlleval(predicted_labels, actual_labels, input_words,
                             '{0}/current.{1}.txt'.format(folder, set_name))
-            exec 'res_{0} = res'.format(set_name)
+            exec 'res_{} = res'.format(set_name)
     else:
         def save_predictions(filename, targets, predictions):
-            with (open(os.path.join(folder, filename))) as save:
+            filename = 'current.{0}.txt'.format(filename)
+            with open(os.path.join(folder, filename), 'w') as save:
                 y_vs_predicted = zip(targets, predictions)
                 save.write(table.tabulate(y_vs_predicted))
 
@@ -266,9 +268,9 @@ for epoch in range(s.n_epochs):
         for set_name in ('test', 'valid'):
             dataset = eval(set_name)
             predictions = dataset.predict()
-            save_predictions(set_name, dataset, predictions)
-            evaluation = evaluate(predictions, dataset.targets)
-            exec "res_{} = evaluation)".format(set_name)
+            save_predictions(set_name, dataset.targets, predictions)
+            res = evaluate(predictions, dataset.targets)
+            exec 'res_{0} = res'.format(set_name)
 
     if res_valid['f1'] > best_f1:
         rnn.save(folder)
