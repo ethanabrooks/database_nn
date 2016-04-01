@@ -1,0 +1,15 @@
+7
+
+a @entity3 sex comedy is a @entity1 sex comedy film written , directed by and starring @entity6 .
+
+mia farrow : @entity4 's @entity2 of many films with this director was " @entity5 "
+
+@entity6
+
+@entity0:
+@entity1:1982
+@entity2:first
+@entity3:Midsummer Night's
+@entity4:Mia
+@entity5:A Midsummer Night's Sex Comedy
+@entity6:Woody Allen

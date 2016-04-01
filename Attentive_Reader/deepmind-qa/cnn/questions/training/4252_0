@@ -1,0 +1,17 @@
+9
+
+  @entity1 played the detective @entity4 in @entity6 's landmark @entity5 film noir @entity2 .
+
+film roles : @entity7 , @entity8 & @entity3 have all played this character on film
+
+@entity4
+
+@entity0:
+@entity1:Gould
+@entity2:The Long Goodbye
+@entity3:Elliott Gould
+@entity4:Philip Marlowe
+@entity5:1973
+@entity6:Altman
+@entity7:Dick Powell
+@entity8:Robert Mitchum

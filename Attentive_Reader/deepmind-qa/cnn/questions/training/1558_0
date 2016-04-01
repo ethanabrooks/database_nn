@@ -1,0 +1,13 @@
+5
+
+@entity3 is a character in the novel @entity1 by @entity4 .
+
+dickens characters : he marries @entity3 in chapter 43 & agnes wickfield in @entity2
+
+@entity1
+
+@entity0:
+@entity1:David Copperfield
+@entity2:Chapter 62
+@entity3:Dora Spenlow
+@entity4:Charles Dickens

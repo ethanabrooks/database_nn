@@ -1,0 +1,15 @@
+7
+
+web . @entity3 .
+
+the otto club : @entity1 swimmer @entity4 won an unprecedented @entity5 olympic gold medals at the @entity6 games in this city
+
+@entity0
+
+@entity0:
+@entity1:East German
+@entity2:Seoul
+@entity3:2 July 2011
+@entity4:Kristin Otto
+@entity5:6
+@entity6:1988

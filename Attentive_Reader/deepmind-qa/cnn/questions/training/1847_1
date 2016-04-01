@@ -1,0 +1,13 @@
+5
+
+all mean " pilgrim " .
+
+culture club : a male @entity4 who completes the pilgrimage to this city can be called @entity3 ; a female can be addressed as @entity2
+
+@entity0
+
+@entity0:
+@entity1:Mecca
+@entity2:Hajjah
+@entity3:Hajji
+@entity4:Muslim

@@ -1,0 +1,15 @@
+7
+
+@entity3 is a @entity1 film based on a non - fiction book of the same name by @entity2 .
+
+the movies : of @entity4 , @entity5 , or @entity3 , the one played in film by @entity6
+
+@entity3
+
+@entity0:
+@entity1:1957
+@entity2:Gene Fowler
+@entity3:Beau James
+@entity4:Beau Brummel
+@entity5:Beau Geste
+@entity6:Bob Hope

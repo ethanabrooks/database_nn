@@ -1,0 +1,15 @@
+7
+
+@entity6
+
+newspapers & magazines : from @entity5 to @entity1 , @entity4 was editor of this official @entity2 newspaper
+
+@entity0
+
+@entity0:
+@entity1:1929
+@entity2:Communist Party
+@entity3:Pravda
+@entity4:Nikolai Bukharin
+@entity5:1917
+@entity6:Philip Arestis

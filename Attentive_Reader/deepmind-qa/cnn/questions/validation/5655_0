@@ -1,0 +1,16 @@
+8
+
+an earthquake in @entity1 occurs , killing over @entity2 people and destroying much of the capital @entity4 .
+
+state department travel warnings : on @entity7 @entity5 warned " @entity3 citizens of the situation in " this country after " the @entity6 earthquake "
+
+@entity1
+
+@entity0:
+@entity1:Haiti
+@entity2:100,000
+@entity3:U.S.
+@entity4:Port-au-Prince
+@entity5:State
+@entity6:January 12
+@entity7:June 24, 2010

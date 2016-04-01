@@ -1,0 +1,13 @@
+5
+
+@entity2 is a @entity4 western novel by @entity1 .
+
+authors : in @entity4 he published " @entity2 " , a prequel to his " @entity3 "
+
+@entity1
+
+@entity0:
+@entity1:Larry McMurtry
+@entity2:Comanche Moon
+@entity3:Lonesome Dove
+@entity4:1997

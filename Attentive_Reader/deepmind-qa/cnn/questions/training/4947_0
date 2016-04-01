@@ -1,0 +1,16 @@
+8
+
+  @entity7 dedicated the movie to deceased directors and mentors @entity3 and @entity1 .
+
+foreign films : @entity2 " @entity4 " is partly dedicated to this man who directed @entity5 in " @entity6 "
+
+@entity1
+
+@entity0:
+@entity1:Sergio Leone
+@entity2:Clint Eastwood's
+@entity3:Don Siegel
+@entity4:Unforgiven
+@entity5:Clint
+@entity6:The Good, the Bad and the Ugly
+@entity7:Eastwood

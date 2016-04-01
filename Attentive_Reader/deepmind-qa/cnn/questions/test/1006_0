@@ -1,0 +1,12 @@
+4
+
+@entity1 is a division of @entity2 that primarily publishes paperback books .
+
+famous pairs : they founded the comapny that launched @entity1 in @entity3
+
+@entity2
+
+@entity0:
+@entity1:Pocket Books
+@entity2:Simon & Schuster
+@entity3:1939

@@ -1,0 +1,14 @@
+6
+
+@entity1 was a short story written by @entity2 in @entity4 .
+
+literature : before " @entity5 " , he attacked the @entity3 penal system in the novel " @entity1 "
+
+@entity2
+
+@entity0:
+@entity1:Claude Gueux
+@entity2:Victor Hugo
+@entity3:French
+@entity4:1834
+@entity5:Les Miserables

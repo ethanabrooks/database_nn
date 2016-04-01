@@ -1,0 +1,13 @@
+5
+
+@entity2 is a character in @entity4 novel @entity3 .
+
+book by characters : @entity1 , @entity2
+
+@entity3
+
+@entity0:
+@entity1:Isabella Linton
+@entity2:Hareton Earnshaw
+@entity3:Wuthering Heights
+@entity4:Emily Brontë's

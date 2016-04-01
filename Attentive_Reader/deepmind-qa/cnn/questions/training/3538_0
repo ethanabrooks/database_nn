@@ -1,0 +1,12 @@
+4
+
+@entity1 ( ; ) is a city on the coast of @entity2 .
+
+world cities : @entity1 , which lies on an island in @entity3 , is the main port of this e. african country
+
+@entity2
+
+@entity0:
+@entity1:Mombasa
+@entity2:Kenya
+@entity3:the Indian Ocean

@@ -1,0 +1,13 @@
+5
+
+@entity4 ( [ ] ; )   is a city on the northern coast of @entity1 , noted for its historic harbour and castle .
+
+international : a castle built by @entity3 dominates the port of @entity4 on this island nation near @entity2
+
+@entity1
+
+@entity0:
+@entity1:Cyprus
+@entity2:Lebanon
+@entity3:Crusaders
+@entity4:Kyrenia

@@ -1,0 +1,15 @@
+7
+
+@entity3 moves the capital of @entity5 from @entity2 to @entity4 .
+
+russian cities : in @entity1 the capital of @entity5 was moved to this city later named @entity6
+
+@entity4
+
+@entity0:
+@entity1:1712
+@entity2:Moscow
+@entity3:Peter the Great
+@entity4:St. Petersburg
+@entity5:Russia
+@entity6:Leningrad

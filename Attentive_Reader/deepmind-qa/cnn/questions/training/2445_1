@@ -1,0 +1,14 @@
+6
+
+@entity1 : @entity3 .
+
+museums : this country 's national museum has @entity5 sites in the capital & one in @entity2 devoted to rural life
+
+@entity0
+
+@entity0:
+@entity1:Dublin
+@entity2:County Mayo
+@entity3:Royal Irish Academy
+@entity4:Ireland
+@entity5:3

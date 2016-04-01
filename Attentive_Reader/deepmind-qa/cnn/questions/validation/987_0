@@ -1,0 +1,13 @@
+5
+
+@entity2 ( @entity3 ) is a silent film comedy that marked the only time @entity1 directed a film .
+
+actresses : she directed the @entity3 silent film " @entity2 " , starring her sister @entity4
+
+@entity1
+
+@entity0:
+@entity1:Lillian Gish
+@entity2:Remodeling Her Husband
+@entity3:1920
+@entity4:Dorothy

@@ -1,0 +1,14 @@
+6
+
+@entity4 ( ) is an institute of higher education located in @entity1 , @entity3 .
+
+@entity2 : @entity4 was founded in this @entity5 capital
+
+@entity1
+
+@entity0:
+@entity1:Cairo
+@entity2:1950
+@entity3:Egypt
+@entity4:Ain Shams University
+@entity5:Egyptian

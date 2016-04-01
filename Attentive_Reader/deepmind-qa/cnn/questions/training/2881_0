@@ -1,0 +1,15 @@
+7
+
+@entity1 is a cemetery located in @entity5 , @entity3 , in @entity4 .
+
+state capitals : @entity6 of the major attractions in this state capital is the tomb of @entity2 in @entity1
+
+@entity5
+
+@entity0:
+@entity1:Oak Ridge Cemetery
+@entity2:Abraham Lincoln
+@entity3:Illinois
+@entity4:the United States
+@entity5:Springfield
+@entity6:One

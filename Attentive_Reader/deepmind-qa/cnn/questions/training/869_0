@@ -1,0 +1,16 @@
+8
+
+@entity6 ( born @entity2 ) is an @entity4 politician currently serving as governor of @entity1 .
+
+state the state : @entity7 @entity3 & @entity5 are its senate delegation
+
+@entity1
+
+@entity0:
+@entity1:Kansas
+@entity2:September 12, 1956
+@entity3:Sam Brownback
+@entity4:American
+@entity5:Pat Roberts
+@entity6:Samuel Dale "Sam" Brownback
+@entity7:Republicans

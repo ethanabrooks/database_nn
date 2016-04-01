@@ -1,0 +1,13 @@
+5
+
+@entity2 is a comedy play by @entity1 .
+
+theatre : @entity4 directed the original @entity3 production of this playwright 's " @entity2 "
+
+@entity1
+
+@entity0:
+@entity1:Neil Simon
+@entity2:Plaza Suite
+@entity3:Broadway
+@entity4:Mike Nichols

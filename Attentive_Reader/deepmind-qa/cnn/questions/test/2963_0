@@ -1,0 +1,14 @@
+6
+
+  at the age of ten , he was apprenticed to the famous sculptor @entity1 , designer of the doors of @entity2 , whose workshop was the premier centre for florentine art at the time .
+
+@entity4 artists : at age @entity3 artist @entity5 assisted this sculptor on his bronze doors of the florentine baptistry
+
+@entity1
+
+@entity0:
+@entity1:Lorenzo Ghiberti
+@entity2:the Florence Baptistery
+@entity3:10
+@entity4:RENAISSANCE
+@entity5:Paolo Uccello

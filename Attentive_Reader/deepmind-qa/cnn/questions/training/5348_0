@@ -1,0 +1,12 @@
+4
+
+, also known as   or @entity2 , is the largest airline in @entity1 .
+
+airlines ' home countries : @entity3
+
+@entity1
+
+@entity0:
+@entity1:Japan
+@entity2:ANA
+@entity3:All Nippon Airways
