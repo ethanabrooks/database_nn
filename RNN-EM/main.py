@@ -107,7 +107,8 @@ if s.dataset == 'jeopardy':
 
     def choose_set():
         random_num = random.random()
-        for dataset in sorted(datasets, key=lambda ds: ds.percent):  # sort by percent
+        datasets.sort(key=lambda ds: ds.percent)
+        for dataset in datasets:  # sort by percent
             if random_num < dataset.percent:
                 return dataset
             random_num -= dataset.percent
@@ -225,7 +226,7 @@ for epoch in range(s.n_epochs):
     shuffle([train.inputs, train.targets], s.seed)
     s.current_epoch = epoch
     tic = time.time()
-    for i in range(10): # TODO nsentences):  # for each sentence
+    for i in range(nsentences):  # for each sentence
         context_words = contextwin(train.inputs[i], s.window_size)
         words = [np.asarray(instance, dtype='int32') for instance in
                  minibatch(context_words, s.batch_size)]
@@ -251,7 +252,6 @@ for epoch in range(s.n_epochs):
 
             predicted_labels, actual_labels = map(translate,
                                                   (predictions, dataset.targets))
-            print(predicted_labels[0])
             input_words = translate(dataset.inputs, idx2word)
             res = conlleval(predicted_labels, actual_labels, input_words,
                             '{0}/current.{1}.txt'.format(folder, set_name))

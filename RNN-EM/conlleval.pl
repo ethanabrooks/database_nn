@@ -82,7 +82,7 @@ if (@ARGV) { die "conlleval: unexpected command line argument\n"; }
 
 while (<STDIN>) {
    chomp($line = $_);
-   printf "line: $line\n"
+#   printf "line: $line\n"
    @features = split(/$delimiter/,$line);
    if ($nbrOfFeatures < 0) { $nbrOfFeatures = $#features; }
    elsif ($nbrOfFeatures != $#features and @features != 0) {
