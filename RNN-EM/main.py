@@ -78,6 +78,7 @@ class Dataset:
             inputs = []
         if targets is None:
             targets = []
+        self.is_questions = []
         self.__dict__.update(locals())
         # self.percent = percent;
         # self. ...
@@ -87,14 +88,21 @@ class Dataset:
         assert len_inputs == len_targets
         return len_inputs
 
-    def append(self, inputs, targets):
+    def append(self, inputs, targets, is_question):
         self.inputs.append(inputs)
         self.targets.append(targets)
+        self.is_questions.append(is_question)
 
     def predict(self):
-        return [rnn.classify(
-            np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
-            for sentence in self.inputs]
+        predictions = []
+        for sentence, is_question in zip(self.inputs, self.is_questions):
+            predictions.append(rnn.classify(
+                np.asarray(contextwin(sentence, s.window_size), dtype='int32'),
+                is_question))
+        return predictions
+        # [rnn.classify(
+        #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
+        #         for sentence in self.inputs]
 
 
 # load the dataset
@@ -104,8 +112,8 @@ if s.dataset == 'jeopardy':
     dic = {'*': 0}
     tokenizer = English(parser=False)
 
-    datasets = [Dataset(percent=p) for p in (.7,   # train
-                                             .2,   # test
+    datasets = [Dataset(percent=p) for p in (.7,  # train
+                                             .2,  # test
                                              .1)]  # valid
     train, test, valid = datasets
 
@@ -149,6 +157,7 @@ if s.dataset == 'jeopardy':
                 targets[i] = np.all(window == answer_array)
         return inputs, targets
 
+
     num_questions = 0
     with open(root_dir + "wiki.dat") as data:
         for line in data:
@@ -161,7 +170,7 @@ if s.dataset == 'jeopardy':
                     dataset = choose_set()
 
                 inputs, targets = to_instance(line)
-                dataset.append(inputs, targets)  # question
+                dataset.append(inputs, targets, True)  # question
 
                 answer = next(data).rstrip()  # answer
                 line = next(data)  # answer sentence
@@ -180,7 +189,7 @@ if s.dataset == 'jeopardy':
                 # set target of eos for answer sentence to answer
                 random.shuffle(instances)
                 for inputs, targets in instances:
-                    dataset.append(inputs, targets)
+                    dataset.append(inputs, targets, False)
                 if num_questions >= s.num_questions:
                     break
 
@@ -236,7 +245,7 @@ for epoch in range(s.n_epochs):
         words = [np.asarray(instance, dtype='int32') for instance in
                  minibatch(context_words, s.batch_size)]
         for word_batch, label in zip(words, train.targets[i]):
-            rnn.train(word_batch, label, s.learn_rate)
+            rnn.train(word_batch, label, s.learn_rate, train.is_questions[i])
             rnn.normalize()
         if s.verbose:
             progress = (i + 1) * 100. / nsentences

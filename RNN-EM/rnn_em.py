@@ -5,6 +5,7 @@ import numpy
 import os
 import theano
 from theano import tensor as T
+from theano.ifelse import ifelse
 
 
 def norm(x):
@@ -23,7 +24,8 @@ def cdist(matrix, vector):
 
 
 class model(object):
-    def __init__(self, hidden_size, nclasses, num_embeddings, embedding_dim, window_size, memory_size=40, n_memory_slots=8):
+    def __init__(self, hidden_size, nclasses, num_embeddings, embedding_dim, window_size, memory_size=40,
+                 n_memory_slots=8):
         """
         nh :: dimension of the hidden layer
         nc :: number of classes
@@ -32,11 +34,17 @@ class model(object):
         cs :: word window context size
         """
         # parameters of the RNN-EM
+
+        self.num_slots_reserved_for_questions = int(n_memory_slots / 4)  # TODO derive this from an arg
         self.emb = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (num_embeddings + 1, embedding_dim)).astype(
             theano.config.floatX))  # add one for PADDING at the end
-        self.Wx = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size, embedding_dim * window_size)).astype(theano.config.floatX))
-        self.Wh = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size, memory_size)).astype(theano.config.floatX))
-        self.W = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (nclasses, hidden_size)).astype(theano.config.floatX))
+        self.Wx = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size, embedding_dim * window_size)).astype(
+                theano.config.floatX))
+        self.Wh = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size, memory_size)).astype(theano.config.floatX))
+        self.W = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (nclasses, hidden_size)).astype(theano.config.floatX))
         self.bh = theano.shared(numpy.zeros(hidden_size, dtype=theano.config.floatX))
         self.b = theano.shared(numpy.zeros(nclasses, dtype=theano.config.floatX))
         self.h0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size,)).astype(theano.config.floatX))
@@ -45,11 +53,14 @@ class model(object):
             0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
         self.w0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots,)).astype(theano.config.floatX))
 
-        self.Wk = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, hidden_size)).astype(theano.config.floatX))
+        self.Wk = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, hidden_size)).astype(theano.config.floatX))
         self.Wg = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots, embedding_dim * window_size)).astype(theano.config.floatX))
+            0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots, embedding_dim * window_size)).astype(
+                theano.config.floatX))
         self.Wb = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (1, hidden_size)).astype(theano.config.floatX))
-        self.Wv = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, hidden_size)).astype(theano.config.floatX))
+        self.Wv = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, hidden_size)).astype(theano.config.floatX))
         self.We = theano.shared(
             0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots, hidden_size)).astype(theano.config.floatX))
 
@@ -65,9 +76,12 @@ class model(object):
         self.names = ['embeddings', 'Wx', 'Wh', 'W', 'bh', 'b', 'h0', 'Wg', 'Wb', 'Wv', 'We', 'Wk', 'bk', 'bg', 'bb',
                       'bv', 'be']
 
+        is_question = T.iscalar()
         idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
+
         idxs_print = theano.printing.Print('idxs')(idxs)
         shape_print = theano.printing.Print('idxs.shape[0]')(idxs.shape[0])
+
         x = self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))  # QUESTION: what is idxs.shape[0]?
         y = T.iscalar('y')  # label
 
@@ -111,7 +125,31 @@ class model(object):
 
             # eqn 19
             f_diag = T.diag(f)
-            M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
+
+            # select for slots reserved for questions
+            n = self.num_slots_reserved_for_questions
+
+            subtensor = f_diag[n:, n:]
+            f_diag_q = T.set_subtensor(subtensor, T.identity_like(subtensor))
+
+            subtensor = f_diag[:n, :n]
+            f_diag_nq = T.set_subtensor(subtensor, T.identity_like(subtensor))
+
+            f_diag = ifelse(is_question, f_diag_q, f_diag_nq)
+
+            v_print = theano.printing.Print('v')(v)
+            v_ravel = v.dimshuffle(0, 'x')
+
+            subtensor = v_ravel[n:]
+            v_ravel_q = T.set_subtensor(subtensor, T.zeros_like(subtensor))
+
+            subtensor = v_ravel[:n]
+            v_ravel_nq = T.set_subtensor(subtensor, T.zeros_like(subtensor))
+
+            v_ravel = ifelse(is_question, v_ravel_q, v_ravel_nq)
+
+            v_ravel_print = theano.printing.Print('v_shuffle')(v_ravel)
+            M_t = T.dot(M_previous, f_diag) + T.dot(v_ravel, w_t.dimshuffle('x', 0))
 
             # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
@@ -141,13 +179,14 @@ class model(object):
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
-        self.classify = theano.function(inputs=[idxs], outputs=y_pred)
+        self.classify = theano.function(inputs=[idxs, is_question], outputs=y_pred)
 
-        self.train = theano.function(inputs=[idxs, y, lr],
+        self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
                                      updates=updates,
                                      on_unused_input='ignore')
-        # on_unused_input='warn')
+
+        # self.save_question = theano.function()
 
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb:
