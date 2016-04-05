@@ -246,6 +246,7 @@ for epoch in range(s.n_epochs):
                  minibatch(context_words, s.batch_size)]
         for word_batch, label in zip(words, train.targets[i]):
             rnn.train(word_batch, label, s.learn_rate, train.is_questions[i])
+            rnn.train.profile.print_summary()
             rnn.normalize()
         if s.verbose:
             progress = (i + 1) * 100. / nsentences

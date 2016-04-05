@@ -162,7 +162,8 @@ class model(object):
         [_, s, _, M], _ = theano.scan(fn=recurrence,
                                       sequences=x,
                                       outputs_info=[self.h0, None, self.w0, self.M],
-                                      n_steps=x.shape[0])
+                                      n_steps=x.shape[0],
+                                      name='SCAN_FUNCTION')
 
         self.M = M
 
@@ -184,9 +185,8 @@ class model(object):
         self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
                                      updates=updates,
-                                     on_unused_input='ignore')
-
-        # self.save_question = theano.function()
+                                     on_unused_input='ignore',
+                                     profile=True)
 
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb:
