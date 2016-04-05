@@ -135,26 +135,28 @@ class model(object):
                                               modification(subtensor_if_question))
                 return ifelse(is_question, if_question, if_not_question)
 
-            subtensor = f_diag[n:, n:]
-            f_diag_q = T.set_subtensor(subtensor, T.identity_like(subtensor))
+            # subtensor = f_diag[n:, n:]
+            # f_diag_q = T.set_subtensor(subtensor, T.identity_like(subtensor))
+            #
+            # subtensor = f_diag[:n, :n]
+            # f_diag_nq = T.set_subtensor(subtensor, T.identity_like(subtensor))
+            #
+            # f_diag = ifelse(is_question, f_diag_q, f_diag_nq)
 
-            subtensor = f_diag[:n, :n]
-            f_diag_nq = T.set_subtensor(subtensor, T.identity_like(subtensor))
-
-            f_diag = ifelse(is_question, f_diag_q, f_diag_nq)
-
-            v_print = theano.printing.Print('v')(v)
+            # v_print = theano.printing.Print('v')(v)
+            #
+            # subtensor = v_ravel[n:]
+            # v_ravel_q = T.set_subtensor(subtensor, T.zeros_like(subtensor))
+            #
+            # subtensor = v_ravel[:n]
+            # v_ravel_nq = T.set_subtensor(subtensor, T.zeros_like(subtensor))
+            #
+            # v_ravel = ifelse(is_question, v_ravel_q, v_ravel_nq)
+            # v_ravel_print = theano.printing.Print('v_shuffle')(v_ravel)
+            f_diag = set_subtensor(f_diag[:n, :n], f_diag[n:, n:], T.identity_like)
             v_ravel = v.dimshuffle(0, 'x')
+            v_ravel = set_subtensor(v_ravel[:n], v_ravel[n:], T.zeros_like)
 
-            subtensor = v_ravel[n:]
-            v_ravel_q = T.set_subtensor(subtensor, T.zeros_like(subtensor))
-
-            subtensor = v_ravel[:n]
-            v_ravel_nq = T.set_subtensor(subtensor, T.zeros_like(subtensor))
-
-            v_ravel = ifelse(is_question, v_ravel_q, v_ravel_nq)
-
-            v_ravel_print = theano.printing.Print('v_shuffle')(v_ravel)
             M_t = T.dot(M_previous, f_diag) + T.dot(v_ravel, w_t.dimshuffle('x', 0))
 
             # eqn 9
@@ -191,8 +193,8 @@ class model(object):
         self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
                                      updates=updates,
-                                     on_unused_input='ignore',
-                                     profile=True)
+                                     on_unused_input='ignore')
+                                     # profile=True)
 
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb:
