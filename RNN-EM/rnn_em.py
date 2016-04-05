@@ -129,6 +129,12 @@ class model(object):
             # select for slots reserved for questions
             n = self.num_slots_reserved_for_questions
 
+            def set_subtensor(subtensor, subtensor_if_question, modification):
+                if_not_question = T.set_subtensor(subtensor, modification(subtensor))
+                if_question = T.set_subtensor(subtensor_if_question,
+                                              modification(subtensor_if_question))
+                return ifelse(is_question, if_question, if_not_question)
+
             subtensor = f_diag[n:, n:]
             f_diag_q = T.set_subtensor(subtensor, T.identity_like(subtensor))
 
