@@ -4,6 +4,7 @@ import lasagne
 import numpy
 import os
 import theano
+from theano.printing import Print
 from theano import tensor as T
 from theano.ifelse import ifelse
 
@@ -35,7 +36,7 @@ class model(object):
         """
         # parameters of the RNN-EM
 
-        self.num_slots_reserved_for_questions = int(n_memory_slots / 4)  # TODO derive this from an arg
+        num_slots_reserved_for_questions = int(n_memory_slots / 4)  # TODO derive this from an arg
         self.emb = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (num_embeddings + 1, embedding_dim)).astype(
             theano.config.floatX))  # add one for PADDING at the end
         self.Wx = theano.shared(
@@ -49,8 +50,14 @@ class model(object):
         self.b = theano.shared(numpy.zeros(nclasses, dtype=theano.config.floatX))
         self.h0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size,)).astype(theano.config.floatX))
 
-        self.M = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
+        self.M_q = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (
+                memory_size, num_slots_reserved_for_questions
+            )).astype(theano.config.floatX))
+        self.M_s = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (
+                memory_size, n_memory_slots - num_slots_reserved_for_questions
+            )).astype(theano.config.floatX))
         self.w0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots,)).astype(theano.config.floatX))
 
         self.Wk = theano.shared(
@@ -90,74 +97,56 @@ class model(object):
 
         def recurrence(x_t, h_tm1, w_previous, M_previous):
             # eqn not specified in paper
-            x_t_print = theano.printing.Print('x_t')(x_t)
-            bg_print = theano.printing.Print('self.bg')(self.bg)
-            g_t = T.nnet.sigmoid(T.dot(self.Wg, x_t) + self.bg)
-            g_t_print = theano.printing.Print('g_t')(g_t)
+            g_t = T.nnet.sigmoid(T.dot(self.Wg, x_t) + self.bg)  # [n_memory_slots]
 
             ### EXTERNAL MEMORY READ
             # eqn 11
-            k = T.dot(self.Wk, h_tm1) + self.bk
+            k = T.dot(self.Wk, h_tm1) + self.bk  # [memory_size]
 
             # eqn 13
             beta_pre = T.dot(self.Wb, h_tm1) + self.bb
             beta = T.log(1 + T.exp(beta_pre))
-            beta = T.addbroadcast(beta, 0)
+            beta = T.addbroadcast(beta, 0)  # [1]
+
+            def hstack(a, b):
+                return T.concatenate((a, b), 1)
 
             # eqn 12
-            w_hat = cdist(M_previous, k)
+            M_both = ifelse(is_question,
+                            hstack(M_previous, self.M_s),
+                            hstack(self.M_q, M_previous))
+            # [memory_size x n_memory_slots]
+
+            w_hat = cdist(M_both, k)
             w_hat = T.exp(beta * w_hat)
-            w_hat /= T.sum(w_hat)
+            w_hat /= T.sum(w_hat)  # [n_memory_slots]
 
             # eqn 14
-            w_t = (1 - g_t) * w_previous + g_t * w_hat
+            w_t = (1 - g_t) * w_previous + g_t * w_hat  # [n_memory_slots]
 
             # eqn 15
-            c = T.dot(M_previous, w_t)
+            c = T.dot(M_both, w_t)  # [memory_size]
 
             ### EXTERNAL MEMORY UPDATE
+
+
             # eqn 16
-            v = T.dot(self.Wv, h_tm1) + self.bv
+            v = T.dot(self.Wv, h_tm1) + self.bv  # [memory_size]
 
             # eqn 17
-            e = T.nnet.sigmoid(T.dot(self.We, h_tm1) + self.be)
-            f = 1. - w_t * e
+            e = T.nnet.sigmoid(T.dot(self.We, h_tm1) + self.be)  # [n_memory_slots]
+            f = 1. - w_t * e  # [n_memory_slots]
 
             # eqn 19
-            f_diag = T.diag(f)
+            f_diag = T.diag(f)  # [n_memory_slots x n_memory_slots]
 
-            # select for slots reserved for questions
-            n = self.num_slots_reserved_for_questions
-
-            def set_subtensor(subtensor, subtensor_if_question, modification):
-                if_not_question = T.set_subtensor(subtensor, modification(subtensor))
-                if_question = T.set_subtensor(subtensor_if_question,
-                                              modification(subtensor_if_question))
-                return ifelse(is_question, if_question, if_not_question)
-
-            # subtensor = f_diag[n:, n:]
-            # f_diag_q = T.set_subtensor(subtensor, T.identity_like(subtensor))
-            #
-            # subtensor = f_diag[:n, :n]
-            # f_diag_nq = T.set_subtensor(subtensor, T.identity_like(subtensor))
-            #
-            # f_diag = ifelse(is_question, f_diag_q, f_diag_nq)
-
-            # v_print = theano.printing.Print('v')(v)
-            #
-            # subtensor = v_ravel[n:]
-            # v_ravel_q = T.set_subtensor(subtensor, T.zeros_like(subtensor))
-            #
-            # subtensor = v_ravel[:n]
-            # v_ravel_nq = T.set_subtensor(subtensor, T.zeros_like(subtensor))
-            #
-            # v_ravel = ifelse(is_question, v_ravel_q, v_ravel_nq)
-            # v_ravel_print = theano.printing.Print('v_shuffle')(v_ravel)
-            f_diag = set_subtensor(f_diag[:n, :n], f_diag[n:, n:], T.identity_like)
-            v_ravel = v.dimshuffle(0, 'x')
-            v_ravel = set_subtensor(v_ravel[:n], v_ravel[n:], T.zeros_like)
-
-            M_t = T.dot(M_previous, f_diag) + T.dot(v_ravel, w_t.dimshuffle('x', 0))
+            n = num_slots_reserved_for_questions
+            # w_write = ifelse(is_question, w_t[0, :n], w_t[0, n:])
+            w_col = w_t.dimshuffle('x', 0)
+            w_col_print = Print('w_col')(w_col)
+            write_tensor = T.dot(v.dimshuffle(0, 'x'), w_col)
+            write_print = Print('write')(write_tensor)
+            M_t = T.dot(M_previous, f_diag) + write_tensor
 
             # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
@@ -167,16 +156,18 @@ class model(object):
 
             return [h_t, s_t, w_t, M_t]
 
-        [_, s, _, M], _ = theano.scan(fn=recurrence,
-                                      sequences=x,
-                                      outputs_info=[self.h0, None, self.w0, self.M],
-                                      n_steps=x.shape[0],
-                                      name='SCAN_FUNCTION')
+        M = ifelse(is_question, self.M_q, self.M_s)
+        [_, s, _, M_update], _ = theano.scan(fn=recurrence,
+                                             sequences=x,
+                                             outputs_info=[self.h0, None, self.w0, M],
+                                             n_steps=x.shape[0],
+                                             name='SCAN_FUNCTION')
 
-        self.M = M
+        # self.M_q = ifelse(is_question, M_update, self.M_q)
+        # self.M_s = ifelse(is_question, self.M_s, M_update)
 
         p_y_given_x_lastword = s[-1, 0, :]
-        p_y_given_x_lastword_print = theano.printing.Print('p(y|x) last word')(p_y_given_x_lastword)
+        p_y_given_x_lastword_print = Print('p(y|x) last word')(p_y_given_x_lastword)
         p_y_given_x_sentence = s[:, 0, :]
         y_pred = T.argmax(p_y_given_x_sentence, axis=1)
         y_pred_print = theano.printing.Print('y_pred')(y_pred)
@@ -194,7 +185,7 @@ class model(object):
                                      outputs=nll,
                                      updates=updates,
                                      on_unused_input='ignore')
-                                     # profile=True)
+        # profile=True)
 
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb:

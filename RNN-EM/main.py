@@ -144,17 +144,20 @@ if s.dataset == 'jeopardy':
         return sentence_vector
 
 
-    def to_instance(line, answer=None):
+    def to_instance(line, is_question, answer):
         inputs = to_array(line)
-        targets = np.zeros_like(inputs)
+        targets = np.zeros_like(inputs) if is_question else np.ones_like(inputs)
         if answer is not None:
+            assert not is_question
             answer_array = to_array(answer)
             answer_size = answer_array.size
 
             # set parts of inputs corresponding to complete answer to 1
             for i in range(inputs.size - answer_size):
                 window = inputs[i:i + answer_size]
-                targets[i] = np.all(window == answer_array)
+
+                # mark answers as 2
+                targets[i] = np.all(window == answer_array) + 1
         return inputs, targets
 
 
@@ -169,13 +172,13 @@ if s.dataset == 'jeopardy':
                     # determine train, valid, or test
                     dataset = choose_set()
 
-                inputs, targets = to_instance(line)
+                inputs, targets = to_instance(line, is_question=True, answer=None)
                 dataset.append(inputs, targets, True)  # question
 
                 answer = next(data).rstrip()  # answer
                 line = next(data)  # answer sentence
 
-                instance = to_instance(line, answer)
+                instance = to_instance(line, is_question=False, answer=answer)
                 remaining_sentences = int(next(data))  # num sentences remainind
                 instances = []
                 new_question = False
@@ -194,7 +197,7 @@ if s.dataset == 'jeopardy':
                     break
 
     vocsize = len(dic)
-    nclasses = 2
+    nclasses = 3
     idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
     idx2label = {0: '0', 1: '1'}
     if s.debug:
@@ -245,15 +248,17 @@ for epoch in range(s.n_epochs):
         words = [np.asarray(instance, dtype='int32') for instance in
                  minibatch(context_words, s.batch_size)]
         for word_batch, label in zip(words, train.targets[i]):
-            rnn.train(word_batch, label, s.learn_rate, train.is_questions[i])
+            loss = rnn.train(word_batch, label, s.learn_rate, train.is_questions[i])
             # rnn.train.profile.print_summary()
+            exit(0)
             rnn.normalize()
-        if s.verbose:
-            progress = (i + 1) * 100. / nsentences
-            print('[learning] epoch {0:d} >> {1:2.2f}%'.format(epoch, progress),
-                  'completed in {0:.2f} (sec) <<'.format(time.time() - tic),
-                  end='\r')  # write in-place
-            sys.stdout.flush()
+            if s.verbose:
+                progress = (i + 1) * 100. / nsentences
+                print('## epoch {0:d} {1:2.2f}% ##'.format(epoch, progress),
+                      '## loss: {:2.2f} ##'.format(float(loss)),
+                      '## running for {0:.2f} secs ##'.format(time.time() - tic),
+                      end='\r')  # write in-place
+                sys.stdout.flush()
 
     if s.dataset == 'atis':
 
@@ -276,8 +281,8 @@ for epoch in range(s.n_epochs):
             filename = 'current.{0}.txt'.format(filename)
             filepath = os.path.join(folder, filename)
             with open(filepath, 'w') as handle:
-                for target, prediction in zip(targets, predictions):
-                    for label, arr in (('t: ', target), ('p: ', prediction)):
+                for prediction, target in zip(predictions, targets):
+                    for label, arr in (('p: ', prediction), ('t: ', target)):
                         handle.write(label)
                         np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
                         handle.write('\n')
@@ -308,6 +313,13 @@ for epoch in range(s.n_epochs):
         for dset in ('test', 'valid'):
             command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dset)
             subprocess.call(command.split())
+    else:
+        if s.verbose:
+            print('Last epoch', epoch,
+                  'valid F1', res_valid['f1'],
+                  'best test F1', res_test['f1'],
+                  ' ' * 20)
+            sys.stdout.flush()
 
     # learning rate decay if no improvement in 10 epochs
     if s.decay and abs(s.best_epoch - s.current_epoch) >= 10:
