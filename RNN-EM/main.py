@@ -97,8 +97,7 @@ class Dataset:
         predictions = []
         for sentence, is_question in zip(self.inputs, self.is_questions):
             predictions.append(rnn.classify(
-                np.asarray(contextwin(sentence, s.window_size), dtype='int32'),
-                is_question))
+                np.asarray(contextwin(sentence, s.window_size), dtype='int32')))
         return predictions
         # [rnn.classify(
         #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))

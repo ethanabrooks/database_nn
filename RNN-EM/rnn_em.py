@@ -24,6 +24,7 @@ def cdist(matrix, vector):
     return 1. - neighbors
 
 
+# noinspection PyPep8Naming
 class model(object):
     def __init__(self, hidden_size, nclasses, num_embeddings, embedding_dim, window_size, memory_size=40,
                  n_memory_slots=8):
@@ -50,6 +51,8 @@ class model(object):
         self.b = theano.shared(numpy.zeros(nclasses, dtype=theano.config.floatX))
         self.h0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size,)).astype(theano.config.floatX))
 
+        self.M = theano.shared(
+            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
         self.M_q = theano.shared(
             0.2 * numpy.random.uniform(-1.0, 1.0, (
                 memory_size, num_slots_reserved_for_questions
@@ -111,13 +114,13 @@ class model(object):
             def hstack(a, b):
                 return T.concatenate((a, b), 1)
 
-            # eqn 12
+            # [memory_size x n_memory_slots]
             M_both = ifelse(is_question,
                             hstack(M_previous, self.M_s),
                             hstack(self.M_q, M_previous))
-            # [memory_size x n_memory_slots]
 
-            w_hat = cdist(M_both, k)
+            # eqn 12
+            w_hat = cdist(M_previous, k)
             w_hat = T.exp(beta * w_hat)
             w_hat /= T.sum(w_hat)  # [n_memory_slots]
 
@@ -125,11 +128,9 @@ class model(object):
             w_t = (1 - g_t) * w_previous + g_t * w_hat  # [n_memory_slots]
 
             # eqn 15
-            c = T.dot(M_both, w_t)  # [memory_size]
+            c = T.dot(M_previous, w_t)  # [memory_size]
 
             ### EXTERNAL MEMORY UPDATE
-
-
             # eqn 16
             v = T.dot(self.Wv, h_tm1) + self.bv  # [memory_size]
 
@@ -138,15 +139,18 @@ class model(object):
             f = 1. - w_t * e  # [n_memory_slots]
 
             # eqn 19
-            f_diag = T.diag(f)  # [n_memory_slots x n_memory_slots]
+            f_diag = T.diag(f)
 
+            # select for slots reserved for questions
             n = num_slots_reserved_for_questions
-            # w_write = ifelse(is_question, w_t[0, :n], w_t[0, n:])
-            w_col = w_t.dimshuffle('x', 0)
+            w_write = ifelse(is_question, w_t[:n], w_t[n:])
+            w_col = w_write.dimshuffle('x', 0)
             w_col_print = Print('w_col')(w_col)
             write_tensor = T.dot(v.dimshuffle(0, 'x'), w_col)
             write_print = Print('write')(write_tensor)
-            M_t = T.dot(M_previous, f_diag) + write_tensor
+            # M_t = T.dot(M_previous, f_diag) + write_tensor
+            w_t_print = Print('w_t')(w_t)
+            M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
 
             # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
@@ -156,41 +160,38 @@ class model(object):
 
             return [h_t, s_t, w_t, M_t]
 
-        M = ifelse(is_question, self.M_q, self.M_s)
-        [_, s, _, M_update], _ = theano.scan(fn=recurrence,
-                                             sequences=x,
-                                             outputs_info=[self.h0, None, self.w0, M],
-                                             n_steps=x.shape[0],
-                                             name='SCAN_FUNCTION')
+        M_init = ifelse(is_question, self.M_q, self.M_s)
+        [_, s, _, M], _ = theano.scan(fn=recurrence,
+                                      sequences=x,
+                                      outputs_info=[self.h0, None, self.w0, self.M],
+                                      n_steps=x.shape[0],
+                                      name='SCAN_FUNCTION')
 
-        # self.M_q = ifelse(is_question, M_update, self.M_q)
-        # self.M_s = ifelse(is_question, self.M_s, M_update)
 
-        p_y_given_x_lastword = s[-1, 0, :]
-        p_y_given_x_lastword_print = Print('p(y|x) last word')(p_y_given_x_lastword)
+        self.M = M
+
+        p_y_given_x_last_word = s[-1, 0, :]
         p_y_given_x_sentence = s[:, 0, :]
         y_pred = T.argmax(p_y_given_x_sentence, axis=1)
-        y_pred_print = theano.printing.Print('y_pred')(y_pred)
 
         # cost and gradients and learning rate
         lr = T.scalar('lr')
-        nll = -T.mean(T.log(p_y_given_x_lastword)[y])
+        nll = -T.mean(T.log(p_y_given_x_last_word)[y])
         nll_print = theano.printing.Print('negative log likelihood: ')(nll)
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
-        self.classify = theano.function(inputs=[idxs, is_question], outputs=y_pred)
+        self.classify = theano.function(inputs=[idxs], outputs=y_pred)
 
         self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
                                      updates=updates,
-                                     on_unused_input='ignore')
-        # profile=True)
+                                     on_unused_input='ignore')  # profile=True)
 
-        self.normalize = theano.function(inputs=[],
-                                         updates={self.emb:
-                                                      self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0,
-                                                                                                                'x')})
+        self.normalize = theano.function(
+            inputs=[],
+            updates={self.emb: self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0,
+                                                                                         'x')})
 
     def save(self, folder):
         for param, name in zip(self.params, self.names):
