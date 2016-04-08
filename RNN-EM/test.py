@@ -1,7 +1,7 @@
 import numpy as np
 from rnn_em import model
 
-word_batch = np.array([[-1, -1, -1,  5, 17, 18, 19]], dtype='int32')
+word_batch = np.array([[-1, -1, -1, 5, 17, 18, 19]], dtype='int32')
 label = 1
 learn_rate = 0.0627142536696559
 is_question = True

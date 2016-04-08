@@ -53,14 +53,14 @@ class model(object):
 
         self.M = theano.shared(
             0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
-        self.M_q = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (
-                memory_size, num_slots_reserved_for_questions
-            )).astype(theano.config.floatX))
-        self.M_s = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (
-                memory_size, n_memory_slots - num_slots_reserved_for_questions
-            )).astype(theano.config.floatX))
+        # self.M_q = theano.shared(
+        #     0.2 * numpy.random.uniform(-1.0, 1.0, (
+        #         memory_size, num_slots_reserved_for_questions
+        #     )).astype(theano.config.floatX))
+        # self.M_s = theano.shared(
+        #     0.2 * numpy.random.uniform(-1.0, 1.0, (
+        #         memory_size, n_memory_slots - num_slots_reserved_for_questions
+        #     )).astype(theano.config.floatX))
         self.w0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots,)).astype(theano.config.floatX))
 
         self.Wk = theano.shared(
@@ -81,8 +81,9 @@ class model(object):
         self.be = theano.shared(numpy.zeros(n_memory_slots, dtype=theano.config.floatX))
 
         # bundle
-        self.params = [self.emb, self.Wx, self.Wh, self.W, self.bh, self.b, self.h0, self.Wg, self.Wb, self.Wv, self.We,
-                       self.Wk, self.bk, self.bg, self.bb, self.bv, self.be]
+        self.params = [self.emb, self.Wx, self.Wh, self.W, self.bh, self.b, self.h0, self.Wg, self.Wb,
+                       # self.Wv,# self.We,
+                       self.Wk, self.bk, self.bg, self.bb]  # , self.bv] #, self.be]
         self.names = ['embeddings', 'Wx', 'Wh', 'W', 'bh', 'b', 'h0', 'Wg', 'Wb', 'Wv', 'We', 'Wk', 'bk', 'bg', 'bb',
                       'bv', 'be']
 
@@ -115,9 +116,9 @@ class model(object):
                 return T.concatenate((a, b), 1)
 
             # [memory_size x n_memory_slots]
-            M_both = ifelse(is_question,
-                            hstack(M_previous, self.M_s),
-                            hstack(self.M_q, M_previous))
+            # M_both = ifelse(is_question,
+            #                 hstack(M_previous, self.M_s),
+            #                 hstack(self.M_q, M_previous))
 
             # eqn 12
             w_hat = cdist(M_previous, k)
@@ -138,19 +139,32 @@ class model(object):
             e = T.nnet.sigmoid(T.dot(self.We, h_tm1) + self.be)  # [n_memory_slots]
             f = 1. - w_t * e  # [n_memory_slots]
 
+            # select for slots reserved for questions
+            n = num_slots_reserved_for_questions
+            f_subtensor = ifelse(is_question, f[:n], f[n:])
+            w_subtensor = ifelse(is_question, w_t[:n], w_t[n:])
+            # M_subtensor = ifelse(is_question, M_previous[:, :n], M_previous[:, n:])
+            M_subtensor = M_previous[:, :n]
+
+            f_diag_subtensor = T.diag(f_subtensor)
+            M_update = T.dot(M_subtensor, f_diag_subtensor) + \
+                       T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
+            # M_update = ifelse(is_question,
+            #                   T.dot(M_previous[:, :n], f_diag_subtensor) + \
+            #                T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0)),
+            #                   T.dot(M_previous[:, n:], f_diag_subtensor) + \
+            #            T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
+            #                   )
+            # M_t = ifelse(is_question,
+            #              T.set_subtensor(M_previous[:, :n], M_update),
+            #              T.set_subtensor(M_previous[:, n:], M_update))
+            M_t = T.set_subtensor(M_subtensor, M_update)
+            # M_t = M_t + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))  # TODO get rid of this
+
             # eqn 19
             f_diag = T.diag(f)
 
-            # select for slots reserved for questions
-            n = num_slots_reserved_for_questions
-            w_write = ifelse(is_question, w_t[:n], w_t[n:])
-            w_col = w_write.dimshuffle('x', 0)
-            w_col_print = Print('w_col')(w_col)
-            write_tensor = T.dot(v.dimshuffle(0, 'x'), w_col)
-            write_print = Print('write')(write_tensor)
-            # M_t = T.dot(M_previous, f_diag) + write_tensor
-            w_t_print = Print('w_t')(w_t)
-            M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
+            # M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
 
             # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
@@ -160,13 +174,11 @@ class model(object):
 
             return [h_t, s_t, w_t, M_t]
 
-        M_init = ifelse(is_question, self.M_q, self.M_s)
         [_, s, _, M], _ = theano.scan(fn=recurrence,
                                       sequences=x,
                                       outputs_info=[self.h0, None, self.w0, self.M],
                                       n_steps=x.shape[0],
                                       name='SCAN_FUNCTION')
-
 
         self.M = M
 
@@ -181,7 +193,8 @@ class model(object):
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
-        self.classify = theano.function(inputs=[idxs], outputs=y_pred)
+        self.classify = theano.function(inputs=[idxs, is_question], outputs=y_pred,
+                                        on_unused_input='warn')
 
         self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
