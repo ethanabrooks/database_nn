@@ -141,14 +141,16 @@ class model(object):
 
             # select for slots reserved for questions
             n = num_slots_reserved_for_questions
+
             f_subtensor = ifelse(is_question, f[:n], f[n:])
             w_subtensor = ifelse(is_question, w_t[:n], w_t[n:])
-            # M_subtensor = ifelse(is_question, M_previous[:, :n], M_previous[:, n:])
+            M_subtensor = ifelse(is_question, M_previous[:, :n], M_previous[:, n:])
             M_subtensor = M_previous[:, :n]
 
             f_diag_subtensor = T.diag(f_subtensor)
             M_update = T.dot(M_subtensor, f_diag_subtensor) + \
                        T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
+
             # M_update = ifelse(is_question,
             #                   T.dot(M_previous[:, :n], f_diag_subtensor) + \
             #                T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0)),
@@ -156,9 +158,35 @@ class model(object):
             #            T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
             #                   )
             # M_t = ifelse(is_question,
+            #              T.set_subtensor(M_subtensor, T.dot(M_subtensor, T.diag(f[:n]))),
+            #              T.set_subtensor(M_subtensor, T.dot(M_subtensor, T.diag(f[n:]))))
+            def set_subtensor(is_question):
+                if is_question:
+                    M_subtensor = M_previous[:, :n]
+                    f_subtensor = f[:n]
+                    w_subtensor = w_t[:n]
+                else:
+                    M_subtensor = M_previous[:, n:]
+                    f_subtensor = f[n:]
+                    w_subtensor = w_t[n:]
+                diag_print = Print('f_diag')(T.diag(f_subtensor))
+                after_forget = T.dot(M_subtensor, T.diag(f_subtensor))
+                w_print = Print('w_subtensor')(w_subtensor)
+                new_write = T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
+                return T.set_subtensor(M_subtensor, after_forget + new_write)
+
+            M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
+
+            # M_t = ifelse(is_question,
+            #              T.set_subtensor(M_previous[:, :n], T.dot(M_previous[:, :n], T.diag(f[:n]))
+            #                              + T.dot(v.dimshuffle(0, 'x'), w_t[:n].dimshuffle('x', 0))),
+            #              T.set_subtensor(M_previous[:, n:], T.dot(M_previous[:, n:], T.diag(f[n:]))
+            #                              + T.dot(v.dimshuffle(0, 'x'), w_t[n:].dimshuffle('x', 0))))
+
+            # M_t = ifelse(is_question,
             #              T.set_subtensor(M_previous[:, :n], M_update),
             #              T.set_subtensor(M_previous[:, n:], M_update))
-            M_t = T.set_subtensor(M_subtensor, M_update)
+            # M_t = T.set_siubtensor(M_subtensor, M_update)
             # M_t = M_t + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))  # TODO get rid of this
 
             # eqn 19
@@ -172,7 +200,8 @@ class model(object):
             # eqn 10?
             s_t = T.nnet.softmax(T.dot(self.W, h_t) + self.b)
 
-            return [h_t, s_t, w_t, M_t]
+            M_t_print = Print('M_t')(M_t)
+            return [h_t, s_t, w_t, M_t_print]
 
         [_, s, _, M], _ = theano.scan(fn=recurrence,
                                       sequences=x,
