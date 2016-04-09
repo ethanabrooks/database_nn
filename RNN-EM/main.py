@@ -51,9 +51,14 @@ if not os.path.exists(folder): os.mkdir(folder)
 
 def evaluate(predictions, targets):
     measures = np.zeros(3)
-    for pred, target in zip(predictions, targets):
-        def confusion((predicted, actual)):
-            return pred[np.logical_and(pred == predicted, target == actual)].sum()
+
+    for prediction, target in zip(predictions, targets):
+        prediction, target = (t == np.zeros_like(t) + 2
+                              for t in (prediction, target))
+
+        def confusion((pred_is_pos, tgt_is_pos)):
+            return np.logical_and(prediction == pred_is_pos,
+                                  target == tgt_is_pos).sum()
 
         tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
         measures += np.array((tp, fp, fn))
@@ -95,9 +100,17 @@ class Dataset:
 
     def predict(self):
         predictions = []
+        previous_is_question = False
         for sentence, is_question in zip(self.inputs, self.is_questions):
+
+            # reset memory?
+            is_question = train.is_questions[i]
+            reset = is_question and not previous_is_question
+            previous_is_question = is_question
+
             predictions.append(rnn.classify(
-                np.asarray(contextwin(sentence, s.window_size), dtype='int32')))
+                np.asarray(contextwin(sentence, s.window_size), dtype='int32'),
+                is_question, reset))
         return predictions
         # [rnn.classify(
         #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
@@ -242,40 +255,30 @@ for epoch in range(s.n_epochs):
     shuffle([train.inputs, train.targets], s.seed)
     s.current_epoch = epoch
     tic = time.time()
+    print('###\t{:10}{:10}{:10}{:10}###'
+          .format('epoch', 'progress', 'loss', 'runtime'))
     for i in range(nsentences):  # for each sentence
         context_words = contextwin(train.inputs[i], s.window_size)
         words = [np.asarray(instance, dtype='int32') for instance in
                  minibatch(context_words, s.batch_size)]
+        loss = 0
+        previous_is_question = False
         for word_batch, label in zip(words, train.targets[i]):
-            loss = rnn.train(word_batch, label, s.learn_rate, train.is_questions[i])
-            # rnn.train.profile.print_summary()
-            exit(0)
+
+            # reset memory?
+            is_question = train.is_questions[i]
+            reset = is_question and not previous_is_question
+            previous_is_question = is_question
+
+            loss = rnn.train(word_batch, label, s.learn_rate, is_question, reset)
             rnn.normalize()
-            if s.verbose:
-                progress = (i + 1) * 100. / nsentences
-                print('## epoch {0:d} {1:2.2f}% ##'.format(epoch, progress),
-                      '## loss: {:2.2f} ##'.format(float(loss)),
-                      '## running for {0:.2f} secs ##'.format(time.time() - tic),
-                      end='\r')  # write in-place
-                sys.stdout.flush()
-
-    if s.dataset == 'atis':
-
-        def translate(subset, dic=idx2label):
-            return [map(dic.__getitem__, w) for w in subset]
+        if s.verbose:
+            progress = float(i + 1) / nsentences
+            print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
+                  .format(epoch, progress, float(loss), time.time() - tic), end='')
+            sys.stdout.flush()
 
 
-        for set_name in ('test', 'valid'):
-            dataset = eval(set_name)
-            predictions = dataset.predict()
-
-            predicted_labels, actual_labels = map(translate,
-                                                  (predictions, dataset.targets))
-            input_words = translate(dataset.inputs, idx2word)
-            res = conlleval(predicted_labels, actual_labels, input_words,
-                            '{0}/current.{1}.txt'.format(folder, set_name))
-            exec 'res_{} = res'.format(set_name)
-    else:
         def save_predictions(filename, targets, predictions):
             filename = 'current.{0}.txt'.format(filename)
             filepath = os.path.join(folder, filename)
@@ -287,21 +290,20 @@ for epoch in range(s.n_epochs):
                         handle.write('\n')
 
 
-        for set_name in ('test', 'valid'):
-            dataset = eval(set_name)
+        results = []
+        for dataset, set_name in ((test, 'test'), (valid, 'valid')):
             predictions = dataset.predict()
             save_predictions(set_name, dataset.targets, predictions)
-            res = evaluate(predictions, dataset.targets)
-            exec 'res_{0} = res'.format(set_name)
+            results.append(evaluate(predictions, dataset.targets))
+        res_test, res_valid = results
 
     if res_valid['f1'] > best_f1:
         rnn.save(folder)
         best_f1 = res_valid['f1']
         if s.verbose:
-            print('NEW BEST: epoch', epoch,
-                  'valid F1', res_valid['f1'],
-                  'best test F1', res_test['f1'],
-                  ' ' * 20)
+            print('\nNEW BEST: '
+                  'valid F1:', res_valid['f1'],
+                  'test F1:', res_test['f1'], '\n')
             sys.stdout.flush()
 
         for key in res_test:
@@ -314,10 +316,8 @@ for epoch in range(s.n_epochs):
             subprocess.call(command.split())
     else:
         if s.verbose:
-            print('Last epoch', epoch,
-                  'valid F1', res_valid['f1'],
-                  'best test F1', res_test['f1'],
-                  ' ' * 20)
+            print('\nvalid F1:', res_valid['f1'],
+                  'test F1:', res_test['f1'], '\n')
             sys.stdout.flush()
 
     # learning rate decay if no improvement in 10 epochs
@@ -326,7 +326,7 @@ for epoch in range(s.n_epochs):
     if s.learn_rate < 1e-5:
         break
 
-print('BEST RESULT: epoch', epoch,
+print('BEST RESULT: epoch', s.best_epoch,
       'valid F1', s.valid_f1,
       'best test F1', s.test_f1,
       'with the RNN-EM', folder)

@@ -51,16 +51,11 @@ class model(object):
         self.b = theano.shared(numpy.zeros(nclasses, dtype=theano.config.floatX))
         self.h0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size,)).astype(theano.config.floatX))
 
-        self.M = theano.shared(
+        self.M0 = theano.shared(
             0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
-        # self.M_q = theano.shared(
-        #     0.2 * numpy.random.uniform(-1.0, 1.0, (
-        #         memory_size, num_slots_reserved_for_questions
-        #     )).astype(theano.config.floatX))
-        # self.M_s = theano.shared(
-        #     0.2 * numpy.random.uniform(-1.0, 1.0, (
-        #         memory_size, n_memory_slots - num_slots_reserved_for_questions
-        #     )).astype(theano.config.floatX))
+        # self.M0 = theano.shared(
+        #     0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
+        self.M = self.M0
         self.w0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots,)).astype(theano.config.floatX))
 
         self.Wk = theano.shared(
@@ -112,14 +107,6 @@ class model(object):
             beta = T.log(1 + T.exp(beta_pre))
             beta = T.addbroadcast(beta, 0)  # [1]
 
-            def hstack(a, b):
-                return T.concatenate((a, b), 1)
-
-            # [memory_size x n_memory_slots]
-            # M_both = ifelse(is_question,
-            #                 hstack(M_previous, self.M_s),
-            #                 hstack(self.M_q, M_previous))
-
             # eqn 12
             w_hat = cdist(M_previous, k)
             w_hat = T.exp(beta * w_hat)
@@ -142,57 +129,23 @@ class model(object):
             # select for slots reserved for questions
             n = num_slots_reserved_for_questions
 
-            f_subtensor = ifelse(is_question, f[:n], f[n:])
-            w_subtensor = ifelse(is_question, w_t[:n], w_t[n:])
-            M_subtensor = ifelse(is_question, M_previous[:, :n], M_previous[:, n:])
-            M_subtensor = M_previous[:, :n]
-
-            f_diag_subtensor = T.diag(f_subtensor)
-            M_update = T.dot(M_subtensor, f_diag_subtensor) + \
-                       T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
-
-            # M_update = ifelse(is_question,
-            #                   T.dot(M_previous[:, :n], f_diag_subtensor) + \
-            #                T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0)),
-            #                   T.dot(M_previous[:, n:], f_diag_subtensor) + \
-            #            T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
-            #                   )
-            # M_t = ifelse(is_question,
-            #              T.set_subtensor(M_subtensor, T.dot(M_subtensor, T.diag(f[:n]))),
-            #              T.set_subtensor(M_subtensor, T.dot(M_subtensor, T.diag(f[n:]))))
             def set_subtensor(is_question):
                 if is_question:
-                    M_subtensor = M_previous[:, :n]
-                    f_subtensor = f[:n]
-                    w_subtensor = w_t[:n]
+                    M_t = M_previous[:, :n]
+                    f_t = f[:n]
+                    u_t = w_t[:n]
                 else:
-                    M_subtensor = M_previous[:, n:]
-                    f_subtensor = f[n:]
-                    w_subtensor = w_t[n:]
-                diag_print = Print('f_diag')(T.diag(f_subtensor))
-                after_forget = T.dot(M_subtensor, T.diag(f_subtensor))
-                w_print = Print('w_subtensor')(w_subtensor)
-                new_write = T.dot(v.dimshuffle(0, 'x'), w_subtensor.dimshuffle('x', 0))
-                return T.set_subtensor(M_subtensor, after_forget + new_write)
+                    M_t = M_previous[:, n:]
+                    f_t = f[n:]
+                    u_t = w_t[n:]
+
+                u_t = u_t.dimshuffle('x', 0)
+                v_t = v.dimshuffle(0, 'x')
+
+                # eqn 19
+                return T.set_subtensor(M_t, T.dot(M_t, T.diag(f_t)) + T.dot(v_t, u_t))
 
             M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
-
-            # M_t = ifelse(is_question,
-            #              T.set_subtensor(M_previous[:, :n], T.dot(M_previous[:, :n], T.diag(f[:n]))
-            #                              + T.dot(v.dimshuffle(0, 'x'), w_t[:n].dimshuffle('x', 0))),
-            #              T.set_subtensor(M_previous[:, n:], T.dot(M_previous[:, n:], T.diag(f[n:]))
-            #                              + T.dot(v.dimshuffle(0, 'x'), w_t[n:].dimshuffle('x', 0))))
-
-            # M_t = ifelse(is_question,
-            #              T.set_subtensor(M_previous[:, :n], M_update),
-            #              T.set_subtensor(M_previous[:, n:], M_update))
-            # M_t = T.set_siubtensor(M_subtensor, M_update)
-            # M_t = M_t + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))  # TODO get rid of this
-
-            # eqn 19
-            f_diag = T.diag(f)
-
-            # M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
 
             # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
@@ -201,15 +154,20 @@ class model(object):
             s_t = T.nnet.softmax(T.dot(self.W, h_t) + self.b)
 
             M_t_print = Print('M_t')(M_t)
-            return [h_t, s_t, w_t, M_t_print]
+            return [h_t, s_t, w_t, M_t]
 
+        reset = T.iscalar()
+        m0_print = Print('self.M0')(self.M0)
+        m_print = Print('self.M')(self.M)
+        M0 = ifelse(reset, self.M0, m_print)
         [_, s, _, M], _ = theano.scan(fn=recurrence,
                                       sequences=x,
                                       outputs_info=[self.h0, None, self.w0, self.M],
                                       n_steps=x.shape[0],
                                       name='SCAN_FUNCTION')
 
-        self.M = M
+        # m_print = Print('M')(M)
+        # self.M = m_print
 
         p_y_given_x_last_word = s[-1, 0, :]
         p_y_given_x_sentence = s[:, 0, :]
@@ -222,12 +180,14 @@ class model(object):
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
-        self.classify = theano.function(inputs=[idxs, is_question], outputs=y_pred,
+        self.classify = theano.function(inputs=[idxs, is_question, reset],
+                                        outputs=y_pred,
+                                        # updates=[(self.M, M)],
                                         on_unused_input='warn')
 
-        self.train = theano.function(inputs=[idxs, y, lr, is_question],
+        self.train = theano.function(inputs=[idxs, y, lr, is_question, reset],
                                      outputs=nll,
-                                     updates=updates,
+                                     updates=updates, # + [(self.M, m_print)],
                                      on_unused_input='ignore')  # profile=True)
 
         self.normalize = theano.function(
