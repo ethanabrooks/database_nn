@@ -91,9 +91,6 @@ class model(object):
         x = self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))  # QUESTION: what is idxs.shape[0]?
         y = T.iscalar('y')  # label
 
-        def inspect_inputs(i, node, fn):
-            print(i, node, "input(s) value(s):", [input[0].shape for input in fn.inputs], end='')
-
         def recurrence(x_t, h_tm1, w_previous, M_previous):
             # eqn not specified in paper
             g_t = T.nnet.sigmoid(T.dot(self.Wg, x_t) + self.bg)  # [n_memory_slots]
@@ -147,13 +144,17 @@ class model(object):
 
             M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
 
+            # f_diag = T.diag(f)
+            # M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
+            # M_t = T.set_subtensor(M_t[:, :n], M_t[:, :n] + 1)
+
             # eqn 9
             h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
 
             # eqn 10?
             s_t = T.nnet.softmax(T.dot(self.W, h_t) + self.b)
 
-            M_t_print = Print('M_t')(M_t)
+            # M_t_print = Print('M_t')(M_t)
             return [h_t, s_t, w_t, M_t]
 
         reset = T.iscalar()
@@ -187,8 +188,8 @@ class model(object):
 
         self.train = theano.function(inputs=[idxs, y, lr, is_question, reset],
                                      outputs=nll,
-                                     updates=updates, # + [(self.M, m_print)],
-                                     on_unused_input='ignore')  # profile=True)
+                                     updates=updates,  # + [(self.M, m_print)],
+                                     on_unused_input='ignore', profile=True)
 
         self.normalize = theano.function(
             inputs=[],

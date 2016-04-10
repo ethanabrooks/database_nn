@@ -48,6 +48,10 @@ print(s)
 folder = os.path.basename(__file__).split('.')[0]
 if not os.path.exists(folder): os.mkdir(folder)
 
+# instantiate the RNN-EM
+np.random.seed(s.seed)
+random.seed(s.seed)
+
 
 def evaluate(predictions, targets):
     measures = np.zeros(3)
@@ -235,10 +239,6 @@ else:
 nsentences = len(train.inputs)  # perhaps train_lex is a list of sentences
 print("size of dictionary:", vocsize)
 print("number of sentences:", nsentences)
-
-# instantiate the RNN-EM
-np.random.seed(s.seed)
-random.seed(s.seed)
 
 rnn = model(s.hidden_size,
             nclasses,
