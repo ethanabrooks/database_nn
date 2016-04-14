@@ -1,11 +1,13 @@
-3
+5
 
-@entity2 is the capital and largest city of @entity1 .
+@entity4 @entity3 in @entity1 .
 
-hey " u " ! : @entity2 is its capital
+@entity2 , please : when you celebrate a semicentennial , you 're celebrating the passage of this many years
 
-@entity1
+@entity4
 
 @entity0:
-@entity1:Uganda
-@entity2:Kampala
+@entity1:China
+@entity2:NUMBER
+@entity3:BC
+@entity4:50

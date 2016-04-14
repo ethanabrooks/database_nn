@@ -1,0 +1,15 @@
+7
+
+@entity1 is a city and a union territory in the northern part of @entity2 that serves as the capital of the states of @entity6 and @entity3 .
+
+train timetables : in this country , the @entity1 choo - choo gets into @entity5 at @entity4
+
+@entity2
+
+@entity0:
+@entity1:Chandigarh
+@entity2:India
+@entity3:Haryana
+@entity4:0400
+@entity5:Panipat Junction
+@entity6:Punjab

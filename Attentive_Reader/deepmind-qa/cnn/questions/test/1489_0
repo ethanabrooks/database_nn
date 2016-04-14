@@ -1,15 +1,19 @@
-7
+11
 
-@entity3 : a report of @entity6 .
+, @entity6 is the most populous city in the @entity7 , with @entity8 and @entity1 @entity3 and @entity10 , respectively .
 
-@entity1 : @entity4 rose from @entity5 to med school to this job atop the @entity2 public health service
+@entity9 cities : this @entity5 port is headquarters for the @entity4 's @entity2 fleet
 
-@entity6
+@entity8
 
 @entity0:
-@entity1:COMMUNITY COLLEGE ALUMNI
-@entity2:U.S.
-@entity3:The Health Consequences of Involuntary Exposure to Tobacco Smoke
-@entity4:Richard Carmona
-@entity5:Bronx Community College
-@entity6:the Surgeon General
+@entity1:Chesapeake
+@entity2:Atlantic
+@entity3:second
+@entity4:Navy
+@entity5:Virginia
+@entity6:Virginia Beach
+@entity7:Commonwealth
+@entity8:Norfolk
+@entity9:U.S.
+@entity10:third

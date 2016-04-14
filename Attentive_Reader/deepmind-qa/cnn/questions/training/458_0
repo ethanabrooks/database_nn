@@ -1,17 +1,15 @@
-9
+7
 
-@entity4 dancer and actor @entity1 , real estate magnate @entity5 , actor @entity7 , and martial arts instructor @entity2 .
+@entity5 is the birthplace of @entity6 ( born @entity2 ) .
 
-ballet : onstage this late @entity8 defector often partnered @entity6 ; offstage , @entity3
+@entity3 : @entity4 died @entity1 in an asylum near @entity5 , the city where this musical titan was born in @entity2
 
-@entity1
+@entity6
 
 @entity0:
-@entity1:Alexander Godunov
-@entity2:Emin Boztepe
-@entity3:Jacqueline Bisset
-@entity4:Russian-American
-@entity5:Victor Drai
-@entity6:Maya Plisetskaya
-@entity7:Vincent Pérez
-@entity8:Soviet
+@entity1:age 46
+@entity2:1770
+@entity3:ROBERT SCHUMANN
+@entity4:Robert Schumann
+@entity5:Bonn
+@entity6:Ludwig van Beethoven

@@ -1,0 +1,13 @@
+5
+
+it shares land borders with @entity1 to the north and @entity2 to the west .
+
+faraway places : this land that 's north of @entity4 has odd place names lile @entity3
+
+@entity1
+
+@entity0:
+@entity1:Scotland
+@entity2:Wales
+@entity3:Loch Lochy & Loch Oich
+@entity4:England

@@ -1,14 +1,16 @@
-6
+8
 
-  in @entity3 she wrote @entity4 , the authorized biography of @entity5 .
+it stars @entity1 , @entity6 , @entity4 , @entity3 , and @entity5 .
 
-nonfiction : @entity1 titled a @entity3 biography " @entity2 " this cartoonist
+leading men : this romantic actor appeared in " @entity2 " , " @entity2 " & " ghosts italian style "
 
-@entity5
+@entity1
 
 @entity0:
-@entity1:Rheta Grimsley Johnson
-@entity2:Good Grief: The Story of
-@entity3:1989
-@entity4:Good Grief
-@entity5:Charles Schulz
+@entity1:Marcello Mastroianni
+@entity2:Marriage Italian Style
+@entity3:Lando Buzzanca
+@entity4:Stefania Sandrelli
+@entity5:Leopoldo Trieste
+@entity6:Daniela Rocca
+@entity7:Divorce Italian Style

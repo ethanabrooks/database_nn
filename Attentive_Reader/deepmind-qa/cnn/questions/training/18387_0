@@ -1,0 +1,14 @@
+6
+
+no , the @entity1 @entity4 film , premieres at the london pavilion , featuring @entity3 as the hero .
+
+" s.c. " : in a @entity2 movie he bonded with @entity5
+
+@entity3
+
+@entity0:
+@entity1:first
+@entity2:1962
+@entity3:Sean Connery
+@entity4:James Bond
+@entity5:Ursula Andress

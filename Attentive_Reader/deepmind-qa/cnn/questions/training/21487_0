@@ -1,0 +1,12 @@
+4
+
+@entity3   is the capital and the largest city of @entity1 .
+
+museums : @entity2 in @entity3 contains coins from this country from colonial times to the present
+
+@entity1
+
+@entity0:
+@entity1:Peru
+@entity2:The Museo Numismatico
+@entity3:Lima

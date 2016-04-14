@@ -1,14 +1,16 @@
-6
+8
 
-a close collaborator of @entity2 , he is widely regarded as one of the most significant violinists of @entity1 .
+in @entity2 , she began working closely with noted jazz musicians , among them @entity4 , @entity1 , @entity3 , @entity7 , and @entity6 , who asked her to collaborate on his final recordings .
 
-classical music : @entity5 , a friend of this @entity4 composer , lived to make a @entity3 recording of his works
+the bass : this late jazz bassist who also backed @entity5 was a true " jaco " all trades
 
-@entity2
+@entity4
 
 @entity0:
-@entity1:the 19th century
-@entity2:Johannes Brahms
-@entity3:1903
-@entity4:German
-@entity5:Joseph Joachim
+@entity1:Wayne Shorter
+@entity2:the late 1970s
+@entity3:Herbie Hancock
+@entity4:Jaco Pastorius
+@entity5:Joni Mitchell
+@entity6:Charles Mingus
+@entity7:Pat Metheny

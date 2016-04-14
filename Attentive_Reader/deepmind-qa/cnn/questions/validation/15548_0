@@ -1,0 +1,18 @@
+10
+
+@entity4 lëtzebuerg/luxemburg/luxembourg    @entity7 25,713 2,054,800 81.1 skopje makedonija    malta 316 397,499 1,257.9 valletta malta    moldova   33,843 4,434,547 131.0 chișinău moldova    monaco 1.95 31,987 16,403.6 monaco monaco    montenegro 13,812 616,258 44.6 podgorica crna gora    netherlands   41,526 16,902,103 393.0 amsterdam nederland    norway 385,178 5,018,836 15.5 oslo norge/noreg    poland 312,685 38,625,478 123.5 warsaw polska    @entity6   91,568 10,409,995 110.1 lisbon portugal    romania 238,391 21,698,181 91.0 bucharest românia    @entity2   17,075,400 143,975,923 8.3 @entity8 rossiya    san marino 61 27,730 454.6 @entity1 san marino    @entity9   88,361 7,120,666 91.9 belgrade srbija    slovakia 48,845 5,422,366 111.0
+
+" san " city : with a population of @entity5 , it 's one of the smallest capitals in @entity3 & is in one of the smallest nations
+
+@entity1
+
+@entity0:
+@entity1:San Marino
+@entity2:Russia
+@entity3:Europe
+@entity4:Luxembourg
+@entity5:less than 5,000
+@entity6:Portugal
+@entity7:Macedonia
+@entity8:Moscow
+@entity9:Serbia

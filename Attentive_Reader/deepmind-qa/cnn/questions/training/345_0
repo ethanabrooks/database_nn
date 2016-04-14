@@ -1,15 +1,14 @@
-7
+6
 
-return to me is a @entity6 @entity4 romantic comedy - drama film directed by @entity3 and starring @entity5 and @entity2 .
+the newberry library is an independent research library , specializing in the humanities and located in @entity2 , @entity3 , that has been free and open to the public since @entity5 .
 
-initials m.d. : in " @entity1 " , @entity5 has a heart - to-heart with her
+pot luck : this city 's @entity4 , a top research library , is located at @entity1
 
 @entity2
 
 @entity0:
-@entity1:Return To Me
-@entity2:Minnie Driver
-@entity3:Bonnie Hunt
-@entity4:American
-@entity5:David Duchovny
-@entity6:2000
+@entity1:Dearborn & Oak
+@entity2:Chicago
+@entity3:Illinois
+@entity4:Newberry Library
+@entity5:1887

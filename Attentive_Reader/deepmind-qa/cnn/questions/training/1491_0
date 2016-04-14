@@ -1,19 +1,18 @@
-11
+10
 
-@entity5 : the race that came down to a @entity1 - car duel between   @entity7 and @entity6 .
+@entity6 is bordered on the north by @entity3 , on the east by @entity7 and @entity1 , on the south by @entity9 , on the southwest by @entity8 , and on the west by @entity2 .
 
-in the @entity4 @entity8 almanac : " @entity2 @entity3 national champion ... died in last lap crash at the @entity10 @entity9 "
+@entity5 : @entity6 shares @entity4 with this state
 
 @entity7
 
 @entity0:
-@entity1:two
-@entity2:7-time
-@entity3:NASCAR
-@entity4:2005
-@entity5:1986
-@entity6:Geoff Bodine
-@entity7:Dale Earnhardt
-@entity8:ESPN
-@entity9:Daytona 500
-@entity10:2001
+@entity1:Nebraska
+@entity2:Idaho
+@entity3:Montana
+@entity4:the Black Hills National Forest
+@entity5:WYOMING
+@entity6:Wyoming
+@entity7:South Dakota
+@entity8:Utah
+@entity9:Colorado

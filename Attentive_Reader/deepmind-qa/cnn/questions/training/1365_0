@@ -1,13 +1,15 @@
-5
+7
 
-" @entity2 , @entity1 is a song written , composed and recorded by @entity3 .
+the government shifted the state @entity6 capital to @entity5 , and then again to @entity1 from @entity4 , for the remainder of the war .
 
-' 60s music : this brooklynite broke into the top 40 with 1966 's " @entity4 "
+national parks : palatial bathing establishments line @entity2 in this @entity3 park
 
-@entity3
+@entity5
 
 @entity0:
-@entity1:Cherry"
-@entity2:Cherry
-@entity3:Neil Diamond
-@entity4:Cherry, Cherry
+@entity1:Washington
+@entity2:Bathhouse Row
+@entity3:Arkansas
+@entity4:1863-1865
+@entity5:Hot Springs
+@entity6:Confederate

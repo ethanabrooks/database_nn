@@ -1,13 +1,12 @@
-5
+4
 
-@entity1 ( , , “ new flower ” ; ,   " natural spring(s ) " ) , sometimes spelled @entity4 ( the spelling used by the official @entity2 ) , is the capital city of @entity3 .
+the capital city of @entity2 is @entity1 .
 
-languages : ge'ez is an ancient language still used in this country whose capital is @entity1
+world geography : in ancient times this city in @entity2 was called @entity3
 
-@entity3
+@entity1
 
 @entity0:
-@entity1:Addis Ababa
-@entity2:Ethiopian Mapping Authority
-@entity3:Ethiopia
-@entity4:Addis Abeba
+@entity1:Naples
+@entity2:Campania
+@entity3:Neapolis

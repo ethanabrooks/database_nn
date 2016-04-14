@@ -1,0 +1,16 @@
+8
+
+interstate 75 between @entity1 and @entity2 is one of the heaviest traveled sections of interstate in @entity5 .
+
+baseball : @entity4 team that threw the @entity6 @entity3 lost to this @entity5 team
+
+@entity0
+
+@entity0:
+@entity1:Cincinnati
+@entity2:Dayton
+@entity3:World Series
+@entity4:The "Black Sox"
+@entity5:Ohio
+@entity6:1919
+@entity7:Cincinnati Reds

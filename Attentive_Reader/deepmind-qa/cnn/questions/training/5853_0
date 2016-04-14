@@ -1,0 +1,13 @@
+5
+
+its capital city is @entity1 , and its most populous city is @entity2 .
+
+@entity3 geography : this large @entity4 city was named after a structure spanning the pequonnock
+
+@entity2
+
+@entity0:
+@entity1:Hartford
+@entity2:Bridgeport
+@entity3:U.S.
+@entity4:Connecticut

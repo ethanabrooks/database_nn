@@ -1,0 +1,15 @@
+7
+
+in the @entity1 @entity2 film @entity6 , the painting appears in several scenes .
+
+artists : he painted one of his most famous pictures , " @entity5 " , @entity3
+
+@entity0
+
+@entity0:
+@entity1:2013
+@entity2:Tom Cruise
+@entity3:40 years ago
+@entity4:Andrew Wyeth
+@entity5:Christina's World
+@entity6:Oblivion

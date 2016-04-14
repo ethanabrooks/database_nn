@@ -202,7 +202,7 @@ def get_tokenized_string(nlp_parser, s):
 
 if __name__ == '__main__':
 	nlp_parser = English()
-	d = parse_qa_file('nn_output')
+	d = parse_qa_file('nn_output_combined')
 
 	test_obj = d[0]
 	parse_into_format(nlp_parser, d, 'vocab.txt')

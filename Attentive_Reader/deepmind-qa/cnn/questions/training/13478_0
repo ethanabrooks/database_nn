@@ -1,0 +1,17 @@
+9
+
+( @entity2 ; @entity1   ) is the capital and largest city of @entity4 with a population of @entity8 based on the @entity7 census , @entity6 of the total population of @entity4 .
+
+" b " prepared : this @entity3 country 's capital is @entity5
+
+@entity4
+
+@entity0:
+@entity1:English
+@entity2:Tswana
+@entity3:African
+@entity4:Botswana
+@entity5:Gaborone
+@entity6:about 10%
+@entity7:2011
+@entity8:231,626

@@ -1,0 +1,13 @@
+5
+
+@entity4
+
+economics : professor of economics at @entity1 1948 - 1982 , he won a @entity3 @entity2
+
+@entity4
+
+@entity0:
+@entity1:the University of Chicago
+@entity2:Nobel Prize
+@entity3:1976
+@entity4:Milton Friedman

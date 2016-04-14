@@ -1,0 +1,13 @@
+5
+
+a player 's pieces enter play on the darkened space to the left of the player 's " nest " , or starting area , and continue counter - clockwise around the board until they reach the home path directly in front of the player .
+
+play time : a @entity4 player begins with @entity2 pieces & can move a maximum of this many of them on @entity3 roll of the dice
+
+@entity0
+
+@entity0:
+@entity1:two
+@entity2:4
+@entity3:one
+@entity4:Parcheesi

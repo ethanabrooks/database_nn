@@ -1,0 +1,12 @@
+4
+
+@entity1 is the capital and largest city of @entity2 .
+
+countries of the world : you 'll find this @entity3 country 's national museum in its capital , @entity1
+
+@entity2
+
+@entity0:
+@entity1:Kampala
+@entity2:Uganda
+@entity3:African

@@ -1,0 +1,13 @@
+5
+
+statement :
+
+famous armstrongs : he 's @entity1 , @entity3 's most famous @entity4
+
+@entity0
+
+@entity0:
+@entity1:Wapakoneta
+@entity2:Neil Armstrong
+@entity3:Ohio
+@entity4:Armstrong

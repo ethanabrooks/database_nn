@@ -1,14 +1,15 @@
-6
+7
 
-@entity3 ( ; ( born @entity1 ) is an @entity2 lawyer and politician who served as the 53rd governor of @entity5 ( 1995–2006 ) .
+@entity4 macy ( @entity2 @entity5 ) , better known as @entity1 , was an @entity6 teacher , best known for being the instructor and lifelong companion of @entity3 .
 
-current governors : @entity4
+famous women : she 's the   young girl on the left pictured with her beloved teacher @entity1
 
-@entity5
+@entity3
 
 @entity0:
-@entity1:June 24, 1945
-@entity2:American
-@entity3:George Elmer Pataki
-@entity4:George Pataki
-@entity5:New York
+@entity1:Anne Sullivan
+@entity2:April 14, 1866 –
+@entity3:Helen Keller
+@entity4:Johanna "Anne" Mansfield Sullivan
+@entity5:October 20, 1936
+@entity6:American

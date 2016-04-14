@@ -1,12 +1,16 @@
-4
+8
 
-@entity2 is a novella by @entity1 .
+@entity7 forces turn back a @entity4 invasion of @entity1 in @entity6 .
 
-19th century literature : you 'll find whaleboats not only in his masterpiece but also in his story " @entity2 " & his novel " @entity3 "
+native american place names : in @entity3 a @entity2 took place around @entity5 in this state
 
 @entity1
 
 @entity0:
-@entity1:Herman Melville
-@entity2:Benito Cereno
-@entity3:Mardi
+@entity1:Georgia
+@entity2:Civil War battle
+@entity3:1863
+@entity4:Union
+@entity5:Chickamauga Creek
+@entity6:the Battle of Chickamauga
+@entity7:Confederate

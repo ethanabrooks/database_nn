@@ -1,0 +1,13 @@
+5
+
+a study in scarlet is an @entity4 detective novel by @entity2 author @entity3 .
+
+authors : " a tangled skein " was this author 's original title for " @entity1 "
+
+@entity3
+
+@entity0:
+@entity1:A Study in Scarlet
+@entity2:British
+@entity3:Arthur Conan Doyle
+@entity4:1887

@@ -1,0 +1,13 @@
+5
+
+the capital city is @entity1 , while @entity2 is the seat of the federal government .
+
+world geography : capital of @entity3 , it was once a @entity4 tin - mining camp
+
+@entity1
+
+@entity0:
+@entity1:Kuala Lumpur
+@entity2:Putrajaya
+@entity3:Malaysia
+@entity4:Chinese

@@ -1,15 +1,13 @@
-7
+5
 
-goodbye to @entity2 is a @entity4 novel by @entity1 set in @entity6 .
+former president @entity4 was born in @entity1 , but moved away shortly after birth .
 
-books & authors : @entity5 , a minimally talented nightclub singer , is the heroine of his " @entity3 " stories
+presidential birthplaces : @entity3 in @entity2 , @entity1
 
-@entity1
+@entity4
 
 @entity0:
-@entity1:Christopher Isherwood
-@entity2:Berlin
-@entity3:Goodbye To Berlin
-@entity4:1939
-@entity5:Sally Bowles
-@entity6:Weimar Germany
+@entity1:Nebraska
+@entity2:Omaha
+@entity3:July 14, 1913
+@entity4:Gerald Ford

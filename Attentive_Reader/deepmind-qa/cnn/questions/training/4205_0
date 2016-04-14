@@ -1,20 +1,14 @@
-12
+6
 
-  the film stars @entity4 , @entity2 , @entity3 , @entity10 , @entity1 , and @entity5 .
+@entity4 first appeared in @entity3 # 1 ( @entity5 ) and subsequently appeared in various radio serials , newspaper strips , television programs , films , and video games .
 
-@entity6 cinema : in @entity7 this little girl starred in " @entity11 " , " @entity9 " & " @entity8 "
+" a.c. " : the @entity5 issue no . @entity2 of this periodical included @entity4 's @entity1 appearance
 
-@entity4
+@entity3
 
 @entity0:
-@entity1:Bill Robinson
-@entity2:Lionel Barrymore
-@entity3:Evelyn Venable
-@entity4:Shirley Temple
-@entity5:Hattie McDaniel
-@entity6:CLASSIC
-@entity7:1935
-@entity8:The Littlest Rebel
-@entity9:The Little Colonel
-@entity10:John Lodge
-@entity11:Our Little Girl
+@entity1:first
+@entity2:1
+@entity3:Action Comics
+@entity4:Superman
+@entity5:June 1938

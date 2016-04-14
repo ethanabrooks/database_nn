@@ -1,13 +1,15 @@
-5
+7
 
-@entity3 is a @entity1 novel by @entity2 .
+the state 's coastline contains many salt marshes and estuaries , as well as natural ports such as @entity1 and @entity4 .
 
-' @entity4 lit : in @entity1 he came up with " @entity3 "
+the american revolution : the @entity6 captured this @entity2 port on @entity5 & held it for @entity3
 
-@entity2
+@entity4
 
 @entity0:
-@entity1:1978
-@entity2:Robert Ludlum
-@entity3:The Holcroft Covenant
-@entity4:70s
+@entity1:Georgetown
+@entity2:South Carolina
+@entity3:2 years
+@entity4:Charleston
+@entity5:May 12, 1780
+@entity6:British

@@ -1,15 +1,15 @@
 7
 
-  " @entity2 " is a poem by @entity3 poet @entity1 .
+it starred @entity1 as sister @entity2 .
 
-" hugh"s & " hughes " : @entity4 @entity5 winner , among this poet 's works on his life in @entity6 was " @entity2 "
+' @entity3 sitcoms : after " @entity6 " was grounded in @entity5 , she went on to play " @entity4 "
 
 @entity1
 
 @entity0:
-@entity1:Langston Hughes
-@entity2:The Weary Blues
-@entity3:American
-@entity4:1960
-@entity5:Spingarn Medal
-@entity6:Harlem
+@entity1:Sally Field
+@entity2:Bertrille
+@entity3:70s
+@entity4:The Girl with Something Extra
+@entity5:1970
+@entity6:The Flying Nun

@@ -1,0 +1,12 @@
+4
+
+its capital city is @entity1 .
+
+mondo geo : @entity3 's capital city , it shares its name with the last name of a man of @entity2 currency
+
+@entity1
+
+@entity0:
+@entity1:Hamilton
+@entity2:U.S.
+@entity3:Bermuda

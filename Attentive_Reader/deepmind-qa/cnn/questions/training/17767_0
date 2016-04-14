@@ -1,0 +1,17 @@
+9
+
+it is bordered by @entity2 to the north , @entity7 and @entity6 to the west , @entity8 and @entity5 to the south , and @entity3 to the east .
+
+except after sea : this sea has @entity4 on its mind ( well , its eastern side , anyway ) & @entity1 on its west
+
+@entity3
+
+@entity0:
+@entity1:Bulgaria
+@entity2:Romania
+@entity3:the Black Sea
+@entity4:Georgia
+@entity5:Turkey
+@entity6:Macedonia
+@entity7:Serbia
+@entity8:Greece

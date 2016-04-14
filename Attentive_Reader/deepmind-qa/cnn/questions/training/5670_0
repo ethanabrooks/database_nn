@@ -1,15 +1,13 @@
-7
+5
 
-  the headquarters of @entity3 is in @entity2 , @entity1 .
+@entity3   is a novel by @entity1 , first published on @entity2 .
 
-@entity5 : @entity3 makes its home in this state , also home to @entity6 , the @entity4 publisher
+fictional ghosts : he pioneered the novel with " @entity3 " & the ghost story with " @entity4 "
 
 @entity1
 
 @entity0:
-@entity1:Tennessee
-@entity2:Nashville
-@entity3:Gideons International
-@entity4:Bible
-@entity5:CLUBS & ORGANIZATIONS
-@entity6:Thomas Nelson
+@entity1:Daniel Defoe
+@entity2:25 April 1719
+@entity3:Robinson Crusoe
+@entity4:The Apparition of One Mrs. Veal

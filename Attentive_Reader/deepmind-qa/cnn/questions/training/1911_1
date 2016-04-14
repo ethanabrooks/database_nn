@@ -1,18 +1,14 @@
-10
+6
 
-  the city has @entity4 artificial lakes : the tirana artificial lake around which was built the big park , @entity3 ,   @entity3 , @entity3 , and other smaller lakes or reservoirs .
+@entity4 also has another airport , the smaller @entity3 .
 
-@entity7 capitals : @entity9 commander @entity8 founded @entity1 , this country 's capital
+this & that : on @entity5 , in a daring act , this @entity2 naval officer destroyed a frigate that @entity4 pirates had captured
 
 @entity0
 
 @entity0:
-@entity1:Tirana
-@entity2:Albania
-@entity3:Farka Lake
-@entity4:four
-@entity5:Tufina Lake
-@entity6:Paskuqani Lake
-@entity7:EUROPEAN
-@entity8:B. Suleiman Pasha
-@entity9:Ottoman
+@entity1:Stephen Decatur
+@entity2:U.S.
+@entity3:Mitiga International Airport
+@entity4:Tripoli
+@entity5:Feb. 16, 1804

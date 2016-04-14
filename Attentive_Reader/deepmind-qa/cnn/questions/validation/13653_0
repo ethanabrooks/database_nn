@@ -1,0 +1,14 @@
+6
+
+sophisticated lady ’ is a jazz standard , composed as an instrumental in @entity2 by @entity1 , with additional credit given to publisher @entity5 , and to which words were added by @entity4 .
+
+composers : this " noble " jazzman wrote " @entity3 " & " mood indigo "
+
+@entity1
+
+@entity0:
+@entity1:Duke Ellington
+@entity2:1932
+@entity3:Sophisticated Lady
+@entity4:Mitchell Parish
+@entity5:Irving Mills

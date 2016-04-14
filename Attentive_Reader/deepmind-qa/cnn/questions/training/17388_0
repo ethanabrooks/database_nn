@@ -1,0 +1,14 @@
+6
+
+the state 's capital and largest city is @entity1 .
+
+american restaurants : prime aged beef is the specialty of @entity5 's @entity3 , just steps from the @entity4 in this @entity2 city
+
+@entity1
+
+@entity0:
+@entity1:Columbus
+@entity2:Ohio
+@entity3:Steakhouse
+@entity4:Capitol
+@entity5:Mitchell

@@ -1,0 +1,14 @@
+6
+
+the country 's capital and largest city is @entity2 .
+
+@entity4 capitals : @entity1 's capital , @entity3 , is not to be confused with this capital of @entity5
+
+@entity2
+
+@entity0:
+@entity1:Romania
+@entity2:Budapest
+@entity3:Bucharest
+@entity4:EUROPEAN
+@entity5:Hungary

@@ -1,0 +1,12 @@
+4
+
+about   south of the capital is @entity1 , the largest city in @entity2 .
+
+canadian cities : known for its stampede , this largest @entity2 city is called @entity3 's oil & gas capital
+
+@entity1
+
+@entity0:
+@entity1:Calgary
+@entity2:Alberta
+@entity3:Canada

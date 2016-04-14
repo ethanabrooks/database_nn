@@ -1,12 +1,15 @@
-4
+7
 
-@entity3 :
+isidore of @entity1 , archbishop of @entity1 , was an influential philosopher and was much studied in @entity5 in @entity2 .
 
-the new york times fashion : nytimes.com reported on the " terrifying schmaltz " of the @entity2 show at this @entity1 city 's fashion week
+double " l " : an emblem of this city in @entity4 is the @entity3 , a @entity6 minaret that 's part of the city 's cathedral
 
-@entity3
+@entity1
 
 @entity0:
-@entity1:Italian
-@entity2:Gucci
-@entity3:Milan
+@entity1:Seville
+@entity2:Europe
+@entity3:Giralda
+@entity4:Spain
+@entity5:the Middle Ages
+@entity6:Muslim

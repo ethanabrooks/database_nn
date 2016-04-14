@@ -1,12 +1,13 @@
-4
+5
 
-@entity2 's younger brother , @entity1 , would become a noted author .
+@entity2 is a graphic designer best known for designing the @entity4 " swoosh " logo .
 
-authors : songwriter @entity3 , who changed the spelling of his name , was this " sister carrie " author 's brother
+business & industry : student @entity2 was paid $ @entity3 for designing this shoe company 's " @entity1 " logo
 
-@entity1
+@entity4
 
 @entity0:
-@entity1:Theodore Dreiser
-@entity2:Dresser
-@entity3:Paul Dresser
+@entity1:Swoosh
+@entity2:Carolyn Davidson
+@entity3:35
+@entity4:Nike

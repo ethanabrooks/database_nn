@@ -1,12 +1,17 @@
-4
+9
 
-as a former governor , he is usually called by the honorific title " governor . " while the city is never named , it is frequently assumed to be @entity1 .
+it consists of @entity3 islands that are categorized broadly under @entity7 main geographical divisions : @entity8 , @entity4 , and @entity5 .
 
-who 's the boss : @entity2 inspired the novel " @entity3 " as a political boss & mayor of this city
+world geography : @entity6 of the @entity2 ' total land area is divided between @entity1 this island
 
-@entity1
+@entity5
 
 @entity0:
-@entity1:Boston
-@entity2:James Curley
-@entity3:The Last Hurrah
+@entity1:Luzon &
+@entity2:Philippines
+@entity3:7,107
+@entity4:Visayas
+@entity5:Mindanao
+@entity6:About 65%
+@entity7:three
+@entity8:Luzon

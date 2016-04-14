@@ -1,16 +1,15 @@
-8
+7
 
-@entity4   ( pashto/persian : حامد کرزی ; born @entity1 ) served as president of @entity6 for almost ten years , from @entity2 to @entity5 .
+@entity6 people live in @entity1 , the capital city of @entity4 , which is the @entity3 largest city proper in the @entity5
 
-follow the leader : a @entity7 grand council known as a @entity3 installed @entity4 as the president of this embattled country
+get some culture : the prehistoric @entity2 culture of @entity4 is named for a suburb of this city where its artifacts were first found
 
-@entity6
+@entity1
 
 @entity0:
-@entity1:24 December 1957
-@entity2:7 December 2004
-@entity3:Loya Jirga
-@entity4:Hamid Karzai
-@entity5:29 September 2014
-@entity6:Afghanistan
-@entity7:June 2002
+@entity1:Tokyo
+@entity2:Yayoi
+@entity3:second
+@entity4:Japan
+@entity5:OECD.
+@entity6:Approximately 9.1 million

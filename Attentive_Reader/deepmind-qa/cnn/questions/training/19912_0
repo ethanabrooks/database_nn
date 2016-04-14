@@ -1,0 +1,15 @@
+7
+
+the @entity4 suburb of @entity1 was home to famous architect @entity3 , who had designed @entity6 located near @entity2 .
+
+" o " town : it 's a village next to @entity4 or a city next to @entity5
+
+@entity1
+
+@entity0:
+@entity1:Oak Park
+@entity2:the University of Chicago
+@entity3:Frank Lloyd Wright
+@entity4:Chicago
+@entity5:Detroit
+@entity6:The Robie House

@@ -1,15 +1,11 @@
-7
+3
 
-  geography it is located on the coast of @entity3 , facing the city of @entity2 across the narrow strait .
+the capital of @entity1 is @entity2 .
 
-strait - en up : the ferry from @entity5 in @entity6 , @entity1 to @entity4 crosses this strait
+state capitals : this city is the center of @entity1 's fertile " black belt " agricultural area
 
-@entity3
+@entity2
 
 @entity0:
-@entity1:Italy
-@entity2:Messina
-@entity3:Strait of Messina
-@entity4:Sicily
-@entity5:Villa San Giovanni
-@entity6:Calabria
+@entity1:Alabama
+@entity2:Montgomery

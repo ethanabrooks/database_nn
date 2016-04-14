@@ -1,13 +1,16 @@
-5
+8
 
-@entity4 :
+@entity4 , a @entity3 graduate and @entity6   veteran from the @entity5   – who serves as the novel 's narrator   – takes a job in @entity7 as a bond salesman .
 
-" w"hodunnit ? : his last complete novel , @entity2 's " @entity1 " , involves further adventures of @entity3
+fictional characters : in " @entity2 " , this bonds salesman lives next door to @entity1
 
 @entity4
 
 @entity0:
-@entity1:Aunts Aren't Gentlemen
-@entity2:1974
-@entity3:Wooster & Jeeves
-@entity4:P.G. Wodehouse
+@entity1:Jay Gatsby
+@entity2:The Great Gatsby
+@entity3:Yale
+@entity4:Nick Carraway
+@entity5:Midwest
+@entity6:World
+@entity7:New York

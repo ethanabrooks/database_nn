@@ -1,19 +1,16 @@
-11
+8
 
-@entity1 ( @entity7 – @entity5 ) ( ) was a lawyer and is the @entity2 president of @entity10 , whose tenure lasted from @entity4 .
+the great gatsby is a @entity1 novel written by @entity7 author @entity2 that follows a cast of characters living in the fictional town of @entity6 on prosperous @entity4 in @entity5 .
 
-@entity8 : in @entity3 @entity6 became president of this @entity9 country , then often described as " war - torn "
+epitaphs : " so we beat on , boats against the current , borne back ceaselessly into the past " -- @entity3
 
-@entity10
+@entity2
 
 @entity0:
-@entity1:Elias Youssef Sarkis
-@entity2:sixth
-@entity3:1976
-@entity4:1976 to 1982
-@entity5:27 June 1985
-@entity6:Elias Sarkis
-@entity7:20 July 1924
-@entity8:THE 1970s
-@entity9:Mideast
-@entity10:Lebanon
+@entity1:1925
+@entity2:F. Scott Fitzgerald
+@entity3:The Great Gatsby
+@entity4:Long Island
+@entity5:the summer of 1922
+@entity6:West Egg
+@entity7:American

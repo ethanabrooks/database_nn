@@ -1,15 +1,12 @@
-7
+4
 
-@entity1 .
+literature the historical connotation of @entity2 's speech remains strong in the public perception .
 
-@entity3 you learned your african capitals : in @entity2 the capital of this republic of @entity6 was moved from @entity4 to niamey
+the end of the marathon : in the @entity1
 
 @entity0
 
 @entity0:
-@entity1:Scarecrow Press/ Metuchen
-@entity2:1926
-@entity3:HOPE
-@entity4:Zinder
-@entity5:Niger
-@entity6:Northwest Africa
+@entity1:Heldenplatz
+@entity2:Hitler
+@entity3:Vienna

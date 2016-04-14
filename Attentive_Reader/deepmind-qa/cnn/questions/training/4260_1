@@ -1,16 +1,14 @@
-8
+6
 
-@entity4 gives birth to @entity5 's son @entity3 , but call refuses to acknowledge the child is his .
+@entity4 –
 
-authors : in @entity1 he published " @entity7 " , a prequel to his " @entity2 "
+country clubs : this not - very-exclusive club founded in @entity5 has @entity1 members ( & they were n't too welcome in @entity2 )
 
 @entity0
 
 @entity0:
-@entity1:1997
-@entity2:Lonesome Dove
-@entity3:Newt
-@entity4:Maggie
-@entity5:Call
-@entity6:Larry McMurtry
-@entity7:Comanche Moon
+@entity1:153
+@entity2:Seattle
+@entity3:the World Trade Organization
+@entity4:August 30
+@entity5:1995

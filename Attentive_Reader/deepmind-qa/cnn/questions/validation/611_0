@@ -1,17 +1,16 @@
-9
+8
 
-@entity5 is a nature reserve in @entity6 of @entity3 .
+@entity5   @entity7 president @entity3 and vice president @entity2 are renominated at @entity4 in @entity6 .
 
-primates : ( @entity1 of @entity4 reads with a lemur from the duke u. primate center in @entity2 , @entity8 )   @entity7 is part of a project to return captive - bred lemurs to @entity5 on this island , their native habitat
+historic names : he was reelected vice president of the @entity7 in @entity1
 
-@entity3
+@entity2
 
 @entity0:
-@entity1:Sarah
-@entity2:Durham
-@entity3:Madagascar
-@entity4:the Clue Crew
-@entity5:Betampona Reserve
-@entity6:Toamasina Province
-@entity7:The Duke University Primate Center
-@entity8:NC.
+@entity1:1996
+@entity2:Al Gore
+@entity3:Bill Clinton
+@entity4:the Democratic National Convention
+@entity5:August 29
+@entity6:Chicago
+@entity7:U.S.

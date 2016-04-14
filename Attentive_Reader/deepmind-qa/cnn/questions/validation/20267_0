@@ -1,0 +1,16 @@
+8
+
+@entity3 to coach a @entity4 ( @entity2 ) .
+
+sports : this @entity6 quarterback won the heisman trophy in @entity1 , @entity7 after his coach @entity5 won it
+
+@entity2
+
+@entity0:
+@entity1:1996
+@entity2:Danny Wuerffel
+@entity3:First Heisman Trophy-winner
+@entity4:Heisman Trophy-winner
+@entity5:Steve Spurrier
+@entity6:Florida
+@entity7:30 years

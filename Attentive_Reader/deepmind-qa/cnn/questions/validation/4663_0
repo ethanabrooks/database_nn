@@ -1,0 +1,12 @@
+4
+
+@entity1 composed the scores for all @entity3 films .
+
+classical musicians : acclaimed guitarist who shares his name with the composer of " @entity2 "
+
+@entity1
+
+@entity0:
+@entity1:John Williams
+@entity2:Star Wars
+@entity3:six

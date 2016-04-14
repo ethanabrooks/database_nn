@@ -1,12 +1,13 @@
-4
+5
 
-he secured power in @entity2 , serving as head of state @entity3 .
+the wonderful wizard of oz , a @entity1 @entity4 novel by @entity2 often reprinted under the title @entity3   adaptations   adaptations of the wizard of oz   film
 
-they used to be in charge : @entity1
+dedicated : he dedicated " @entity3 " " to my good friend & comrade , my wife "
 
 @entity2
 
 @entity0:
-@entity1:Venustiano Carranza
-@entity2:Mexico
-@entity3:1915-1917
+@entity1:1900
+@entity2:L. Frank Baum
+@entity3:The Wizard of Oz
+@entity4:American

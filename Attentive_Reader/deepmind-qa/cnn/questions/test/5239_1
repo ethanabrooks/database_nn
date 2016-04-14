@@ -1,13 +1,15 @@
-5
+7
 
-" @entity2 culture : the folklore , legends & traditions : trinacria .
+es migjorn gran ( or @entity1 ) - hometown of @entity3 .
 
-islands : because of its triangular shape , the ancients called this island off @entity1 's southwestern coast @entity4
+@entity2 : this country lost @entity6 , sicily & gibraltar when it signed @entity5
 
 @entity0
 
 @entity0:
-@entity1:Italy
-@entity2:Sicilian
-@entity3:Sicily
-@entity4:Trinacria
+@entity1:Es Mitjorn Gran
+@entity2:THE 18th CENTURY
+@entity3:Joan Riudavets
+@entity4:Spain
+@entity5:the Treaty of Utrecht
+@entity6:Minorca

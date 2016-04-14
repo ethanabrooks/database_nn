@@ -1,18 +1,16 @@
-10
+8
 
-@entity1 was granted a @entity5 @entity7 term in @entity8 by @entity3 successor , @entity6 .
+adaptations in @entity1 , the novel was freely adapted into a film , @entity4 , directed by @entity3 and starring @entity7 as the priest .
 
-p.c. : @entity9 was the @entity2 returned volunteer to be confirmed as director of this do - gooder agency
+" g.g. " : the literary works of this onetime film critic include " @entity6 " & " @entity5 "
 
 @entity0
 
 @entity0:
-@entity1:Bellamy
-@entity2:first
-@entity3:Boutros-Ghali's
-@entity4:the Peace Corps
-@entity5:second
-@entity6:Kofi Annan
-@entity7:five-year
-@entity8:2000
-@entity9:Carol Bellamy
+@entity1:1947
+@entity2:Graham Greene
+@entity3:John Ford
+@entity4:The Fugitive
+@entity5:The Power and the Glory
+@entity6:This Gun for Hire
+@entity7:Henry Fonda

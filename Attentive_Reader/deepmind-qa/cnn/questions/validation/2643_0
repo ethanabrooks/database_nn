@@ -1,13 +1,15 @@
-5
+7
 
-@entity4 is a fictional character in @entity2 novel @entity3 .
+@entity3 was founded in @entity1 by @entity4 when he informally called upon people of short stature to join him in a get - together in @entity5 , @entity2 .
 
-book by characters : @entity4 , @entity1
+organizations : in @entity1 this actor founded @entity6 , an organization for short - statured people
 
-@entity3
+@entity4
 
 @entity0:
-@entity1:Hareton Earnshaw
-@entity2:Emily Brontë's
-@entity3:Wuthering Heights
-@entity4:Isabella Linton
+@entity1:1957
+@entity2:Nevada
+@entity3:LPA
+@entity4:Billy Barty
+@entity5:Reno
+@entity6:Little People of America

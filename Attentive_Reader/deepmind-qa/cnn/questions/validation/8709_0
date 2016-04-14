@@ -1,0 +1,15 @@
+7
+
+@entity5 in fiction   the novel @entity2 @entity1 , published in @entity3 , is set in @entity4 .
+
+books & authors : " @entity5 " was a @entity3 book by @entity6 written under this pen name
+
+@entity1
+
+@entity0:
+@entity1:George Orwell
+@entity2:Nineteen Eighty-Four by
+@entity3:1949
+@entity4:this year
+@entity5:1984
+@entity6:Eric Blair

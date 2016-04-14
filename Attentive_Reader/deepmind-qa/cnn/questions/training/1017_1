@@ -1,14 +1,13 @@
-6
+5
 
-@entity1 and @entity2 .
+biro pusat statistik , @entity3 .
 
-books & authors : @entity3 , a minimally talented nightclub singer , is the heroine of his " @entity5 " stories
+fun on the map : just @entity2 look at this island southeast of @entity4 makes me want a cup of coffee
 
 @entity0
 
 @entity0:
-@entity1:Christopher
-@entity2:His Kind
-@entity3:Sally Bowles
-@entity4:Christopher Isherwood
-@entity5:Goodbye To Berlin
+@entity1:Java
+@entity2:one
+@entity3:Jakarta
+@entity4:Sumatra

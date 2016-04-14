@@ -1,12 +1,13 @@
-4
+5
 
-@entity2 .
+the museum also contains a number of exhibits exploring the training and racing of thoroughbred horses .
 
-geographical quotes : @entity1 once said , " if i owned " this big state " and hell , i would rent out " the state " and live in hell "
+the sports channel : in @entity3 a horse named @entity4 won this " derby " held annually at @entity1
 
 @entity0
 
 @entity0:
-@entity1:Philip Sheridan
-@entity2:159–60
-@entity3:Texas
+@entity1:Churchill Downs
+@entity2:the Kentucky Derby
+@entity3:2002
+@entity4:War Emblem

@@ -1,15 +1,16 @@
-7
+8
 
-@entity5 @entity1 ( played by @entity6 ) is a fictional character and the protagonist of the television series @entity3 .
+the landing on the surface of the @entity4 occurred several seconds after @entity2 @entity3 on @entity1 ,
 
-tv performers by role : @entity1 , alias @entity4
+days of our lives : @entity6 stepped onto the moon on this date , exactly @entity7 into @entity5 's presidency
 
-@entity6
+@entity1
 
 @entity0:
-@entity1:Sydney Bristow
-@entity2:Anne Bristow
-@entity3:Alias
-@entity4:Julia Thorne
-@entity5:Sydney
-@entity6:Jennifer Garner
+@entity1:July 20, 1969
+@entity2:20:17:40
+@entity3:UTC
+@entity4:Moon
+@entity5:Nixon
+@entity6:Neil Armstrong
+@entity7:6 months

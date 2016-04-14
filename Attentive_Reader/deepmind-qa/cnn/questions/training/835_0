@@ -1,16 +1,19 @@
-8
+11
 
-@entity2 ( elevation ) is a mountain pass through @entity1 located at the border of @entity5 and @entity5 in @entity3 , @entity4 .
+@entity5 is a painting by @entity6 in the collection of @entity4 .
 
-state of disaster : there have been numerous avalanches in @entity7 @entity2 in this state
+crayola : a colorful history : ( @entity1 of @entity10 stands with a packaging machine at @entity3 in @entity2 , @entity8 )   in @entity7 , this " @entity5 " artist entered a @entity9 coloring contest & won ; he later said that 's what gave him the encouragement he needed to pursue a career in art
 
-@entity3
+@entity6
 
 @entity0:
-@entity1:the Cascade Mountains
-@entity2:Stevens Pass
-@entity3:Washington
-@entity4:United States
-@entity5:Chelan County
-@entity6:King County
-@entity7:the Cascade Range's
+@entity1:Kelly
+@entity2:Easton
+@entity3:the Crayola Museum & Factory
+@entity4:the Art Institute of Chicago
+@entity5:American Gothic
+@entity6:Grant Wood
+@entity7:the early 1900s
+@entity8:PA.
+@entity9:Crayola
+@entity10:the Clue Crew

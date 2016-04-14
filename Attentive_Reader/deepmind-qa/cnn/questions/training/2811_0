@@ -1,14 +1,24 @@
-6
+16
 
-the variety is grown in over @entity5 of @entity1 vineyards .
+it has the cities of @entity15 , @entity4 , @entity8 and @entity7 in the southeast , @entity5 in the southwest , the tri - cities of @entity1 , @entity10 , and @entity9 in the central east ( known as @entity6 ) , the tri - cities of @entity14 , @entity13 , and @entity11 in the northeast , and @entity2 in the northwest .
 
-@entity2 : in this @entity4 state , @entity3 is the red wine grape with the most producing acres
+geography " b " : o this little town in @entity3 's @entity12 is known as the " christmas city "
 
-@entity1
+@entity10
 
 @entity0:
-@entity1:California
-@entity2:WINES & SPIRITS
-@entity3:Zinfandel
-@entity4:U.S.
-@entity5:10 percent
+@entity1:Allentown
+@entity2:Erie
+@entity3:Pennsylvania
+@entity4:Reading
+@entity5:Pittsburgh
+@entity6:the Lehigh Valley
+@entity7:Lancaster
+@entity8:Lebanon
+@entity9:Easton
+@entity10:Bethlehem
+@entity11:Hazleton
+@entity12:Lehigh Valley
+@entity13:Wilkes-Barre
+@entity14:Scranton
+@entity15:Philadelphia

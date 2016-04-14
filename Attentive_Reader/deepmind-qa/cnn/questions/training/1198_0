@@ -1,13 +1,14 @@
-5
+6
 
-@entity1 's life inspired the oscar - winning film @entity3 , in which he was played by @entity4 .
+( @entity3 ) .
 
-the golden globe awards : @entity4 positively glowed when he won for playing pianist @entity2 in this film
+the tony awards : this @entity2 actress followed up her " @entity5 " oscar win with a @entity1 for " @entity4 "
 
 @entity3
 
 @entity0:
-@entity1:Helfgott
-@entity2:David Helfgott
-@entity3:Shine
-@entity4:Geoffrey Rush
+@entity1:Tony
+@entity2:British
+@entity3:Judi Dench
+@entity4:Amy's View
+@entity5:Shakespeare in Love

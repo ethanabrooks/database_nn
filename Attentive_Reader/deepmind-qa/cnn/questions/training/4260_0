@@ -1,13 +1,18 @@
-5
+10
 
-@entity2 is a @entity4 western novel by @entity1 .
+events     @entity4 january 1   @entity5 ( @entity2 ) is established to replace @entity9 ( @entity1 ) .
 
-authors : in @entity4 he published " @entity2 " , a prequel to his " @entity3 "
+country clubs : this not - very-exclusive club founded in @entity3 has @entity6 members ( & they were n't too welcome in @entity7 )
 
-@entity1
+@entity5
 
 @entity0:
-@entity1:Larry McMurtry
-@entity2:Comanche Moon
-@entity3:Lonesome Dove
-@entity4:1997
+@entity1:GATT
+@entity2:WTO
+@entity3:1995
+@entity4:January   
+@entity5:The World Trade Organization
+@entity6:153
+@entity7:Seattle
+@entity8:the World Trade Organization
+@entity9:the General Agreement on Tariffs and Trade

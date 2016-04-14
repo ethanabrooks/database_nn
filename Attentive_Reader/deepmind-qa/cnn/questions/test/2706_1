@@ -1,16 +1,12 @@
-8
+4
 
-@entity3 was appointed by president @entity6 as one of the first @entity4 commissioners .
+the name of the country is @entity2 ( like other countries , we ignore somewhat the " united " or " federated " or other grouping term in the official name ) .
 
-secretaries of commerce : though sworn in @entity2 , @entity1 was denied confirmation by this body in @entity5
+@entity3 states : during the war of 1812 thousands in this state volunteered to enlist , hence its " volunteer state " nickname
 
 @entity0
 
 @entity0:
-@entity1:Lewis Strauss
-@entity2:7 months earlier
-@entity3:Strauss
-@entity4:five
-@entity5:1959
-@entity6:Truman
-@entity7:Senate
+@entity1:Tennessee
+@entity2:America
+@entity3:U.S.

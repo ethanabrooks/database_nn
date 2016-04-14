@@ -1,15 +1,17 @@
-7
+9
 
-she breaks their engagement and accepted the marriage proposal from her patient @entity1 .
+@entity5 's " @entity7 " the day @entity8 was buried , a long obituary appeared in the new york tribune signed " @entity3 " .
 
-people : @entity4 , who passed away in @entity2 , played dr. @entity6 on this daytime soap for @entity5
+@entity4 : @entity2 's wife , who passed away at @entity1 , had this name , like the state at whose university @entity2 studied
 
 @entity0
 
 @entity0:
-@entity1:Randy
-@entity2:1996
-@entity3:General Hospital
-@entity4:John Beradino
-@entity5:over 30 years
-@entity6:Steve Hardy
+@entity1:age 24
+@entity2:Poe
+@entity3:Ludwig
+@entity4:EDGAR ALLAN POE
+@entity5:Griswold
+@entity6:Virginia
+@entity7:Memoir
+@entity8:Edgar Allan Poe

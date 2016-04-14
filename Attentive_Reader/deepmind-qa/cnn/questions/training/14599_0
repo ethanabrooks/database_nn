@@ -1,0 +1,17 @@
+9
+
+@entity8 is bordered by @entity6 to the north , @entity1 to the northeast , @entity2 to the east , @entity4 to the southeast , @entity5 to the south , @entity7 to the west , and @entity3 to the southwest , at the four corners .
+
+state borders : if you go directly east from the four corners , you 'll be on @entity8 's border with this state
+
+@entity5
+
+@entity0:
+@entity1:Nebraska
+@entity2:Kansas
+@entity3:Arizona
+@entity4:Oklahoma
+@entity5:New Mexico
+@entity6:Wyoming
+@entity7:Utah
+@entity8:Colorado

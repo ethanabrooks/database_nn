@@ -1,14 +1,15 @@
-6
+7
 
-@entity1 @entity3 was born in @entity1 in @entity5 , as the eldest of @entity2 children .
+@entity2 is awarded @entity1 in physics for his work with the photoelectric effect .
 
-artists & their subjects : @entity3 was in his @entity4 when he began painting his massive " paradise " canvas for the doge 's palace in this city
+science : this @entity6 - born @entity5 physicist won the @entity4 @entity3
 
-@entity1
+@entity2
 
 @entity0:
-@entity1:Venice
-@entity2:21
-@entity3:Tintoretto
-@entity4:70s
-@entity5:1518
+@entity1:the Nobel Prize
+@entity2:Albert Einstein
+@entity3:Nobel Prize for Physics
+@entity4:1921
+@entity5:American
+@entity6:German

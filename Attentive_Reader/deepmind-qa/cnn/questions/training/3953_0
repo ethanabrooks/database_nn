@@ -1,0 +1,13 @@
+5
+
+@entity3 is a @entity1 best - selling novel by @entity2 , an @entity4 author .
+
+name the author : " @entity3 "
+
+@entity2
+
+@entity0:
+@entity1:1977
+@entity2:Colleen McCullough
+@entity3:The Thorn Birds
+@entity4:Australian

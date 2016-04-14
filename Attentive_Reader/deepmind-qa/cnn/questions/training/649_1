@@ -1,12 +1,14 @@
-4
+6
 
-...
+@entity5 –
 
-what have " v " here : novels about this historic event include " @entity1 " & " @entity3 "
+@entity3 history : radical @entity4 impeached & tried to remove this president in @entity2
 
 @entity0
 
 @entity0:
-@entity1:Fortunate Son
-@entity2:the Vietnam War
-@entity3:The Green Berets
+@entity1:Andrew Johnson
+@entity2:1868
+@entity3:U.S.
+@entity4:Republicans
+@entity5:October 23

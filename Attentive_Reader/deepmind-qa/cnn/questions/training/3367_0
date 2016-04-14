@@ -1,13 +1,16 @@
-5
+8
 
-the virgin spring ( ) is a @entity3 @entity4 film directed by @entity2 .
+he died on @entity6 in @entity5 , @entity7 , and was buried in @entity1 on @entity4 , the only member of @entity2 to be honoured in this way .
 
-at the movies : this @entity4 film director 's classics include " @entity1 " , " the silence " & " wild strawberries "
+around the world : @entity3 is buried on @entity4 in this city
 
-@entity2
+@entity1
 
 @entity0:
-@entity1:The Virgin Spring
-@entity2:Ingmar Bergman
-@entity3:1960
-@entity4:Swedish
+@entity1:Jerusalem
+@entity2:the Nazi Party
+@entity3:Oskar Schindler
+@entity4:Mount Zion
+@entity5:Hildesheim
+@entity6:9 October 1974
+@entity7:Germany

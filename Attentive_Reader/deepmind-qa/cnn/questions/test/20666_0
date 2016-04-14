@@ -1,0 +1,12 @@
+4
+
+the park , located   west of @entity2 in the province of @entity3 , encompasses   of mountainous terrain , with numerous glaciers and ice fields , dense coniferous forest , and alpine landscapes .
+
+in which canadian province ? : @entity1
+
+@entity3
+
+@entity0:
+@entity1:Banff National Park
+@entity2:Calgary
+@entity3:Alberta

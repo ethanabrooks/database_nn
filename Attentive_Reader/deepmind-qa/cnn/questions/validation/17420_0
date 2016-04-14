@@ -1,0 +1,19 @@
+11
+
+@entity4 is bordered by @entity7 and @entity6 to the north , @entity5 to the east , @entity8 , @entity3 , and @entity9 to the south , and @entity1 and @entity2 to the west .
+
+head north : part of @entity4 's northern border is with @entity10 , but the longest section is with this state
+
+@entity7
+
+@entity0:
+@entity1:Arkansas
+@entity2:Missouri
+@entity3:Alabama
+@entity4:Tennessee
+@entity5:North Carolina
+@entity6:Virginia
+@entity7:Kentucky
+@entity8:Georgia
+@entity9:Mississippi
+@entity10:Missouri & Virginia

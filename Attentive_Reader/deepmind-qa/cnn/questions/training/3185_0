@@ -1,15 +1,14 @@
-7
+6
 
-it is located in the province of @entity1 , north of @entity2 and west of @entity5 .
+it shares land borders with @entity2 to the north and @entity3 to the west .
 
-my kinda town : the town of @entity6 is in @entity2 in this @entity4 province
+@entity5 , @entity4 : @entity1 cover most of it
 
-@entity1
+@entity3
 
 @entity0:
-@entity1:Alberta
-@entity2:Jasper National Park
-@entity3:Banff National Park
-@entity4:Canadian
-@entity5:Edmonton
-@entity6:Jasper
+@entity1:The Cambrian Mountains
+@entity2:Scotland
+@entity3:Wales
+@entity4:SCOTLAND OR WALES
+@entity5:ENGLAND

@@ -1,0 +1,13 @@
+5
+
+@entity2 excommunicates @entity3 in the papal bull @entity4 .
+
+pope : pope leo x famously excommunicated this reformer in @entity1
+
+@entity3
+
+@entity0:
+@entity1:1521
+@entity2:Pope Leo X
+@entity3:Martin Luther
+@entity4:Decet Romanum Pontificem

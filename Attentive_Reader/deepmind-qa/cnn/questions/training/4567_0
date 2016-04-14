@@ -1,13 +1,15 @@
-5
+7
 
-  @entity4 was for a period of years in @entity3 the favorite ski resort of @entity2 .
+it borders @entity1 to the north , @entity6 to the northeast , @entity3 to the east , and the drake passage in the far south .
 
-let 's visit austria : preferring to go where the rain turns to snow , he wintered in @entity4 while writing " @entity1 "
+geography : in @entity2 it lost its @entity4 province to @entity5 & became a landlocked country
 
-@entity2
+@entity6
 
 @entity0:
-@entity1:The Sun Also Rises
-@entity2:Ernest Hemingway
-@entity3:the early 1920s
-@entity4:Schruns
+@entity1:Peru
+@entity2:1884
+@entity3:Argentina
+@entity4:Atacama
+@entity5:Chile
+@entity6:Bolivia

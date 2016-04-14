@@ -1,14 +1,17 @@
-6
+9
 
-@entity1 is a city in @entity2 , site of @entity4 .
+as of @entity7 , @entity6 @entity8 animals were on the federal endangered list ; @entity1 plants were listed as endangered or threatened .
 
-in the doghouse : @entity3 at this capital 's @entity1 airport will not only take your terrier but will also house your hamster
+city seals : @entity8 's @entity3 - largest city , its seal depicts the pillars of @entity5 to recall its days under @entity4 rule
 
 @entity0
 
 @entity0:
-@entity1:Narita
-@entity2:Japan
-@entity3:The Petinn Royal
-@entity4:the Narita International Airport
-@entity5:Tokyo
+@entity1:181
+@entity2:San Diego
+@entity3:second
+@entity4:Spanish
+@entity5:Hercules
+@entity6:118
+@entity7:April 2003
+@entity8:California

@@ -1,14 +1,14 @@
 6
 
-@entity2 she wrote feature articles for @entity3 .
+the film opened at # 9 at the box office when released in @entity3 in @entity1 .
 
-children 's authors : @entity4 lived most of her life in this state & set her novel " @entity5 " there
+boxing movies : he played @entity4 ' trainer in " @entity5 " a " dirty dozen " years before he starred in " death wish "
 
 @entity0
 
 @entity0:
-@entity1:Massachusetts
-@entity2:From 1924 to 1926
-@entity3:the Boston Evening Transcript
-@entity4:Esther Forbes
-@entity5:Johnny Tremain
+@entity1:August 1962
+@entity2:Charles Bronson
+@entity3:the United States
+@entity4:Elvis
+@entity5:Kid Galahad

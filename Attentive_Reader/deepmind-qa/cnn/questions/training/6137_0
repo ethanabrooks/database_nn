@@ -1,0 +1,17 @@
+9
+
+it is bordered in the north by @entity2 and @entity7 , in the east by @entity4 , in the southeast by @entity8 , in the south by @entity6 , and in the west by @entity5 .
+
+geography " b " : this country that 's named for a @entity3 hero lies on @entity1 's eastern border
+
+@entity8
+
+@entity0:
+@entity1:Peru
+@entity2:Ecuador
+@entity3:South American
+@entity4:Brazil
+@entity5:the Pacific Ocean
+@entity6:Chile
+@entity7:Colombia
+@entity8:Bolivia

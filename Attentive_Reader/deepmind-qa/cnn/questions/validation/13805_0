@@ -1,0 +1,12 @@
+4
+
+the state 's capital and largest city is @entity1 .
+
+let 's go to ohio : in @entity2 the state legislature chose this name for its capital city , though many wanted to name it @entity3 city
+
+@entity1
+
+@entity0:
+@entity1:Columbus
+@entity2:1812
+@entity3:Ohio

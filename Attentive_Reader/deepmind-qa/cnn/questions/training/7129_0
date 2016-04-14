@@ -1,0 +1,16 @@
+8
+
+@entity6 ( @entity1 : the flowers of evil ) is a volume of @entity2 poetry by @entity5 .
+
+poets & poetry : @entity4 author of " @entity7 " translated @entity3 's tales into @entity2
+
+@entity5
+
+@entity0:
+@entity1:English
+@entity2:French
+@entity3:Poe
+@entity4:This 19th century
+@entity5:Charles Baudelaire
+@entity6:Les Fleurs du mal
+@entity7:Les Fleurs du Mal

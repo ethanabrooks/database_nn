@@ -1,0 +1,15 @@
+7
+
+@entity1 , son of the president of @entity2 's , is kidnapped in @entity3 , @entity5 .
+
+long - running films : playing in theaters since @entity6 , this film has had the longest continuous theatrical run in movie history
+
+@entity0
+
+@entity0:
+@entity1:Samuel Bronfman II
+@entity2:Seagram
+@entity3:Purchase
+@entity4:The Rocky Horror Picture Show
+@entity5:New York
+@entity6:1975

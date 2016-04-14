@@ -1,14 +1,14 @@
 6
 
-" @entity3 " is a song by the @entity1 rock band @entity2 .
+most of @entity1 's major universities and grandes écoles are located in @entity3 , as are @entity1 's major newspapers , including @entity5 , @entity4 , and libération .
 
-purple music : the @entity5 album " @entity4 " by this band includes " vasoline " & " @entity3 "
+newspapers & magazines : founded in the mid-1800s , this @entity3 @entity2 is named for a comic opera barber
 
-@entity2
+@entity4
 
 @entity0:
-@entity1:American
-@entity2:Stone Temple Pilots
-@entity3:Interstate Love Song
-@entity4:Purple
-@entity5:1994
+@entity1:France
+@entity2:daily
+@entity3:Paris
+@entity4:Le Figaro
+@entity5:Le Monde

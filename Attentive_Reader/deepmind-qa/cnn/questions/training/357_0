@@ -1,0 +1,13 @@
+5
+
+@entity1 and actress @entity3 have been married since @entity2 .
+
+who 's the mrs. ? : mrs. @entity4
+
+@entity3
+
+@entity0:
+@entity1:Macy
+@entity2:1997
+@entity3:Felicity Huffman
+@entity4:William H. Macy

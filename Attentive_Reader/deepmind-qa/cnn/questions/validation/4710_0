@@ -1,13 +1,14 @@
-5
+6
 
-@entity1 ( once known as " beach street " ) is the heart of the central business district of @entity2 , the capital city of @entity3 .
+@entity2 prime minister @entity3 is assassinated at a peace rally in @entity1 .
 
-quay to the city : govt . building , on @entity1 in this @entity3 capital , is @entity4 of the world 's largest wooden buildings
+world leaders : the @entity5 prime minister of his country to be born in that land , he was assassinated in @entity4
 
-@entity2
+@entity3
 
 @entity0:
-@entity1:Lambton Quay
-@entity2:Wellington
-@entity3:New Zealand
-@entity4:one
+@entity1:Tel Aviv
+@entity2:Israeli
+@entity3:Yitzhak Rabin
+@entity4:1995
+@entity5:first

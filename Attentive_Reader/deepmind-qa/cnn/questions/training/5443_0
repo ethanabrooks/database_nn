@@ -1,14 +1,13 @@
-6
+5
 
-@entity1 of ix , or @entity4 is a children 's book written by @entity2 and illustrated by @entity3 .
+@entity3 : a biography .
 
-i wrote that ! : as well as " the road to oz " , " @entity5 "
+@entity1 : as deputy @entity2 in " @entity4 " , this actor drinks milk & refuses to carry guns
 
-@entity2
+@entity3
 
 @entity0:
-@entity1:Queen Zixi
-@entity2:L. Frank Baum
-@entity3:Frederick Richardson
-@entity4:The Story of the Magic Cloak
-@entity5:Queen Zixi of Ix
+@entity1:WESTERNS
+@entity2:Tom Destry
+@entity3:Jimmy Stewart
+@entity4:Destry Rides Again

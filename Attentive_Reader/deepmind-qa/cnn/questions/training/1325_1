@@ -1,18 +1,16 @@
-10
+8
 
-he led the orangemen in scoring as a sophomore ( @entity3 ) in @entity5 , as a junior ( @entity9 ) in @entity4 , and as a senior ( @entity2 ) in @entity1 .
+this director - actor relationship would continue with @entity6 more films : out of @entity7 ( @entity2 ) and @entity5 ( @entity4 ) .
 
-mayors : @entity8 , this city 's new mayor , wants to revive the innovative spirit of @entity6
+singers ' first films : " @entity1 "
 
 @entity0
 
 @entity0:
-@entity1:1966
-@entity2:28.4
-@entity3:22.2
-@entity4:1965
-@entity5:1964
-@entity6:Henry Ford & Berry Gordy
-@entity7:Detroit
-@entity8:Dave Bing
-@entity9:23.2
+@entity1:The Electric Horseman
+@entity2:1985
+@entity3:Willie Nelson
+@entity4:1990
+@entity5:Havana
+@entity6:two
+@entity7:Africa

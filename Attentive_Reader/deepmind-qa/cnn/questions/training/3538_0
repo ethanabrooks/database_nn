@@ -1,12 +1,19 @@
-4
+11
 
-@entity1 ( ; ) is a city on the coast of @entity2 .
+he played college football at @entity5 and was drafted by @entity6 in the @entity3 round of the 2000 nfl draft   @entity1 was also a member of @entity10 .
 
-world cities : @entity1 , which lies on an island in @entity3 , is the main port of this e. african country
+tennis - y williams : in @entity7 @entity8 was seen with @entity4 , @entity2 for this @entity9 team certain to draw cheers when you answer
 
-@entity2
+@entity6
 
 @entity0:
-@entity1:Mombasa
-@entity2:Kenya
-@entity3:the Indian Ocean
+@entity1:Arrington
+@entity2:LB
+@entity3:first
+@entity4:LaVar Arrington
+@entity5:Penn State
+@entity6:the Washington Redskins
+@entity7:2001
+@entity8:Serena
+@entity9:NFL
+@entity10:the New York Giants

@@ -1,16 +1,13 @@
-8
+5
 
-@entity6 ( born @entity2 ) is an @entity4 politician currently serving as governor of @entity1 .
+he is a little - known figure in the history of psychology , but he independently discovered classical conditioning at approximately the same time as the famous @entity1 physiologist , @entity4 , who is normally given credit for this achievement .
 
-state the state : @entity7 @entity3 & @entity5 are its senate delegation
+psych @entity3 : @entity2 & this @entity1 independently came up with " conditioned response " discoveries
 
-@entity1
+@entity4
 
 @entity0:
-@entity1:Kansas
-@entity2:September 12, 1956
-@entity3:Sam Brownback
-@entity4:American
-@entity5:Pat Roberts
-@entity6:Samuel Dale "Sam" Brownback
-@entity7:Republicans
+@entity1:Russian
+@entity2:Edwin B. Twitmyer
+@entity3:101
+@entity4:Ivan Pavlov

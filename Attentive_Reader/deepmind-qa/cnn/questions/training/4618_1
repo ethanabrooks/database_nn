@@ -1,16 +1,16 @@
 8
 
-@entity3 : group exhibition at @entity1 , @entity6 , @entity5 .
+thumbnail|right|monument of @entity2 , @entity5 declared its sovereignty as a republic within @entity3 in @entity1 .
 
-literary relatives : writer & artist @entity2 is the daughter of @entity2 & this poet who committed suicide
+geography : this " stan " is wedged in among @entity7 , @entity4 , tajikistan & kyrgyzstan
 
 @entity0
 
 @entity0:
-@entity1:the Gomboc Gallery
-@entity2:Ted Hughes
-@entity3:1994
-@entity4:Sylvia Plath
-@entity5:Western Australia
-@entity6:Middle Swan
-@entity7:Frieda Hughes
+@entity1:October 1990
+@entity2:Independence, Republic Square
+@entity3:the Union of Soviet Socialist Republics
+@entity4:Kazakhstan
+@entity5:Almaty Kazakhstan
+@entity6:Uzbekistan
+@entity7:Turkmenistan

@@ -1,12 +1,15 @@
-4
+7
 
-@entity1 is a collection of comic sketches by @entity3 that was first published in @entity2 .
+@entity4 ' most famous role is that of detective @entity2 on @entity1 tv series @entity6 .
 
-literature : he wrote " @entity1 " , " @entity1 and son " & " penrod jashber "
+singing tv stars : @entity3 was the co - star of this cop series when he released his album " somebody " in @entity5
 
-@entity3
+@entity6
 
 @entity0:
-@entity1:Penrod
-@entity2:1914
-@entity3:Booth Tarkington
+@entity1:the hit 1980s
+@entity2:Ricardo Tubbs
+@entity3:Philip Michael Thomas
+@entity4:Thomas
+@entity5:1988
+@entity6:Miami Vice

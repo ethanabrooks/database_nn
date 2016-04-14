@@ -1,0 +1,13 @@
+5
+
+@entity1 ( born @entity3 ) is an @entity4 actress who is the daughter of filmmaker @entity2 .
+
+big movies : her daughter @entity1 appeared as a test market researcher in her film " big "
+
+@entity2
+
+@entity0:
+@entity1:Tracy Reiner
+@entity2:Penny Marshall
+@entity3:July 7, 1964
+@entity4:American

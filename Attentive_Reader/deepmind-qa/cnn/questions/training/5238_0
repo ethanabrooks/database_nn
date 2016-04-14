@@ -1,16 +1,11 @@
-8
+3
 
-it is located in the middle of @entity1 in @entity5 at a height of @entity2 ( 7,628   ft ) above sea level .
+( ) is the largest and most populous island of @entity2 .
 
-@entity6 : in @entity4 , schoolboys fought @entity3 troops defending this capital city 's @entity7
+islands : the island of @entity1 is considered this country 's " mainland "
 
-@entity5
+@entity2
 
 @entity0:
-@entity1:Chapultepec Park
-@entity2:2,325 meters
-@entity3:American
-@entity4:1847
-@entity5:Mexico City
-@entity6:CASTLES & CHATEAUX
-@entity7:Chapultepec Castle
+@entity1:Honshu
+@entity2:Japan

@@ -1,14 +1,12 @@
-6
+4
 
-  @entity4 founded .
+@entity1 .
 
-english monarchs : in @entity1 the prince of hanover , who spoke little @entity3 , became king of @entity2 under this name
+countries of the world : it was formerly @entity2
 
 @entity0
 
 @entity0:
-@entity1:1714
-@entity2:England
-@entity3:English
-@entity4:Stockholm County
-@entity5:George I
+@entity1:ISBN 978-0-90398-387-7
+@entity2:Northern Rhodesia
+@entity3:Zambia

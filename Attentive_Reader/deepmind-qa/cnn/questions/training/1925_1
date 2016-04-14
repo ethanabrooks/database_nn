@@ -1,18 +1,16 @@
-10
+8
 
-@entity2 , breed of dog originating in @entity4 , a projected dam in @entity7 to be built in @entity5
+@entity5 in fiction   the novel @entity2 @entity1 , published in @entity3 , is set in @entity4 .
 
-@entity3 geography : ranchers formed the territory of @entity6 in @entity8 ; it lasted until @entity1 when it became this state 's western panhandle
+a world of facts : this capital of @entity7 state was the site of a deadly industrial accident in @entity5
 
 @entity0
 
 @entity0:
-@entity1:1890
-@entity2:Cimarrón Uruguayo
-@entity3:U.S.
-@entity4:Uruguay Cimarron Hydroelectric Power Project
-@entity5:2010
-@entity6:Cimarron
-@entity7:El Salvador
-@entity8:1887
-@entity9:Oklahoma
+@entity1:George Orwell
+@entity2:Nineteen Eighty-Four by
+@entity3:1949
+@entity4:this year
+@entity5:1984
+@entity6:Bhopal
+@entity7:Madhya Pradesh

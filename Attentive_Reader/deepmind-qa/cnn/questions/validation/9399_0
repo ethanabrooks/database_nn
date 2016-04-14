@@ -1,0 +1,11 @@
+3
+
+the capital of @entity1 , as well as the state 's largest city , is @entity2 .
+
+massachusetts : historic places of interest in @entity1 include the old state house & the old north church in this city
+
+@entity2
+
+@entity0:
+@entity1:Massachusetts
+@entity2:Boston

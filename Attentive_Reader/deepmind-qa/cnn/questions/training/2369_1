@@ -1,14 +1,15 @@
-6
+7
 
-  personal life
+retrieved @entity5 .
 
-boxing movies : @entity2 played this famous @entity3 , not @entity1 , in a @entity4 tv movie
+short stories : @entity3 was responsible for translating this @entity6 writer 's short story " @entity4 " into @entity2
 
 @entity0
 
 @entity0:
-@entity1:Rocky Balboa
-@entity2:Tony Lo Bianco
-@entity3:Rocky
-@entity4:1979
-@entity5:Rocky Marciano
+@entity1:Isaac Bashevis Singer
+@entity2:English
+@entity3:Saul Bellow
+@entity4:Gimpel the Fool
+@entity5:22 January 2009
+@entity6:Yiddish

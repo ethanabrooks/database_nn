@@ -1,18 +1,14 @@
-10
+6
 
-@entity1 , p. @entity2 . @entity5 and her elder sister @entity7 are the only set of siblings to have won lead acting @entity6 .
+plot dr. @entity5 , a child psychologist in @entity4 , returns home @entity3 with his wife , @entity2 , after having been honored for his work .
 
-birthplaces : she was born in @entity4 on @entity8 ; her sister @entity9 was born there @entity3
+movie locales : " @entity1 "
 
-@entity7
+@entity4
 
 @entity0:
-@entity1:Booker 2011
-@entity2:134
-@entity3:the following year
-@entity4:Tokyo
-@entity5:Fontaine
-@entity6:Academy Awards
-@entity7:Olivia de Havilland
-@entity8:July 1, 1916
-@entity9:Joan Fontaine
+@entity1:The Sixth Sense
+@entity2:Anna
+@entity3:one night
+@entity4:Philadelphia
+@entity5:Malcolm Crowe

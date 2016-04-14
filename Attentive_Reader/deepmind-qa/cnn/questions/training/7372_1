@@ -1,0 +1,20 @@
+12
+
+state insect : @entity2 honey bee ( @entity8 )   state gemstone : @entity9 ( @entity8 )   state reptile : @entity11 box turtle ( @entity3 )   state rock : granite ( @entity3 )   state beverage : milk ( @entity10 )   state historical boat : shad boat ( @entity10 )   state language : @entity5 ( @entity10 )
+
+@entity7 : if you 're flying @entity1 , you may change planes in this @entity6 city 's hub airport
+
+@entity0
+
+@entity0:
+@entity1:U.S. Airways
+@entity2:European
+@entity3:1979
+@entity4:Charlotte
+@entity5:English
+@entity6:North Carolina
+@entity7:AIRLINE & HUB
+@entity8:1973
+@entity9:Emerald
+@entity10:1987
+@entity11:Eastern

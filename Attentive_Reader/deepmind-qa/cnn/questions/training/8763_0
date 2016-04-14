@@ -1,0 +1,13 @@
+5
+
+@entity1 troops land on the island of @entity3 , beginning the siege of @entity3 .
+
+around the world : island country whose capital , @entity2 , is named for a grandmaster who led the knights in @entity4
+
+@entity3
+
+@entity0:
+@entity1:Ottoman
+@entity2:Valletta
+@entity3:Malta
+@entity4:1565

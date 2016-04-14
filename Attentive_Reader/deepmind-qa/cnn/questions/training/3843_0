@@ -1,16 +1,14 @@
-8
+6
 
-( @entity5 in a special @entity2 episode ) and political figures ( president @entity6 and his wife , @entity1 . )
+in @entity2 , @entity4 assumed the office following the assassination of @entity3 and was later selected by the board to finish the term .
 
-beaus : among those who called him beau : @entity3 , @entity4 , @entity7 ...
+famous women : " i left my heart in @entity1 " is something she might sing since leaving city hall for @entity5
 
-@entity5
+@entity4
 
 @entity0:
-@entity1:Betty
-@entity2:one-hour
-@entity3:Dinah Shore
-@entity4:Sally Field
-@entity5:Burt Reynolds
-@entity6:Gerald Ford
-@entity7:Loni Anderson
+@entity1:San Francisco
+@entity2:1978
+@entity3:George Moscone
+@entity4:Dianne Feinstein
+@entity5:Capitol Hill

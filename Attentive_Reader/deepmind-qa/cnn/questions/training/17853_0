@@ -1,0 +1,12 @@
+4
+
+@entity1 is the state capital , while @entity2 is the largest city in the state .
+
+state capitals : pass the grape jelly & name this state capital of @entity3
+
+@entity1
+
+@entity0:
+@entity1:Concord
+@entity2:Manchester
+@entity3:New Hampshire

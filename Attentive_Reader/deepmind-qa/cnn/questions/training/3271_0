@@ -1,12 +1,14 @@
-4
+6
 
-she is married to @entity1 .
+he transferred the state capital from @entity3 to @entity2 , and introduced measures for public education , religious freedom , and revision of inheritance laws .
 
-the stars : he met his wife @entity3 in @entity2 when they filmed " the experts "
+@entity4 cities : @entity1 formulated the bill moving the @entity5 capital to this city
 
-@entity1
+@entity2
 
 @entity0:
-@entity1:John Travolta
-@entity2:1987
-@entity3:Kelly Preston
+@entity1:Thomas Jefferson
+@entity2:Richmond
+@entity3:Williamsburg
+@entity4:U.S.
+@entity5:Virginia

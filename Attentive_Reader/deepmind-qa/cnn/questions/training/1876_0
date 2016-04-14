@@ -1,14 +1,18 @@
-6
+10
 
-@entity1 , run is a @entity3 novel by @entity2 .
+in @entity8 , @entity6 changed the status of @entity9 to that of other @entity2 cities and , on @entity4 , @entity5 became the @entity1 elected mayor of @entity9 since @entity3 .
 
-in the bookstore : his short stories include @entity4 's " a & p " & his novels include @entity3 's " @entity5 "
+history : while mayor of @entity9 , he lost twice to @entity7 in elections for the @entity2 presidency
 
-@entity2
+@entity5
 
 @entity0:
-@entity1:Rabbit
-@entity2:John Updike
-@entity3:1960
-@entity4:1962
-@entity5:Rabbit, Run
+@entity1:first
+@entity2:French
+@entity3:1793
+@entity4:25 March 1977
+@entity5:Jacques Chirac
+@entity6:the National Assembly
+@entity7:Francois Mitterand
+@entity8:1975
+@entity9:Paris

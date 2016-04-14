@@ -1,13 +1,15 @@
-5
+7
 
-  the opening song on @entity1 album @entity2 is an adaptation of " @entity3 " , though   this version is about the ten commandments .
+parodies
 
-killer musicals : the murder mystery musical " something 's afoot " parodies the plot of this author 's " @entity3 "
+@entity3 events : an @entity5 @entity1 is named for this " @entity2 " artist , @entity4 of the state 's native sons
 
 @entity0
 
 @entity0:
-@entity1:Harry Nilsson's
-@entity2:Pandemonium Shadow Show
-@entity3:Ten Little Indians
-@entity4:Agatha Christie
+@entity1:Iowa art festival
+@entity2:American Gothic
+@entity3:ANNUAL
+@entity4:one
+@entity5:annual
+@entity6:Grant Wood

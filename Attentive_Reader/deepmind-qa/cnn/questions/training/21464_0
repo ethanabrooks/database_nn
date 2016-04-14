@@ -1,0 +1,13 @@
+5
+
+@entity1 ( ) ( , @entity4 , ) is the capital and largest city of @entity2 .
+
+geography " b " : @entity3 & the city of @entity1 are in this country
+
+@entity2
+
+@entity0:
+@entity1:Sofia
+@entity2:Bulgaria
+@entity3:The Rhodope Mountains
+@entity4:Sofiya

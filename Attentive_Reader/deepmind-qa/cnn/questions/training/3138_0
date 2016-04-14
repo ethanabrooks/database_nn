@@ -1,15 +1,14 @@
-7
+6
 
-  @entity5 had worked for @entity6 when he was a senator and president .
+most inhabitants live in urban areas near the saint lawrence river between @entity1 and @entity5 , the capital .
 
-priceline : at a @entity1 auction @entity2 paid $ @entity4 for a @entity3 lithograph of this president in a sailboat
+travel : yum ! ant cakes & spicy locusts have been on the menu at the @entity3 insect tastings in this @entity2 city 's @entity4
 
-@entity6
+@entity1
 
 @entity0:
-@entity1:1996
-@entity2:Jimmy Buffett
-@entity3:Jamie Wyeth
-@entity4:43,700
-@entity5:Phyllis
-@entity6:John F. Kennedy
+@entity1:Montreal
+@entity2:Quebec
+@entity3:annual
+@entity4:Insectarium
+@entity5:Quebec City

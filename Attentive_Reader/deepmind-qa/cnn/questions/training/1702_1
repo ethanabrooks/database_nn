@@ -1,20 +1,15 @@
-12
+7
 
-the beer served at @entity1 is a special type of @entity3 beer with a higher alcohol content than regular helles .
+p. @entity2 .
 
-the california highway patrol : ( @entity2 of @entity5 reports from @entity6 in @entity4 , ca. )   though they 've ridden @entity8 , the @entity11 has been riding motorcycles made by this @entity9 - based company since @entity7
+writers : in @entity3 he marries his @entity1 cousin @entity4 , for whom it is thought he wrote " @entity6 "
 
 @entity0
 
 @entity0:
-@entity1:Oktoberfest
-@entity2:Jimmy
-@entity3:Märzen
-@entity4:Sacramento
-@entity5:the Clue Crew
-@entity6:the California Highway Patrol Academy
-@entity7:the 1990s
-@entity8:Harleys & Kawasakis
-@entity9:Munich
-@entity10:BMW
-@entity11:CHP
+@entity1:13-year-old
+@entity2:26
+@entity3:1836
+@entity4:Virginia Clemm
+@entity5:Edgar Allan Poe
+@entity6:Annabel Lee

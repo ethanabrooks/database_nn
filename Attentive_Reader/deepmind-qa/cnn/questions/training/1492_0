@@ -1,0 +1,11 @@
+3
+
+the capital city is @entity1 , in the south - central part of @entity2 .
+
+skip to my " lu " : it 's the capital city of @entity2
+
+@entity1
+
+@entity0:
+@entity1:Lusaka
+@entity2:Zambia

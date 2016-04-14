@@ -1,0 +1,14 @@
+6
+
+the film won @entity2 for best film and @entity4 .
+
+at the movies : this actor played movie character @entity3 , who steps out of the film " @entity1 "
+
+@entity0
+
+@entity0:
+@entity1:The Purple Rose of Cairo
+@entity2:the BAFTA Award
+@entity3:Tom Baxter
+@entity4:the César Award for Best Foreign Film
+@entity5:Jeff Daniels

@@ -1,12 +1,16 @@
-4
+8
 
-library of congress catalog .
+@entity7 online   choreographer @entity2 staged a modern rendition of @entity1 as a ballet taking place in modern @entity6 .
 
-nutty tv : from 1979 to 1983 , rev. @entity2 was a regular on this variety series , country music 's answer to " @entity1 "
+literary awards : this @entity4 literary prize was established in @entity5 & named for the author of " @entity1 "
 
 @entity0
 
 @entity0:
-@entity1:Laugh-In
-@entity2:Grady Nutt
-@entity3:Hee Haw
+@entity1:Eugene Onegin
+@entity2:Boris Eifman
+@entity3:Aleksandr Pushkin
+@entity4:Russian
+@entity5:1881
+@entity6:Moscow
+@entity7:John Amis

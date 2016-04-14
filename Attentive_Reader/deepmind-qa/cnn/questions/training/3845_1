@@ -1,16 +1,14 @@
-8
+6
 
-the village of @entity2 is @entity1 mentioned in @entity3 as @entity6 .
+@entity2 :
 
-at home in europe : while living in @entity2 , @entity5 , far from an ocean , he wrapped up " @entity4 "
+immigrants : @entity2 immigrated to this city around @entity4 ; he defended it from the @entity5 in @entity3
 
 @entity0
 
 @entity0:
-@entity1:first
-@entity2:Davos
-@entity3:1213
-@entity4:Treasure Island
-@entity5:Switzerland
-@entity6:Tavaus
-@entity7:Robert Louis Stevenson
+@entity1:New Orleans
+@entity2:Jean Lafitte
+@entity3:the War of 1812
+@entity4:1806
+@entity5:British

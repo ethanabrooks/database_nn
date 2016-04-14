@@ -1,16 +1,12 @@
-8
+4
 
-@entity3 is an unstaffed outdoor sculptural installation located in @entity2 , @entity7 .
+the @entity3 capital city , @entity2 , is located on western @entity1 .
 
-@entity6 : a mule driver in @entity4 sent in @entity5 to help fund @entity1 in @entity2 in this big state
+world capitals : this world capital is on the island of @entity1
 
-@entity7
+@entity2
 
 @entity0:
-@entity1:National Mule memorial
-@entity2:Muleshoe
-@entity3:The National Mule Memorial
-@entity4:Uzbekistan
-@entity5:21 cents
-@entity6:AMERICANA
-@entity7:Texas
+@entity1:Java
+@entity2:Jakarta
+@entity3:Indonesian

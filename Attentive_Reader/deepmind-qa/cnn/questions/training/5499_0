@@ -1,16 +1,15 @@
-8
+7
 
-at @entity1 , she was interviewed by @entity6 , author of @entity4 .
+@entity5 was founded by @entity4 and @entity6 on @entity3 , to develop and sell @entity2 interpreters for @entity1 .
 
-silent movies : in this @entity7 film , @entity2 played captain @entity3 & @entity5 the title role
+jeopardy ! of fortune : @entity5 head honcho
 
-@entity4
+@entity6
 
 @entity0:
-@entity1:seventeen
-@entity2:Ernest Torrence
-@entity3:Hook
-@entity4:Peter Pan
-@entity5:Betty Bronson
-@entity6:J. M. Barrie
-@entity7:1924
+@entity1:Altair 8800
+@entity2:BASIC
+@entity3:April 4, 1975
+@entity4:Paul Allen
+@entity5:Microsoft
+@entity6:Bill Gates

@@ -1,0 +1,13 @@
+5
+
+@entity2 nominated @entity1 to replace @entity3 .
+
+' 90s news : after a bitter confirmation hearing , this man took over for retiring justice @entity4
+
+@entity1
+
+@entity0:
+@entity1:Clarence Thomas
+@entity2:Bush
+@entity3:Marshall
+@entity4:Thurgood Marshall

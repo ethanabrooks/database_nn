@@ -1,0 +1,13 @@
+5
+
+a comet is observed , which later becomes known as @entity1 , after @entity1 successfully predicts that it will return in @entity4 .
+
+astronomers : he predicted a comet he observed in @entity3 would return in @entity4 ( he was right )
+
+@entity1
+
+@entity0:
+@entity1:Comet Halley
+@entity2:Edmond Halley
+@entity3:1682
+@entity4:1758

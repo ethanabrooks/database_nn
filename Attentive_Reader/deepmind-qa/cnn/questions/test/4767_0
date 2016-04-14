@@ -1,12 +1,16 @@
-4
+8
 
-the tale of mrs. @entity1 is a children 's book written and illustrated by @entity2 .
+@entity1 's @entity3 ( @entity2 ) was adapted from a @entity7 @entity5 musical of the same name .
 
-all about authors : this author of " @entity3 " looked a bit like mrs. @entity1 when she wore a frilled white cap
+@entity6 : inspired by " @entity4 " , this oscar hammerstein musical features black characters & ends outside a boxing arena
 
-@entity2
+@entity3
 
 @entity0:
-@entity1:Tiggy-Winkle
-@entity2:Beatrix Potter
-@entity3:The Tale of Mrs. Tiggy-Winkle
+@entity1:Preminger
+@entity2:1954
+@entity3:Carmen Jones
+@entity4:Carmen
+@entity5:Broadway
+@entity6:CARMEN
+@entity7:1943

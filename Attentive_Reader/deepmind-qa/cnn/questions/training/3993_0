@@ -1,16 +1,18 @@
-8
+10
 
-@entity5 day is part of @entity7 , which runs from @entity1 26 @entity2 .
+@entity3 ( @entity9 ) , by @entity5 , is a bestselling novel about a missionary family , the prices , who in @entity8 move from the @entity7 state of @entity2 to the   village of @entity6 in the belgian congo , close to @entity4 .
 
-@entity3 : @entity4 falls on the anniversary of its founding , the @entity6 of this month
+in the bookstore : her novels include " animal dreams " , " @entity1 " & " @entity3 "
 
-@entity2
+@entity5
 
 @entity0:
-@entity1:20 to
-@entity2:October
-@entity3:HOLIDAYS & OBSERVANCES
-@entity4:United Nations Day
-@entity5:United Nations
-@entity6:24th
-@entity7:United Nations Week
+@entity1:The Bean Trees
+@entity2:Georgia
+@entity3:The Poisonwood Bible
+@entity4:the Kwilu River
+@entity5:Barbara Kingsolver
+@entity6:Kilanga
+@entity7:U.S.
+@entity8:1959
+@entity9:1998

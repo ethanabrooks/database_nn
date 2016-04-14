@@ -1,14 +1,13 @@
-6
+5
 
-@entity1 ( ) is a private liberal arts college in the historic town of @entity3 , @entity5 .
+astana ( , ;   ) is the capital of @entity4 .
 
-" north"ern geography : in @entity2 the people of this @entity5 city , now home to @entity1 , foiled a raid by @entity4 cohorts
+a capital city idea : no longer @entity1 , the capital city of this central @entity3 country is now @entity2
 
-@entity3
+@entity4
 
 @entity0:
-@entity1:Carleton College
-@entity2:1876
-@entity3:Northfield
-@entity4:Jesse James & his
-@entity5:Minnesota
+@entity1:Alma-Ata
+@entity2:Astana
+@entity3:Asian
+@entity4:Kazakhstan

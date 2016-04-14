@@ -1,11 +1,15 @@
-3
+7
 
-charmin   is a brand of toilet paper manufactured by @entity1 , featured in a 21-year advertising campaign .
+directed by @entity1 , the film stars @entity3 , @entity2 , @entity4 , and @entity6 .
 
-taking stock : if you enjoy squeezing its @entity2 , you can thank this company , " pg "
+you make me cry : in " @entity5 " , he 's the actor who delivers the line " there 's no crying in baseball ! "
 
-@entity1
+@entity3
 
 @entity0:
-@entity1:Procter & Gamble
-@entity2:Charmin
+@entity1:Penny Marshall
+@entity2:Geena Davis
+@entity3:Tom Hanks
+@entity4:Madonna
+@entity5:A League of Their Own
+@entity6:Lori Petty

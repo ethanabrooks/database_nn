@@ -1,14 +1,13 @@
-6
+5
 
-" @entity4 " is a @entity1 song performed by the group @entity5 .
+@entity2   @entity3 naturalist @entity1 publishes on the origin of species , a book which argues for the gradual evolution of species through natural selection ( it immediately sells out its initial print run ) .
 
-" ex " words : in @entity1 this group topped the pop charts with " @entity4 " ; since then they 've had @entity2 no . @entity3 country hits
+19th century faces : people went ape after his groundbreaking @entity4 publication
 
-@entity5
+@entity1
 
 @entity0:
-@entity1:1978
-@entity2:10
-@entity3:1
-@entity4:Kiss You All Over
-@entity5:Exile
+@entity1:Charles Darwin
+@entity2:November 24
+@entity3:English
+@entity4:1859

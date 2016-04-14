@@ -1,19 +1,16 @@
-11
+8
 
-@entity9 died in @entity5 in @entity2 , while authors @entity4 and @entity1 lived and worked in the city .
+the @entity2 painter @entity6 lived on @entity4 in @entity7 and painted many @entity1 subjects .
 
-@entity8 : he was born in @entity6 , @entity7 in @entity3 & died in @entity5 , @entity10 in @entity2
+artists & their subjects : his @entity3 painting of a street in @entity4 is in @entity5
 
-@entity9
+@entity6
 
 @entity0:
-@entity1:Miguel de Cervantes
-@entity2:1506
-@entity3:1451
-@entity4:Francisco de Quevedo
-@entity5:Valladolid
-@entity6:Genoa
-@entity7:Italy
-@entity8:BORN & DIED
-@entity9:Christopher Columbus
-@entity10:Spain
+@entity1:Tahitian
+@entity2:French
+@entity3:1891
+@entity4:Tahiti
+@entity5:the Toledo Museum of Art
+@entity6:Paul Gauguin
+@entity7:the 1890s

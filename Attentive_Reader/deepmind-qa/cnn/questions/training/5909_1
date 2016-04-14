@@ -1,0 +1,12 @@
+4
+
+!
+
+the movies : @entity1 directed this @entity3 film set at an isolated asylum for the criminally insane
+
+@entity0
+
+@entity0:
+@entity1:Martin Scorsese
+@entity2:Shutter Island
+@entity3:2010

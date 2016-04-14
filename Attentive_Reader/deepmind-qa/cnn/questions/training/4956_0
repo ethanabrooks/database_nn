@@ -1,13 +1,12 @@
-5
+4
 
-the actress @entity3 is her maternal aunt .
+@entity2 ( dvd ) .
 
-20th century women : @entity2 lawmaker @entity1 is the granddaughter of @entity1 & the niece of this famous actress
+documentaries : @entity1 documentary about the late activist & bear lover @entity3 is titled this " man "
 
-@entity3
+@entity2
 
 @entity0:
-@entity1:Alessandra Mussolini
-@entity2:Italian
-@entity3:Sophia Loren
-@entity4:Benito Mussolini
+@entity1:Werner Herzog's
+@entity2:Grizzly Man
+@entity3:Timothy Treadwell

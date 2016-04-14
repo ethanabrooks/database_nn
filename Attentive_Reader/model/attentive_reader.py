@@ -1,5 +1,5 @@
 import theano
-from theano import tensor
+from theano import tensor, function
 import numpy
 
 from blocks.bricks import Tanh, Softmax, Linear, MLP, Identity, Rectifier
@@ -41,7 +41,7 @@ def make_bidir_lstm_stack(seq, seq_dim, mask, sizes, skip=True, name=''):
     return bricks, hidden_list
 
 class Model():
-    def __init__(self, config, vocab_size):
+    def __init__(self, config, vocab_size, id_to_vocab, logger):
         question = tensor.imatrix('question')
         question_mask = tensor.imatrix('question_mask')
         context = tensor.imatrix('context')
@@ -49,6 +49,10 @@ class Model():
         answer = tensor.ivector('answer')
         candidates = tensor.imatrix('candidates')
         candidates_mask = tensor.imatrix('candidates_mask')
+
+        # question_actual = tensor.imatrix('question_actual')
+        # context_actual = tensor.imatrix('context_actual')
+        # answer_actual = tensor.imatrix('answer_actual')
 
         bricks = []
 
@@ -76,6 +80,7 @@ class Model():
             qenc = tensor.concatenate([h[-1,:,:] for h in qhidden_list], axis=1)
         else:
             qenc_dim = 2*config.question_lstm_size[-1]
+            #u
             qenc = tensor.concatenate([h[-1,:,:] for h in qhidden_list[-2:]], axis=1)
         qenc.name = 'qenc'
 
@@ -104,6 +109,7 @@ class Model():
         att_weights = att_weights.reshape((layer1.shape[0], layer1.shape[1]))
         att_weights.name = 'att_weights'
 
+        #r
         attended = tensor.sum(cenc * tensor.nnet.softmax(att_weights.T).T[:, :, None], axis=0)
         attended.name = 'attended'
 
@@ -112,6 +118,7 @@ class Model():
                       activations=config.out_mlp_activations + [Identity()],
                       name='out_mlp')
         bricks += [out_mlp]
+        # g^AR
         probs = out_mlp.apply(tensor.concatenate([attended, qenc], axis=1))
         probs.name = 'probs'
 

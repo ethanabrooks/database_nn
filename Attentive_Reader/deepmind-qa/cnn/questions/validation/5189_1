@@ -1,0 +1,13 @@
+5
+
+@entity1 –
+
+astronomy : @entity3 astronomer whose laws of planetary motion were published in @entity4
+
+@entity0
+
+@entity0:
+@entity1:January 15
+@entity2:Johannes Kepler
+@entity3:German
+@entity4:1609

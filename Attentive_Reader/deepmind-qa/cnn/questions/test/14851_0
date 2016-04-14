@@ -1,0 +1,12 @@
+4
+
+@entity3 ( ;   ;   ) ; )   is the capital and largest city on the island of @entity1 , as well as its main business centre .
+
+landmarks : the selimiye mosque , which was formerly the cathedral of @entity2 , is in @entity3 on this island
+
+@entity1
+
+@entity0:
+@entity1:Cyprus
+@entity2:Saint Sophia
+@entity3:Nicosia

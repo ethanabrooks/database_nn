@@ -1,0 +1,18 @@
+10
+
+@entity1 is bordered by @entity6 to the northeast , @entity8 to the east , @entity7 and @entity9 to the south , @entity4 and @entity5 to the west , and @entity3 to the northwest .
+
+" cha " : on a map of @entity2 , this country is " dangling " off the right side of @entity1
+
+@entity8
+
+@entity0:
+@entity1:Niger
+@entity2:Africa
+@entity3:Algeria
+@entity4:Burkina Faso
+@entity5:Mali
+@entity6:Libya
+@entity7:Nigeria
+@entity8:Chad
+@entity9:Benin

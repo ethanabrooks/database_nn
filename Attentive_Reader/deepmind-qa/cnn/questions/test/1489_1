@@ -1,14 +1,17 @@
-6
+9
 
-  law enforcement career
+founded in @entity1 , @entity6 is still in existence as the oldest legislature in @entity2 .
 
-@entity1 : @entity3 rose from @entity5 to med school to this job atop the @entity2 public health service
+@entity8 cities : this @entity5 port is headquarters for the @entity4 's @entity3 fleet
 
 @entity0
 
 @entity0:
-@entity1:COMMUNITY COLLEGE ALUMNI
-@entity2:U.S.
-@entity3:Richard Carmona
-@entity4:the Surgeon General
-@entity5:Bronx Community College
+@entity1:1619
+@entity2:the Western Hemisphere
+@entity3:Atlantic
+@entity4:Navy
+@entity5:Virginia
+@entity6:the Virginia General Assembly
+@entity7:Norfolk
+@entity8:U.S.

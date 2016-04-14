@@ -1,0 +1,11 @@
+3
+
+@entity2 is a large freshwater lake adjacent to the city of @entity1 .
+
+" sea " ya : this city 's annual seafair features various water sports & a hydroplane race on @entity2
+
+@entity1
+
+@entity0:
+@entity1:Seattle
+@entity2:Lake Washington

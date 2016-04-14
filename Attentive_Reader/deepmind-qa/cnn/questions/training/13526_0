@@ -1,0 +1,13 @@
+5
+
+@entity1 now also has loan words from @entity2 .
+
+languages : in @entity3 , parliamentary bills are drafted in both @entity4 this language
+
+@entity2
+
+@entity0:
+@entity1:Swahili
+@entity2:English
+@entity3:Kenya
+@entity4:Swahili &

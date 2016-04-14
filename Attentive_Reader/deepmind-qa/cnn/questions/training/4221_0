@@ -1,15 +1,12 @@
-7
+4
 
-@entity2 is a congress and event venue in the centre of @entity5 on @entity4 .
+@entity2 forms @entity1 's eastern boundary with @entity3 .
 
-architecture : @entity6 in this capital city was one of @entity3 architect @entity1 last creations
+american mountains : while there are green mountains in @entity1 , there are white mountains in this neighboring state
 
-@entity5
+@entity3
 
 @entity0:
-@entity1:Alvar Aalto's
-@entity2:The Finlandia Hall
-@entity3:Finnish
-@entity4:the Töölönlahti Bay
-@entity5:Helsinki
-@entity6:Finlandia Hall
+@entity1:Vermont
+@entity2:The Connecticut River
+@entity3:New Hampshire

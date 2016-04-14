@@ -1,0 +1,15 @@
+7
+
+regions   @entity2 local government regions cover @entity5 and all its adjacent islands and territorial waters .
+
+" new " geography : this country 's @entity1 is on the australian continental plate ; @entity1 is on @entity6
+
+@entity0
+
+@entity0:
+@entity1:South Island
+@entity2:Nine
+@entity3:New Zealand
+@entity4:North Island
+@entity5:the North Island
+@entity6:the Pacific Plate

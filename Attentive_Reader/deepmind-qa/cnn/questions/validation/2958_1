@@ -1,13 +1,16 @@
-5
+8
 
-@entity1 is a @entity4 name .
+the city also has an @entity7 football club , the haifa underdogs , that are a part of @entity5 and play in @entity2 .
 
-nuclear energy : in @entity2 the world 's first plutonium production reactor went online at @entity1 in this northwest state
+@entity1 loaf : @entity4 was a target of scud missiles from this country during @entity6 of 1991
 
 @entity0
 
 @entity0:
-@entity1:Hanford
-@entity2:1944
-@entity3:Washington
-@entity4:Welsh
+@entity1:HAIFA
+@entity2:Yoqneam Stadium
+@entity3:Iraq
+@entity4:Haifa
+@entity5:the Israeli Football League
+@entity6:the Persian Gulf War
+@entity7:American

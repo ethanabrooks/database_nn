@@ -1,0 +1,13 @@
+5
+
+is the capital and @entity3 largest city of @entity1 and @entity4 state .
+
+name that country : sandals are popular there ; many of the people speak @entity2 ; the @entity3 largest city is @entity4
+
+@entity1
+
+@entity0:
+@entity1:Sudan
+@entity2:Dinka
+@entity3:second
+@entity4:Khartoum

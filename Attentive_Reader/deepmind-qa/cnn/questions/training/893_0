@@ -1,14 +1,18 @@
-6
+10
 
-@entity2 was a late addition to the " big man " idea of characters , such as @entity1 or @entity3 .
+new england is a region which comprises @entity3 states of the northeastern united states : @entity7 , @entity9 , @entity1 , @entity8 , @entity2 , and @entity4 .
 
-postage stamps : mighty @entity5 , @entity2 , @entity3 & this lumberjack appeared on @entity4 stamps honoring folk heroes
+@entity5 states : its dairy industry is the largest in @entity6
 
-@entity1
+@entity4
 
 @entity0:
-@entity1:Paul Bunyan
-@entity2:Pecos Bill
-@entity3:John Henry
-@entity4:1996
-@entity5:Casey
+@entity1:Massachusetts
+@entity2:Rhode Island
+@entity3:six
+@entity4:Vermont
+@entity5:U.S.
+@entity6:New England
+@entity7:Connecticut
+@entity8:New Hampshire
+@entity9:Maine

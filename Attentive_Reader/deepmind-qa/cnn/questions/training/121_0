@@ -1,15 +1,13 @@
-7
+5
 
-@entity2 , in an early role , played @entity4 ' pre - teen daughter , @entity5 .
+it is home to the nation 's capital city , @entity3 , and the nation 's most populous city , @entity4 .
 
-former child stars : we 're " mad about " this sitcom star who played @entity6 daughter on the ' @entity1 series " @entity3 "
+world capitals : @entity4 is the capital of @entity1 , but this other @entity1 city is the capital of @entity2
 
-@entity2
+@entity3
 
 @entity0:
-@entity1:70s
-@entity2:Helen Hunt
-@entity3:Amy Prentiss
-@entity4:Prentiss
-@entity5:Jill
-@entity6:Jessica Walter's
+@entity1:Ontario
+@entity2:Canada
+@entity3:Ottawa
+@entity4:Toronto

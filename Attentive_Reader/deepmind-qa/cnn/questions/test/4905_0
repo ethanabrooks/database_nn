@@ -1,11 +1,23 @@
-3
+15
 
-" @entity1 " is a narrative poem written by @entity2 .
+entertainment and media   fictional characters    @entity14 ( @entity10 's game ) , a character in @entity5 @entity7   @entity6 ( @entity4 ) , later @entity11 , wife of @entity11 , @entity3 ( @entity4 ) in the novels by @entity1
 
-poets : @entity1 , " a gentleman from sole to crown " in a poem by this 3-named man , " put a bullet through his head "
+musical theatre : @entity14 sings " @entity2 " in this swinging @entity8 musical that opened on @entity9 in @entity13
 
-@entity2
+@entity4
 
 @entity0:
-@entity1:Richard Cory
-@entity2:Edwin Arlington Robinson
+@entity1:Edgar Rice
+@entity2:Waiting For This Moment
+@entity3:Lord Greystoke
+@entity4:Tarzan
+@entity5:Orson Scott Card's
+@entity6:Jane Porter
+@entity7:Ender Saga
+@entity8:Disney
+@entity9:Broadway
+@entity10:Ender
+@entity11:Jane Clayton
+@entity12:John Clayton
+@entity13:2006
+@entity14:Jane

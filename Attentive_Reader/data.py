@@ -17,9 +17,11 @@ import os
 logging.basicConfig(level='INFO')
 logger = logging.getLogger(__name__)
 
+# get_data explains what to return
 class QADataset(Dataset):
     def __init__(self, path, vocab_file, n_entities, need_sep_token, **kwargs):
         self.provides_sources = ('context', 'question', 'answer', 'candidates')
+        # , 'context_actual', 'question_actual', 'answer_actual'
 
         self.path = path
 
@@ -31,6 +33,8 @@ class QADataset(Dataset):
         self.n_entities = n_entities
         self.vocab_size = len(self.vocab)
         self.reverse_vocab = {w: i for i, w in enumerate(self.vocab)}
+        # creating the opposite mapping
+        self.id_to_vocab = {i: w for i, w in enumerate(self.vocab)}
 
         super(QADataset, self).__init__(**kwargs)
 
@@ -80,6 +84,7 @@ class QADataset(Dataset):
 
         ctx = self.to_word_ids(ctx, cand_mapping)
         q = self.to_word_ids(q, cand_mapping)
+
         cand = numpy.array([self.to_word_id(x, cand_mapping) for x in cand], dtype=numpy.int32)
         a = numpy.int32(self.to_word_id(a, cand_mapping))
 
@@ -96,8 +101,12 @@ class QADataset(Dataset):
         if not numpy.all(q >= 0):
             raise ValueError("Question word id negative: %d"%int(q.min()))
 
+        # print('type2')
+        # print type(ctx)
         return (ctx, q, a, cand)
+        # , lines[4], lines[4], lines[6]
 
+# Iterating through the questions
 class QAIterator(IterationScheme):
     requests_examples = True
     def __init__(self, path, shuffle=False, **kwargs):
@@ -119,8 +128,8 @@ class QAIterator(IterationScheme):
 class ConcatCtxAndQuestion(Transformer):
     produces_examples = True
     def __init__(self, stream, concat_question_before, separator_token=None, **kwargs):
-        assert stream.sources == ('context', 'question', 'answer', 'candidates')
-        self.sources = ('question', 'answer', 'candidates')
+        assert stream.sources == ('context', 'question', 'answer', 'candidates', 'question_actual')
+        self.sources = ('question', 'answer', 'candidates', 'question_actual')
 
         self.sep = numpy.array([separator_token] if separator_token is not None else [],
                                dtype=numpy.int32)
@@ -160,8 +169,14 @@ def setup_datastream(path, vocab_file, config):
     stream = Mapping(stream, SortMapping(comparison))
     stream = Unpack(stream)
 
+    print('sources')
+    print(stream.sources)
+
     stream = Batch(stream, iteration_scheme=ConstantScheme(config.batch_size))
     stream = Padding(stream, mask_sources=['context', 'question', 'candidates'], mask_dtype='int32')
+
+    print('sources2')
+    print(stream.sources)
 
     return ds, stream
 

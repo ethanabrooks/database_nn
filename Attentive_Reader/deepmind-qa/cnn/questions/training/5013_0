@@ -1,13 +1,15 @@
-5
+7
 
-the last recorded eruption of @entity4 begins in @entity1 .
+the @entity5 suburb of @entity2 was home to famous architect @entity4 , who had designed @entity6 located near @entity3 .
 
-mountains : this sacred @entity3 volcano last erupted in @entity2
+people in history : in @entity1 this architect opened his own practice in @entity5 ; later he moved it to @entity2
 
 @entity4
 
 @entity0:
-@entity1:Japan
-@entity2:1707
-@entity3:Japanese
-@entity4:Mount Fuji
+@entity1:1893
+@entity2:Oak Park
+@entity3:the University of Chicago
+@entity4:Frank Lloyd Wright
+@entity5:Chicago
+@entity6:The Robie House

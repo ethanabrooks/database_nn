@@ -1,0 +1,13 @@
+5
+
+@entity1 is a play by @entity3 that won @entity4 in @entity2 .
+
+playwrights : this " @entity1 " playwright co - wrote the screenplay for " wag the dog "
+
+@entity3
+
+@entity0:
+@entity1:Glengarry Glen Ross
+@entity2:1984
+@entity3:David Mamet
+@entity4:the Pulitzer Prize

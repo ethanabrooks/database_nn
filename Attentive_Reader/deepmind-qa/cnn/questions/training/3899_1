@@ -1,15 +1,13 @@
-7
+5
 
-  in @entity2 , he won a grammy award for his album design of @entity1 .
+also in @entity1 , @entity2 played the title role in the film " @entity3 , " a role inspired by the mentalist
 
-birthplaces : @entity5 , @entity4 & babe didrikson were all born in @entity6 in this state
+stupid answers : he played the title role in the movie " being @entity4 "
 
 @entity0
 
 @entity0:
-@entity1:Talking Heads' album Speaking in Tongues
-@entity2:1983
-@entity3:Texas
-@entity4:Robert Rauschenberg
-@entity5:Janis Joplin
-@entity6:Port Arthur
+@entity1:2008
+@entity2:Malkovich
+@entity3:The Great Buck Howard
+@entity4:John Malkovich

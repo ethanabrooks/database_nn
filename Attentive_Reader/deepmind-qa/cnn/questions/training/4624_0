@@ -1,16 +1,14 @@
-8
+6
 
-@entity5   is a city - owned public - use airport located @entity1 ( @entity2 ) northwest of the central business district of @entity4 , @entity7 .
+@entity3 : a hurricane made landfall just west of @entity4 .
 
-@entity3 : this state capital has a @entity5 as well as a @entity5
+@entity2 cities : this coastal city 's name goes back to @entity1 governor @entity5
 
 @entity4
 
 @entity0:
-@entity1:seven nautical miles
-@entity2:13 km
-@entity3:TRANSPORTATION
-@entity4:Oklahoma City
-@entity5:Wiley Post Airport
-@entity6:Will Rogers Airport
-@entity7:Oklahoma
+@entity1:Louisiana
+@entity2:U.S.
+@entity3:August 15–17, 1915
+@entity4:Galveston
+@entity5:Bernardo de Galvez

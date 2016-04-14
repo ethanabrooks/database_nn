@@ -1,0 +1,14 @@
+6
+
+@entity2 is the country 's capital and largest city , with a population of @entity3 .
+
+world capitals : now @entity4 's capital , it was founded in @entity1 to replace @entity5 , which was destroyed by an earthquake
+
+@entity2
+
+@entity0:
+@entity1:1693
+@entity2:Kingston
+@entity3:937,700
+@entity4:Jamaica
+@entity5:Port Royal

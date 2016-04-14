@@ -1,14 +1,13 @@
-6
+5
 
-the city 's economy was given a boost in @entity1 , with the completion of the trans - siberian railway , which connected @entity4 to @entity3 and @entity5 .
+she is also known for her regular roles on @entity1 and @entity4 .
 
-trains : the world 's longest railroad line connects @entity4 to this city , @entity2 away
+arresting television : @entity2 practiced law on this " colorful " @entity3 cop show before getting her medical degree on " er "
 
-@entity3
+@entity1
 
 @entity0:
-@entity1:1916
-@entity2:5600 miles
-@entity3:Moscow
-@entity4:Vladivostok
-@entity5:Europe
+@entity1:NYPD Blue
+@entity2:Sherry Stringfield
+@entity3:ABC
+@entity4:Guiding Light

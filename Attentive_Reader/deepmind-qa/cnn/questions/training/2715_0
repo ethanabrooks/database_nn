@@ -1,16 +1,21 @@
-8
+13
 
-@entity2 ( born @entity3 ) was the long - standing head of @entity7 's intelligence service , @entity4 de inteligencia nacional ( sin ) , under president @entity5 .
+@entity11 ( in @entity9 : lac @entity5 ) is the largest natural lake by surface area in the province of @entity1 , @entity4 , with a total surface area of @entity3   km² principal lakes , elevation and area , by provinces and territories and a net area ( water surface area only ) of @entity12   km². it is located in the @entity10 region of the province , approximately   east of @entity7 .
 
-places in the news : president @entity1 of this country led a manhunt for his disgraced adviser @entity6
+bodies of water : this @entity2 province 's largest lake is @entity11 , @entity8 north of @entity6
 
-@entity7
+@entity1
 
 @entity0:
-@entity1:Fujimori
-@entity2:Vladimiro Ilich Montesinos Torres
-@entity3:May 20, 1946
-@entity4:Servicio
-@entity5:Alberto Fujimori
-@entity6:Vladimiro Montesinos
-@entity7:Peru
+@entity1:Quebec
+@entity2:Canadian
+@entity3:approximately 2,335
+@entity4:Canada
+@entity5:Mistassini
+@entity6:Montreal
+@entity7:James Bay
+@entity8:about 350 miles
+@entity9:French
+@entity10:Jamésie
+@entity11:Lake Mistassini
+@entity12:2,164

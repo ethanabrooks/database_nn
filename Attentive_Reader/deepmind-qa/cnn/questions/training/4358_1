@@ -1,12 +1,13 @@
-4
+5
 
-the island lies in the outer reaches of the harbor and was thus a strategic location in the american @entity2 .
+he sees newspaper headlines concerning the crime and overhears different conversations about it .
 
-to the lighthouse : @entity3 light,hilton head light
+@entity2 : the @entity1 issue included a profile of this author of " @entity4 "
 
 @entity0
 
 @entity0:
-@entity1:South Carolina
-@entity2:Civil War
-@entity3:Morris Island
+@entity1:first
+@entity2:EBONY
+@entity3:Richard Wright
+@entity4:Native Son

@@ -1,12 +1,13 @@
-4
+5
 
-" @entity1 " ( @entity2 : den standhaftige tinsoldat ) is a literary fairy tale by @entity3 about a tin soldier 's love for a paper ballerina .
+@entity2 begins in @entity3 .
 
-ballet : " @entity1 " is based on a fairy tale by this famous dane
+world 's fair landmarks : the hall seen here was built for @entity2 , presented in this city in @entity1
 
 @entity3
 
 @entity0:
-@entity1:The Steadfast Tin Soldier
-@entity2:Danish
-@entity3:Hans Christian Andersen
+@entity1:1876
+@entity2:the Centennial Exposition
+@entity3:Philadelphia
+@entity4:The Centennial Exposition

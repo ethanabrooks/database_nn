@@ -1,0 +1,17 @@
+9
+
+@entity1 provides @entity3 passenger rail service between @entity6 and @entity5 .
+
+@entity7 geography : @entity4 says its metropolitan area covers parts of @entity2 states :   @entity8 , illinois & indiana
+
+@entity6
+
+@entity0:
+@entity1:Amtrak
+@entity2:3
+@entity3:daily
+@entity4:The U.S. Bureau of the Census
+@entity5:Milwaukee
+@entity6:Chicago
+@entity7:U.S.
+@entity8:Wisconsin

@@ -1,18 +1,14 @@
-10
+6
 
-@entity5 – constitution of the province of @entity1 ratified at @entity6 in @entity8 la @entity2 , @entity3 , @entity4 .
+@entity3 ) is a football stadium located in the suburb of @entity1 in @entity4 , @entity5 .
 
-independence days : on @entity7 @entity9 celebrates its independence from this country
+take me out to ... : take me out to the futbol game at @entity2 in this capital city
 
 @entity4
 
 @entity0:
-@entity1:Cantabria
-@entity2:Puente
-@entity3:Reocín
-@entity4:Spain
-@entity5:1778
-@entity6:the Assembly Hall
-@entity7:July 28
-@entity8:Bárcena
-@entity9:Peru
+@entity1:Santa Ursula
+@entity2:Estadio Azteca
+@entity3:The Estadio Azteca (
+@entity4:Mexico City
+@entity5:Mexico

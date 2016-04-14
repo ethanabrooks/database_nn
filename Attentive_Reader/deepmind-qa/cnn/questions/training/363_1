@@ -1,13 +1,14 @@
-5
+6
 
-@entity3 ( ; ) is a @entity2 given name for a female , a short form of @entity1 .
+@entity4
 
-sister sister : she mentions her sister @entity3 's diary in her own diary , but @entity3 's was never found
+italian art : dazzling works by @entity5 of genoa include @entity1 of this woman 's " @entity3 "
 
 @entity0
 
 @entity0:
-@entity1:Marguerite
-@entity2:French
-@entity3:Margot
-@entity4:Anne Frank
+@entity1:one
+@entity2:Mary
+@entity3:Annunciation
+@entity4:38
+@entity5:Bernardo Strozzi

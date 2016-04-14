@@ -1,16 +1,13 @@
-8
+5
 
 @entity1 .
 
-sister sister : @entity7 of @entity3 's @entity2 abstract painters , @entity6 was the sister of this @entity4 author
+you've got company : now owned by @entity3 , this company 's models include the @entity4 sedan & the rio compact
 
 @entity0
 
 @entity0:
-@entity1:20-21
-@entity2:first
-@entity3:England
-@entity4:Bloomsbury Group
-@entity5:Virginia Woolf
-@entity6:Vanessa Bell
-@entity7:One
+@entity1:Taylor & Francis
+@entity2:Kia
+@entity3:Hyundai
+@entity4:Optima

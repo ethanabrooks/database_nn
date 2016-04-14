@@ -1,17 +1,12 @@
-9
+4
 
-@entity3 served as the @entity1 governor of @entity5 from @entity2 to @entity8 .
+in @entity1 , he was cast in a play with his future wife @entity2 , with whom he lived and worked until his death ; they had no children .
 
-politicians : @entity7 was governor of this state from @entity2 to @entity8 & later served as @entity4 ambassador to the @entity6
+celebrity marriages : in the movies , she was the " bride of frankenstein " ; in real life , she was the bride of @entity3
 
-@entity5
+@entity2
 
 @entity0:
-@entity1:38th
-@entity2:1963
-@entity3:Scranton
-@entity4:U.S.
-@entity5:Pennsylvania
-@entity6:U.N.
-@entity7:William Scranton
-@entity8:1967
+@entity1:1927
+@entity2:Elsa Lanchester
+@entity3:Charles Laughton

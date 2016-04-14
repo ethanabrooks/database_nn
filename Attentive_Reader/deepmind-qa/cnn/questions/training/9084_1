@@ -1,0 +1,14 @@
+6
+
+@entity2 .
+
+@entity3 cities : @entity4 , @entity5 is the twin city of @entity4 in this state
+
+@entity0
+
+@entity0:
+@entity1:Missouri
+@entity2:Kansas Historical Society
+@entity3:U.S.
+@entity4:Kansas City
+@entity5:Kansas

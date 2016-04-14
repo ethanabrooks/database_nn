@@ -48,8 +48,10 @@ if __name__ == "__main__":
 
     dump_path = os.path.join("model_params", model_name+".pkl")
 
+    id_to_vocab = ds.id_to_vocab
+
     # Build model
-    m = config.Model(config, ds.vocab_size)
+    m = config.Model(config, ds.vocab_size, id_to_vocab, logger)
 
     # Build the Blocks stuff for training
     model = Model(m.sgd_cost)

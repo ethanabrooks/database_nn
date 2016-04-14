@@ -1,0 +1,15 @@
+7
+
+the @entity1 and the @entity3 is a children 's novel written by @entity4 and published in @entity5 .
+
+children 's lit : she 's famous for her books about @entity6 , as well as " @entity2 "
+
+@entity4
+
+@entity0:
+@entity1:Mouse
+@entity2:The Mouse and the Motorcycle
+@entity3:Motorcycle
+@entity4:Beverly Cleary
+@entity5:1965
+@entity6:Ramona Quimby

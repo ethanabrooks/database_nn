@@ -1,0 +1,14 @@
+6
+
+of the total population , @entity3 live in the province 's largest city , @entity1 , while @entity2 live in the provincial capital , @entity5 .
+
+places : vivat this city , the capital of @entity4
+
+@entity5
+
+@entity0:
+@entity1:Saskatoon
+@entity2:210,000
+@entity3:257,300
+@entity4:Saskatchewan
+@entity5:Regina

@@ -1,12 +1,18 @@
-4
+10
 
-@entity1 is a fictional character from the @entity2 films , initially portrayed as the undisputed heavyweight champion of the world .
+at @entity3 , @entity7 left @entity4 and settled in @entity6 , where she became a friend of modernist writers such as @entity8 and @entity1 .
 
-role reversal : @entity3 takes on @entity1 for the heavyweight crown as this title pug looks on accordingly
+inspired characters : @entity2 was supposedly the inspiration for @entity9 in his book @entity5
 
-@entity2
+@entity8
 
 @entity0:
-@entity1:Apollo Creed
-@entity2:Rocky
-@entity3:Talia Shire
+@entity1:Virginia Woolf
+@entity2:Katherine Mansfield
+@entity3:19
+@entity4:New Zealand
+@entity5:"Women in Love"
+@entity6:the United Kingdom
+@entity7:Mansfield
+@entity8:D.H. Lawrence
+@entity9:Gudrun

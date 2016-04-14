@@ -1,0 +1,14 @@
+6
+
+its capital is @entity2 and largest city is @entity1 .
+
+american history : unaware of the treaty of ghent signed earlier , the @entity3 attacked this @entity4 city on @entity5
+
+@entity1
+
+@entity0:
+@entity1:New Orleans
+@entity2:Baton Rouge
+@entity3:British
+@entity4:Louisiana
+@entity5:Jan. 8, 1815

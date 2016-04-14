@@ -1,13 +1,15 @@
-5
+7
 
-@entity4 .
+references     this article contains content from @entity2 article @entity3 , used here under the gnu free documentation license .
 
-" di " hard : this queen of @entity2 welcomes @entity1 hospitably , but then commits suicide when he has to leave
+companies : in @entity5 @entity4 & @entity3 founded this company that now has @entity6 independent distributors
 
 @entity0
 
 @entity0:
-@entity1:Aeneas
-@entity2:Carthage
-@entity3:Dido
-@entity4:Edward Lipinski
+@entity1:Amway
+@entity2:HierarchyPedia
+@entity3:Jay Van Andel
+@entity4:Richard De Vos
+@entity5:1959
+@entity6:3 million

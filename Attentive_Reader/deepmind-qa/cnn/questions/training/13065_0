@@ -1,0 +1,17 @@
+9
+
+film directed by @entity2 and starring @entity1 , @entity8 , @entity3 , @entity5 , and @entity6 .
+
+little movies : she played " @entity4 " before she directed " @entity7 "
+
+@entity1
+
+@entity0:
+@entity1:Jodie Foster
+@entity2:Nicolas Gessner
+@entity3:Alexis Smith
+@entity4:The Little Girl Who Lives Down the Lane
+@entity5:Mort Shuman
+@entity6:Scott Jacoby
+@entity7:Little Man Tate
+@entity8:Martin Sheen

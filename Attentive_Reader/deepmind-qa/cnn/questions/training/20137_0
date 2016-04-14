@@ -1,0 +1,13 @@
+5
+
+@entity1 .
+
+scientists : he worked in the dept . of @entity2 at @entity3 's @entity4 before moving to the psychiatric clinic
+
+@entity1
+
+@entity0:
+@entity1:Sigmund Freud
+@entity2:Internal Medicine
+@entity3:Vienna
+@entity4:General Hospital

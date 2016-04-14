@@ -1,14 +1,13 @@
-6
+5
 
-@entity5 was the son of @entity2 , the father of @entity4 , and the grandfather of @entity1 .
+in @entity4 , he starred in the sports drama , @entity2 , where he played a coach ( based on the actual coach @entity2 ) dedicated to teaching his players that education is more important than basketball .
 
-the old testament : he was a son of @entity3 grandson of @entity5
+movie portrayals : in a @entity4 film it 's tough love for a high school basketball team when @entity1 plays this coach
 
-@entity1
+@entity2
 
 @entity0:
-@entity1:Noah
-@entity2:Enoch
-@entity3:Lamech & a
-@entity4:Lamech
-@entity5:Methuselah
+@entity1:Samuel L. Jackson
+@entity2:Coach Carter
+@entity3:Ken Carter
+@entity4:2005

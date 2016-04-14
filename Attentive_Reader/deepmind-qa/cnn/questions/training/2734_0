@@ -1,15 +1,18 @@
-7
+10
 
-the grand forks herald is a daily broadsheet newspaper , established in @entity1 , published in @entity5 , @entity3 , @entity2 .
+blade runner is a @entity4 @entity8 neo - noir science fiction film directed by @entity1 , and starring @entity7 , @entity5 , @entity2 , and @entity6 .
 
-the @entity6 pulitzer prizes : a gold medal went to this state 's @entity4 for coverage of a flood & other disasters
+a ford in your past : he was @entity9 in " @entity3 "
 
-@entity3
+@entity7
 
 @entity0:
-@entity1:1879
-@entity2:United States
-@entity3:North Dakota
-@entity4:Grand Forks Herald
-@entity5:Grand Forks
-@entity6:1998
+@entity1:Ridley Scott
+@entity2:Sean Young
+@entity3:Blade Runner
+@entity4:1982
+@entity5:Rutger Hauer
+@entity6:Edward James Olmos
+@entity7:Harrison Ford
+@entity8:American
+@entity9:Rick Deckard

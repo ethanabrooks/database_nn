@@ -1,0 +1,15 @@
+7
+
+for @entity2 .
+
+this is our country : @entity3 's @entity1 , not far from @entity6 home in this city , is the @entity4 's oldest continuously occupied street
+
+@entity0
+
+@entity0:
+@entity1:Alley
+@entity2:a Beautiful Hong Kong:
+@entity3:Elfreth
+@entity4:USA
+@entity5:Philadelphia
+@entity6:Betsy Ross'

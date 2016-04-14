@@ -1,14 +1,12 @@
-6
+4
 
-then , on @entity5 , @entity4 disaster occurred in @entity3 , @entity2 , when a bridge collapsed under the weight of a streetcar overloaded with passengers on their way to attend @entity1 celebrations .
+@entity2 was originally spoken in @entity1 , @entity3 .
 
-canadian provinces : @entity1 is celebrated with a week of festivities in @entity3 , the capital of this province
+vocabulary : @entity2 gets its name from " @entity1 " , a region of this country
 
-@entity2
+@entity3
 
 @entity0:
-@entity1:Victoria Day
-@entity2:British Columbia
-@entity3:Victoria
-@entity4:the Point Ellice Bridge
-@entity5:May 26, 1896
+@entity1:Latium
+@entity2:Latin
+@entity3:Italy

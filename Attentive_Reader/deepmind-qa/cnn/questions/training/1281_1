@@ -1,14 +1,13 @@
-6
+5
 
-elder , 2005 .
+@entity1 is part of the eco league , a group of liberal arts colleges committed to environmental sustainability .
 
-lights !   camera !   action movie ! : this man directed the action hits " @entity3 " & " @entity2 in @entity5 before directing " m:i-2 " in the @entity4
+@entity2 : @entity1 is located in @entity4 in this state
 
 @entity0
 
 @entity0:
-@entity1:John Woo
-@entity2:The Killer"
-@entity3:Just Heroes
-@entity4:U.S.
-@entity5:Hong Kong
+@entity1:Green Mountain College
+@entity2:COLLEGES & UNIVERSITIES
+@entity3:Vermont
+@entity4:Poultney

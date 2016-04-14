@@ -1,13 +1,19 @@
-5
+11
 
-@entity1 has close associations with @entity2 who is remembered above all for his fairy tales .
+the state capital is @entity3 with a population of @entity1 ( @entity6 ) , making it the @entity4 least - populous state capital ( after @entity10 , @entity2 and @entity5 , @entity8 ) in the nation .
 
-children 's literature : this author was born in a slum in @entity1 , @entity3 on @entity4
+state capitals : capitals named for women include the capital of @entity7 & this @entity9 capital
 
-@entity2
+@entity3
 
 @entity0:
-@entity1:Odense
-@entity2:Hans Christian Andersen
-@entity3:Denmark
-@entity4:April 2, 1805
+@entity1:19,136
+@entity2:Vermont
+@entity3:Augusta
+@entity4:third
+@entity5:Pierre
+@entity6:2010
+@entity7:Maryland
+@entity8:South Dakota
+@entity9:Maine
+@entity10:Montpelier

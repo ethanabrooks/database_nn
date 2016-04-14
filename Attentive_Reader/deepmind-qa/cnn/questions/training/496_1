@@ -1,14 +1,12 @@
-6
+4
 
-@entity1 .
+the roman legacy has deeply influenced the western civilisation , shaping most of the modern world .
 
-the sports channel : in @entity2 a horse named @entity3 won this " derby " held annually at @entity5
+world history : the allies began the invasion of @entity2 on @entity1 by landing on this island
 
 @entity0
 
 @entity0:
-@entity1:2005
-@entity2:2002
-@entity3:War Emblem
-@entity4:the Kentucky Derby
-@entity5:Churchill Downs
+@entity1:July 10, 1943
+@entity2:Italy
+@entity3:Sicily

@@ -1,0 +1,11 @@
+3
+
+the name @entity1 is also frequently used to informally refer to the whole of the country of the @entity2 .
+
+synonymble : this synonym for the @entity2 technically refers to only part of the country
+
+@entity1
+
+@entity0:
+@entity1:Holland
+@entity2:Netherlands

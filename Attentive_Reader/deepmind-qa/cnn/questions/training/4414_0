@@ -1,12 +1,18 @@
-4
+10
 
-" @entity2 " is a popular country/novelty song written , produced , and sung by @entity3 .
+( @entity1 @entity2 9 , 2010 ) was a @entity7 senator from @entity5 , whose tenure extended from @entity6 , until @entity9 .
 
-' 70s fads & fashions : in @entity1 this singer streaked to the top of the pop charts with the fad - based song " @entity2 "
+new @entity8 : new senator @entity3 of this state replaced @entity4
 
-@entity3
+@entity5
 
 @entity0:
-@entity1:1974
-@entity2:The Streak
-@entity3:Ray Stevens
+@entity1:November 18, 1923
+@entity2:– August
+@entity3:Mark Begich
+@entity4:Ted Stevens
+@entity5:Alaska
+@entity6:December 24, 1968
+@entity7:United States
+@entity8:CONGRESSMEN & GOVERNORS
+@entity9:January 3, 2009

@@ -1,13 +1,13 @@
 5
 
-a mysterious figure who appears several times during the novel .
+he also edited several anthologies .
 
-@entity2 : his novel " @entity1 " was first published in serial form in " @entity3 "
+nonfiction : @entity1 is editing a @entity3 edition of this book of familiar quotations which is due out in @entity2
 
 @entity0
 
 @entity0:
-@entity1:Nicholas Nickleby
-@entity2:NOVELS & NOVELISTS
-@entity3:Bentley's Miscellany
-@entity4:Charles Dickens
+@entity1:Justin Kaplan
+@entity2:1992
+@entity3:16th
+@entity4:Bartlett's Familiar Quotations

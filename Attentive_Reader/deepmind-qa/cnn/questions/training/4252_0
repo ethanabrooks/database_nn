@@ -1,17 +1,14 @@
-9
+6
 
-  @entity1 played the detective @entity4 in @entity6 's landmark @entity5 film noir @entity2 .
+the @entity1 post - communist presidential and parliamentary elections are held in @entity3 .
 
-film roles : @entity7 , @entity8 & @entity3 have all played this character on film
+eastern europe : @entity4 , a playboy who was groomed to lead this country , was jailed in @entity5 & died in @entity2
 
-@entity4
+@entity3
 
 @entity0:
-@entity1:Gould
-@entity2:The Long Goodbye
-@entity3:Elliott Gould
-@entity4:Philip Marlowe
-@entity5:1973
-@entity6:Altman
-@entity7:Dick Powell
-@entity8:Robert Mitchum
+@entity1:first
+@entity2:1996
+@entity3:Romania
+@entity4:Nicu Ceausescu
+@entity5:1990

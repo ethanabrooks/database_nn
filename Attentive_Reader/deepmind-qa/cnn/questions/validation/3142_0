@@ -1,14 +1,11 @@
-6
+3
 
-kolno   is a town in northeastern @entity1 , located in @entity4 , @entity3   km northeast of @entity5 .
+" @entity1 " is a narrative poem written by @entity2 .
 
-ideas for tourism campaigns : from koluszki to @entity2 , & wozniki to strzelce , visit us , but just know we 've heard all the jokes already
+poets : @entity1 , " a gentleman from sole to crown " in a poem by this 3-named man , " put a bullet through his head "
 
-@entity1
+@entity2
 
 @entity0:
-@entity1:Poland
-@entity2:Kolno
-@entity3:about 150
-@entity4:the Podlaskie Voivodeship
-@entity5:Warsaw
+@entity1:Richard Cory
+@entity2:Edwin Arlington Robinson

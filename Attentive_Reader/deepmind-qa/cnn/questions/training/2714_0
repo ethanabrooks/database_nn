@@ -1,13 +1,11 @@
-5
+3
 
-is the largest and only permanently populated island of the svalbard archipelago in northern @entity1 .
+the continent includes @entity1 and various archipelagos .
 
-way up north : in this country @entity3 people live in @entity4 fewer than 5,000 live way up north on the island of @entity2
+nature : most of the world 's lemurs live on this island off @entity2 's east coast
 
 @entity1
 
 @entity0:
-@entity1:Norway
-@entity2:Spitsbergen
-@entity3:200,000
-@entity4:Bergen &
+@entity1:Madagascar
+@entity2:Africa

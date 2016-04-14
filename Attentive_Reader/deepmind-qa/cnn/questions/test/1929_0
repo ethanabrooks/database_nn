@@ -1,12 +1,14 @@
-4
+6
 
-  @entity2 is another name for @entity3 , used by @entity1 .
+the government of @entity2 finishes its evacuation to @entity1 , and declares @entity3 its temporary capital city .
 
-myth - ellany : homer called this woman @entity2 ; oedipus could call her his mrs . , or just plain " mom "
+world capitals : in @entity5 it became the seat of the @entity4 nationalist government
 
 @entity3
 
 @entity0:
-@entity1:Homer
-@entity2:Epicaste
-@entity3:Jocasta
+@entity1:Taiwan
+@entity2:the Republic of China
+@entity3:Taipei
+@entity4:Chinese
+@entity5:1949

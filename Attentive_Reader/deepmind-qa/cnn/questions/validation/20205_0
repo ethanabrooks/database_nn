@@ -1,0 +1,13 @@
+5
+
+@entity3     is the capital city of the west african country of @entity1 .
+
+@entity2 : @entity3 is home to the university of this @entity4 country
+
+@entity1
+
+@entity0:
+@entity1:Liberia
+@entity2:COLLEGES & UNIVERSITIES
+@entity3:Monrovia
+@entity4:African

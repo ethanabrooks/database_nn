@@ -1,13 +1,12 @@
-5
+4
 
-  the village in the film was built by the production company from stone so that it could withstand the storms .
+@entity2 's presidency was widely expected to be short - lived .
 
-famous couples : when this @entity3 actress starred in " @entity4 " , she was married to its screenwriter , @entity2
+world leaders : @entity1 was assassinated in this city
 
 @entity0
 
 @entity0:
-@entity1:Sarah Miles
-@entity2:Robert Bolt
-@entity3:British
-@entity4:Ryan's Daughter
+@entity1:Anwar Sadat
+@entity2:Sadat
+@entity3:Cairo

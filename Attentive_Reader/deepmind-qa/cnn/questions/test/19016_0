@@ -1,0 +1,17 @@
+9
+
+@entity3 of @entity1 's residents ( estimated at @entity6 by @entity5 in @entity8 ) live within the @entity7 metropolitan area .
+
+alaska : @entity3 of @entity1 's @entity2 residents live within this city 's metropolitan area
+
+@entity7
+
+@entity0:
+@entity1:Alaska
+@entity2:600,000
+@entity3:Approximately half
+@entity4:About half
+@entity5:the Census Bureau
+@entity6:738,432
+@entity7:Anchorage
+@entity8:2015

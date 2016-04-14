@@ -1,0 +1,16 @@
+8
+
+@entity2 is bordered by @entity5 to the north , @entity1 to the east , @entity4 to the southeast , and the @entity6 state of @entity7 @entity2 to the south .
+
+state sandwich : it 's sandwiched between @entity2 & @entity3
+
+@entity1
+
+@entity0:
+@entity1:Nevada
+@entity2:California
+@entity3:Utah
+@entity4:Arizona
+@entity5:Oregon
+@entity6:Mexican
+@entity7:Baja

@@ -1,0 +1,16 @@
+8
+
+@entity5 , @entity7 's capital and largest city , is the @entity3 largest city in @entity6 .
+
+museums of germany : this city 's @entity1 was created in @entity2 by @entity4 to preserve @entity7 's artistic treasures
+
+@entity5
+
+@entity0:
+@entity1:Bavarian National Museum
+@entity2:1855
+@entity3:third
+@entity4:Maximilian II
+@entity5:Munich
+@entity6:Germany
+@entity7:Bavaria
