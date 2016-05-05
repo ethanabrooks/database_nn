@@ -158,10 +158,10 @@ class model(object):
             # M_t_print = Print('M_t')(M_t)
             return [h_t, s_t, w_t, M_t]
 
-        reset = T.iscalar()
+        # reset = T.iscalar()
         m0_print = Print('self.M0')(self.M0)
-        m_print = Print('self.M')(self.M)
-        M0 = ifelse(reset, self.M0, m_print)
+        # m_print = Print('self.M')(self.M)
+        # M0 = ifelse(reset, self.M0, m_print)
         [_, s, _, M], _ = theano.scan(fn=recurrence,
                                       sequences=x,
                                       outputs_info=[self.h0, None, self.w0, self.M],
@@ -180,13 +180,13 @@ class model(object):
 
         # cost and gradients and learning rate
         lr = T.scalar('lr')
-        nll = -T.mean(T.log(p_y_given_x_lastword)[y])
+        # nll = -T.mean(T.log(p_y_given_x_lastword)[y])
         # CHANGED
         s = s.flatten(ndim=2)
-        s_print = printing.Print("s")(s)
-        y_print = printing.Print("y")(y)
-        nll = T.nnet.categorical_crossentropy(s_print, y_print).mean()
-        self.get_nll = theano.function([idxs, y],
+        s_print = Print("s")(s)
+        y_print = Print("y")(y)
+        nll = T.nnet.categorical_crossentropy(s, y).mean()
+        self.get_nll = theano.function([idxs, y, is_question],
                                        outputs=nll,
                                        allow_input_downcast=True)
         # CHANGED
@@ -201,7 +201,8 @@ class model(object):
         self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
                                      updates=updates,  # + [(self.M, m_print)],
-                                     on_unused_input='ignore', profile=True)
+                                     on_unused_input='ignore',
+                                     allow_input_downcast=True)
 
         self.normalize = theano.function(
             inputs=[],

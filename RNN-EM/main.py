@@ -15,7 +15,7 @@ from rnn_em import model
 from is13.data import load
 from is13.metrics.accuracy import conlleval
 from is13.utils.tools import shuffle, minibatch, contextwin
-from spacy import English
+# from spacy import English
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--debug', help='Set test = train = valid',
@@ -37,7 +37,7 @@ parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=100000,
+parser.add_argument('--num_questions', type=int, default=10,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
 
@@ -58,12 +58,9 @@ def evaluate(predictions, targets):
         prediction, target = (t == np.zeros_like(t) + 2
                               for t in (prediction, target))
 
-        def to_array(string):
-            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
-            sentence_vector = numpy.empty(len(tokens), dtype='int32')
-            for i, word in enumerate(tokens):
-                sentence_vector[i] = to_int(word)
-            return sentence_vector
+        def confusion((pred_is_pos, tgt_is_pos)):
+            return np.logical_and(prediction == pred_is_pos,
+                                  target == tgt_is_pos).sum()
 
         tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
         measures += np.array((tp, fp, fn))
@@ -77,6 +74,7 @@ def evaluate(predictions, targets):
     for var in ('f1', 'precision', 'recall'):
         confusion_dic[var] = eval(var)
     return confusion_dic
+
 
 
 class Dataset:
@@ -105,17 +103,17 @@ class Dataset:
 
     def predict(self):
         predictions = []
-        previous_is_question = False
+        # previous_is_question = False
         for sentence, is_question in zip(self.inputs, self.is_questions):
 
             # reset memory?
             is_question = train.is_questions[i]
-            reset = is_question and not previous_is_question
-            previous_is_question = is_question
+            # reset = is_question and not previous_is_question
+            # previous_is_question = is_question
 
             predictions.append(rnn.classify(
                 np.asarray(contextwin(sentence, s.window_size), dtype='int32'),
-                is_question, reset))
+                is_question))
         return predictions
         # [rnn.classify(
         #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
@@ -127,7 +125,7 @@ if s.dataset == 'jeopardy':
     root_dir = "../data/"
     new_question = True
     dic = {'*': 0}
-    tokenizer = English(parser=False)
+    # tokenizer = English(parser=False)
 
     datasets = [Dataset(percent=p) for p in (.7,  # train
                                              .2,  # test
@@ -153,9 +151,10 @@ if s.dataset == 'jeopardy':
 
 
     def to_array(string):
-        tokens = [token.lower_.encode('unicode-escape')
-                  for token in tokenizer(unicode(string, 'utf-8'))]
-        sentence_vector = np.empty(len(tokens), dtype=int)
+        tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+        # tokens = [token.lower_.encode('unicode-escape')
+        #           for token in tokenizer(unicode(string, 'utf-8'))]
+        sentence_vector = np.empty(len(tokens), dtype='int32')
         for i, word in enumerate(tokens):
             sentence_vector[i] = to_int(word)
         return sentence_vector
@@ -262,11 +261,11 @@ for epoch in range(s.n_epochs):
         context_words = contextwin(train.inputs[i], s.window_size)
         words = [np.asarray(instance, dtype='int32') for instance in
                  minibatch(context_words, s.batch_size)]
-        loss = 0
-        for word_batch, label in zip(words, train.targets[i]):
+        # for word_batch, label in zip(words, train.targets[i]):
 
             # reset memory?
-            is_question = train.is_questions[i]
+        labels = train.targets[i]
+        is_question = train.is_questions[i]
 
 #			cwords = contextwin(train_lex[i], s.win)
             # words = map(lambda x: numpy.asarray(x).astype('int32'),
@@ -277,8 +276,8 @@ for epoch in range(s.n_epochs):
             # print(rnn.get_x(cwords))
             # print(rnn.get_b())
 #            rnn.train(numpy.array(cwords), labels, s.clr)
-            loss = rnn.train(word_batch, label, s.learn_rate, is_question)
-            rnn.normalize()
+        loss = rnn.train(np.array(context_words), labels, s.learn_rate, is_question)
+        rnn.normalize()
         if s.verbose:
             progress = float(i + 1) / nsentences
             print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
