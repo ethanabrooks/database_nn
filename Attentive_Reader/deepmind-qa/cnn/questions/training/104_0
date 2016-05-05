@@ -1,0 +1,19 @@
+11
+
+the state capital is @entity3 with a population of @entity1 ( @entity6 ) , making it the @entity4 least - populous state capital ( after @entity10 , @entity2 and @entity5 , @entity8 ) in the nation .
+
+state capitals : this capital city of @entity9 lies on both sides of @entity7
+
+@entity3
+
+@entity0:
+@entity1:19,136
+@entity2:Vermont
+@entity3:Augusta
+@entity4:third
+@entity5:Pierre
+@entity6:2010
+@entity7:the Kennebec River
+@entity8:South Dakota
+@entity9:Maine
+@entity10:Montpelier

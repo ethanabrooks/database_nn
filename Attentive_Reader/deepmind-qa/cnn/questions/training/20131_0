@@ -1,0 +1,13 @@
+5
+
+@entity2 was the son of @entity4 , the father of @entity1 , and the grandfather of @entity3 .
+
+the bible : this ark builder was the grandson of @entity2
+
+@entity3
+
+@entity0:
+@entity1:Lamech
+@entity2:Methuselah
+@entity3:Noah
+@entity4:Enoch

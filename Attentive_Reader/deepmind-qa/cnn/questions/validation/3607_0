@@ -1,0 +1,13 @@
+5
+
+it was @entity1 sold under the brand name @entity3 .
+
+soda pop quiz : pharmaceutical company @entity4 developed the soda sweetener @entity2 , marketed as this
+
+@entity3
+
+@entity0:
+@entity1:first
+@entity2:Aspartame
+@entity3:NutraSweet
+@entity4:G.D. Searle

@@ -1,0 +1,13 @@
+5
+
+@entity4 ( @entity1 ) is a novel by @entity3 author @entity2 .
+
+american lit : he wrote an introduction called " how ' bigger ' was born " for his novel " @entity4 "
+
+@entity2
+
+@entity0:
+@entity1:1940
+@entity2:Richard Wright
+@entity3:American
+@entity4:Native Son

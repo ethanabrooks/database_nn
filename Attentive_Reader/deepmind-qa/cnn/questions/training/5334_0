@@ -1,0 +1,14 @@
+6
+
+@entity5    @entity2 branded vehicles are manufactured by @entity5 , which along with @entity1 comprises the @entity2 @entity3 .
+
+you've got company : now owned by @entity2 , this company 's models include the @entity4 sedan & the rio compact
+
+@entity1
+
+@entity0:
+@entity1:Kia
+@entity2:Hyundai
+@entity3:Kia Automotive Group
+@entity4:Optima
+@entity5:Hyundai Motor Company

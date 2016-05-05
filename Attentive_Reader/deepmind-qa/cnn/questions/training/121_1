@@ -1,0 +1,18 @@
+10
+
+@entity3 is bordered by the province of @entity1 to the west , @entity7 and @entity7 to the north , and @entity2 to the east , and to the south by the @entity6 states of ( from west to east )
+
+world capitals : @entity9 is the capital of @entity3 , but this other @entity3 city is the capital of @entity5
+
+@entity0
+
+@entity0:
+@entity1:Manitoba
+@entity2:Quebec
+@entity3:Ontario
+@entity4:Ottawa
+@entity5:Canada
+@entity6:US
+@entity7:Hudson Bay
+@entity8:James Bay
+@entity9:Toronto

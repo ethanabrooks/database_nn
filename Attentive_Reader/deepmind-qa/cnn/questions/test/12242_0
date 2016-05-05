@@ -1,0 +1,13 @@
+5
+
+film   the book was the inspiration for the @entity2 film of the same name , starring @entity1 .
+
+people 's sexiest men alive : this star of " @entity3 " took the title in @entity4
+
+@entity1
+
+@entity0:
+@entity1:Richard Gere
+@entity2:2002
+@entity3:The Mothman Prophecies
+@entity4:1999

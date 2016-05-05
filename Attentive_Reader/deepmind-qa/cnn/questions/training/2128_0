@@ -1,0 +1,13 @@
+5
+
+@entity3 is the capital city of the province of @entity2 , @entity4 , and of the partido @entity3 .
+
+places to pay in pesos : use pesos to pay for the cd of " @entity1 " in @entity3 in this country
+
+@entity4
+
+@entity0:
+@entity1:Evita
+@entity2:Buenos Aires
+@entity3:La Plata
+@entity4:Argentina

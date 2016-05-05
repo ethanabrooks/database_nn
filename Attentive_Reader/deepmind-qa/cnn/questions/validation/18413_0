@@ -1,0 +1,15 @@
+7
+
+the active volcano @entity2 in @entity1 is discovered and named by @entity3 .
+
+volcanoes : @entity2 in this continent 's @entity5 region was discovered by sir @entity4 in @entity6
+
+@entity1
+
+@entity0:
+@entity1:Antarctica
+@entity2:Mount Erebus
+@entity3:James Clark Ross
+@entity4:James Ross
+@entity5:Victoria Land
+@entity6:1841

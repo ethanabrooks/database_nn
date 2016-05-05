@@ -1,0 +1,11 @@
+3
+
+its provincial capital is @entity1 .
+
+x marks the spot : the harbor of this @entity2 capital is one of the largest in the world
+
+@entity1
+
+@entity0:
+@entity1:Halifax
+@entity2:Nova Scotia

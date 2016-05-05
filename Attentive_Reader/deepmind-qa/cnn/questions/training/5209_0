@@ -1,0 +1,12 @@
+4
+
+@entity2 is a gas giant , along with @entity1 .
+
+the planets : although the next planet out from @entity2 , it 's almost twice as far from the @entity3 as @entity2
+
+@entity1
+
+@entity0:
+@entity1:Saturn
+@entity2:Jupiter
+@entity3:Sun

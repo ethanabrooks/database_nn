@@ -1,0 +1,12 @@
+4
+
+@entity2   is the capital and largest city of the @entity1 state of @entity3 .
+
+best " western " : its capital is @entity2
+
+@entity3
+
+@entity0:
+@entity1:Australian
+@entity2:Perth
+@entity3:Western Australia

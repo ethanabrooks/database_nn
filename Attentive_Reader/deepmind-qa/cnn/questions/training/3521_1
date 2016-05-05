@@ -1,0 +1,13 @@
+5
+
+@entity1 ( @entity3 )
+
+pot luck : @entity2 , a liqueur made from @entity1 coffee beans , comes from this country
+
+@entity0
+
+@entity0:
+@entity1:Blue Mountain
+@entity2:Tia Maria
+@entity3:Pennsylvania
+@entity4:Jamaica

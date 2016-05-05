@@ -1,0 +1,14 @@
+6
+
+@entity3 son - in-law , actor @entity1 , is said to have visited @entity5 frequently , and to have persuaded @entity4 to reunite with his adult son , @entity5 .
+
+celebrities : this actor is the son of a @entity2 poet laureate & the son - in-law of playwright @entity4
+
+@entity1
+
+@entity0:
+@entity1:Daniel Day-Lewis
+@entity2:British
+@entity3:Arthur Miller's
+@entity4:Arthur Miller
+@entity5:Daniel

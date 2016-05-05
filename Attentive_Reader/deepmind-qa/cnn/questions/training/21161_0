@@ -1,0 +1,18 @@
+10
+
+rail service   @entity1 operates inter - city rail , including the high - speed @entity5 service to cities such as @entity7 , @entity8 , @entity6 , and @entity2 , dc from @entity9 .
+
+state capitals : @entity4 , @entity3 is part of the metropolitan area of this state capital
+
+@entity7
+
+@entity0:
+@entity1:Amtrak
+@entity2:Washington
+@entity3:Massachusetts
+@entity4:Fall River
+@entity5:Acela
+@entity6:New York City
+@entity7:Providence
+@entity8:New Haven
+@entity9:South Station

@@ -1,0 +1,16 @@
+8
+
+@entity2 is a @entity1 @entity4   romantic comedy - drama sports film written , produced and directed by @entity7 , and stars @entity3 , @entity5 , jr. and @entity6 .
+
+role playing : " @entity2 "             ( @entity1 )
+
+@entity3
+
+@entity0:
+@entity1:1996
+@entity2:Jerry Maguire
+@entity3:Tom Cruise
+@entity4:American
+@entity5:Cuba Gooding
+@entity6:Renée Zellweger
+@entity7:Cameron Crowe

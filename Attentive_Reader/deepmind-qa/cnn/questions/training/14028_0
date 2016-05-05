@@ -1,0 +1,14 @@
+6
+
+the film was directed by @entity1 , and starred @entity4 and @entity5 .
+
+@entity2 : though he was best known for directing musicals , the last film he directed was a drama , " @entity3 "
+
+@entity1
+
+@entity0:
+@entity1:Bob Fosse
+@entity2:MOVIE TRIVIA
+@entity3:Star 80
+@entity4:Mariel Hemingway
+@entity5:Eric Roberts

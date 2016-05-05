@@ -1,0 +1,15 @@
+7
+
+movies .
+
+who won the oscar ? : @entity2 , for " @entity1 " ; @entity4 , for " @entity6 " ; @entity5 , for " @entity3 "
+
+@entity0
+
+@entity0:
+@entity1:Jerry Maguire
+@entity2:Tom Cruise
+@entity3:The English Patient
+@entity4:Geoffrey Rush
+@entity5:Ralph Fiennes
+@entity6:Shine

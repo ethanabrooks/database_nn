@@ -1,0 +1,12 @@
+4
+
+@entity1 ( ; ) is the capital and largest city of @entity2 .
+
+countries of the world : politically , this country is divided into @entity3 provinces & @entity1
+
+@entity2
+
+@entity0:
+@entity1:Nairobi
+@entity2:Kenya
+@entity3:7

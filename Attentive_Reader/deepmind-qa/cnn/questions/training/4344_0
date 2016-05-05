@@ -1,0 +1,13 @@
+5
+
+@entity1 ( ; , , ) is the capital city of @entity2 located within @entity3 .
+
+dam it ! : the tarbela dam is located on @entity4 not far from @entity1 in this country
+
+@entity2
+
+@entity0:
+@entity1:Islamabad
+@entity2:Pakistan
+@entity3:the Islamabad Capital Territory
+@entity4:the Indus River

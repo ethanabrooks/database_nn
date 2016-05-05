@@ -1,0 +1,16 @@
+8
+
+it is bordered to the east by @entity6 , to the north by @entity5 , to the west by @entity2 , to the southwest by @entity7 , and to the south by @entity3 .
+
+" t " countries : it shares dominion over @entity1 with @entity6 & @entity4
+
+@entity3
+
+@entity0:
+@entity1:Lake Victoria
+@entity2:the Democratic Republic of the Congo
+@entity3:Tanzania
+@entity4:Uganda
+@entity5:South Sudan
+@entity6:Kenya
+@entity7:Rwanda

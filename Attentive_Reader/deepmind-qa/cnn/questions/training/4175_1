@@ -1,0 +1,13 @@
+5
+
+@entity3 .
+
+state capitals : this @entity1 city 's capitol building is called @entity2
+
+@entity0
+
+@entity0:
+@entity1:North Dakota
+@entity2:The Skyscraper of the Prairies
+@entity3:Verified Trauma Centers
+@entity4:Bismarck

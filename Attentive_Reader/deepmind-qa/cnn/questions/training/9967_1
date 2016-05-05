@@ -1,0 +1,14 @@
+6
+
+module:community relations .
+
+world cities : like @entity2 , this capital of @entity3 was damaged by @entity5 @entity4 bombs
+
+@entity0
+
+@entity0:
+@entity1:Belfast
+@entity2:London
+@entity3:Northern Ireland
+@entity4:German
+@entity5:WWII

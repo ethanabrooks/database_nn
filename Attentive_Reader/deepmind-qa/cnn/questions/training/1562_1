@@ -1,0 +1,14 @@
+6
+
+@entity2 takes @entity1 .
+
+kentucky : this city named for a @entity3 king goes back to one founded by @entity2 in @entity5
+
+@entity0
+
+@entity0:
+@entity1:Kaskaskia
+@entity2:George Rogers Clark
+@entity3:French
+@entity4:Louisville
+@entity5:1778

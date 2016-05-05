@@ -1,0 +1,16 @@
+8
+
+it is bordered to the north and east by @entity4 , to the southeast by @entity2 , to the south by @entity3 , to the southwest by @entity6 , and to the northwest by @entity1 .
+
+" c"ountries : an 80-mile alpaca trek from @entity7 to @entity5 will take you through this other country
+
+@entity6
+
+@entity0:
+@entity1:Peru
+@entity2:Paraguay
+@entity3:Argentina
+@entity4:Brazil
+@entity5:the Pacific Ocean
+@entity6:Chile
+@entity7:Bolivia

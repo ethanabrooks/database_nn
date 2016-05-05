@@ -1,0 +1,15 @@
+7
+
+@entity5 .
+
+@entity3 : @entity2 , editor & publisher of this magazine , is @entity1 of @entity4 on the @entity6 's board of trustees
+
+@entity5
+
+@entity0:
+@entity1:1
+@entity2:Jann Wenner
+@entity3:ROCK & ROLL HALL OF FAME
+@entity4:26
+@entity5:Rolling Stone
+@entity6:Hall

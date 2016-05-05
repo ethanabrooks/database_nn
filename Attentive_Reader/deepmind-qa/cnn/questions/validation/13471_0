@@ -1,0 +1,12 @@
+4
+
+he ran for president in @entity1 , but decided to run for vice - president instead early in the election , and won ; serving under @entity2 .
+
+i was his vice president : @entity3
+
+@entity2
+
+@entity0:
+@entity1:1824
+@entity2:John Quincy Adams
+@entity3:John C. Calhoun

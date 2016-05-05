@@ -1,0 +1,14 @@
+6
+
+its capital city is @entity1 , and its most populous city is @entity2 .
+
+insurance : the great poet @entity3 spent @entity5 handling claims in this @entity4 & insurance capital
+
+@entity1
+
+@entity0:
+@entity1:Hartford
+@entity2:Bridgeport
+@entity3:Wallace Stevens
+@entity4:Connecticut
+@entity5:39 years

@@ -1,0 +1,12 @@
+4
+
+events   below , events of @entity1 have the " wwi " prefix .
+
+the new york times pulitzer prize winners : the @entity2 won its first pulitzer in @entity3 for its coverage of this
+
+@entity1
+
+@entity0:
+@entity1:World War I
+@entity2:Times
+@entity3:1918

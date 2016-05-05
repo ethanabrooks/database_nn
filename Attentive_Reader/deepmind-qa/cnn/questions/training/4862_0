@@ -1,0 +1,18 @@
+10
+
+the country is bordered by @entity1 to the north , @entity9 to the northwest , @entity2 to the southwest , and @entity7 across @entity3 to the southeast .
+
+vietnam : of the @entity8 countries that border @entity5 , the @entity6 whose name does not begin with the same letter as the other @entity4
+
+@entity9
+
+@entity0:
+@entity1:China
+@entity2:Cambodia
+@entity3:the South China Sea
+@entity4:2
+@entity5:Vietnam
+@entity6:one
+@entity7:Malaysia
+@entity8:3
+@entity9:Laos

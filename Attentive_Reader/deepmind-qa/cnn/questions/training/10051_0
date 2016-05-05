@@ -1,0 +1,13 @@
+5
+
+@entity2 completes his painting @entity3 .
+
+" p"ainters & " p"ainting : in @entity1 he painted a masterpiece that depicted the bombing of a @entity4 town
+
+@entity2
+
+@entity0:
+@entity1:1937
+@entity2:Picasso
+@entity3:Guernica
+@entity4:Spanish

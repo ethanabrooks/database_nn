@@ -1,0 +1,12 @@
+4
+
+the largest city by population is @entity2 , which has long been the most industrialized city , and largest city by total land area is @entity3 .
+
+the english beat : centenary square , in the center of this city , is its main cultural center ; @entity1 has a city by that name as well
+
+@entity2
+
+@entity0:
+@entity1:Alabama
+@entity2:Birmingham
+@entity3:Huntsville

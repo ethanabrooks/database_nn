@@ -1,0 +1,15 @@
+7
+
+it is located in the province of @entity2 , north of @entity3 and west of @entity5 .
+
+my kinda town : the town of @entity4 is in @entity3 in this @entity1 province
+
+@entity2
+
+@entity0:
+@entity1:Canadian
+@entity2:Alberta
+@entity3:Jasper National Park
+@entity4:Jasper
+@entity5:Edmonton
+@entity6:Banff National Park

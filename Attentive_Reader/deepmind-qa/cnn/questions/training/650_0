@@ -1,0 +1,16 @@
+8
+
+@entity2 succeeds @entity4 as the 18th president of @entity7 .
+
+@entity6 presidents : taking office in @entity1 , he was the @entity3 @entity5 graduate to become president
+
+@entity2
+
+@entity0:
+@entity1:1869
+@entity2:Ulysses S. Grant
+@entity3:first
+@entity4:Andrew Johnson
+@entity5:West Point
+@entity6:U.S.
+@entity7:the United States of America

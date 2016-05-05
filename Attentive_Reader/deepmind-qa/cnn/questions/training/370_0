@@ -1,0 +1,14 @@
+6
+
+@entity1 is a region of @entity2 bounded on the east by @entity5 and @entity4 and on the west by @entity1 .
+
+the land : @entity1 , one of its regions , lies north of @entity5
+
+@entity2
+
+@entity0:
+@entity1:Oates Land
+@entity2:Antarctica
+@entity3:Victoria Land
+@entity4:the Ross Sea
+@entity5:the Ross Ice Shelf

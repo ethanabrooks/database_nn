@@ -1,0 +1,14 @@
+6
+
+it is located at the confluence of @entity2 , flowing north from @entity1 , and @entity2 , flowing west from @entity4 .
+
+" white " : it flows into @entity3
+
+@entity2
+
+@entity0:
+@entity1:Lake Victoria
+@entity2:the White Nile
+@entity3:Khartoum
+@entity4:Ethiopia
+@entity5:the Blue Nile

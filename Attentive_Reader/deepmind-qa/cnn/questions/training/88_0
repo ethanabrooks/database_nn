@@ -1,0 +1,12 @@
+4
+
+is the capital and @entity2 largest city of @entity1 and @entity3 state .
+
+capital punishment : @entity3
+
+@entity1
+
+@entity0:
+@entity1:Sudan
+@entity2:second
+@entity3:Khartoum

@@ -1,0 +1,16 @@
+8
+
+it is bordered by @entity2 to the east , @entity1 to the north , @entity7 to the west , and @entity4 to the south .
+
+@entity6 geography : all of @entity5 's port cities are on this arm of the @entity3
+
+@entity4
+
+@entity0:
+@entity1:Massachusetts
+@entity2:Rhode Island
+@entity3:Atlantic
+@entity4:Long Island Sound
+@entity5:Connecticut
+@entity6:U.S.
+@entity7:New York

@@ -1,0 +1,16 @@
+8
+
+it is bounded on the east by @entity5 and @entity1 , on the north by @entity2 , on the northwest by @entity7 , on the far west by @entity3 , and on the south and near - west by @entity6 .
+
+look out below ! : it 's the state directly below @entity4
+
+@entity6
+
+@entity0:
+@entity1:Missouri
+@entity2:Kansas
+@entity3:New Mexico
+@entity4:Oklahoma
+@entity5:Arkansas
+@entity6:Texas
+@entity7:Colorado

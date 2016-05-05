@@ -1,0 +1,13 @@
+5
+
+is the capital and @entity2 largest city of @entity1 and @entity4 state .
+
+countries of the world : @entity4 is the capital of this largest @entity3 nation
+
+@entity1
+
+@entity0:
+@entity1:Sudan
+@entity2:second
+@entity3:African
+@entity4:Khartoum

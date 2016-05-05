@@ -1,0 +1,16 @@
+8
+
+it is bounded on the east by @entity2 , on the south by @entity2 and on the north by @entity2 .
+
+" u - r " there : the small @entity1 part of this country lies in @entity7 ; the rest is in @entity3
+
+@entity0
+
+@entity0:
+@entity1:European
+@entity2:the Arctic Ocean
+@entity3:Asia
+@entity4:the Indian Ocean
+@entity5:the Pacific Ocean
+@entity6:Turkey
+@entity7:Thrace

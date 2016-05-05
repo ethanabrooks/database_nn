@@ -1,0 +1,14 @@
+6
+
+@entity1 .
+
+world geography : @entity2 occupies a part of @entity3 & much of this country 's @entity5 states
+
+@entity0
+
+@entity0:
+@entity1:Read Books Publishers
+@entity2:The Thar Desert
+@entity3:Pakistan
+@entity4:India
+@entity5:Haryana & Rajasthan

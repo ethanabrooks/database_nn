@@ -1,0 +1,14 @@
+6
+
+@entity3 for taxonomy   * 01 @entity1 1rank17 category:zoological nomenclature category:bacterial nomenclature
+
+@entity2 i.q. : the coyote is in genus @entity5 ; the ocelot is in this one
+
+@entity0
+
+@entity0:
+@entity1:Genus
+@entity2:GENUS
+@entity3:Fauna Europaea Database
+@entity4:Felis
+@entity5:Canis

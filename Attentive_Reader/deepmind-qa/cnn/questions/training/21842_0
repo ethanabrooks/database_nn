@@ -1,0 +1,13 @@
+5
+
+@entity1 is a sparsely populated region located at the southern end of @entity3 , shared by @entity4 and @entity2 .
+
+the continent where you'll find ... : @entity1
+
+@entity3
+
+@entity0:
+@entity1:Patagonia
+@entity2:Chile
+@entity3:South America
+@entity4:Argentina

@@ -1,0 +1,13 @@
+5
+
+@entity1 is a major tourist destination and @entity4 , situated on the island of @entity3 , is the main gateway to @entity1 and a major gateway into @entity2 .
+
+island cities : @entity4
+
+@entity3
+
+@entity0:
+@entity1:Hawaii
+@entity2:the United States
+@entity3:Oahu
+@entity4:Honolulu

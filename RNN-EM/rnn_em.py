@@ -9,6 +9,7 @@ from theano import tensor as T
 from theano.ifelse import ifelse
 
 
+
 def norm(x):
     axis = None if x.ndim == 1 else 1
     return T.sqrt(T.sum(T.sqr(x), axis=axis))
@@ -89,7 +90,7 @@ class model(object):
         shape_print = theano.printing.Print('idxs.shape[0]')(idxs.shape[0])
 
         x = self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))  # QUESTION: what is idxs.shape[0]?
-        y = T.iscalar('y')  # label
+        y = T.ivector('y')  # label
 
         def recurrence(x_t, h_tm1, w_previous, M_previous):
             # eqn not specified in paper
@@ -167,8 +168,11 @@ class model(object):
                                       n_steps=x.shape[0],
                                       name='SCAN_FUNCTION')
 
-        # m_print = Print('M')(M)
-        # self.M = m_print
+        # self.M = M
+        # self.get_s = theano.function(inputs=[idxs], outputs=s.flatten(ndim=2).shape)
+        self.get_y = theano.function(inputs=[y], outputs=y)
+        # self.get_x = theano.function(inputs=[idxs], outputs=x.shape)
+        # self.get_b = theano.function([], outputs=self.b.shape)
 
         p_y_given_x_last_word = s[-1, 0, :]
         p_y_given_x_sentence = s[:, 0, :]
@@ -176,17 +180,25 @@ class model(object):
 
         # cost and gradients and learning rate
         lr = T.scalar('lr')
-        nll = -T.mean(T.log(p_y_given_x_last_word)[y])
-        nll_print = theano.printing.Print('negative log likelihood: ')(nll)
+        nll = -T.mean(T.log(p_y_given_x_lastword)[y])
+        # CHANGED
+        s = s.flatten(ndim=2)
+        s_print = printing.Print("s")(s)
+        y_print = printing.Print("y")(y)
+        nll = T.nnet.categorical_crossentropy(s_print, y_print).mean()
+        self.get_nll = theano.function([idxs, y],
+                                       outputs=nll,
+                                       allow_input_downcast=True)
+        # CHANGED
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
-        self.classify = theano.function(inputs=[idxs, is_question, reset],
+        self.classify = theano.function(inputs=[idxs, is_question],
                                         outputs=y_pred,
                                         # updates=[(self.M, M)],
                                         on_unused_input='warn')
 
-        self.train = theano.function(inputs=[idxs, y, lr, is_question, reset],
+        self.train = theano.function(inputs=[idxs, y, lr, is_question],
                                      outputs=nll,
                                      updates=updates,  # + [(self.M, m_print)],
                                      on_unused_input='ignore', profile=True)

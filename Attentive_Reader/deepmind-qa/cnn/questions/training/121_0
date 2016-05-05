@@ -1,0 +1,13 @@
+5
+
+it is home to the nation 's capital city , @entity3 , and the nation 's most populous city , @entity4 .
+
+world capitals : @entity4 is the capital of @entity1 , but this other @entity1 city is the capital of @entity2
+
+@entity3
+
+@entity0:
+@entity1:Ontario
+@entity2:Canada
+@entity3:Ottawa
+@entity4:Toronto

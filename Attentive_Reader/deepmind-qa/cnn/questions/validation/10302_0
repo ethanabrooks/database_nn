@@ -1,0 +1,15 @@
+7
+
+" @entity4 " is the @entity3 episode of the @entity5 sitcom @entity2 .
+
+do tell the hotel : episodes of this @entity1 sitcom included " @entity4 " & " @entity6 "
+
+@entity2
+
+@entity0:
+@entity1:British
+@entity2:Fawlty Towers
+@entity3:fourth
+@entity4:The Hotel Inspectors
+@entity5:BBC
+@entity6:Basil the Rat

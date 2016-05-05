@@ -1,0 +1,13 @@
+5
+
+@entity3 is the capital and the most populous city in @entity1 , with a population estimate of @entity2 in @entity4 .
+
+state capitals : the area of this @entity1 capital was first occupied by the native american tribe for which it 's named
+
+@entity3
+
+@entity0:
+@entity1:Wyoming
+@entity2:62,448
+@entity3:Cheyenne
+@entity4:2013

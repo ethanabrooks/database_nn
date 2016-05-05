@@ -1,0 +1,13 @@
+5
+
+senator @entity1 announces that he will seek the @entity2 nomination for president .
+
+quotations : in @entity3 , he told @entity4 , " extremism in the defense of liberty is no vice "
+
+@entity1
+
+@entity0:
+@entity1:Barry Goldwater
+@entity2:Republican
+@entity3:1964
+@entity4:the Republican Convention

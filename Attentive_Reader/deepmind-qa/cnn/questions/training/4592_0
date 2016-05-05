@@ -1,0 +1,12 @@
+4
+
+the country 's capital and largest city is @entity1 .
+
+potpourri : @entity2 is the luxury shopping street of this capital of @entity3
+
+@entity1
+
+@entity0:
+@entity1:Budapest
+@entity2:Andrassy
+@entity3:Hungary

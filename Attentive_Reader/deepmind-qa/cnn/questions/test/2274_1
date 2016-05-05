@@ -1,0 +1,15 @@
+7
+
+@entity6 , @entity5 .
+
+playwrights : this playwright and actor portrayed colonel @entity1 , not @entity2 , in " @entity3 "
+
+@entity0
+
+@entity0:
+@entity1:Chuck Yeager
+@entity2:Alan Shepard
+@entity3:The Right Stuff
+@entity4:Sam Shepard
+@entity5:Tom
+@entity6:Wolfe

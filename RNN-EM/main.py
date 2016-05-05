@@ -3,8 +3,6 @@ from __future__ import print_function
 import argparse
 import copy
 
-import tabulate as table
-
 import re
 
 import numpy as np
@@ -60,9 +58,12 @@ def evaluate(predictions, targets):
         prediction, target = (t == np.zeros_like(t) + 2
                               for t in (prediction, target))
 
-        def confusion((pred_is_pos, tgt_is_pos)):
-            return np.logical_and(prediction == pred_is_pos,
-                                  target == tgt_is_pos).sum()
+        def to_array(string):
+            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+            sentence_vector = numpy.empty(len(tokens), dtype='int32')
+            for i, word in enumerate(tokens):
+                sentence_vector[i] = to_int(word)
+            return sentence_vector
 
         tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
         measures += np.array((tp, fp, fn))
@@ -262,15 +263,21 @@ for epoch in range(s.n_epochs):
         words = [np.asarray(instance, dtype='int32') for instance in
                  minibatch(context_words, s.batch_size)]
         loss = 0
-        previous_is_question = False
         for word_batch, label in zip(words, train.targets[i]):
 
             # reset memory?
             is_question = train.is_questions[i]
-            reset = is_question and not previous_is_question
-            previous_is_question = is_question
 
-            loss = rnn.train(word_batch, label, s.learn_rate, is_question, reset)
+#			cwords = contextwin(train_lex[i], s.win)
+            # words = map(lambda x: numpy.asarray(x).astype('int32'),
+            #             minibatch(cwords, s.bs))
+ #           labels = train_y[i]
+            # for word_batch, label_last_word in zip(words, labels):
+            # print(labels)
+            # print(rnn.get_x(cwords))
+            # print(rnn.get_b())
+#            rnn.train(numpy.array(cwords), labels, s.clr)
+            loss = rnn.train(word_batch, label, s.learn_rate, is_question)
             rnn.normalize()
         if s.verbose:
             progress = float(i + 1) / nsentences

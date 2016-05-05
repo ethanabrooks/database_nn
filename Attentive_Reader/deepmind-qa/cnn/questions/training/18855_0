@@ -1,0 +1,12 @@
+4
+
+@entity2 ( ) is the capital and largest city of @entity1 .
+
+south america : @entity3 of its population lives in its capital , @entity2
+
+@entity1
+
+@entity0:
+@entity1:Uruguay
+@entity2:Montevideo
+@entity3:Over 1/3

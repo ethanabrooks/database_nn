@@ -1,0 +1,15 @@
+7
+
+it borders @entity1 to the north , @entity6 to the northeast , @entity3 to the east , and the drake passage in the far south .
+
+geography : in @entity2 it lost its @entity4 province to @entity5 & became a landlocked country
+
+@entity6
+
+@entity0:
+@entity1:Peru
+@entity2:1884
+@entity3:Argentina
+@entity4:Atacama
+@entity5:Chile
+@entity6:Bolivia

@@ -1,0 +1,12 @@
+4
+
+@entity2 ( ;   , ) is the capital of @entity3 as well as the largest city of @entity1 , located in the eastern section of the country .
+
+countries by newspaper : @entity2 weekly
+
+@entity1
+
+@entity0:
+@entity1:Afghanistan
+@entity2:Kabul
+@entity3:the Islamic Republic of Afghanistan

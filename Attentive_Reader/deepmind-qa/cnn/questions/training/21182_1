@@ -1,0 +1,13 @@
+5
+
+electoral history   publications
+
+politicians : @entity2 's current governor , @entity3 , ran against @entity4 , the mayor of this city
+
+@entity0
+
+@entity0:
+@entity1:Indianapolis
+@entity2:Indiana
+@entity3:Frank L. O'Bannon
+@entity4:Stephen Goldsmith

@@ -1,0 +1,14 @@
+6
+
+@entity1 economy relies on exports more than any other state in @entity2 .
+
+aussie capitals : this capital of @entity3 was named for a queen , the consort of king @entity4
+
+@entity0
+
+@entity0:
+@entity1:South Australia's
+@entity2:Australia
+@entity3:South Australia
+@entity4:William IV
+@entity5:Adelaide

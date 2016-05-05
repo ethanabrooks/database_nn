@@ -1,0 +1,14 @@
+6
+
+wwii : @entity4 and @entity3 declare war on @entity1 .
+
+medicine : while many diseases bear doctors ' names , a nerve disease is named for this victim who died in @entity2
+
+@entity0
+
+@entity0:
+@entity1:the Soviet Union
+@entity2:1941
+@entity3:Romania
+@entity4:Italy
+@entity5:Lou Gehrig

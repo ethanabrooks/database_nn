@@ -1,0 +1,13 @@
+5
+
+bergen ( ) is a city and municipality in @entity2 on the west coast of @entity1 .
+
+dining out : reindeer is on the menu at @entity4 , a restaurant in @entity3 in this country
+
+@entity1
+
+@entity0:
+@entity1:Norway
+@entity2:Hordaland
+@entity3:Bergen
+@entity4:Fiskekrogen

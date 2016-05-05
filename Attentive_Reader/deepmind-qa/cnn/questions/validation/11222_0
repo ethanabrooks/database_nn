@@ -1,0 +1,16 @@
+8
+
+@entity6 is bordered by @entity4 and @entity1 to the north - east , and @entity3 to the south , with @entity7 on the other side .
+
+" f " in geography : this country 's highest point is @entity5 , which rises @entity2 near its northwestern border with @entity6
+
+@entity4
+
+@entity0:
+@entity1:Russia
+@entity2:4,357 feet
+@entity3:the Skagerrak Strait
+@entity4:Finland
+@entity5:Haltia
+@entity6:Norway
+@entity7:Denmark

@@ -1,0 +1,13 @@
+5
+
+@entity2 is a @entity3 drama film directed by and starring @entity1 .
+
+actress - directors : ( hi , i 'm @entity4 , jr. )   i co - starred in @entity3 's " @entity2 " ; this actress ' debut as a director
+
+@entity1
+
+@entity0:
+@entity1:Jodie Foster
+@entity2:Little Man Tate
+@entity3:1991
+@entity4:Harry Connick

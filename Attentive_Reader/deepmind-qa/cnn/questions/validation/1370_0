@@ -1,0 +1,15 @@
+7
+
+it borders all other @entity3 countries except @entity5 and @entity2 and occupies @entity1 of the continent of @entity6 .
+
+" e " channel : this south american country does not border @entity4
+
+@entity5
+
+@entity0:
+@entity1:47.3 percent
+@entity2:Chile
+@entity3:South American
+@entity4:Brazil
+@entity5:Ecuador
+@entity6:South America

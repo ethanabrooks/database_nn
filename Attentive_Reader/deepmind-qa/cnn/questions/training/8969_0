@@ -1,0 +1,12 @@
+4
+
+@entity2 is a @entity3 thriller novel by bestselling author @entity1 .
+
+spy novels : his most recent bestseller is " @entity2 " , published in @entity3
+
+@entity1
+
+@entity0:
+@entity1:Robert Ludlum
+@entity2:The Icarus Agenda
+@entity3:1988

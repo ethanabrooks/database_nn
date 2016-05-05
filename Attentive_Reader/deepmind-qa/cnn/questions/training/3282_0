@@ -1,0 +1,16 @@
+8
+
+@entity1   the documentary film @entity6 , directed by @entity7 and edited by @entity3 and @entity5 , was released in @entity4 .
+
+@entity2 people : this " casino " director was a supervising editor on the @entity4 " @entity6 " documentary
+
+@entity5
+
+@entity0:
+@entity1:Releases  Films
+@entity2:MOVIE
+@entity3:Thelma Schoonmaker
+@entity4:1970
+@entity5:Martin Scorsese
+@entity6:Woodstock
+@entity7:Michael Wadleigh

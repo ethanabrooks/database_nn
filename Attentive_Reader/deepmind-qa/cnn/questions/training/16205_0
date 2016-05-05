@@ -1,0 +1,12 @@
+4
+
+@entity1 .
+
+museums : this @entity2 psychologist 's @entity3 home contains his walking stick & other mementos
+
+@entity1
+
+@entity0:
+@entity1:Sigmund Freud
+@entity2:Austrian
+@entity3:Vienna

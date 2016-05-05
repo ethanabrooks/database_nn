@@ -1,0 +1,18 @@
+10
+
+@entity6 is bordered on the north by @entity3 , on the east by @entity7 and @entity1 , on the south by @entity9 , on the southwest by @entity8 , and on the west by @entity2 .
+
+@entity5 : @entity6 shares @entity4 with this state
+
+@entity7
+
+@entity0:
+@entity1:Nebraska
+@entity2:Idaho
+@entity3:Montana
+@entity4:the Black Hills National Forest
+@entity5:WYOMING
+@entity6:Wyoming
+@entity7:South Dakota
+@entity8:Utah
+@entity9:Colorado

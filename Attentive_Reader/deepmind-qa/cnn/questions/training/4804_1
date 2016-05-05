@@ -1,0 +1,14 @@
+6
+
+@entity4 refers to anything related to the continent of @entity1 , especially @entity4 people .
+
+@entity5 cities : the blue mosque is a landmark in this country 's city of @entity2
+
+@entity0
+
+@entity0:
+@entity1:Asia
+@entity2:Tabriz
+@entity3:Iran
+@entity4:Asian
+@entity5:ASIAN

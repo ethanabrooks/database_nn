@@ -1,0 +1,14 @@
+6
+
+it was an extravagant production , but a commercial failure .
+
+@entity4 movies : this film starring @entity1 as gen. @entity3 was produced by @entity2
+
+@entity0
+
+@entity0:
+@entity1:Laurence Olivier
+@entity2:the Unification Church
+@entity3:Douglas MacArthur
+@entity4:1981
+@entity5:Inchon

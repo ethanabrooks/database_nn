@@ -1,0 +1,14 @@
+6
+
+rotten tomatoes , a review aggregator , reports that @entity5 of @entity2 surveyed critics gave the film a positive review ; the average rating was @entity1 .
+
+movie locales : " @entity3 "
+
+@entity0
+
+@entity0:
+@entity1:7.6/10
+@entity2:148
+@entity3:The Sixth Sense
+@entity4:Philadelphia
+@entity5:86%

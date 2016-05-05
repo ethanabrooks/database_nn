@@ -1,0 +1,21 @@
+13
+
+geography @entity10 are part of the following provinces , from east to west : @entity9 , @entity3 , @entity7 ( all in @entity8 ) , @entity12 ( in @entity6 ) , @entity11 ( in @entity2 ) and gipuzkoa ( in the basque country ) .
+
+" b " sure : this ethnic group lives in the @entity5 & speaks @entity4
+
+@entity1
+
+@entity0:
+@entity1:Basque
+@entity2:Navarre
+@entity3:Barcelona
+@entity4:Euskera
+@entity5:Pyrenees
+@entity6:Aragon
+@entity7:Lleida
+@entity8:Catalonia
+@entity9:Girona
+@entity10:The Spanish Pyrenees
+@entity11:Navarra
+@entity12:Huesca

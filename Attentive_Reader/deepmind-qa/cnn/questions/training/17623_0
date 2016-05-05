@@ -1,0 +1,17 @@
+9
+
+it stars @entity7 , @entity6 , @entity4 , @entity3 , and @entity5 .
+
+books & authors : this actor 's book @entity1 gets its title from @entity2 of his lines in the movie " @entity8 "
+
+@entity5
+
+@entity0:
+@entity1:"Cinderella Story: My Life in Golf"
+@entity2:one
+@entity3:Ted Knight
+@entity4:Rodney Dangerfield
+@entity5:Bill Murray
+@entity6:Chevy Chase
+@entity7:Michael O'Keefe
+@entity8:Caddyshack

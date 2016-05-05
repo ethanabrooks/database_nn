@@ -1,0 +1,14 @@
+6
+
+@entity2 's capital and @entity3 largest city is @entity5 , which has a population of @entity4 .
+
+the south : this @entity2 city 's architecture helped earn it the nickname " @entity1 "
+
+@entity5
+
+@entity0:
+@entity1:The Athens of the South
+@entity2:Tennessee
+@entity3:second
+@entity4:601,222
+@entity5:Nashville

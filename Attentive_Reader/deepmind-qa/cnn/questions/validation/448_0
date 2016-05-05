@@ -1,0 +1,12 @@
+4
+
+@entity3 is the official news publication of @entity2 .
+
+organizations : social welfare organization founded in @entity1 , whose bimonthly publication is " @entity3 "
+
+@entity2
+
+@entity0:
+@entity1:the 19th century
+@entity2:The Salvation Army
+@entity3:The War Cry

@@ -1,0 +1,18 @@
+10
+
+@entity1 moves the capital of @entity8 from @entity3 to @entity4 .
+
+@entity9 capitals : the column of @entity6 in this @entity7 city honors the king who moved the capital there from @entity5 in @entity2
+
+@entity4
+
+@entity0:
+@entity1:King Sigismund III Vasa
+@entity2:1596
+@entity3:Kraków
+@entity4:Warsaw
+@entity5:Krakow
+@entity6:King Sigismund
+@entity7:Polish
+@entity8:Poland
+@entity9:EUROPEAN

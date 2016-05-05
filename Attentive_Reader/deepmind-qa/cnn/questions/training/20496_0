@@ -1,0 +1,13 @@
+5
+
+senator @entity1 announces that he will seek the @entity2 nomination for president .
+
+the losing ticket : @entity4 shared his ticket in @entity3
+
+@entity1
+
+@entity0:
+@entity1:Barry Goldwater
+@entity2:Republican
+@entity3:1964
+@entity4:William Miller

@@ -1,0 +1,15 @@
+7
+
+@entity4    @entity1 , @entity5 .
+
+broadway musicals : this musical that premiered in @entity6 & was revived in @entity2 is set in part in @entity3
+
+@entity5
+
+@entity0:
+@entity1:Brookfield Zoo
+@entity2:1996
+@entity3:the Cook County Jail
+@entity4:August 16
+@entity5:Chicago
+@entity6:1975

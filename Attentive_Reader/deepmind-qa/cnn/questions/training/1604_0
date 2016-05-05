@@ -1,0 +1,14 @@
+6
+
+@entity1   is the capital and largest city of @entity5 , with an estimated urban population of @entity3 .
+
+@entity4 : @entity2 , a dramatist from this country , founded a drama studio & a literary magazine in @entity1
+
+@entity5
+
+@entity0:
+@entity1:Accra
+@entity2:Efua Sutherland
+@entity3:2.27 million
+@entity4:MODERN AFRICAN WOMEN
+@entity5:Ghana

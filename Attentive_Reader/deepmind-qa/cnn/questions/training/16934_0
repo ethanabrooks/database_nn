@@ -1,0 +1,13 @@
+5
+
+its capital is @entity2 and largest city is @entity1 .
+
+wax museums : @entity3 are depicted in wax at the musee conti wax museum in this @entity4 city
+
+@entity1
+
+@entity0:
+@entity1:New Orleans
+@entity2:Baton Rouge
+@entity3:Jean Lafite & Louis Armstrong
+@entity4:Louisiana

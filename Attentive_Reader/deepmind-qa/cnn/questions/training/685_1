@@ -1,0 +1,12 @@
+4
+
+references
+
+hummingbirds : of @entity3 , @entity2 or @entity1 , the number of wingbeats per second for the smallest hummingbirds during courtship
+
+@entity0
+
+@entity0:
+@entity1:200
+@entity2:100
+@entity3:50

@@ -1,0 +1,15 @@
+7
+
+the film features @entity1 as @entity2 and @entity3 as @entity6 agent @entity4 .
+
+movie roles : @entity5 : public enemy @entity2
+
+@entity1
+
+@entity0:
+@entity1:Johnny Depp
+@entity2:John Dillinger
+@entity3:Christian Bale
+@entity4:Melvin Purvis
+@entity5:2009
+@entity6:FBI

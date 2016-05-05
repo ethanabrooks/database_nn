@@ -1,0 +1,16 @@
+8
+
+@entity3 winners include @entity4 ( from @entity1 ) , @entity2 , and @entity7 .
+
+singers : there 's a museum devoted to this " snowbird " singer in @entity5 , @entity6 , her hometown
+
+@entity2
+
+@entity0:
+@entity1:The Mamas & the Papas
+@entity2:Anne Murray
+@entity3:The Grammy Award
+@entity4:Denny Doherty
+@entity5:Springhill
+@entity6:Nova Scotia
+@entity7:Sarah McLachlan

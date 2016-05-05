@@ -1,0 +1,11 @@
+3
+
+@entity2 ( ) is the capital and largest city of @entity1 .
+
+as " u " like it : @entity2 is the capital
+
+@entity1
+
+@entity0:
+@entity1:Uruguay
+@entity2:Montevideo

@@ -1,0 +1,13 @@
+5
+
+its capital is @entity4 , and the largest city is @entity3 .
+
+state capitals : the metropolitan area of this @entity2 capital occupies parts of @entity1 counties
+
+@entity4
+
+@entity0:
+@entity1:3
+@entity2:Michigan
+@entity3:Detroit
+@entity4:Lansing

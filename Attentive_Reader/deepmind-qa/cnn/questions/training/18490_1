@@ -1,0 +1,13 @@
+5
+
+imdb .
+
+world celebrities : in @entity1 he was knighted for writing plays ; in @entity2 he was oscared for " @entity3 "
+
+@entity0
+
+@entity0:
+@entity1:1997
+@entity2:1999
+@entity3:Shakespeare In Love
+@entity4:Tom Stoppard

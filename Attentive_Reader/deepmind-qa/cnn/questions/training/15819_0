@@ -1,0 +1,14 @@
+6
+
+@entity5 ( @entity2 ) is a hardboiled crime novel by @entity4 , the @entity1 to feature detective @entity3 .
+
+literature : this raymond chandler private eye was introduced in the @entity2 novel " @entity5 "
+
+@entity3
+
+@entity0:
+@entity1:first
+@entity2:1939
+@entity3:Philip Marlowe
+@entity4:Raymond Chandler
+@entity5:The Big Sleep

@@ -1,0 +1,14 @@
+6
+
+repeat .
+
+celebrity relatives : @entity5 , who played @entity4 cousin in " @entity3 " , is the son of @entity1 this actress
+
+@entity0
+
+@entity0:
+@entity1:Tom Hayden &
+@entity2:Jane Fonda
+@entity3:Bandits
+@entity4:Bruce Willis'
+@entity5:Troy Garity

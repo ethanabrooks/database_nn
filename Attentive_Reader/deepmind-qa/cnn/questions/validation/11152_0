@@ -1,0 +1,17 @@
+9
+
+it is bordered by @entity1 to the north , @entity7 and @entity6 to the west , @entity8 and @entity5 to the south , and @entity2 to the east .
+
+bodies of water : @entity3 is a resort on @entity4 's east coast along this sea
+
+@entity2
+
+@entity0:
+@entity1:Romania
+@entity2:the Black Sea
+@entity3:Golden Sands
+@entity4:Bulgaria
+@entity5:Turkey
+@entity6:Macedonia
+@entity7:Serbia
+@entity8:Greece

@@ -1,0 +1,16 @@
+8
+
+@entity6 also owns @entity1 of @entity2 , and @entity1 of @entity3 , which manufactures @entity5 vehicles .
+
+the auto industry : while toyotas are made by @entity6 , this @entity4 car is made by @entity3
+
+@entity5
+
+@entity0:
+@entity1:51%
+@entity2:Daihatsu
+@entity3:Fuji Heavy Industries
+@entity4:Japanese
+@entity5:Subaru
+@entity6:Toyota
+@entity7:16.7%

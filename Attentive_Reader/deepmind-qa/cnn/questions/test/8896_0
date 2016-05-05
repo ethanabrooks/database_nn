@@ -1,0 +1,18 @@
+10
+
+@entity1 is bordered by @entity8 and @entity3 to the north , @entity9 to the northeast , @entity2 , @entity6 , and @entity5 to the east , @entity4 to the southeast , and @entity7 to the south .
+
+" men " of the world : much of this nation 's northern border with @entity1 is undefined , as it lies in the desert
+
+@entity7
+
+@entity0:
+@entity1:Saudi Arabia
+@entity2:Qatar
+@entity3:Iraq
+@entity4:Oman
+@entity5:the United Arab Emirates
+@entity6:Bahrain
+@entity7:Yemen
+@entity8:Jordan
+@entity9:Kuwait

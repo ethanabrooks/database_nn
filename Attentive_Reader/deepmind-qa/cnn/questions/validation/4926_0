@@ -1,0 +1,15 @@
+7
+
+" @entity2 " is a short story published in @entity6 by @entity4 writer @entity5 .
+
+short stories : this author 's @entity6 story " @entity2 " is a tale of witchcraft in @entity3 , @entity1
+
+@entity5
+
+@entity0:
+@entity1:Massachusetts
+@entity2:Young Goodman Brown
+@entity3:Salem
+@entity4:American
+@entity5:Nathaniel Hawthorne
+@entity6:1835

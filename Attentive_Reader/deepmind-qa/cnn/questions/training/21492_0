@@ -1,0 +1,14 @@
+6
+
+@entity2 also serves as the locale for the @entity1 romantic comedy @entity2 , starring @entity4 and @entity3 .
+
+@entity5 people : this " pretty woman " movie star recently played a movie star in " @entity2 "
+
+@entity4
+
+@entity0:
+@entity1:1999
+@entity2:Notting Hill
+@entity3:Hugh Grant
+@entity4:Julia Roberts
+@entity5:MOVIE

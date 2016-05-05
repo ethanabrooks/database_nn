@@ -1,0 +1,15 @@
+7
+
+@entity2 @entity3 : @entity5 ( then @entity6 ) wins the gold medal in light - heavyweight boxing .
+
+athletes : this boxer had his @entity4 professional fight in @entity1 under his given name , @entity6
+
+@entity5
+
+@entity0:
+@entity1:1960
+@entity2:September 5  1960
+@entity3:Summer Olympic Games
+@entity4:first
+@entity5:Muhammad Ali
+@entity6:Cassius Clay

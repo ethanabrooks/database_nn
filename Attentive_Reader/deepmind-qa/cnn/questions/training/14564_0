@@ -1,0 +1,13 @@
+5
+
+" @entity3 's blues " is a blues song written by jazz singer @entity1 , composing it just before being recorded in a session in @entity2 .
+
+show biz biographies : she 's the subject of " @entity4 "
+
+@entity1
+
+@entity0:
+@entity1:Billie Holiday
+@entity2:1936
+@entity3:Billie
+@entity4:Billie's Blues

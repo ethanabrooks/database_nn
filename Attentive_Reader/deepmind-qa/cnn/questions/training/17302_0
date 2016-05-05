@@ -1,0 +1,13 @@
+5
+
+it is bordered by the atlantic ocean to the north , @entity1 to the south and southwest , @entity4 to the east and @entity2 to the west .
+
+" b " there : it 's the country immediately due south of @entity3
+
+@entity1
+
+@entity0:
+@entity1:Brazil
+@entity2:Venezuela
+@entity3:Guyana
+@entity4:Suriname

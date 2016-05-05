@@ -1,0 +1,14 @@
+6
+
+literature    phoenix :
+
+the south of ... : @entity2 , the @entity3 - largest city in this state , is @entity5 south of its largest city , @entity4
+
+@entity0
+
+@entity0:
+@entity1:Arizona
+@entity2:Tucson
+@entity3:second
+@entity4:Phoenix
+@entity5:about 100 miles

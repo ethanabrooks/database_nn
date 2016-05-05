@@ -1,0 +1,13 @@
+5
+
+chapterhouse : dune is a @entity1 science fiction novel by @entity2 , the last in his dune series of @entity3 novels .
+
+books & authors : the last of his many science fiction novels published during his lifetime was " @entity4 " in @entity1
+
+@entity2
+
+@entity0:
+@entity1:1985
+@entity2:Frank Herbert
+@entity3:six
+@entity4:Chapterhouse: Dune
