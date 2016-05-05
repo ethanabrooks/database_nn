@@ -165,7 +165,7 @@ class model(object):
         [_, s, _, M], _ = theano.scan(fn=recurrence,
                                       sequences=x,
                                       outputs_info=[self.h0, None, self.w0, self.M],
-                                      n_steps=x.shape[0],
+                                      # n_steps=x.shape[0],
                                       name='SCAN_FUNCTION')
 
         # self.M = M
