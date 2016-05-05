@@ -9,7 +9,6 @@ from theano import tensor as T
 from theano.ifelse import ifelse
 
 
-
 def norm(x):
     axis = None if x.ndim == 1 else 1
     return T.sqrt(T.sum(T.sqr(x), axis=axis))
@@ -54,8 +53,6 @@ class model(object):
 
         self.M0 = theano.shared(
             0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
-        # self.M0 = theano.shared(
-        #     0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
         self.M = self.M0
         self.w0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots,)).astype(theano.config.floatX))
 
@@ -92,7 +89,7 @@ class model(object):
         x = self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))  # QUESTION: what is idxs.shape[0]?
         y = T.ivector('y')  # label
 
-        def recurrence(x_t, h_tm1, w_previous, M_previous):
+        def recurrence(x_t, h_tm1, w_previous, M_previous, is_question):
             # eqn not specified in paper
             g_t = T.nnet.sigmoid(T.dot(self.Wg, x_t) + self.bg)  # [n_memory_slots]
 
@@ -143,7 +140,8 @@ class model(object):
                 # eqn 19
                 return T.set_subtensor(M_t, T.dot(M_t, T.diag(f_t)) + T.dot(v_t, u_t))
 
-            M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
+            # M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
+            M_t = set_subtensor(is_question)
 
             # f_diag = T.diag(f)
             # M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
@@ -155,24 +153,24 @@ class model(object):
             # eqn 10?
             s_t = T.nnet.softmax(T.dot(self.W, h_t) + self.b)
 
-            # M_t_print = Print('M_t')(M_t)
+            M_t_print = Print('M_t')(M_t)
             return [h_t, s_t, w_t, M_t]
 
-        # reset = T.iscalar()
-        m0_print = Print('self.M0')(self.M0)
-        # m_print = Print('self.M')(self.M)
-        # M0 = ifelse(reset, self.M0, m_print)
-        [_, s, _, M], _ = theano.scan(fn=recurrence,
+        ask_question, train = (lambda x, h, w, m: recurrence(x, h, w, m, is_question)
+                               for is_question in (True, False))
+
+        [_, _, _, M], _ = theano.scan(fn=ask_question,
                                       sequences=x,
                                       outputs_info=[self.h0, None, self.w0, self.M],
-                                      # n_steps=x.shape[0],
-                                      name='SCAN_FUNCTION')
+                                      name='ask_scan')
 
-        # self.M = M
-        # self.get_s = theano.function(inputs=[idxs], outputs=s.flatten(ndim=2).shape)
+        [_, s, _, _], _ = theano.scan(fn=train,
+                                      sequences=x,
+                                      outputs_info=[self.h0, None, self.w0, self.M],
+                                      name='train_scan')
+
         self.get_y = theano.function(inputs=[y], outputs=y)
-        # self.get_x = theano.function(inputs=[idxs], outputs=x.shape)
-        # self.get_b = theano.function([], outputs=self.b.shape)
+        # self.get_m = theano.function(inputs=[idxs, is_question], outputs=M.shape)
 
         p_y_given_x_last_word = s[-1, 0, :]
         p_y_given_x_sentence = s[:, 0, :]
@@ -185,23 +183,31 @@ class model(object):
         s = s.flatten(ndim=2)
         s_print = Print("s")(s)
         y_print = Print("y")(y)
-        nll = T.nnet.categorical_crossentropy(s, y).mean()
-        self.get_nll = theano.function([idxs, y, is_question],
-                                       outputs=nll,
-                                       allow_input_downcast=True)
+
+        counts = T.extra_ops.bincount(y, assert_nonneg=True)
+        weights = 1.0 / (counts[y] + 1) * T.neq(y, 0)
+        print_weights = Print("weights")(weights)
+        losses = T.nnet.categorical_crossentropy(s, y)
+        loss = lasagne.objectives.aggregate(losses, weights, mode='normalized_sum')
+        # self.get_nll = theano.function([idxs, y, is_question],
+        #                                outputs=nll,
+        #                                allow_input_downcast=True)
         # CHANGED
-        updates = lasagne.updates.adadelta(nll, self.params)
+        updates = lasagne.updates.adadelta(loss, self.params, lr)
 
         # theano functions
-        self.classify = theano.function(inputs=[idxs, is_question],
+        self.ask_question = theano.function(inputs=[idxs],
+                                            givens=[(self.M, self.M0)],
+                                            updates=[(self.M, M[-1, :, :])])
+
+        self.classify = theano.function(inputs=[idxs],
                                         outputs=y_pred,
-                                        # updates=[(self.M, M)],
                                         on_unused_input='warn')
 
-        self.train = theano.function(inputs=[idxs, y, lr, is_question],
-                                     outputs=nll,
-                                     updates=updates,  # + [(self.M, m_print)],
-                                     on_unused_input='ignore',
+        self.train = theano.function(inputs=[idxs, y, lr],
+                                     outputs=loss,
+                                     updates=updates,
+                                     on_unused_input='warn',
                                      allow_input_downcast=True)
 
         self.normalize = theano.function(

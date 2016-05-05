@@ -37,7 +37,7 @@ parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=10,
+parser.add_argument('--num_questions', type=int, default=1000,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
 
@@ -111,9 +111,11 @@ class Dataset:
             # reset = is_question and not previous_is_question
             # previous_is_question = is_question
 
-            predictions.append(rnn.classify(
-                np.asarray(contextwin(sentence, s.window_size), dtype='int32'),
-                is_question))
+            words = np.asarray(contextwin(sentence, s.window_size), dtype='int32')
+            if is_question:
+                rnn.ask_question(words)
+            else:
+                predictions.append(rnn.classify(words))
         return predictions
         # [rnn.classify(
         #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
@@ -149,12 +151,20 @@ if s.dataset == 'jeopardy':
             dic[word] = w
         return dic[word]
 
+    def pad(length):
+        bucket_size = 0
+        while length > bucket_size:
+            bucket_size += 10
+        return bucket_size
 
-    def to_array(string):
+    def to_array(string, bucket=True):
         tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
         # tokens = [token.lower_.encode('unicode-escape')
         #           for token in tokenizer(unicode(string, 'utf-8'))]
-        sentence_vector = np.empty(len(tokens), dtype='int32')
+        shape = len(tokens)
+        if bucket:
+            shape = pad(shape)
+        sentence_vector = np.zeros(shape, dtype='int32')
         for i, word in enumerate(tokens):
             sentence_vector[i] = to_int(word)
         return sentence_vector
@@ -162,18 +172,22 @@ if s.dataset == 'jeopardy':
 
     def to_instance(line, is_question, answer):
         inputs = to_array(line)
-        targets = np.zeros_like(inputs) if is_question else np.ones_like(inputs)
+        targets = None if is_question else (inputs != 0).astype('int32')
         if answer is not None:
             assert not is_question
-            answer_array = to_array(answer)
+            answer_array = to_array(answer, bucket=False)
             answer_size = answer_array.size
 
             # set parts of inputs corresponding to complete answer to 1
             for i in range(inputs.size - answer_size):
-                window = inputs[i:i + answer_size]
+                i_ = i + answer_size
+                window = inputs[i:i_]
 
                 # mark answers as 2
-                targets[i] = np.all(window == answer_array) + 1
+                if np.all(window == answer_array):
+                    targets[i:i_] = 2
+                    break
+
         return inputs, targets
 
 
@@ -252,7 +266,8 @@ rnn = model(s.hidden_size,
 best_f1 = -np.inf
 s.learn_rate = s.learn_rate
 for epoch in range(s.n_epochs):
-    shuffle([train.inputs, train.targets], s.seed)
+    # TODO: shuffle inputs without breaking connection between question and answer
+    # shuffle([train.inputs, train.targets], s.seed)
     s.current_epoch = epoch
     tic = time.time()
     print('###\t{:10}{:10}{:10}{:10}###'
@@ -265,24 +280,17 @@ for epoch in range(s.n_epochs):
 
             # reset memory?
         labels = train.targets[i]
-        is_question = train.is_questions[i]
-
-#			cwords = contextwin(train_lex[i], s.win)
-            # words = map(lambda x: numpy.asarray(x).astype('int32'),
-            #             minibatch(cwords, s.bs))
- #           labels = train_y[i]
-            # for word_batch, label_last_word in zip(words, labels):
-            # print(labels)
-            # print(rnn.get_x(cwords))
-            # print(rnn.get_b())
-#            rnn.train(numpy.array(cwords), labels, s.clr)
-        loss = rnn.train(np.array(context_words), labels, s.learn_rate, is_question)
-        rnn.normalize()
-        if s.verbose:
-            progress = float(i + 1) / nsentences
-            print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
-                  .format(epoch, progress, float(loss), time.time() - tic), end='')
-            sys.stdout.flush()
+        words = np.array(context_words, dtype='int32')
+        if train.is_questions[i]:
+            rnn.ask_question(words)
+        else:
+            loss = rnn.train(words, labels, s.learn_rate)
+        # rnn.normalize() ???????
+            if s.verbose:
+                progress = float(i + 1) / nsentences
+                print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
+                      .format(epoch, progress, float(loss), time.time() - tic), end='')
+                sys.stdout.flush()
 
 
         def save_predictions(filename, targets, predictions):
@@ -290,10 +298,11 @@ for epoch in range(s.n_epochs):
             filepath = os.path.join(folder, filename)
             with open(filepath, 'w') as handle:
                 for prediction, target in zip(predictions, targets):
-                    for label, arr in (('p: ', prediction), ('t: ', target)):
-                        handle.write(label)
-                        np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
-                        handle.write('\n')
+                    if target is not None:
+                        for label, arr in (('p: ', prediction), ('t: ', target)):
+                            handle.write(label)
+                            np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
+                            handle.write('\n')
 
 
         results = []
