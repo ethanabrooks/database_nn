@@ -17,6 +17,7 @@ import os
 logging.basicConfig(level='INFO')
 logger = logging.getLogger(__name__)
 
+
 # get_data explains what to return
 class QADataset(Dataset):
     def __init__(self, path, vocab_file, n_entities, need_sep_token, **kwargs):
@@ -46,7 +47,7 @@ class QADataset(Dataset):
             # for (k, v) in  cand_mapping.iteritems():
             #     print(k)
             #     print(v)
-            raise ValueError("Unmapped entity token: %s"%w)
+            raise ValueError("Unmapped entity token: %s" % w)
         elif w in self.reverse_vocab:
             return self.reverse_vocab[w]
         else:
@@ -73,7 +74,7 @@ class QADataset(Dataset):
         entities = range(self.n_entities)
         while len(cand) > len(entities):
             logger.warning("Too many entities (%d) for question: %s, using duplicate entity identifiers"
-                %(len(cand), request))
+                           % (len(cand), request))
             entities = entities + entities
         random.shuffle(entities)
         cand_mapping = {t: k for t, k in zip(cand, entities)}
@@ -89,44 +90,48 @@ class QADataset(Dataset):
         a = numpy.int32(self.to_word_id(a, cand_mapping))
 
         if not a < self.n_entities:
-            raise ValueError("Invalid answer token %d"%a)
+            raise ValueError("Invalid answer token %d" % a)
         if not numpy.all(cand < self.n_entities):
-            raise ValueError("Invalid candidate in list %s"%repr(cand))
+            raise ValueError("Invalid candidate in list %s" % repr(cand))
         if not numpy.all(ctx < self.vocab_size):
-            raise ValueError("Context word id out of bounds: %d"%int(ctx.max()))
+            raise ValueError("Context word id out of bounds: %d" % int(ctx.max()))
         if not numpy.all(ctx >= 0):
-            raise ValueError("Context word id negative: %d"%int(ctx.min()))
+            raise ValueError("Context word id negative: %d" % int(ctx.min()))
         if not numpy.all(q < self.vocab_size):
-            raise ValueError("Question word id out of bounds: %d"%int(q.max()))
+            raise ValueError("Question word id out of bounds: %d" % int(q.max()))
         if not numpy.all(q >= 0):
-            raise ValueError("Question word id negative: %d"%int(q.min()))
+            raise ValueError("Question word id negative: %d" % int(q.min()))
 
         # print('type2')
         # print type(ctx)
-        return (ctx, q, a, cand)
+        return ctx, q, a, cand
         # , lines[4], lines[4], lines[6]
+
 
 # Iterating through the questions
 class QAIterator(IterationScheme):
     requests_examples = True
+
     def __init__(self, path, shuffle=False, **kwargs):
         self.path = path
         self.shuffle = shuffle
 
         super(QAIterator, self).__init__(**kwargs)
-    
+
     def get_request_iterator(self):
         l = [f for f in os.listdir(self.path)
-               if os.path.isfile(os.path.join(self.path, f))]
+             if os.path.isfile(os.path.join(self.path, f))]
         if self.shuffle:
             random.shuffle(l)
         return iter_(l)
+
 
 # -------------- DATASTREAM SETUP --------------------
 
 
 class ConcatCtxAndQuestion(Transformer):
     produces_examples = True
+
     def __init__(self, stream, concat_question_before, separator_token=None, **kwargs):
         assert stream.sources == ('context', 'question', 'answer', 'candidates', 'question_actual')
         self.sources = ('question', 'answer', 'candidates', 'question_actual')
@@ -144,15 +149,18 @@ class ConcatCtxAndQuestion(Transformer):
         ctx, q, a, cand = next(self.child_epoch_iterator)
 
         if self.concat_question_before:
-            return (numpy.concatenate([q, self.sep, ctx]), a, cand)
+            return numpy.concatenate([q, self.sep, ctx]), a, cand
         else:
-            return (numpy.concatenate([ctx, self.sep, q]), a, cand)
-        
+            return numpy.concatenate([ctx, self.sep, q]), a, cand
+
+
 class _balanced_batch_helper(object):
     def __init__(self, key):
         self.key = key
+
     def __call__(self, data):
         return data[self.key].shape[0]
+
 
 def setup_datastream(path, vocab_file, config):
     ds = QADataset(path, vocab_file, config.n_entities, need_sep_token=config.concat_ctx_and_question)
@@ -165,7 +173,8 @@ def setup_datastream(path, vocab_file, config):
 
     # Sort sets of multiple batches to make batches of similar sizes
     stream = Batch(stream, iteration_scheme=ConstantScheme(config.batch_size * config.sort_batch_count))
-    comparison = _balanced_batch_helper(stream.sources.index('question' if config.concat_ctx_and_question else 'context'))
+    comparison = _balanced_batch_helper(
+        stream.sources.index('question' if config.concat_ctx_and_question else 'context'))
     stream = Mapping(stream, SortMapping(comparison))
     stream = Unpack(stream)
 
@@ -180,6 +189,7 @@ def setup_datastream(path, vocab_file, config):
 
     return ds, stream
 
+
 if __name__ == "__main__":
     # Test
     class DummyConfig:
@@ -190,6 +200,7 @@ if __name__ == "__main__":
             self.concat_question_before = False
             self.batch_size = 2
             self.sort_batch_count = 1000
+
 
     ds, stream = setup_datastream(os.path.join(os.getenv("DATAPATH"), "deepmind-qa/cnn/questions/training"),
                                   os.path.join(os.getenv("DATAPATH"), "deepmind-qa/cnn/stats/training/vocab.txt"),

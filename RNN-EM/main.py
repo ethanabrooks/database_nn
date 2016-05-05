@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
     parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
     parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=1000,
+    parser.add_argument('--num_questions', type=int, default=10,
                         help='number of questions to use in Jeopardy dataset')
     s = parser.parse_args()
 
@@ -116,7 +116,8 @@ if __name__ == '__main__':
                         append_to_set(instance)
                     if num_questions >= s.num_questions:
                         break
-        vocsize = nclasses = len(dic)
+        vocsize = len(dic)
+        nclasses = 2
         idx2label = idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
 
     else:
@@ -167,12 +168,17 @@ if __name__ == '__main__':
         tic = time.time()
         for i in xrange(nsentences):  # for each sentence
             cwords = contextwin(train_lex[i], s.win)
-            words = map(lambda x: numpy.asarray(x).astype('int32'),
-                        minibatch(cwords, s.bs))
+            # words = map(lambda x: numpy.asarray(x).astype('int32'),
+            #             minibatch(cwords, s.bs))
             labels = train_y[i]
-            for word_batch, label_last_word in zip(words, labels):
-                rnn.train(word_batch, label_last_word, s.clr)
-                rnn.normalize()
+            # for word_batch, label_last_word in zip(words, labels):
+            # print(labels)
+            print(rnn.get_nll(numpy.array(cwords), labels))
+            # print(rnn.get_y(labels))
+            # print(rnn.get_x(cwords))
+            # print(rnn.get_b())
+            rnn.train(numpy.array(cwords), labels, s.clr)
+            rnn.normalize()
             if s.verbose:
                 print '[learning] epoch %i >> %2.2f%%' % (
                     e, (i + 1) * 100. / nsentences), 'completed in %.2f (sec) <<\r' % (time.time() - tic),

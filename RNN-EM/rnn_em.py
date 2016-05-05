@@ -67,7 +67,7 @@ class model(object):
 
         idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
         x = self.emb[idxs].reshape((idxs.shape[0], de * cs))  # QUESTION: what is idxs.shape[0]?
-        y = T.iscalar('y')  # label
+        y = T.imatrix('y')  # labels
 
         def inspect_inputs(i, node, fn):
             print(i, node, "input(s) value(s):", [input[0].shape for input in fn.inputs], end='')
@@ -121,7 +121,11 @@ class model(object):
                                       outputs_info=[self.h0, None, self.w0, self.M],
                                       n_steps=x.shape[0])
 
-        self.M = M
+        # self.M = M
+        # self.get_s = theano.function(inputs=[idxs], outputs=s.flatten(ndim=2).shape)
+        # self.get_y = theano.function(inputs=[y], outputs=y.shape)
+        # self.get_x = theano.function(inputs=[idxs], outputs=x.shape)
+        # self.get_b = theano.function([], outputs=self.b.shape)
 
         p_y_given_x_lastword = s[-1, 0, :]
         p_y_given_x_sentence = s[:, 0, :]
@@ -130,6 +134,10 @@ class model(object):
         # cost and gradients and learning rate
         lr = T.scalar('lr')
         nll = -T.mean(T.log(p_y_given_x_lastword)[y])
+        # CHANGED
+        nll = T.nnet.categorical_crossentropy(s.flatten(ndim=2), y).mean()
+        self.get_nll = theano.function([idxs, y], outputs=nll.shape)
+        # CHANGED
         updates = lasagne.updates.adadelta(nll, self.params)
 
         # theano functions
@@ -138,7 +146,8 @@ class model(object):
         self.train = theano.function(inputs=[idxs, y, lr],
                                      outputs=nll,
                                      updates=updates,
-                                     on_unused_input='ignore')
+                                     on_unused_input='ignore',
+                                     allow_input_downcast=True)
         # on_unused_input='warn')
 
         self.normalize = theano.function(inputs=[],
