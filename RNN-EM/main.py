@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
         def to_array(string):
             tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
-            sentence_vector = numpy.empty(len(tokens), dtype=int)
+            sentence_vector = numpy.empty(len(tokens), dtype='int32')
             for i, word in enumerate(tokens):
                 sentence_vector[i] = to_int(word)
             return sentence_vector
@@ -173,8 +173,6 @@ if __name__ == '__main__':
             labels = train_y[i]
             # for word_batch, label_last_word in zip(words, labels):
             # print(labels)
-            print(rnn.get_nll(numpy.array(cwords), labels))
-            # print(rnn.get_y(labels))
             # print(rnn.get_x(cwords))
             # print(rnn.get_b())
             rnn.train(numpy.array(cwords), labels, s.clr)

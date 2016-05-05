@@ -4,7 +4,8 @@ import lasagne
 import numpy
 import os
 import theano
-from theano import tensor as T
+from theano import tensor as T, printing
+
 
 
 def norm(x):
@@ -67,10 +68,7 @@ class model(object):
 
         idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
         x = self.emb[idxs].reshape((idxs.shape[0], de * cs))  # QUESTION: what is idxs.shape[0]?
-        y = T.imatrix('y')  # labels
-
-        def inspect_inputs(i, node, fn):
-            print(i, node, "input(s) value(s):", [input[0].shape for input in fn.inputs], end='')
+        y = T.ivector('y')  # labels
 
         def recurrence(x_t, h_tm1, w_previous, M_previous):
             # eqn not specified in paper
@@ -123,7 +121,7 @@ class model(object):
 
         # self.M = M
         # self.get_s = theano.function(inputs=[idxs], outputs=s.flatten(ndim=2).shape)
-        # self.get_y = theano.function(inputs=[y], outputs=y.shape)
+        self.get_y = theano.function(inputs=[y], outputs=y)
         # self.get_x = theano.function(inputs=[idxs], outputs=x.shape)
         # self.get_b = theano.function([], outputs=self.b.shape)
 
@@ -135,8 +133,13 @@ class model(object):
         lr = T.scalar('lr')
         nll = -T.mean(T.log(p_y_given_x_lastword)[y])
         # CHANGED
-        nll = T.nnet.categorical_crossentropy(s.flatten(ndim=2), y).mean()
-        self.get_nll = theano.function([idxs, y], outputs=nll.shape)
+        s = s.flatten(ndim=2)
+        s_print = printing.Print("s")(s)
+        y_print = printing.Print("y")(y)
+        nll = T.nnet.categorical_crossentropy(s_print, y_print).mean()
+        self.get_nll = theano.function([idxs, y],
+                                       outputs=nll,
+                                       allow_input_downcast=True)
         # CHANGED
         updates = lasagne.updates.adadelta(nll, self.params)
 
