@@ -39,6 +39,8 @@ parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
 parser.add_argument('--num_questions', type=int, default=1000,
                     help='number of questions to use in Jeopardy dataset')
+parser.add_argument('--bucket_factor', type=int, default=2,
+                    help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
 
 print('*' * 80)
@@ -50,6 +52,7 @@ if not os.path.exists(folder): os.mkdir(folder)
 np.random.seed(s.seed)
 random.seed(s.seed)
 
+bucket_list = {}
 
 def evaluate(predictions, targets):
     measures = np.zeros(3)
@@ -152,9 +155,12 @@ if s.dataset == 'jeopardy':
         return dic[word]
 
     def pad(length):
-        bucket_size = 0
+        bucket_size = 1
         while length > bucket_size:
-            bucket_size += 10
+            bucket_size *= s.bucket_factor
+        if bucket_size not in bucket_list:
+            bucket_list[bucket_size] = 0
+        bucket_list[bucket_size] += 1
         return bucket_size
 
     def to_array(string, bucket=True):
@@ -226,6 +232,7 @@ if s.dataset == 'jeopardy':
                 if num_questions >= s.num_questions:
                     break
 
+    print(bucket_list)
     vocsize = len(dic)
     nclasses = 3
     idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}

@@ -6,7 +6,6 @@ import os
 import theano
 from theano.printing import Print
 from theano import tensor as T
-from theano.ifelse import ifelse
 
 
 def norm(x):
