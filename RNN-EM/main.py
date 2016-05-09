@@ -280,14 +280,16 @@ for epoch in range(s.n_epochs):
     print('###\t{:10}{:10}{:10}{:10}###'
           .format('epoch', 'progress', 'loss', 'runtime'))
     for i in range(nsentences):  # for each sentence
-        context_words = contextwin(train.inputs[i], s.window_size)
+        # context_words = contextwin(train.inputs[i], s.window_size)
         words = [np.asarray(instance, dtype='int32') for instance in
-                 minibatch(context_words, s.batch_size)]
+                 contextwin(train.inputs[i], s.window_size)]
+
+                 # minibatch(context_words, s.batch_size)]
         # for word_batch, label in zip(words, train.targets[i]):
 
             # reset memory?
         labels = train.targets[i]
-        words = np.array(context_words, dtype='int32')
+        # words = np.array(context_words, dtype='int32')
         if train.is_questions[i]:
             rnn.ask_question(words)
         else:
