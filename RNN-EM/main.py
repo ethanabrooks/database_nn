@@ -15,6 +15,7 @@ from rnn_em import model
 from is13.data import load
 from is13.metrics.accuracy import conlleval
 from is13.utils.tools import shuffle, minibatch, contextwin
+
 # from spacy import English
 
 parser = argparse.ArgumentParser()
@@ -52,7 +53,12 @@ if not os.path.exists(folder): os.mkdir(folder)
 np.random.seed(s.seed)
 random.seed(s.seed)
 
+PAD_VALUE = 0
+NON_ANSWER_VALUE = 1
+ANSWER_VALUE = 2
+
 bucket_list = {}
+
 
 def evaluate(predictions, targets):
     measures = np.zeros(3)
@@ -79,46 +85,32 @@ def evaluate(predictions, targets):
     return confusion_dic
 
 
-
 class Dataset:
-    def __init__(self,
-                 percent=None,
-                 inputs=None,
-                 targets=None):
-        if inputs is None:
-            inputs = []
-        if targets is None:
-            targets = []
-        self.is_questions = []
-        self.__dict__.update(locals())
-        # self.percent = percent;
-        # self. ...
+    def __init__(self, percent=None):
+        self.questions, self.documents, self.targets = [], [], []
+        self.percent = percent
 
-    def size(self):
-        len_inputs, len_targets = map(len, (self.inputs, self.targets))
-        assert len_inputs == len_targets
-        return len_inputs
-
-    def append(self, inputs, targets, is_question):
-        self.inputs.append(inputs)
-        self.targets.append(targets)
-        self.is_questions.append(is_question)
+    def append(self, question, document, target):
+        assert document.size == target.size
+        self.questions.append(question)
+        self.documents.append(document)
+        self.targets.append(target)
 
     def predict(self):
         predictions = []
         # previous_is_question = False
-        for sentence, is_question in zip(self.inputs, self.is_questions):
-
+        for instance in zip(self.questions, self.documents):
             # reset memory?
-            is_question = train.is_questions[i]
+            # is_question = train.is_questions[i]
             # reset = is_question and not previous_is_question
             # previous_is_question = is_question
 
-            words = np.asarray(contextwin(sentence, s.window_size), dtype='int32')
-            if is_question:
-                rnn.ask_question(words)
-            else:
-                predictions.append(rnn.classify(words))
+            # if is_question:
+            #     question = words
+            # rnn.ask_question(words)
+            question, document = (np.asarray(contextwin(sentence, s.window_size), dtype='int32')
+                                  for sentence in instance)
+            predictions.append(rnn.classify(question, document))
         return predictions
         # [rnn.classify(
         #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
@@ -126,145 +118,127 @@ class Dataset:
 
 
 # load the dataset
-if s.dataset == 'jeopardy':
-    root_dir = "../data/"
-    new_question = True
-    dic = {'*': 0}
-    # tokenizer = English(parser=False)
+root_dir = "../data/"
+new_question = True
+dic = {'*': 0}
+# tokenizer = English(parser=False)
 
-    datasets = [Dataset(percent=p) for p in (.7,  # train
-                                             .2,  # test
-                                             .1)]  # valid
-    train, test, valid = datasets
-
-
-    def choose_set():
-        random_num = random.random()
-        datasets.sort(key=lambda ds: ds.percent)
-        for dataset in datasets:  # sort by percent
-            if random_num < dataset.percent:
-                return dataset
-            random_num -= dataset.percent
+datasets = [Dataset(percent=p) for p in (.7,  # train
+                                         .2,  # test
+                                         .1)]  # valid
+train, test, valid = datasets
 
 
-    def to_int(word):
-        word = word.lower()
-        if word not in dic:
-            w = len(dic)
-            dic[word] = w
-        return dic[word]
-
-    def pad(length):
-        bucket_size = 1
-        while length > bucket_size:
-            bucket_size *= s.bucket_factor
-        if bucket_size not in bucket_list:
-            bucket_list[bucket_size] = 0
-        bucket_list[bucket_size] += 1
-        return bucket_size
-
-    def to_array(string, bucket=True):
-        tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
-        # tokens = [token.lower_.encode('unicode-escape')
-        #           for token in tokenizer(unicode(string, 'utf-8'))]
-        shape = len(tokens)
-        if bucket:
-            shape = pad(shape)
-        sentence_vector = np.zeros(shape, dtype='int32')
-        for i, word in enumerate(tokens):
-            sentence_vector[i] = to_int(word)
-        return sentence_vector
+def choose_set():
+    random_num = random.random()
+    datasets.sort(key=lambda ds: ds.percent)  # sort by percent
+    for dataset in datasets:
+        if random_num < dataset.percent:
+            return dataset
+        random_num -= dataset.percent
 
 
-    def to_instance(line, is_question, answer):
-        inputs = to_array(line)
-        targets = None if is_question else (inputs != 0).astype('int32')
-        if answer is not None:
-            assert not is_question
-            answer_array = to_array(answer, bucket=False)
-            answer_size = answer_array.size
-
-            # set parts of inputs corresponding to complete answer to 1
-            for i in range(inputs.size - answer_size):
-                i_ = i + answer_size
-                window = inputs[i:i_]
-
-                # mark answers as 2
-                if np.all(window == answer_array):
-                    targets[i:i_] = 2
-                    break
-
-        return inputs, targets
+def to_int(word):
+    word = word.lower()
+    if word not in dic:
+        w = len(dic)
+        dic[word] = w
+    return dic[word]
 
 
-    num_questions = 0
-    with open(root_dir + "wiki.dat") as data:
-        for line in data:
-            if new_question:
-                num_questions += 1
-                if s.debug:
-                    dataset = train
-                else:
-                    # determine train, valid, or test
-                    dataset = choose_set()
+def get_bucket_size(length):
+    bucket_size = 1
+    while length > bucket_size:
+        bucket_size *= s.bucket_factor
+    if bucket_size not in bucket_list:
+        bucket_list[bucket_size] = 0
+    bucket_list[bucket_size] += 1
+    return bucket_size
 
-                inputs, targets = to_instance(line, is_question=True, answer=None)
-                dataset.append(inputs, targets, True)  # question
 
-                answer = next(data).rstrip()  # answer
-                line = next(data)  # answer sentence
+def to_array(string, bucket=True):
+    tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+    # tokens = [token.lower_.encode('unicode-escape')
+    #           for token in tokenizer(unicode(string, 'utf-8'))]
+    shape = len(tokens)
+    if bucket:
+        shape = get_bucket_size(shape)
+    sentence_vector = np.zeros(shape, dtype='int32') + PAD_VALUE
+    for i, word in enumerate(tokens):
+        sentence_vector[i] = to_int(word)
+    return sentence_vector
 
-                instance = to_instance(line, is_question=False, answer=answer)
-                remaining_sentences = int(next(data))  # num sentences remainind
-                instances = []
-                new_question = False
-                instances.append(instance)
+
+def get_target(document, answer):
+    targets = (document != PAD_VALUE).astype('int32')
+    answer_array = to_array(answer, bucket=False)
+
+    # set parts of inputs corresponding to complete answer to ANSWER_VALUE
+    for i in range(document.size - answer_array.size):
+        window = slice(i, i + answer_array.size)
+
+        if np.all(document[window] == answer_array):
+            targets[window] = ANSWER_VALUE
+            break
+
+    return targets
+
+
+num_questions = 0
+with open(root_dir + "wiki.dat") as data:
+    for line in data:
+        if new_question:
+            num_questions += 1
+            if s.debug:
+                dataset = train
             else:
-                remaining_sentences -= 1
-            # TODO instance = to_instance(line)
-            # TODO input_target_tuples.append(instance)
-            if not remaining_sentences:
-                new_question = True
-                # set target of eos for answer sentence to answer
-                random.shuffle(instances)
-                for inputs, targets in instances:
-                    dataset.append(inputs, targets, False)
-                if num_questions >= s.num_questions:
-                    break
+                # determine train, valid, or test
+                dataset = choose_set()
 
-    print(bucket_list)
-    vocsize = len(dic)
-    nclasses = 3
-    idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
-    idx2label = {0: '0', 1: '1'}
-    if s.debug:
-        test = valid = train
+            question = to_array(line)
+            # inputs, targets = to_instance(line, is_question=True, answer=None)
+            # dataset.append(inputs, targets, True)  # question
 
-    print("number of questions:", num_questions)
-else:
-    train_set, valid_set, test_set, dic = load.atisfold(s.fold)
-    atis = load.atisfold(s.fold)
-    idx2label, idx2word = ({dic[version][k]: k
-                            for k in dic[version]}
-                           for version in ('labels2idx', 'words2idx'))
+            answer = next(data).rstrip()
+            document = to_array(next(data))
 
-    train, valid, test = (Dataset(inputs=lex, targets=y)
-                          for (lex, _, y) in (train_set, valid_set, test_set))
+            target = get_target(document, answer)
+            remaining_sentences = int(next(data))  # num sentences remaining
+            instances = []
+            new_question = False
+            instances.append((question, document, target))
+        else:
+            remaining_sentences -= 1
+        # TODO instance = to_instance(line)
+        # TODO input_target_tuples.append(instance)
+        if not remaining_sentences:
+            new_question = True
+            # set target of eos for answer sentence to answer
+            random.shuffle(instances)
+            for instance in instances:
+                dataset.append(*instance)
+            if num_questions >= s.num_questions:
+                break
 
-    # number of distinct words
-    vocsize = len(dic['words2idx'])
+print(bucket_list)
+vocsize = len(dic)
+nclasses = 3
+if s.debug:
+    test = valid = train
 
-    # number of distinct classes
-    nclasses = len(dic['labels2idx'])
+print("number of questions:", num_questions)
 
-nsentences = len(train.inputs)  # perhaps train_lex is a list of sentences
+for ds in datasets:
+    lengths = map(len, [ds.questions, ds.documents, ds.targets])
+    assert len(set(lengths)) == 1
+nsentences = len(train.questions)
 print("size of dictionary:", vocsize)
-print("number of sentences:", nsentences)
+print("number of training sentences:", nsentences)
 
 rnn = model(s.hidden_size,
             nclasses,
-            vocsize,
-            s.emb_size,
+            vocsize,  # num_embeddings
+            s.emb_size,  # embedding_dim
             s.window_size,
             s.memory_size,
             s.n_memory_slots)
@@ -280,26 +254,25 @@ for epoch in range(s.n_epochs):
     print('###\t{:10}{:10}{:10}{:10}###'
           .format('epoch', 'progress', 'loss', 'runtime'))
     for i in range(nsentences):  # for each sentence
-        # context_words = contextwin(train.inputs[i], s.window_size)
-        words = [np.asarray(instance, dtype='int32') for instance in
-                 contextwin(train.inputs[i], s.window_size)]
 
-                 # minibatch(context_words, s.batch_size)]
+        # context_words = contextwin(train.inputs[i], s.window_size)
+        question, document = ([np.asarray(window, dtype='int32')
+                               for window in contextwin(words, s.window_size)]
+                              for words in (train.questions[i], train.documents[i]))
+
+        # minibatch(context_words, s.batch_size)]
         # for word_batch, label in zip(words, train.targets[i]):
 
-            # reset memory?
+        # reset memory?
         labels = train.targets[i]
         # words = np.array(context_words, dtype='int32')
-        if train.is_questions[i]:
-            rnn.ask_question(words)
-        else:
-            loss = rnn.train(words, labels, s.learn_rate)
+        loss = rnn.train(question, document, labels, s.learn_rate)
         # rnn.normalize() ???????
-            if s.verbose:
-                progress = float(i + 1) / nsentences
-                print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
-                      .format(epoch, progress, float(loss), time.time() - tic), end='')
-                sys.stdout.flush()
+        if s.verbose:
+            progress = float(i + 1) / nsentences
+            print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
+                  .format(epoch, progress, float(loss), time.time() - tic), end='')
+            sys.stdout.flush()
 
 
         def save_predictions(filename, targets, predictions):

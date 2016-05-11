@@ -80,12 +80,11 @@ class model(object):
                       'bv', 'be']
 
         is_question = T.iscalar()
-        idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
+        q_idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
+        d_idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
 
-        idxs_print = theano.printing.Print('idxs')(idxs)
-        shape_print = theano.printing.Print('idxs.shape[0]')(idxs.shape[0])
-
-        x = self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))  # QUESTION: what is idxs.shape[0]?
+        q, d = (self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))
+                for idxs in (q_idxs, d_idxs))  # QUESTION: what is idxs.shape[0]?
         y = T.ivector('y')  # label
 
         def recurrence(x_t, h_tm1, w_previous, M_previous, is_question):
@@ -159,17 +158,17 @@ class model(object):
             M_t_print = Print('M_t')(M_t)
             return [h_t, s_t, w_t, M_t]
 
-        ask_question, train = (lambda x, h, w, m: recurrence(x, h, w, m, is_question)
-                               for is_question in (True, False))
+        ask_question, answer_question = (lambda x, h, w, m: recurrence(x, h, w, m, is_question)
+                                         for is_question in (True, False))
 
         [_, _, _, M], _ = theano.scan(fn=ask_question,
-                                      sequences=x,
+                                      sequences=q,
                                       outputs_info=[self.h0, None, self.w0, self.M],
                                       name='ask_scan')
 
-        [_, s, _, _], _ = theano.scan(fn=train,
-                                      sequences=x,
-                                      outputs_info=[self.h0, None, self.w0, self.M],
+        [_, s, _, _], _ = theano.scan(fn=answer_question,
+                                      sequences=d,
+                                      outputs_info=[self.h0, None, self.w0, M[-1, :, :]],
                                       name='train_scan')
 
         self.get_y = theano.function(inputs=[y], outputs=y)
@@ -177,37 +176,28 @@ class model(object):
 
         p_y_given_x_last_word = s[-1, 0, :]
         p_y_given_x_sentence = s[:, 0, :]
-        y_pred = T.argmax(p_y_given_x_sentence, axis=1)
 
         # cost and gradients and learning rate
         lr = T.scalar('lr')
         # nll = -T.mean(T.log(p_y_given_x_lastword)[y])
-        # CHANGED
+
         s = s.flatten(ndim=2)
-        s_print = Print("s")(s)
-        y_print = Print("y")(y)
+        y_pred = T.argmax(s, axis=1)
 
         counts = T.extra_ops.bincount(y, assert_nonneg=True)
         weights = 1.0 / (counts[y] + 1) * T.neq(y, 0)
-        print_weights = Print("weights")(weights)
+
         losses = T.nnet.categorical_crossentropy(s, y)
         loss = lasagne.objectives.aggregate(losses, weights, mode='normalized_sum')
-        # self.get_nll = theano.function([idxs, y, is_question],
-        #                                outputs=nll,
-        #                                allow_input_downcast=True)
-        # CHANGED
+
         updates = lasagne.updates.adadelta(loss, self.params, lr)
 
         # theano functions
-        self.ask_question = theano.function(inputs=[idxs],
-                                            givens=[(self.M, self.M0)],
-                                            updates=[(self.M, M[-1, :, :])])
-
-        self.classify = theano.function(inputs=[idxs],
+        self.classify = theano.function(inputs=[q_idxs, d_idxs],
                                         outputs=y_pred,
                                         on_unused_input='warn')
 
-        self.train = theano.function(inputs=[idxs, y, lr],
+        self.train = theano.function(inputs=[q_idxs, d_idxs, y, lr],
                                      outputs=loss,
                                      updates=updates,
                                      on_unused_input='warn',
