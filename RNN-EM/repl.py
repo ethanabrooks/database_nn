@@ -1,15 +1,13 @@
 import numpy as np
 import theano
+import theano.tensor as T
 
-x = np.array([1, 1, 1, 0], dtype='int32')
-y = theano.tensor.ivector("y")
-count = theano.tensor.extra_ops.bincount(y, weights=None, minlength=None, assert_nonneg=True)
+x = T.constant([1, 2])
+y = T.constant([2, 3, 4])[:2]
 
-res = 1.0 / (count[y] + 1) * theano.tensor.neq(y, 0)
+dot = T.dot(x, y)
+grad = T.grad(dot, x)
+f = theano.function([], grad)
 
-function = theano.function([y], res)
-res2 = theano.tensor.neq(y, 1)
-f = theano.function([y], res2)
 
-print(function(x))
-print(f(x))
+print(f())

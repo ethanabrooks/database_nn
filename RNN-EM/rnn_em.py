@@ -109,9 +109,6 @@ class model(object):
             # eqn 14
             w_t = (1 - g_t) * w_previous + g_t * w_hat  # [n_memory_slots]
 
-            # eqn 15
-            c = T.dot(M_previous, w_t)  # [memory_size]
-
             ### EXTERNAL MEMORY UPDATE
             # eqn 16
             v = T.dot(self.Wv, h_tm1) + self.bv  # [memory_size]
@@ -123,24 +120,31 @@ class model(object):
             # select for slots reserved for questions
             n = num_slots_reserved_for_questions
 
-            def set_subtensor(is_question):
-                if is_question:
-                    M_t = M_previous[:, :n]
-                    f_t = f[:n]
-                    u_t = w_t[:n]
-                else:
-                    M_t = M_previous[:, n:]
-                    f_t = f[n:]
-                    u_t = w_t[n:]
+            # if we are reading a question, we only read from and write to question memory
+            if is_question:
+                M_t = M_previous[:, :n]
+                f_t = f[:n]
+                u_t = w_t[:n]
 
-                u_t = u_t.dimshuffle('x', 0)
-                v_t = v.dimshuffle(0, 'x')
+                # eqn 15
+                c = T.dot(M_t, u_t)  # [memory_size]
 
-                # eqn 19
-                return T.set_subtensor(M_t, T.dot(M_t, T.diag(f_t)) + T.dot(v_t, u_t))
+            # if not a question, we read from all memory and only write to non-question memory
+            else:
+                M_t = M_previous[:, n:]
+                f_t = f[n:]
+                u_t = w_t[n:]
+
+                # eqn 15
+                c = T.dot(M_previous, w_t)  # [memory_size]
+
+            u_t = u_t.dimshuffle('x', 0)
+            v_t = v.dimshuffle(0, 'x')
+
+            # eqn 19
+            M_t = T.set_subtensor(M_t, T.dot(M_t, T.diag(f_t)) + T.dot(v_t, u_t))
 
             # M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
-            M_t = set_subtensor(is_question)
 
             # f_diag = T.diag(f)
             # M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
