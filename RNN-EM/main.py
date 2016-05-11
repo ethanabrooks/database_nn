@@ -85,16 +85,29 @@ def evaluate(predictions, targets):
     return confusion_dic
 
 
+class Instance:
+    def __init__(self, question, document, targets):
+        self.__dict__.update(locals())
+
+
 class Dataset:
     def __init__(self, percent=None):
-        self.questions, self.documents, self.targets = [], [], []
+        self.buckets, self.questions, self.documents, self.targets = [], [], [], []
         self.percent = percent
 
     def append(self, question, document, target):
         assert document.size == target.size
-        self.questions.append(question)
-        self.documents.append(document)
-        self.targets.append(target)
+        question_idx, document_idx = (get_bucket_size(array.size)
+                                      for array in (question, document))
+
+        while len(self.buckets) < question_idx:
+            self.buckets.append([])
+
+        question_bucket = self.buckets[question_idx]
+        while len(question_bucket) < document_idx:
+            question_bucket.append([])
+
+        question_bucket[document_idx].append(Instance(question, document, target))
 
     def predict(self):
         predictions = []
@@ -147,13 +160,14 @@ def to_int(word):
 
 
 def get_bucket_size(length):
-    bucket_size = 1
-    while length > bucket_size:
-        bucket_size *= s.bucket_factor
-    if bucket_size not in bucket_list:
-        bucket_list[bucket_size] = 0
-    bucket_list[bucket_size] += 1
-    return bucket_size
+    # bucket_size = 1
+    # while length > bucket_size:
+    #     bucket_size *= s.bucket_factor
+    # if bucket_size not in bucket_list:
+    #     bucket_list[bucket_size] = 0
+    # bucket_list[bucket_size] += 1
+    # return bucket_size
+    return np.math.ceil(np.math.log(length, 2))
 
 
 def to_array(string, bucket=True):
