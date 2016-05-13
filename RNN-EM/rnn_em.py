@@ -33,7 +33,7 @@ class Model(object):
 
         questions, docs, y_true = T.imatrices(3)
         window_diameter = window_radius * 2 + 1
-        num_slots_reserved_for_questions = int(n_memory_slots / 4)  # TODO derive this from an arg
+        num_question_slots = int(n_memory_slots / 4)  # TODO derive this from an arg
 
         randoms = {
             # attr: shape
@@ -47,8 +47,10 @@ class Model(object):
             'Wh': (memory_size, hidden_size),
             'W': (hidden_size, nclasses),
             'h0': hidden_size,
-            'w0': (n_memory_slots,),
-            'M0': (memory_size, n_memory_slots)  # TODO can we set M0 to zeros without having issues with cosine_dist?
+            'w_q': (num_question_slots,),
+            'w_d': (n_memory_slots - num_question_slots,),
+            'M_q': (memory_size, num_question_slots),  # TODO can we set M0 to zeros without having issues with cosine_dist?
+            'M_d': (memory_size, n_memory_slots - num_question_slots)  # TODO can we set M0 to zeros without having issues with cosine_dist?
         }
 
         zeros = {
