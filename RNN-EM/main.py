@@ -11,7 +11,9 @@ import sys
 import subprocess
 import os
 import random
-from rnn_em import model
+from collections import namedtuple
+from collections import defaultdict
+from rnn_em import Model
 from is13.data import load
 from is13.metrics.accuracy import conlleval
 from is13.utils.tools import shuffle, minibatch, contextwin
@@ -40,16 +42,17 @@ parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
 parser.add_argument('--num_questions', type=int, default=1000,
                     help='number of questions to use in Jeopardy dataset')
-parser.add_argument('--bucket_factor', type=int, default=2,
+parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
 
 print('*' * 80)
 print(s)
+
+""" Globals """
 folder = os.path.basename(__file__).split('.')[0]
 if not os.path.exists(folder): os.mkdir(folder)
 
-# instantiate the RNN-EM
 np.random.seed(s.seed)
 random.seed(s.seed)
 
@@ -57,10 +60,152 @@ PAD_VALUE = 0
 NON_ANSWER_VALUE = 1
 ANSWER_VALUE = 2
 
-bucket_list = {}
+root_dir = "../data/"
+s.best_f1 = -np.inf
+
+
+def get_bucket_idx(length, base):
+    return np.math.ceil(np.math.log(length, base))
+
+
+Bucket = namedtuple("bucket", "questions documents targets")
+Datasets = namedtuple("data_sets", "train test valid")
+ConfusionMatrix = namedtuple("confusion_matrix", "f1 precision recall")
+
+
+class Dataset:
+    def __init__(self, percent=None):
+        self.buckets = defaultdict(lambda: Bucket([], [], []))
+        self.percent = percent
+
+    def append(self, question, document, target):
+        assert document.size == target.size
+        key = tuple(get_bucket_idx(array.size, s.bucket_factor)
+                    for array in (question, document))
+
+        bucket = self.buckets[key]
+        for i, array in enumerate((question, document, target)):
+            bucket[i].append(array)
+
+
+class Data:
+    """
+    contains global data parameters.
+    Collects data and assigns to different datasets.
+    """
+
+    def __init__(self):
+        # load the dataset
+        # tokenizer = English(parser=False)
+
+        datasets = [Dataset(percent=p) for p in (.7,  # train
+                                                 .2,  # test
+                                                 .1)]  # valid
+        train = datasets[0]
+        dic = {'*': 0}
+
+        def choose_dataset():
+            random_num = random.random()
+            datasets.sort(key=lambda ds: ds.percent)  # sort by percent
+            for dataset in datasets:
+                if random_num < dataset.percent:
+                    return dataset
+                random_num -= dataset.percent
+
+        def to_int(word):
+            word = word.lower()
+            if word not in dic:
+                w = len(dic)
+                dic[word] = w
+            return dic[word]
+
+        def to_array(string, bucket=True):
+            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+            shape = len(tokens)
+            if bucket:
+                shape = s.bucket_factor ** get_bucket_idx(shape, s.bucket_factor)
+            sentence_vector = np.zeros(shape, dtype='int32') + int(PAD_VALUE)
+            for i, word in enumerate(tokens):
+                sentence_vector[i] = to_int(word)
+            return sentence_vector
+
+        def get_target(document, answer):
+            targets = (document != PAD_VALUE).astype('int32')
+            answer_array = to_array(answer, bucket=False)
+
+            # set parts of inputs corresponding to complete answer to ANSWER_VALUE
+            for i in range(document.size - answer_array.size):
+                window = slice(i, i + answer_array.size)
+
+                if np.all(document[window] == answer_array):
+                    targets[window] = ANSWER_VALUE
+                    break
+
+            return targets
+
+        new_question = True
+        self.num_questions = 0
+        self.num_train = 0
+        with open(root_dir + "wiki.dat") as data:
+            for line in data:
+                if new_question:
+                    self.num_questions += 1
+                    if s.debug:
+                        dataset = train
+                    else:
+                        dataset = choose_dataset()
+                    if dataset == train:
+                        self.num_train += 1
+
+                    question = to_array(line)
+                    answer = next(data).rstrip()
+                    document = to_array(next(data))
+                    remaining_sentences = int(next(data))
+                    instances = []
+                    new_question = False
+                    target = get_target(document, answer)
+                    instances.append((question, document, target))
+                else:
+                    remaining_sentences -= 1
+                    # instance = to_instance(line)
+                    # input_target_tuples.append(instance)
+                if not remaining_sentences:
+                    new_question = True
+                    # set target of eos for answer sentence to answer
+                    random.shuffle(instances)
+                    for instance in instances:
+                        dataset.append(*instance)
+                    if self.num_questions >= s.num_questions:
+                        break
+
+        if s.debug:
+            datasets = [train] * 3
+
+        print('Bucket allocation:')
+        for i, dataset in enumerate(datasets):
+            print('Number of buckets', len(dataset.buckets))
+            for key in dataset.buckets:
+                print(key, len(dataset.buckets[key].questions))
+            dataset.buckets = dataset.buckets.values()
+            dataset.buckets = [Bucket(*[np.array(data) for data in bucket.__iter__()])
+                               for bucket in dataset.buckets]
+
+        self.vocsize = len(dic)
+        self.nclasses = 3
+        self.sets = Datasets(*datasets)
+
+    def print_data_stats(self):
+        print("size of dictionary:", self.vocsize)
+        print("number of questions:", self.num_questions)
+        print("size of training set", self.num_train)
 
 
 def evaluate(predictions, targets):
+    """
+    @:param predictions: list of predictions
+    @:param targets: list of targets
+    @:return dictionary with entries 'f1'
+    """
     measures = np.zeros(3)
 
     for prediction, target in zip(predictions, targets):
@@ -79,265 +224,109 @@ def evaluate(predictions, targets):
     recall = tp / (tp + fn)
     f1 = 2 * precision * recall / (precision + recall)
 
-    confusion_dic = dict()
-    for var in ('f1', 'precision', 'recall'):
-        confusion_dic[var] = eval(var)
-    return confusion_dic
+    return ConfusionMatrix(f1, precision, recall)
 
 
-class Instance:
-    def __init__(self, question, document, targets):
-        self.__dict__.update(locals())
+# def train_model():
+#     # TODO: shuffle inputs without breaking connection between question and answer
+#     # shuffle([train.inputs, train.targets], s.seed)
+#     s.current_epoch = epoch
+#     for i, bucket in enumerate(train.buckets):
+#         for instance in bucket:
+#             # context_words = contextwin(train.inputs[i], s.window_size)
+#             question, document = ([np.asarray(window, dtype='int32')
+#                                    for window in contextwin(words, s.window_size)]
+#                                   for words in (instance.question, instance.document))
+#
+#             # minibatch(context_words, s.batch_size)]
+#             # for word_batch, label in zip(words, train.targets[i]):
+#
+#             # reset memory?
+#             labels = instance.targets
+#             # words = np.array(context_words, dtype='int32')
+#             loss = rnn.train(question, document, labels, s.learn_rate)
+#             # rnn.normalize() ???????
 
 
-class Dataset:
-    def __init__(self, percent=None):
-        self.buckets, self.questions, self.documents, self.targets = [], [], [], []
-        self.percent = percent
-
-    def append(self, question, document, target):
-        assert document.size == target.size
-        question_idx, document_idx = (get_bucket_size(array.size)
-                                      for array in (question, document))
-
-        while len(self.buckets) < question_idx:
-            self.buckets.append([])
-
-        question_bucket = self.buckets[question_idx]
-        while len(question_bucket) < document_idx:
-            question_bucket.append([])
-
-        question_bucket[document_idx].append(Instance(question, document, target))
-
-    def predict(self):
-        predictions = []
-        # previous_is_question = False
-        for instance in zip(self.questions, self.documents):
-            # reset memory?
-            # is_question = train.is_questions[i]
-            # reset = is_question and not previous_is_question
-            # previous_is_question = is_question
-
-            # if is_question:
-            #     question = words
-            # rnn.ask_question(words)
-            question, document = (np.asarray(contextwin(sentence, s.window_size), dtype='int32')
-                                  for sentence in instance)
-            predictions.append(rnn.classify(question, document))
-        return predictions
-        # [rnn.classify(
-        #     np.asarray(contextwin(sentence, s.window_size), dtype='int32'))
-        #         for sentence in self.inputs]
+def print_progress(epoch, questions_processed, num_questions, loss, start_time):
+    progress = float(questions_processed) / num_questions
+    print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
+          .format(epoch, progress, float(loss), time.time() - start_time), end='')
+    sys.stdout.flush()
 
 
-# load the dataset
-root_dir = "../data/"
-new_question = True
-dic = {'*': 0}
-# tokenizer = English(parser=False)
-
-datasets = [Dataset(percent=p) for p in (.7,  # train
-                                         .2,  # test
-                                         .1)]  # valid
-train, test, valid = datasets
-
-
-def choose_set():
-    random_num = random.random()
-    datasets.sort(key=lambda ds: ds.percent)  # sort by percent
-    for dataset in datasets:
-        if random_num < dataset.percent:
-            return dataset
-        random_num -= dataset.percent
+def write_predictions_to_file(dataset_name, targets, predictions):
+    filename = 'current.{0}.txt'.format(dataset_name)
+    filepath = os.path.join(folder, filename)
+    with open(filepath, 'w') as handle:
+        for prediction, target in zip(predictions, targets):
+            if target is not None:
+                for label, arr in (('p: ', prediction), ('t: ', target)):
+                    handle.write(label)
+                    np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
+                    handle.write('\n')
 
 
-def to_int(word):
-    word = word.lower()
-    if word not in dic:
-        w = len(dic)
-        dic[word] = w
-    return dic[word]
+def track_best(current_best, results, epoch):
+    Score = namedtuple("score", "value epoch")
+    for key in results._fields:
+        if key not in current_best or results[key] > current_best[key].value:
+            current_best[key] = Score(results[key], epoch)
 
+            rnn.save(folder)
+            if key is 'F1':
+                if s.verbose:
+                    print('\nNEW BEST F1: {0}\nEpoch\n'.format(*current_best[key]))
+                    sys.stdout.flush()
 
-def get_bucket_size(length):
-    # bucket_size = 1
-    # while length > bucket_size:
-    #     bucket_size *= s.bucket_factor
-    # if bucket_size not in bucket_list:
-    #     bucket_list[bucket_size] = 0
-    # bucket_list[bucket_size] += 1
-    # return bucket_size
-    return np.math.ceil(np.math.log(length, 2))
-
-
-def to_array(string, bucket=True):
-    tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
-    # tokens = [token.lower_.encode('unicode-escape')
-    #           for token in tokenizer(unicode(string, 'utf-8'))]
-    shape = len(tokens)
-    if bucket:
-        shape = get_bucket_size(shape)
-    sentence_vector = np.zeros(shape, dtype='int32') + PAD_VALUE
-    for i, word in enumerate(tokens):
-        sentence_vector[i] = to_int(word)
-    return sentence_vector
-
-
-def get_target(document, answer):
-    targets = (document != PAD_VALUE).astype('int32')
-    answer_array = to_array(answer, bucket=False)
-
-    # set parts of inputs corresponding to complete answer to ANSWER_VALUE
-    for i in range(document.size - answer_array.size):
-        window = slice(i, i + answer_array.size)
-
-        if np.all(document[window] == answer_array):
-            targets[window] = ANSWER_VALUE
-            break
-
-    return targets
-
-
-num_questions = 0
-with open(root_dir + "wiki.dat") as data:
-    for line in data:
-        if new_question:
-            num_questions += 1
-            if s.debug:
-                dataset = train
-            else:
-                # determine train, valid, or test
-                dataset = choose_set()
-
-            question = to_array(line)
-            # inputs, targets = to_instance(line, is_question=True, answer=None)
-            # dataset.append(inputs, targets, True)  # question
-
-            answer = next(data).rstrip()
-            document = to_array(next(data))
-
-            target = get_target(document, answer)
-            remaining_sentences = int(next(data))  # num sentences remaining
-            instances = []
-            new_question = False
-            instances.append((question, document, target))
+                for dataset in ('test', 'valid'):
+                    command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dataset)
+                    subprocess.call(command.split())
         else:
-            remaining_sentences -= 1
-        # TODO instance = to_instance(line)
-        # TODO input_target_tuples.append(instance)
-        if not remaining_sentences:
-            new_question = True
-            # set target of eos for answer sentence to answer
-            random.shuffle(instances)
-            for instance in instances:
-                dataset.append(*instance)
-            if num_questions >= s.num_questions:
-                break
+            if s.verbose:
+                print(results)
+                sys.stdout.flush()
 
-print(bucket_list)
-vocsize = len(dic)
-nclasses = 3
-if s.debug:
-    test = valid = train
-
-print("number of questions:", num_questions)
-
-for ds in datasets:
-    lengths = map(len, [ds.questions, ds.documents, ds.targets])
-    assert len(set(lengths)) == 1
-nsentences = len(train.questions)
-print("size of dictionary:", vocsize)
-print("number of training sentences:", nsentences)
-
-rnn = model(s.hidden_size,
-            nclasses,
-            vocsize,  # num_embeddings
-            s.emb_size,  # embedding_dim
-            s.window_size,
-            s.memory_size,
-            s.n_memory_slots)
-
-# train with early stopping on validation set
-best_f1 = -np.inf
-s.learn_rate = s.learn_rate
-for epoch in range(s.n_epochs):
-    # TODO: shuffle inputs without breaking connection between question and answer
-    # shuffle([train.inputs, train.targets], s.seed)
-    s.current_epoch = epoch
-    tic = time.time()
-    print('###\t{:10}{:10}{:10}{:10}###'
-          .format('epoch', 'progress', 'loss', 'runtime'))
-    for i in range(nsentences):  # for each sentence
-
-        # context_words = contextwin(train.inputs[i], s.window_size)
-        question, document = ([np.asarray(window, dtype='int32')
-                               for window in contextwin(words, s.window_size)]
-                              for words in (train.questions[i], train.documents[i]))
-
-        # minibatch(context_words, s.batch_size)]
-        # for word_batch, label in zip(words, train.targets[i]):
-
-        # reset memory?
-        labels = train.targets[i]
-        # words = np.array(context_words, dtype='int32')
-        loss = rnn.train(question, document, labels, s.learn_rate)
-        # rnn.normalize() ???????
-        if s.verbose:
-            progress = float(i + 1) / nsentences
-            print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
-                  .format(epoch, progress, float(loss), time.time() - tic), end='')
-            sys.stdout.flush()
+    print('BEST RESULT:', current_best)
 
 
-        def save_predictions(filename, targets, predictions):
-            filename = 'current.{0}.txt'.format(filename)
-            filepath = os.path.join(folder, filename)
-            with open(filepath, 'w') as handle:
-                for prediction, target in zip(predictions, targets):
-                    if target is not None:
-                        for label, arr in (('p: ', prediction), ('t: ', target)):
-                            handle.write(label)
-                            np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
-                            handle.write('\n')
+if __name__ == '__main__':
+    data = Data()
+    rnn = Model(s.hidden_size,
+                data.nclasses,
+                data.vocsize,  # num_embeddings
+                s.emb_size,  # embedding_dim
+                s.window_size,
+                s.memory_size,
+                s.n_memory_slots)
 
+    for epoch in range(s.n_epochs):
 
-        results = []
-        for dataset, set_name in ((test, 'test'), (valid, 'valid')):
-            predictions = dataset.predict()
-            save_predictions(set_name, dataset.targets, predictions)
-            results.append(evaluate(predictions, dataset.targets))
-        res_test, res_valid = results
+        print('###\t{:10}{:10}{:10}{:10}###'
+              .format('epoch', 'progress', 'loss', 'runtime'))
+        start_time = time.time()
+        instances_processed = 0
+        best_scores = {name: {} for name in data.sets}
 
-    if res_valid['f1'] > best_f1:
-        rnn.save(folder)
-        best_f1 = res_valid['f1']
-        if s.verbose:
-            print('\nNEW BEST: '
-                  'valid F1:', res_valid['f1'],
-                  'test F1:', res_test['f1'], '\n')
-            sys.stdout.flush()
+        for i, name in enumerate(data.sets._fields):
+            predictions, targets = [], []
+            for bucket in data.sets[i].buckets:
+                if name == 'train':
+                    bucket_predictions, loss = rnn.train(*bucket)
+                    rnn.normalize()
+                    predictions.append(bucket_predictions)
+                    # targets.append(bucket[2]) TODO
 
-        for key in res_test:
-            exec "s.test_{0} = res_test['{0}']".format(key)
-        for key in res_valid:
-            exec "s.valid_{0} = res_valid['{0}']".format(key)
-        s.best_epoch = epoch
-        for dset in ('test', 'valid'):
-            command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dset)
-            subprocess.call(command.split())
-    else:
-        if s.verbose:
-            print('\nvalid F1:', res_valid['f1'],
-                  'test F1:', res_test['f1'], '\n')
-            sys.stdout.flush()
-
-    # learning rate decay if no improvement in 10 epochs
-    if s.decay and abs(s.best_epoch - s.current_epoch) >= 10:
-        s.learn_rate *= 0.5
-    if s.learn_rate < 1e-5:
-        break
-
-print('BEST RESULT: epoch', s.best_epoch,
-      'valid F1', s.valid_f1,
-      'best test F1', s.test_f1,
-      'with the RNN-EM', folder)
+                    instances_processed += len(bucket_predictions)
+                    print_progress(epoch,
+                                   instances_processed,
+                                   data.num_questions,
+                                   loss,
+                                   start_time)
+                else:
+                    bucket_predictions = rnn.predict(bucket.questions, bucket.documents)
+                    predictions.append(bucket_predictions)
+            write_predictions_to_file(name, predictions, targets)
+            confusion_matrix = evaluate(predictions, targets)
+            print(name + " results:")
+            track_best(best_scores[name], confusion_matrix, epoch)

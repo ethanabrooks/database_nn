@@ -1,5 +1,7 @@
 from __future__ import print_function
 
+from functools import partial
+
 import lasagne
 import numpy
 import os
@@ -8,206 +10,222 @@ from theano.printing import Print
 from theano import tensor as T
 
 
-def norm(x):
-    axis = None if x.ndim == 1 else 1
-    return T.sqrt(T.sum(T.sqr(x), axis=axis))
-
-
-def cdist(matrix, vector):
-    matrix = matrix.T
-    dotted = T.dot(matrix, vector)
-    matrix_norms = norm(matrix)
-    vector_norms = norm(vector)
-    matrix_vector_norms = matrix_norms * vector_norms
-    neighbors = dotted / matrix_vector_norms
-    return 1. - neighbors
+def cosine_dist(tensor, matrix):
+    """
+    Along axis 1 for both inputs.
+    Assumes first dimansion ~ different instances.
+    """
+    tensor_norms = tensor.norm(2, axis=1)
+    matrix_norms = T.shape_padright(matrix.norm(2, axis=1))
+    return 1. - T.batched_dot(matrix, tensor) / (matrix_norms * tensor_norms)
 
 
 # noinspection PyPep8Naming
-class model(object):
-    def __init__(self, hidden_size, nclasses, num_embeddings, embedding_dim, window_size, memory_size=40,
-                 n_memory_slots=8):
-        """
-        nh :: dimension of the hidden layer
-        nc :: number of classes
-        ne :: number of word embeddings in the vocabulary
-        de :: dimension of the word embeddings
-        cs :: word window context size
-        """
-        # parameters of the RNN-EM
+class Model(object):
+    def __init__(self,
+                 hidden_size=4,
+                 nclasses=3,
+                 num_embeddings=100,
+                 embedding_dim=2,
+                 window_radius=1,
+                 memory_size=8,
+                 n_memory_slots=6):
 
+        questions, docs, y_true = T.imatrices(3)
+        window_diameter = window_radius * 2 + 1
         num_slots_reserved_for_questions = int(n_memory_slots / 4)  # TODO derive this from an arg
-        self.emb = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (num_embeddings + 1, embedding_dim)).astype(
-            theano.config.floatX))  # add one for PADDING at the end
-        self.Wx = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size, embedding_dim * window_size)).astype(
-                theano.config.floatX))
-        self.Wh = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size, memory_size)).astype(theano.config.floatX))
-        self.W = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (nclasses, hidden_size)).astype(theano.config.floatX))
-        self.bh = theano.shared(numpy.zeros(hidden_size, dtype=theano.config.floatX))
-        self.b = theano.shared(numpy.zeros(nclasses, dtype=theano.config.floatX))
-        self.h0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (hidden_size,)).astype(theano.config.floatX))
 
-        self.M0 = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, n_memory_slots)).astype(theano.config.floatX))
-        self.M = self.M0
-        self.w0 = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots,)).astype(theano.config.floatX))
+        randoms = {
+            # attr: shape
+            'emb': (num_embeddings + 1, embedding_dim),
+            'Wg': (window_diameter * embedding_dim, n_memory_slots),
+            'Wk': (hidden_size, memory_size),
+            'Wb': (hidden_size, 1),
+            'Wv': (hidden_size, memory_size),
+            'We': (hidden_size, n_memory_slots),
+            'Wx': (window_diameter * embedding_dim, hidden_size),
+            'Wh': (memory_size, hidden_size),
+            'W': (hidden_size, nclasses),
+            'h0': hidden_size,
+            'w0': (n_memory_slots,),
+            'M0': (memory_size, n_memory_slots)  # TODO can we set M0 to zeros without having issues with cosine_dist?
+        }
 
-        self.Wk = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, hidden_size)).astype(theano.config.floatX))
-        self.Wg = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots, embedding_dim * window_size)).astype(
-                theano.config.floatX))
-        self.Wb = theano.shared(0.2 * numpy.random.uniform(-1.0, 1.0, (1, hidden_size)).astype(theano.config.floatX))
-        self.Wv = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (memory_size, hidden_size)).astype(theano.config.floatX))
-        self.We = theano.shared(
-            0.2 * numpy.random.uniform(-1.0, 1.0, (n_memory_slots, hidden_size)).astype(theano.config.floatX))
+        zeros = {
+            # attr: shape
+            'bg': n_memory_slots,
+            'bk': memory_size,
+            'bb': 1,
+            'bv': memory_size,
+            'be': n_memory_slots,
+            'bh': hidden_size,
+            'b': nclasses
+        }
 
-        self.bk = theano.shared(numpy.zeros(memory_size, dtype=theano.config.floatX))
-        self.bg = theano.shared(numpy.zeros(n_memory_slots, dtype=theano.config.floatX))
-        self.bb = theano.shared(numpy.zeros(1, dtype=theano.config.floatX))
-        self.bv = theano.shared(numpy.zeros(memory_size, dtype=theano.config.floatX))
-        self.be = theano.shared(numpy.zeros(n_memory_slots, dtype=theano.config.floatX))
+        def random_shared(shape):
+            return theano.shared(
+                0.2 * numpy.random.uniform(-1.0, 1.0, shape).astype(theano.config.floatX))
 
-        # bundle
-        self.params = [self.emb, self.Wx, self.Wh, self.W, self.bh, self.b, self.h0, self.Wg, self.Wb,
-                       # self.Wv,# self.We,
-                       self.Wk, self.bk, self.bg, self.bb]  # , self.bv] #, self.be]
-        self.names = ['embeddings', 'Wx', 'Wh', 'W', 'bh', 'b', 'h0', 'Wg', 'Wb', 'Wv', 'We', 'Wk', 'bk', 'bg', 'bb',
-                      'bv', 'be']
+        def zeros_shared(shape):
+            return theano.shared(numpy.zeros(shape, dtype=theano.config.floatX))
 
-        is_question = T.iscalar()
-        q_idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
-        d_idxs = T.imatrix()  # as many columns as context window size/lines as words in the sentence
+        for key in randoms:
+            setattr(self, key, random_shared(randoms[key]))
 
-        q, d = (self.emb[idxs].reshape((idxs.shape[0], embedding_dim * window_size))
-                for idxs in (q_idxs, d_idxs))  # QUESTION: what is idxs.shape[0]?
-        y = T.ivector('y')  # label
+        for key in zeros:
+            setattr(self, key, zeros_shared(zeros[key]))
 
-        def recurrence(x_t, h_tm1, w_previous, M_previous, is_question):
-            # eqn not specified in paper
-            g_t = T.nnet.sigmoid(T.dot(self.Wg, x_t) + self.bg)  # [n_memory_slots]
+        self.names = randoms.keys() + zeros.keys()
+        self.params = [eval('self.' + name) for name in 'bh'.split()]
+
+        def recurrence(i, h_tm1, w_previous, M_previous, is_question):
+            """
+            :param is_question: we use different parts of memory when working with a question
+            :param i: center index of sliding window
+            :param h_tm1: h_{t-1} (hidden state)
+            :param w_previous: attention weights. see paper
+            :param M_previous: memory. see paper
+            :return: [y_t = model outputs,
+                      i + 1 = increment index,
+                      h_t w_t, M_t (see above)]
+            """
+
+            # get representation of word window
+            idxs = questions if is_question else docs  # [instances, bucket_width]
+            pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
+            padded = T.concatenate([pad, idxs, pad], axis=1)
+            window = padded[:, i:i + window_diameter]  # [instances, window_diameter]
+            x_t = self.emb[window].flatten(ndim=2)  # [instances, window_diameter * embedding_dim]
+
+            # eqn not specified in paper (see eqn 14)
+            # TODO: should this be conditioned on h not x?
+            g_t = T.nnet.sigmoid(T.dot(x_t, self.Wg) + self.bg)  # [instances, n_memory_slots]
 
             ### EXTERNAL MEMORY READ
             # eqn 11
-            k = T.dot(self.Wk, h_tm1) + self.bk  # [memory_size]
+            k = T.dot(h_tm1, self.Wk) + self.bk  # [instances, memory_size]
 
             # eqn 13
-            beta_pre = T.dot(self.Wb, h_tm1) + self.bb
+            beta_pre = T.dot(h_tm1, self.Wb) + self.bb
             beta = T.log(1 + T.exp(beta_pre))
-            beta = T.addbroadcast(beta, 0)  # [1]
+            beta = T.addbroadcast(beta, 1)  # [instances, 1]
 
             # eqn 12
-            w_hat = cdist(M_previous, k)
+            w_hat = cosine_dist(M_previous, k)
             w_hat = T.exp(beta * w_hat)
-            w_hat /= T.sum(w_hat)  # [n_memory_slots]
+            w_hat /= T.shape_padright(T.sum(w_hat, axis=1))  # [n_memory_slots]
 
             # eqn 14
-            w_t = (1 - g_t) * w_previous + g_t * w_hat  # [n_memory_slots]
+            w_t = (1 - g_t) * w_previous + g_t * w_hat  # [instances, n_memory_slots]
 
-            ### EXTERNAL MEMORY UPDATE
-            # eqn 16
-            v = T.dot(self.Wv, h_tm1) + self.bv  # [memory_size]
-
-            # eqn 17
-            e = T.nnet.sigmoid(T.dot(self.We, h_tm1) + self.be)  # [n_memory_slots]
-            f = 1. - w_t * e  # [n_memory_slots]
-
-            # select for slots reserved for questions
             n = num_slots_reserved_for_questions
 
             # if we are reading a question, we only read from and write to question memory
             if is_question:
-                M_t = M_previous[:, :n]
-                f_t = f[:n]
-                u_t = w_t[:n]
+                M_previous = M_previous[:, :, :n]  # [instances, memory_size, n]
+                w_previous = w_previous[:, :n]  # [instances, n]
 
-                # eqn 15
-                c = T.dot(M_t, u_t)  # [memory_size]
+            # eqn 15
+            c = T.batched_dot(M_previous, w_previous)  # [instances, memory_size]
+
+            ### MODEL INPUT AND OUTPUT
+            # eqn 9
+            h_t = T.dot(x_t, self.Wx) + T.dot(c, self.Wh) + self.bh  # [instances, hidden_size]
+
+            # eqn 10
+            y_t = T.nnet.softmax(T.dot(h_t, self.W) + self.b)  # [instances, nclasses]
+
+            ### EXTERNAL MEMORY UPDATE
+
+            # eqn 17
+            e = T.nnet.sigmoid(T.dot(h_tm1, self.We) + self.be)  # [instances, n_memory_slots]
+            f = 1. - w_t * e  # [instances, n_memory_slots]
+
+            # if we are reading a question, we only read from and write to question memory
+            if is_question:
+                M_t = M_previous[:, :, :n]  # [instances, memory_size, n]
+                f_t = f[:, :n]  # [instances, n]
+                u_t = w_t[:, :n]  # [instances, n]
 
             # if not a question, we read from all memory and only write to non-question memory
             else:
-                M_t = M_previous[:, n:]
-                f_t = f[n:]
-                u_t = w_t[n:]
+                M_t = M_previous[:, :, n:]  # [instances, memory_size, n_memory_slots - n]
+                f_t = f[:, n:]  # [instances, n_memory_slots - n]
+                u_t = w_t[:, n:]  # [instances, n_memory_slots - n]
 
-                # eqn 15
-                c = T.dot(M_previous, w_t)  # [memory_size]
+            # eqn 16
+            v_t = T.dot(h_t, self.Wv) + self.bv  # [instances, memory_size]
 
-            u_t = u_t.dimshuffle('x', 0)
-            v_t = v.dimshuffle(0, 'x')
+            # need to add broadcast layers for memory update
+            f_t = f_t.dimshuffle(0, 'x', 1)  # [instances, 1, ?]
+            u_t = u_t.dimshuffle(0, 'x', 1)  # [instances, 1, ?]
+            v_t = v_t.dimshuffle(0, 1, 'x')  # [instances, memory_size, 1]
+
+            # M_t * f_t multiplies f_t[i] times M_t[:, :, i]
+            # T.batched_dot(v_t, u_t) takes the outer product of v_t and u_t
+            # for each instance.
+            M_update = M_t * f_t + T.batched_dot(v_t, u_t)  # [instances, memory_size, ?]
 
             # eqn 19
-            M_t = T.set_subtensor(M_t, T.dot(M_t, T.diag(f_t)) + T.dot(v_t, u_t))
+            M_t = T.set_subtensor(M_t, M_update)  # [instances, memory_size, n_memory_slots]
+            return [y_t, i + 1, h_t, w_t, M_t]
 
-            # M_t = ifelse(is_question, set_subtensor(True), set_subtensor(False))
+        def repeat_for_each_instance(param):
+            """ repeat param along new axis once for each instance """
+            return T.repeat(T.shape_padleft(param), repeats=questions.shape[0], axis=0)
 
-            # f_diag = T.diag(f)
-            # M_t = T.dot(M_previous, f_diag) + T.dot(v.dimshuffle(0, 'x'), w_t.dimshuffle('x', 0))
-            # M_t = T.set_subtensor(M_t[:, :n], M_t[:, :n] + 1)
+        ask_question = partial(recurrence, is_question=True)
+        answer_question = partial(recurrence, is_question=False)
+        outputs_info = [None, T.constant(0)] + map(repeat_for_each_instance,
+                                                   [self.h0, self.w0, self.M0])
 
-            # eqn 9
-            h_t = T.nnet.sigmoid(T.dot(self.Wx, x_t) + T.dot(self.Wh, c) + self.bh)
+        [_, _, h, w, M], _ = theano.scan(fn=ask_question,
+                                         outputs_info=outputs_info,
+                                         n_steps=questions.shape[1],
+                                         name='ask_scan')
 
-            # eqn 10?
-            s_t = T.nnet.softmax(T.dot(self.W, h_t) + self.b)
+        outputs_info[2:] = [param[-1, :, :] for param in (h, w, M)]
 
-            M_t_print = Print('M_t')(M_t)
-            return [h_t, s_t, w_t, M_t]
+        [y, _, _, _, _], _ = theano.scan(fn=answer_question,
+                                         outputs_info=outputs_info,
+                                         n_steps=docs.shape[1],
+                                         name='train_scan')
 
-        ask_question, answer_question = (lambda x, h, w, m: recurrence(x, h, w, m, is_question)
-                                         for is_question in (True, False))
+        y_pred = T.argmax(y, axis=2).T
+        counts = T.extra_ops.bincount(y_true.ravel(), assert_nonneg=True)
+        weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
+        losses = T.nnet.binary_crossentropy(y_pred, y_true)
+        loss = lasagne.objectives.aggregate(losses, weights)
+        updates = lasagne.updates.adadelta(loss, self.params)
 
-        [_, _, _, M], _ = theano.scan(fn=ask_question,
-                                      sequences=q,
-                                      outputs_info=[self.h0, None, self.w0, self.M],
-                                      name='ask_scan')
-
-        [_, s, _, _], _ = theano.scan(fn=answer_question,
-                                      sequences=d,
-                                      outputs_info=[self.h0, None, self.w0, M[-1, :, :]],
-                                      name='train_scan')
-
-        self.get_y = theano.function(inputs=[y], outputs=y)
-        # self.get_m = theano.function(inputs=[idxs, is_question], outputs=M.shape)
-
-        p_y_given_x_last_word = s[-1, 0, :]
-        p_y_given_x_sentence = s[:, 0, :]
-
-        # cost and gradients and learning rate
-        lr = T.scalar('lr')
-        # nll = -T.mean(T.log(p_y_given_x_lastword)[y])
-
-        s = s.flatten(ndim=2)
-        y_pred = T.argmax(s, axis=1)
-
-        counts = T.extra_ops.bincount(y, assert_nonneg=True)
-        weights = 1.0 / (counts[y] + 1) * T.neq(y, 0)
-
-        losses = T.nnet.categorical_crossentropy(s, y)
-        loss = lasagne.objectives.aggregate(losses, weights, mode='normalized_sum')
-
-        updates = lasagne.updates.adadelta(loss, self.params, lr)
+        self.test = theano.function([questions, docs, y_true],
+                                    outputs=[self.bh] + updates.values(),
+                                    on_unused_input='ignore')
 
         # theano functions
-        self.classify = theano.function(inputs=[q_idxs, d_idxs],
-                                        outputs=y_pred,
-                                        on_unused_input='warn')
+        self.predict = theano.function(inputs=[questions, docs],
+                                       outputs=y_pred,
+                                       on_unused_input='warn')
 
-        self.train = theano.function(inputs=[q_idxs, d_idxs, y, lr],
-                                     outputs=loss,
+        self.train = theano.function(inputs=[questions, docs, y_true],
+                                     outputs=[y_pred, loss],
                                      updates=updates,
                                      on_unused_input='warn',
                                      allow_input_downcast=True)
 
-        self.normalize = theano.function(
-            inputs=[],
-            updates={self.emb: self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0,
-                                                                                         'x')})
+        normalized_embeddings = self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0, 'x')
+        self.normalize = theano.function(inputs=[],
+                                         updates={self.emb: normalized_embeddings})
 
     def save(self, folder):
         for param, name in zip(self.params, self.names):
             numpy.save(os.path.join(folder, name + '.npy'), param.get_value())
+
+
+if __name__ == '__main__':
+    rnn = Model()
+    questions = numpy.ones((3, 2), dtype='int32')
+    for result in rnn.test(questions, questions, questions):
+        print('-' * 10)
+        print(result)
+        # rnn.normalize()
