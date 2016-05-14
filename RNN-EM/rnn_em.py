@@ -6,8 +6,6 @@ import lasagne
 import numpy
 import os
 import theano
-from theano.ifelse import ifelse
-from theano.printing import Print
 from theano import tensor as T
 
 
