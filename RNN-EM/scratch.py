@@ -4,6 +4,8 @@ import theano.tensor as T
 from collections import namedtuple
 
 
+
+
 def norm(x):
     return T.sqrt(T.sum(T.sqr(x), axis=1))
 a = np.array([[0,0,0], [1,1,1]])

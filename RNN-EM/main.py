@@ -68,9 +68,13 @@ def get_bucket_idx(length, base):
     return np.math.ceil(np.math.log(length, base))
 
 
+""" namedtuples """
+
 Bucket = namedtuple("bucket", "questions documents targets")
 Datasets = namedtuple("data_sets", "train test valid")
 ConfusionMatrix = namedtuple("confusion_matrix", "f1 precision recall")
+
+""" classes """
 
 
 class Dataset:
@@ -183,7 +187,7 @@ class Data:
 
         print('Bucket allocation:')
         for i, dataset in enumerate(datasets):
-            print('Number of buckets', len(dataset.buckets))
+            print('\nNumber of buckets: ', len(dataset.buckets))
             for key in dataset.buckets:
                 print(key, len(dataset.buckets[key].questions))
             dataset.buckets = dataset.buckets.values()
@@ -312,6 +316,8 @@ if __name__ == '__main__':
             predictions, targets = [], []
             for bucket in data.sets[i].buckets:
                 if name == 'train':
+                    for x in bucket.__iter__():
+                        print(x.shape)
                     bucket_predictions, loss = rnn.train(*bucket)
                     rnn.normalize()
                     predictions.append(bucket_predictions)
