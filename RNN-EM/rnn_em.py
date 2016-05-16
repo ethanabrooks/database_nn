@@ -99,7 +99,7 @@ class Model(object):
         self.names = randoms.keys() + zeros.keys()
         self.params = [eval('self.' + name) for name in 'bh'.split()]
 
-        def recurrence(window, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
+        def recurrence(i, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
             """
             notes
             Headers from paper in all caps
@@ -120,10 +120,10 @@ class Model(object):
                 assert w_d is not None and M_d is not None
 
             # get representation of word window
-            # idxs = questions if is_question else docs  # [instances, bucket_width]
-            # pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
-            # padded = T.concatenate([pad, idxs, pad], axis=1)
-            # window = padded[:, i:i + window_size]  # [instances, window_size]
+            idxs = questions if is_question else docs  # [instances, bucket_width]
+            pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
+            padded = T.concatenate([pad, idxs, pad], axis=1)
+            window = padded[:, i:i + window_size]  # [instances, window_size]
             x_t = self.emb[window].flatten(ndim=2)  # [instances, window_size * embedding_dim]
 
             # EXTERNAL MEMORY READ
@@ -200,16 +200,14 @@ class Model(object):
 
         [_, h, w, M], _ = theano.scan(fn=ask_question,
                                       outputs_info=outputs_info,
-                                      # n_steps=questions.shape[1],
-                                      sequences=questions,
+                                      n_steps=questions.shape[1],
                                       name='ask_scan')
 
         outputs_info[1:] = [param[-1, :, :] for param in (h, w, M)]
 
         output, _ = theano.scan(fn=answer_question,
                                 outputs_info=outputs_info + [self.w_d, self.M_d],
-                                # n_steps=docs.shape[1],
-                                sequences=docs,
+                                n_steps=docs.shape[1],
                                 name='train_scan')
 
         y_dist = output[0].dimshuffle(2, 1, 0).flatten(ndim=2).T
