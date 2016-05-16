@@ -42,7 +42,7 @@ parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=1000,
+parser.add_argument('--num_questions', type=int, default=100000,
                     help='number of questions to use in Jeopardy dataset')
 parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
@@ -89,9 +89,8 @@ class Dataset:
         key = tuple(get_bucket_idx(array.size, s.bucket_factor)
                     for array in (question, document))
 
-        bucket = self.buckets[key]
         for i, array in enumerate((question, document, target)):
-            bucket[i].append(array)
+            self.buckets[key][i].append(array)
 
 
 class Data:
@@ -189,18 +188,27 @@ class Data:
 
         print('Bucket allocation:')
         for i, dataset in enumerate(datasets):
+            delete = []
             print('\nNumber of buckets: ', len(dataset.buckets))
             for key in dataset.buckets:
-                print(key, len(dataset.buckets[key].questions))
-            dataset.buckets = dataset.buckets.values()
-            dataset.buckets = [Bucket(*[np.array(data) for data in bucket.__iter__()])
-                               for bucket in dataset.buckets]
+                num_instances = len(dataset.buckets[key].questions)
+                if num_instances < 10:
+                    delete.append(key)
+                else:
+                    print(key, num_instances)
+
+            for key in delete:
+                del(dataset.buckets[key])
+
+            dataset.buckets = [Bucket(*map(np.array, [questions, docs, labels]))
+                               for questions, docs, labels in dataset.buckets.values()]
 
         self.vocsize = len(dic)
         self.nclasses = 3
         self.sets = Datasets(*datasets)
 
     def print_data_stats(self):
+        print
         print("size of dictionary:", self.vocsize)
         print("number of questions:", self.num_questions)
         print("size of training set", self.num_train)
@@ -279,7 +287,7 @@ def track_best(current_best, results, epoch):
         if key not in current_best or results[key] > current_best[key].value:
             current_best[key] = Score(results[key], epoch)
 
-            rnn.save(folder)
+            # rnn.save(folder)
             if key is 'F1':
                 if s.verbose:
                     print('\nNEW BEST F1: {0}\nEpoch\n'.format(*current_best[key]))
@@ -298,6 +306,8 @@ def track_best(current_best, results, epoch):
 
 if __name__ == '__main__':
     data = Data()
+    data.print_data_stats()
+
     rnn = Model(s.hidden_size,
                 data.nclasses,
                 data.vocsize,  # num_embeddings
@@ -311,20 +321,17 @@ if __name__ == '__main__':
         print('###\t{:10}{:10}{:10}{:10}###'
               .format('epoch', 'progress', 'loss', 'runtime'))
         start_time = time.time()
-        instances_processed = 0
-        best_scores = {name: {} for name in data.sets}
+        names = data.sets._fields
+        best_scores = {name: {} for name in names}
 
-        for i, name in enumerate(data.sets._fields):
+        for i, name in enumerate(names):
             predictions, targets = [], []
+            instances_processed = 0
             for bucket in data.sets[i].buckets:
                 if name == 'train':
                     questions, docs, _ = map(rnn.sliding_window, iter(bucket))
-                    print('bucket.targets.shape', bucket.targets.shape)
                     bucket_predictions, loss = rnn.train(questions, docs, bucket.targets)
                     rnn.normalize()
-                    predictions.append(bucket_predictions)
-                    # targets.extend(bucket.targets)
-
                     instances_processed += len(bucket_predictions)
                     print_progress(epoch,
                                    instances_processed,
@@ -333,7 +340,10 @@ if __name__ == '__main__':
                                    start_time)
                 else:
                     bucket_predictions = rnn.predict(bucket.questions, bucket.documents)
-                    predictions.append(bucket_predictions)
+                predictions.append(bucket_predictions)
+                targets.append(bucket.targets)
+            predictions, targets = (np.array(list_of_arrays).ravel()
+                                    for list_of_arrays in (predictions, targets))
             write_predictions_to_file(name, predictions, targets)
             confusion_matrix = evaluate(predictions, targets)
             print(name + " results:")

@@ -17,8 +17,7 @@ def cosine_dist(tensor, matrix):
     """
     matrix_norm = T.shape_padright(matrix.norm(2, axis=1))
     tensor_norm = tensor.norm(2, axis=1)
-    return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm + 1)
-
+    return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
 
 # noinspection PyPep8Naming
 class Model(object):
@@ -33,7 +32,7 @@ class Model(object):
 
 
         questions, docs = T.itensor3s('questions', 'docs')
-        y_true = T.imatrix('y_true')
+        y_true_matrix = T.imatrix('y_true')
 
         n_question_slots = int(n_memory_slots / 4)  # TODO derive this from an arg
         n_doc_slots = n_memory_slots - n_question_slots
@@ -154,6 +153,8 @@ class Model(object):
                 w_hat = cosine_dist(M, k)
                 w_hat = T.exp(beta * w_hat)
                 w_hat /= T.shape_padright(T.sum(w_hat, axis=1))  # [instances, mem]
+                w_hat = T.switch(T.isnan(w_hat), numpy.inf, w_hat)
+                w_hat = Print('w_hat')(w_hat)
 
                 # eqn 14
                 return (1 - g_t) * w + g_t * w_hat  # [instances, mem]
@@ -211,20 +212,20 @@ class Model(object):
                                 sequences=docs,
                                 name='train_scan')
 
-        output_ = Print('output[0].shape', ['shape'])(output[0])
-        y_pred = T.argmax(output_, axis=2).T
-        counts = T.extra_ops.bincount(y_true.ravel(), assert_nonneg=True)
+        y_dist = output[0].dimshuffle(2, 1, 0).flatten(ndim=2).T
+        y_true = y_true_matrix.ravel()
+        counts = T.extra_ops.bincount(y_true, assert_nonneg=True)
         weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
-        losses = T.nnet.binary_crossentropy(y_pred, y_true)
+        losses = T.nnet.categorical_crossentropy(y_dist, y_true)
         loss = lasagne.objectives.aggregate(losses, weights)
         updates = lasagne.updates.adadelta(loss, self.params)
 
         # theano functions
         self.predict = theano.function(inputs=[questions, docs],
-                                       outputs=y_pred)
+                                       outputs=y_dist.argmax(axis=1))
 
-        self.train = theano.function(inputs=[questions, docs, y_true],
-                                     outputs=[y_pred, loss],
+        self.train = theano.function(inputs=[questions, docs, y_true_matrix],
+                                     outputs=[y_dist, loss],
                                      updates=updates,
                                      allow_input_downcast=True)
 
