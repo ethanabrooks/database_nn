@@ -10,7 +10,7 @@ rnn = Model(hidden_size=100,
             nclasses=3,
             num_embeddings=30,
             embedding_dim=100,
-            window_radius=7,
+            window_size=7,
             memory_size=4,
             n_memory_slots=8)
 

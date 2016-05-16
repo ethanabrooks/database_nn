@@ -2,6 +2,7 @@ from __future__ import print_function
 from __future__ import print_function
 import argparse
 import copy
+from functools import partial
 
 import re
 
@@ -13,6 +14,7 @@ import os
 import random
 from collections import namedtuple
 from collections import defaultdict
+import rnn_em
 from rnn_em import Model
 from is13.data import load
 from is13.metrics.accuracy import conlleval
@@ -62,11 +64,11 @@ ANSWER_VALUE = 2
 
 root_dir = "../data/"
 s.best_f1 = -np.inf
+assert s.window_size % 2 == 1, "`window_size` must be an odd number."
 
 
 def get_bucket_idx(length, base):
     return np.math.ceil(np.math.log(length, base))
-
 
 """ namedtuples """
 
@@ -316,12 +318,12 @@ if __name__ == '__main__':
             predictions, targets = [], []
             for bucket in data.sets[i].buckets:
                 if name == 'train':
-                    for x in bucket.__iter__():
-                        print(x.shape)
-                    bucket_predictions, loss = rnn.train(*bucket)
+                    questions, docs, _ = map(rnn.sliding_window, iter(bucket))
+                    print('bucket.targets.shape', bucket.targets.shape)
+                    bucket_predictions, loss = rnn.train(questions, docs, bucket.targets)
                     rnn.normalize()
                     predictions.append(bucket_predictions)
-                    # targets.append(bucket[2]) TODO
+                    # targets.extend(bucket.targets)
 
                     instances_processed += len(bucket_predictions)
                     print_progress(epoch,

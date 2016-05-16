@@ -7,6 +7,7 @@ import numpy
 import os
 import theano
 from theano import tensor as T
+from theano.printing import Print
 
 
 def cosine_dist(tensor, matrix):
@@ -26,26 +27,31 @@ class Model(object):
                  nclasses=3,
                  num_embeddings=100,
                  embedding_dim=2,
-                 window_radius=1,
+                 window_size=7,
                  memory_size=6,
                  n_memory_slots=8):
 
-        questions, docs, y_true = T.imatrices(3)
-        window_diameter = window_radius * 2 + 1
+
+        questions, docs = T.itensor3s('questions', 'docs')
+        y_true = T.imatrix('y_true')
+
         n_question_slots = int(n_memory_slots / 4)  # TODO derive this from an arg
-        n_doc_slots = n_memory_slots - n_question_slots  # TODO derive this from an arg
+        n_doc_slots = n_memory_slots - n_question_slots
+        n_instances = questions.shape[1]
+
+        self.window_size = window_size
 
         randoms = {
             # attr: shape
             'emb': (num_embeddings + 1, embedding_dim),
-            'Wg_q': (window_diameter * embedding_dim, n_question_slots),
-            'Wg_d': (window_diameter * embedding_dim, n_doc_slots),
+            'Wg_q': (window_size * embedding_dim, n_question_slots),
+            'Wg_d': (window_size * embedding_dim, n_doc_slots),
             'Wk': (hidden_size, memory_size),
             'Wb': (hidden_size, 1),
             'Wv': (hidden_size, memory_size),
             'We_q': (hidden_size, n_question_slots),
             'We_d': (hidden_size, n_doc_slots),
-            'Wx': (window_diameter * embedding_dim, hidden_size),
+            'Wx': (window_size * embedding_dim, hidden_size),
             'Wh': (memory_size, hidden_size),
             'W': (hidden_size, nclasses),
             'h0': hidden_size,
@@ -86,7 +92,7 @@ class Model(object):
 
         def repeat_for_each_instance(param):
             """ repeat param along new axis once for each instance """
-            return T.repeat(T.shape_padleft(param), repeats=questions.shape[0], axis=0)
+            return T.repeat(T.shape_padleft(param), repeats=n_instances, axis=0)
 
         for key in 'h0 w_q M_q w_d M_d'.split():
             setattr(self, key, repeat_for_each_instance(self.__getattribute__(key)))
@@ -94,7 +100,7 @@ class Model(object):
         self.names = randoms.keys() + zeros.keys()
         self.params = [eval('self.' + name) for name in 'bh'.split()]
 
-        def recurrence(i, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
+        def recurrence(window, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
             """
             notes
             Headers from paper in all caps
@@ -115,11 +121,11 @@ class Model(object):
                 assert w_d is not None and M_d is not None
 
             # get representation of word window
-            idxs = questions if is_question else docs  # [instances, bucket_width]
-            pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
-            padded = T.concatenate([pad, idxs, pad], axis=1)
-            window = padded[:, i:i + window_diameter]  # [instances, window_diameter]
-            x_t = self.emb[window].flatten(ndim=2)  # [instances, window_diameter * embedding_dim]
+            # idxs = questions if is_question else docs  # [instances, bucket_width]
+            # pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
+            # padded = T.concatenate([pad, idxs, pad], axis=1)
+            # window = padded[:, i:i + window_size]  # [instances, window_size]
+            x_t = self.emb[window].flatten(ndim=2)  # [instances, window_size * embedding_dim]
 
             # EXTERNAL MEMORY READ
             # eqn 15
@@ -185,25 +191,28 @@ class Model(object):
             if not is_question:
                 M_d = update_memory(self.We_d, self.be_d, w_d, M_d)
                 attention_and_memory += [w_d, M_d]
-            return [y_t, i + 1, h_t] + attention_and_memory
+            return [y_t, h_t] + attention_and_memory
 
-        outputs_info = [None, T.constant(0), self.h0, self.w_q, self.M_q]
+        outputs_info = [None, self.h0, self.w_q, self.M_q]
         ask_question = partial(recurrence, is_question=True)
         answer_question = partial(recurrence, is_question=False)
 
-        [_, _, h, w, M], _ = theano.scan(fn=ask_question,
-                                         outputs_info=outputs_info,
-                                         n_steps=questions.shape[1],
-                                         name='ask_scan')
+        [_, h, w, M], _ = theano.scan(fn=ask_question,
+                                      outputs_info=outputs_info,
+                                      # n_steps=questions.shape[1],
+                                      sequences=questions,
+                                      name='ask_scan')
 
-        outputs_info[2:] = [param[-1, :, :] for param in (h, w, M)]
+        outputs_info[1:] = [param[-1, :, :] for param in (h, w, M)]
 
         output, _ = theano.scan(fn=answer_question,
                                 outputs_info=outputs_info + [self.w_d, self.M_d],
-                                n_steps=docs.shape[1],
+                                # n_steps=docs.shape[1],
+                                sequences=docs,
                                 name='train_scan')
 
-        y_pred = T.argmax(output[0], axis=2).T
+        output_ = Print('output[0].shape', ['shape'])(output[0])
+        y_pred = T.argmax(output_, axis=2).T
         counts = T.extra_ops.bincount(y_true.ravel(), assert_nonneg=True)
         weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
         losses = T.nnet.binary_crossentropy(y_pred, y_true)
@@ -212,13 +221,11 @@ class Model(object):
 
         # theano functions
         self.predict = theano.function(inputs=[questions, docs],
-                                       outputs=y_pred,
-                                       on_unused_input='warn')
+                                       outputs=y_pred)
 
         self.train = theano.function(inputs=[questions, docs, y_true],
                                      outputs=[y_pred, loss],
                                      updates=updates,
-                                     on_unused_input='warn',
                                      allow_input_downcast=True)
 
         self.test = self.train
@@ -226,6 +233,25 @@ class Model(object):
         normalized_embeddings = self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0, 'x')
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb: normalized_embeddings})
+
+    def sliding_window(self, matrix):
+        """
+        :param matrix: 2D tensor. See example, below.
+        :return 3D tensor:
+
+        matrix       padded          returns
+        [0 1 2]      [0 0 1 2 0]     [ [0 0 1]  [0 1 2]  [1 2 0]
+        [3 4 5]  =>  [0 3 4 5 0]  =>   [0 3 4]  [3 4 5]  [4 5 0]
+        [6 7 8]      [0 6 7 8 0]       [0 6 7]  [6 7 8]  [7 8 0] ]
+        """
+        window_idxs = numpy.fromfunction(lambda i, j: i + j,
+                                         (matrix.shape[1], self.window_size),
+                                         dtype='int32')
+        radius = self.window_size // 2
+        padded = numpy.pad(matrix,
+                           pad_width=[(0, 0), (radius, radius)],
+                           mode='constant')
+        return numpy.swapaxes(padded.T[window_idxs], 1, 2)
 
     def save(self, folder):
         for param, name in zip(self.params, self.names):
@@ -236,7 +262,12 @@ if __name__ == '__main__':
     rnn = Model()
     questions = numpy.ones((10, 64), dtype='int32')
     docs = numpy.ones((10, 256), dtype='int32')
-    for result in rnn.test(questions, docs, docs):
+
+    questions, docs_windows = map(rnn.sliding_window, (questions, docs))
+    print("questions", questions.shape)  # [words/instance, n_instances, window_size]
+    print("docs", docs_windows.shape)  # [words/instance, n_instances, window_size]
+    print("targets", docs.shape)  # [n_instances, words/instance]
+    for result in rnn.test(questions, docs_windows, docs):
         print('-' * 10)
         print(result)
     rnn.normalize()

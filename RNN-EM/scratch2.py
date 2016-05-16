@@ -3,19 +3,19 @@ import theano
 import theano.tensor as T
 from collections import namedtuple
 
+word_per_instance = 2
+window_size = 4
+nclasses = 3
 
-def sliding_window(matrix, window_radius):
-    window_diameter = 1 + window_radius * 2
-    window_idxs = np.fromfunction(lambda i, j: i + j,
-                                  (matrix.shape[1], window_diameter),
-                                  dtype='int32')
-    padded = np.pad(matrix,
-                    pad_width=[(0, 0), (window_radius, window_radius)],
-                    mode='constant')
-    return np.swapaxes(padded.T[window_idxs], 1, 2)
+y_pred = T.constant(np.random.randint(0, 3, (word_per_instance,
+                                             window_size, nclasses)))
+y_true = T.constant(np.random.randint(0, 3, (window_size, word_per_instance)))
 
-print(sliding_window(np.arange(20).reshape((5,4)), 2))
+y_pred_flatten = y_pred.dimshuffle(2, 1, 0).flatten(ndim=2).T
 
-# x = np.arange(9).reshape((3,3))
-# y = np.array([[0, 1], [1, 2]])
-# print(x[y])
+f = theano.function([], [y_pred, y_pred_flatten, y_true, y_true.ravel()])
+for whatever in f():
+    print('-' * 10)
+    print(whatever)
+
+losses = T.nnet.binary_crossentropy(y_pred, y_true)
