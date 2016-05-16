@@ -42,7 +42,7 @@ parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=100000,
+parser.add_argument('--num_questions', type=int, default=1000,
                     help='number of questions to use in Jeopardy dataset')
 parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
@@ -69,6 +69,7 @@ assert s.window_size % 2 == 1, "`window_size` must be an odd number."
 
 def get_bucket_idx(length, base):
     return np.math.ceil(np.math.log(length, base))
+
 
 """ namedtuples """
 
@@ -103,16 +104,15 @@ class Data:
         # load the dataset
         # tokenizer = English(parser=False)
 
-        datasets = [Dataset(percent=p) for p in (.7,  # train
-                                                 .2,  # test
-                                                 .1)]  # valid
-        train = datasets[0]
+        datasets = Datasets(*[Dataset(percent=p) for p in (.7,    # train
+                                                           .2,    # test
+                                                           .1)])  # valid
         dic = {'*': 0}
 
         def choose_dataset():
             random_num = random.random()
-            datasets.sort(key=lambda ds: ds.percent)  # sort by percent
-            for dataset in datasets:
+            # sort by percent
+            for dataset in sorted(datasets, key=lambda ds: ds.percent):
                 if random_num < dataset.percent:
                     return dataset
                 random_num -= dataset.percent
@@ -156,10 +156,10 @@ class Data:
                 if new_question:
                     self.num_questions += 1
                     if s.debug:
-                        dataset = train
+                        dataset = datasets.train
                     else:
                         dataset = choose_dataset()
-                    if dataset == train:
+                    if dataset == datasets.train:
                         self.num_train += 1
 
                     question = to_array(line)
@@ -184,10 +184,10 @@ class Data:
                         break
 
         if s.debug:
-            datasets = [train] * 3
+            datasets = Datasets(*[datasets.train] * 3)
 
         print('Bucket allocation:')
-        for i, dataset in enumerate(datasets):
+        for dataset in datasets:
             delete = []
             print('\nNumber of buckets: ', len(dataset.buckets))
             for key in dataset.buckets:
@@ -205,11 +205,10 @@ class Data:
 
         self.vocsize = len(dic)
         self.nclasses = 3
-        self.sets = Datasets(*datasets)
+        self.sets = datasets
 
     def print_data_stats(self):
-        print
-        print("size of dictionary:", self.vocsize)
+        print("\nsize of dictionary:", self.vocsize)
         print("number of questions:", self.num_questions)
         print("size of training set", self.num_train)
 
@@ -220,20 +219,18 @@ def evaluate(predictions, targets):
     @:param targets: list of targets
     @:return dictionary with entries 'f1'
     """
-    measures = np.zeros(3)
 
-    for prediction, target in zip(predictions, targets):
-        prediction, target = (t == np.zeros_like(t) + 2
-                              for t in (prediction, target))
+    predictions, targets = (np.array(list_of_arrays).ravel()
+                            for list_of_arrays in (predictions, targets))
+    metrics = np.zeros(3)
 
-        def confusion((pred_is_pos, tgt_is_pos)):
-            return np.logical_and(prediction == pred_is_pos,
-                                  target == tgt_is_pos).sum()
+    def confusion((pred_is_pos, tgt_is_pos)):
+        return np.logical_and((predictions == ANSWER_VALUE) == pred_is_pos,
+                              (targets == ANSWER_VALUE) == tgt_is_pos).sum()
 
-        tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
-        measures += np.array((tp, fp, fn))
-
-    tp, fp, fn = measures
+    tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
+    metrics += np.array((tp, fp, fn))
+    tp, fp, fn = metrics
     precision = tp / (tp + fp)
     recall = tp / (tp + fn)
     f1 = 2 * precision * recall / (precision + recall)
@@ -281,16 +278,17 @@ def write_predictions_to_file(dataset_name, targets, predictions):
                     handle.write('\n')
 
 
-def track_best(current_best, results, epoch):
+def track_best(best_scores, confusion_matrix, epoch):
     Score = namedtuple("score", "value epoch")
-    for key in results._fields:
-        if key not in current_best or results[key] > current_best[key].value:
-            current_best[key] = Score(results[key], epoch)
+    for key in confusion_matrix._fields:
+        result = confusion_matrix.__getattribute__(key)
+        if key not in best_scores or result > best_scores[key].value:
+            best_scores[key] = Score(result, epoch)
 
             # rnn.save(folder)
             if key is 'F1':
                 if s.verbose:
-                    print('\nNEW BEST F1: {0}\nEpoch\n'.format(*current_best[key]))
+                    print('\nNEW BEST F1: {0}\nEpoch\n'.format(*best_scores[key]))
                     sys.stdout.flush()
 
                 for dataset in ('test', 'valid'):
@@ -298,10 +296,15 @@ def track_best(current_best, results, epoch):
                     subprocess.call(command.split())
         else:
             if s.verbose:
-                print(results)
+                print(confusion_matrix)
                 sys.stdout.flush()
 
-    print('BEST RESULT:', current_best)
+    print("{:15}{:10}{:10}".format('best result', 'score', 'epoch'))
+    for key in best_scores:
+        best_score = best_scores[key]
+        print("{:16}{:<10.2f}{:<10.2f}".format(key + ':',
+                                               best_score.value,
+                                               best_score.epoch))
 
 
 if __name__ == '__main__':
@@ -322,29 +325,26 @@ if __name__ == '__main__':
               .format('epoch', 'progress', 'loss', 'runtime'))
         start_time = time.time()
         names = data.sets._fields
-        best_scores = {name: {} for name in names}
+        best_scores = {name: dict() for name in names}
 
         for i, name in enumerate(names):
             predictions, targets = [], []
             instances_processed = 0
             for bucket in data.sets[i].buckets:
                 if name == 'train':
-                    questions, docs, _ = map(rnn.sliding_window, iter(bucket))
-                    bucket_predictions, loss = rnn.train(questions, docs, bucket.targets)
+                    bucket_predictions, loss = rnn.train(*bucket)
                     rnn.normalize()
-                    instances_processed += len(bucket_predictions)
+                    instances_processed += bucket.questions.shape[0]
                     print_progress(epoch,
                                    instances_processed,
-                                   data.num_questions,
+                                   data.num_train,
                                    loss,
                                    start_time)
                 else:
                     bucket_predictions = rnn.predict(bucket.questions, bucket.documents)
                 predictions.append(bucket_predictions)
                 targets.append(bucket.targets)
-            predictions, targets = (np.array(list_of_arrays).ravel()
-                                    for list_of_arrays in (predictions, targets))
             write_predictions_to_file(name, predictions, targets)
             confusion_matrix = evaluate(predictions, targets)
-            print(name + " results:")
+            print("\n" + name.upper())
             track_best(best_scores[name], confusion_matrix, epoch)

@@ -2,6 +2,7 @@ from __future__ import print_function
 
 from functools import partial
 
+import sys
 import lasagne
 import numpy
 import os
@@ -17,7 +18,9 @@ def cosine_dist(tensor, matrix):
     """
     matrix_norm = T.shape_padright(matrix.norm(2, axis=1))
     tensor_norm = tensor.norm(2, axis=1)
-    return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
+    dist = T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
+    return T.switch(T.isnan(dist), sys.float_info.max, dist)
+
 
 # noinspection PyPep8Naming
 class Model(object):
@@ -30,13 +33,12 @@ class Model(object):
                  memory_size=6,
                  n_memory_slots=8):
 
-
-        questions, docs = T.itensor3s('questions', 'docs')
+        questions, docs = T.imatrices('questions', 'docs')
         y_true_matrix = T.imatrix('y_true')
 
         n_question_slots = int(n_memory_slots / 4)  # TODO derive this from an arg
         n_doc_slots = n_memory_slots - n_question_slots
-        n_instances = questions.shape[1]
+        n_instances = questions.shape[0]
 
         self.window_size = window_size
 
@@ -121,7 +123,7 @@ class Model(object):
 
             # get representation of word window
             idxs = questions if is_question else docs  # [instances, bucket_width]
-            pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
+            pad = T.zeros((idxs.shape[0], self.window_size // 2), dtype='int32')
             padded = T.concatenate([pad, idxs, pad], axis=1)
             window = padded[:, i:i + window_size]  # [instances, window_size]
             x_t = self.emb[window].flatten(ndim=2)  # [instances, window_size * embedding_dim]
@@ -150,11 +152,8 @@ class Model(object):
                 beta = T.addbroadcast(beta, 1)  # [instances, 1]
 
                 # eqn 12
-                w_hat = cosine_dist(M, k)
-                w_hat = T.exp(beta * w_hat)
-                w_hat /= T.shape_padright(T.sum(w_hat, axis=1))  # [instances, mem]
-                w_hat = T.switch(T.isnan(w_hat), numpy.inf, w_hat)
-                w_hat = Print('w_hat')(w_hat)
+                dists = cosine_dist(M, k)
+                w_hat = T.nnet.softmax(beta * dists)
 
                 # eqn 14
                 return (1 - g_t) * w + g_t * w_hat  # [instances, mem]
@@ -192,18 +191,18 @@ class Model(object):
             if not is_question:
                 M_d = update_memory(self.We_d, self.be_d, w_d, M_d)
                 attention_and_memory += [w_d, M_d]
-            return [y_t, h_t] + attention_and_memory
+            return [y_t, i + 1, h_t] + attention_and_memory
 
-        outputs_info = [None, self.h0, self.w_q, self.M_q]
+        outputs_info = [None, T.constant(0, dtype='int32'), self.h0, self.w_q, self.M_q]
         ask_question = partial(recurrence, is_question=True)
         answer_question = partial(recurrence, is_question=False)
 
-        [_, h, w, M], _ = theano.scan(fn=ask_question,
-                                      outputs_info=outputs_info,
-                                      n_steps=questions.shape[1],
-                                      name='ask_scan')
+        [_, _, h, w, M], _ = theano.scan(fn=ask_question,
+                                         outputs_info=outputs_info,
+                                         n_steps=questions.shape[1],
+                                         name='ask_scan')
 
-        outputs_info[1:] = [param[-1, :, :] for param in (h, w, M)]
+        outputs_info[2:] = [param[-1, :, :] for param in (h, w, M)]
 
         output, _ = theano.scan(fn=answer_question,
                                 outputs_info=outputs_info + [self.w_d, self.M_d],
@@ -211,19 +210,21 @@ class Model(object):
                                 name='train_scan')
 
         y_dist = output[0].dimshuffle(2, 1, 0).flatten(ndim=2).T
+        y_pred = y_dist.argmax(axis=1)
         y_true = y_true_matrix.ravel()
         counts = T.extra_ops.bincount(y_true, assert_nonneg=True)
         weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
+
         losses = T.nnet.categorical_crossentropy(y_dist, y_true)
         loss = lasagne.objectives.aggregate(losses, weights)
         updates = lasagne.updates.adadelta(loss, self.params)
 
         # theano functions
         self.predict = theano.function(inputs=[questions, docs],
-                                       outputs=y_dist.argmax(axis=1))
+                                       outputs=y_pred)
 
         self.train = theano.function(inputs=[questions, docs, y_true_matrix],
-                                     outputs=[y_dist, loss],
+                                     outputs=[y_pred, loss],
                                      updates=updates,
                                      allow_input_downcast=True)
 
@@ -232,25 +233,6 @@ class Model(object):
         normalized_embeddings = self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0, 'x')
         self.normalize = theano.function(inputs=[],
                                          updates={self.emb: normalized_embeddings})
-
-    def sliding_window(self, matrix):
-        """
-        :param matrix: 2D tensor. See example, below.
-        :return 3D tensor:
-
-        matrix       padded          returns
-        [0 1 2]      [0 0 1 2 0]     [ [0 0 1]  [0 1 2]  [1 2 0]
-        [3 4 5]  =>  [0 3 4 5 0]  =>   [0 3 4]  [3 4 5]  [4 5 0]
-        [6 7 8]      [0 6 7 8 0]       [0 6 7]  [6 7 8]  [7 8 0] ]
-        """
-        window_idxs = numpy.fromfunction(lambda i, j: i + j,
-                                         (matrix.shape[1], self.window_size),
-                                         dtype='int32')
-        radius = self.window_size // 2
-        padded = numpy.pad(matrix,
-                           pad_width=[(0, 0), (radius, radius)],
-                           mode='constant')
-        return numpy.swapaxes(padded.T[window_idxs], 1, 2)
 
     def save(self, folder):
         for param, name in zip(self.params, self.names):
@@ -261,12 +243,7 @@ if __name__ == '__main__':
     rnn = Model()
     questions = numpy.ones((10, 64), dtype='int32')
     docs = numpy.ones((10, 256), dtype='int32')
-
-    questions, docs_windows = map(rnn.sliding_window, (questions, docs))
-    print("questions", questions.shape)  # [words/instance, n_instances, window_size]
-    print("docs", docs_windows.shape)  # [words/instance, n_instances, window_size]
-    print("targets", docs.shape)  # [n_instances, words/instance]
-    for result in rnn.test(questions, docs_windows, docs):
+    for result in rnn.test(questions, docs, docs):
         print('-' * 10)
         print(result)
     rnn.normalize()
