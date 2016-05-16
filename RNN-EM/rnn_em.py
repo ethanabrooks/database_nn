@@ -18,11 +18,23 @@ def cosine_dist(tensor, matrix):
     """
     matrix_norm = T.shape_padright(matrix.norm(2, axis=1))
     tensor_norm = tensor.norm(2, axis=1)
-    dist = T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
-    return T.switch(T.isnan(dist), sys.float_info.max, dist)
+    return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
 
 
-# noinspection PyPep8Naming
+def replace_nans(tensor):
+    """
+    convert nans and infs to float_max.
+    convert -infs to float_min.
+    """
+    tensor = T.switch(T.isnan(tensor), sys.float_info.max, tensor)
+    return T.switch(T.isinf(tensor),
+                    T.switch(T.lt(tensor, 0),
+                             sys.float_info.min,
+                             sys.float_info.max),
+                    tensor)
+
+
+# noinspection PyPep8Naming,PyUnresolvedReferences
 class Model(object):
     def __init__(self,
                  hidden_size=4,
@@ -138,6 +150,8 @@ class Model(object):
                 M_read = T.concatenate([M_q, M_d], axis=2)  # [instances, memory_size, n_doc_slots]
                 w_read = T.concatenate([w_q, w_d], axis=1)  # [instances, n_doc_slots]
 
+            # M_read = Print('M_read')(M_read)
+            # w_read = Print('w_read')(w_read)
             c = T.batched_dot(M_read, w_read)  # [instances, memory_size]
 
             def get_attention(Wg, bg, M, w):
@@ -147,13 +161,12 @@ class Model(object):
                 k = T.dot(h_tm1, self.Wk) + self.bk  # [instances, memory_size]
 
                 # eqn 13
-                beta_pre = T.dot(h_tm1, self.Wb) + self.bb
-                beta = T.log(1 + T.exp(beta_pre))
+                beta = T.dot(h_tm1, self.Wb) + self.bb
+                beta = T.log(1 + T.exp(beta))
                 beta = T.addbroadcast(beta, 1)  # [instances, 1]
 
                 # eqn 12
-                dists = cosine_dist(M, k)
-                w_hat = T.nnet.softmax(beta * dists)
+                w_hat = T.nnet.softmax(replace_nans(beta * cosine_dist(M, k)))
 
                 # eqn 14
                 return (1 - g_t) * w + g_t * w_hat  # [instances, mem]

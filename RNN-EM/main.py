@@ -48,7 +48,7 @@ parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
 
-print('*' * 80)
+print('-' * 80)
 print(s)
 
 """ Globals """
@@ -210,7 +210,7 @@ class Data:
     def print_data_stats(self):
         print("\nsize of dictionary:", self.vocsize)
         print("number of questions:", self.num_questions)
-        print("size of training set", self.num_train)
+        print("size of training set:", self.num_train)
 
 
 def evaluate(predictions, targets):
@@ -236,27 +236,6 @@ def evaluate(predictions, targets):
     f1 = 2 * precision * recall / (precision + recall)
 
     return ConfusionMatrix(f1, precision, recall)
-
-
-# def train_model():
-#     # TODO: shuffle inputs without breaking connection between question and answer
-#     # shuffle([train.inputs, train.targets], s.seed)
-#     s.current_epoch = epoch
-#     for i, bucket in enumerate(train.buckets):
-#         for instance in bucket:
-#             # context_words = contextwin(train.inputs[i], s.window_size)
-#             question, document = ([np.asarray(window, dtype='int32')
-#                                    for window in contextwin(words, s.window_size)]
-#                                   for words in (instance.question, instance.document))
-#
-#             # minibatch(context_words, s.batch_size)]
-#             # for word_batch, label in zip(words, train.targets[i]):
-#
-#             # reset memory?
-#             labels = instance.targets
-#             # words = np.array(context_words, dtype='int32')
-#             loss = rnn.train(question, document, labels, s.learn_rate)
-#             # rnn.normalize() ???????
 
 
 def print_progress(epoch, questions_processed, num_questions, loss, start_time):
@@ -327,10 +306,10 @@ if __name__ == '__main__':
         names = data.sets._fields
         best_scores = {name: dict() for name in names}
 
-        for i, name in enumerate(names):
+        for name in names:
             predictions, targets = [], []
             instances_processed = 0
-            for bucket in data.sets[i].buckets:
+            for bucket in data.sets.__getattribute__(name).buckets:
                 if name == 'train':
                     bucket_predictions, loss = rnn.train(*bucket)
                     rnn.normalize()
