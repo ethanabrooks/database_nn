@@ -3,14 +3,19 @@ import theano
 import theano.tensor as T
 from collections import namedtuple
 
-def f(a, b):
-    return a+b
 
-print('a, b'.split())
+def sliding_window(matrix, window_radius):
+    window_diameter = 1 + window_radius * 2
+    window_idxs = np.fromfunction(lambda i, j: i + j,
+                                  (matrix.shape[1], window_diameter),
+                                  dtype='int32')
+    padded = np.pad(matrix,
+                    pad_width=[(0, 0), (window_radius, window_radius)],
+                    mode='constant')
+    return np.swapaxes(padded.T[window_idxs], 1, 2)
 
-"""
-3D x 1D: innermost dimmension
-3D x 2D: innermost dimmension
-"""
+print(sliding_window(np.arange(20).reshape((5,4)), 2))
 
-print(np.inf/np.inf)
+# x = np.arange(9).reshape((3,3))
+# y = np.array([[0, 1], [1, 2]])
+# print(x[y])
