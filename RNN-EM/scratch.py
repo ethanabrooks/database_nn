@@ -8,5 +8,9 @@ import theano.tensor as T
 from collections import namedtuple
 from theano.ifelse import ifelse
 
-print(np.random.randint(0, high=3, size=(2,3), dtype='int32'))
+y = 999999
+x = T.iscalar()
+f = theano.function([x], [T.exp(x)])
+print(f(y))
+
 

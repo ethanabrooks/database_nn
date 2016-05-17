@@ -19,7 +19,9 @@ def cosine_dist(tensor, matrix):
     """
     matrix_norm = T.shape_padright(matrix.norm(2, axis=1))
     tensor_norm = tensor.norm(2, axis=1)
-    return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
+    norm_ = (matrix_norm * tensor_norm)
+    norm_ = Print('norm_')(norm_)
+    return T.batched_dot(matrix, tensor) / norm_
 
 
 # noinspection PyPep8Naming,PyUnresolvedReferences
@@ -30,7 +32,7 @@ class Model(object):
                  num_embeddings=11359,
                  embedding_dim=100,
                  window_size=7,
-                 memory_size=16,
+                 memory_size=40,
                  n_memory_slots=8):
 
         questions, docs = T.imatrices('questions', 'docs')
@@ -127,10 +129,42 @@ class Model(object):
             padded = T.concatenate([pad, idxs, pad], axis=1)
             window = padded[:, i:i + window_size]  # [instances, window_size]
             x_t = self.emb[window].flatten(ndim=2)  # [instances, window_size * embedding_dim]
+            x_t = Print('x_t')(x_t)
 
             # EXTERNAL MEMORY READ
             # eqn 15
 
+            def get_attention(Wg, bg, M, w):
+                g_t = T.nnet.sigmoid(T.dot(x_t, Wg) + bg)  # [instances, mem]
+                g_t = Print('g_t')(g_t)
+
+                # eqn 11
+                k = T.dot(h_tm1, self.Wk) + self.bk  # [instances, memory_size]
+                k = Print('k')(k)
+
+                # eqn 13
+                h_tm1_ = Print('h_tm1')(h_tm1)
+                bb = Print('self.bb')(self.bb)
+                Wb = Print('self.Wb')(self.Wb)
+                beta = T.dot(h_tm1_, Wb) + bb
+                beta = T.log(1 + T.exp(beta))
+                beta = T.addbroadcast(beta, 1)  # [instances, 1]
+                beta = Print('beta')(beta)
+
+                # eqn 12
+                w_hat = T.nnet.softmax(beta * cosine_dist(M, k))
+                w_hat = Print('w_hat')(w_hat)
+
+                # eqn 14
+                return (1 - g_t) * w + g_t * w_hat  # [instances, mem]
+
+            w_q = get_attention(self.Wg_q, self.bg_q, M_q, w_q)  # [instances, n_question_slots]
+            w_q = Print('w_q')(w_q)
+            if not is_question:
+                w_d = get_attention(self.Wg_d, self.bg_d, M_d, w_d)  # [instances, n_doc_slots]
+
+            # MODEL INPUT AND OUTPUT
+            # eqn 9
             if is_question:
                 M_read = M_q  # [instances, memory_size, n_question_slots]
                 w_read = w_q  # [instances, n_question_slots]
@@ -138,46 +172,27 @@ class Model(object):
                 M_read = T.concatenate([M_q, M_d], axis=2)  # [instances, memory_size, n_doc_slots]
                 w_read = T.concatenate([w_q, w_d], axis=1)  # [instances, n_doc_slots]
 
-            # M_read = Print('M_read')(M_read)
-            # w_read = Print('w_read')(w_read)
             c = T.batched_dot(M_read, w_read)  # [instances, memory_size]
+            c = Print('c')(c)
 
-            def get_attention(Wg, bg, M, w):
-                g_t = T.nnet.sigmoid(T.dot(x_t, Wg) + bg)  # [instances, mem]
-
-                # eqn 11
-                k = T.dot(h_tm1, self.Wk) + self.bk  # [instances, memory_size]
-
-                # eqn 13
-                beta = T.dot(h_tm1, self.Wb) + self.bb
-                beta = T.log(1 + T.exp(beta))
-                beta = T.addbroadcast(beta, 1)  # [instances, 1]
-
-                # eqn 12
-                w_hat = T.nnet.softmax(beta * cosine_dist(M, k))
-
-                # eqn 14
-                return (1 - g_t) * w + g_t * w_hat  # [instances, mem]
-
-            w_q = get_attention(self.Wg_q, self.bg_q, M_q, w_q)  # [instances, n_question_slots]
-            if not is_question:
-                w_d = get_attention(self.Wg_d, self.bg_d, M_d, w_d)  # [instances, n_doc_slots]
-
-            # MODEL INPUT AND OUTPUT
-            # eqn 9
             h_t = T.dot(x_t, self.Wx) + T.dot(c, self.Wh) + self.bh  # [instances, hidden_size]
+            h_t = Print('h_t')(h_t)
 
             # eqn 10
             y_t = T.nnet.softmax(T.dot(h_t, self.W) + self.b)  # [instances, nclasses]
+            y_t = Print('y_t')(y_t)
 
             # EXTERNAL MEMORY UPDATE
             def update_memory(We, be, w_update, M_update):
                 # eqn 17
                 e = T.nnet.sigmoid(T.dot(h_tm1, We) + be)  # [instances, mem]
+                e = Print('e')(e)
                 f = 1. - w_update * e  # [instances, mem]
+                f = Print('f')(f)
 
                 # eqn 16
                 v_t = T.dot(h_t, self.Wv) + self.bv  # [instances, memory_size]
+                v_t = Print('v_t')(v_t)
 
                 # need to add broadcast layers for memory update
                 f_t = f.dimshuffle(0, 'x', 1)  # [instances, 1, mem]
@@ -188,6 +203,7 @@ class Model(object):
                 return M_update * f_t + T.batched_dot(v_t, u_t)  # [instances, memory_size, mem]
 
             M_q = update_memory(self.We_q, self.be_q, w_q, M_q)
+            M_q = Print('M_q')(M_q)
             attention_and_memory = [w_q, M_q]
             if not is_question:
                 M_d = update_memory(self.We_d, self.be_d, w_d, M_d)
@@ -245,6 +261,8 @@ class Model(object):
 
 
 if __name__ == '__main__':
+    numpy.random.seed(0)
+
     rnn = Model()
     questions = numpy.loadtxt("questions.npy")
     docs = numpy.loadtxt("documents.npy")
