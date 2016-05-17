@@ -1,5 +1,10 @@
+from __future__ import print_function
+from __future__ import print_function
 import argparse
 import copy
+from functools import partial
+
+import math
 
 import re
 
@@ -9,50 +14,110 @@ import sys
 import subprocess
 import os
 import random
-from rnn_em import model
-from spacy import English
+from collections import namedtuple
+from collections import defaultdict
+import rnn_em
+from rnn_em import Model
 from is13.data import load
 from is13.metrics.accuracy import conlleval
 from is13.utils.tools import shuffle, minibatch, contextwin
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--debug', help='Set test = train = valid',
-            action='store_true')
-    parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
-    parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
-    parser.add_argument('--emb_size', type=int, default=100, help='Embedding size')
-    parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
-    parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
-    parser.add_argument('--seed', type=int, default=345, help='Seed')
-    parser.add_argument('--bs', type=int, default=64, help='Number of backprop through time steps')
-    parser.add_argument('--win', type=int, default=7, help='Number of words in context window')
-    parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
-    parser.add_argument('--lr', type=float, default=0.0627142536696559, help='Learning rate')
-    parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
-    parser.add_argument('--decay', type=int, default=0, help='Decay lr or not')
-    parser.add_argument('--dataset', type=str, default='jeopardy', help='select dataset [atis|Jeopardy]')
-    parser.add_argument('--num_questions', type=int, default=100,
-                        help='number of questions to use in Jeopardy dataset')
-    s = parser.parse_args()
+# from spacy import English
 
-    print '*' * 80
-    print s
-    folder = os.path.basename(__file__).split('.')[0]
-    if not os.path.exists(folder): os.mkdir(folder)
+parser = argparse.ArgumentParser()
+parser.add_argument('--debug', help='Set test = train = valid',
+                    action='store_true')
+parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
+parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
+parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
+parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
+parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
+parser.add_argument('--seed', type=int, default=345, help='Seed')
+parser.add_argument('--batch_size', type=int, default=64,
+                    help='Number of backprop through time steps')
+parser.add_argument('--window_size', type=int, default=7,
+                    help='Number of words in context window')
+parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
+parser.add_argument('--learn_rate', type=float, default=0.0627142536696559,
+                    help='Learning rate')
+parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
+parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
+parser.add_argument('--dataset', type=str, default='jeopardy',
+                    help='select dataset [atis|Jeopardy]')
+parser.add_argument('--num_questions', type=int, default=100000,
+                    help='number of questions to use in Jeopardy dataset')
+parser.add_argument('--bucket_factor', type=int, default=4,
+                    help='number of questions to use in Jeopardy dataset')
+s = parser.parse_args()
 
-    # load the dataset
-    if s.dataset == 'jeopardy':
-        root_dir = "../data/"
-        new_question = True
-        train, test, valid = (([], []) for _ in range(3))
-        train_lex, train_y = train
-        valid_lex, valid_y = valid
-        test_lex, test_y = test
-        lex, y, input_target_tuples = ([] for _ in range(3))
+print('-' * 80)
+print(s)
+
+""" Globals """
+folder = os.path.basename(__file__).split('.')[0]
+if not os.path.exists(folder): os.mkdir(folder)
+
+np.random.seed(s.seed)
+random.seed(s.seed)
+
+PAD_VALUE = 0
+NON_ANSWER_VALUE = 1
+ANSWER_VALUE = 2
+
+root_dir = "../data/"
+s.best_f1 = -np.inf
+assert s.window_size % 2 == 1, "`window_size` must be an odd number."
+
+
+def get_bucket_idx(length, base):
+    return np.math.ceil(np.math.log(length, base))
+
+
+""" namedtuples """
+
+Bucket = namedtuple("bucket", "questions documents targets")
+Datasets = namedtuple("data_sets", "train test valid")
+ConfusionMatrix = namedtuple("confusion_matrix", "f1 precision recall")
+
+""" classes """
+
+
+class Dataset:
+    def __init__(self, percent=None):
+        self.buckets = defaultdict(lambda: Bucket([], [], []))
+        self.percent = percent
+
+    def append(self, question, document, target):
+        assert document.size == target.size
+        key = tuple(get_bucket_idx(array.size, s.bucket_factor)
+                    for array in (question, document))
+
+        for i, array in enumerate((question, document, target)):
+            self.buckets[key][i].append(array)
+
+
+class Data:
+    """
+    contains global data parameters.
+    Collects data and assigns to different datasets.
+    """
+
+    def __init__(self):
+        # load the dataset
+        # tokenizer = English(parser=False)
+
+        datasets = Datasets(*[Dataset(percent=p) for p in (.7,  # train
+                                                           .2,  # test
+                                                           .1)])  # valid
         dic = {'*': 0}
-        tokenizer = English(parser=False)
 
+        def choose_dataset():
+            random_num = random.random()
+            # sort by percent
+            for dataset in sorted(datasets, key=lambda ds: ds.percent):
+                if random_num < dataset.percent:
+                    return dataset
+                random_num -= dataset.percent
 
         def to_int(word):
             word = word.lower()
@@ -61,184 +126,215 @@ if __name__ == '__main__':
                 dic[word] = w
             return dic[word]
 
-
-        def to_array(string):
-            tokens = [token.lower_.encode('unicode-escape')
-                      for token in tokenizer(unicode(string, 'utf-8'))]
-            sentence_vector = np.empty(len(tokens), dtype=int)
+        def to_array(string, bucket=True):
+            tokens = re.findall(r'\w+|[:;,-=\n\.\?\(\)\-\+\{\}]', string)
+            shape = len(tokens)
+            if bucket:
+                shape = s.bucket_factor ** get_bucket_idx(shape, s.bucket_factor)
+            sentence_vector = np.zeros(shape, dtype='int32') + PAD_VALUE
             for i, word in enumerate(tokens):
                 sentence_vector[i] = to_int(word)
             return sentence_vector
 
+        def get_target(document, answer):
+            targets = (document != PAD_VALUE).astype('int32')
+            answer_array = to_array(answer, bucket=False)
 
-        def to_instance(line, answer=None):
-            inpt = to_array(line)
-            target = np.zeros_like(inpt)
-            if answer is not None:
-                answer_array = to_array(answer)
-                answer_length = answer_array.size
-                for i in range(inpt.size - answer_length):
-                    idxs = np.arange(i, i + answer_length)
-                    if np.array_equal(inpt[idxs], answer_array):
-                        target[idxs] = 1
-            return inpt, target
+            # set parts of inputs corresponding to complete answer to ANSWER_VALUE
+            for i in range(document.size - answer_array.size):
+                window = slice(i, i + answer_array.size)
 
+                if np.all(document[window] == answer_array):
+                    targets[window] = ANSWER_VALUE
+                    break
 
-        def append_to_set(pair):
-            lex.append(pair[0])
-            y.append(pair[1])
+            return targets
 
-
-        num_questions = 0
-        with open(root_dir + "wiki.dat") as inputs:
-            for line in inputs:
+        new_question = True
+        self.num_questions = 0
+        self.num_train = 0
+        with open(root_dir + "wiki.dat") as data:
+            for line in data:
                 if new_question:
-                    num_questions += 1
+                    self.num_questions += 1
                     if s.debug:
-                        set = train
+                        dataset = datasets.train
                     else:
-                        # determine train, valid, or test
-                        random_num = random.random()
-                        if random_num < .7 or not train_y:  # 70% percent of the time
-                            set = train
-                        if .7 <= random_num < .8 or not valid_y:  # 10% percent of the time
-                            set = valid
-                        if .8 <= random_num or not test_y:  # 20% percent of the time
-                            set = test
-                    lex, y = set
+                        dataset = choose_dataset()
+                    if dataset == datasets.train:
+                        self.num_train += 1
 
-                    append_to_set(to_instance(line))  # question
-                    answer = next(inputs).rstrip()  # answer
-                    line = next(inputs)  # answer sentence
-
-                    instance = to_instance(line, answer=answer)
-                    remaining_sentences = int(next(inputs))
-                    input_target_tuples = []
+                    question = to_array(line)
+                    answer = next(data).rstrip()
+                    document = to_array(next(data))
+                    remaining_sentences = int(next(data))
+                    instances = []
                     new_question = False
-                    input_target_tuples.append(instance)
+                    target = get_target(document, answer)
+                    instances.append((question, document, target))
                 else:
                     remaining_sentences -= 1
-                #     instance = to_instance(line)
-                # input_target_tuples.append(instance)
+                    # instance = to_instance(line)
+                    # input_target_tuples.append(instance)
                 if not remaining_sentences:
                     new_question = True
                     # set target of eos for answer sentence to answer
-                    random.shuffle(input_target_tuples)
-                    for instance in input_target_tuples:
-                        append_to_set(instance)
-                    if num_questions >= s.num_questions:
+                    random.shuffle(instances)
+                    for instance in instances:
+                        dataset.append(*instance)
+                    if self.num_questions >= s.num_questions:
                         break
-        vocsize = len(dic)
-        nclasses = 2
-        idx2word = {k: v for v, k in dic.iteritems()}  # {numeric code: label}
-        idx2label = {0: '0', 1: '1'}
+
         if s.debug:
-            test_lex = valid_lex = train_lex
-            test_y = valid_y = train_y
+            datasets = Datasets(*[datasets.train] * 3)
 
-        print "number of questions:", num_questions
-    else:
-        train_set, valid_set, test_set, dic = load.atisfold(s.fold)
-        idx2label = dict((k, v) for v, k in dic['labels2idx'].iteritems())  # {numeric code: label}
-        idx2word = dict((k, v) for v, k in dic['words2idx'].iteritems())  # {numeric code: word}
+        print('Bucket allocation:')
+        for dataset in datasets:
+            delete = []
+            print('\nNumber of buckets: ', len(dataset.buckets))
+            for key in dataset.buckets:
+                num_instances = len(dataset.buckets[key].questions)
+                if num_instances < 10:
+                    delete.append(key)
+                else:
+                    print(key, num_instances)
 
-        train_lex, train_ne, train_y = train_set  # number of sentences = len(train_lex)
-        valid_lex, valid_ne, valid_y = valid_set
-        test_lex, test_ne, test_y = test_set
+            for key in delete:
+                del (dataset.buckets[key])
 
-        # number of distinct words
-        vocsize = len(dic['words2idx'])
-        # vocsize = len(set(reduce( \
-        #     lambda x, y: list(x) + list(y), \
-        #     train_lex + valid_lex + test_lex)))
+            dataset.buckets = [Bucket(*map(np.array, [questions, docs, labels]))
+                               for questions, docs, labels in dataset.buckets.values()]
 
-        # number of distinct classes
-        nclasses = len(dic['labels2idx'])
-        # nclasses = len(set(reduce( \
-        #     lambda x, y: list(x) + list(y), \
-        #     train_y + test_y + valid_y)))
+        self.vocsize = len(dic)
+        self.nclasses = 3
+        self.sets = datasets
 
-    nsentences = len(train_lex)  # perhaps train_lex is a list of sentences
-    print "size of dictionary:", vocsize
-    print "number of sentences:", nsentences
+    def print_data_stats(self):
+        print("\nsize of dictionary:", self.vocsize)
+        print("number of questions:", self.num_questions)
+        print("size of training set:", self.num_train)
 
-    # instantiate the RNN-EM
-    np.random.seed(s.seed)
-    random.seed(s.seed)
-    rnn = model(nh=s.hidden_size,
-                nc=nclasses,
-                ne=vocsize,
-                de=s.emb_size,
-                cs=s.win,
-                memory_size=s.memory_size,
-                n_memory_slots=s.n_memory_slots)
 
-    # train with early stopping on validation set
-    best_f1 = -np.inf
-    s.clr = s.lr
-    for e in xrange(s.n_epochs):
-        # shuffle
-        # shuffle([train_lex, train_ne, train_y], s.seed) I CHANGED THIS
-        shuffle([train_lex, train_y], s.seed)
-        s.ce = e
-        tic = time.time()
-        for i in xrange(nsentences):  # for each sentence
-            cwords = contextwin(train_lex[i], s.win)
-            words = map(lambda x: np.asarray(x).astype('int32'),
-                        minibatch(cwords, s.bs))
-            labels = train_y[i]
-            for word_batch, label_last_word in zip(words, labels):
-                rnn.train(word_batch, label_last_word, s.clr)
-                rnn.normalize()
+def get_batches(bucket):
+    num_batches = bucket.questions.shape[0] // s.batch_size + 1
+    split = partial(np.array_split, indices_or_sections=num_batches)
+    return zip(*map(split, (bucket.questions,
+                            bucket.documents,
+                            bucket.targets)))
+
+
+def evaluate(predictions, targets):
+    """
+    @:param predictions: list of predictions
+    @:param targets: list of targets
+    @:return dictionary with entries 'f1'
+    """
+
+    predictions, targets = (np.array(list_of_arrays).ravel()
+                            for list_of_arrays in (predictions, targets))
+    metrics = np.zeros(3)
+
+    def confusion((pred_is_pos, tgt_is_pos)):
+        return np.logical_and((predictions == ANSWER_VALUE) == pred_is_pos,
+                              (targets == ANSWER_VALUE) == tgt_is_pos).sum()
+
+    tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
+    metrics += np.array((tp, fp, fn))
+    tp, fp, fn = metrics
+    precision = tp / (tp + fp)
+    recall = tp / (tp + fn)
+    f1 = 2 * precision * recall / (precision + recall)
+
+    return ConfusionMatrix(f1, precision, recall)
+
+
+def print_progress(epoch, questions_processed, num_questions, loss, start_time):
+    progress = float(questions_processed) / num_questions
+    print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
+          .format(epoch, progress, float(loss), time.time() - start_time), end='')
+    sys.stdout.flush()
+
+
+def write_predictions_to_file(dataset_name, targets, predictions):
+    filename = 'current.{0}.txt'.format(dataset_name)
+    filepath = os.path.join(folder, filename)
+    with open(filepath, 'w') as handle:
+        for prediction, target in zip(predictions, targets):
+            if target is not None:
+                for label, arr in (('p: ', prediction), ('t: ', target)):
+                    handle.write(label)
+                    np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
+                    handle.write('\n')
+
+
+def track_best(best_scores, confusion_matrix, epoch):
+    Score = namedtuple("score", "value epoch")
+    for key in confusion_matrix._fields:
+        result = confusion_matrix.__getattribute__(key)
+        if key not in best_scores or result > best_scores[key].value:
+            best_scores[key] = Score(result, epoch)
+
+            # rnn.save(folder)
+            if key is 'F1':
+                if s.verbose:
+                    print('\nNEW BEST F1: {0}\nEpoch\n'.format(*best_scores[key]))
+                    sys.stdout.flush()
+
+                for dataset in ('test', 'valid'):
+                    command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dataset)
+                    subprocess.call(command.split())
+        else:
             if s.verbose:
-                print '[learning] epoch %i >> %2.2f%%' % (
-                    e, (i + 1) * 100. / nsentences), 'completed in %.2f (sec) <<\r' % (time.time() - tic),
+                print(confusion_matrix)
                 sys.stdout.flush()
 
-        # evaluation // back into the real world : idx -> words
+    print("{:15}{:10}{:10}".format('best result', 'score', 'epoch'))
+    for key in best_scores:
+        best_score = best_scores[key]
+        print("{:16}{:<10.2f}{:<10.2f}".format(key + ':',
+                                               best_score.value,
+                                               best_score.epoch))
 
-        predictions_test = []
-        raw_predictions = []
-        for x in test_lex:
-            raw_prediction = rnn.classify(np.asarray(contextwin(x, s.win)).astype('int32'))
-            raw_predictions.append(raw_prediction)
-            predictions_test.append(map(lambda x: idx2label[x],
-                                        raw_prediction))
 
-        groundtruth_test = [map(lambda x: idx2label[x], y) for y in test_y]
-        words_test = [map(lambda x: idx2word[x], w) for w in test_lex]
+if __name__ == '__main__':
+    data = Data()
+    data.print_data_stats()
 
-        predictions_valid = [map(lambda x: idx2label[x],
-                                 rnn.classify(np.asarray(contextwin(x, s.win)).astype('int32')))
-                             for x in valid_lex]
-        groundtruth_valid = [map(lambda x: idx2label[x], y) for y in valid_y]
-        words_valid = [map(lambda x: idx2word[x], w) for w in valid_lex]
+    rnn = Model(s.hidden_size,
+                data.nclasses,
+                data.vocsize,  # num_embeddings
+                s.embedding_dim,  # embedding_dim
+                s.window_size,
+                s.memory_size,
+                s.n_memory_slots)
 
-        # evaluation // compute the accuracy using conlleval.pl
-        res_test = conlleval(predictions_test, groundtruth_test, words_test, folder + '/current.test.txt')
-        res_valid = conlleval(predictions_valid, groundtruth_valid, words_valid, folder + '/current.valid.txt')
+    for epoch in range(s.n_epochs):
 
-        if res_valid['f1'] > best_f1:
-            rnn.save(folder)
-            best_f1 = res_valid['f1']
-            if s.verbose:
-                print 'NEW BEST: epoch', e, 'valid F1', res_valid['f1'], 'best test F1', res_test['f1'], ' ' * 20
-            s.vf1, s.vp, s.vr = res_valid['f1'], res_valid['p'], res_valid['r']
-            s.tf1, s.tp, s.tr = res_test['f1'], res_test['p'], res_test['r']
-            s.be = e
-            subprocess.call(['mv', folder + '/current.test.txt', folder + '/best.test.txt'])
-            subprocess.call(['mv', folder + '/current.valid.txt', folder + '/best.valid.txt'])
+        print('\n###\t{:10}{:10}{:10}{:10}###'
+              .format('epoch', 'progress', 'loss', 'runtime'))
+        start_time = time.time()
+        names = data.sets._fields
+        best_scores = {name: dict() for name in names}
 
-        # print('Predictions: ')
-        # for raw_prediction, prediction in zip(raw_predictions, predictions_test):
-        #     print(raw_prediction)
-        #     print(' '.join(prediction))
-
-        else:
-            print ''
-
-        # learning rate decay if no improvement in 10 epochs
-        if s.decay and abs(s.be - s.ce) >= 10: s.clr *= 0.5
-        if s.clr < 1e-5: break
-
-    print 'BEST RESULT: epoch', e, 'valid F1', s.vf1, 'best test F1', s.tf1, 'with the RNN-EM', folder
+        for name in names:
+            predictions, targets = [], []
+            instances_processed = 0
+            for bucket in data.sets.__getattribute__(name).buckets:
+                for questions, documents, labels in get_batches(bucket):
+                    if name == 'train':
+                        bucket_predictions, loss = rnn.train(questions, documents, labels)
+                        rnn.normalize()
+                        instances_processed += questions.shape[0]
+                        print_progress(epoch,
+                                       instances_processed,
+                                       data.num_train,
+                                       loss,
+                                       start_time)
+                    else:
+                        bucket_predictions = rnn.predict(questions, documents)
+                predictions.append(bucket_predictions)
+                targets.append(labels)
+            write_predictions_to_file(name, predictions, targets)
+            confusion_matrix = evaluate(predictions, targets)
+            print("\n" + name.upper())
+            track_best(best_scores[name], confusion_matrix, epoch)

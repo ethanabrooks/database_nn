@@ -1,4 +1,5 @@
 *.pyc
 *.gz
 main/
-is13
+main.py.orig
+rnn_em.py.orig
