@@ -4,6 +4,8 @@ import argparse
 import copy
 from functools import partial
 
+import math
+
 import re
 
 import numpy as np
@@ -42,7 +44,7 @@ parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=1000,
+parser.add_argument('--num_questions', type=int, default=100000,
                     help='number of questions to use in Jeopardy dataset')
 parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
@@ -104,8 +106,8 @@ class Data:
         # load the dataset
         # tokenizer = English(parser=False)
 
-        datasets = Datasets(*[Dataset(percent=p) for p in (.7,    # train
-                                                           .2,    # test
+        datasets = Datasets(*[Dataset(percent=p) for p in (.7,  # train
+                                                           .2,  # test
                                                            .1)])  # valid
         dic = {'*': 0}
 
@@ -198,7 +200,7 @@ class Data:
                     print(key, num_instances)
 
             for key in delete:
-                del(dataset.buckets[key])
+                del (dataset.buckets[key])
 
             dataset.buckets = [Bucket(*map(np.array, [questions, docs, labels]))
                                for questions, docs, labels in dataset.buckets.values()]
@@ -211,6 +213,14 @@ class Data:
         print("\nsize of dictionary:", self.vocsize)
         print("number of questions:", self.num_questions)
         print("size of training set:", self.num_train)
+
+
+def get_batches(bucket):
+    num_batches = bucket.questions.shape[0] // s.batch_size + 1
+    split = partial(np.array_split, indices_or_sections=num_batches)
+    return zip(*map(split, (bucket.questions,
+                            bucket.documents,
+                            bucket.targets)))
 
 
 def evaluate(predictions, targets):
@@ -300,7 +310,7 @@ if __name__ == '__main__':
 
     for epoch in range(s.n_epochs):
 
-        print('###\t{:10}{:10}{:10}{:10}###'
+        print('\n###\t{:10}{:10}{:10}{:10}###'
               .format('epoch', 'progress', 'loss', 'runtime'))
         start_time = time.time()
         names = data.sets._fields
@@ -310,28 +320,20 @@ if __name__ == '__main__':
             predictions, targets = [], []
             instances_processed = 0
             for bucket in data.sets.__getattribute__(name).buckets:
-                if name == 'train':
-                    # np.savetxt('questions.npy', bucket.questions)
-                    # np.savetxt('documents.npy', bucket.documents)
-                    # np.savetxt('targets.npy', bucket.targets)
-                    bucket_predictions, loss = rnn.train(bucket.questions,
-                                                         bucket.documents,
-                                                         bucket.targets)
-                    print(bucket_predictions)
-                    print('-----------')
-                    print(loss)
-                    exit(0)
-                    rnn.normalize()
-                    instances_processed += bucket.questions.shape[0]
-                    print_progress(epoch,
-                                   instances_processed,
-                                   data.num_train,
-                                   loss,
-                                   start_time)
-                else:
-                    bucket_predictions = rnn.predict(bucket.questions, bucket.documents)
+                for questions, documents, labels in get_batches(bucket):
+                    if name == 'train':
+                        bucket_predictions, loss = rnn.train(questions, documents, labels)
+                        rnn.normalize()
+                        instances_processed += questions.shape[0]
+                        print_progress(epoch,
+                                       instances_processed,
+                                       data.num_train,
+                                       loss,
+                                       start_time)
+                    else:
+                        bucket_predictions = rnn.predict(questions, documents)
                 predictions.append(bucket_predictions)
-                targets.append(bucket.targets)
+                targets.append(labels)
             write_predictions_to_file(name, predictions, targets)
             confusion_matrix = evaluate(predictions, targets)
             print("\n" + name.upper())

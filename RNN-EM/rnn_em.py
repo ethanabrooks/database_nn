@@ -136,9 +136,7 @@ class Model(object):
                 w_read = T.concatenate([w_q, w_d], axis=1)  # [instances, n_doc_slots]
 
             # eqn 15
-            M_read = Print('M_read', ['mean'])(M_read)
             c = T.batched_dot(M_read, w_read)  # [instances, memory_size]
-            c = Print('c', ["mean"])(c)
 
             # EXTERNAL MEMORY READ
             def get_attention(Wg, bg, M, w):
@@ -165,7 +163,6 @@ class Model(object):
             # MODEL INPUT AND OUTPUT
             # eqn 9
             h_t = T.dot(x_t, self.Wx) + T.dot(c, self.Wh) + self.bh  # [instances, hidden_size]
-            h_t = Print('h_t', ["mean"])(h_t)
 
             # eqn 10
             y_t = T.nnet.softmax(T.dot(h_t, self.W) + self.b)  # [instances, nclasses]
@@ -225,7 +222,7 @@ class Model(object):
                                        outputs=y_pred)
 
         self.train = theano.function(inputs=[questions, docs, y_true_matrix],
-                                     outputs=[y_pred, loss],
+                                     outputs=[y_pred, loss * 1000],
                                      updates=updates,
                                      allow_input_downcast=True,
                                      mode=NanGuardMode(
