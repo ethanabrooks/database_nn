@@ -27,7 +27,7 @@ parser.add_argument('--debug', help='Set test = train = valid',
                     action='store_true')
 parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
-parser.add_argument('--emb_size', type=int, default=100, help='Embedding size')
+parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
 parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
 parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
 parser.add_argument('--seed', type=int, default=345, help='Seed')
@@ -129,7 +129,7 @@ class Data:
             shape = len(tokens)
             if bucket:
                 shape = s.bucket_factor ** get_bucket_idx(shape, s.bucket_factor)
-            sentence_vector = np.zeros(shape, dtype='int32') + int(PAD_VALUE)
+            sentence_vector = np.zeros(shape, dtype='int32') + PAD_VALUE
             for i, word in enumerate(tokens):
                 sentence_vector[i] = to_int(word)
             return sentence_vector
@@ -293,7 +293,7 @@ if __name__ == '__main__':
     rnn = Model(s.hidden_size,
                 data.nclasses,
                 data.vocsize,  # num_embeddings
-                s.emb_size,  # embedding_dim
+                s.embedding_dim,  # embedding_dim
                 s.window_size,
                 s.memory_size,
                 s.n_memory_slots)
@@ -311,7 +311,16 @@ if __name__ == '__main__':
             instances_processed = 0
             for bucket in data.sets.__getattribute__(name).buckets:
                 if name == 'train':
-                    bucket_predictions, loss = rnn.train(*bucket)
+                    # np.savetxt('questions.npy', bucket.questions)
+                    # np.savetxt('documents.npy', bucket.documents)
+                    # np.savetxt('targets.npy', bucket.targets)
+                    bucket_predictions, loss = rnn.train(bucket.questions,
+                                                         bucket.documents,
+                                                         bucket.targets)
+                    print(bucket_predictions)
+                    print('-----------')
+                    print(loss)
+                    exit(0)
                     rnn.normalize()
                     instances_processed += bucket.questions.shape[0]
                     print_progress(epoch,

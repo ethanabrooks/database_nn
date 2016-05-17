@@ -2,11 +2,13 @@ from __future__ import print_function
 
 from functools import partial
 
+import sys
 import lasagne
 import numpy
 import os
 import theano
 from theano import tensor as T
+from theano.printing import Print
 
 
 def cosine_dist(tensor, matrix):
@@ -16,26 +18,47 @@ def cosine_dist(tensor, matrix):
     """
     matrix_norm = T.shape_padright(matrix.norm(2, axis=1))
     tensor_norm = tensor.norm(2, axis=1)
-    return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm + 1)
+    norm_ = (matrix_norm * tensor_norm)
+    norm_ = Print('norm_')(norm_)
+    return T.batched_dot(matrix, tensor) / norm_
 
 
-# noinspection PyPep8Naming
+def replace_nans(tensor):
+    """
+    convert nans and infs to float_max.
+    convert -infs to float_min.
+    """
+    tensor = T.switch(T.isnan(tensor), sys.float_info.max, tensor)
+    return T.switch(T.isinf(tensor),
+                    T.switch(T.lt(tensor, 0),
+                             sys.float_info.min,
+                             sys.float_info.max),
+                    tensor)
+
+
+def randint_shared(shape, high=1000):
+    return theano.shared(numpy.random.randint(0, high, shape))
+
+
+# noinspection PyPep8Naming,PyUnresolvedReferences
 class Model(object):
     def __init__(self,
                  hidden_size=4,
                  nclasses=3,
-                 num_embeddings=100,
+                 num_embeddings=1000,
                  embedding_dim=2,
                  window_size=7,
                  memory_size=6,
                  n_memory_slots=8):
 
-        self.window_size = window_size
-        questions, docs = T.itensor3s('questions', 'docs')
-        y_true = T.imatrix('y_true')
+        questions, docs = T.imatrices('questions', 'docs')
+        y_true_matrix = T.imatrix('y_true')
+
         n_question_slots = int(n_memory_slots / 4)  # TODO derive this from an arg
-        n_doc_slots = n_memory_slots - n_question_slots  # TODO derive this from an arg
-        n_instances = questions.shape[1]
+        n_doc_slots = n_memory_slots - n_question_slots
+        n_instances = questions.shape[0]
+
+        self.window_size = window_size
 
         randoms = {
             # attr: shape
@@ -60,6 +83,7 @@ class Model(object):
 
         zeros = {
             # attr: shape
+            'bh': hidden_size,
             'bg_q': n_question_slots,
             'bg_d': n_doc_slots,
             'bk': memory_size,
@@ -67,7 +91,6 @@ class Model(object):
             'bv': memory_size,
             'be_q': n_question_slots,
             'be_d': n_doc_slots,
-            'bh': hidden_size,
             'b': nclasses
         }
 
@@ -93,10 +116,10 @@ class Model(object):
         for key in 'h0 w_q M_q w_d M_d'.split():
             setattr(self, key, repeat_for_each_instance(self.__getattribute__(key)))
 
-        self.names = randoms.keys() + zeros.keys()
+        self.names = zeros.keys() + randoms.keys()
         self.params = [eval('self.' + name) for name in 'bh'.split()]
 
-        def recurrence(window, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
+        def recurrence(i, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
             """
             notes
             Headers from paper in all caps
@@ -117,10 +140,10 @@ class Model(object):
                 assert w_d is not None and M_d is not None
 
             # get representation of word window
-            # idxs = questions if is_question else docs  # [instances, bucket_width]
-            # pad = T.zeros((idxs.shape[0], window_radius), dtype='int32')
-            # padded = T.concatenate([pad, idxs, pad], axis=1)
-            # window = padded[:, i:i + window_size]  # [instances, window_size]
+            idxs = questions if is_question else docs  # [instances, bucket_width]
+            pad = T.zeros((idxs.shape[0], self.window_size // 2), dtype='int32')
+            padded = T.concatenate([pad, idxs, pad], axis=1)
+            window = padded[:, i:i + window_size]  # [instances, window_size]
             x_t = self.emb[window].flatten(ndim=2)  # [instances, window_size * embedding_dim]
 
             # EXTERNAL MEMORY READ
@@ -142,117 +165,93 @@ class Model(object):
                 k = T.dot(h_tm1, self.Wk) + self.bk  # [instances, memory_size]
 
                 # eqn 13
-                beta_pre = T.dot(h_tm1, self.Wb) + self.bb
-                beta = T.log(1 + T.exp(beta_pre))
+                beta = T.dot(h_tm1, self.Wb) + self.bb
+                beta = T.log(1 + T.exp(beta))
                 beta = T.addbroadcast(beta, 1)  # [instances, 1]
 
                 # eqn 12
-                w_hat = cosine_dist(M, k)
-                w_hat = T.exp(beta * w_hat)
-                w_hat /= T.shape_padright(T.sum(w_hat, axis=1))  # [instances, mem]
+                w_hat = T.nnet.softmax(beta * cosine_dist(M, k))
 
                 # eqn 14
                 return (1 - g_t) * w + g_t * w_hat  # [instances, mem]
 
             w_q = get_attention(self.Wg_q, self.bg_q, M_q, w_q)  # [instances, n_question_slots]
-            # if not is_question:
-            #     w_d = get_attention(self.Wg_d, self.bg_d, M_d, w_d)  # [instances, n_doc_slots]
-            #
-            # # MODEL INPUT AND OUTPUT
-            # # eqn 9
-            # h_t = T.dot(x_t, self.Wx) + T.dot(c, self.Wh) + self.bh  # [instances, hidden_size]
-            #
-            # # eqn 10
-            # y_t = T.nnet.softmax(T.dot(h_t, self.W) + self.b)  # [instances, nclasses]
-            #
-            # # EXTERNAL MEMORY UPDATE
-            # def update_memory(We, be, w_update, M_update):
-            #     # eqn 17
-            #     e = T.nnet.sigmoid(T.dot(h_tm1, We) + be)  # [instances, mem]
-            #     f = 1. - w_update * e  # [instances, mem]
-            #
-            #     # eqn 16
-            #     v_t = T.dot(h_t, self.Wv) + self.bv  # [instances, memory_size]
-            #
-            #     # need to add broadcast layers for memory update
-            #     f_t = f.dimshuffle(0, 'x', 1)  # [instances, 1, mem]
-            #     u_t = w_update.dimshuffle(0, 'x', 1)  # [instances, 1, mem]
-            #     v_t = v_t.dimshuffle(0, 1, 'x')  # [instances, memory_size, 1]
-            #
-            #     # eqn 19
-            #     return M_update * f_t + T.batched_dot(v_t, u_t)  # [instances, memory_size, mem]
-            #
-            # M_q = update_memory(self.We_q, self.be_q, w_q, M_q)
-            # attention_and_memory = [w_q, M_q]
-            # if not is_question:
-            #     M_d = update_memory(self.We_d, self.be_d, w_d, M_d)
-            #     attention_and_memory += [w_d, M_d]
-            return w_q #[y_t, h_t] + attention_and_memory
+            if not is_question:
+                w_d = get_attention(self.Wg_d, self.bg_d, M_d, w_d)  # [instances, n_doc_slots]
 
-        outputs_info = [None, self.h0, self.w_q, self.M_q]
+            # MODEL INPUT AND OUTPUT
+            # eqn 9
+            h_t = T.dot(x_t, self.Wx) + T.dot(c, self.Wh) + self.bh  # [instances, hidden_size]
+
+            # eqn 10
+            y_t = T.nnet.softmax(T.dot(h_t, self.W) + self.b)  # [instances, nclasses]
+
+            # EXTERNAL MEMORY UPDATE
+            def update_memory(We, be, w_update, M_update):
+                # eqn 17
+                e = T.nnet.sigmoid(T.dot(h_tm1, We) + be)  # [instances, mem]
+                f = 1. - w_update * e  # [instances, mem]
+
+                # eqn 16
+                v_t = T.dot(h_t, self.Wv) + self.bv  # [instances, memory_size]
+
+                # need to add broadcast layers for memory update
+                f_t = f.dimshuffle(0, 'x', 1)  # [instances, 1, mem]
+                u_t = w_update.dimshuffle(0, 'x', 1)  # [instances, 1, mem]
+                v_t = v_t.dimshuffle(0, 1, 'x')  # [instances, memory_size, 1]
+
+                # eqn 19
+                return M_update * f_t + T.batched_dot(v_t, u_t)  # [instances, memory_size, mem]
+
+            M_q = update_memory(self.We_q, self.be_q, w_q, M_q)
+            attention_and_memory = [w_q, M_q]
+            if not is_question:
+                M_d = update_memory(self.We_d, self.be_d, w_d, M_d)
+                attention_and_memory += [w_d, M_d]
+            return [y_t, i + 1, h_t] + attention_and_memory
+
+        outputs_info = [None, T.constant(0, dtype='int32'), self.h0, self.w_q, self.M_q]
         ask_question = partial(recurrence, is_question=True)
         answer_question = partial(recurrence, is_question=False)
 
-        self.test = theano.function(inputs=[questions, docs, y_true],
-                                    outputs=recurrence(questions[0],
-                                                       self.h0,
-                                                       self.w_q,
-                                                       self.M_q),
-                                    on_unused_input='ignore')
+        [_, _, h, w, M], _ = theano.scan(fn=ask_question,
+                                         outputs_info=outputs_info,
+                                         n_steps=questions.shape[1],
+                                         name='ask_scan')
 
-        # [_, h, w, M], _ = theano.scan(fn=ask_question,
-        #                               outputs_info=outputs_info,
-        #                               # n_steps=questions.shape[1],
-        #                               sequences=questions,
-        #                               name='ask_scan')
-        #
-        # outputs_info[1:] = [param[-1, :, :] for param in (h, w, M)]
-        #
-        # output, _ = theano.scan(fn=answer_question,
-        #                         outputs_info=outputs_info + [self.w_d, self.M_d],
-        #                         # n_steps=docs.shape[1],
-        #                         sequences=docs,
-        #                         name='train_scan')
-        #
-        # y_pred = T.argmax(output[0], axis=2).T
-        # counts = T.extra_ops.bincount(y_true.ravel(), assert_nonneg=True)
-        # weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
-        # losses = T.nnet.binary_crossentropy(y_pred, y_true)
-        # loss = lasagne.objectives.aggregate(losses, weights)
-        # updates = lasagne.updates.adadelta(loss, self.params)
-        #
-        # # theano functions
-        # self.predict = theano.function(inputs=[questions, docs],
-        #                                outputs=y_pred)
-        #
-        # self.train = theano.function(inputs=[questions, docs, y_true],
-        #                              outputs=[y_pred, loss],
-        #                              updates=updates,
-        #                              allow_input_downcast=True)
-        #
-        #
-        # normalized_embeddings = self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0, 'x')
-        # self.normalize = theano.function(inputs=[],
-        #                                  updates={self.emb: normalized_embeddings})
+        outputs_info[2:] = [param[-1, :, :] for param in (h, w, M)]
 
-    def sliding_window(self, matrix):
-        """
-        :param matrix: 2D tensor. See example, below.
-        :return 3D tensor:
+        output, _ = theano.scan(fn=answer_question,
+                                outputs_info=outputs_info + [self.w_d, self.M_d],
+                                n_steps=docs.shape[1],
+                                name='train_scan')
 
-        matrix       padded          returns
-        [0 1 2]      [0 0 1 2 0]     [ [0 0 1]  [0 1 2]  [1 2 0]
-        [3 4 5]  =>  [0 3 4 5 0]  =>   [0 3 4]  [3 4 5]  [4 5 0]
-        [6 7 8]      [0 6 7 8 0]       [0 6 7]  [6 7 8]  [7 8 0] ]
-        """
-        window_idxs = numpy.fromfunction(lambda i, j: i + j,
-                                         (matrix.shape[1], self.window_size),
-                                         dtype='int32')
-        radius = self.window_size // 2
-        padded = numpy.pad(matrix,
-                           pad_width=[(0, 0), (radius, radius)],
-                           mode='constant')
-        return numpy.swapaxes(padded.T[window_idxs], 1, 2)
+        y_dist = output[0].dimshuffle(2, 1, 0).flatten(ndim=2).T
+        y_pred = y_dist.argmax(axis=1)
+        y_true = y_true_matrix.ravel()
+        counts = T.extra_ops.bincount(y_true, assert_nonneg=True)
+        weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
+
+        losses = T.nnet.categorical_crossentropy(y_dist, y_true)
+        loss = lasagne.objectives.aggregate(losses, weights)
+
+        self.test = theano.function(inputs=[questions, docs, y_true_matrix],
+                                    outputs=[T.grad(loss, self.bh)])
+
+        updates = lasagne.updates.adadelta(loss, self.params, learning_rate=.001)
+
+        # theano functions
+        self.predict = theano.function(inputs=[questions, docs],
+                                       outputs=y_pred)
+
+        self.train = theano.function(inputs=[questions, docs, y_true_matrix],
+                                     outputs=[y_pred, loss],
+                                     updates=updates,
+                                     allow_input_downcast=True)
+
+        normalized_embeddings = self.emb / T.sqrt((self.emb ** 2).sum(axis=1)).dimshuffle(0, 'x')
+        self.normalize = theano.function(inputs=[],
+                                         updates={self.emb: normalized_embeddings})
 
     def save(self, folder):
         for param, name in zip(self.params, self.names):
@@ -261,14 +260,10 @@ class Model(object):
 
 if __name__ == '__main__':
     rnn = Model()
-    questions = numpy.ones((10, 64), dtype='int32')
-    docs = numpy.ones((10, 256), dtype='int32')
-
-    questions, docs_windows = map(rnn.sliding_window, (questions, docs))
-    print("questions", questions.shape)  # [words/instance, n_instances, window_size]
-    print("docs", docs_windows.shape)  # [words/instance, n_instances, window_size]
-    print("targets", docs.shape)  # [n_instances, words/instance]
-    for result in rnn.test(questions, docs_windows, docs):
+    questions = randint_shared((10, 64))
+    docs = randint_shared((10, 256))
+    labels = randint_shared((10, 256), high=3)
+    for result in rnn.test(questions, docs, labels):
         print('-' * 10)
         print(result)
-    # rnn.normalize()
+    rnn.normalize()

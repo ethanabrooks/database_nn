@@ -21,28 +21,15 @@ def cosine_dist(tensor, matrix):
     return T.batched_dot(matrix, tensor) / (matrix_norm * tensor_norm)
 
 
-def replace_nans(tensor):
-    """
-    convert nans and infs to float_max.
-    convert -infs to float_min.
-    """
-    tensor = T.switch(T.isnan(tensor), sys.float_info.max, tensor)
-    return T.switch(T.isinf(tensor),
-                    T.switch(T.lt(tensor, 0),
-                             sys.float_info.min,
-                             sys.float_info.max),
-                    tensor)
-
-
 # noinspection PyPep8Naming,PyUnresolvedReferences
 class Model(object):
     def __init__(self,
-                 hidden_size=4,
+                 hidden_size=100,
                  nclasses=3,
-                 num_embeddings=100,
-                 embedding_dim=2,
+                 num_embeddings=11359,
+                 embedding_dim=100,
                  window_size=7,
-                 memory_size=6,
+                 memory_size=16,
                  n_memory_slots=8):
 
         questions, docs = T.imatrices('questions', 'docs')
@@ -166,7 +153,7 @@ class Model(object):
                 beta = T.addbroadcast(beta, 1)  # [instances, 1]
 
                 # eqn 12
-                w_hat = T.nnet.softmax(replace_nans(beta * cosine_dist(M, k)))
+                w_hat = T.nnet.softmax(beta * cosine_dist(M, k))
 
                 # eqn 14
                 return (1 - g_t) * w + g_t * w_hat  # [instances, mem]
@@ -254,9 +241,13 @@ class Model(object):
 
 if __name__ == '__main__':
     rnn = Model()
-    questions = numpy.ones((10, 64), dtype='int32')
-    docs = numpy.ones((10, 256), dtype='int32')
-    for result in rnn.test(questions, docs, docs):
+    questions = numpy.loadtxt("questions.npy")
+    docs = numpy.loadtxt("documents.npy")
+    targets = numpy.loadtxt("targets.npy")
+    print(questions)
+    print(docs)
+    print(targets)
+    for result in rnn.test(questions, docs, targets):
         print('-' * 10)
         print(result)
     rnn.normalize()
