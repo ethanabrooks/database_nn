@@ -70,7 +70,7 @@ assert s.window_size % 2 == 1, "`window_size` must be an odd number."
 
 
 def get_bucket_idx(length, base):
-    return np.math.ceil(np.math.log(length, base))
+    return int(np.math.ceil(np.math.log(length, base)))
 
 
 """ namedtuples """
@@ -299,6 +299,8 @@ def track_best(best_scores, confusion_matrix, epoch):
 if __name__ == '__main__':
     data = Data()
     data.print_data_stats()
+    if s.debug:
+        assert data.train == data.test == data.valid
 
     rnn = Model(s.hidden_size,
                 data.nclasses,
@@ -322,6 +324,8 @@ if __name__ == '__main__':
             for bucket in data.sets.__getattribute__(name).buckets:
                 for questions, documents, labels in get_batches(bucket):
                     if name == 'train':
+                        for array in "questions documents labels".split():
+                            np.savetxt(array + '.npy', eval(array))
                         bucket_predictions, loss = rnn.train(questions, documents, labels)
                         rnn.normalize()
                         instances_processed += questions.shape[0]
