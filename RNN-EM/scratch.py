@@ -8,4 +8,6 @@ import theano.tensor as T
 from collections import namedtuple, defaultdict
 from theano.ifelse import ifelse
 
-print(zip(*[[1],[2],[3]]))
+x = "a b c d e f".split()
+x.sort()
+print(x)
