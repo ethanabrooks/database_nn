@@ -95,15 +95,13 @@ class Model(object):
             """ repeat param along new axis once for each instance """
             return T.repeat(T.shape_padleft(param), repeats=n_instances, axis=0)
 
+        self.names = randoms.keys() + zeros.keys()
         scan_vars = 'h0 w_q M_q w_d M_d'.split()
+
         for key in scan_vars:
             setattr(self, key, repeat_for_each_instance(self.__getattribute__(key)))
-            try:
-                del randoms[key]
-            except KeyError:
-                del zeros[key]
+            self.names.remove(key)
 
-        self.names = randoms.keys() + zeros.keys()
         self.params = [eval('self.' + name) for name in self.names]
 
         def recurrence(i, h_tm1, w_q, M_q, w_d=None, M_d=None, is_question=True):
