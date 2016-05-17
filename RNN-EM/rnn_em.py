@@ -9,6 +9,7 @@ import os
 import theano
 from theano import tensor as T
 from theano.printing import Print
+from theano.compile.nanguardmode import NanGuardMode
 
 
 def cosine_dist(tensor, matrix):
@@ -226,7 +227,11 @@ class Model(object):
         self.train = theano.function(inputs=[questions, docs, y_true_matrix],
                                      outputs=[y_pred, loss],
                                      updates=updates,
-                                     allow_input_downcast=True)
+                                     allow_input_downcast=True,
+                                     mode=NanGuardMode(
+                                         nan_is_error=True,
+                                         inf_is_error=True
+                                     ))
 
         self.test = self.train
 
