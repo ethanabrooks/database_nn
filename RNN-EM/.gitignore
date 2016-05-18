@@ -1,5 +1,1 @@
-*.pyc
-*.gz
-main/
-main.py.orig
-rnn_em.py.orig
+*.npy
