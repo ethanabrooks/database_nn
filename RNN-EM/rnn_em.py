@@ -217,7 +217,7 @@ class Model(object):
         weights = 1.0 / (counts[y_true] + 1) * T.neq(y_true, 0)
 
         losses = T.nnet.categorical_crossentropy(y_dist, y_true)
-        loss = lasagne.objectives.aggregate(losses, weights)
+        loss = lasagne.objectives.aggregate(losses, weights, mode='sum')
         updates = lasagne.updates.adadelta(loss, self.params)
 
         # theano functions
@@ -225,7 +225,7 @@ class Model(object):
                                        outputs=y_pred)
 
         self.train = theano.function(inputs=[questions, docs, y_true_matrix],
-                                     outputs=[y_pred, loss * 1000],
+                                     outputs=[y_pred, loss],
                                      updates=updates,
                                      allow_input_downcast=True,
                                      mode=NanGuardMode(
