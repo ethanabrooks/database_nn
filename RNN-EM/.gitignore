@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 *.npy
+*.pyc
+*.gz
+main/
+main.py.orig
+rnn_em.py.orig
+bucket_predictions.npy
+documents.npy
+labels.npy
+loss.npy
+questions.npy

@@ -2,6 +2,7 @@ from __future__ import print_function
 from __future__ import print_function
 import argparse
 import copy
+import pickle
 from functools import partial
 
 import math
@@ -248,9 +249,16 @@ def evaluate(predictions, targets):
     return ConfusionMatrix(f1, precision, recall)
 
 
+def running_average(loss, new_loss, instances_processed, num_instances):
+    if loss is None:
+        return new_loss / instances_processed
+    else:
+        return (loss * (instances_processed - num_instances) + new_loss) / instances_processed
+
+
 def print_progress(epoch, questions_processed, num_questions, loss, start_time):
-    progress = float(questions_processed) / num_questions
-    print('\r###\t{:<10d}{:<10.2%}{:<10.5f}{:<10.2f}###'
+    progress = round(float(questions_processed) / num_questions, ndigits=1)
+    print('\r###\t{:<10d}{:<10.1%}{:<10.5f}{:<10.2f}###'
           .format(epoch, progress, float(loss), time.time() - start_time), end='')
     sys.stdout.flush()
 
@@ -321,23 +329,32 @@ if __name__ == '__main__':
         for name in names:
             predictions, targets = [], []
             instances_processed = 0
+            loss = None
             for bucket in data.sets.__getattribute__(name).buckets:
                 for questions, documents, labels in get_batches(bucket):
                     if name == 'train':
-                        for array in "questions documents labels".split():
-                            np.savetxt(array + '.npy', eval(array))
-                        bucket_predictions, loss = rnn.train(questions, documents, labels)
+                        bucket_predictions, new_loss = rnn.train(questions, documents, labels)
                         rnn.normalize()
-                        instances_processed += questions.shape[0]
+                        num_instances = questions.shape[0]
+                        instances_processed += num_instances
+                        loss = running_average(loss,
+                                               new_loss,
+                                               instances_processed,
+                                               num_instances)
                         print_progress(epoch,
                                        instances_processed,
                                        data.num_train,
                                        loss,
                                        start_time)
+                        # for array in "questions documents labels bucket_predictions loss".split():
+                        #     np.savetxt(array + '.npy', eval(array))
                     else:
                         bucket_predictions = rnn.predict(questions, documents)
+
                 predictions.append(bucket_predictions)
                 targets.append(labels)
+            pickle.dump(predictions, "predictions.pkl")
+            pickle.dump(targets, "targets.pkl")
             write_predictions_to_file(name, predictions, targets)
             confusion_matrix = evaluate(predictions, targets)
             print("\n" + name.upper())
