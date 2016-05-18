@@ -232,7 +232,7 @@ def running_average(loss, new_loss, instances_processed, num_instances):
 
 
 def print_progress(epoch, questions_processed, num_questions, loss, start_time):
-    progress = round(float(questions_processed) / num_questions, ndigits=1)
+    progress = round(float(questions_processed) / num_questions, ndigits=3)
     print('\r###\t{:<10d}{:<10.1%}{:<10.5f}{:<10.2f}###'
           .format(epoch, progress, float(loss), time.time() - start_time), end='')
     sys.stdout.flush()
