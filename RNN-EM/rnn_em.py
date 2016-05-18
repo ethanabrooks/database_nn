@@ -227,11 +227,7 @@ class Model(object):
         self.train = theano.function(inputs=[questions, docs, y_true_matrix],
                                      outputs=[y_pred, loss],
                                      updates=updates,
-                                     allow_input_downcast=True,
-                                     mode=NanGuardMode(
-                                         nan_is_error=True,
-                                         inf_is_error=True
-                                     ))
+                                     allow_input_downcast=True)
 
         self.test = self.train
 
