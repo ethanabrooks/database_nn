@@ -32,7 +32,7 @@ parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
 parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
 parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
-parser.add_argument('--n_epochs', type=int, default=200, help='Num epochs')
+parser.add_argument('--n_epochs', type=int, default=1000, help='Num epochs')
 parser.add_argument('--seed', type=int, default=345, help='Seed')
 parser.add_argument('--batch_size', type=int, default=64,
                     help='Number of backprop through time steps')
@@ -232,7 +232,7 @@ def running_average(loss, new_loss, instances_processed, num_instances):
 
 
 def print_progress(epoch, questions_processed, num_questions, loss, start_time):
-    progress = round(float(questions_processed) / num_questions, ndigits=1)
+    progress = round(float(questions_processed) / num_questions, ndigits=3)
     print('\r###\t{:<10d}{:<10.1%}{:<10.5f}{:<10.2f}###'
           .format(epoch, progress, float(loss), time.time() - start_time), end='')
     sys.stdout.flush()
