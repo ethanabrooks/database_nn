@@ -32,7 +32,7 @@ parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
 parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
 parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
-parser.add_argument('--n_epochs', type=int, default=50, help='Num epochs')
+parser.add_argument('--n_epochs', type=int, default=200, help='Num epochs')
 parser.add_argument('--seed', type=int, default=345, help='Seed')
 parser.add_argument('--batch_size', type=int, default=64,
                     help='Number of backprop through time steps')
@@ -224,31 +224,6 @@ def get_batches(bucket):
                             bucket.targets)))
 
 
-def evaluate(predictions, targets):
-    """
-    @:param predictions: list of predictions
-    @:param targets: list of targets
-    @:return dictionary with entries 'f1'
-    """
-
-    predictions, targets = (np.array(list_of_arrays).ravel()
-                            for list_of_arrays in (predictions, targets))
-    metrics = np.zeros(3)
-
-    def confusion((pred_is_pos, tgt_is_pos)):
-        return np.logical_and((predictions == ANSWER_VALUE) == pred_is_pos,
-                              (targets == ANSWER_VALUE) == tgt_is_pos).sum()
-
-    tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
-    metrics += np.array((tp, fp, fn))
-    tp, fp, fn = metrics
-    precision = tp / (tp + fp)
-    recall = tp / (tp + fn)
-    f1 = 2 * precision * recall / (precision + recall)
-
-    return ConfusionMatrix(f1, precision, recall)
-
-
 def running_average(loss, new_loss, instances_processed, num_instances):
     if loss is None:
         return new_loss / instances_processed
@@ -267,12 +242,43 @@ def write_predictions_to_file(dataset_name, targets, predictions):
     filename = 'current.{0}.txt'.format(dataset_name)
     filepath = os.path.join(folder, filename)
     with open(filepath, 'w') as handle:
-        for prediction, target in zip(predictions, targets):
-            if target is not None:
+        for prediction_array, target_array in zip(predictions, targets):
+            for prediction, target in zip(prediction_array, target_array):
                 for label, arr in (('p: ', prediction), ('t: ', target)):
                     handle.write(label)
                     np.savetxt(handle, arr.reshape(1, -1), delimiter=' ', fmt='%i')
                     handle.write('\n')
+
+
+def evaluate(predictions, targets):
+    """
+    @:param predictions: list of predictions
+    @:param targets: list of targets
+    @:return dictionary with entries 'f1'
+    """
+
+    def to_vector(list_of_arrays):
+        return np.hstack(array.ravel() for array in list_of_arrays)
+
+    predictions, targets = map(to_vector, (predictions, targets))
+
+    metrics = np.zeros(3)
+
+    def confusion((pred_is_pos, tgt_is_pos)):
+        logical_and = np.logical_and(
+            (predictions == ANSWER_VALUE) == pred_is_pos,
+            (targets == ANSWER_VALUE) == tgt_is_pos
+        )
+        return logical_and.sum()
+
+    tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
+    metrics += np.array((tp, fp, fn))
+    tp, fp, fn = metrics
+    precision = tp / (tp + fp)
+    recall = tp / (tp + fn)
+    f1 = 2 * precision * recall / (precision + recall)
+
+    return ConfusionMatrix(f1, precision, recall)
 
 
 def track_best(best_scores, confusion_matrix, epoch):
@@ -333,7 +339,9 @@ if __name__ == '__main__':
             for bucket in data.sets.__getattribute__(name).buckets:
                 for questions, documents, labels in get_batches(bucket):
                     if name == 'train':
-                        bucket_predictions, new_loss = rnn.train(questions, documents, labels)
+                        bucket_predictions, new_loss = rnn.train(questions,
+                                                                 documents,
+                                                                 labels)
                         rnn.normalize()
                         num_instances = questions.shape[0]
                         instances_processed += num_instances
@@ -351,10 +359,13 @@ if __name__ == '__main__':
                     else:
                         bucket_predictions = rnn.predict(questions, documents)
 
-                predictions.append(bucket_predictions)
-                targets.append(labels)
-            pickle.dump(predictions, "predictions.pkl")
-            pickle.dump(targets, "targets.pkl")
+                    predictions.append(bucket_predictions.reshape(labels.shape))
+                    targets.append(labels)
+            # with open("predictions.pkl", 'w+') as handle:
+            #     pickle.dump(predictions, handle)
+            # with open("targets.pkl", "w+") as handle:
+            #     pickle.dump(targets, handle)
+            # exit(0)
             write_predictions_to_file(name, predictions, targets)
             confusion_matrix = evaluate(predictions, targets)
             print("\n" + name.upper())
