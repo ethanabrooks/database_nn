@@ -245,8 +245,6 @@ class Model(object):
 
 
 if __name__ == '__main__':
-    numpy.random.seed(0)
-
     rnn = Model()
     questions = numpy.loadtxt("questions.npy")
     docs = numpy.loadtxt("documents.npy")
