@@ -114,6 +114,7 @@ class Data:
 
         def choose_dataset():
             random_num = random.random()
+
             # sort by percent
             for dataset in sorted(datasets, key=lambda ds: ds.percent):
                 if random_num < dataset.percent:

@@ -20,3 +20,7 @@ documents.npy
 labels.npy
 loss.npy
 questions.npy
+predictions.pkl
+predictions.pkl copy
+targets.pkl
+targets.pkl copy
