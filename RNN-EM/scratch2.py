@@ -1,13 +1,8 @@
-import random
-
-import subprocess
-
-import numpy as np
-import theano
-import theano.tensor as T
 import pickle
+import subprocess
 from collections import namedtuple
 
+import numpy as np
 from tabulate import tabulate
 
 NON_ANSWER_VALUE = 1
