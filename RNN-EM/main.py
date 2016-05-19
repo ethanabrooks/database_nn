@@ -1,31 +1,28 @@
 from __future__ import print_function
 from __future__ import print_function
+
 import argparse
-import copy
-import pickle
+import random
+import subprocess
+import sys
+import time
+from collections import defaultdict
+from collections import namedtuple
 from functools import partial
 
-import math
-
+import numpy as np
+import os
+import re
 from bokeh.io import output_file, show, vplot
 from bokeh.plotting import figure
-from tabulate import tabulate
-
-import re
-
-import numpy as np
-import time
-import sys
-import subprocess
-import os
-import random
-from collections import namedtuple
-from collections import defaultdict
 from rnn_em import Model
+from tabulate import tabulate
 
 # from spacy import English
 
 parser = argparse.ArgumentParser()
+parser.add_argument('--num_questions', type=int, default=100000,
+                    help='number of questions to use in Jeopardy dataset')
 parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
 parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
@@ -43,8 +40,6 @@ parser.add_argument('--verbose', help='Verbose or not', action='store_true')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=500,
-                    help='number of questions to use in Jeopardy dataset')
 parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
