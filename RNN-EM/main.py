@@ -7,6 +7,10 @@ from functools import partial
 
 import math
 
+from bokeh.io import output_file, show, vplot
+from bokeh.plotting import figure
+from tabulate import tabulate
+
 import re
 
 import numpy as np
@@ -17,17 +21,11 @@ import os
 import random
 from collections import namedtuple
 from collections import defaultdict
-import rnn_em
 from rnn_em import Model
-from is13.data import load
-from is13.metrics.accuracy import conlleval
-from is13.utils.tools import shuffle, minibatch, contextwin
 
 # from spacy import English
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--debug', help='Set test = train = valid',
-                    action='store_true')
 parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
 parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
@@ -41,11 +39,11 @@ parser.add_argument('--window_size', type=int, default=7,
 parser.add_argument('--fold', type=int, default=4, help='Fold number, 0-4')
 parser.add_argument('--learn_rate', type=float, default=0.0627142536696559,
                     help='Learning rate')
-parser.add_argument('--verbose', type=int, default=1, help='Verbose or not')
+parser.add_argument('--verbose', help='Verbose or not', action='store_true')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
-parser.add_argument('--num_questions', type=int, default=100000,
+parser.add_argument('--num_questions', type=int, default=500,
                     help='number of questions to use in Jeopardy dataset')
 parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
@@ -159,10 +157,7 @@ class Data:
             for line in data:
                 if new_question:
                     self.num_questions += 1
-                    if s.debug:
-                        dataset = datasets.train
-                    else:
-                        dataset = choose_dataset()
+                    dataset = choose_dataset()
                     if dataset == datasets.train:
                         self.num_train += 1
 
@@ -186,9 +181,6 @@ class Data:
                         dataset.append(*instance)
                     if self.num_questions >= s.num_questions:
                         break
-
-        if s.debug:
-            datasets = Datasets(*[datasets.train] * 3)
 
         print('Bucket allocation:')
         for dataset in datasets:
@@ -282,40 +274,59 @@ def evaluate(predictions, targets):
     return ConfusionMatrix(f1, precision, recall)
 
 
-def track_best(best_scores, confusion_matrix, epoch):
+def print_random_scores(targets, predictions):
+    predictions = [np.random.randint(low=NON_ANSWER_VALUE,
+                                     high=ANSWER_VALUE + 1,
+                                     size=array.shape) for array in predictions]
+    confusion_matrix = evaluate(predictions, targets)
+    print('\n' + tabulate(confusion_matrix.__dict__.iteritems(),
+                          headers=["RANDOM", "score"]))
+
+
+def track_scores(all_scores, confusion_matrix, epoch, dataset_name):
     Score = namedtuple("score", "value epoch")
+    scores = all_scores[dataset_name]
+    table = []
     for key in confusion_matrix._fields:
         result = confusion_matrix.__getattribute__(key)
-        if key not in best_scores or result > best_scores[key].value:
-            best_scores[key] = Score(result, epoch)
+        scores[key].append(Score(result, epoch))
+        best_score = max(scores[key], key=lambda score: score.value)
+        table.append([key, result, best_score.value, best_score.epoch])
+        if result > best_score.value:
+            command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dataset_name)
+            subprocess.call(command.split())
+    headers = [dataset_name.upper(), "score", "best score", "best score epoch"]
+    print('\n' + tabulate(table, headers=headers))
 
-            # rnn.save(folder)
-            if key is 'F1':
-                if s.verbose:
-                    print('\nNEW BEST F1: {0}\nEpoch\n'.format(*best_scores[key]))
-                    sys.stdout.flush()
 
-                for dataset in ('test', 'valid'):
-                    command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dataset)
-                    subprocess.call(command.split())
-        else:
-            if s.verbose:
-                print(confusion_matrix)
-                sys.stdout.flush()
+def print_graphs(scores):
+    properties_per_dataset = {
+        'train': {'line_color': 'firebrick'},
+        'test': {'line_color': 'orange'},
+        'valid': {'line_color': 'olive'}
+    }
 
-    print("{:15}{:10}{:10}".format('best result', 'score', 'epoch'))
-    for key in best_scores:
-        best_score = best_scores[key]
-        print("{:16}{:<10.2f}{:<10.2f}".format(key + ':',
-                                               best_score.value,
-                                               best_score.epoch))
+    plots = []
+    for metric in ConfusionMatrix._fields:
+        plot = figure(width=500, plot_height=500, title=metric)
+        for dataset_name in scores:
+            metric_scores = [score.value for score in scores[dataset_name][metric]]
+            plot.line(range(len(metric_scores)),
+                      metric_scores,
+                      legend=dataset_name,
+                      **properties_per_dataset[dataset_name])
+        plots.append(plot)
+    output_file("plots.html")
+    p = vplot(*plots)
+    show(p)
 
 
 if __name__ == '__main__':
+
+    ConfusionMatrix = namedtuple("confusion_matrix", "f1 precision recall")
+
     data = Data()
     data.print_data_stats()
-    if s.debug:
-        assert data.train == data.test == data.valid
 
     rnn = Model(s.hidden_size,
                 data.nclasses,
@@ -325,49 +336,44 @@ if __name__ == '__main__':
                 s.memory_size,
                 s.n_memory_slots)
 
-    for epoch in range(s.n_epochs):
+    scores = {dataset_name: defaultdict(list)
+              for dataset_name in Datasets._fields}
+    try:
+        for epoch in range(s.n_epochs):
+            print('\n###\t{:10}{:10}{:10}{:10}###'
+                  .format('epoch', 'progress', 'loss', 'runtime'))
+            start_time = time.time()
+            for name in list(Datasets._fields):
+                random_predictions, predictions, targets = [], [], []
+                instances_processed = 0
+                loss = None
+                for bucket in data.sets.__getattribute__(name).buckets:
+                    for questions, documents, labels in get_batches(bucket):
+                        if name == 'train':
+                            bucket_predictions, new_loss = rnn.train(questions,
+                                                                     documents,
+                                                                     labels)
+                            rnn.normalize()
+                            num_instances = questions.shape[0]
+                            instances_processed += num_instances
+                            loss = running_average(loss,
+                                                   new_loss,
+                                                   instances_processed,
+                                                   num_instances)
+                            print_progress(epoch,
+                                           instances_processed,
+                                           data.num_train,
+                                           loss,
+                                           start_time)
+                        else:
+                            bucket_predictions = rnn.predict(questions, documents)
 
-        print('\n###\t{:10}{:10}{:10}{:10}###'
-              .format('epoch', 'progress', 'loss', 'runtime'))
-        start_time = time.time()
-        names = data.sets._fields
-        best_scores = {name: dict() for name in names}
-
-        for name in names:
-            predictions, targets = [], []
-            instances_processed = 0
-            loss = None
-            for bucket in data.sets.__getattribute__(name).buckets:
-                for questions, documents, labels in get_batches(bucket):
-                    if name == 'train':
-                        bucket_predictions, new_loss = rnn.train(questions,
-                                                                 documents,
-                                                                 labels)
-                        rnn.normalize()
-                        num_instances = questions.shape[0]
-                        instances_processed += num_instances
-                        loss = running_average(loss,
-                                               new_loss,
-                                               instances_processed,
-                                               num_instances)
-                        print_progress(epoch,
-                                       instances_processed,
-                                       data.num_train,
-                                       loss,
-                                       start_time)
-                        # for array in "questions documents labels bucket_predictions loss".split():
-                        #     np.savetxt(array + '.npy', eval(array))
-                    else:
-                        bucket_predictions = rnn.predict(questions, documents)
-
-                    predictions.append(bucket_predictions.reshape(labels.shape))
-                    targets.append(labels)
-            # with open("predictions.pkl", 'w+') as handle:
-            #     pickle.dump(predictions, handle)
-            # with open("targets.pkl", "w+") as handle:
-            #     pickle.dump(targets, handle)
-            # exit(0)
-            write_predictions_to_file(name, predictions, targets)
-            confusion_matrix = evaluate(predictions, targets)
-            print("\n" + name.upper())
-            track_best(best_scores[name], confusion_matrix, epoch)
+                        predictions.append(bucket_predictions.reshape(labels.shape))
+                        targets.append(labels)
+                write_predictions_to_file(name, predictions, targets)
+                confusion_matrix = evaluate(predictions, targets)
+                track_scores(scores, confusion_matrix, epoch, name)
+                if name == 'test':
+                    print_random_scores(predictions, targets)
+    finally:
+        print_graphs(scores)

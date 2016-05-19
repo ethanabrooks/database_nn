@@ -1,6 +1,9 @@
 from __future__ import print_function
 
 import pickle
+import random
+
+import subprocess
 
 import os
 import sys
@@ -10,44 +13,58 @@ import theano
 import theano.tensor as T
 from collections import namedtuple, defaultdict
 from theano.ifelse import ifelse
+from bokeh.io import output_file, show, vplot
+from bokeh.plotting import figure
 
-ANSWER_VALUE = 2
+y = list(range(11))
+y0 = y
+y1 = [10 - i for i in y]
+y2 = [abs(i - 5) for i in y]
+
+# create a new plot
+s1 = figure(width=250, plot_height=250, title=None)
+s1.line(y, y0, color="navy")
+s1.circle(y, y0, size=10, color="navy", alpha=0.5)
+
+# create another one
+s2 = figure(width=250, height=250, title=None)
+s2.triangle(y, y1, size=10, color="firebrick", alpha=0.5)
+
+# create and another
+s3 = figure(width=250, height=250, title=None)
+s3.square(y, y2, size=10, color="olive", alpha=0.5)
+
+output_file("layout.html")
+
+Bucket = namedtuple("bucket", "questions documents targets")
+Datasets = namedtuple("data_sets", "train test valid")
 ConfusionMatrix = namedtuple("confusion_matrix", "f1 precision recall")
 
 
-def evaluate(predictions, targets):
-    """
-    @:param predictions: list of predictions
-    @:param targets: list of targets
-    @:return dictionary with entries 'f1'
-    """
-
-    def to_vector(list_of_arrays):
-        return np.hstack(array.ravel() for array in list_of_arrays)
-
-    predictions, targets = map(to_vector, (predictions, targets))
-
-    metrics = np.zeros(3)
-
-    def confusion((pred_is_pos, tgt_is_pos)):
-        logical_and = np.logical_and(
-            (predictions == ANSWER_VALUE) == pred_is_pos,
-            (targets == ANSWER_VALUE) == tgt_is_pos
-        )
-        return logical_and.sum()
-
-    tp, fp, fn = map(confusion, ((True, True), (True, False), (False, True)))
-    metrics += np.array((tp, fp, fn))
-    tp, fp, fn = metrics
-    precision = tp / (tp + fp)
-    recall = tp / (tp + fn)
-    f1 = 2 * precision * recall / (precision + recall)
-
-    return ConfusionMatrix(f1, precision, recall)
+def metrics():
+    return {metric: [random.random() for _ in range(10)]
+            for metric in ConfusionMatrix._fields}
 
 
-with open("predictions.pkl") as handle:
-    predictions = pickle.load(handle)
-with open("targets.pkl") as handle:
-    targets = pickle.load(handle)
-evaluate(targets, predictions)
+scores = {dataset_name: metrics() for dataset_name in Datasets._fields}
+
+properties_per_dataset = {
+    'train': {'line_color': 'firebrick'},
+    'test': {'line_color': 'orange'},
+    'valid': {'line_color': 'olive'}
+}
+
+plots = []
+for metric in ConfusionMatrix._fields:
+    plot = figure(width=500, plot_height=500, title=metric)
+    for dataset_name in scores:
+        metric_scores = scores[dataset_name][metric]
+        plot.line(range(len(metric_scores)),
+                  metric_scores,
+                  legend=dataset_name,
+                  **properties_per_dataset[dataset_name])
+    plots.append(plot)
+
+p = vplot(*plots)
+
+show(p)
