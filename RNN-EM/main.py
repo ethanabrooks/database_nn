@@ -291,10 +291,11 @@ def track_scores(all_scores, confusion_matrix, epoch, dataset_name):
             command = 'mv {0}/current.{1}.txt {0}/best.{1}.txt'.format(folder, dataset_name)
             subprocess.call(command.split())
     headers = [dataset_name.upper(), "score", "best score", "best score epoch"]
-    print('\n' + tabulate(table, headers=headers))
+    print('\n\n' + tabulate(table, headers=headers))
 
 
 def print_graphs(scores):
+    output_file("plots.html")
     properties_per_dataset = {
         'train': {'line_color': 'firebrick'},
         'test': {'line_color': 'orange'},
@@ -311,7 +312,6 @@ def print_graphs(scores):
                       legend=dataset_name,
                       **properties_per_dataset[dataset_name])
         plots.append(plot)
-    output_file("plots.html")
     p = vplot(*plots)
     show(p)
 
