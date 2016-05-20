@@ -13,7 +13,7 @@ from functools import partial
 import numpy as np
 import os
 import re
-from bokeh.io import output_file, show, vplot
+from bokeh.io import output_file, vplot, save
 from bokeh.plotting import figure
 from rnn_em import Model
 from tabulate import tabulate
@@ -313,6 +313,7 @@ def print_graphs(scores):
                       **properties_per_dataset[dataset_name])
         plots.append(plot)
     p = vplot(*plots)
+    save(p)
 
 
 if __name__ == '__main__':
