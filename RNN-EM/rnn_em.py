@@ -225,7 +225,7 @@ class Model(object):
                                        outputs=y_pred)
 
         self.train = theano.function(inputs=[questions, docs, y_true_matrix],
-                                     outputs=[y_pred, loss],
+                                     outputs=[y_pred, 100 * loss],
                                      updates=updates,
                                      allow_input_downcast=True)
 
