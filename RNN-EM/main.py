@@ -23,7 +23,7 @@ from tabulate import tabulate
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_questions', type=int, default=100000,
                     help='number of questions to use in Jeopardy dataset')
-parser.add_argument('--hidden_size', type=int, default=90, help='Hidden size')
+parser.add_argument('--hidden_size', type=int, default=100, help='Hidden size')
 parser.add_argument('--memory_size', type=int, default=40, help='Memory size')
 parser.add_argument('--embedding_dim', type=int, default=100, help='Embedding size')
 parser.add_argument('--n_memory_slots', type=int, default=8, help='Memory slots')
