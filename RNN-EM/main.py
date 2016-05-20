@@ -313,7 +313,6 @@ def print_graphs(scores):
                       **properties_per_dataset[dataset_name])
         plots.append(plot)
     p = vplot(*plots)
-    show(p)
 
 
 if __name__ == '__main__':
@@ -333,42 +332,40 @@ if __name__ == '__main__':
 
     scores = {dataset_name: defaultdict(list)
               for dataset_name in Datasets._fields}
-    try:
-        for epoch in range(s.n_epochs):
-            print('\n###\t{:10}{:10}{:10}{:10}###'
-                  .format('epoch', 'progress', 'loss', 'runtime'))
-            start_time = time.time()
-            for name in list(Datasets._fields):
-                random_predictions, predictions, targets = [], [], []
-                instances_processed = 0
-                loss = None
-                for bucket in data.sets.__getattribute__(name).buckets:
-                    for questions, documents, labels in get_batches(bucket):
-                        if name == 'train':
-                            bucket_predictions, new_loss = rnn.train(questions,
-                                                                     documents,
-                                                                     labels)
-                            rnn.normalize()
-                            num_instances = questions.shape[0]
-                            instances_processed += num_instances
-                            loss = running_average(loss,
-                                                   new_loss,
-                                                   instances_processed,
-                                                   num_instances)
-                            print_progress(epoch,
-                                           instances_processed,
-                                           data.num_train,
-                                           loss,
-                                           start_time)
-                        else:
-                            bucket_predictions = rnn.predict(questions, documents)
+    for epoch in range(s.n_epochs):
+        print('\n###\t{:10}{:10}{:10}{:10}###'
+              .format('epoch', 'progress', 'loss', 'runtime'))
+        start_time = time.time()
+        for name in list(Datasets._fields):
+            random_predictions, predictions, targets = [], [], []
+            instances_processed = 0
+            loss = None
+            for bucket in data.sets.__getattribute__(name).buckets:
+                for questions, documents, labels in get_batches(bucket):
+                    if name == 'train':
+                        bucket_predictions, new_loss = rnn.train(questions,
+                                                                 documents,
+                                                                 labels)
+                        rnn.normalize()
+                        num_instances = questions.shape[0]
+                        instances_processed += num_instances
+                        loss = running_average(loss,
+                                               new_loss,
+                                               instances_processed,
+                                               num_instances)
+                        print_progress(epoch,
+                                       instances_processed,
+                                       data.num_train,
+                                       loss,
+                                       start_time)
+                    else:
+                        bucket_predictions = rnn.predict(questions, documents)
 
-                        predictions.append(bucket_predictions.reshape(labels.shape))
-                        targets.append(labels)
-                write_predictions_to_file(name, predictions, targets)
-                confusion_matrix = evaluate(predictions, targets)
-                track_scores(scores, confusion_matrix, epoch, name)
-                if name == 'test':
-                    print_random_scores(predictions, targets)
-    finally:
+                    predictions.append(bucket_predictions.reshape(labels.shape))
+                    targets.append(labels)
+            write_predictions_to_file(name, predictions, targets)
+            confusion_matrix = evaluate(predictions, targets)
+            track_scores(scores, confusion_matrix, epoch, name)
+            if name == 'test':
+                print_random_scores(predictions, targets)
         print_graphs(scores)
