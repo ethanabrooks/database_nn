@@ -40,6 +40,8 @@ parser.add_argument('--verbose', help='Verbose or not', action='store_true')
 parser.add_argument('--decay', type=int, default=0, help='Decay learn_rate or not')
 parser.add_argument('--dataset', type=str, default='jeopardy',
                     help='select dataset [atis|Jeopardy]')
+parser.add_argument('--plots', type=str, default='plots',
+                    help='file for saving Bokeh plots output')
 parser.add_argument('--bucket_factor', type=int, default=4,
                     help='number of questions to use in Jeopardy dataset')
 s = parser.parse_args()
@@ -295,7 +297,7 @@ def track_scores(all_scores, confusion_matrix, epoch, dataset_name):
 
 
 def print_graphs(scores):
-    output_file("plots.html")
+    output_file(s.plots + ".html")
     properties_per_dataset = {
         'train': {'line_color': 'firebrick'},
         'test': {'line_color': 'orange'},
