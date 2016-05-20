@@ -295,7 +295,7 @@ def track_scores(all_scores, confusion_matrix, epoch, dataset_name):
 
 
 def print_graphs(scores):
-    output_file("plots2.html")
+    output_file("plots.html")
     properties_per_dataset = {
         'train': {'line_color': 'firebrick'},
         'test': {'line_color': 'orange'},
